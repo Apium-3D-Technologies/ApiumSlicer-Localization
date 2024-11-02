@@ -11370,7 +11370,7 @@ msgstr "Laufende Uploads"
 
 #: src/slic3r/GUI/UpdatesUIManager.cpp:30
 msgid "Online sources"
-msgstr "Online-Quellen"
+msgstr "Apium 3D Drucker"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1701
 msgid ""
@@ -12520,8 +12520,8 @@ msgstr ""
 #: src/slic3r/GUI/UpdatesUIManager.cpp:35
 msgid "Please, select online sources you want to update profiles from"
 msgstr ""
-"Bitte wählen Sie die Online-Quellen aus, aus denen Sie die Profile "
-"aktualisieren möchten"
+"Bitte wählen Sie die Drucker aus, für die Sie ApiumSlicer verwenden "
+"möchten."
 
 #: src/slic3r/GUI/Plater.cpp:2572
 msgid "Please select the file to reload"

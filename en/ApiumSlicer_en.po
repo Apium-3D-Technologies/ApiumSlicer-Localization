@@ -16333,11 +16333,11 @@ msgstr "Your %1% is up to date."
 
 #: src/slic3r/GUI/UpdatesUIManager.cpp:30
 msgid "Online sources"
-msgstr "Online sources"
+msgstr "Apium 3D Printers"
 
 #: src/slic3r/GUI/UpdatesUIManager.cpp:35
 msgid "Please, select online sources you want to update profiles from"
-msgstr "Please, select online sources you want to update profiles from"
+msgstr "Please, select the printers you want to use the slicer for."
 
 #: src/slic3r/GUI/UpdatesUIManager.cpp:49
 msgid "Local sources"
