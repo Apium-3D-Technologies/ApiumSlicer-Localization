@@ -6285,7 +6285,7 @@ msgstr "Use inches"
 #: src/slic3r/GUI/ConfigWizard.cpp:1906
 #, c-format, boost-format
 msgid "Pick another vendor supported by %s"
-msgstr "Pick another vendor supported by %s"
+msgstr "Select the printers you want to use %s for."
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1955
 #, boost-format
