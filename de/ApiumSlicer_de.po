@@ -12403,7 +12403,7 @@ msgstr "Physische Drucker"
 #: src/slic3r/GUI/ConfigWizard.cpp:1906
 #, c-format, boost-format
 msgid "Pick another vendor supported by %s"
-msgstr "Wählen Sie die Drucker aus, die Sie in %s verwenden wollen."
+msgstr "Wählen Sie die Drucker aus, die Sie in %s verwenden wollen"
 
 #: src/libslic3r/PrintConfig.cpp:369
 msgid ""
