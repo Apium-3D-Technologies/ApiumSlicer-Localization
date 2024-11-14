@@ -5478,7 +5478,7 @@ msgstr "ApiumSlicer is based on PrusaSlicer, Slic3r by Alessandro Ranellucci and
 
 #: src/slic3r/GUI/AboutDialog.cpp:285
 msgid "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and numerous others."
-msgstr "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and numerous others."
+msgstr "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, numerous others and Julian Bruyers (Apium Team)."
 
 #: src/slic3r/GUI/AboutDialog.cpp:322
 msgid "Copy Version Info"

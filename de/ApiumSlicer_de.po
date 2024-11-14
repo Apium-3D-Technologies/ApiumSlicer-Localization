@@ -3192,8 +3192,8 @@ msgid ""
 "numerous others."
 msgstr ""
 "Beiträge von Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr "
-"Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik und "
-"zahlreichen anderen."
+"Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, "
+"zahlreichen anderen und Julian Bruyers (Apium Team)."
 
 #: src/libslic3r/PrintConfig.cpp:3831
 msgid ""
@@ -8702,7 +8702,7 @@ msgstr "Ist das sicher?"
 #. TRN AboutDialog: "Slic3r %1% GNU Affero General Public License"
 #: src/slic3r/GUI/AboutDialog.cpp:282
 msgid "is licensed under the"
-msgstr "ist unter der Lizenz der"
+msgstr "ist lizensiert unter"
 
 #: src/slic3r/GUI/MainFrame.cpp:1303
 msgid "Iso"
