@@ -9819,7 +9819,7 @@ msgstr "SLA print settings"
 
 #: src/slic3r/GUI/GUI.cpp:219 src/slic3r/GUI/MainFrame.cpp:871 src/slic3r/GUI/MainFrame.cpp:885 src/slic3r/GUI/PhysicalPrinterDialog.cpp:240
 msgid "Physical Printer"
-msgstr "Physical Printer"
+msgstr "Webinterface"
 
 #: src/slic3r/GUI/GUI.cpp:232
 msgid "Configuration bundle was loaded, however some configuration values were not recognized."
@@ -13064,7 +13064,7 @@ msgstr "Add preset for this printer device"
 
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:306 src/slic3r/GUI/Tab.cpp:2573
 msgid "Print Host upload"
-msgstr "Print Host upload"
+msgstr "Webinterface settings"
 
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:367
 msgid "Connection to printers connected via the print host failed."
@@ -14368,7 +14368,7 @@ msgstr "Add/Remove presets"
 
 #: src/slic3r/GUI/PresetComboBoxes.cpp:869 src/slic3r/GUI/PresetComboBoxes.cpp:918 src/slic3r/GUI/Tab.cpp:3814
 msgid "Add physical printer"
-msgstr "Add physical printer"
+msgstr "Add webinterface"
 
 #: src/slic3r/GUI/PresetComboBoxes.cpp:881
 msgid "Edit preset"

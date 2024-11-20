@@ -676,7 +676,7 @@ msgstr "Pause hinzufügen"
 #: src/slic3r/GUI/PresetComboBoxes.cpp:869
 #: src/slic3r/GUI/PresetComboBoxes.cpp:918 src/slic3r/GUI/Tab.cpp:3814
 msgid "Add physical printer"
-msgstr "Physischen Drucker hinzufügen"
+msgstr "Webinterface hinzufügen"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1272
 msgid "Add point"
@@ -12389,7 +12389,7 @@ msgstr ""
 #: src/slic3r/GUI/MainFrame.cpp:885
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:240
 msgid "Physical Printer"
-msgstr "Physischer Drucker"
+msgstr "Webinterface"
 
 #: src/libslic3r/PrintConfig.cpp:6013
 msgid "Physical printer name"
@@ -12965,7 +12965,7 @@ msgstr "Drucker mit dem Namen \"%1%\" existiert bereits."
 
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:306 src/slic3r/GUI/Tab.cpp:2573
 msgid "Print Host upload"
-msgstr "Hochladen zum Druckhost"
+msgstr "Webinterface Einstellungen"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:128
 #: src/slic3r/GUI/PrintHostDialogs.cpp:271
