@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PrusaSlicer 2.8.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-03 13:44+0200\n"
+"POT-Creation-Date: 2024-12-18 09:34+0100\n"
 "PO-Revision-Date: 2024-09-07 22:14+0700\n"
 "Last-Translator: \n"
 "Language-Team: Andylg <andylg@yandex.ru>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.4.2\n"
 
 #. TRN: Following strings are labels in the G-code Viewer legend.
@@ -479,7 +479,7 @@ msgid "All objects are outside of the print volume."
 msgstr "Все модели находятся за пределами области печати."
 
 # ??? Заданные настройки приведут к пустой печати.
-#: src/libslic3r/Print.cpp:544
+#: src/libslic3r/Print.cpp:545
 msgid "The supplied settings will cause an empty print."
 msgstr "Заданные настройки приведут к тому что ничего не напечатается."
 
@@ -496,7 +496,7 @@ msgstr ""
 "Некоторые модели слишком высокие, при печати экструдер столкнётся с ними."
 
 # ?????? avoid crossing curled overhangs
-#: src/libslic3r/Print.cpp:556
+#: src/libslic3r/Print.cpp:557
 msgid ""
 "Avoid crossing perimeters option and avoid crossing curled overhangs option "
 "cannot be both enabled together."
@@ -861,10 +861,10 @@ msgstr "Компенсация «слоновьей ноги»"
 #: src/libslic3r/PrintConfig.cpp:3808 src/libslic3r/PrintConfig.cpp:4240
 #: src/libslic3r/PrintConfig.cpp:4249
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1461
-#: src/slic3r/GUI/GUI_Factories.cpp:170 src/slic3r/GUI/Tab.cpp:1458
-#: src/slic3r/GUI/Tab.cpp:1497 src/slic3r/GUI/Tab.cpp:1641
-#: src/slic3r/GUI/Tab.cpp:1646 src/slic3r/GUI/Tab.cpp:2223
-#: src/slic3r/GUI/Tab.cpp:2796 src/slic3r/GUI/Tab.cpp:5855
+#: src/slic3r/GUI/GUI_Factories.cpp:170 src/slic3r/GUI/Tab.cpp:1460
+#: src/slic3r/GUI/Tab.cpp:1510 src/slic3r/GUI/Tab.cpp:1651
+#: src/slic3r/GUI/Tab.cpp:1656 src/slic3r/GUI/Tab.cpp:2237
+#: src/slic3r/GUI/Tab.cpp:2810 src/slic3r/GUI/Tab.cpp:5886
 msgid "Advanced"
 msgstr "Дополнительно"
 
@@ -1142,8 +1142,65 @@ msgstr ""
 "поверхности, поскольку линейные сегменты сначала преобразуются в дуги с "
 "помощью слайсера, а затем снова в линейные сегменты с помощью прошивки."
 
+#: src/libslic3r/PrintConfig.cpp:531 src/slic3r/GUI/ConfigManipulation.cpp:80
+msgid "Automatic extrusion widths calculation"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:532 src/libslic3r/PrintConfig.cpp:1052
+#: src/libslic3r/PrintConfig.cpp:1165 src/libslic3r/PrintConfig.cpp:1590
+#: src/libslic3r/PrintConfig.cpp:1875 src/libslic3r/PrintConfig.cpp:2400
+#: src/libslic3r/PrintConfig.cpp:2904 src/libslic3r/PrintConfig.cpp:3174
+#: src/libslic3r/PrintConfig.cpp:3494 src/slic3r/GUI/GUI_Factories.cpp:166
+msgid "Extrusion Width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:533
+msgid ""
+"Automatically calculates extrusion widths based on the nozzle diameter of "
+"the currently used extruder. This setting is essential for printing with "
+"different nozzle diameters."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:539
+msgid "Automatic infill combination"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:540 src/libslic3r/PrintConfig.cpp:548
+#: src/libslic3r/PrintConfig.cpp:671 src/libslic3r/PrintConfig.cpp:1023
+#: src/libslic3r/PrintConfig.cpp:1043 src/libslic3r/PrintConfig.cpp:1498
+#: src/libslic3r/PrintConfig.cpp:1511 src/libslic3r/PrintConfig.cpp:1536
+#: src/libslic3r/PrintConfig.cpp:1764 src/libslic3r/PrintConfig.cpp:1810
+#: src/libslic3r/PrintConfig.cpp:1874 src/libslic3r/PrintConfig.cpp:1913
+#: src/libslic3r/PrintConfig.cpp:2875 src/libslic3r/PrintConfig.cpp:2892
+#: src/libslic3r/PrintConfig.cpp:3702 src/slic3r/GUI/ConfigManipulation.cpp:257
+#: src/slic3r/GUI/FrequentlyChangedParameters.cpp:148
+#: src/slic3r/GUI/GUI_Factories.cpp:87 src/slic3r/GUI/GUI_Factories.cpp:160
+#: src/slic3r/GUI/Tab.cpp:1487 src/slic3r/GUI/Tab.cpp:1489
+msgid "Infill"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:541
+msgid ""
+"This feature automatically combines infill of several layers and speeds up "
+"your print by extruding thicker infill layers while preserving thin "
+"perimeters, thus maintaining accuracy."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:547
+msgid "Automatic infill combination - Max layer height"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:549
+msgid ""
+"Maximum layer height for combining infill when automatic infill combining is "
+"enabled. Maximum layer height could be specified either as an absolute in "
+"millimeters value or as a percentage of nozzle diameter. For printing with "
+"different nozzle diameters, it is recommended to use percentage value over "
+"absolute value."
+msgstr ""
+
 # ??????
-#: src/libslic3r/PrintConfig.cpp:502
+#: src/libslic3r/PrintConfig.cpp:558
 msgid "Avoid crossing curled overhangs (Experimental)"
 msgstr "Избегать загибающихся нависаний (экспериментально)"
 
@@ -1177,7 +1234,7 @@ msgstr ""
 "G-кода."
 
 # TRN - Макс. длина обхода при вкл. Избегать пересечения периметров
-#: src/libslic3r/PrintConfig.cpp:519
+#: src/libslic3r/PrintConfig.cpp:575
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr "Максимальная длина обхода"
 
@@ -1233,7 +1290,7 @@ msgid "Chamber temperature"
 msgstr "Температура внутри термокамеры"
 
 # ????
-#: src/libslic3r/PrintConfig.cpp:544
+#: src/libslic3r/PrintConfig.cpp:600
 msgid ""
 "Required chamber temperature for the print.\n"
 "When set to zero, the nominal chamber temperature is not set in the G-code."
@@ -1487,7 +1544,7 @@ msgid "Enable dynamic overhang speeds"
 msgstr "Вкл. динамическую скорость нависаний"
 
 # ?????? Этот параметр включает динамическое управление скоростью печати на нависающих частях модели. Необходимо чтобы они успевали лучше охлаждаться и не возникало дефектов, связанных с их перегревом.
-#: src/libslic3r/PrintConfig.cpp:677
+#: src/libslic3r/PrintConfig.cpp:733
 msgid "This setting enables dynamic speed control on overhangs."
 msgstr ""
 "Включение зависимости скорости печати периметров от процента перекрытия. "
@@ -1714,7 +1771,7 @@ msgid "Cooling tube position"
 msgstr "Позиция охлаждающей трубки"
 
 # ????? до кончика сопла может быть?
-#: src/libslic3r/PrintConfig.cpp:865
+#: src/libslic3r/PrintConfig.cpp:921
 msgid "Distance of the center-point of the cooling tube from the extruder tip."
 msgstr ""
 "Расстояние между центральной точкой охлаждающей трубки и кончиком экструдера."
@@ -1729,9 +1786,9 @@ msgstr ""
 "Длина трубки охлаждения для ограничения перемещения при охлаждающих "
 "движениях."
 
-#: src/libslic3r/PrintConfig.cpp:880 src/libslic3r/PrintConfig.cpp:3137
-#: src/libslic3r/PrintConfig.cpp:4297 src/slic3r/GUI/GUI_Factories.cpp:957
-#: src/slic3r/GUI/Tab.cpp:5682 src/slic3r/GUI/Tab.cpp:5824
+#: src/libslic3r/PrintConfig.cpp:936 src/libslic3r/PrintConfig.cpp:3282
+#: src/libslic3r/PrintConfig.cpp:4459 src/slic3r/GUI/GUI_Factories.cpp:957
+#: src/slic3r/GUI/Tab.cpp:5713 src/slic3r/GUI/Tab.cpp:5855
 #: src/slic3r/Utils/Repetier.cpp:149 src/slic3r/Utils/Repetier.cpp:230
 msgid "Default"
 msgstr "По умолчанию"
@@ -1778,7 +1835,7 @@ msgid "Disable fan for the first"
 msgstr "Не включать вентилятор на первых"
 
 # ??? всем вентиляторам
-#: src/libslic3r/PrintConfig.cpp:905
+#: src/libslic3r/PrintConfig.cpp:961
 msgid ""
 "You can set this to a positive value to disable fan at all during the first "
 "layers, so that it does not make adhesion worse."
@@ -1796,7 +1853,7 @@ msgid "layers"
 msgstr "слой(-ёв)"
 
 # ??? Было Не печатать поддержки под мостами
-#: src/libslic3r/PrintConfig.cpp:914
+#: src/libslic3r/PrintConfig.cpp:970
 msgid "Don't support bridges"
 msgstr "Без поддержек под мостами"
 
@@ -1976,7 +2033,7 @@ msgid "Extra perimeters if needed"
 msgstr "Дополнительные периметры при необходимости"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:1015
+#: src/libslic3r/PrintConfig.cpp:1085
 msgid ""
 "Add more perimeters when needed for avoiding gaps in sloping walls. Slic3r "
 "keeps adding perimeters, until more than 70% of the loop immediately above "
@@ -2009,11 +2066,11 @@ msgid "Extruder"
 msgstr "Экструдер"
 
 # Было Экструдеров
-#: src/libslic3r/PrintConfig.cpp:1031 src/libslic3r/PrintConfig.cpp:1796
-#: src/libslic3r/PrintConfig.cpp:2320 src/libslic3r/PrintConfig.cpp:2739
-#: src/libslic3r/PrintConfig.cpp:3020 src/libslic3r/PrintConfig.cpp:3048
-#: src/libslic3r/PrintConfig.cpp:3569 src/slic3r/GUI/GUI_Factories.cpp:165
-#: src/slic3r/GUI/Tab.cpp:1615 src/slic3r/GUI/Tab.cpp:2628
+#: src/libslic3r/PrintConfig.cpp:1101 src/libslic3r/PrintConfig.cpp:1867
+#: src/libslic3r/PrintConfig.cpp:2391 src/libslic3r/PrintConfig.cpp:2884
+#: src/libslic3r/PrintConfig.cpp:3165 src/libslic3r/PrintConfig.cpp:3193
+#: src/libslic3r/PrintConfig.cpp:3693 src/slic3r/GUI/GUI_Factories.cpp:165
+#: src/slic3r/GUI/Tab.cpp:1628 src/slic3r/GUI/Tab.cpp:2642
 msgid "Extruders"
 msgstr "Количество экструдеров"
 
@@ -2061,7 +2118,7 @@ msgid "Radius"
 msgstr "Радиус"
 
 # ???????
-#: src/libslic3r/PrintConfig.cpp:1051
+#: src/libslic3r/PrintConfig.cpp:1121
 msgid ""
 "Set this to the clearance radius around your extruder. If the extruder is "
 "not centered, choose the largest value for safety. This setting is used to "
@@ -2084,12 +2141,12 @@ msgstr ""
 "визуализации в окне предпосмотра нарезки."
 
 # ??? Смещение экструдера по осям X/Y
-#: src/libslic3r/PrintConfig.cpp:1068
+#: src/libslic3r/PrintConfig.cpp:1138
 msgid "Extruder offset"
 msgstr "Смещение координат экструдера"
 
 # ????
-#: src/libslic3r/PrintConfig.cpp:1069
+#: src/libslic3r/PrintConfig.cpp:1139
 msgid ""
 "If your firmware doesn't handle the extruder displacement you need the G-"
 "code to take it into account. This option lets you specify the displacement "
@@ -2151,7 +2208,7 @@ msgstr ""
 "относительно высоты слоя."
 
 # ??? Держать вентилятор включенным
-#: src/libslic3r/PrintConfig.cpp:1108
+#: src/libslic3r/PrintConfig.cpp:1178
 msgid "Keep fan always on"
 msgstr "Вентилятор включён всегда"
 
@@ -2164,7 +2221,7 @@ msgstr ""
 "работать хотя бы на минимальной скорости. Полезно для PLA, вредно для ABS."
 
 # ??? Порог включения обдува
-#: src/libslic3r/PrintConfig.cpp:1114
+#: src/libslic3r/PrintConfig.cpp:1184
 msgid "Enable fan if layer print time is below"
 msgstr "Включить обдув, если время печати слоя менее"
 
@@ -2307,24 +2364,24 @@ msgid "s"
 msgstr "с"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:1212
+#: src/libslic3r/PrintConfig.cpp:1282
 msgid "Stamping loading speed"
 msgstr "Скорость загрузки при утрамбовке"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:1213
+#: src/libslic3r/PrintConfig.cpp:1283
 msgid "Speed used for stamping."
 msgstr ""
 "Скорость, используемая для утрамбовки пластиковой нити с помощью быстрого "
 "перемещения его в сторону сопла между отдельными движениями охлаждения."
 
 # ??? длинно Расстояние от места формования конца, измеренное от центра охлаждающей трубки
-#: src/libslic3r/PrintConfig.cpp:1220
+#: src/libslic3r/PrintConfig.cpp:1290
 msgid "Stamping distance measured from the center of the cooling tube"
 msgstr "Расстояние утрамбовки"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:1221
+#: src/libslic3r/PrintConfig.cpp:1291
 msgid ""
 "If set to nonzero value, filament is moved toward the nozzle between the "
 "individual cooling moves (\"stamping\"). This option configures how long "
@@ -2339,7 +2396,7 @@ msgid "Number of cooling moves"
 msgstr "Количество охлаждающих движений"
 
 # ?????? трубках или трубке 
-#: src/libslic3r/PrintConfig.cpp:1230
+#: src/libslic3r/PrintConfig.cpp:1300
 msgid ""
 "Filament is cooled by being moved back and forth in the cooling tubes. "
 "Specify desired number of these moves."
@@ -2387,7 +2444,7 @@ msgid "Cooling moves are gradually accelerating towards this speed."
 msgstr "Охлаждающие движения постепенно ускоряются до этой скорости."
 
 # TRN:filament_purge_multiplier
-#: src/libslic3r/PrintConfig.cpp:1265
+#: src/libslic3r/PrintConfig.cpp:1335
 msgid "Purge volume multiplier"
 msgstr "Множитель объёма очистки"
 
@@ -2471,7 +2528,7 @@ msgid "The volume to be rammed before the toolchange."
 msgstr "Объём материала экструдируемый при рэмминге перед сменой инструмента."
 
 # ??????? Был поток	 . С каким объёмным расходом будет совершен рэмминг.
-#: src/libslic3r/PrintConfig.cpp:1314
+#: src/libslic3r/PrintConfig.cpp:1384
 msgid "Multitool ramming flow"
 msgstr "Расход при рэмминге на многоинструментальном принтере"
 
@@ -2539,7 +2596,7 @@ msgid "Abrasive material"
 msgstr "Абразивный материал"
 
 # ??????
-#: src/libslic3r/PrintConfig.cpp:1375
+#: src/libslic3r/PrintConfig.cpp:1445
 msgid ""
 "This flag means that the material is abrasive and requires a hardened "
 "nozzle. The value is used by the printer to check it."
@@ -2821,7 +2878,7 @@ msgid "Full fan speed at layer"
 msgstr "Полная скорость вентилятора на слое"
 
 # ???????
-#: src/libslic3r/PrintConfig.cpp:1574
+#: src/libslic3r/PrintConfig.cpp:1645
 msgid ""
 "Fan speed will be ramped up linearly from zero at layer "
 "\"disable_fan_first_layers\" to maximum at layer \"full_fan_speed_layer\". "
@@ -2887,7 +2944,7 @@ msgstr ""
 "перпендикулярно печатаемому периметру."
 
 # ???????? Расстояние «дрожания» при печати нечёткой оболочки, Плотность нечёткой оболочки
-#: src/libslic3r/PrintConfig.cpp:1606
+#: src/libslic3r/PrintConfig.cpp:1677
 msgid "Fuzzy skin point distance"
 msgstr "Расстояние между точками нечёткой оболочки"
 
@@ -2915,7 +2972,7 @@ msgstr ""
 "заполнением (применимо при классическом генераторе периметров)."
 
 # ?????? зазор, щелей
-#: src/libslic3r/PrintConfig.cpp:1625
+#: src/libslic3r/PrintConfig.cpp:1696
 msgid ""
 "Speed for filling small gaps using short zigzag moves. Keep this reasonably "
 "low to avoid too much shaking and resonance issues. Set zero to disable gaps "
@@ -2962,7 +3019,7 @@ msgid "No extrusion"
 msgstr "Без экструзии"
 
 # ?????? Название моделей
-#: src/libslic3r/PrintConfig.cpp:1664
+#: src/libslic3r/PrintConfig.cpp:1735
 msgid "Label objects"
 msgstr "Помечать объекты"
 
@@ -3200,7 +3257,7 @@ msgid "Infill before perimeters"
 msgstr "Заполнение перед периметрами"
 
 # ??????
-#: src/libslic3r/PrintConfig.cpp:1817
+#: src/libslic3r/PrintConfig.cpp:1888
 msgid ""
 "This option will switch the print order of perimeters and infill, making the "
 "latter first."
@@ -3263,7 +3320,7 @@ msgstr "Глубина проникновения окрашенной обла�
 
 # ????? Максимальная глубина проникновения в модель окрашенной области при мультиматериальной покраске.
 # ????? Толщина части модели, созданной из области, окрашенной инструментом мультиматериальная покраска. 
-#: src/libslic3r/PrintConfig.cpp:1876
+#: src/libslic3r/PrintConfig.cpp:1947
 msgid "Maximum width of a segmented region. Zero disables this feature."
 msgstr ""
 "Толщина той части модели, которая была окрашена инструментом "
@@ -3790,7 +3847,7 @@ msgstr ""
 "модели и выставит скорость печати, как при печати мостов."
 
 # ??? Положение прутка при парковке
-#: src/libslic3r/PrintConfig.cpp:2277
+#: src/libslic3r/PrintConfig.cpp:2348
 msgid "Filament parking position"
 msgstr "Положение парковки прутка"
 
@@ -3823,7 +3880,7 @@ msgid "Purging volume"
 msgstr "Объём очистки"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:2296
+#: src/libslic3r/PrintConfig.cpp:2367
 msgid ""
 "Determines purging volume on the wipe tower. This can be modified in "
 "Filament Settings ('filament_purge_multiplier') or overridden using project-"
@@ -3959,7 +4016,7 @@ msgstr ""
 "Название модификации принтера. Например, отличия может быть в диаметре сопла."
 
 # ??? Зазор подложки по оси Z"
-#: src/libslic3r/PrintConfig.cpp:2417
+#: src/libslic3r/PrintConfig.cpp:2488
 msgid "Raft contact Z distance"
 msgstr "Зазор между подложкой и моделью"
 
@@ -4440,7 +4497,7 @@ msgid "Preferred direction of the seam - jitter"
 msgstr "Предпочтительное направление разброса шва (в градусах)"
 
 # ??? Расстояние между моделью/юбкой/каймой
-#: src/libslic3r/PrintConfig.cpp:2669
+#: src/libslic3r/PrintConfig.cpp:2814
 msgid "Distance from brim/object"
 msgstr "Расстояние до каймы/модели"
 
@@ -4473,8 +4530,8 @@ msgid ""
 "from print bed due to wind draft."
 msgstr ""
 "При включённом параметре «Защитный кожух», юбка будет печататься на "
-"расстоянии от модели задающимся параметром «Расстояние между юбкой/каймой» "
-"(skirt_distance), возможно, пересекая кайму.\n"
+"расстоянии от модели задающимся параметром «Расстояние между юбкой/"
+"каймой» (skirt_distance), возможно, пересекая кайму.\n"
 "Включено - высота юбки равна высоте самой высокой модели.\n"
 "Ограничено - высота юбки задается параметром «Слоёв юбки» (skirt_height).\n"
 "Это полезно для защиты материалов типа ABS или ASA от деформации и отрыва от "
@@ -4531,7 +4588,7 @@ msgstr ""
 "Установите 0 для автонастройки."
 
 # ??? Заполнение площади, меньше указанной my
-#: src/libslic3r/PrintConfig.cpp:2729
+#: src/libslic3r/PrintConfig.cpp:2874
 msgid "Solid infill threshold area"
 msgstr "Порог сплошного заполнения"
 
@@ -4689,7 +4746,7 @@ msgstr ""
 "добавлены перед этой последовательностью команд."
 
 # ????
-#: src/libslic3r/PrintConfig.cpp:2845
+#: src/libslic3r/PrintConfig.cpp:2990
 msgid ""
 "This start procedure is inserted at the beginning, after any printer start "
 "gcode (and after any toolchange to this filament in case of multi-material "
@@ -4726,7 +4783,7 @@ msgstr ""
 "Команды в G-коде, которые выполняются при ручной постановке паузы печати."
 
 # используется для пользовательского шаблона
-#: src/libslic3r/PrintConfig.cpp:2880
+#: src/libslic3r/PrintConfig.cpp:3025
 msgid "This G-code will be used as a custom code"
 msgstr ""
 "Команды в G-коде, которые выполняются при вставке его в окне предпросмотра "
@@ -4775,7 +4832,7 @@ msgstr ""
 "напечатанным."
 
 # ??????
-#: src/libslic3r/PrintConfig.cpp:2908
+#: src/libslic3r/PrintConfig.cpp:3053
 msgid "Slice gap closing radius"
 msgstr "Радиус закрытия зазоров полигональной сетки"
 
@@ -4796,7 +4853,7 @@ msgid "Slicing Mode"
 msgstr "Режим нарезки"
 
 # ??? применим для нарезки моделей с одним периметром и без заполнения, с усиленными тонкими внутренними рёбрами
-#: src/libslic3r/PrintConfig.cpp:2920
+#: src/libslic3r/PrintConfig.cpp:3065
 msgid ""
 "Use \"Even-odd\" for 3DLabPrint airplane models. Use \"Close holes\" to "
 "close all holes in the model."
@@ -4847,7 +4904,7 @@ msgstr ""
 "помощью инструмента «Рисование поддержек»."
 
 # ??? Зазор между моделью и поддержкой по осям XY, Зазор поддержек по горизонтали"
-#: src/libslic3r/PrintConfig.cpp:2944
+#: src/libslic3r/PrintConfig.cpp:3089
 msgid "XY separation between an object and its support"
 msgstr "Зазор поддержки по X/Y"
 
@@ -4932,7 +4989,7 @@ msgstr "Как и сверху"
 
 # ????? Принудительная поддержка первых слоёв
 # ????? было Принудительная поддержка для первых
-#: src/libslic3r/PrintConfig.cpp:3006
+#: src/libslic3r/PrintConfig.cpp:3151
 msgid "Enforce support for the first"
 msgstr "Принудительная поддержка первых n слоёв"
 
@@ -5320,7 +5377,7 @@ msgid "Thick bridges"
 msgstr "Толстые мосты"
 
 # ??????
-#: src/libslic3r/PrintConfig.cpp:3322
+#: src/libslic3r/PrintConfig.cpp:3467
 msgid ""
 "If enabled, bridges are more reliable, can bridge longer distances, but may "
 "look worse. If disabled, bridges look better but are reliable just for "
@@ -5448,7 +5505,7 @@ msgstr ""
 "обычная скорость перемещения."
 
 # ????? Откат на уровне прошивки
-#: src/libslic3r/PrintConfig.cpp:3413
+#: src/libslic3r/PrintConfig.cpp:3558
 msgid "Use firmware retraction"
 msgstr "Использовать откат из прошивки"
 
@@ -5461,7 +5518,7 @@ msgstr ""
 "откаты. Обратите внимание, что это должно поддерживаться самой прошивкой."
 
 # ??? Относительная экструзия
-#: src/libslic3r/PrintConfig.cpp:3420
+#: src/libslic3r/PrintConfig.cpp:3565
 msgid "Use relative E distances"
 msgstr "Относительные координаты экструдера"
 
@@ -5558,23 +5615,7 @@ msgstr ""
 "Эта таблица описывает объёмы (в кубических миллиметрах), необходимые для "
 "прочистки нового прутка на черновой башне для любой пары сопел\\экструдеров."
 
-#: src/libslic3r/PrintConfig.cpp:3480
-msgid "Position X"
-msgstr "Позиция по X"
-
-#: src/libslic3r/PrintConfig.cpp:3481
-msgid "X coordinate of the left front corner of a wipe tower"
-msgstr "X координата левого переднего угла черновой башни."
-
-#: src/libslic3r/PrintConfig.cpp:3487
-msgid "Position Y"
-msgstr "Позиция по Y"
-
-#: src/libslic3r/PrintConfig.cpp:3488
-msgid "Y coordinate of the left front corner of a wipe tower"
-msgstr "Y координата левого переднего угла черновой башни."
-
-#: src/libslic3r/PrintConfig.cpp:3494 src/slic3r/GUI/GCodeViewer.cpp:361
+#: src/libslic3r/PrintConfig.cpp:3625 src/slic3r/GUI/GCodeViewer.cpp:369
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:245
 msgid "Width"
 msgstr "Ширина"
@@ -5616,7 +5657,7 @@ msgid "Extra flow for purging"
 msgstr "Дополнительный поток для очистки"
 
 # ????? Дополнительная регулировка потока,
-#: src/libslic3r/PrintConfig.cpp:3536
+#: src/libslic3r/PrintConfig.cpp:3660
 msgid ""
 "Extra flow used for the purging lines on the wipe tower. This makes the "
 "purging lines thicker or narrower than they normally would be. The spacing "
@@ -5665,7 +5706,7 @@ msgid "Maximal bridging distance"
 msgstr "Максимальное длина моста"
 
 # ??? Максимальное расстояние между опорами на разряженных участках заполнения.
-#: src/libslic3r/PrintConfig.cpp:3562
+#: src/libslic3r/PrintConfig.cpp:3686
 msgid "Maximal distance between supports on sparse infill sections."
 msgstr ""
 "Максимальное расстояние моста черновой башни на её разряженных участках."
@@ -5867,8 +5908,8 @@ msgstr "Диаметр носика поддержки"
 #: src/libslic3r/PrintConfig.cpp:4471 src/libslic3r/PrintConfig.cpp:4478
 #: src/libslic3r/PrintConfig.cpp:4486
 #: src/slic3r/GUI/FrequentlyChangedParameters.cpp:115
-#: src/slic3r/GUI/GUI_Factories.cpp:172 src/slic3r/GUI/Tab.cpp:5817
-#: src/slic3r/GUI/Tab.cpp:5819
+#: src/slic3r/GUI/GUI_Factories.cpp:172 src/slic3r/GUI/Tab.cpp:5848
+#: src/slic3r/GUI/Tab.cpp:5850
 msgid "Supports"
 msgstr "Поддержка"
 
@@ -6040,7 +6081,7 @@ msgstr ""
 "Максимальное расстояние между двумя телами поддержки для связи друг с "
 "другом. Нулевое значение - запрет на соединение тел поддержки каскадом."
 
-#: src/libslic3r/PrintConfig.cpp:3930 src/slic3r/GUI/Tab.cpp:5896
+#: src/libslic3r/PrintConfig.cpp:4092 src/slic3r/GUI/Tab.cpp:5927
 msgid "Object elevation"
 msgstr "Высота подъёма модели"
 
@@ -6426,8 +6467,8 @@ msgstr "Использовать подложку"
 #: src/libslic3r/PrintConfig.cpp:4583 src/libslic3r/PrintConfig.cpp:4594
 #: src/libslic3r/PrintConfig.cpp:4603 src/libslic3r/PrintConfig.cpp:4612
 #: src/slic3r/GUI/FrequentlyChangedParameters.cpp:276
-#: src/slic3r/GUI/GUI_Factories.cpp:173 src/slic3r/GUI/Tab.cpp:5830
-#: src/slic3r/GUI/Tab.cpp:5831 src/slic3r/GUI/Tab.cpp:5896
+#: src/slic3r/GUI/GUI_Factories.cpp:173 src/slic3r/GUI/Tab.cpp:5861
+#: src/slic3r/GUI/Tab.cpp:5862 src/slic3r/GUI/Tab.cpp:5927
 msgid "Pad"
 msgstr "Подложка"
 
@@ -6494,7 +6535,7 @@ msgstr ""
 "Наклон стенки подложки относительно плоскости стола. 90 градусов означает "
 "прямые стены."
 
-#: src/libslic3r/PrintConfig.cpp:4406 src/slic3r/GUI/Tab.cpp:5896
+#: src/libslic3r/PrintConfig.cpp:4568 src/slic3r/GUI/Tab.cpp:5927
 msgid "Pad around object"
 msgstr "Подложка вокруг модели"
 
@@ -6562,8 +6603,8 @@ msgstr "Создавать полость"
 #: src/libslic3r/PrintConfig.cpp:4639 src/libslic3r/PrintConfig.cpp:4648
 #: src/libslic3r/SLA/Hollowing.cpp:93 src/libslic3r/SLA/Hollowing.cpp:98
 #: src/libslic3r/SLA/Hollowing.cpp:113 src/libslic3r/SLA/Hollowing.cpp:122
-#: src/slic3r/GUI/GUI_Factories.cpp:174 src/slic3r/GUI/Tab.cpp:5848
-#: src/slic3r/GUI/Tab.cpp:5849
+#: src/slic3r/GUI/GUI_Factories.cpp:174 src/slic3r/GUI/Tab.cpp:5879
+#: src/slic3r/GUI/Tab.cpp:5880
 msgid "Hollowing"
 msgstr "Полость"
 
@@ -6749,7 +6790,7 @@ msgid "Tilt down cycles"
 msgstr "Циклов опускания ванночки"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:4681
+#: src/libslic3r/PrintConfig.cpp:4843
 msgid "Number of cycles to split the rest of the tilt down move."
 msgstr ""
 "Количество циклов разделения оставшейся части движения при наклоне ванночки."
@@ -6767,7 +6808,7 @@ msgid "Tilt up offset steps"
 msgstr "Шагов смещения при подъёме ванночки"
 
 # ?????
-#: src/libslic3r/PrintConfig.cpp:4698
+#: src/libslic3r/PrintConfig.cpp:4860
 msgid "Move tilt up to calibrated (horizontal) position minus this offset."
 msgstr ""
 "Подъёма ванночки в откалиброванное (горизонтальное) положение за вычетом "
@@ -6778,7 +6819,7 @@ msgid "Tilt up offset delay"
 msgstr "Задержка смещения подъёма ванночки"
 
 # ?????
-#: src/libslic3r/PrintConfig.cpp:4707
+#: src/libslic3r/PrintConfig.cpp:4869
 msgid "Delay after the tilt reaches 'tilt_up_offset_steps' position."
 msgstr ""
 "Задержка после того, как наклон ванночки достигнет положения «Шагов смещения "
@@ -6789,7 +6830,7 @@ msgid "Tilt up cycles"
 msgstr "Циклов подъёма ванночки"
 
 # ???
-#: src/libslic3r/PrintConfig.cpp:4716
+#: src/libslic3r/PrintConfig.cpp:4878
 msgid "Number of cycles to split the rest of the tilt-up."
 msgstr ""
 "Количество циклов разделения оставшейся части движения при подъёме ванночки."
@@ -6834,8 +6875,8 @@ msgstr "Экспорт в STL"
 msgid "Export the model(s) as STL."
 msgstr "Экспортировать модель(и) в формат STL."
 
-#: src/libslic3r/PrintConfig.cpp:5464 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:6697 src/slic3r/GUI/Sidebar.cpp:497
+#: src/libslic3r/PrintConfig.cpp:5621 src/slic3r/GUI/KBShortcutsDialog.cpp:101
+#: src/slic3r/GUI/Plater.cpp:7356 src/slic3r/GUI/Sidebar.cpp:498
 msgid "Export G-code"
 msgstr "Экспортировать в G-код"
 
@@ -7502,7 +7543,7 @@ msgid "Total length of filament used in the print."
 msgstr "Общая длина пластиковой нити, использованной при печати."
 
 # ?????5
-#: src/libslic3r/PrintConfig.cpp:5884
+#: src/libslic3r/PrintConfig.cpp:6041
 msgid "Total number of toolchanges"
 msgstr "Число смен инструментов"
 
@@ -7660,7 +7701,7 @@ msgid "Minute"
 msgstr "Минута"
 
 # секунд
-#: src/libslic3r/PrintConfig.cpp:5988
+#: src/libslic3r/PrintConfig.cpp:6145
 msgid "Second"
 msgstr "Секунда"
 
@@ -8194,8 +8235,8 @@ msgid "Reset defaults"
 msgstr "Сброс по умолчанию"
 
 #: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:134
-#: src/slic3r/GUI/GLCanvas3D.cpp:5035 src/slic3r/GUI/KBShortcutsDialog.cpp:146
-#: src/slic3r/GUI/Plater.cpp:6624
+#: src/slic3r/GUI/GLCanvas3D.cpp:5558 src/slic3r/GUI/KBShortcutsDialog.cpp:146
+#: src/slic3r/GUI/Plater.cpp:7280
 msgid "Arrange"
 msgstr "Расставить"
 
@@ -8836,8 +8877,8 @@ msgstr ""
 "профилями, доступными для всех принтеров. Они могут быть несовместимы с "
 "вашим принтером."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:1009 src/slic3r/GUI/ConfigWizard.cpp:1023
-#: src/slic3r/GUI/ConfigWizard.cpp:3937 src/slic3r/GUI/Tab.hpp:479
+#: src/slic3r/GUI/ConfigWizard.cpp:987 src/slic3r/GUI/ConfigWizard.cpp:1001
+#: src/slic3r/GUI/ConfigWizard.cpp:3909 src/slic3r/GUI/Tab.hpp:479
 msgid "Filaments"
 msgstr "Настройки прутка"
 
@@ -8848,10 +8889,10 @@ msgstr "SLA материалы (фотополимерная смола)"
 #. TRN PrusaSlicer-Medical ConfigWizard: Materials"
 #: src/slic3r/GUI/ConfigWizard.cpp:996
 msgid ""
-"The list of validated workflows for Medical One can be found in this <a "
-"href=\"prusa.io/m1-validation\">article</a>. Profiles for other materials "
-"are not verified by the material manufacturer and therefore may not "
-"correspond to the current version of the material."
+"The list of validated workflows for Medical One can be found in this <a href="
+"\"prusa.io/m1-validation\">article</a>. Profiles for other materials are not "
+"verified by the material manufacturer and therefore may not correspond to "
+"the current version of the material."
 msgstr ""
 "Список проверенных рабочих процессов для Medical One можно найти в этой <a "
 "href=\"prusa.io/m1-validation\">статье</a>. Профили для других материалов не "
@@ -8903,11 +8944,11 @@ msgstr ""
 "Вы всё еще хотите выбрать эту пластиковую нить? \n"
 "(Это сообщение больше не будет отображаться)"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:1455 src/slic3r/GUI/ConfigWizard.cpp:1963
-#: src/slic3r/GUI/ConfigWizard.cpp:3068 src/slic3r/GUI/ConfigWizard.cpp:3245
-#: src/slic3r/GUI/ConfigWizard.cpp:3814 src/slic3r/GUI/GUI.cpp:131
-#: src/slic3r/GUI/GUI_App.cpp:3773 src/slic3r/GUI/GUI_Preview.cpp:500
-#: src/slic3r/GUI/Plater.cpp:4334 src/slic3r/GUI/Plater.cpp:4412
+#: src/slic3r/GUI/ConfigWizard.cpp:1433 src/slic3r/GUI/ConfigWizard.cpp:1941
+#: src/slic3r/GUI/ConfigWizard.cpp:3046 src/slic3r/GUI/ConfigWizard.cpp:3223
+#: src/slic3r/GUI/ConfigWizard.cpp:3786 src/slic3r/GUI/GUI.cpp:131
+#: src/slic3r/GUI/GUI_App.cpp:3815 src/slic3r/GUI/GUI_Preview.cpp:501
+#: src/slic3r/GUI/Plater.cpp:4646 src/slic3r/GUI/Plater.cpp:4724
 #: src/slic3r/GUI/UpdateDialogs.cpp:215 src/slic3r/GUI/UpdateDialogs.cpp:223
 #: src/slic3r/GUI/UpdateDialogs.cpp:228 src/slic3r/GUI/UpdateDialogs.cpp:233
 #: src/slic3r/GUI/UpdateDialogs.cpp:240 src/slic3r/GUI/UpdateDialogs.cpp:245
@@ -9113,7 +9154,7 @@ msgid "Pick another vendor supported by %s"
 msgstr "Выберите другого производителя, поддерживающего %s"
 
 # ??? Всё равно хотите добавить профили от '%1%'
-#: src/slic3r/GUI/ConfigWizard.cpp:1955
+#: src/slic3r/GUI/ConfigWizard.cpp:1933
 #, boost-format
 msgid ""
 "Existing user preset '%2%' has the same name as one of new system presets "
@@ -9305,11 +9346,19 @@ msgstr ""
 msgid "Configuration is edited in ConfigWizard"
 msgstr "Редактирование конфигурации с помощью мастера настроек"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3385
+#: src/slic3r/GUI/ConfigWizard.cpp:3364
+msgid ""
+"It's impossible to print object(s) which contains parameter modifiers with "
+"SLA technology.\n"
+"\n"
+"SLA-printer preset will not be selected"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:3369
 msgid "All user presets will be deleted."
 msgstr "Все пользовательские профили будут удалены."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3422
+#: src/slic3r/GUI/ConfigWizard.cpp:3406
 msgid "A new vendor was installed and one of its printers will be activated"
 msgid_plural ""
 "New vendors were installed and one of theirs printers will be activated"
@@ -9320,35 +9369,35 @@ msgstr[1] ""
 msgstr[2] ""
 "Новые производители установлены, и один из их принтеров будет активирован."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3454
+#: src/slic3r/GUI/ConfigWizard.cpp:3438
 msgid "Do you want to continue changing the configuration?"
 msgstr "Вы хотите внести изменение в конфигурацию?"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3522
+#: src/slic3r/GUI/ConfigWizard.cpp:3504
 msgid "A new Printer was installed and it will be activated."
 msgstr "Новый принтер установлен и будет активирован."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3527
+#: src/slic3r/GUI/ConfigWizard.cpp:3509
 msgid "Some Printers were uninstalled."
 msgstr "Было удалено несколько принтеров."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3548
+#: src/slic3r/GUI/ConfigWizard.cpp:3530
 msgid "A new filament was installed and it will be activated."
 msgstr "Новая пластиковая нить установлена и будет активирована."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3549
+#: src/slic3r/GUI/ConfigWizard.cpp:3531
 msgid "A new SLA material was installed and it will be activated."
 msgstr "Новый SLA материал установлен и будет активирован."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3562
+#: src/slic3r/GUI/ConfigWizard.cpp:3544
 msgid "Some filaments were uninstalled."
 msgstr "Некоторые пластиковые нити были удалены."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3562
+#: src/slic3r/GUI/ConfigWizard.cpp:3544
 msgid "Some SLA materials were uninstalled."
 msgstr "Некоторые SLA материалы были удалены."
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3636
+#: src/slic3r/GUI/ConfigWizard.cpp:3618
 msgid "Custom printer was installed and it will be activated."
 msgstr "Пользовательский принтер установлен и будет активирован."
 
@@ -9358,7 +9407,7 @@ msgid "Updating Configuration sources"
 msgstr ""
 
 #. TRN: %1% contains list of pages to be removed, each on its own line and ending with a line break.
-#: src/slic3r/GUI/ConfigWizard.cpp:3810
+#: src/slic3r/GUI/ConfigWizard.cpp:3782
 #, boost-format
 msgid ""
 "Following Configuration Wizard pages will be removed after the configuration "
@@ -9375,41 +9424,41 @@ msgstr ""
 "Установленные профили для соответствующих принтеров также будут удалены.\n"
 "Вы хотите продолжить?"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3937
+#: src/slic3r/GUI/ConfigWizard.cpp:3909
 msgid "Filament Profiles Selection"
 msgstr "Выбор профилей прутка"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3937 src/slic3r/GUI/ConfigWizard.cpp:3940
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4306
+#: src/slic3r/GUI/ConfigWizard.cpp:3909 src/slic3r/GUI/ConfigWizard.cpp:3912
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4323
 msgid "Type:"
 msgstr "Тип:"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3940
+#: src/slic3r/GUI/ConfigWizard.cpp:3912
 msgid "SLA Material Profiles Selection"
 msgstr "Выбор профилей фотополимерной смолы (SLA)"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3940
+#: src/slic3r/GUI/ConfigWizard.cpp:3912
 msgid "SLA Materials"
 msgstr "Фотополимерные смолы"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3989
+#: src/slic3r/GUI/ConfigWizard.cpp:3961
 msgid "Select all standard printers"
 msgstr "Выбрать все стандартные принтеры"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3992
+#: src/slic3r/GUI/ConfigWizard.cpp:3964
 msgid "< &Back"
 msgstr "< &Назад"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3993
+#: src/slic3r/GUI/ConfigWizard.cpp:3965
 msgid "&Next >"
 msgstr "&Далее >"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3994
+#: src/slic3r/GUI/ConfigWizard.cpp:3966
 msgid "&Finish"
 msgstr "&Завершить"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:3995
-#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:710
+#: src/slic3r/GUI/ConfigWizard.cpp:3967
+#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:767
 #: src/slic3r/GUI/FileArchiveDialog.cpp:281
 #: src/slic3r/GUI/FileArchiveDialog.cpp:290
 #: src/slic3r/GUI/FirmwareDialog.cpp:157
@@ -9425,19 +9474,19 @@ msgstr "&Завершить"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:4185
+#: src/slic3r/GUI/ConfigWizard.cpp:4158
 msgid "Configuration Assistant"
 msgstr "Помощник по настройке"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:4186
+#: src/slic3r/GUI/ConfigWizard.cpp:4159
 msgid "Configuration &Assistant"
 msgstr "Помощник по &настройке"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:4188
+#: src/slic3r/GUI/ConfigWizard.cpp:4161
 msgid "Configuration Wizard"
 msgstr "Мастер настройки"
 
-#: src/slic3r/GUI/ConfigWizard.cpp:4189
+#: src/slic3r/GUI/ConfigWizard.cpp:4162
 msgid "Configuration &Wizard"
 msgstr "&Мастер настройки"
 
@@ -9528,8 +9577,8 @@ msgstr ""
 "приложения."
 
 # ??? конфигураций
-#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:679
-#: src/slic3r/GUI/GUI_App.cpp:2624
+#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:736
+#: src/slic3r/GUI/GUI_App.cpp:2720
 msgid "Desktop Integration"
 msgstr "Интеграция с рабочим столом"
 
@@ -10021,8 +10070,8 @@ msgid "Presets"
 msgstr "Профили"
 
 # Это выбор профиля
-#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:2694
-#: src/slic3r/GUI/GUI.cpp:214 src/slic3r/GUI/Sidebar.cpp:401
+#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:2719
+#: src/slic3r/GUI/GUI.cpp:214 src/slic3r/GUI/Sidebar.cpp:402
 msgid "Print settings"
 msgstr "Профиль печати"
 
@@ -10418,7 +10467,7 @@ msgid "Seam"
 msgstr "Шов"
 
 # ??? Смена экструдера
-#: src/slic3r/GUI/GCodeViewer.cpp:264
+#: src/slic3r/GUI/GCodeViewer.cpp:272
 msgid "Tool Change"
 msgstr "Смена инструмента"
 
@@ -10629,9 +10678,9 @@ msgid "Duration"
 msgstr "Продолжительность"
 
 # Это выбор профиля + во вкладке настройки прутка
-#: src/slic3r/GUI/GCodeViewer.cpp:2700 src/slic3r/GUI/GUI.cpp:216
-#: src/slic3r/GUI/Sidebar.cpp:402 src/slic3r/GUI/Tab.cpp:2147
-#: src/slic3r/GUI/Tab.cpp:2148
+#: src/slic3r/GUI/GCodeViewer.cpp:2725 src/slic3r/GUI/GUI.cpp:216
+#: src/slic3r/GUI/Sidebar.cpp:403 src/slic3r/GUI/Tab.cpp:2161
+#: src/slic3r/GUI/Tab.cpp:2162
 msgid "Filament"
 msgstr "Профиль прутка"
 
@@ -10657,7 +10706,9 @@ msgid "Stealth mode"
 msgstr "Тихий режим"
 
 # ???? было Общее  
-#: src/slic3r/GUI/GCodeViewer.cpp:2759
+#: src/slic3r/GUI/GCodeViewer.cpp:2784 src/slic3r/GUI/GLCanvas3D.cpp:1882
+#: src/slic3r/GUI/GLCanvas3D.cpp:1972 src/slic3r/GUI/GLCanvas3D.cpp:2044
+#: src/slic3r/GUI/GLCanvas3D.cpp:2079
 msgid "Total"
 msgstr "Всего"
 
@@ -11487,7 +11538,7 @@ msgid "Revert Transformation per glyph."
 msgstr "Сброс преобразования"
 
 # ??? Если включено, то каждый символ будет перпендикулярно проецироваться на поверхность, в противном случае весь текст целиком.
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2841
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2842
 msgid ""
 "If checked,\n"
 "each letter(glyph) has an independent orthogonal projection,\n"
@@ -13106,7 +13157,7 @@ msgid "Layer area: %1% mm²"
 msgstr "Площадь слоя: %1% мм²"
 
 # ??? Площадь заполнения
-#: src/slic3r/GUI/GLCanvas3D.cpp:6270
+#: src/slic3r/GUI/GLCanvas3D.cpp:7244
 #, boost-format
 msgid "Area fill: %1% %%"
 msgstr "Заполнение площади: %1% %%"
@@ -13117,7 +13168,7 @@ msgid "Layer time: %1%"
 msgstr "Время печати слоя: %1%"
 
 # ??? Может в M73 выводится? Время с начала печати
-#: src/slic3r/GUI/GLCanvas3D.cpp:6273
+#: src/slic3r/GUI/GLCanvas3D.cpp:7247
 #, boost-format
 msgid "Time since start: %1%"
 msgstr "Время с момента запуска: %1%"
@@ -13419,8 +13470,8 @@ msgstr ""
 "%s\n"
 "Хотите продолжить?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1351 src/slic3r/GUI/GUI_App.cpp:3565
-#: src/slic3r/GUI/Plater.cpp:336 src/slic3r/GUI/UnsavedChangesDialog.cpp:945
+#: src/slic3r/GUI/GUI_App.cpp:1443 src/slic3r/GUI/GUI_App.cpp:3607
+#: src/slic3r/GUI/Plater.cpp:347 src/slic3r/GUI/UnsavedChangesDialog.cpp:945
 msgid "Remember my choice"
 msgstr "Запомнить выбор"
 
@@ -13437,19 +13488,19 @@ msgstr "Доступна новая предрелизная версия %1%."
 msgid "See Releases page."
 msgstr "Смотрите страницу релизов."
 
-#: src/slic3r/GUI/GUI_App.cpp:1492
+#: src/slic3r/GUI/GUI_App.cpp:1584
 msgid "Preparing settings tabs"
 msgstr "Подготовка вкладок настроек"
 
-#: src/slic3r/GUI/GUI_App.cpp:1578 src/slic3r/GUI/Preferences.cpp:446
+#: src/slic3r/GUI/GUI_App.cpp:1674 src/slic3r/GUI/Preferences.cpp:441
 msgid "Restore window position on start"
 msgstr "Восстанавливать положение окна при запуске"
 
-#: src/slic3r/GUI/GUI_App.cpp:1580
+#: src/slic3r/GUI/GUI_App.cpp:1676
 msgid "PrusaSlicer started after a crash"
 msgstr "PrusaSlicer запустился после аварийного завершения"
 
-#: src/slic3r/GUI/GUI_App.cpp:1581
+#: src/slic3r/GUI/GUI_App.cpp:1677
 #, boost-format
 msgid ""
 "PrusaSlicer crashed last time when attempting to set window position.\n"
@@ -13473,24 +13524,24 @@ msgstr ""
 "противном случае приложение, скорее всего, снова аварийно завершил свою "
 "работу."
 
-#: src/slic3r/GUI/GUI_App.cpp:1593
+#: src/slic3r/GUI/GUI_App.cpp:1689
 #, boost-format
 msgid "Disable \"%1%\""
 msgstr "Отключить \"%1%\""
 
-#: src/slic3r/GUI/GUI_App.cpp:1594
+#: src/slic3r/GUI/GUI_App.cpp:1690
 #, boost-format
 msgid "Leave \"%1%\" enabled"
 msgstr "Оставить \"%1%\" включённым"
 
-#: src/slic3r/GUI/GUI_App.cpp:2012
+#: src/slic3r/GUI/GUI_App.cpp:2108
 msgid ""
 "You have the following presets with saved options for \"Print Host upload\""
 msgstr ""
 "У вас имеются следующие профили с сохраненными параметрами для загрузки на "
 "хост печати"
 
-#: src/slic3r/GUI/GUI_App.cpp:2016
+#: src/slic3r/GUI/GUI_App.cpp:2112
 msgid ""
 "But since this version of PrusaSlicer we don't show this information in "
 "Printer Settings anymore.\n"
@@ -13500,7 +13551,7 @@ msgstr ""
 "настройках принтера.\n"
 "Теперь эти настройки будут доступны в разделе настройки физических принтеров."
 
-#: src/slic3r/GUI/GUI_App.cpp:2018
+#: src/slic3r/GUI/GUI_App.cpp:2114
 msgid ""
 "By default new Printer devices will be named as \"Printer N\" during its "
 "creation.\n"
@@ -13509,56 +13560,56 @@ msgstr ""
 "При создании новых принтеров они будут именоваться как «Принтер N».\n"
 "Примечание: это имя можно изменить позже в настройках физических принтеров"
 
-#: src/slic3r/GUI/GUI_App.cpp:2022
-#: src/slic3r/GUI/PhysicalPrinterDialog.cpp:1003
+#: src/slic3r/GUI/GUI_App.cpp:2118
+#: src/slic3r/GUI/PhysicalPrinterDialog.cpp:1007
 msgid "Information"
 msgstr "Информация"
 
-#: src/slic3r/GUI/GUI_App.cpp:2035 src/slic3r/GUI/GUI_App.cpp:2046
+#: src/slic3r/GUI/GUI_App.cpp:2131 src/slic3r/GUI/GUI_App.cpp:2142
 msgid "Recreating"
 msgstr "Воссоздание"
 
-#: src/slic3r/GUI/GUI_App.cpp:2049
+#: src/slic3r/GUI/GUI_App.cpp:2145
 msgid "Loading of current presets"
 msgstr "Загрузка текущих профилей"
 
-#: src/slic3r/GUI/GUI_App.cpp:2054
+#: src/slic3r/GUI/GUI_App.cpp:2150
 msgid "Loading of a mode view"
 msgstr "Загрузка режима отображения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2193
+#: src/slic3r/GUI/GUI_App.cpp:2289
 msgid "Choose one file (3MF/AMF):"
 msgstr "Выберите один файл (3MF/AMF):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2205
+#: src/slic3r/GUI/GUI_App.cpp:2301
 msgid "Choose one or more files (STL/3MF/STEP/OBJ/AMF/SVG):"
 msgstr "Выберите один или несколько файлов (STL/3MF/STEP/OBJ/AMF/SVG):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2216
+#: src/slic3r/GUI/GUI_App.cpp:2312
 msgid "Choose ZIP file"
 msgstr "Выберите ZIP-файл"
 
-#: src/slic3r/GUI/GUI_App.cpp:2228
+#: src/slic3r/GUI/GUI_App.cpp:2324
 msgid "Choose one file (GCODE/GCO/G/BGCODE/BGC/NGC):"
 msgstr "Выберите один файл (GCODE/GCO/G/BGCODE/BGC/NGC):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2239
+#: src/slic3r/GUI/GUI_App.cpp:2335
 msgid "Changing of an application language"
 msgstr "Изменение языка приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2383
+#: src/slic3r/GUI/GUI_App.cpp:2479
 msgid "Select the language"
 msgstr "Выбор языка"
 
-#: src/slic3r/GUI/GUI_App.cpp:2383
+#: src/slic3r/GUI/GUI_App.cpp:2479
 msgid "Language"
 msgstr "Язык"
 
-#: src/slic3r/GUI/GUI_App.cpp:2540
+#: src/slic3r/GUI/GUI_App.cpp:2636
 msgid "modified"
 msgstr "изменено"
 
-#: src/slic3r/GUI/GUI_App.cpp:2579
+#: src/slic3r/GUI/GUI_App.cpp:2675
 msgid ""
 "Simple mode supports manipulation with single-part object(s)\n"
 "or object(s) with support modifiers only."
@@ -13566,79 +13617,79 @@ msgstr ""
 "В простом режиме интерфейса поддерживается манипуляция только с моделями,\n"
 "состоящими из одной части, или только с модификаторами поддержки."
 
-#: src/slic3r/GUI/GUI_App.cpp:2581
+#: src/slic3r/GUI/GUI_App.cpp:2677
 msgid "Please check your object list before mode changing."
 msgstr "Пожалуйста, проверьте список объектов перед сменой режима."
 
-#: src/slic3r/GUI/GUI_App.cpp:2582
+#: src/slic3r/GUI/GUI_App.cpp:2678
 msgid "Change application mode"
 msgstr "Изменение режима отображения интерфейса приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2614
+#: src/slic3r/GUI/GUI_App.cpp:2710
 #, c-format, boost-format
 msgid "Run %s"
 msgstr "Запустить %s"
 
-#: src/slic3r/GUI/GUI_App.cpp:2618
+#: src/slic3r/GUI/GUI_App.cpp:2714
 msgid "&Configuration Snapshots"
 msgstr "&Резервные снимки конфигураций"
 
-#: src/slic3r/GUI/GUI_App.cpp:2618
+#: src/slic3r/GUI/GUI_App.cpp:2714
 msgid "Inspect / activate configuration snapshots"
 msgstr "Проверка и активация резервных копий конфигурации"
 
-#: src/slic3r/GUI/GUI_App.cpp:2619
+#: src/slic3r/GUI/GUI_App.cpp:2715
 msgid "Take Configuration &Snapshot"
 msgstr "Сделать &снимок конфигураци"
 
-#: src/slic3r/GUI/GUI_App.cpp:2619
+#: src/slic3r/GUI/GUI_App.cpp:2715
 msgid "Capture a configuration snapshot"
 msgstr "Сделать резервную копию конфигураций"
 
 # ??? конфигураций
-#: src/slic3r/GUI/GUI_App.cpp:2620
+#: src/slic3r/GUI/GUI_App.cpp:2716
 msgid "Check for Configuration Updates"
 msgstr "Проверить наличие обновлений конфигураций"
 
 # ??? конфигураций
-#: src/slic3r/GUI/GUI_App.cpp:2620
+#: src/slic3r/GUI/GUI_App.cpp:2716
 msgid "Check for configuration updates"
 msgstr "Проверка наличие обновлений конфигураций"
 
-#: src/slic3r/GUI/GUI_App.cpp:2621
+#: src/slic3r/GUI/GUI_App.cpp:2717
 msgid "Check for Application Updates"
 msgstr "Проверить наличие обновления приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2621
+#: src/slic3r/GUI/GUI_App.cpp:2717
 msgid "Check for new version of application"
 msgstr "Проверка наличия новой версии приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2629 src/slic3r/GUI/GUI_App.cpp:2631
+#: src/slic3r/GUI/GUI_App.cpp:2725 src/slic3r/GUI/GUI_App.cpp:2727
 msgid "&Preferences"
 msgstr "&Настройки приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2629 src/slic3r/GUI/GUI_App.cpp:2631
+#: src/slic3r/GUI/GUI_App.cpp:2725 src/slic3r/GUI/GUI_App.cpp:2727
 msgid "Application preferences"
 msgstr "Настройки приложения"
 
-#: src/slic3r/GUI/GUI_App.cpp:2636
+#: src/slic3r/GUI/GUI_App.cpp:2732
 msgid "&Language"
 msgstr "&Язык программы"
 
-#: src/slic3r/GUI/GUI_App.cpp:2639
+#: src/slic3r/GUI/GUI_App.cpp:2735
 msgid "Flash Printer &Firmware"
 msgstr "&Прошивка принтера"
 
-#: src/slic3r/GUI/GUI_App.cpp:2639
+#: src/slic3r/GUI/GUI_App.cpp:2735
 msgid "Upload a firmware image into an Arduino based printer"
 msgstr "Загрузить прошивку в принтер на основе Arduino"
 
-#: src/slic3r/GUI/GUI_App.cpp:2643
+#: src/slic3r/GUI/GUI_App.cpp:2739
 msgid "Wi-Fi Configuration File"
 msgstr "Файл конфигурации Wi-Fi"
 
 #. TRN Wifi config dialog explanation line 1.
-#: src/slic3r/GUI/GUI_App.cpp:2643 src/slic3r/GUI/WifiConfigDialog.cpp:50
+#: src/slic3r/GUI/GUI_App.cpp:2739 src/slic3r/GUI/WifiConfigDialog.cpp:51
 msgid ""
 "Generate a file to be loaded by a Prusa printer to configure its Wi-Fi "
 "connection."
@@ -13646,11 +13697,11 @@ msgstr ""
 "Сгенерируйте файл, который необходим для настройки подключения принтера "
 "Prusa к Wi-Fi сети."
 
-#: src/slic3r/GUI/GUI_App.cpp:2663
+#: src/slic3r/GUI/GUI_App.cpp:2759
 msgid "Taking a configuration snapshot"
 msgstr "Создание резервной копии конфигурации"
 
-#: src/slic3r/GUI/GUI_App.cpp:2664
+#: src/slic3r/GUI/GUI_App.cpp:2760
 msgid ""
 "Some presets are modified and the unsaved changes will not be captured by "
 "the configuration snapshot."
@@ -13658,28 +13709,28 @@ msgstr ""
 "В некоторых профилях имеются изменения. Несохранённые изменения в них не "
 "будут записаны в снимок конфигурации."
 
-#: src/slic3r/GUI/GUI_App.cpp:2665
+#: src/slic3r/GUI/GUI_App.cpp:2761
 msgid "Snapshot name"
 msgstr "Имя снимка"
 
-#: src/slic3r/GUI/GUI_App.cpp:2681
+#: src/slic3r/GUI/GUI_App.cpp:2777
 msgid "Loading a configuration snapshot"
 msgstr "Загрузка резервной копии конфигурации"
 
-#: src/slic3r/GUI/GUI_App.cpp:2690
+#: src/slic3r/GUI/GUI_App.cpp:2786
 #, boost-format
 msgid "Continue to activate a configuration snapshot %1%?"
 msgstr "Активировать резервную копию конфигурации %1%?"
 
-#: src/slic3r/GUI/GUI_App.cpp:2704
+#: src/slic3r/GUI/GUI_App.cpp:2800
 msgid "Failed to activate configuration snapshot."
 msgstr "Ошибка при активации резервной копии конфигурации."
 
-#: src/slic3r/GUI/GUI_App.cpp:2724
+#: src/slic3r/GUI/GUI_App.cpp:2820
 msgid "Language selection"
 msgstr "Выбор языка"
 
-#: src/slic3r/GUI/GUI_App.cpp:2727
+#: src/slic3r/GUI/GUI_App.cpp:2823
 msgid ""
 "Switching the language will trigger application restart.\n"
 "You will lose content of the plater."
@@ -13687,44 +13738,44 @@ msgstr ""
 "Смена языка вызовет перезапуск приложения.\n"
 "Вы потеряете содержимое стола."
 
-#: src/slic3r/GUI/GUI_App.cpp:2729 src/slic3r/GUI/Preferences.cpp:773
-#: src/slic3r/GUI/Selection.cpp:1504
+#: src/slic3r/GUI/GUI_App.cpp:2825 src/slic3r/GUI/Preferences.cpp:768
+#: src/slic3r/GUI/Selection.cpp:1505
 msgid "Do you want to proceed?"
 msgstr "Хотите продолжить?"
 
-#: src/slic3r/GUI/GUI_App.cpp:2768
+#: src/slic3r/GUI/GUI_App.cpp:2864
 msgid "Restart application"
 msgstr "Перезапустить приложение"
 
-#: src/slic3r/GUI/GUI_App.cpp:2932
+#: src/slic3r/GUI/GUI_App.cpp:3028
 msgid "For new project all modifications will be reseted"
 msgstr "Для нового проекта все изменения будут сброшены"
 
-#: src/slic3r/GUI/GUI_App.cpp:2970
+#: src/slic3r/GUI/GUI_App.cpp:3066
 msgid "Loading a new project while the current project is modified."
 msgstr "Загрузка нового проекта при существующих изменениях в текущем проекте."
 
-#: src/slic3r/GUI/GUI_App.cpp:2973
+#: src/slic3r/GUI/GUI_App.cpp:3069
 msgid "Project is loading"
 msgstr "Загрузка проекта"
 
-#: src/slic3r/GUI/GUI_App.cpp:2973
+#: src/slic3r/GUI/GUI_App.cpp:3069
 msgid "Opening new project while some presets are unsaved."
 msgstr "Открытие нового проекта при несохранённых некоторых профилей."
 
-#: src/slic3r/GUI/GUI_App.cpp:2992
+#: src/slic3r/GUI/GUI_App.cpp:3088
 msgid "The uploads are still ongoing"
 msgstr "Загрузки всё ещё продолжаются"
 
-#: src/slic3r/GUI/GUI_App.cpp:2992
+#: src/slic3r/GUI/GUI_App.cpp:3088
 msgid "Stop them and continue anyway?"
 msgstr "Остановить их и продолжить?"
 
-#: src/slic3r/GUI/GUI_App.cpp:2996
+#: src/slic3r/GUI/GUI_App.cpp:3092
 msgid "Ongoing uploads"
 msgstr "Текущие загрузки"
 
-#: src/slic3r/GUI/GUI_App.cpp:3246
+#: src/slic3r/GUI/GUI_App.cpp:3342
 msgid ""
 "It's impossible to print object(s) which contains parameter modifiers with "
 "SLA technology."
@@ -13732,26 +13783,22 @@ msgstr ""
 "Невозможно напечатать модель(и), которая содержит модификаторы параметров от "
 "технологии SLA."
 
-#: src/slic3r/GUI/GUI_App.cpp:3247 src/slic3r/GUI/Jobs/SLAImportJob.cpp:153
-#: src/slic3r/GUI/Plater.cpp:1292
+#: src/slic3r/GUI/GUI_App.cpp:3343 src/slic3r/GUI/Jobs/SLAImportJob.cpp:153
+#: src/slic3r/GUI/Plater.cpp:1323
 msgid "Please check your object list before preset changing."
 msgstr "Пожалуйста, проверьте список моделей перед изменением профиля."
 
-#. TRN: Text showing while the ConfigWizard is loading, so the user knows something is happening.
-#: src/slic3r/GUI/GUI_App.cpp:3277
-msgid "Loading Configuration Wizard..."
-msgstr "Запуск мастера настройки..."
+#. TRN: Progress dialog title
+#: src/slic3r/GUI/GUI_App.cpp:3358 src/slic3r/GUI/UpdateDialogs.cpp:281
+msgid "Opening Configuration Wizard"
+msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3320
-msgid "Configuration is editing from ConfigWizard"
-msgstr "Редактирование конфигурации с помощью мастера настроек"
-
-#: src/slic3r/GUI/GUI_App.cpp:3345
+#: src/slic3r/GUI/GUI_App.cpp:3406
 #, boost-format
 msgid "Welcome to %1% version %2%."
 msgstr "Приветствуем вас в %1% версии %2%."
 
-#: src/slic3r/GUI/GUI_App.cpp:3347
+#: src/slic3r/GUI/GUI_App.cpp:3408
 #, boost-format
 msgid ""
 "Do you wish to register downloads from <b>Printables.com</b>\n"
@@ -13765,55 +13812,33 @@ msgstr ""
 "Загрузки могут быть зарегистрированы только для одного \n"
 "исполняемого файла одновременно."
 
-#: src/slic3r/GUI/GUI_App.cpp:3375
+#: src/slic3r/GUI/GUI_App.cpp:3436
 msgid "Select a gcode file:"
 msgstr "Выбрать файл G-кода:"
 
-#. TRN: %1% contains paths from which loading failed. They are separated by \n, there is no \n at the end.
-#: src/slic3r/GUI/GUI_App.cpp:3529
-#, boost-format
-msgid ""
-"It was not possible to extract data from %1%. The source will not be updated."
-msgid_plural ""
-"It was not possible to extract data for following local sources. They will "
-"not be updated.\n"
-"\n"
-" %1%"
-msgstr[0] "Не удалось получить данные из %1%. Источник не будет обновлён."
-msgstr[1] ""
-"Не удалось получить данные из следующих локальных источников. Они не будут "
-"обновлены.\n"
-"\n"
-" %1%"
-msgstr[2] ""
-"Не удалось получить данные из следующих локальных источников. Они не будут "
-"обновлены.\n"
-"\n"
-" %1%"
-
-#: src/slic3r/GUI/GUI_App.cpp:3564 src/slic3r/GUI/GUI_App.cpp:3584
+#: src/slic3r/GUI/GUI_App.cpp:3606 src/slic3r/GUI/GUI_App.cpp:3626
 msgid "Open hyperlink in default browser?"
 msgstr "Открыть гиперссылку в браузере по умолчанию?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3564 src/slic3r/GUI/GUI_App.cpp:3584
+#: src/slic3r/GUI/GUI_App.cpp:3606 src/slic3r/GUI/GUI_App.cpp:3626
 msgid "PrusaSlicer: Open hyperlink"
 msgstr "PrusaSlicer: Открытие гиперссылки"
 
-#: src/slic3r/GUI/GUI_App.cpp:3569 src/slic3r/GUI/Preferences.cpp:630
+#: src/slic3r/GUI/GUI_App.cpp:3611 src/slic3r/GUI/Preferences.cpp:625
 msgid "Suppress to open hyperlink in browser"
 msgstr "Запретить открытие гиперссылок в браузере"
 
-#: src/slic3r/GUI/GUI_App.cpp:3571 src/slic3r/GUI/MainFrame.cpp:641
-#: src/slic3r/GUI/Plater.cpp:342
+#: src/slic3r/GUI/GUI_App.cpp:3613 src/slic3r/GUI/MainFrame.cpp:641
+#: src/slic3r/GUI/Plater.cpp:353
 msgid "PrusaSlicer will remember your choice."
 msgstr "PrusaSlicer запомнит ваш выбор."
 
-#: src/slic3r/GUI/GUI_App.cpp:3572
+#: src/slic3r/GUI/GUI_App.cpp:3614
 msgid "You will not be asked about it again on hyperlinks hovering."
 msgstr "Вас больше не спросят об этом при наведении курсора на гиперссылки."
 
-#: src/slic3r/GUI/GUI_App.cpp:3573 src/slic3r/GUI/MainFrame.cpp:642
-#: src/slic3r/GUI/Plater.cpp:346
+#: src/slic3r/GUI/GUI_App.cpp:3615 src/slic3r/GUI/MainFrame.cpp:642
+#: src/slic3r/GUI/Plater.cpp:357
 #, boost-format
 msgid ""
 "Visit \"Preferences\" and check \"%1%\"\n"
@@ -13822,12 +13847,12 @@ msgstr ""
 "Зайдите в «Настройки приложения» и установите флажок \"%1%\", чтобы изменить "
 "свой выбор."
 
-#: src/slic3r/GUI/GUI_App.cpp:3575 src/slic3r/GUI/MainFrame.cpp:644
-#: src/slic3r/GUI/Plater.cpp:348 src/slic3r/GUI/UnsavedChangesDialog.cpp:962
+#: src/slic3r/GUI/GUI_App.cpp:3617 src/slic3r/GUI/MainFrame.cpp:644
+#: src/slic3r/GUI/Plater.cpp:359 src/slic3r/GUI/UnsavedChangesDialog.cpp:962
 msgid "PrusaSlicer: Don't ask me again"
 msgstr "PrusaSlicer: не спрашивать снова"
 
-#: src/slic3r/GUI/GUI_App.cpp:3626
+#: src/slic3r/GUI/GUI_App.cpp:3668
 msgid ""
 "Open default browser with Prusa Account Log in page?\n"
 "(If you select 'Yes', you will not be asked again.)"
@@ -13835,36 +13860,37 @@ msgstr ""
 "Открыть браузер по умолчанию со страницей входа в учётную запись Prusa?\n"
 "(Если выберите «Да», то вопрос больше не будет задаваться)."
 
-#: src/slic3r/GUI/GUI_App.cpp:3626
+#: src/slic3r/GUI/GUI_App.cpp:3668
 msgid "PrusaSlicer: Open Log in page"
 msgstr "PrusaSlicer: открытие страницы входа в систему"
 
-#: src/slic3r/GUI/GUI_App.cpp:3694
+#: src/slic3r/GUI/GUI_App.cpp:3736
 msgid "Check for application update has failed."
 msgstr "Не удалось проверить наличие обновления приложения."
 
-#: src/slic3r/GUI/GUI_App.cpp:3695
+#: src/slic3r/GUI/GUI_App.cpp:3737
 #, boost-format
 msgid "You are currently running the latest released version %1%."
 msgstr "В настоящее время запущена последняя версия %1%."
 
 # ??? релизная
-#: src/slic3r/GUI/GUI_App.cpp:3698
+#: src/slic3r/GUI/GUI_App.cpp:3740
 #, boost-format
 msgid ""
 "There are no new released versions online. The latest release version is %1%."
 msgstr "Обновление программы отсутствует. Последняя выпущенная версия - %1%."
 
-#: src/slic3r/GUI/GUI_App.cpp:3763
+#: src/slic3r/GUI/GUI_App.cpp:3805
 #, boost-format
 msgid "Downloading %1%"
 msgstr "Скачивание %1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:3773
+#: src/slic3r/GUI/GUI_App.cpp:3815
 msgid "Downloading of the new version is in progress. Do you want to continue?"
 msgstr "Идёт загрузка новой версии. Хотите продолжить?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3801
+#: src/slic3r/GUI/GUI_App.cpp:3843 src/slic3r/GUI/GUI_App.cpp:4187
+#: src/slic3r/GUI/GUI_App.cpp:4202
 msgid ""
 "Could not start URL download. Destination folder is not set. Please choose "
 "destination folder in Configuration Wizard."
@@ -13873,16 +13899,16 @@ msgstr ""
 "Пожалуйста, задайте папку назначения в мастере настройки."
 
 #. TRN Text of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:3823 src/slic3r/GUI/Plater.cpp:827
+#: src/slic3r/GUI/GUI_App.cpp:3865 src/slic3r/GUI/Plater.cpp:845
 msgid "Printer configuration file detected on removable media."
 msgstr "На съемном носителе обнаружен файл конфигурации принтера."
 
 #. TRN Text of hypertext of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:3825 src/slic3r/GUI/Plater.cpp:829
+#: src/slic3r/GUI/GUI_App.cpp:3867 src/slic3r/GUI/Plater.cpp:847
 msgid "Write Wi-Fi credentials."
 msgstr "Ввести учётные данные Wi-Fi сети."
 
-#: src/slic3r/GUI/GUI_App.cpp:3991
+#: src/slic3r/GUI/GUI_App.cpp:4021
 #, boost-format
 msgid ""
 "Installed and selected printer:\n"
@@ -13891,7 +13917,7 @@ msgstr ""
 "Установленный и выбранный принтер:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:3992
+#: src/slic3r/GUI/GUI_App.cpp:4022
 #, boost-format
 msgid ""
 "Selected printer:\n"
@@ -13900,7 +13926,7 @@ msgstr ""
 "Выбранный принтер:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:3993
+#: src/slic3r/GUI/GUI_App.cpp:4023
 #, boost-format
 msgid ""
 "Printer not found:\n"
@@ -13909,23 +13935,23 @@ msgstr ""
 "Принтер не найден:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4041 src/slic3r/GUI/GUI_App.cpp:4059
+#: src/slic3r/GUI/GUI_App.cpp:4071 src/slic3r/GUI/GUI_App.cpp:4089
 #, boost-format
 msgid "Extruder %1%: Selected filament %2%"
 msgstr "Экструдер %1%: Выбран пруток %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4075
+#: src/slic3r/GUI/GUI_App.cpp:4105
 #, boost-format
 msgid "Extruder %1%: Installed and selected filament %2%"
 msgstr "Экструдер %1%: Установлен и выбран пруток %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4079
+#: src/slic3r/GUI/GUI_App.cpp:4109
 #, boost-format
 msgid "Extruder %2%: Failed to find and select filament type: %1%"
 msgstr "Экструдер %2%: Не удалось найти и выбрать тип прутка: %1%\\"
 
 #. TRN: Notification text.
-#: src/slic3r/GUI/GUI_App.cpp:4098
+#: src/slic3r/GUI/GUI_App.cpp:4128
 msgid "Failed to select filament from Connect."
 msgstr "Не удалось выбрать пластиковую нить из Connect."
 
@@ -14933,37 +14959,7 @@ msgstr "Заполнение стола"
 msgid "Arranging"
 msgstr "Расстановка"
 
-#: src/slic3r/GUI/Jobs/ArrangeJob.cpp:297
-msgid "Arranging canceled."
-msgstr "Расстановка отменена."
-
-#: src/slic3r/GUI/Jobs/ArrangeJob.cpp:298
-msgid "Arranging done."
-msgstr "Расстановка выполнена."
-
-#: src/slic3r/GUI/Jobs/ArrangeJob.cpp:321
-msgid "Could not arrange model objects! Some geometries may be invalid."
-msgstr ""
-"Не удалось расставить части модели! Некоторые геометрии могут быть "
-"недопустимыми."
-
-#: src/slic3r/GUI/Jobs/ArrangeJob.cpp:363 src/slic3r/GUI/Plater.cpp:6647
-#, c-format, boost-format
-msgid ""
-"Arrangement ignored the following objects which can't fit into a single "
-"bed:\n"
-"%s"
-msgstr ""
-"При расстановке были проигнорированы следующие модели, которые не помещаются "
-"на одном столе:\n"
-"%s"
-
-#: src/slic3r/GUI/Jobs/ArrangeJob2.cpp:204
-#: src/slic3r/GUI/Jobs/FillBedJob.cpp:131
-msgid "Filling bed"
-msgstr "Заполнение стола"
-
-#: src/slic3r/GUI/Jobs/EmbossJob.cpp:355
+#: src/slic3r/GUI/Jobs/EmbossJob.cpp:357
 msgid "Add Emboss text object"
 msgstr "Добавление SVG объекта"
 
@@ -15152,7 +15148,7 @@ msgstr "Загрузить конфигурацию из ini/amf/3mf/g-кода"
 msgid "Load Config from ini/amf/3mf/gcode and merge"
 msgstr "Загрузить конфигурацию из ini/amf/3mf/g-кода и объединить"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:6698
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:7357
 msgid "Send G-code"
 msgstr "Отправить G-код"
 
@@ -16726,8 +16722,8 @@ msgstr "Копии"
 msgid "Instance %d"
 msgstr "Копия %d"
 
-#: src/slic3r/GUI/ObjectDataViewModel.cpp:128 src/slic3r/GUI/Tab.cpp:5372
-#: src/slic3r/GUI/Tab.cpp:5813
+#: src/slic3r/GUI/ObjectDataViewModel.cpp:129 src/slic3r/GUI/Tab.cpp:5403
+#: src/slic3r/GUI/Tab.cpp:5844
 msgid "Layers"
 msgstr "Слои"
 
@@ -17042,7 +17038,7 @@ msgstr[2] ""
 "PrusaSlicer"
 
 # ??? загружен
-#: src/slic3r/GUI/Plater.cpp:1254
+#: src/slic3r/GUI/Plater.cpp:1278
 msgid "PrintRequest can only be loaded if an SLA printer is selected."
 msgstr ""
 "Запрос на печать может быть отправлен только в том случае, если выбран SLA "
@@ -17301,10 +17297,13 @@ msgid ""
 "experimental, so proceed with caution."
 msgstr ""
 
-#: src/slic3r/GUI/Plater.cpp:2249 src/slic3r/GUI/Plater.cpp:5970
-#: src/slic3r/GUI/Tab.cpp:1663 src/slic3r/GUI/Tab.cpp:5856
-msgid "Slicing"
-msgstr "Нарезка"
+#. TRN: This is a first part of the notification text:
+#. "Printing supports with different nozzle diameters is experimental. For best results, switch to Organic supports and assign a specific extruder for supports."
+#: src/slic3r/GUI/Plater.cpp:2171
+msgid ""
+"Printing supports with different nozzle diameters is experimental. For best "
+"results, switch to Organic supports and"
+msgstr ""
 
 #. TRN: This is a second part (hyperlink) of the notification text:
 #. "Printing supports with different nozzle diameters is experimental. For best results, switch to Organic supports and assign a specific extruder for supports."
@@ -17471,7 +17470,7 @@ msgid "Import SLA archive"
 msgstr "Импорт SLA архива"
 
 # ???
-#: src/slic3r/GUI/Plater.cpp:4241 src/slic3r/GUI/Plater.cpp:4251
+#: src/slic3r/GUI/Plater.cpp:4553 src/slic3r/GUI/Plater.cpp:4563
 msgid "does not contain valid gcode."
 msgstr "не содержит правильного G-кода."
 
@@ -17791,18 +17790,30 @@ msgstr ""
 msgid "Is the printer ready? Is the print sheet in place, empty and clean?"
 msgstr "Готов ли 3D-принтер? Печатная пластина на месте, пустая и чистая?"
 
+#: src/slic3r/GUI/Plater.cpp:6885 src/slic3r/GUI/PrintHostDialogs.cpp:136
 msgid "Upload and Print"
 msgstr "Загрузить и напечатать"
 
-#: src/slic3r/GUI/Plater.cpp:6697
+#: src/slic3r/GUI/Plater.cpp:7303
+#, c-format, boost-format
+msgid ""
+"Arrangement ignored the following objects which can't fit into a single "
+"bed:\n"
+"%s"
+msgstr ""
+"При расстановке были проигнорированы следующие модели, которые не помещаются "
+"на одном столе:\n"
+"%s"
+
+#: src/slic3r/GUI/Plater.cpp:7356
 msgid "Export"
 msgstr "Экспорт"
 
-#: src/slic3r/GUI/Plater.cpp:6698 src/slic3r/GUI/Sidebar.cpp:479
+#: src/slic3r/GUI/Plater.cpp:7357 src/slic3r/GUI/Sidebar.cpp:480
 msgid "Send to printer"
 msgstr "Отправить на принтер"
 
-#: src/slic3r/GUI/Plater.cpp:6870
+#: src/slic3r/GUI/Plater.cpp:7533
 msgid "Paste From Clipboard"
 msgstr "Вставить из буфера обмена"
 
@@ -18389,18 +18400,16 @@ msgid "Cannot select two sources with the same id: %1% and %2%"
 msgstr ""
 "Невозможно выбрать два источника с одинаковым идентификатором: %1% и %2%"
 
-#: src/slic3r/GUI/PresetArchiveDatabase.cpp:460
+#: src/slic3r/GUI/PresetArchiveDatabase.cpp:453
 #, boost-format
 msgid "Failed to add local archive %1%. Path already used."
 msgstr "Не удалось добавить локальный архив %1%. Путь уже используется."
 
-#: src/slic3r/GUI/PresetArchiveDatabase.cpp:469
+#: src/slic3r/GUI/PresetArchiveDatabase.cpp:462
 #, boost-format
 msgid "Failed to extract local archive %1%."
 msgstr "Не удалось извлечь локальный архив %1%."
 
-#: src/slic3r/GUI/PresetComboBoxes.cpp:281
-#: src/slic3r/GUI/PresetComboBoxes.cpp:349
 #: src/slic3r/GUI/PresetComboBoxes.cpp:289
 #: src/slic3r/GUI/PresetComboBoxes.cpp:357
 #: src/slic3r/GUI/PresetComboBoxes.cpp:1131
@@ -18872,7 +18881,7 @@ msgid "Note: This preset will be replaced after renaming"
 msgstr "Примечание: этот профиль будет заменён после переименования."
 
 # ???
-#: src/slic3r/GUI/SavePresetDialog.cpp:266
+#: src/slic3r/GUI/SavePresetDialog.cpp:287
 msgid "Note: Preset modifications will be saved exactly into this preset"
 msgstr "Примечание: изменения в профиле будут сохранены именно в этот профиль."
 
@@ -19141,7 +19150,7 @@ msgid "Estimated printing time"
 msgstr "Расчётное время печати"
 
 # ?????5
-#: src/slic3r/GUI/Sidebar.cpp:207
+#: src/slic3r/GUI/Sidebar.cpp:208
 msgid "Number of tool changes"
 msgstr "Число смен инструментов"
 
@@ -19357,7 +19366,7 @@ msgstr "полное имя профиля"
 msgid "symbolic profile name"
 msgstr "символическое имя профиля"
 
-#: src/slic3r/GUI/Tab.cpp:1413 src/slic3r/GUI/Tab.cpp:5811
+#: src/slic3r/GUI/Tab.cpp:1414 src/slic3r/GUI/Tab.cpp:5842
 msgid "Layers and perimeters"
 msgstr "Слои и периметры"
 
@@ -19453,48 +19462,48 @@ msgstr "Поток"
 msgid "Arachne perimeter generator"
 msgstr "Генератор периметра на движке Arachne"
 
-#: src/slic3r/GUI/Tab.cpp:1680 src/slic3r/GUI/Tab.cpp:5860
+#: src/slic3r/GUI/Tab.cpp:1691 src/slic3r/GUI/Tab.cpp:5891
 msgid "Output options"
 msgstr "Выходные параметры"
 
-#: src/slic3r/GUI/Tab.cpp:1681
+#: src/slic3r/GUI/Tab.cpp:1692
 msgid "Sequential printing"
 msgstr "Последовательная печать"
 
-#: src/slic3r/GUI/Tab.cpp:1683
+#: src/slic3r/GUI/Tab.cpp:1694
 msgid "Extruder clearance"
 msgstr "Радиус безопасной зоны экструдера"
 
-#: src/slic3r/GUI/Tab.cpp:1688 src/slic3r/GUI/Tab.cpp:5861
+#: src/slic3r/GUI/Tab.cpp:1699 src/slic3r/GUI/Tab.cpp:5892
 msgid "Output file"
 msgstr "Выходной файл"
 
-#: src/slic3r/GUI/Tab.cpp:1719 src/slic3r/GUI/Tab.cpp:1720
-#: src/slic3r/GUI/Tab.cpp:2322 src/slic3r/GUI/Tab.cpp:2323
-#: src/slic3r/GUI/Tab.cpp:2905 src/slic3r/GUI/Tab.cpp:2906
-#: src/slic3r/GUI/Tab.cpp:2983 src/slic3r/GUI/Tab.cpp:2984
-#: src/slic3r/GUI/Tab.cpp:4701 src/slic3r/GUI/Tab.cpp:5400
-#: src/slic3r/GUI/Tab.cpp:5401
+#: src/slic3r/GUI/Tab.cpp:1730 src/slic3r/GUI/Tab.cpp:1731
+#: src/slic3r/GUI/Tab.cpp:2336 src/slic3r/GUI/Tab.cpp:2337
+#: src/slic3r/GUI/Tab.cpp:2919 src/slic3r/GUI/Tab.cpp:2920
+#: src/slic3r/GUI/Tab.cpp:2997 src/slic3r/GUI/Tab.cpp:2998
+#: src/slic3r/GUI/Tab.cpp:4732 src/slic3r/GUI/Tab.cpp:5431
+#: src/slic3r/GUI/Tab.cpp:5432
 msgid "Notes"
 msgstr "Заметки"
 
-#: src/slic3r/GUI/Tab.cpp:1726 src/slic3r/GUI/Tab.cpp:2330
-#: src/slic3r/GUI/Tab.cpp:2912 src/slic3r/GUI/Tab.cpp:2990
-#: src/slic3r/GUI/Tab.cpp:5408 src/slic3r/GUI/Tab.cpp:5866
+#: src/slic3r/GUI/Tab.cpp:1737 src/slic3r/GUI/Tab.cpp:2344
+#: src/slic3r/GUI/Tab.cpp:2926 src/slic3r/GUI/Tab.cpp:3004
+#: src/slic3r/GUI/Tab.cpp:5439 src/slic3r/GUI/Tab.cpp:5897
 msgid "Dependencies"
 msgstr "Зависимости"
 
-#: src/slic3r/GUI/Tab.cpp:1727 src/slic3r/GUI/Tab.cpp:2331
-#: src/slic3r/GUI/Tab.cpp:2913 src/slic3r/GUI/Tab.cpp:2991
-#: src/slic3r/GUI/Tab.cpp:5409 src/slic3r/GUI/Tab.cpp:5867
+#: src/slic3r/GUI/Tab.cpp:1738 src/slic3r/GUI/Tab.cpp:2345
+#: src/slic3r/GUI/Tab.cpp:2927 src/slic3r/GUI/Tab.cpp:3005
+#: src/slic3r/GUI/Tab.cpp:5440 src/slic3r/GUI/Tab.cpp:5898
 msgid "Profile dependencies"
 msgstr "Зависимости профиля"
 
-#: src/slic3r/GUI/Tab.cpp:1759
+#: src/slic3r/GUI/Tab.cpp:1770
 msgid "Post processing scripts shall modify G-code file in place."
 msgstr "Скрипты постобработки модифицируют файл G-кода так как вам нужно."
 
-#: src/slic3r/GUI/Tab.cpp:1838
+#: src/slic3r/GUI/Tab.cpp:1849
 #, c-format, boost-format
 msgid ""
 "The following line %s contains reserved keywords.\n"
@@ -19602,10 +19611,10 @@ msgstr ""
 "Примечание: все параметры из этой группы перенесены в настройки физического "
 "принтера.\n"
 "\n"
-"Новый профиль физического принтера создаётся нажатием по значку "
-"\"шестеренка\" справа от поля со списком профилей принтеров, выбрав "
-"«Добавить профиль физического принтера». Профили физического принтера "
-"сохраняются в папке PrusaSlicer/physical_printer."
+"Новый профиль физического принтера создаётся нажатием по значку \"шестеренка"
+"\" справа от поля со списком профилей принтеров, выбрав «Добавить профиль "
+"физического принтера». Профили физического принтера сохраняются в папке "
+"PrusaSlicer/physical_printer."
 
 #: src/slic3r/GUI/Tab.cpp:2608
 msgid ""
@@ -19633,7 +19642,7 @@ msgstr ""
 "используют они одно общее, или несколько раздельных хотэндов."
 
 # ????? state?
-#: src/slic3r/GUI/Tab.cpp:2663
+#: src/slic3r/GUI/Tab.cpp:2677
 msgid ""
 "This is a single extruder multimaterial printer, \n"
 "all extruders must have the same nozzle diameter and 'High flow' state.\n"
@@ -19736,7 +19745,7 @@ msgstr ""
 
 # ??? в смысле может просто включено?..
 # ??? Это одноэкструдерный мультиматериальный принтер, состояния всех экструдеров будет переключено на «Высокопроизводительное сопло (CHT)». Продолжить?
-#: src/slic3r/GUI/Tab.cpp:3199
+#: src/slic3r/GUI/Tab.cpp:3213
 msgid ""
 "This is a single extruder multimaterial printer, 'high_flow' state of all "
 "extruders will be set to the new value. Do you want to proceed?"
@@ -19782,7 +19791,7 @@ msgstr ""
 # ??? Параметры смены материала
 # ??? Параметры экструдера для печати несколькими материалами
 # ??? Параметры экструдера ММП
-#: src/slic3r/GUI/Tab.cpp:3404 src/slic3r/GUI/Tab.cpp:3413
+#: src/slic3r/GUI/Tab.cpp:3418 src/slic3r/GUI/Tab.cpp:3427
 msgid "Single extruder MM setup"
 msgstr "Параметры экструдера ММП"
 
@@ -19790,11 +19799,11 @@ msgstr "Параметры экструдера ММП"
 # ???? Параметры экструдера в одноэкструдерном мультиматериальном принтере
 # ???? Параметры для экструдера в одноэкструдерном мультиматериальном принтере
 # ???? Параметры для одноэкструдерной мультиматериальном печати
-#: src/slic3r/GUI/Tab.cpp:3414
+#: src/slic3r/GUI/Tab.cpp:3428
 msgid "Single extruder multimaterial parameters"
 msgstr "Параметры одноэкструдерного мультиматериального принтера"
 
-#: src/slic3r/GUI/Tab.cpp:3588
+#: src/slic3r/GUI/Tab.cpp:3602
 msgid ""
 "The Wipe option is not available when using the Firmware Retraction mode.\n"
 "\n"
@@ -20172,40 +20181,41 @@ msgstr ""
 
 #. TRN: 'Profile' in this context denotes a group of parameters used to configure
 #. layer separation procedure for SLA printers.
+#: src/slic3r/GUI/Tab.cpp:5509
 msgid "Profile settings"
 msgstr "Параметры профиля"
 
-#: src/slic3r/GUI/Tab.cpp:5553
+#: src/slic3r/GUI/Tab.cpp:5584
 #, boost-format
 msgid "The current Z-axis height correction is: %1% mm"
 msgstr "Текущая корректировка высоты оси Z: %1% мм"
 
-#: src/slic3r/GUI/Tab.cpp:5628
+#: src/slic3r/GUI/Tab.cpp:5659
 msgid "Support head"
 msgstr "Носик поддержки"
 
-#: src/slic3r/GUI/Tab.cpp:5633
+#: src/slic3r/GUI/Tab.cpp:5664
 msgid "Support pillar"
 msgstr "Тело поддержки"
 
-#: src/slic3r/GUI/Tab.cpp:5656
+#: src/slic3r/GUI/Tab.cpp:5687
 msgid "Connection of the support sticks and junctions"
 msgstr "Соединения опор поддержки со связующим узлом"
 
-#: src/slic3r/GUI/Tab.cpp:5682 src/slic3r/GUI/Tab.cpp:5824
+#: src/slic3r/GUI/Tab.cpp:5713 src/slic3r/GUI/Tab.cpp:5855
 msgid "Branching"
 msgstr "Ветвящиеся"
 
 #. TRN: Page title in Material Settings in SLA mode.
-#: src/slic3r/GUI/Tab.cpp:5739
+#: src/slic3r/GUI/Tab.cpp:5770
 msgid "Material Overrides"
 msgstr "Переопределение параметров"
 
-#: src/slic3r/GUI/Tab.cpp:5826
+#: src/slic3r/GUI/Tab.cpp:5857
 msgid "Automatic generation"
 msgstr "Автоматическая генерация"
 
-#: src/slic3r/GUI/Tab.cpp:5894
+#: src/slic3r/GUI/Tab.cpp:5925
 #, boost-format
 msgid ""
 "\"%1%\" is disabled because \"%2%\" is on in \"%3%\" category.\n"
@@ -20805,8 +20815,8 @@ msgid ""
 "configuration updates can be downloaded from <a href=%1%>our website</a>."
 msgstr ""
 "Там где нет доступа к интернету, профили можно обновить вручную, загрузив "
-"файлы содержащие обновления конфигурации. Скачать их можно с <a "
-"href=%1%>нашего сайта</a>."
+"файлы содержащие обновления конфигурации. Скачать их можно с <a href="
+"%1%>нашего сайта</a>."
 
 #: src/slic3r/GUI/UpdatesUIManager.cpp:143
 #: src/slic3r/GUI/UpdatesUIManager.cpp:184
@@ -20837,29 +20847,25 @@ msgstr "Выберите один или несколько ZIP-файлов"
 msgid "Manage Updates"
 msgstr "Управление обновлениями"
 
-#: src/slic3r/GUI/WebViewDialog.cpp:118 src/slic3r/GUI/WebViewDialog.cpp:955
+#: src/slic3r/GUI/WebViewDialog.cpp:79
 msgid "Failed to load a web browser."
 msgstr "Не удалось загрузить веб-браузер."
 
-#: src/slic3r/GUI/WebViewDialog.cpp:1311
+#: src/slic3r/GUI/WebViewDialog.cpp:460 src/slic3r/GUI/WebViewDialog.cpp:639
 msgid "Choose a printer"
 msgstr "Выберите принтер"
 
-#: src/slic3r/GUI/WebViewDialog.cpp:1452
+#: src/slic3r/GUI/WebViewDialog.cpp:694
 msgid "Log in dialog"
 msgstr "Диалоговое окно входа"
 
-#: src/slic3r/GUI/WebViewDialog.cpp:1489
-msgid "Logout dialog"
-msgstr "Диалоговое окно выхода"
-
 #. TRN: This is the dialog title.
-#: src/slic3r/GUI/WifiConfigDialog.cpp:27
+#: src/slic3r/GUI/WifiConfigDialog.cpp:28
 msgid "Wi-Fi Configuration File Generator"
 msgstr "Генератор файла конфигурации Wi-Fi"
 
 #. TRN Error dialog of configuration -> wifi configuration file
-#: src/slic3r/GUI/WifiConfigDialog.cpp:35
+#: src/slic3r/GUI/WifiConfigDialog.cpp:36
 msgid "Failed to scan wireless networks. Please fill SSID manually."
 msgstr ""
 "Не удалось просканировать беспроводные сети. Пожалуйста, введите SSID "
@@ -21181,7 +21187,7 @@ msgstr ""
 "Примечание: для активации функцией загрузки, требуется FlashAir с прошивкой "
 "2.00.02 и выше."
 
-#: src/slic3r/Utils/Http.cpp:80
+#: src/slic3r/Utils/Http.cpp:81
 msgid ""
 "Could not detect system SSL certificate store. PrusaSlicer will be unable to "
 "establish secure network connections."
@@ -21189,12 +21195,12 @@ msgstr ""
 "Не удалось обнаружить системное хранилище SSL-сертификатов. PrusaSlicer не "
 "сможет устанавливать безопасные сетевые соединения."
 
-#: src/slic3r/Utils/Http.cpp:85
+#: src/slic3r/Utils/Http.cpp:86
 #, boost-format
 msgid "PrusaSlicer detected system SSL certificate store in: %1%"
 msgstr "PrusaSlicer обнаружил хранилище системных SSL-сертификатов в: %1%"
 
-#: src/slic3r/Utils/Http.cpp:89
+#: src/slic3r/Utils/Http.cpp:90
 #, boost-format
 msgid ""
 "To specify the system certificate store manually, please set the %1% "
@@ -21203,7 +21209,7 @@ msgstr ""
 "Чтобы вручную указать хранилище системных сертификатов, задайте для "
 "переменной среды %1% правильный пакет CA и перезапустите приложение."
 
-#: src/slic3r/Utils/Http.cpp:98
+#: src/slic3r/Utils/Http.cpp:99
 msgid ""
 "CURL init has failed. PrusaSlicer will be unable to establish network "
 "connections. See logs for additional details."
@@ -21441,9 +21447,17 @@ msgid_plural ""
 "not be updated.\n"
 "\n"
 " %1%"
-msgstr[0] ""
+msgstr[0] "Не удалось получить данные из %1%. Источник не будет обновлён."
 msgstr[1] ""
+"Не удалось получить данные из следующих локальных источников. Они не будут "
+"обновлены.\n"
+"\n"
+" %1%"
 msgstr[2] ""
+"Не удалось получить данные из следующих локальных источников. Они не будут "
+"обновлены.\n"
+"\n"
+" %1%"
 
 #. TRN: Text of progress dialog. %1% is a name of file.
 #: src/slic3r/Utils/PresetUpdaterWrapper.cpp:237
@@ -21542,9 +21556,8 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Hiding sidebar]
 msgid ""
 "Hiding sidebar\n"
-"Did you know that you can hide the right sidebar using the shortcut "
-"<b>Shift+Tab</b>? You can also enable the icon for this from "
-"the<a>Preferences</a>."
+"Did you know that you can hide the right sidebar using the shortcut <b>Shift"
+"+Tab</b>? You can also enable the icon for this from the<a>Preferences</a>."
 msgstr ""
 "Свернуть боковую панель\n"
 "Знаете ли вы, что правую боковую панель можно скрыть с помощью сочетания "
