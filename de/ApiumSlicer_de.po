@@ -21108,7 +21108,7 @@ msgstr ""
 "Sie verwenden eine 32-Bit-Version von ApiumSlicer unter 64-Bit-Windows.\n"
 "Ein 32-Bit-Build von ApiumSlicer ist wahrscheinlich nicht in der Lage, das "
 "gesamte im System verfügbare RAM zu nutzen.\n"
-"Bitte laden Sie einen 64-Bit-Build von ApiumSlicer von https://www.download."
+"Bitte laden Sie einen 64-Bit-Build von ApiumSlicer von https://www.apiumslicer."
 "apiumtec.com herunter und installieren Sie ihn.\n"
 "Möchten Sie fortfahren?"
 

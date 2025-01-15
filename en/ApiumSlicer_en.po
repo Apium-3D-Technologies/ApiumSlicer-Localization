@@ -9986,7 +9986,7 @@ msgid ""
 msgstr ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM available in the system.\n"
-"Please download and install a 64 bit build of ApiumSlicer from https://www.download.apiumtec.com.\n"
+"Please download and install a 64 bit build of ApiumSlicer from https://www.apiumslicer.apiumtec.com.\n"
 "Do you wish to continue?"
 
 #: src/slic3r/GUI/GUI_App.cpp:1349
