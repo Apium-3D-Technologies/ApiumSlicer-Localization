@@ -5704,18 +5704,6 @@ msgstr "簡略化は現在、単一のパーツが選択されている場合に
 msgid "Extra high"
 msgstr "とても高い"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
-msgid "High"
-msgstr "高い"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
-msgid "Medium"
-msgstr "中間"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
-msgid "Low"
-msgstr "低い"
-
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:288
 msgid "Extra low"
 msgstr "とても低い"
@@ -8487,6 +8475,25 @@ msgstr "ZIP圧縮ファイルのエラー"
 #: src/slic3r/GUI/GUI_App.cpp:302
 msgid "Version"
 msgstr "バージョン"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
+#: src/slic3r/GUI/LoadStepDialog.cpp:40
+msgid "High"
+msgstr "高い"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
+#: src/slic3r/GUI/LoadStepDialog.cpp:39
+msgid "Medium"
+msgstr "中間"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
+#: src/slic3r/GUI/LoadStepDialog.cpp:38
+msgid "Low"
+msgstr "低い"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
+msgstr "すべて承認する"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1806
 msgid ""

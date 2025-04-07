@@ -3607,7 +3607,7 @@ msgstr "Kvalita importu STEP (%1%)"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:96
 msgid "Select requested quality of the mesh after import: "
-msgstr "Zvolte požadovanou kvalitu sítě po importu:"
+msgstr "Zvolte požadovaný detail sítě modelu po importu:"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:149
 msgid "Lower quality"
@@ -5799,18 +5799,6 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:284
 msgid "Extra high"
 msgstr "Extra vysoká"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
-msgid "High"
-msgstr "Vysoká"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
-msgid "Medium"
-msgstr "Střední"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
-msgid "Low"
-msgstr "Nízká"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:288
 msgid "Extra low"
@@ -8583,6 +8571,25 @@ msgstr "Chyba v ZIP archivu"
 #: src/slic3r/GUI/GUI_App.cpp:302
 msgid "Version"
 msgstr "Verze"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
+#: src/slic3r/GUI/LoadStepDialog.cpp:40
+msgid "High"
+msgstr "Vysoká"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
+#: src/slic3r/GUI/LoadStepDialog.cpp:39
+msgid "Medium"
+msgstr "Střední"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
+#: src/slic3r/GUI/LoadStepDialog.cpp:38
+msgid "Low"
+msgstr "Nízká"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
+msgstr "Použít pro všechny"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1806
 msgid ""

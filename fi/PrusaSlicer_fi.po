@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PrusaSlicer_fi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 15:53+0100\n"
+"POT-Creation-Date: 2025-04-02 12:49+0200\n"
 "PO-Revision-Date: 2024-01-25 18:38+0200\n"
 "Last-Translator: J3r0github\n"
 "Language-Team: \n"
@@ -10985,14 +10985,17 @@ msgid "Extra high"
 msgstr "Todella korkea"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
+#: src/slic3r/GUI/LoadStepDialog.cpp:40
 msgid "High"
 msgstr "Korkea"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
+#: src/slic3r/GUI/LoadStepDialog.cpp:39
 msgid "Medium"
 msgstr "Keskikorkea"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
+#: src/slic3r/GUI/LoadStepDialog.cpp:38
 msgid "Low"
 msgstr "Matala"
 
@@ -14202,6 +14205,10 @@ msgstr ""
 #: src/slic3r/GUI/LoadStepDialog.cpp:44
 #, boost-format
 msgid "STEP import quality (%1%)"
+msgstr ""
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
 msgstr ""
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:96

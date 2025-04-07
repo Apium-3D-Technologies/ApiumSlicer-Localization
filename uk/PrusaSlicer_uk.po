@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 15:53+0100\n"
+"POT-Creation-Date: 2025-04-02 12:49+0200\n"
 "PO-Revision-Date: 2023-04-17 12:57+0300\n"
 "Last-Translator: Oleksandra Iushchenko <yusanka@gmail.com>\n"
 "Language-Team: \n"
@@ -11515,14 +11515,17 @@ msgid "Extra high"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
+#: src/slic3r/GUI/LoadStepDialog.cpp:40
 msgid "High"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
+#: src/slic3r/GUI/LoadStepDialog.cpp:39
 msgid "Medium"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
+#: src/slic3r/GUI/LoadStepDialog.cpp:38
 msgid "Low"
 msgstr ""
 
@@ -14766,6 +14769,10 @@ msgstr ""
 #: src/slic3r/GUI/LoadStepDialog.cpp:44
 #, boost-format
 msgid "STEP import quality (%1%)"
+msgstr ""
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
 msgstr ""
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:96

@@ -5854,18 +5854,6 @@ msgstr ""
 msgid "Extra high"
 msgstr "Extra hoch"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
-msgid "High"
-msgstr "Hoch"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
-msgid "Medium"
-msgstr "Medium"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
-msgid "Low"
-msgstr "Niedrig"
-
 #: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:288
 msgid "Extra low"
 msgstr "Sehr niedrig"
@@ -8699,6 +8687,25 @@ msgstr "Fehler beim ZIP-Archiv"
 #: src/slic3r/GUI/GUI_App.cpp:302
 msgid "Version"
 msgstr "Version"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:285
+#: src/slic3r/GUI/LoadStepDialog.cpp:40
+msgid "High"
+msgstr "Hoch"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:286
+#: src/slic3r/GUI/LoadStepDialog.cpp:39
+msgid "Medium"
+msgstr "Medium"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:287
+#: src/slic3r/GUI/LoadStepDialog.cpp:38
+msgid "Low"
+msgstr "Niedrig"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
+msgstr "Auf alle anwenden"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1806
 msgid ""
