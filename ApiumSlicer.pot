@@ -12047,7 +12047,7 @@ msgid "Reload the selected volumes from disk"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:912 src/slic3r/GUI/Plater.cpp:2490
-msgid "Replace with STL"
+msgid "Replace model"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:912
