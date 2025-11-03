@@ -2670,9 +2670,10 @@ msgid ""
 "When enabled, PrusaSlicer uses it for time estimates and G-code Viewer "
 "speeds instead of Jerk."
 msgstr ""
-"Maximale Knotenpunktabweichung (M205 J, gilt nur, wenn JD > 0 für Marlin "
-"Firmware). Wenn diese Option aktiviert ist, verwendet PrusaSlicer sie für "
-"Zeitabschätzungen und G-Code-Viewer-Geschwindigkeiten anstelle von Jerk."
+"Maximale Knotenpunktabweichung (M205 J; gilt nur, wenn der Parameter > 0 in "
+"der Marlin-Firmware ist). Wenn diese Option aktiviert ist, verwendet "
+"PrusaSlicer sie für Zeitabschätzungen und G-Code-Viewer-Geschwindigkeiten "
+"anstelle von Jerk."
 
 #: src/libslic3r/PrintConfig.cpp:2203
 msgid "Maximum feedrate of the Y axis"

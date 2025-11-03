@@ -2581,7 +2581,7 @@ msgid ""
 "When enabled, PrusaSlicer uses it for time estimates and G-code Viewer "
 "speeds instead of Jerk."
 msgstr ""
-"最大接合偏差（M205 J; Marlin で JD > 0 の場合にのみ適用されます）。\n"
+"最大接合偏差（M205 J。Marlin でパラメータが 0 より大きい場合にのみ有効）。\n"
 "有効にすると、PrusaSlicer は、ジャークの代わりにこれを時間の見積りとGコード"
 "ビューアーの速度計算に使用します。"
 

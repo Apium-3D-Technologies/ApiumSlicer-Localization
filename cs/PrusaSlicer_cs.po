@@ -2596,9 +2596,9 @@ msgid ""
 "When enabled, PrusaSlicer uses it for time estimates and G-code Viewer "
 "speeds instead of Jerk."
 msgstr ""
-"Maximální odchylka v rohu (M205 J; platí pouze, pokud je JD > 0 u Marlinu). "
-"Při zapnutí ji PrusaSlicer používá pro odhad času a rychlosti v Náhled G-"
-"codu místo parametru Ryv."
+"Maximální odchylka v rohu (M205 J; platí pouze, pokud je parametr > 0 u "
+"firmwaru Marlin). Při zapnutí ji PrusaSlicer používá pro odhad času a "
+"rychlosti v Náhledu G-codu místo parametru Ryv."
 
 #: src/libslic3r/PrintConfig.cpp:2203
 msgid "Maximum feedrate of the Y axis"
