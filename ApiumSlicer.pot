@@ -17551,7 +17551,7 @@ msgid "Search in settings [%1%]"
 msgstr ""
 
 #: src/slic3r/GUI/TopBarMenus.cpp:33
-msgid "Beginner mode"
+msgid "Essential mode"
 msgstr ""
 
 #: src/slic3r/GUI/TopBarMenus.cpp:89

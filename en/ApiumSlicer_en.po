@@ -15861,8 +15861,8 @@ msgid "Search in settings [%1%]"
 msgstr "Search in settings [%1%]"
 
 #: src/slic3r/GUI/TopBarMenus.cpp:33
-msgid "Beginner mode"
-msgstr "Beginner mode"
+msgid "Essential mode"
+msgstr "Essential mode"
 
 #: src/slic3r/GUI/TopBarMenus.cpp:89
 msgid "Hide \"Log in\" button"

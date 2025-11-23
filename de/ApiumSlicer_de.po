@@ -1776,7 +1776,7 @@ msgid "Before roll back"
 msgstr "Vor dem Zurückwechseln"
 
 #: src/slic3r/GUI/TopBarMenus.cpp:33
-msgid "Beginner mode"
+msgid "Essential mode"
 msgstr "Einstiegsmodus"
 
 #. TRN: This is a label of a column of parameters in settings to be used when the area is below certain threshold.
