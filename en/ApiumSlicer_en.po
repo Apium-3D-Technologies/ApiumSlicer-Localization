@@ -6271,8 +6271,8 @@ msgid "Advanced mode"
 msgstr "Advanced mode"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1859 src/slic3r/GUI/TopBarMenus.cpp:34
-msgid "Expert mode"
-msgstr "Expert mode"
+msgid "Full mode"
+msgstr "Full mode"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1872
 msgid "The size of the object can be specified in inches"
@@ -16926,10 +16926,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Negative volume]
 msgid ""
 "Negative volume\n"
-"Did you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in PrusaSlicer. Read more in the documentation. (Requires Advanced or Expert mode.)"
+"Did you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in PrusaSlicer. Read more in the documentation. (Requires Advanced or Full mode.)"
 msgstr ""
 "Negative volume\n"
-"Did you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in ApiumSlicer. Read more in the documentation. (Requires Advanced or Expert mode.)"
+"Did you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in ApiumSlicer. Read more in the documentation. (Requires Advanced or Full mode.)"
 
 #: resources/data/hints.ini: [hint:Simplify mesh]
 msgid ""
@@ -17022,10 +17022,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Solid infill threshold area]
 msgid ""
 "Solid infill threshold area\n"
-"Did you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Expert mode only.)"
+"Did you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Full mode only.)"
 msgstr ""
 "Solid infill threshold area\n"
-"Did you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Expert mode only.)"
+"Did you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Full mode only.)"
 
 #: resources/data/hints.ini: [hint:Search functionality]
 msgid ""
@@ -17086,26 +17086,26 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Ironing]
 msgid ""
 "Ironing\n"
-"Did you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Expert mode.)"
+"Did you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Full mode.)"
 msgstr ""
 "Ironing\n"
-"Did you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Expert mode.)"
+"Did you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Full mode.)"
 
 #: resources/data/hints.ini: [hint:Paint-on supports]
 msgid ""
 "Paint-on supports\n"
-"Did you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Expert mode.)"
+"Did you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Full mode.)"
 msgstr ""
 "Paint-on supports\n"
-"Did you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Expert mode.)"
+"Did you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Full mode.)"
 
 #: resources/data/hints.ini: [hint:Paint-on seam]
 msgid ""
 "Paint-on seam\n"
-"Did you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Expert mode.)"
+"Did you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Full mode.)"
 msgstr ""
 "Paint-on seam\n"
-"Did you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Expert mode.)"
+"Did you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Full mode.)"
 
 #: resources/data/hints.ini: [hint:Insert Pause]
 msgid ""

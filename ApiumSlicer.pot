@@ -7513,7 +7513,7 @@ msgid "Advanced mode"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1859 src/slic3r/GUI/TopBarMenus.cpp:34
-msgid "Expert mode"
+msgid "Full mode"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1872
@@ -18614,7 +18614,7 @@ msgid "Arrange settings\nDid you know that you can right-click the<a>Arrange ico
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Negative volume]
-msgid "Negative volume\nDid you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in PrusaSlicer. Read more in the documentation. (Requires Advanced or Expert mode.)"
+msgid "Negative volume\nDid you know that you can subtract one mesh from another using the Negative volume modifier? That way you can, for example, create easily resizable holes directly in PrusaSlicer. Read more in the documentation. (Requires Advanced or Full mode.)"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Simplify mesh]
@@ -18662,7 +18662,7 @@ msgid "Different layer height for each model\nDid you know that you can print ea
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Solid infill threshold area]
-msgid "Solid infill threshold area\nDid you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Expert mode only.)"
+msgid "Solid infill threshold area\nDid you know that you can make parts of your model with a small cross-section be filled with solid infill automatically? Set the<a>Solid infill threshold area</a>. (Full mode only.)"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Search functionality]
@@ -18694,15 +18694,15 @@ msgid "Load config from G-code\nDid you know that you can use File-Import-Import
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Ironing]
-msgid "Ironing\nDid you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Expert mode.)"
+msgid "Ironing\nDid you know that you can smooth top surfaces of prints using Ironing? The nozzle will run a special second infill phase at the same layer to fill in holes and flatten any lifted plastic. Read more in the documentation. (Requires Advanced or Full mode.)"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Paint-on supports]
-msgid "Paint-on supports\nDid you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Expert mode.)"
+msgid "Paint-on supports\nDid you know that you can paint directly on the object and select areas, where supports should be enforced or blocked? Try the<a>Paint-on supports</a>feature. (Requires Advanced or Full mode.)"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Paint-on seam]
-msgid "Paint-on seam\nDid you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Expert mode.)"
+msgid "Paint-on seam\nDid you know that you can paint directly on the object and select where to place the start/endpoint of each perimeter loop? Try the<a>Seam painting</a>feature. (Requires Advanced or Full mode.)"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Insert Pause]
