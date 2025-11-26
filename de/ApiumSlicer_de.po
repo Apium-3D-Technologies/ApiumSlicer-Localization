@@ -1777,7 +1777,7 @@ msgstr "Vor dem Zurückwechseln"
 
 #: src/slic3r/GUI/TopBarMenus.cpp:33
 msgid "Essential mode"
-msgstr "Einstiegsmodus"
+msgstr "Essential mode"
 
 #. TRN: This is a label of a column of parameters in settings to be used when the area is below certain threshold.
 #: src/slic3r/GUI/Search.cpp:106 src/slic3r/GUI/Tab.cpp:5468
@@ -5467,7 +5467,7 @@ msgstr "Experte"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1859 src/slic3r/GUI/TopBarMenus.cpp:34
 msgid "Full mode"
-msgstr "Expertenmodus"
+msgstr "Full mode"
 
 #: src/slic3r/GUI/MainFrame.cpp:1451
 msgid "&Export"
@@ -10793,7 +10793,7 @@ msgstr "Normaler Modus"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2745 src/slic3r/GUI/TopBarMenus.cpp:34
 msgid "Normal mode"
-msgstr "Normaler Modus"
+msgstr "Normal mode"
 
 #: src/libslic3r/PrintConfig.cpp:2900
 msgid "No sparse layers (EXPERIMENTAL)"
