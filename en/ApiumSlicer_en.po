@@ -6274,6 +6274,10 @@ msgstr "Advanced mode"
 msgid "Full mode"
 msgstr "Full mode"
 
+#: src/slic3r/GUI/ConfigWizard.cpp:1859 src/slic3r/GUI/TopBarMenus.cpp:41
+msgid "Development mode"
+msgstr "Development mode"
+
 #: src/slic3r/GUI/ConfigWizard.cpp:1872
 msgid "The size of the object can be specified in inches"
 msgstr "The size of the object can be specified in inches"

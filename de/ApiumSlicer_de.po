@@ -5469,6 +5469,10 @@ msgstr "Experte"
 msgid "Full mode"
 msgstr "Full mode"
 
+#: src/slic3r/GUI/ConfigWizard.cpp:1859 src/slic3r/GUI/TopBarMenus.cpp:41
+msgid "Development mode"
+msgstr "Development mode"
+
 #: src/slic3r/GUI/MainFrame.cpp:1451
 msgid "&Export"
 msgstr "&Export"
