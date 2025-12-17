@@ -28944,3 +28944,31 @@ msgstr "zlib 错误 %d"
 #: ../src/richtext/richtextbulletspage.cpp:288
 msgid "~"
 msgstr "~"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater mode"
+msgstr "区域加热器模式"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Static, or Adaptive"
+msgstr "区域加热器操作模式：关闭、静态或自适应"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater static power"
+msgstr "区域加热器静态功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using static mode."
+msgstr "使用静态模式时加热器功率百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Adaptive Heating multiplier"
+msgstr "自适应加热倍增器"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power multiplier (0-200%) when using adaptive mode."
+msgstr "使用自适应模式时加热器功率乘数（0-200%）。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater settings"
+msgstr "区域加热器设置"
