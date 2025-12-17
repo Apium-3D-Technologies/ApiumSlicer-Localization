@@ -29789,3 +29789,33 @@ msgstr "zlib-Fehler %d"
 #: ../src/richtext/richtextbulletspage.cpp:288
 msgid "~"
 msgstr "~"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater mode"
+msgstr "Zonenheizer Modus"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Static, or Adaptive"
+msgstr "Zonenheizer Modus: Aus, Statis, Adaptive"
+
+
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater static power"
+msgstr "Statische Zonenheizer Leistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using static mode."
+msgstr "Heizleistung in Prozent (während des statischen Modus)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Adaptive Heating multiplier"
+msgstr "Adaptive Heating Multiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power multiplier (0-200%) when using adaptive mode."
+msgstr "Heizleistungs-Multiplikator (0-200%) für den Adaptive Heating Algorithmus"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater settings"
+msgstr "Zonenheizer Einstellungen"

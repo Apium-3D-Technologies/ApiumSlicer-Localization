@@ -18752,3 +18752,43 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Text tool]
 msgid "Text tool\nDid you know that you can add custom text labels to your models or even use the text as a modifier? Learn more in the documentation."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater mode"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Static, or Adaptive"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Off"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Static"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Adaptive"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater static power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using static mode."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Adaptive Heating multiplier"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power multiplier (0-200%) when using adaptive mode."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater settings"
+msgstr ""
