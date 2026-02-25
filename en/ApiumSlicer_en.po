@@ -25049,3 +25049,11 @@ msgstr "Heater power multiplier (0-200%) when using adaptive mode."
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater settings"
 msgstr "Zoneheater settings"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow Auxiliary Heating"
+msgstr "Allow Auxiliary Heating"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
+msgstr "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."

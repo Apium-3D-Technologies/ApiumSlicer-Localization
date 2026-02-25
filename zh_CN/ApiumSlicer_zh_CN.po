@@ -28972,3 +28972,11 @@ msgstr "使用自适应模式时加热器功率乘数（0-200%）。"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater settings"
 msgstr "区域加热器设置"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow Auxiliary Heating"
+msgstr "允许 Auxiliary Heating"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
+msgstr "允许使用 Auxiliary Heating 功能。如果安装了非钢打印平台，使用 Auxiliary Heating 可能会熔化并损坏打印平台。如有疑问，请保持此选项禁用。"

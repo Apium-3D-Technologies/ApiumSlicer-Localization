@@ -29819,3 +29819,11 @@ msgstr "Heizleistungs-Multiplikator (0-200%) für den Adaptive Heating Algorithm
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater settings"
 msgstr "Zonenheizer Einstellungen"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow Auxiliary Heating"
+msgstr "Auxiliary Heating erlauben"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
+msgstr "Erlaubt die Nutzung der Auxiliary Heating Funktion. Wenn nicht-Stahl Druckplatten installiert sind, kann das Auxiliary Heating die Druckplatte schmelzen und beschädigen. Im Zweifelsfall diese Option deaktiviert lassen."
