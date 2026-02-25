@@ -18800,3 +18800,79 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp
 msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Calculation base"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for external perimeters. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%), it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to allow a manual extrusion width. If left to zero, Slic3r derives extrusion widths from the nozzle diameter (see the tooltips for perimeter extrusion width, infill extrusion width etc). If expressed as percentage (for example: 230%), it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for first layer. You can use this to force fatter extrudates for better adhesion. If expressed as percentage (for example 120%) it will be computed over the selected calculation base. If set to zero, it will use the default extrusion width."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. You may want to use fatter extrudates to speed up the infill and make your parts stronger. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for perimeters. You may want to use thinner extrudates to get more accurate surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill for solid surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for support material. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill for top surfaces. You may want to use thinner extrudates to fill all narrow regions and get a smoother finish. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based default extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based first layer extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based perimeter extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based external perimeter extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based infill extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based solid infill extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based top solid infill extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based support material extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow excessive extrusion widths"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
+msgstr ""

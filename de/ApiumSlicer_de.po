@@ -29827,3 +29827,79 @@ msgstr "Auxiliary Heating erlauben"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
 msgstr "Erlaubt die Nutzung der Auxiliary Heating Funktion. Wenn nicht-Stahl Druckplatten installiert sind, kann das Auxiliary Heating die Druckplatte schmelzen und beschädigen. Im Zweifelsfall diese Option deaktiviert lassen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Calculation base"
+msgstr "Berechnungsgrundlage"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for external perimeters. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%), it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Außenkonturen festzulegen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls 1,125 x Düsendurchmesser. Bei Prozentwerten (z. B. 200 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to allow a manual extrusion width. If left to zero, Slic3r derives extrusion widths from the nozzle diameter (see the tooltips for perimeter extrusion width, infill extrusion width etc). If expressed as percentage (for example: 230%), it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite zu erlauben. Bei Null leitet Slic3r die Extrusionsbreiten vom Düsendurchmesser ab (siehe Tooltips für Kontur-, Infill- usw. Breiten). Bei Prozentwerten (z. B. 230 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for first layer. You can use this to force fatter extrudates for better adhesion. If expressed as percentage (for example 120%) it will be computed over the selected calculation base. If set to zero, it will use the default extrusion width."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für die erste Schicht festzulegen. So können breitere Stränge für bessere Haftung erzwungen werden. Bei Prozentwerten (z. B. 120 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet. Bei Null wird die Standard-Extrusionsbreite verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. You may want to use fatter extrudates to speed up the infill and make your parts stronger. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Infill festzulegen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls 1,125 x Düsendurchmesser. Breitere Stränge können Infill beschleunigen und Teile stabiler machen. Bei Prozentwerten (z. B. 90 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for perimeters. You may want to use thinner extrudates to get more accurate surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%) it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Konturen festzulegen. Dünnere Stränge können zu genaueren Oberflächen führen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls 1,125 x Düsendurchmesser. Bei Prozentwerten (z. B. 200 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill for solid surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Infill auf massiven Flächen festzulegen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls 1,125 x Düsendurchmesser. Bei Prozentwerten (z. B. 90 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for support material. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Stützmaterial festzulegen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls der Düsendurchmesser. Bei Prozentwerten (z. B. 90 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for infill for top surfaces. You may want to use thinner extrudates to fill all narrow regions and get a smoother finish. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle Extrusionsbreite für Infill auf Topflächen festzulegen. Dünnere Stränge können schmale Bereiche besser füllen und eine glattere Oberfläche erzeugen. Bei Null wird die Standard-Extrusionsbreite verwendet, falls gesetzt, andernfalls der Düsendurchmesser. Bei Prozentwerten (z. B. 90 %) wird anhand der ausgewählten Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based default extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Standard-Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based first layer extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Extrusionsbreite der ersten Schicht. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based perimeter extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Kontur-Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based external perimeter extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Außenkontur-Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based infill extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Infill-Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based solid infill extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Extrusionsbreite von massivem Infill. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based top solid infill extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Extrusionsbreite von Top Solid Infill. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based support material extrusion width calculation. Used only for percentage values."
+msgstr "Berechnungsgrundlage für die prozentbasierte Extrusionsbreite des Stützmaterials. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow excessive extrusion widths"
+msgstr "Übermäßige Extrusionsbreiten erlauben"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
+msgstr "Deaktiviert die Sicherheitsfehlermeldung für übermäßige Extrusionsbreiten für diesen Extruder. Die Sicherheitsprüfung wird nur deaktiviert, wenn diese Option bei allen Extrudern aktiviert ist. Vorsichtig verwenden."
