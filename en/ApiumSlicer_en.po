@@ -6882,8 +6882,8 @@ msgstr "Color change (\"%1%\")"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1235
 #, boost-format
-msgid "Color change (\"%1%\") for Extruder %2%"
-msgstr "Color change (\"%1%\") for Extruder %2%"
+msgid "Color change (\"%1%\") for T%2%"
+msgstr "Color change (\"%1%\") for T%2%"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1237
 #, boost-format
@@ -6897,8 +6897,8 @@ msgstr "Custom template (\"%1%\")"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1241
 #, boost-format
-msgid "Extruder (tool) is changed to Extruder \"%1%\""
-msgstr "Extruder (tool) is changed to Extruder \"%1%\""
+msgid "Extruder (tool) is changed to \"T%1%\""
+msgstr "Extruder (tool) is changed to \"T%1%\""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1248
 msgid "Note"
@@ -8998,8 +8998,8 @@ msgstr "Split bigger facets into smaller ones while the object is painted."
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:645
 #, boost-format
-msgid "Painted using: Extruder %1%"
-msgstr "Painted using: Extruder %1%"
+msgid "Painted using: T%1%"
+msgstr "Painted using: T%1%"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.hpp:124
 msgid "Entering Multimaterial painting"
@@ -10446,18 +10446,18 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4027 src/slic3r/GUI/GUI_App.cpp:4045
 #, boost-format
-msgid "Extruder %1%: Selected filament %2%"
-msgstr "Extruder %1%: Selected filament %2%"
+msgid "T%1%: Selected filament %2%"
+msgstr "T%1%: Selected filament %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4061
 #, boost-format
-msgid "Extruder %1%: Installed and selected filament %2%"
-msgstr "Extruder %1%: Installed and selected filament %2%"
+msgid "T%1%: Installed and selected filament %2%"
+msgstr "T%1%: Installed and selected filament %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4065
 #, boost-format
-msgid "Extruder %2%: Failed to find and select filament type: %1%"
-msgstr "Extruder %2%: Failed to find and select filament type: %1%"
+msgid "T%2%: Failed to find and select filament type: %1%"
+msgstr "T%2%: Failed to find and select filament type: %1%"
 
 #. TRN: Notification text.
 #: src/slic3r/GUI/GUI_App.cpp:4084

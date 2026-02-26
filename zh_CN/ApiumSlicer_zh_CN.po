@@ -11294,8 +11294,8 @@ msgstr "在绘制对象时，将较大的面拆分为较小的面。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:706
 #, boost-format
-msgid "Painted using: Extruder %1%"
-msgstr "涂漆使用：挤出机 %1%"
+msgid "Painted using: T%1%"
+msgstr "使用 T%1% 上色"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.hpp:124
 msgid "Entering Multimaterial painting"
@@ -12926,18 +12926,28 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4082 src/slic3r/GUI/GUI_App.cpp:4100
 #, boost-format
-msgid "Extruder %1%: Selected filament %2%"
-msgstr ""
+msgid "T%1%: Selected filament %2%"
+msgstr "T%1%: 已选择耗材 %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4116
 #, boost-format
-msgid "Extruder %1%: Installed and selected filament %2%"
-msgstr ""
+msgid "T%1%: Installed and selected filament %2%"
+msgstr "T%1%: 已安装并选择耗材 %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4120
 #, boost-format
-msgid "Extruder %2%: Failed to find and select filament type: %1%"
-msgstr ""
+msgid "T%2%: Failed to find and select filament type: %1%"
+msgstr "T%2%: 无法找到并选择耗材类型：%1%"
+
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1235
+#, boost-format
+msgid "Color change (\"%1%\") for T%2%"
+msgstr "T%2% 的换色（\"%1%\"）"
+
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1241
+#, boost-format
+msgid "Extruder (tool) is changed to \"T%1%\""
+msgstr "挤出机（工具）已切换为 \"T%1%\""
 
 #. TRN: Notification text.
 #: src/slic3r/GUI/GUI_App.cpp:4139
