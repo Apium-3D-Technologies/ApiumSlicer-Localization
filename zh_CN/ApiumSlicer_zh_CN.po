@@ -29056,3 +29056,103 @@ msgstr "允许超大挤出宽度"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
 msgstr "为该挤出机禁用“挤出宽度过大”的安全错误。仅当所有挤出机都启用此选项时，安全错误才会被禁用。请谨慎使用。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer extrusion multiplier"
+msgstr "对象首层挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion Multiplier"
+msgstr "挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to object extrusions on the first object layer. This does not apply to brim/skirt, support, or raft extrusions. The final extrusion is this multiplier times filament extrusion multiplier."
+msgstr "应用于对象首个对象层挤出的乘数。此项不适用于 brim/skirt、支撑或 raft 挤出。最终挤出量为该乘数与耗材挤出乘数的乘积。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer cumulative calculation"
+msgstr "对象首层累积计算"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "If disabled, object extrusions on the first object layer use only Object first layer extrusion multiplier. If enabled, object first layer multiplier is multiplied with the line type multiplier (bridge, perimeter, infill, etc.)."
+msgstr "禁用时，对象首个对象层的挤出仅使用“对象首层挤出乘数”。启用时，对象首层乘数会与线型乘数（桥接、轮廓、填充等）相乘。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Perimeter extrusion multiplier"
+msgstr "轮廓挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to perimeter and gap fill extrusions. External perimeter uses its own multiplier."
+msgstr "应用于轮廓和缝隙填充挤出的乘数。外轮廓使用其独立乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "External perimeter extrusion multiplier"
+msgstr "外轮廓挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to external perimeter extrusions."
+msgstr "应用于外轮廓挤出的乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill extrusion multiplier"
+msgstr "填充挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to internal infill extrusions."
+msgstr "应用于内部填充挤出的乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Solid fill extrusion multiplier"
+msgstr "实心填充挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to solid infill extrusions except top solid infill, which has its own multiplier."
+msgstr "应用于实心填充挤出的乘数，但顶层实心填充除外（其有独立乘数）。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Top solid fill extrusion multiplier"
+msgstr "顶层实心填充挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to top solid infill extrusions. This overrides solid fill extrusion multiplier for top solid infill."
+msgstr "应用于顶层实心填充挤出的乘数。该值会覆盖顶层实心填充所使用的实心填充挤出乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Support material extrusion multiplier"
+msgstr "支撑材料挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to support material and support interface extrusions."
+msgstr "应用于支撑材料和支撑接口挤出的乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge extrusion multiplier"
+msgstr "桥接挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+msgstr "应用于桥接挤出的乘数。桥接乘数优先于其他线型乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Raft extrusion multiplier"
+msgstr "Raft 挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to raft extrusions."
+msgstr "应用于 raft 挤出的乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Brim/Skirt extrusion multiplier"
+msgstr "Brim/Skirt 挤出乘数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to brim and skirt extrusions."
+msgstr "应用于 brim 和 skirt 挤出的乘数。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Minimum extrusion multiplier warning"
+msgstr "最小挤出乘数警告阈值"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
+msgstr "最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈值。当最终乘数低于该值时会显示非阻塞的切片警告。设为 0 可禁用警告。"

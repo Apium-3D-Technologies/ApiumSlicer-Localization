@@ -25133,3 +25133,103 @@ msgstr "Allow excessive extrusion widths"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
 msgstr "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer extrusion multiplier"
+msgstr "Object first layer extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion Multiplier"
+msgstr "Extrusion Multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to object extrusions on the first object layer. This does not apply to brim/skirt, support, or raft extrusions. The final extrusion is this multiplier times filament extrusion multiplier."
+msgstr "Multiplier applied to object extrusions on the first object layer. This does not apply to brim/skirt, support, or raft extrusions. The final extrusion is this multiplier times filament extrusion multiplier."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer cumulative calculation"
+msgstr "Object first layer cumulative calculation"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "If disabled, object extrusions on the first object layer use only Object first layer extrusion multiplier. If enabled, object first layer multiplier is multiplied with the line type multiplier (bridge, perimeter, infill, etc.)."
+msgstr "If disabled, object extrusions on the first object layer use only Object first layer extrusion multiplier. If enabled, object first layer multiplier is multiplied with the line type multiplier (bridge, perimeter, infill, etc.)."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Perimeter extrusion multiplier"
+msgstr "Perimeter extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to perimeter and gap fill extrusions. External perimeter uses its own multiplier."
+msgstr "Multiplier applied to perimeter and gap fill extrusions. External perimeter uses its own multiplier."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "External perimeter extrusion multiplier"
+msgstr "External perimeter extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to external perimeter extrusions."
+msgstr "Multiplier applied to external perimeter extrusions."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill extrusion multiplier"
+msgstr "Infill extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to internal infill extrusions."
+msgstr "Multiplier applied to internal infill extrusions."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Solid fill extrusion multiplier"
+msgstr "Solid fill extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to solid infill extrusions except top solid infill, which has its own multiplier."
+msgstr "Multiplier applied to solid infill extrusions except top solid infill, which has its own multiplier."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Top solid fill extrusion multiplier"
+msgstr "Top solid fill extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to top solid infill extrusions. This overrides solid fill extrusion multiplier for top solid infill."
+msgstr "Multiplier applied to top solid infill extrusions. This overrides solid fill extrusion multiplier for top solid infill."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Support material extrusion multiplier"
+msgstr "Support material extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to support material and support interface extrusions."
+msgstr "Multiplier applied to support material and support interface extrusions."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge extrusion multiplier"
+msgstr "Bridge extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+msgstr "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Raft extrusion multiplier"
+msgstr "Raft extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to raft extrusions."
+msgstr "Multiplier applied to raft extrusions."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Brim/Skirt extrusion multiplier"
+msgstr "Brim/Skirt extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to brim and skirt extrusions."
+msgstr "Multiplier applied to brim and skirt extrusions."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Minimum extrusion multiplier warning"
+msgstr "Minimum extrusion multiplier warning"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
+msgstr "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."

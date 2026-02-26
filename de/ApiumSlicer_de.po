@@ -29903,3 +29903,103 @@ msgstr "Übermäßige Extrusionsbreiten erlauben"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
 msgstr "Deaktiviert die Sicherheitsfehlermeldung für übermäßige Extrusionsbreiten für diesen Extruder. Die Sicherheitsprüfung wird nur deaktiviert, wenn diese Option bei allen Extrudern aktiviert ist. Vorsichtig verwenden."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer extrusion multiplier"
+msgstr "Extrusionsmultiplikator für erste Objektschicht"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion Multiplier"
+msgstr "Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to object extrusions on the first object layer. This does not apply to brim/skirt, support, or raft extrusions. The final extrusion is this multiplier times filament extrusion multiplier."
+msgstr "Multiplikator für Objekt-Extrusionen auf der ersten Objektschicht. Gilt nicht für Brim/Skirt-, Stütz- oder Raft-Extrusionen. Die finale Extrusion ist dieser Multiplikator mal Filament-Extrusionsmultiplikator."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Object first layer cumulative calculation"
+msgstr "Kumulative Berechnung für erste Objektschicht"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "If disabled, object extrusions on the first object layer use only Object first layer extrusion multiplier. If enabled, object first layer multiplier is multiplied with the line type multiplier (bridge, perimeter, infill, etc.)."
+msgstr "Wenn deaktiviert, verwenden Objekt-Extrusionen auf der ersten Objektschicht nur den Multiplikator für die erste Objektschicht. Wenn aktiviert, wird dieser mit dem Linienart-Multiplikator (Bridge, Kontur, Infill usw.) multipliziert."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Perimeter extrusion multiplier"
+msgstr "Kontur-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to perimeter and gap fill extrusions. External perimeter uses its own multiplier."
+msgstr "Multiplikator für Kontur- und Lückenfüllungs-Extrusionen. Außenkonturen verwenden ihren eigenen Multiplikator."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "External perimeter extrusion multiplier"
+msgstr "Außenkontur-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to external perimeter extrusions."
+msgstr "Multiplikator für Außenkontur-Extrusionen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill extrusion multiplier"
+msgstr "Infill-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to internal infill extrusions."
+msgstr "Multiplikator für interne Infill-Extrusionen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Solid fill extrusion multiplier"
+msgstr "Massivfüllungs-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to solid infill extrusions except top solid infill, which has its own multiplier."
+msgstr "Multiplikator für massive Infill-Extrusionen, außer Top Solid Infill, das einen eigenen Multiplikator hat."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Top solid fill extrusion multiplier"
+msgstr "Top-Solid-Fill-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to top solid infill extrusions. This overrides solid fill extrusion multiplier for top solid infill."
+msgstr "Multiplikator für Top-Solid-Infill-Extrusionen. Überschreibt den Massivfüllungs-Extrusionsmultiplikator für Top Solid Infill."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Support material extrusion multiplier"
+msgstr "Stützmaterial-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to support material and support interface extrusions."
+msgstr "Multiplikator für Stützmaterial- und Stützinterface-Extrusionen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge extrusion multiplier"
+msgstr "Bridge-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+msgstr "Multiplikator für Bridge-Extrusionen. Der Bridge-Multiplikator hat Vorrang vor anderen Linienart-Multiplikatoren."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Raft extrusion multiplier"
+msgstr "Raft-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to raft extrusions."
+msgstr "Multiplikator für Raft-Extrusionen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Brim/Skirt extrusion multiplier"
+msgstr "Brim/Skirt-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to brim and skirt extrusions."
+msgstr "Multiplikator für Brim- und Skirt-Extrusionen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Minimum extrusion multiplier warning"
+msgstr "Warnung bei minimalem Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
+msgstr "Warnschwelle für den finalen Extrusionsmultiplikator (Linienart-Multiplikator mal Filament-Extrusionsmultiplikator). Eine nicht blockierende Slicing-Warnung wird angezeigt, wenn der finale Multiplikator unter diesen Wert fällt. Auf 0 setzen, um Warnungen zu deaktivieren."
