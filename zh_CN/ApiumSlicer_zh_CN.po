@@ -15759,6 +15759,81 @@ msgstr ""
 msgid "Failed to save credentials to the system password store."
 msgstr ""
 
+#: src/slic3r/GUI/WebInterfaceStore.cpp:257
+msgid "Failed to save Webinterface printers."
+msgstr "保存网页界面打印机失败。"
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:44
+#, boost-format
+msgid "This system doesn't support storing passwords securely (%1%)."
+msgstr "此系统不支持安全存储密码（%1%）。"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:101
+msgid "No webinterface printer configured yet."
+msgstr "尚未配置网页界面打印机。"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:102
+msgid "Add printer"
+msgstr "添加打印机"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:85
+msgid "Reload"
+msgstr "重新加载"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:237
+msgid "Webinterface"
+msgstr "网页界面"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:239
+#, boost-format
+msgid "Webinterface (%1%)"
+msgstr "网页界面（%1%）"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:270
+msgid "Printer name cannot be empty."
+msgstr "打印机名称不能为空。"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:276
+msgid "A printer with this name already exists."
+msgstr "已存在同名打印机。"
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:237
+msgid "Printer URL cannot be empty."
+msgstr "打印机 URL 不能为空。"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:334
+#, boost-format
+msgid "Remove webinterface printer \"%1%\"?"
+msgstr "要移除网页界面打印机\"%1%\"吗？"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:335
+msgid "Remove Printer Webinterface"
+msgstr "移除打印机网页界面"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Add Printer Webinterface"
+msgstr "添加打印机网页界面"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Edit Printer Webinterface"
+msgstr "编辑打印机网页界面"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:69
+msgid "Descriptive name for the webinterface printer"
+msgstr "网页界面打印机的描述性名称"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:71
+msgid "Webinterface settings"
+msgstr "网页界面设置"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:91
+msgid "Username"
+msgstr "用户名"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:110
+msgid "Ignore self-signed SSL"
+msgstr "忽略自签名 SSL"
+
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:248
 msgid "Type here the name of your printer device"
 msgstr "在此处键入打印机设备的名称"

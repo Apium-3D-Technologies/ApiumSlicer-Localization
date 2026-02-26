@@ -13054,6 +13054,81 @@ msgstr "This system doesn't support storing passwords securely"
 msgid "Failed to save credentials to the system password store."
 msgstr "Failed to save credentials to the system password store."
 
+#: src/slic3r/GUI/WebInterfaceStore.cpp:257
+msgid "Failed to save Webinterface printers."
+msgstr "Failed to save Webinterface printers."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:44
+#, boost-format
+msgid "This system doesn't support storing passwords securely (%1%)."
+msgstr "This system doesn't support storing passwords securely (%1%)."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:101
+msgid "No webinterface printer configured yet."
+msgstr "No webinterface printer configured yet."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:102
+msgid "Add printer"
+msgstr "Add printer"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:85
+msgid "Reload"
+msgstr "Reload"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:237
+msgid "Webinterface"
+msgstr "Webinterface"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:239
+#, boost-format
+msgid "Webinterface (%1%)"
+msgstr "Webinterface (%1%)"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:270
+msgid "Printer name cannot be empty."
+msgstr "Printer name cannot be empty."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:276
+msgid "A printer with this name already exists."
+msgstr "A printer with this name already exists."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:237
+msgid "Printer URL cannot be empty."
+msgstr "Printer URL cannot be empty."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:334
+#, boost-format
+msgid "Remove webinterface printer \"%1%\"?"
+msgstr "Remove webinterface printer \"%1%\"?"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:335
+msgid "Remove Printer Webinterface"
+msgstr "Remove Printer Webinterface"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Add Printer Webinterface"
+msgstr "Add Printer Webinterface"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Edit Printer Webinterface"
+msgstr "Edit Printer Webinterface"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:69
+msgid "Descriptive name for the webinterface printer"
+msgstr "Descriptive name for the webinterface printer"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:71
+msgid "Webinterface settings"
+msgstr "Webinterface settings"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:91
+msgid "Username"
+msgstr "Username"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:110
+msgid "Ignore self-signed SSL"
+msgstr "Ignore self-signed SSL"
+
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:247
 msgid "Type here the name of your printer device"
 msgstr "Type here the name of your printer device"

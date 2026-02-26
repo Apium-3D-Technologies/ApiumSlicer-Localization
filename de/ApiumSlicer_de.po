@@ -5937,6 +5937,81 @@ msgstr ""
 "Die Zugangsdaten konnten nicht im Kennwortspeicher des Systems gespeichert "
 "werden."
 
+#: src/slic3r/GUI/WebInterfaceStore.cpp:257
+msgid "Failed to save Webinterface printers."
+msgstr "Webinterface-Drucker konnten nicht gespeichert werden."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:44
+#, boost-format
+msgid "This system doesn't support storing passwords securely (%1%)."
+msgstr "Dieses System unterstützt das sichere Speichern von Passwörtern nicht (%1%)."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:101
+msgid "No webinterface printer configured yet."
+msgstr "Es ist noch kein Webinterface-Drucker konfiguriert."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:102
+msgid "Add printer"
+msgstr "Drucker hinzufügen"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:85
+msgid "Reload"
+msgstr "Neu laden"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:237
+msgid "Webinterface"
+msgstr "Webinterface"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:239
+#, boost-format
+msgid "Webinterface (%1%)"
+msgstr "Webinterface (%1%)"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:270
+msgid "Printer name cannot be empty."
+msgstr "Der Druckername darf nicht leer sein."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:276
+msgid "A printer with this name already exists."
+msgstr "Ein Drucker mit diesem Namen existiert bereits."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:237
+msgid "Printer URL cannot be empty."
+msgstr "Die Drucker-URL darf nicht leer sein."
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:334
+#, boost-format
+msgid "Remove webinterface printer \"%1%\"?"
+msgstr "Webinterface-Drucker \"%1%\" entfernen?"
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:335
+msgid "Remove Printer Webinterface"
+msgstr "Drucker-Webinterface entfernen"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Add Printer Webinterface"
+msgstr "Drucker-Webinterface hinzufügen"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:57
+msgid "Edit Printer Webinterface"
+msgstr "Drucker-Webinterface bearbeiten"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:69
+msgid "Descriptive name for the webinterface printer"
+msgstr "Beschreibender Name für den Webinterface-Drucker"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:71
+msgid "Webinterface settings"
+msgstr "Webinterface-Einstellungen"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:91
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:110
+msgid "Ignore self-signed SSL"
+msgstr "Selbstsigniertes SSL ignorieren"
+
 #. TRN Error dialog of configuration -> wifi configuration file
 #: src/slic3r/GUI/WifiConfigDialog.cpp:35
 msgid "Failed to scan wireless networks. Please fill SSID manually."
