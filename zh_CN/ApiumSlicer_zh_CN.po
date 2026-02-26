@@ -29156,3 +29156,7 @@ msgstr "最小挤出乘数警告阈值"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
 msgstr "最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈值。当最终乘数低于该值时会显示非阻塞的切片警告。设为 0 可禁用警告。"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Extrusion width (mm)"
+msgstr "挤出宽度 (mm)"

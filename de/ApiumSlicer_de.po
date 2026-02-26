@@ -30003,3 +30003,7 @@ msgstr "Warnung bei minimalem Extrusionsmultiplikator"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
 msgstr "Warnschwelle für den finalen Extrusionsmultiplikator (Linienart-Multiplikator mal Filament-Extrusionsmultiplikator). Eine nicht blockierende Slicing-Warnung wird angezeigt, wenn der finale Multiplikator unter diesen Wert fällt. Auf 0 setzen, um Warnungen zu deaktivieren."
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Extrusion width (mm)"
+msgstr "Extrusionsbreite (mm)"
