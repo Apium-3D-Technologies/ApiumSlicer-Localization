@@ -14660,6 +14660,10 @@ msgstr ""
 msgid "Ignore self-signed SSL"
 msgstr ""
 
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:114
+msgid "Auto login"
+msgstr ""
+
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:247
 msgid "Type here the name of your printer device"
 msgstr ""
@@ -15867,6 +15871,14 @@ msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:631
 msgid "If enabled, PrusaSlicer will not open a hyperlinks in your browser."
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:640
+msgid "Use Webinterface Rest-Login"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:641
+msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:637

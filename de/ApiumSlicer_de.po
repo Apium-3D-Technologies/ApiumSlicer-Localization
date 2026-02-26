@@ -6012,6 +6012,10 @@ msgstr "Benutzername"
 msgid "Ignore self-signed SSL"
 msgstr "Selbstsigniertes SSL ignorieren"
 
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:114
+msgid "Auto login"
+msgstr "Auto-Login"
+
 #. TRN Error dialog of configuration -> wifi configuration file
 #: src/slic3r/GUI/WifiConfigDialog.cpp:35
 msgid "Failed to scan wireless networks. Please fill SSID manually."
@@ -20042,6 +20046,14 @@ msgstr "Einen anderen Extruder verwenden"
 #: src/slic3r/GUI/Preferences.cpp:624
 msgid "Use binary G-code when the printer supports it"
 msgstr "Binären G-Code verwenden, wenn der Drucker ihn unterstützt"
+
+#: src/slic3r/GUI/Preferences.cpp:640
+msgid "Use Webinterface Rest-Login"
+msgstr "Webinterface REST-Login verwenden"
+
+#: src/slic3r/GUI/Preferences.cpp:641
+msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
+msgstr "Wenn aktiviert, nutzt der Webinterface-Autologin einen REST-Login-Aufruf statt das Login-Formular auszufüllen."
 
 #: src/slic3r/GUI/Preferences.cpp:543
 msgid "Use colors for axes values in Manipulation panel"

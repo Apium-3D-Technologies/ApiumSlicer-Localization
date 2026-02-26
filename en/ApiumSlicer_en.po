@@ -13129,6 +13129,10 @@ msgstr "Username"
 msgid "Ignore self-signed SSL"
 msgstr "Ignore self-signed SSL"
 
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:114
+msgid "Auto login"
+msgstr "Auto login"
+
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:247
 msgid "Type here the name of your printer device"
 msgstr "Type here the name of your printer device"
@@ -14266,6 +14270,14 @@ msgstr "If the 'Supports binary G-code' option is enabled in Printer Settings, c
 #: src/slic3r/GUI/Preferences.cpp:631
 msgid "If enabled, PrusaSlicer will not open a hyperlinks in your browser."
 msgstr "If enabled, ApiumSlicer will not open a hyperlinks in your browser."
+
+#: src/slic3r/GUI/Preferences.cpp:640
+msgid "Use Webinterface Rest-Login"
+msgstr "Use Webinterface Rest-Login"
+
+#: src/slic3r/GUI/Preferences.cpp:641
+msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
+msgstr "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
 
 #: src/slic3r/GUI/Preferences.cpp:637
 msgid "Show \"Log in\" button in application top bar"

@@ -15834,6 +15834,10 @@ msgstr "用户名"
 msgid "Ignore self-signed SSL"
 msgstr "忽略自签名 SSL"
 
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:114
+msgid "Auto login"
+msgstr "自动登录"
+
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:248
 msgid "Type here the name of your printer device"
 msgstr "在此处键入打印机设备的名称"
@@ -17166,6 +17170,14 @@ msgstr ""
 #: src/slic3r/GUI/Preferences.cpp:627
 msgid "If enabled, ApiumSlicer will not open a hyperlinks in your browser."
 msgstr "如果启用，ApiumSlicer将不会在你的浏览器中打开超链接。"
+
+#: src/slic3r/GUI/Preferences.cpp:640
+msgid "Use Webinterface Rest-Login"
+msgstr "使用 Webinterface REST 登录"
+
+#: src/slic3r/GUI/Preferences.cpp:641
+msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
+msgstr "启用后，Webinterface 自动登录将使用 REST 登录调用，而不是填充登录表单字段。"
 
 #: src/slic3r/GUI/Preferences.cpp:633
 msgid "Show STEP file import parameters"
