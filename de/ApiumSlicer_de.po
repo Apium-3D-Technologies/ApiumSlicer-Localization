@@ -20055,6 +20055,14 @@ msgstr "Webinterface REST-Login verwenden"
 msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
 msgstr "Wenn aktiviert, nutzt der Webinterface-Autologin einen REST-Login-Aufruf statt das Login-Formular auszufüllen."
 
+#: src/slic3r/GUI/Preferences.cpp:766
+msgid "Allow Webinterface over Tailscale"
+msgstr "Webinterface über Tailscale erlauben"
+
+#: src/slic3r/GUI/Preferences.cpp:767
+msgid "If enabled, self-signed certificates are accepted for Webinterface hosts in the Tailscale CGNAT range (100.64.0.0/10)."
+msgstr "Wenn aktiviert, werden selbstsignierte Zertifikate für Webinterface-Hosts im Tailscale-CGNAT-Bereich (100.64.0.0/10) akzeptiert."
+
 #: src/slic3r/GUI/Preferences.cpp:543
 msgid "Use colors for axes values in Manipulation panel"
 msgstr "Farben für Achsenwerte im Manipulationsfenster verwenden"

@@ -17179,6 +17179,14 @@ msgstr "使用 Webinterface REST 登录"
 msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
 msgstr "启用后，Webinterface 自动登录将使用 REST 登录调用，而不是填充登录表单字段。"
 
+#: src/slic3r/GUI/Preferences.cpp:766
+msgid "Allow Webinterface over Tailscale"
+msgstr "允许通过 Tailscale 使用 Webinterface"
+
+#: src/slic3r/GUI/Preferences.cpp:767
+msgid "If enabled, self-signed certificates are accepted for Webinterface hosts in the Tailscale CGNAT range (100.64.0.0/10)."
+msgstr "启用后，将接受 Tailscale CGNAT 网段（100.64.0.0/10）内 Webinterface 主机的自签名证书。"
+
 #: src/slic3r/GUI/Preferences.cpp:633
 msgid "Show STEP file import parameters"
 msgstr ""
