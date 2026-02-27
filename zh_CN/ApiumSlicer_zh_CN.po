@@ -13126,6 +13126,14 @@ msgstr "缩放打印体积"
 msgid "Scale the selected object to fit the print volume"
 msgstr "缩放所选对象以适合可打印体积"
 
+#: src/slic3r/GUI/GUI_Factories.cpp:981 src/slic3r/GUI/Plater.cpp:2195
+msgid "Move center"
+msgstr "移动到中心"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:981
+msgid "Move selected objects to bed center"
+msgstr "将选中的对象移动到打印床中心"
+
 #: src/slic3r/GUI/GUI_Factories.cpp:1017 src/slic3r/GUI/Plater.cpp:5655
 msgid "Convert from imperial units"
 msgstr "换算成英制单位"

@@ -12070,6 +12070,14 @@ msgstr ""
 msgid "Scale the selected object to fit the print volume"
 msgstr ""
 
+#: src/slic3r/GUI/GUI_Factories.cpp:981 src/slic3r/GUI/Plater.cpp:2195
+msgid "Move center"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp:981
+msgid "Move selected objects to bed center"
+msgstr ""
+
 #: src/slic3r/GUI/GUI_Factories.cpp:1016 src/slic3r/GUI/Plater.cpp:5349
 msgid "Convert from imperial units"
 msgstr ""

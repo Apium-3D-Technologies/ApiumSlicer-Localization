@@ -14510,6 +14510,14 @@ msgstr "Auf das gegebene Volumen skalieren."
 msgid "Scale to print volume"
 msgstr "Auf Druckvolumen skalieren"
 
+#: src/slic3r/GUI/GUI_Factories.cpp:981 src/slic3r/GUI/Plater.cpp:2195
+msgid "Move center"
+msgstr "In die Mitte verschieben"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:981
+msgid "Move selected objects to bed center"
+msgstr "Ausgewählte Objekte in die Bettmitte verschieben"
+
 #: src/libslic3r/PrintConfig.cpp:5615
 msgid "Scaling factor or percentage."
 msgstr "Skalierungsfaktor oder Prozentsatz."
