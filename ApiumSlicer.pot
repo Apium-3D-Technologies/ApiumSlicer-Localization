@@ -13062,7 +13062,7 @@ msgid "Import STL/3MF/STEP/OBJ/AMF without config, keep plater"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:98
-msgid "Import Config from ini/amf/3mf/gcode"
+msgid "Import Config File (.ini)"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:99
@@ -13791,7 +13791,7 @@ msgid "Load a ZIP archive"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1406
-msgid "Import &Config"
+msgid "Import Config &File"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1406
@@ -13799,10 +13799,18 @@ msgid "Load exported configuration file"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1409
-msgid "Import Config from &Project"
+msgid "Import Config from &G-code"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1409
+msgid "Load configuration from G-code file"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp:1412
+msgid "Import Config from &Project"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp:1412
 msgid "Load configuration from project file"
 msgstr ""
 
@@ -14207,7 +14215,15 @@ msgstr ""
 msgid "Loading of a configuration file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:1843 src/slic3r/GUI/MainFrame.cpp:1969
+#: src/slic3r/GUI/MainFrame.cpp:1843
+msgid "Select configuration file to load:"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp:1969
+msgid "Select G-code file to load settings from:"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp:2083
 msgid "Select configuration to load:"
 msgstr ""
 

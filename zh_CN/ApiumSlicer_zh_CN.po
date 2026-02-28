@@ -14116,8 +14116,8 @@ msgid "Import STL/3MF/STEP/OBJ/AMF without config, keep plater"
 msgstr "导入 STL/3MF/STEP/OBJ/AMF 而不配置，保留模板"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:98
-msgid "Import Config from ini/amf/3mf/gcode"
-msgstr "从这个 /amf/3mf/gcode 导入配置"
+msgid "Import Config File (.ini)"
+msgstr "导入配置文件 (.ini)"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:99
 msgid "Load Config from ini/amf/3mf/gcode and merge"
@@ -14942,12 +14942,20 @@ msgid "Load a ZIP archive"
 msgstr "加载ZIP存档"
 
 #: src/slic3r/GUI/MainFrame.cpp:1515
-msgid "Import &Config"
-msgstr "导入配置(&C)"
+msgid "Import Config &File"
+msgstr "导入配置文件(&F)"
 
 #: src/slic3r/GUI/MainFrame.cpp:1515
 msgid "Load exported configuration file"
 msgstr "加载导出的配置文件"
+
+#: src/slic3r/GUI/MainFrame.cpp:1518
+msgid "Import Config from &G-code"
+msgstr "从 G-code 导入配置(&G)"
+
+#: src/slic3r/GUI/MainFrame.cpp:1518
+msgid "Load configuration from G-code file"
+msgstr "从 G-code 文件加载配置"
 
 #: src/slic3r/GUI/MainFrame.cpp:1518
 msgid "Import Config from &Project"
@@ -15357,9 +15365,17 @@ msgstr "将配置另存为:"
 msgid "Loading of a configuration file"
 msgstr "加载配置文件"
 
-#: src/slic3r/GUI/MainFrame.cpp:1957 src/slic3r/GUI/MainFrame.cpp:2083
+#: src/slic3r/GUI/MainFrame.cpp:1957
+msgid "Select configuration file to load:"
+msgstr "选择要加载的配置文件:"
+
+#: src/slic3r/GUI/MainFrame.cpp:2083
 msgid "Select configuration to load:"
 msgstr "选择要加载的配置:"
+
+#: src/slic3r/GUI/MainFrame.cpp:1969
+msgid "Select G-code file to load settings from:"
+msgstr "选择用于加载设置的 G-code 文件:"
 
 #: src/slic3r/GUI/MainFrame.cpp:1967
 msgid ""

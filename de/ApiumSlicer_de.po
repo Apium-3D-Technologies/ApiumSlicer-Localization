@@ -8179,16 +8179,20 @@ msgid "Import 3D models only"
 msgstr "Nur 3D-Modelle importieren"
 
 #: src/slic3r/GUI/MainFrame.cpp:1406
-msgid "Import &Config"
-msgstr "Importiere &Konfiguration"
+msgid "Import Config &File"
+msgstr "Importiere Konfigurations&datei"
+
+#: src/slic3r/GUI/MainFrame.cpp:1409
+msgid "Import Config from &G-code"
+msgstr "Importiere Konfiguration aus &G-Code"
 
 #: src/slic3r/GUI/MainFrame.cpp:1413
 msgid "Import Config &Bundle"
 msgstr "Importiere Konfi&gurationssamlung"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:98
-msgid "Import Config from ini/amf/3mf/gcode"
-msgstr "Konfiguration aus ini/amf/3mf/gcode importieren"
+msgid "Import Config File (.ini)"
+msgstr "Konfigurationsdatei (.ini) importieren"
 
 #: src/slic3r/GUI/MainFrame.cpp:1409
 msgid "Import Config from &Project"
@@ -9295,6 +9299,14 @@ msgstr "Laden eines Konfigurationsbündels"
 #: src/slic3r/GUI/MainFrame.cpp:1841
 msgid "Loading of a configuration file"
 msgstr "Laden einer Konfigurationsdatei"
+
+#: src/slic3r/GUI/MainFrame.cpp:1843
+msgid "Select configuration file to load:"
+msgstr "Zu ladende Konfigurationsdatei auswählen:"
+
+#: src/slic3r/GUI/MainFrame.cpp:1969
+msgid "Select G-code file to load settings from:"
+msgstr "G-Code-Datei zum Laden der Einstellungen auswählen:"
 
 #: src/slic3r/GUI/GUI_App.cpp:2047
 msgid "Loading of a mode view"
@@ -30114,3 +30126,6 @@ msgstr "Warnschwelle für den finalen Extrusionsmultiplikator (Linienart-Multipl
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Extrusion width (mm)"
 msgstr "Extrusionsbreite (mm)"
+#: src/slic3r/GUI/MainFrame.cpp:1409
+msgid "Load configuration from G-code file"
+msgstr "Lade Konfiguration aus G-Code-Datei"
