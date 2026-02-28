@@ -11940,6 +11940,31 @@ msgstr "平整的"
 msgid "Keep min"
 msgstr "保持最小"
 
+#: src/slic3r/GUI/GLCanvas3D.cpp:360
+msgid "Min. Height"
+msgstr "最小层高"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:371
+#, c-format
+msgid "Allowed range: %.3f - %.3f mm"
+msgstr "允许范围：%.3f - %.3f mm"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:372
+msgid "Session only. Resets on close/undo/redo."
+msgstr "仅当前编辑会话有效。关闭/撤销/重做后重置。"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:379
+msgid "Max. Height"
+msgstr "最大层高"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:397
+msgid "Reset Min/Max"
+msgstr "重置最小/最大"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:403
+msgid "Reset to default bounds for this session."
+msgstr "重置为当前会话的默认边界。"
+
 #: src/slic3r/GUI/GLCanvas3D.cpp:750
 msgid "Variable layer height - Manual edit"
 msgstr "可变层高度-手动编辑"
@@ -29289,3 +29314,99 @@ msgstr "最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Extrusion width (mm)"
 msgstr "挤出宽度 (mm)"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Printhead"
+msgstr "打印头"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead type"
+msgstr "打印头类型"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has Zoneheater"
+msgstr "带有区段加热器"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater maximum power"
+msgstr "区段加热器最大功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select the printhead type installed on each extruder."
+msgstr "选择每个挤出机安装的打印头类型。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this for extruders that have a zoneheater installed on the printhead."
+msgstr "对于打印头上安装了区段加热器的挤出机启用此项。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
+msgstr "该挤出机允许的区段加热器最大功率。用于可变区段加热器功率编辑的上限。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
+msgstr "区段加热器工作模式：关闭、手动或自适应"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using manual mode."
+msgstr "使用手动模式时的加热功率百分比。"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Edit Zoneheater Power"
+msgstr "编辑区段加热器功率"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Min. Zoneheater Power"
+msgstr "最小区段加热器功率"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Max. Zoneheater Power"
+msgstr "最大区段加热器功率"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Reset Zoneheater Power"
+msgstr "重置区段加热器功率"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater static power and Variable Zoneheater Power are both active.\nThe static value is emitted at print start, then per-object variable values are emitted during printing."
+msgstr "区段加热器静态功率和可变区段加热器功率同时启用。\n静态值会在打印开始时输出，随后在打印过程中按对象输出可变值。"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power"
+msgstr "可变区段加热器功率"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increment"
+msgstr "步进"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power - Manual edit"
+msgstr "可变区段加热器功率 - 手动编辑"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increase power"
+msgstr "提高功率"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Decrease power"
+msgstr "降低功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "HighTemp"
+msgstr "高温"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Single Component"
+msgstr "ViscoTec 单组分"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Dual Component"
+msgstr "ViscoTec 双组分"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater commands were skipped because requirements are not met:"
+msgstr "由于不满足要求，已跳过区段加热器指令："
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater power above 75% detected:"
+msgstr "检测到区段加热器功率超过 75%："

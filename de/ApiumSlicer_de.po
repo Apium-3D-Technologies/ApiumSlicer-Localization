@@ -8868,6 +8868,31 @@ msgstr "Lüfter ständig laufen lassen"
 msgid "Keep min"
 msgstr "Halte min"
 
+#: src/slic3r/GUI/GLCanvas3D.cpp:360
+msgid "Min. Height"
+msgstr "Min. Höhe"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:371
+#, c-format
+msgid "Allowed range: %.3f - %.3f mm"
+msgstr "Zulässiger Bereich: %.3f - %.3f mm"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:372
+msgid "Session only. Resets on close/undo/redo."
+msgstr "Nur für diese Sitzung. Wird beim Schließen/Undo/Redo zurückgesetzt."
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:379
+msgid "Max. Height"
+msgstr "Max. Höhe"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:397
+msgid "Reset Min/Max"
+msgstr "Min/Max zurücksetzen"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:403
+msgid "Reset to default bounds for this session."
+msgstr "Auf Standardgrenzen für diese Sitzung zurücksetzen."
+
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:231
 msgid "Keep orientation"
 msgstr "Orientierung behalten"
@@ -30119,6 +30144,74 @@ msgstr "Multiplikator für Brim- und Skirt-Extrusionen."
 msgid "Minimum extrusion multiplier warning"
 msgstr "Warnung bei minimalem Extrusionsmultiplikator"
 
+#: src/slic3r/GUI/Tab.cpp
+msgid "Printhead"
+msgstr "Druckkopf"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead type"
+msgstr "Druckkopftyp"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has Zoneheater"
+msgstr "Hat Zonenheizer"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater maximum power"
+msgstr "Maximale Zonenheizer-Leistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select the printhead type installed on each extruder."
+msgstr "Wählen Sie den Druckkopftyp, der an jedem Extruder installiert ist."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this for extruders that have a zoneheater installed on the printhead."
+msgstr "Aktivieren Sie dies für Extruder, die einen Zonenheizer am Druckkopf haben."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
+msgstr "Maximal erlaubte Zonenheizer-Leistung für diesen Extruder. Wird als obere Grenze bei der Bearbeitung von Variable Zoneheater Power verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
+msgstr "Zonenheizer-Betriebsmodus: Aus, Manuell oder Adaptiv"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using manual mode."
+msgstr "Heizerleistung in Prozent bei manuellem Modus."
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Edit Zoneheater Power"
+msgstr "Zoneheater-Leistung bearbeiten"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Min. Zoneheater Power"
+msgstr "Min. Zoneheater-Leistung"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Max. Zoneheater Power"
+msgstr "Max. Zoneheater-Leistung"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Reset Zoneheater Power"
+msgstr "Zoneheater-Leistung zurücksetzen"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater static power and Variable Zoneheater Power are both active.\nThe static value is emitted at print start, then per-object variable values are emitted during printing."
+msgstr "Zoneheater Static Power und Variable Zoneheater Power sind beide aktiv.\nDer statische Wert wird zu Druckbeginn ausgegeben, danach werden objektabhängige variable Werte während des Drucks ausgegeben."
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power"
+msgstr "Variable Zoneheater-Leistung"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increment"
+msgstr "Schrittweite"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power - Manual edit"
+msgstr "Variable Zoneheater-Leistung - Manuelle Bearbeitung"
+
 #: src/libslic3r/PrintConfig.cpp
 msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
 msgstr "Warnschwelle für den finalen Extrusionsmultiplikator (Linienart-Multiplikator mal Filament-Extrusionsmultiplikator). Eine nicht blockierende Slicing-Warnung wird angezeigt, wenn der finale Multiplikator unter diesen Wert fällt. Auf 0 setzen, um Warnungen zu deaktivieren."
@@ -30126,6 +30219,34 @@ msgstr "Warnschwelle für den finalen Extrusionsmultiplikator (Linienart-Multipl
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Extrusion width (mm)"
 msgstr "Extrusionsbreite (mm)"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increase power"
+msgstr "Leistung erhöhen"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Decrease power"
+msgstr "Leistung verringern"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "HighTemp"
+msgstr "HighTemp"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Single Component"
+msgstr "ViscoTec Einzelkomponente"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Dual Component"
+msgstr "ViscoTec Zweikomponente"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater commands were skipped because requirements are not met:"
+msgstr "Zoneheater-Befehle wurden übersprungen, da die Voraussetzungen nicht erfüllt sind:"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater power above 75% detected:"
+msgstr "Zoneheater-Leistung über 75% erkannt:"
 #: src/slic3r/GUI/MainFrame.cpp:1409
 msgid "Load configuration from G-code file"
 msgstr "Lade Konfiguration aus G-Code-Datei"

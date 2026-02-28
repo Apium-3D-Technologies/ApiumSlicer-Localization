@@ -11032,6 +11032,31 @@ msgstr ""
 msgid "Keep min"
 msgstr ""
 
+#: src/slic3r/GUI/GLCanvas3D.cpp:360
+msgid "Min. Height"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:371
+#, c-format
+msgid "Allowed range: %.3f - %.3f mm"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:372
+msgid "Session only. Resets on close/undo/redo."
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:379
+msgid "Max. Height"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:397
+msgid "Reset Min/Max"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:403
+msgid "Reset to default bounds for this session."
+msgstr ""
+
 #: src/slic3r/GUI/GLCanvas3D.cpp:625
 msgid "Variable layer height - Manual edit"
 msgstr ""
@@ -19098,4 +19123,100 @@ msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Extrusion width (mm)"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Printhead"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead type"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has Zoneheater"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater maximum power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select the printhead type installed on each extruder."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this for extruders that have a zoneheater installed on the printhead."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Heater power in percent when using manual mode."
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Edit Zoneheater Power"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Min. Zoneheater Power"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Max. Zoneheater Power"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Reset Zoneheater Power"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater static power and Variable Zoneheater Power are both active.\nThe static value is emitted at print start, then per-object variable values are emitted during printing."
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increment"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Variable Zoneheater Power - Manual edit"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Increase power"
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Decrease power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "HighTemp"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Single Component"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "ViscoTec Dual Component"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater commands were skipped because requirements are not met:"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater power above 75% detected:"
 msgstr ""
