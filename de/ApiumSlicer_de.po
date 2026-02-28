@@ -17163,6 +17163,10 @@ msgstr "Temperatur"
 msgid "Temperature (°C)"
 msgstr "Temperatur (°C)"
 
+#: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
+msgid "Zoneheater power (%)"
+msgstr "Zoneheater-Leistung (%)"
+
 #. TRN PrintSettings : "Ooze prevention" > "Temperature variation"
 #: src/libslic3r/PrintConfig.cpp:2808
 msgid ""

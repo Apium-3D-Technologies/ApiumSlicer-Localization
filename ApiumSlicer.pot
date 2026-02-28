@@ -8838,6 +8838,10 @@ msgid "Temperature (°C)"
 msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
+msgid "Zoneheater power (%)"
+msgstr ""
+
+#: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
 msgid "Volumetric flow rate (mm³/s)"
 msgstr ""
 

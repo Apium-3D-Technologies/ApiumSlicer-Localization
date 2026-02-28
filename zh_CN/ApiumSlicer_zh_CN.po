@@ -9668,6 +9668,10 @@ msgid "Temperature (°C)"
 msgstr "温度 (摄氏度)"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2449 src/slic3r/GUI/GCodeViewer.cpp:2467
+msgid "Zoneheater power (%)"
+msgstr "区域加热功率 (%)"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:2449 src/slic3r/GUI/GCodeViewer.cpp:2467
 msgid "Volumetric flow rate (mm³/s)"
 msgstr "体积流量 (mm³/s)"
 
