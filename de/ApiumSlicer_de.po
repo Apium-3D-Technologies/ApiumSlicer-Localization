@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2026-03-01 20:40+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13442,6 +13442,22 @@ msgstr "Raft Erweiterung"
 #: src/libslic3r/PrintConfig.cpp:2454
 msgid "Raft layers"
 msgstr "Raftschichten"
+
+#: src/libslic3r/PrintConfig.cpp:2959
+msgid "Raft base pattern"
+msgstr "Raft-Basis-Muster"
+
+#: src/libslic3r/PrintConfig.cpp:2962
+msgid "Fill pattern for raft base layers. Honeycomb provides better adhesion and rigidity, while rectilinear is faster to print."
+msgstr "Füllmuster für die Raft-Basisschichten. Wabenmuster bietet bessere Haftung und Steifigkeit, Rectilinear druckt schneller."
+
+#: src/libslic3r/PrintConfig.cpp:2972
+msgid "Raft base pattern spacing"
+msgstr "Abstand des Raft-Basis-Musters"
+
+#: src/libslic3r/PrintConfig.cpp:2975
+msgid "Spacing between raft base pattern lines. Smaller values produce a denser raft."
+msgstr "Abstand zwischen den Linien des Raft-Basis-Musters. Kleinere Werte erzeugen ein dichteres Raft."
 
 #: src/slic3r/GUI/WipeTowerDialog.cpp:30
 msgid "Ramming customization"

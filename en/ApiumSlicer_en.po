@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-03 10:01+0200\n"
+"POT-Creation-Date: 2026-03-01 20:40+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2591,6 +2591,22 @@ msgstr "Raft layers"
 #: src/libslic3r/PrintConfig.cpp:2456
 msgid "The object will be raised by this number of layers, and support material will be generated under it."
 msgstr "The object will be raised by this number of layers, and support material will be generated under it."
+
+#: src/libslic3r/PrintConfig.cpp:2959
+msgid "Raft base pattern"
+msgstr "Raft base pattern"
+
+#: src/libslic3r/PrintConfig.cpp:2962
+msgid "Fill pattern for raft base layers. Honeycomb provides better adhesion and rigidity, while rectilinear is faster to print."
+msgstr "Fill pattern for raft base layers. Honeycomb provides better adhesion and rigidity, while rectilinear is faster to print."
+
+#: src/libslic3r/PrintConfig.cpp:2972
+msgid "Raft base pattern spacing"
+msgstr "Raft base pattern spacing"
+
+#: src/libslic3r/PrintConfig.cpp:2975
+msgid "Spacing between raft base pattern lines. Smaller values produce a denser raft."
+msgstr "Spacing between raft base pattern lines. Smaller values produce a denser raft."
 
 #: src/libslic3r/PrintConfig.cpp:2464
 msgid "Slice resolution"

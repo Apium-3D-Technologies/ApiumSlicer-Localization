@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 10:15+0200\n"
+"POT-Creation-Date: 2026-03-01 20:40+0100\n"
 "PO-Revision-Date: 2025-12-17 03:35+0100\n"
 "Last-Translator: Ptsa <ptsa1987@gmail.com>\n"
 "Language-Team: ptsa1987@gmail.com\n"
@@ -3740,6 +3740,22 @@ msgid ""
 "The object will be raised by this number of layers, and support material "
 "will be generated under it."
 msgstr "对象将相对此层数抬高，并在其下生成支撑材料。"
+
+#: src/libslic3r/PrintConfig.cpp:2959
+msgid "Raft base pattern"
+msgstr "Raft 基础填充模式"
+
+#: src/libslic3r/PrintConfig.cpp:2962
+msgid "Fill pattern for raft base layers. Honeycomb provides better adhesion and rigidity, while rectilinear is faster to print."
+msgstr "Raft 基础层的填充模式。蜂窝提供更好的附着和刚性，直线填充打印更快。"
+
+#: src/libslic3r/PrintConfig.cpp:2972
+msgid "Raft base pattern spacing"
+msgstr "Raft 基础填充间距"
+
+#: src/libslic3r/PrintConfig.cpp:2975
+msgid "Spacing between raft base pattern lines. Smaller values produce a denser raft."
+msgstr "Raft 基础填充线之间的间距。数值越小，Raft 越致密。"
 
 #: src/libslic3r/PrintConfig.cpp:2680
 msgid "Slice resolution"
