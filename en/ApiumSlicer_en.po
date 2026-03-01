@@ -11297,6 +11297,10 @@ msgstr "Mirror along %1% axis"
 msgid "Drop to bed"
 msgstr "Drop to bed"
 
+#: src/slic3r/GUI/GUI_ObjectManipulation.cpp
+msgid "Lock Z axis to the print bed.\nWhen locked (default), objects cannot be lifted off or pushed\ninto the bed by editing the Z position.\nWhen unlocked, the Z position can be set freely."
+msgstr "Lock Z axis to the print bed.\nWhen locked (default), objects cannot be lifted off or pushed\ninto the bed by editing the Z position.\nWhen unlocked, the Z position can be set freely."
+
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:433
 msgid "Reset Rotation"
 msgstr "Reset Rotation"
