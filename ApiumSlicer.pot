@@ -1196,6 +1196,22 @@ msgstr ""
 msgid "This fan speed is enforced during all bridges and overhangs."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:731
+msgid "Support fan speed"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:732
+msgid "Fan speed enforced while printing support material. Set to -1 to disable and use the standard layer fan speed."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:741
+msgid "Support interface fan speed"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:742
+msgid "Fan speed enforced while printing support interface layers. Set to -1 to disable and use the standard layer fan speed."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:627 src/libslic3r/PrintConfig.cpp:738
 #: src/libslic3r/PrintConfig.cpp:747 src/libslic3r/PrintConfig.cpp:756
 #: src/libslic3r/PrintConfig.cpp:765 src/libslic3r/PrintConfig.cpp:1269

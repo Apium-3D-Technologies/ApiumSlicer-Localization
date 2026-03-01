@@ -1321,6 +1321,22 @@ msgstr "桥接风扇速度"
 msgid "This fan speed is enforced during all bridges and overhangs."
 msgstr "此风扇速度在所有桥和悬空期间强制执行。"
 
+#: src/libslic3r/PrintConfig.cpp:731
+msgid "Support fan speed"
+msgstr "支撑风扇速度"
+
+#: src/libslic3r/PrintConfig.cpp:732
+msgid "Fan speed enforced while printing support material. Set to -1 to disable and use the standard layer fan speed."
+msgstr "打印支撑材料时强制使用的风扇速度。设为 -1 可禁用并使用标准层风扇速度。"
+
+#: src/libslic3r/PrintConfig.cpp:741
+msgid "Support interface fan speed"
+msgstr "支撑界面风扇速度"
+
+#: src/libslic3r/PrintConfig.cpp:742
+msgid "Fan speed enforced while printing support interface layers. Set to -1 to disable and use the standard layer fan speed."
+msgstr "打印支撑界面层时强制使用的风扇速度。设为 -1 可禁用并使用标准层风扇速度。"
+
 #: src/libslic3r/PrintConfig.cpp:700 src/libslic3r/PrintConfig.cpp:822
 #: src/libslic3r/PrintConfig.cpp:831 src/libslic3r/PrintConfig.cpp:840
 #: src/libslic3r/PrintConfig.cpp:849 src/libslic3r/PrintConfig.cpp:1387

@@ -1965,6 +1965,22 @@ msgstr "Überbrückungen"
 msgid "Bridges fan speed"
 msgstr "Brückenlüftergeschwindigkeit"
 
+#: src/libslic3r/PrintConfig.cpp:731
+msgid "Support fan speed"
+msgstr "Stützstruktur-Lüftergeschwindigkeit"
+
+#: src/libslic3r/PrintConfig.cpp:732
+msgid "Fan speed enforced while printing support material. Set to -1 to disable and use the standard layer fan speed."
+msgstr "Lüftergeschwindigkeit beim Druck von Stützstrukturen. Auf -1 setzen, um diese Funktion zu deaktivieren und die standardmäßige Schichtlüftergeschwindigkeit zu verwenden."
+
+#: src/libslic3r/PrintConfig.cpp:741
+msgid "Support interface fan speed"
+msgstr "Stützstruktur-Interface-Lüftergeschwindigkeit"
+
+#: src/libslic3r/PrintConfig.cpp:742
+msgid "Fan speed enforced while printing support interface layers. Set to -1 to disable and use the standard layer fan speed."
+msgstr "Lüftergeschwindigkeit beim Druck von Stützstruktur-Interfacelagen. Auf -1 setzen, um diese Funktion zu deaktivieren und die standardmäßige Schichtlüftergeschwindigkeit zu verwenden."
+
 #: src/libslic3r/PrintConfig.cpp:614
 msgid "Bridging angle"
 msgstr "Überbrückungswinkel"
