@@ -670,6 +670,10 @@ msgstr "Teil hinzufügen"
 msgid "Add Pause"
 msgstr "Pause hinzufügen"
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:657
+msgid "Add Zoneheater Power"
+msgstr "Zoneheater-Leistung hinzufügen"
+
 #: src/slic3r/GUI/PresetComboBoxes.cpp:869
 #: src/slic3r/GUI/PresetComboBoxes.cpp:918 src/slic3r/GUI/Tab.cpp:3814
 msgid "Add physical printer"
@@ -10005,6 +10009,23 @@ msgstr "Nachricht"
 msgid "Message for pause print on current layer (%1% mm)."
 msgstr "Meldung für die Druckpause auf der aktuellen Schicht (%1% mm)."
 
+#: src/slic3r/GUI/GUI_Preview.cpp:499
+msgid "Enter zoneheater power in percent (0-100)"
+msgstr "Zoneheater-Leistung in Prozent eingeben (0-100)"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:500
+#, boost-format
+msgid "Zoneheater power on current layer (%1% mm)."
+msgstr "Zoneheater-Leistung auf aktueller Schicht (%1% mm)."
+
+#: src/slic3r/GUI/GUI_Preview.cpp:515
+msgid "Enter a finite value between 0 and 100."
+msgstr "Geben Sie einen endlichen Wert zwischen 0 und 100 ein."
+
+#: src/slic3r/GUI/GUI_Preview.cpp:516
+msgid "Invalid zoneheater power"
+msgstr "Ungültige Zoneheater-Leistung"
+
 #: src/slic3r/GUI/GCodeViewer.cpp:1980
 msgctxt "Metre"
 msgid "m"
@@ -17166,6 +17187,14 @@ msgstr "Temperatur (°C)"
 #: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
 msgid "Zoneheater power (%)"
 msgstr "Zoneheater-Leistung (%)"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode changed from variable. Variable zoneheater power profiles were reset."
+msgstr "Zonenheizermoduls aus Variabel umgeschaltet. Variable Zonenheizer-Leistungsprofile wurden zurückgesetzt."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode is not active or zoneheater is disabled. Variable zoneheater power settings were reset."
+msgstr "Zonenheizer-Modus ist nicht aktiv oder der Zonenheizer ist deaktiviert. Variable Zonenheizer-Leistungseinstellungen wurden zurückgesetzt."
 
 #. TRN PrintSettings : "Ooze prevention" > "Temperature variation"
 #: src/libslic3r/PrintConfig.cpp:2808
@@ -29943,8 +29972,8 @@ msgid "Zoneheater mode"
 msgstr "Zonenheizer Modus"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Static, or Adaptive"
-msgstr "Zonenheizer Modus: Aus, Statis, Adaptive"
+msgid "Zoneheater operation mode.\nOff: no zoneheater commands are emitted.\nStatic: a fixed power level (zoneheater_static_power) is set once at the start; the variable tool is disabled.\nVariable: per-layer power is controlled via the variable zoneheater power profile; the static power setting is inactive.\nAdaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr "Zonenheizer-Betriebsmodus.\nAus: Es werden keine Zonenheizer-Befehle ausgegeben.\nStatisch: Eine feste Leistungsstufe (zoneheater_static_power) wird einmal zu Beginn gesetzt; das variable Werkzeug ist deaktiviert.\nVariabel: Die Leistung pro Schicht wird über das variable Zonenheizer-Leistungsprofil gesteuert; die statische Leistungseinstellung ist inaktiv.\nAdaptiv: Automatische adaptive Beheizung (verwendet zoneheater_adaptive_multiplier)."
 
 
 
@@ -30175,14 +30204,6 @@ msgstr "Aktivieren Sie dies für Extruder, die einen Zonenheizer am Druckkopf ha
 #: src/libslic3r/PrintConfig.cpp
 msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
 msgstr "Maximal erlaubte Zonenheizer-Leistung für diesen Extruder. Wird als obere Grenze bei der Bearbeitung von Variable Zoneheater Power verwendet."
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
-msgstr "Zonenheizer-Betriebsmodus: Aus, Manuell oder Adaptiv"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Heater power in percent when using manual mode."
-msgstr "Heizerleistung in Prozent bei manuellem Modus."
 
 #: src/slic3r/GUI/GLCanvas3D.cpp
 msgid "Edit Zoneheater Power"

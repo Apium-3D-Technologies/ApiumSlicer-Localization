@@ -8751,6 +8751,10 @@ msgstr ""
 msgid "Add Pause"
 msgstr ""
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:657
+msgid "Add Zoneheater Power"
+msgstr "添加区域加热功率"
+
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:656
 msgid "Add Custom G-code"
 msgstr ""
@@ -9670,6 +9674,14 @@ msgstr "温度 (摄氏度)"
 #: src/slic3r/GUI/GCodeViewer.cpp:2449 src/slic3r/GUI/GCodeViewer.cpp:2467
 msgid "Zoneheater power (%)"
 msgstr "区域加热功率 (%)"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode changed from variable. Variable zoneheater power profiles were reset."
+msgstr "区段加热器模式已从可变模式切换。可变区段加热器功率配置文件已重置。"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode is not active or zoneheater is disabled. Variable zoneheater power settings were reset."
+msgstr "区段加热器模式未激活或区段加热器已禁用。可变区段加热器功率设置已重置。"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2449 src/slic3r/GUI/GCodeViewer.cpp:2467
 msgid "Volumetric flow rate (mm³/s)"
@@ -13901,6 +13913,23 @@ msgstr "输入暂停打印时打印机显示屏上显示的短消息"
 #, boost-format
 msgid "Message for pause print on current layer (%1% mm)."
 msgstr "在当前图层（%1%mm）上暂停打印的消息。"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:499
+msgid "Enter zoneheater power in percent (0-100)"
+msgstr "输入区域加热功率百分比 (0-100)"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:500
+#, boost-format
+msgid "Zoneheater power on current layer (%1% mm)."
+msgstr "当前层上的区域加热功率（%1% mm）。"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:515
+msgid "Enter a finite value between 0 and 100."
+msgstr "请输入 0 到 100 之间的有限数值。"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:516
+msgid "Invalid zoneheater power"
+msgstr "无效的区域加热功率"
 
 #: src/slic3r/GUI/GUI_Preview.cpp:722
 msgid "NOTE:"
@@ -29108,8 +29137,8 @@ msgid "Zoneheater mode"
 msgstr "区域加热器模式"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Static, or Adaptive"
-msgstr "区域加热器操作模式：关闭、静态或自适应"
+msgid "Zoneheater operation mode.\nOff: no zoneheater commands are emitted.\nStatic: a fixed power level (zoneheater_static_power) is set once at the start; the variable tool is disabled.\nVariable: per-layer power is controlled via the variable zoneheater power profile; the static power setting is inactive.\nAdaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr "区域加热器操作模式。\n关闭：不发出任何区域加热器命令。\n静态：在开始时一次性设置固定功率级别（zoneheater_static_power）；可变工具被禁用。\n可变：每层功率通过可变区域加热器功率配置文件控制；静态功率设置不生效。\n自适应：自动自适应加热（使用 zoneheater_adaptive_multiplier）。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater static power"
@@ -29346,14 +29375,6 @@ msgstr "对于打印头上安装了区段加热器的挤出机启用此项。"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
 msgstr "该挤出机允许的区段加热器最大功率。用于可变区段加热器功率编辑的上限。"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
-msgstr "区段加热器工作模式：关闭、手动或自适应"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Heater power in percent when using manual mode."
-msgstr "使用手动模式时的加热功率百分比。"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp
 msgid "Edit Zoneheater Power"

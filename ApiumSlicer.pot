@@ -7964,6 +7964,10 @@ msgstr ""
 msgid "Add Pause"
 msgstr ""
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:657
+msgid "Add Zoneheater Power"
+msgstr ""
+
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:656
 msgid "Add Custom G-code"
 msgstr ""
@@ -8839,6 +8843,14 @@ msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
 msgid "Zoneheater power (%)"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode changed from variable. Variable zoneheater power profiles were reset."
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Zoneheater mode is not active or zoneheater is disabled. Variable zoneheater power settings were reset."
 msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2297 src/slic3r/GUI/GCodeViewer.cpp:2315
@@ -12838,6 +12850,23 @@ msgstr ""
 #: src/slic3r/GUI/GUI_Preview.cpp:468
 #, possible-boost-format
 msgid "Message for pause print on current layer (%1% mm)."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp:499
+msgid "Enter zoneheater power in percent (0-100)"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp:500
+#, possible-boost-format
+msgid "Zoneheater power on current layer (%1% mm)."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp:515
+msgid "Enter a finite value between 0 and 100."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp:516
+msgid "Invalid zoneheater power"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Preview.cpp:717
@@ -18906,7 +18935,7 @@ msgid "Zoneheater mode"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Static, or Adaptive"
+msgid "Zoneheater operation mode.\nOff: no zoneheater commands are emitted.\nStatic: a fixed power level (zoneheater_static_power) is set once at the start; the variable tool is disabled.\nVariable: per-layer power is controlled via the variable zoneheater power profile; the static power setting is inactive.\nAdaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19158,11 +19187,11 @@ msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bou
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode: Off, Manual, or Adaptive"
+msgid "Zoneheater operation mode: Off, Static, Variable, or Adaptive"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Heater power in percent when using manual mode."
+msgid "Heater power in percent when using static mode."
 msgstr ""
 
 #: src/slic3r/GUI/GLCanvas3D.cpp
