@@ -19293,3 +19293,112 @@ msgstr ""
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater power above 75% detected:"
 msgstr ""
+
+#. Versioning feature strings
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/MainFrame.cpp
+msgid "Save Version"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Initial"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Title:"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Message:"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/Preferences.cpp
+msgid "Author:"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/Preferences.cpp
+msgid "E-mail:"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Title is required."
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Invalid e-mail address."
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Your name as it will appear in the version history"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Your e-mail address as it will appear in the version history"
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Short version title (max. 21 characters), e.g. \"Added support\" "
+msgstr ""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Optional longer description of the changes in this version (max. 500 characters)"
+msgstr ""
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Browse and restore named project versions"
+msgstr ""
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "(No versions yet)"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Project Versioning"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Author name:"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Author e-mail:"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Name used as Git commit author for versioned saves"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "E-mail address used as Git commit author for versioned saves"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "This project is not versioned yet. Do you want to start versioning?"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Versioned Save"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to initialize versioning."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to open project for versioning."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Maximum version number reached. Cannot create new version."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Internal error: Failed to create version."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "The current project has unsaved changes.\n\nDo you want to save before switching to version %s?\n\nNote: Saving will create a new commit on top of the current history."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Unsaved Changes"
+msgstr ""

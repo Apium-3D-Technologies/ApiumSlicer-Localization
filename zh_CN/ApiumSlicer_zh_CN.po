@@ -927,8 +927,8 @@ msgid ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://username:"
-"password@your-octopi-address/"
+"name and password into the URL in the following format: https://"
+"username:password@your-octopi-address/"
 msgstr ""
 "Slic3r 可以将 G-Code 文件上传到打印机主机。此字段应包含打印机主机实例的主机"
 "名、IP 地址或 URL。通过将用户名和密码按以下格式输入 URL，可以访问启用基本身份"
@@ -1326,7 +1326,9 @@ msgid "Support fan speed"
 msgstr "支撑风扇速度"
 
 #: src/libslic3r/PrintConfig.cpp:732
-msgid "Fan speed enforced while printing support material. Set to -1 to disable and use the standard layer fan speed."
+msgid ""
+"Fan speed enforced while printing support material. Set to -1 to disable and "
+"use the standard layer fan speed."
 msgstr "打印支撑材料时强制使用的风扇速度。设为 -1 可禁用并使用标准层风扇速度。"
 
 #: src/libslic3r/PrintConfig.cpp:741
@@ -1334,8 +1336,11 @@ msgid "Support interface fan speed"
 msgstr "支撑界面风扇速度"
 
 #: src/libslic3r/PrintConfig.cpp:742
-msgid "Fan speed enforced while printing support interface layers. Set to -1 to disable and use the standard layer fan speed."
-msgstr "打印支撑界面层时强制使用的风扇速度。设为 -1 可禁用并使用标准层风扇速度。"
+msgid ""
+"Fan speed enforced while printing support interface layers. Set to -1 to "
+"disable and use the standard layer fan speed."
+msgstr ""
+"打印支撑界面层时强制使用的风扇速度。设为 -1 可禁用并使用标准层风扇速度。"
 
 #: src/libslic3r/PrintConfig.cpp:700 src/libslic3r/PrintConfig.cpp:822
 #: src/libslic3r/PrintConfig.cpp:831 src/libslic3r/PrintConfig.cpp:840
@@ -3166,9 +3171,9 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2159
 msgid ""
-"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
-"bgcode files, make sure you have binary G-code enabled in Configuration-"
-">Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To "
+"generate .bgcode files, make sure you have binary G-code enabled in "
+"Configuration->Preferences->Other."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2165
@@ -3746,7 +3751,9 @@ msgid "Raft base pattern"
 msgstr "Raft 基础填充模式"
 
 #: src/libslic3r/PrintConfig.cpp:2962
-msgid "Fill pattern for raft base layers. Honeycomb provides better adhesion and rigidity, while rectilinear is faster to print."
+msgid ""
+"Fill pattern for raft base layers. Honeycomb provides better adhesion and "
+"rigidity, while rectilinear is faster to print."
 msgstr "Raft 基础层的填充模式。蜂窝提供更好的附着和刚性，直线填充打印更快。"
 
 #: src/libslic3r/PrintConfig.cpp:2972
@@ -3754,7 +3761,9 @@ msgid "Raft base pattern spacing"
 msgstr "Raft 基础填充间距"
 
 #: src/libslic3r/PrintConfig.cpp:2975
-msgid "Spacing between raft base pattern lines. Smaller values produce a denser raft."
+msgid ""
+"Spacing between raft base pattern lines. Smaller values produce a denser "
+"raft."
 msgstr "Raft 基础填充线之间的间距。数值越小，Raft 越致密。"
 
 #: src/libslic3r/PrintConfig.cpp:2680
@@ -5717,8 +5726,8 @@ msgstr "怠速温度"
 
 #: src/libslic3r/PrintConfig.cpp:4456
 msgid ""
-"Nozzle temperature when the tool is currently not used in multi-tool setups."
-"This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool "
+"setups.This is only used when 'Ooze prevention' is active in Print Settings."
 msgstr ""
 "在多工具设置中，当前不使用工具时的喷嘴温度。这仅在打印设置中 \"防渗 \"激活时"
 "使用。"
@@ -6524,8 +6533,8 @@ msgstr "日志级别"
 
 #: src/libslic3r/PrintConfig.cpp:5992
 msgid ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
-"trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
+"5:trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 msgstr ""
 "设置日志敏感度。0:致命、1:错误、2:警告、3:信息、4:调试、5:跟踪\n"
@@ -8182,9 +8191,9 @@ msgstr "自动更新内置预设"
 #, c-format, boost-format
 msgid ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary location."
-"When a new preset version becomes available it is offered at application "
-"startup."
+"background.These updates are downloaded into a separate temporary "
+"location.When a new preset version becomes available it is offered at "
+"application startup."
 msgstr ""
 "如果启用，%s 会在后台下载内置系统预设的更新。这些更新将下载到单独的临时位置。"
 "当新的预设版本可用时，它会在应用程序启动时提示。"
@@ -8676,8 +8685,8 @@ msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:497
 msgid ""
-"Performing downloader desktop integration failed - boost::filesystem::"
-"canonical did not return appimage path."
+"Performing downloader desktop integration failed - "
+"boost::filesystem::canonical did not return appimage path."
 msgstr ""
 "执行下载器桌面集成失败-boost:：filesystem：：canonical未返回appimage路径。"
 
@@ -9708,11 +9717,15 @@ msgid "Zoneheater power (%)"
 msgstr "区域加热功率 (%)"
 
 #: src/slic3r/GUI/Plater.cpp
-msgid "Zoneheater mode changed from variable. Variable zoneheater power profiles were reset."
+msgid ""
+"Zoneheater mode changed from variable. Variable zoneheater power profiles "
+"were reset."
 msgstr "区段加热器模式已从可变模式切换。可变区段加热器功率配置文件已重置。"
 
 #: src/slic3r/GUI/Plater.cpp
-msgid "Zoneheater mode is not active or zoneheater is disabled. Variable zoneheater power settings were reset."
+msgid ""
+"Zoneheater mode is not active or zoneheater is disabled. Variable zoneheater "
+"power settings were reset."
 msgstr "区段加热器模式未激活或区段加热器已禁用。可变区段加热器功率设置已重置。"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2449 src/slic3r/GUI/GCodeViewer.cpp:2467
@@ -12536,8 +12549,8 @@ msgid ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of ApiumSlicer from https://www."
-"prusa3d.cz/ApiumSlicer/.\n"
+"Please download and install a 64 bit build of ApiumSlicer from https://"
+"www.prusa3d.cz/ApiumSlicer/.\n"
 "Do you wish to continue?"
 msgstr ""
 "您正在 64 位 Windows 上运行 32 位版本的 ApiumSlicer。\n"
@@ -13841,12 +13854,25 @@ msgid "Drop to bed"
 msgstr "放到床上"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp
-msgid "Lock Z axis to the print bed.\nWhen locked (default), objects cannot be lifted off or pushed\ninto the bed by editing the Z position.\nWhen unlocked, the Z position can be set freely."
-msgstr "将Z轴锁定到打印床。\n锁定时（默认），通过编辑Z位置无法将对象从打印床抬起或压入打印床。\n解锁时，可以自由设置Z位置。"
+msgid ""
+"Lock Z axis to the print bed.\n"
+"When locked (default), objects cannot be lifted off or pushed\n"
+"into the bed by editing the Z position.\n"
+"When unlocked, the Z position can be set freely."
+msgstr ""
+"将Z轴锁定到打印床。\n"
+"锁定时（默认），通过编辑Z位置无法将对象从打印床抬起或压入打印床。\n"
+"解锁时，可以自由设置Z位置。"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp
-msgid "Lock scale ratios.\nWhen locked (default), scaling keeps the X/Y/Z ratios.\nWhen unlocked, each axis can be scaled independently."
-msgstr "锁定缩放比例。\n锁定（默认）时，缩放保持 X/Y/Z 比例。\n解锁后，各轴可独立缩放。"
+msgid ""
+"Lock scale ratios.\n"
+"When locked (default), scaling keeps the X/Y/Z ratios.\n"
+"When unlocked, each axis can be scaled independently."
+msgstr ""
+"锁定缩放比例。\n"
+"锁定（默认）时，缩放保持 X/Y/Z 比例。\n"
+"解锁后，各轴可独立缩放。"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:433
 msgid "Reset Rotation"
@@ -17092,8 +17118,8 @@ msgstr "关联 .gcode 文件到 ApiumSlicer G-Code 查看器"
 
 #: src/slic3r/GUI/Preferences.cpp:416
 msgid ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"gcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .gcode files."
 msgstr ""
 "如果启用，将 ApiumSlicer G-Code Viewer 设置为要打开的默认应用程序 .gcode 文"
 "件。"
@@ -17104,8 +17130,8 @@ msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:420
 msgid ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"bgcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .bgcode files."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:427
@@ -17298,16 +17324,23 @@ msgid "Use Webinterface Rest-Login"
 msgstr "使用 Webinterface REST 登录"
 
 #: src/slic3r/GUI/Preferences.cpp:641
-msgid "If enabled, webinterface auto-login uses REST login call instead of filling login form fields."
-msgstr "启用后，Webinterface 自动登录将使用 REST 登录调用，而不是填充登录表单字段。"
+msgid ""
+"If enabled, webinterface auto-login uses REST login call instead of filling "
+"login form fields."
+msgstr ""
+"启用后，Webinterface 自动登录将使用 REST 登录调用，而不是填充登录表单字段。"
 
 #: src/slic3r/GUI/Preferences.cpp:766
 msgid "Allow Webinterface over Tailscale"
 msgstr "允许通过 Tailscale 使用 Webinterface"
 
 #: src/slic3r/GUI/Preferences.cpp:767
-msgid "If enabled, self-signed certificates are accepted for Webinterface hosts in the Tailscale CGNAT range (100.64.0.0/10)."
-msgstr "启用后，将接受 Tailscale CGNAT 网段（100.64.0.0/10）内 Webinterface 主机的自签名证书。"
+msgid ""
+"If enabled, self-signed certificates are accepted for Webinterface hosts in "
+"the Tailscale CGNAT range (100.64.0.0/10)."
+msgstr ""
+"启用后，将接受 Tailscale CGNAT 网段（100.64.0.0/10）内 Webinterface 主机的自"
+"签名证书。"
 
 #: src/slic3r/GUI/Preferences.cpp:633
 msgid "Show STEP file import parameters"
@@ -19168,9 +19201,14 @@ msgstr ""
 msgid "Undef"
 msgstr "未定义"
 
-#: src/slic3r/GUI/UnsavedChangesDialog.cpp:823
+#: src/slic3r/GUI/UnsavedChangesDialog.cpp:823 src/slic3r/GUI/MainFrame.cpp
+#, fuzzy
 msgid "Unsaved Changes"
-msgstr "未保存的修改"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"未保存的修改\n"
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"未保存的更改"
 
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:841
 msgid "Switching Presets: Unsaved Changes"
@@ -29177,8 +29215,21 @@ msgid "Zoneheater mode"
 msgstr "区域加热器模式"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater operation mode.\nOff: no zoneheater commands are emitted.\nStatic: a fixed power level (zoneheater_static_power) is set once at the start; the variable tool is disabled.\nVariable: per-layer power is controlled via the variable zoneheater power profile; the static power setting is inactive.\nAdaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
-msgstr "区域加热器操作模式。\n关闭：不发出任何区域加热器命令。\n静态：在开始时一次性设置固定功率级别（zoneheater_static_power）；可变工具被禁用。\n可变：每层功率通过可变区域加热器功率配置文件控制；静态功率设置不生效。\n自适应：自动自适应加热（使用 zoneheater_adaptive_multiplier）。"
+msgid ""
+"Zoneheater operation mode.\n"
+"Off: no zoneheater commands are emitted.\n"
+"Static: a fixed power level (zoneheater_static_power) is set once at the "
+"start; the variable tool is disabled.\n"
+"Variable: per-layer power is controlled via the variable zoneheater power "
+"profile; the static power setting is inactive.\n"
+"Adaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr ""
+"区域加热器操作模式。\n"
+"关闭：不发出任何区域加热器命令。\n"
+"静态：在开始时一次性设置固定功率级别（zoneheater_static_power）；可变工具被禁"
+"用。\n"
+"可变：每层功率通过可变区域加热器功率配置文件控制；静态功率设置不生效。\n"
+"自适应：自动自适应加热（使用 zoneheater_adaptive_multiplier）。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater static power"
@@ -29205,75 +29256,157 @@ msgid "Allow Auxiliary Heating"
 msgstr "允许 Auxiliary Heating"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Allow the use of the auxiliary heating function. If non-steel build plates are installed, using auxiliary heating may melt and damage the build plate. When in doubt, leave this option disabled."
-msgstr "允许使用 Auxiliary Heating 功能。如果安装了非钢打印平台，使用 Auxiliary Heating 可能会熔化并损坏打印平台。如有疑问，请保持此选项禁用。"
+msgid ""
+"Allow the use of the auxiliary heating function. If non-steel build plates "
+"are installed, using auxiliary heating may melt and damage the build plate. "
+"When in doubt, leave this option disabled."
+msgstr ""
+"允许使用 Auxiliary Heating 功能。如果安装了非钢打印平台，使用 Auxiliary "
+"Heating 可能会熔化并损坏打印平台。如有疑问，请保持此选项禁用。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Calculation base"
 msgstr "计算基准"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for external perimeters. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%), it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为外部轮廓设置手动挤出宽度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。若使用百分比（例如 200%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for external "
+"perimeters. If left zero, default extrusion width will be used if set, "
+"otherwise 1.125 x nozzle diameter will be used. If expressed as percentage "
+"(for example 200%), it will be computed over the selected calculation base."
+msgstr ""
+"将此项设置为非零值可为外部轮廓设置手动挤出宽度。若为 0，则优先使用默认挤出宽"
+"度；若未设置默认值，则使用 1.125 倍喷嘴直径。若使用百分比（例如 200%），将按"
+"所选计算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to allow a manual extrusion width. If left to zero, Slic3r derives extrusion widths from the nozzle diameter (see the tooltips for perimeter extrusion width, infill extrusion width etc). If expressed as percentage (for example: 230%), it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可启用手动挤出宽度。若为 0，Slic3r 将根据喷嘴直径自动推导挤出宽度（参见轮廓、填充等挤出宽度提示）。若使用百分比（例如 230%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to allow a manual extrusion width. If left to "
+"zero, Slic3r derives extrusion widths from the nozzle diameter (see the "
+"tooltips for perimeter extrusion width, infill extrusion width etc). If "
+"expressed as percentage (for example: 230%), it will be computed over the "
+"selected calculation base."
+msgstr ""
+"将此项设置为非零值可启用手动挤出宽度。若为 0，Slic3r 将根据喷嘴直径自动推导挤"
+"出宽度（参见轮廓、填充等挤出宽度提示）。若使用百分比（例如 230%），将按所选计"
+"算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for first layer. You can use this to force fatter extrudates for better adhesion. If expressed as percentage (for example 120%) it will be computed over the selected calculation base. If set to zero, it will use the default extrusion width."
-msgstr "将此项设置为非零值可为首层设置手动挤出宽度。可通过更宽挤出线提升附着力。若使用百分比（例如 120%），将按所选计算基准计算。若为 0，则使用默认挤出宽度。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for first "
+"layer. You can use this to force fatter extrudates for better adhesion. If "
+"expressed as percentage (for example 120%) it will be computed over the "
+"selected calculation base. If set to zero, it will use the default extrusion "
+"width."
+msgstr ""
+"将此项设置为非零值可为首层设置手动挤出宽度。可通过更宽挤出线提升附着力。若使"
+"用百分比（例如 120%），将按所选计算基准计算。若为 0，则使用默认挤出宽度。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for infill. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. You may want to use fatter extrudates to speed up the infill and make your parts stronger. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为填充设置手动挤出宽度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。更宽挤出线可加快填充并提升强度。若使用百分比（例如 90%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for infill. If "
+"left zero, default extrusion width will be used if set, otherwise 1.125 x "
+"nozzle diameter will be used. You may want to use fatter extrudates to speed "
+"up the infill and make your parts stronger. If expressed as percentage (for "
+"example 90%) it will be computed over the selected calculation base."
+msgstr ""
+"将此项设置为非零值可为填充设置手动挤出宽度。若为 0，则优先使用默认挤出宽度；"
+"若未设置默认值，则使用 1.125 倍喷嘴直径。更宽挤出线可加快填充并提升强度。若使"
+"用百分比（例如 90%），将按所选计算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for perimeters. You may want to use thinner extrudates to get more accurate surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%) it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为轮廓设置手动挤出宽度。较细挤出线有助于获得更高表面精度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。若使用百分比（例如 200%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for perimeters. "
+"You may want to use thinner extrudates to get more accurate surfaces. If "
+"left zero, default extrusion width will be used if set, otherwise 1.125 x "
+"nozzle diameter will be used. If expressed as percentage (for example 200%) "
+"it will be computed over the selected calculation base."
+msgstr ""
+"将此项设置为非零值可为轮廓设置手动挤出宽度。较细挤出线有助于获得更高表面精"
+"度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。"
+"若使用百分比（例如 200%），将按所选计算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for infill for solid surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为实心表面的填充设置手动挤出宽度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。若使用百分比（例如 90%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for infill for "
+"solid surfaces. If left zero, default extrusion width will be used if set, "
+"otherwise 1.125 x nozzle diameter will be used. If expressed as percentage "
+"(for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+"将此项设置为非零值可为实心表面的填充设置手动挤出宽度。若为 0，则优先使用默认"
+"挤出宽度；若未设置默认值，则使用 1.125 倍喷嘴直径。若使用百分比（例如 90%），"
+"将按所选计算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for support material. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为支撑材料设置手动挤出宽度。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用喷嘴直径。若使用百分比（例如 90%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for support "
+"material. If left zero, default extrusion width will be used if set, "
+"otherwise nozzle diameter will be used. If expressed as percentage (for "
+"example 90%) it will be computed over the selected calculation base."
+msgstr ""
+"将此项设置为非零值可为支撑材料设置手动挤出宽度。若为 0，则优先使用默认挤出宽"
+"度；若未设置默认值，则使用喷嘴直径。若使用百分比（例如 90%），将按所选计算基"
+"准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Set this to a non-zero value to set a manual extrusion width for infill for top surfaces. You may want to use thinner extrudates to fill all narrow regions and get a smoother finish. If left zero, default extrusion width will be used if set, otherwise nozzle diameter will be used. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
-msgstr "将此项设置为非零值可为顶层表面的填充设置手动挤出宽度。较细挤出线可填满狭窄区域并获得更平滑表面。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用喷嘴直径。若使用百分比（例如 90%），将按所选计算基准计算。"
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for infill for "
+"top surfaces. You may want to use thinner extrudates to fill all narrow "
+"regions and get a smoother finish. If left zero, default extrusion width "
+"will be used if set, otherwise nozzle diameter will be used. If expressed as "
+"percentage (for example 90%) it will be computed over the selected "
+"calculation base."
+msgstr ""
+"将此项设置为非零值可为顶层表面的填充设置手动挤出宽度。较细挤出线可填满狭窄区"
+"域并获得更平滑表面。若为 0，则优先使用默认挤出宽度；若未设置默认值，则使用喷"
+"嘴直径。若使用百分比（例如 90%），将按所选计算基准计算。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based default extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based default extrusion width calculation. Used only for "
+"percentage values."
 msgstr "用于默认挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based first layer extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based first layer extrusion width calculation. Used only "
+"for percentage values."
 msgstr "用于首层挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based perimeter extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based perimeter extrusion width calculation. Used only "
+"for percentage values."
 msgstr "用于轮廓挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based external perimeter extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based external perimeter extrusion width calculation. "
+"Used only for percentage values."
 msgstr "用于外部轮廓挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based infill extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based infill extrusion width calculation. Used only for "
+"percentage values."
 msgstr "用于填充挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based solid infill extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based solid infill extrusion width calculation. Used "
+"only for percentage values."
 msgstr "用于实心填充挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based top solid infill extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based top solid infill extrusion width calculation. Used "
+"only for percentage values."
 msgstr "用于顶部实心填充挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based support material extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based support material extrusion width calculation. Used "
+"only for percentage values."
 msgstr "用于支撑材料挤出宽度百分比计算的基准。仅在百分比值时生效。"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -29281,8 +29414,13 @@ msgid "Allow excessive extrusion widths"
 msgstr "允许超大挤出宽度"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Disables the excessive extrusion width safety error for this extruder. The safety error is disabled only if this option is enabled for all extruders. Use with caution."
-msgstr "为该挤出机禁用“挤出宽度过大”的安全错误。仅当所有挤出机都启用此选项时，安全错误才会被禁用。请谨慎使用。"
+msgid ""
+"Disables the excessive extrusion width safety error for this extruder. The "
+"safety error is disabled only if this option is enabled for all extruders. "
+"Use with caution."
+msgstr ""
+"为该挤出机禁用“挤出宽度过大”的安全错误。仅当所有挤出机都启用此选项时，安全错"
+"误才会被禁用。请谨慎使用。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Object first layer extrusion multiplier"
@@ -29293,23 +29431,36 @@ msgid "Extrusion Multiplier"
 msgstr "挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to object extrusions on the first object layer. This does not apply to brim/skirt, support, or raft extrusions. The final extrusion is this multiplier times filament extrusion multiplier."
-msgstr "应用于对象首个对象层挤出的乘数。此项不适用于 brim/skirt、支撑或 raft 挤出。最终挤出量为该乘数与耗材挤出乘数的乘积。"
+msgid ""
+"Multiplier applied to object extrusions on the first object layer. This does "
+"not apply to brim/skirt, support, or raft extrusions. The final extrusion is "
+"this multiplier times filament extrusion multiplier."
+msgstr ""
+"应用于对象首个对象层挤出的乘数。此项不适用于 brim/skirt、支撑或 raft 挤出。最"
+"终挤出量为该乘数与耗材挤出乘数的乘积。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Object first layer cumulative calculation"
 msgstr "对象首层累积计算"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "If disabled, object extrusions on the first object layer use only Object first layer extrusion multiplier. If enabled, object first layer multiplier is multiplied with the line type multiplier (bridge, perimeter, infill, etc.)."
-msgstr "禁用时，对象首个对象层的挤出仅使用“对象首层挤出乘数”。启用时，对象首层乘数会与线型乘数（桥接、轮廓、填充等）相乘。"
+msgid ""
+"If disabled, object extrusions on the first object layer use only Object "
+"first layer extrusion multiplier. If enabled, object first layer multiplier "
+"is multiplied with the line type multiplier (bridge, perimeter, infill, "
+"etc.)."
+msgstr ""
+"禁用时，对象首个对象层的挤出仅使用“对象首层挤出乘数”。启用时，对象首层乘数会"
+"与线型乘数（桥接、轮廓、填充等）相乘。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Perimeter extrusion multiplier"
 msgstr "轮廓挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to perimeter and gap fill extrusions. External perimeter uses its own multiplier."
+msgid ""
+"Multiplier applied to perimeter and gap fill extrusions. External perimeter "
+"uses its own multiplier."
 msgstr "应用于轮廓和缝隙填充挤出的乘数。外轮廓使用其独立乘数。"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -29333,7 +29484,9 @@ msgid "Solid fill extrusion multiplier"
 msgstr "实心填充挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to solid infill extrusions except top solid infill, which has its own multiplier."
+msgid ""
+"Multiplier applied to solid infill extrusions except top solid infill, which "
+"has its own multiplier."
 msgstr "应用于实心填充挤出的乘数，但顶层实心填充除外（其有独立乘数）。"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -29341,15 +29494,20 @@ msgid "Top solid fill extrusion multiplier"
 msgstr "顶层实心填充挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to top solid infill extrusions. This overrides solid fill extrusion multiplier for top solid infill."
-msgstr "应用于顶层实心填充挤出的乘数。该值会覆盖顶层实心填充所使用的实心填充挤出乘数。"
+msgid ""
+"Multiplier applied to top solid infill extrusions. This overrides solid fill "
+"extrusion multiplier for top solid infill."
+msgstr ""
+"应用于顶层实心填充挤出的乘数。该值会覆盖顶层实心填充所使用的实心填充挤出乘"
+"数。"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Support material extrusion multiplier"
 msgstr "支撑材料挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to support material and support interface extrusions."
+msgid ""
+"Multiplier applied to support material and support interface extrusions."
 msgstr "应用于支撑材料和支撑接口挤出的乘数。"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -29357,7 +29515,9 @@ msgid "Bridge extrusion multiplier"
 msgstr "桥接挤出乘数"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+msgid ""
+"Multiplier applied to bridge extrusions. Bridge multiplier has priority over "
+"other line type multipliers."
 msgstr "应用于桥接挤出的乘数。桥接乘数优先于其他线型乘数。"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -29381,8 +29541,13 @@ msgid "Minimum extrusion multiplier warning"
 msgstr "最小挤出乘数警告阈值"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Warning threshold for final extrusion multiplier (line type multiplier times filament extrusion multiplier). A non-blocking slicing warning is shown when the final multiplier falls below this value. Set to 0 to disable warnings."
-msgstr "最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈值。当最终乘数低于该值时会显示非阻塞的切片警告。设为 0 可禁用警告。"
+msgid ""
+"Warning threshold for final extrusion multiplier (line type multiplier times "
+"filament extrusion multiplier). A non-blocking slicing warning is shown when "
+"the final multiplier falls below this value. Set to 0 to disable warnings."
+msgstr ""
+"最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈值。当最终乘数低于该值时会显"
+"示非阻塞的切片警告。设为 0 可禁用警告。"
 
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Extrusion width (mm)"
@@ -29409,11 +29574,14 @@ msgid "Select the printhead type installed on each extruder."
 msgstr "选择每个挤出机安装的打印头类型。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Enable this for extruders that have a zoneheater installed on the printhead."
+msgid ""
+"Enable this for extruders that have a zoneheater installed on the printhead."
 msgstr "对于打印头上安装了区段加热器的挤出机启用此项。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Maximum allowed zoneheater power for this extruder. Used as the upper bound in Variable Zoneheater Power editing."
+msgid ""
+"Maximum allowed zoneheater power for this extruder. Used as the upper bound "
+"in Variable Zoneheater Power editing."
 msgstr "该挤出机允许的区段加热器最大功率。用于可变区段加热器功率编辑的上限。"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp
@@ -29433,8 +29601,13 @@ msgid "Reset Zoneheater Power"
 msgstr "重置区段加热器功率"
 
 #: src/slic3r/GUI/Plater.cpp
-msgid "Zoneheater static power and Variable Zoneheater Power are both active.\nThe static value is emitted at print start, then per-object variable values are emitted during printing."
-msgstr "区段加热器静态功率和可变区段加热器功率同时启用。\n静态值会在打印开始时输出，随后在打印过程中按对象输出可变值。"
+msgid ""
+"Zoneheater static power and Variable Zoneheater Power are both active.\n"
+"The static value is emitted at print start, then per-object variable values "
+"are emitted during printing."
+msgstr ""
+"区段加热器静态功率和可变区段加热器功率同时启用。\n"
+"静态值会在打印开始时输出，随后在打印过程中按对象输出可变值。"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp
 msgid "Variable Zoneheater Power"
@@ -29475,3 +29648,120 @@ msgstr "由于不满足要求，已跳过区段加热器指令："
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater power above 75% detected:"
 msgstr "检测到区段加热器功率超过 75%："
+
+#. Versioning feature strings
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/MainFrame.cpp
+msgid "Save Version"
+msgstr "保存版本"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Initial"
+msgstr "初始"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Title:"
+msgstr "标题："
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Message:"
+msgstr "说明："
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/Preferences.cpp
+msgid "Author:"
+msgstr "作者："
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp src/slic3r/GUI/Preferences.cpp
+msgid "E-mail:"
+msgstr "电子邮件："
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Title is required."
+msgstr "标题为必填项。"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Invalid e-mail address."
+msgstr "无效的电子邮件地址。"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Your name as it will appear in the version history"
+msgstr "您的姓名，将显示在版本历史中"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Your e-mail address as it will appear in the version history"
+msgstr "您的电子邮件地址，将显示在版本历史中"
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid "Short version title (max. 21 characters), e.g. \"Added support\" "
+msgstr "简短的版本标题（最多21个字符），例如\"添加了支撑\""
+
+#: src/slic3r/GUI/VersionedSaveDialog.cpp
+msgid ""
+"Optional longer description of the changes in this version (max. 500 "
+"characters)"
+msgstr "此版本变更的可选详细说明（最多500个字符）"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Browse and restore named project versions"
+msgstr "浏览并恢复已命名的项目版本"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "(No versions yet)"
+msgstr "（暂无版本）"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Project Versioning"
+msgstr "项目版本控制"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Author name:"
+msgstr "作者姓名："
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Author e-mail:"
+msgstr "作者邮件："
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Name used as Git commit author for versioned saves"
+msgstr "用于版本化保存的 Git 提交作者姓名"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "E-mail address used as Git commit author for versioned saves"
+msgstr "用于版本化保存的 Git 提交作者电子邮件地址"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "This project is not versioned yet. Do you want to start versioning?"
+msgstr "此项目尚未进行版本控制。是否要开始版本控制？"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Versioned Save"
+msgstr "版本化保存"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to initialize versioning."
+msgstr "无法初始化版本控制。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to open project for versioning."
+msgstr "无法为版本控制打开项目。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Maximum version number reached. Cannot create new version."
+msgstr "已达到最大版本号。无法创建新版本。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Internal error: Failed to create version."
+msgstr "内部错误：无法创建版本。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"The current project has unsaved changes.\n"
+"\n"
+"Do you want to save before switching to version %s?\n"
+"\n"
+"Note: Saving will create a new commit on top of the current history."
+msgstr ""
+"当前项目有未保存的更改。\n"
+"\n"
+"切换到版本 %s 之前是否要保存？\n"
+"\n"
+"注意：保存将在当前历史记录的基础上创建新的提交。"
