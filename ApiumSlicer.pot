@@ -19402,3 +19402,23 @@ msgstr ""
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Unsaved Changes"
 msgstr ""
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version Info"
+msgstr ""
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid " at "
+msgstr ""
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Date:"
+msgstr ""
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Show commit info for the current version"
+msgstr ""
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version %s \xe2\x80\x94 Message"
+msgstr ""

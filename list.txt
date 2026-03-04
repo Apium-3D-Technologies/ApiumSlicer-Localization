@@ -141,3 +141,5 @@ src/slic3r/Utils/Process.cpp
 src/slic3r/Utils/PrusaConnect.cpp
 src/slic3r/Utils/Repetier.cpp
 src/slic3r/Utils/PresetUpdaterWrapper.cpp
+src/slic3r/GUI/VersionedSaveDialog.cpp
+src/slic3r/GUI/VersionInfoDialog.cpp

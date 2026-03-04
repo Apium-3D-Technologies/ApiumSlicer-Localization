@@ -30872,3 +30872,23 @@ msgstr ""
 "\n"
 "Hinweis: Das Speichern erstellt einen neuen Commit auf der aktuellen "
 "Historie."
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version Info"
+msgstr "Versionsinformation"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid " at "
+msgstr " um "
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Date:"
+msgstr "Datum:"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Show commit info for the current version"
+msgstr "Commit-Informationen zur aktuellen Version anzeigen"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version %s — Message"
+msgstr "Version %s — Nachricht"

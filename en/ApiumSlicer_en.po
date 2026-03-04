@@ -30146,3 +30146,23 @@ msgstr ""
 "Do you want to save before switching to version %s?\n"
 "\n"
 "Note: Saving will create a new commit on top of the current history."
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version Info"
+msgstr "Version Info"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid " at "
+msgstr " at "
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Date:"
+msgstr "Date:"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Show commit info for the current version"
+msgstr "Show commit info for the current version"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+msgid "Version %s — Message"
+msgstr "Version %s — Message"

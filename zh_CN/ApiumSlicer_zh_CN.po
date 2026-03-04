@@ -29765,3 +29765,28 @@ msgstr ""
 "切换到版本 %s 之前是否要保存？\n"
 "\n"
 "注意：保存将在当前历史记录的基础上创建新的提交。"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+#, fuzzy
+msgid "Version Info"
+msgstr "版本信息"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+#, fuzzy
+msgid " at "
+msgstr " 于 "
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+#, fuzzy
+msgid "Date:"
+msgstr "日期："
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+#, fuzzy
+msgid "Show commit info for the current version"
+msgstr "显示当前版本的提交信息"
+
+#: src/slic3r/GUI/VersionInfoDialog.cpp
+#, fuzzy
+msgid "Version %s — Message"
+msgstr "版本 %s — 消息"
