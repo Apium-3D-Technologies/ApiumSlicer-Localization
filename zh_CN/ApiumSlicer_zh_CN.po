@@ -7377,13 +7377,15 @@ msgstr ""
 "ApiumSlicer 是以 Alessandro Ranellucci 和 RepRap 社区的 Slic3r 为基础的。"
 
 #: src/slic3r/GUI/AboutDialog.cpp:285
+#, boost-format
 msgid ""
 "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
-"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and "
-"numerous others."
+"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, Heiko "
+"Liebscher, %1% and numerous others."
 msgstr ""
-"Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr Ledvina, Joseph "
-"Lenox, Y.Sapir, Mike Sheldrake, Vojtech Bubnik 等人的贡献。"
+"Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
+"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, Heiko "
+"Liebscher, %1% and numerous others."
 
 #: src/slic3r/GUI/AboutDialog.cpp:322
 msgid "Copy Version Info"

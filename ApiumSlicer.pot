@@ -6683,10 +6683,11 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/AboutDialog.cpp:285
+#, possible-boost-format
 msgid ""
 "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
-"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and "
-"numerous others."
+"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, "
+"Heiko Liebscher, %1% and numerous others."
 msgstr ""
 
 #: src/slic3r/GUI/AboutDialog.cpp:322

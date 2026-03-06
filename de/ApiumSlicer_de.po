@@ -3216,14 +3216,15 @@ msgid "Continue to activate a configuration snapshot %1%?"
 msgstr "Aktivierung eines Konfigurations-Snapshots %1% fortsetzen?"
 
 #: src/slic3r/GUI/AboutDialog.cpp:285
+#, boost-format
 msgid ""
 "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
-"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and "
-"numerous others."
+"Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, Heiko "
+"Liebscher, %1% and numerous others."
 msgstr ""
 "Beiträge von Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr "
-"Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, zahlreichen "
-"anderen und Julian Bruyers (Apium Team)."
+"Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, Heiko "
+"Liebscher, %1% und vielen Weiteren."
 
 #: src/libslic3r/PrintConfig.cpp:3831
 msgid ""
