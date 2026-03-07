@@ -30893,3 +30893,58 @@ msgstr "Commit-Informationen zur aktuellen Version anzeigen"
 #: src/slic3r/GUI/VersionInfoDialog.cpp
 msgid "Version %s — Message"
 msgstr "Version %s — Nachricht"
+#: src/slic3r/GUI/Tab.cpp
+msgid "Advanced profile comparison/edit"
+msgstr "Erweiterter Profilvergleich/-bearbeitung"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Option"
+msgstr "Option"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select None"
+msgstr "Keine auswaehlen"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Show all settings"
+msgstr "Alle Einstellungen anzeigen"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select at least two presets to compare."
+msgstr "Waehlen Sie mindestens zwei Presets zum Vergleichen aus."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No settings to display for current selection."
+msgstr "Keine Einstellungen fuer die aktuelle Auswahl anzuzeigen."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Double click a value cell to use that value for all selected user presets."
+msgstr "Doppelklicken Sie eine Wertzelle, um diesen Wert fuer alle ausgewaehlten Benutzer-Presets zu verwenden."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "The currently edited preset has unsaved changes. Please save or discard them first."
+msgstr "Das aktuell bearbeitete Preset hat ungespeicherte Aenderungen. Bitte speichern oder verwerfen Sie diese zuerst."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No editable user presets were changed."
+msgstr "Es wurden keine bearbeitbaren Benutzer-Presets geaendert."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Some presets could not be saved:"
+msgstr "Einige Presets konnten nicht gespeichert werden:"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "New value (for all profiles)"
+msgstr "Neuer Wert (fuer alle Profile)"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Advanced Preset Diff-Viewer/Editor"
+msgstr "Erweiterter Preset-Diff-Viewer/Editor"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Search settings"
+msgstr "Einstellungen suchen"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Internal name"
+msgstr "Interner Name"

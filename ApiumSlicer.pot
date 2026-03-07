@@ -19423,3 +19423,67 @@ msgstr ""
 #: src/slic3r/GUI/VersionInfoDialog.cpp
 msgid "Version %s \xe2\x80\x94 Message"
 msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Advanced profile comparison/edit"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Clear"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Option"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select All"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select None"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Show all settings"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select at least two presets to compare."
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No settings to display for current selection."
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Double click a value cell to use that value for all selected user presets."
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "The currently edited preset has unsaved changes. Please save or discard them first."
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No editable user presets were changed."
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Some presets could not be saved:"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "New value (for all profiles)"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Advanced Preset Diff-Viewer/Editor"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Search settings"
+msgstr ""
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Internal name"
+msgstr ""

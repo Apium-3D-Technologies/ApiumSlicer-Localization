@@ -29792,3 +29792,76 @@ msgstr "显示当前版本的提交信息"
 #, fuzzy
 msgid "Version %s — Message"
 msgstr "版本 %s — 消息"
+
+#: src/slic3r/GUI/Tab.cpp
+#, fuzzy
+msgid "Advanced profile comparison/edit"
+msgstr "Advanced profile comparison/edit"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "Option"
+msgstr "Option"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "Select None"
+msgstr "Select None"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "Show all settings"
+msgstr "Show all settings"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "Select at least two presets to compare."
+msgstr "Select at least two presets to compare."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "No settings to display for current selection."
+msgstr "No settings to display for current selection."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid ""
+"Double click a value cell to use that value for all selected user presets."
+msgstr ""
+"Double click a value cell to use that value for all selected user presets."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid ""
+"The currently edited preset has unsaved changes. Please save or discard them "
+"first."
+msgstr ""
+"The currently edited preset has unsaved changes. Please save or discard them "
+"first."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "No editable user presets were changed."
+msgstr "No editable user presets were changed."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "Some presets could not be saved:"
+msgstr "Some presets could not be saved:"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+#, fuzzy
+msgid "New value (for all profiles)"
+msgstr "New value (for all profiles)"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Advanced Preset Diff-Viewer/Editor"
+msgstr "高级预设差异查看器/编辑器"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Search settings"
+msgstr "搜索设置"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Internal name"
+msgstr "内部名称"

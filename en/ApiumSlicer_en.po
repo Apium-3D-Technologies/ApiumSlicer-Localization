@@ -30167,3 +30167,58 @@ msgstr "Show commit info for the current version"
 #: src/slic3r/GUI/VersionInfoDialog.cpp
 msgid "Version %s — Message"
 msgstr "Version %s — Message"
+#: src/slic3r/GUI/Tab.cpp
+msgid "Advanced profile comparison/edit"
+msgstr "Advanced profile comparison/edit"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Option"
+msgstr "Option"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select None"
+msgstr "Select None"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Show all settings"
+msgstr "Show all settings"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Select at least two presets to compare."
+msgstr "Select at least two presets to compare."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No settings to display for current selection."
+msgstr "No settings to display for current selection."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Double click a value cell to use that value for all selected user presets."
+msgstr "Double click a value cell to use that value for all selected user presets."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "The currently edited preset has unsaved changes. Please save or discard them first."
+msgstr "The currently edited preset has unsaved changes. Please save or discard them first."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "No editable user presets were changed."
+msgstr "No editable user presets were changed."
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Some presets could not be saved:"
+msgstr "Some presets could not be saved:"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "New value (for all profiles)"
+msgstr "New value (for all profiles)"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Advanced Preset Diff-Viewer/Editor"
+msgstr "Advanced Preset Diff-Viewer/Editor"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Search settings"
+msgstr "Search settings"
+
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
+msgid "Internal name"
+msgstr "Internal name"
