@@ -30222,3 +30222,33 @@ msgstr "Search settings"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Internal name"
 msgstr "Internal name"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Versioning"
+msgstr "Versioning"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"Project versioning keeps a history of your .3mf project changes so you can "
+"track and restore earlier versions.\n"
+"Your name and e-mail are used as Git commit author metadata for versioned "
+"saves.\n"
+"You can change these values later in Preferences."
+msgstr ""
+"Project versioning keeps a history of your .3mf project changes so you can "
+"track and restore earlier versions.\n"
+"Your name and e-mail are used as Git commit author metadata for versioned "
+"saves.\n"
+"You can change these values later in Preferences."
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"These details are not sent externally and are not used for marketing "
+"purposes.\n"
+"They are used only locally for project versioning and are stored only in "
+".3mf files."
+msgstr ""
+"These details are not sent externally and are not used for marketing "
+"purposes.\n"
+"They are used only locally for project versioning and are stored only in "
+".3mf files."

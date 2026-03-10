@@ -29865,3 +29865,29 @@ msgstr "搜索设置"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Internal name"
 msgstr "内部名称"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Versioning"
+msgstr "版本控制"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"Project versioning keeps a history of your .3mf project changes so you can "
+"track and restore earlier versions.\n"
+"Your name and e-mail are used as Git commit author metadata for versioned "
+"saves.\n"
+"You can change these values later in Preferences."
+msgstr ""
+"项目版本控制会记录 .3mf 项目的变更历史，便于你跟踪并恢复更早版本。\n"
+"你的姓名和电子邮箱会作为 Git 提交作者元数据用于版本化保存。\n"
+"你可以稍后在偏好设置中修改这些值。"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"These details are not sent externally and are not used for marketing "
+"purposes.\n"
+"They are used only locally for project versioning and are stored only in "
+".3mf files."
+msgstr ""
+"这些信息不会被外部收集，也不会用于营销目的。\n"
+"它们仅在本地用于项目版本控制，并且只会存储在 .3mf 文件中。"
