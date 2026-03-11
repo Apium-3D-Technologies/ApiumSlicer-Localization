@@ -3424,6 +3424,18 @@ msgstr ""
 "layer height is 75% of the extrusion width to achieve reasonable inter-layer "
 "adhesion. If set to 0, layer height is limited to 75% of the nozzle diameter."
 
+#: src/libslic3r/PrintConfig.cpp:2129
+msgid "Max (%)"
+msgstr "Max (%)"
+
+#: src/libslic3r/PrintConfig.cpp:2130
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+msgstr ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+
 #: src/libslic3r/PrintConfig.cpp:2131
 msgid "Max print speed"
 msgstr "Max print speed"
@@ -3503,6 +3515,18 @@ msgstr ""
 "This is the lowest printable layer height for this extruder and limits the "
 "resolution for variable layer height. Typical values are between 0.05 mm and "
 "0.1 mm."
+
+#: src/libslic3r/PrintConfig.cpp:2192
+msgid "Min (%)"
+msgstr "Min (%)"
+
+#: src/libslic3r/PrintConfig.cpp:2193
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."
+msgstr ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."
 
 #: src/libslic3r/PrintConfig.cpp:2192
 msgid "Min print speed"
@@ -30167,6 +30191,7 @@ msgstr "Show commit info for the current version"
 #: src/slic3r/GUI/VersionInfoDialog.cpp
 msgid "Version %s — Message"
 msgstr "Version %s — Message"
+
 #: src/slic3r/GUI/Tab.cpp
 msgid "Advanced profile comparison/edit"
 msgstr "Advanced profile comparison/edit"
@@ -30192,12 +30217,18 @@ msgid "No settings to display for current selection."
 msgstr "No settings to display for current selection."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
-msgid "Double click a value cell to use that value for all selected user presets."
-msgstr "Double click a value cell to use that value for all selected user presets."
+msgid ""
+"Double click a value cell to use that value for all selected user presets."
+msgstr ""
+"Double click a value cell to use that value for all selected user presets."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
-msgid "The currently edited preset has unsaved changes. Please save or discard them first."
-msgstr "The currently edited preset has unsaved changes. Please save or discard them first."
+msgid ""
+"The currently edited preset has unsaved changes. Please save or discard them "
+"first."
+msgstr ""
+"The currently edited preset has unsaved changes. Please save or discard them "
+"first."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "No editable user presets were changed."

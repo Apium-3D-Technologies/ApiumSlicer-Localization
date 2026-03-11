@@ -30893,6 +30893,7 @@ msgstr "Commit-Informationen zur aktuellen Version anzeigen"
 #: src/slic3r/GUI/VersionInfoDialog.cpp
 msgid "Version %s — Message"
 msgstr "Version %s — Nachricht"
+
 #: src/slic3r/GUI/Tab.cpp
 msgid "Advanced profile comparison/edit"
 msgstr "Erweiterter Profilvergleich/-bearbeitung"
@@ -30918,12 +30919,19 @@ msgid "No settings to display for current selection."
 msgstr "Keine Einstellungen fuer die aktuelle Auswahl anzuzeigen."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
-msgid "Double click a value cell to use that value for all selected user presets."
-msgstr "Doppelklicken Sie eine Wertzelle, um diesen Wert fuer alle ausgewaehlten Benutzer-Presets zu verwenden."
+msgid ""
+"Double click a value cell to use that value for all selected user presets."
+msgstr ""
+"Doppelklicken Sie eine Wertzelle, um diesen Wert fuer alle ausgewaehlten "
+"Benutzer-Presets zu verwenden."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
-msgid "The currently edited preset has unsaved changes. Please save or discard them first."
-msgstr "Das aktuell bearbeitete Preset hat ungespeicherte Aenderungen. Bitte speichern oder verwerfen Sie diese zuerst."
+msgid ""
+"The currently edited preset has unsaved changes. Please save or discard them "
+"first."
+msgstr ""
+"Das aktuell bearbeitete Preset hat ungespeicherte Aenderungen. Bitte "
+"speichern oder verwerfen Sie diese zuerst."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "No editable user presets were changed."
@@ -30978,3 +30986,27 @@ msgstr ""
 "verwendet.\n"
 "Sie werden nur lokal fuer die Projektversionierung verwendet und nur in den "
 ".3mf-Dateien gespeichert."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Max (%)"
+msgstr "Max (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+msgstr ""
+"Prozentsatz des Duesendurchmessers, der zur Ableitung der maximal druckbaren "
+"Schichthoehe dieses Extruders verwendet wird."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Min (%)"
+msgstr "Min (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."
+msgstr ""
+"Prozentsatz des Duesendurchmessers, der zur Ableitung der minimal druckbaren "
+"Schichthoehe dieses Extruders verwendet wird."

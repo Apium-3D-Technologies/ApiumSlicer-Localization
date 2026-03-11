@@ -29891,3 +29891,31 @@ msgid ""
 msgstr ""
 "这些信息不会被外部收集，也不会用于营销目的。\n"
 "它们仅在本地用于项目版本控制，并且只会存储在 .3mf 文件中。"
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid "Max (%)"
+msgstr "Max (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+msgstr ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid "Min (%)"
+msgstr "Min (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."
+msgstr ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."

@@ -2968,6 +2968,16 @@ msgid ""
 "adhesion. If set to 0, layer height is limited to 75% of the nozzle diameter."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:2129
+msgid "Max (%)"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2130
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's maximum "
+"printable layer height."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:2131
 msgid "Max print speed"
 msgstr ""
@@ -3028,6 +3038,16 @@ msgid ""
 "This is the lowest printable layer height for this extruder and limits the "
 "resolution for variable layer height. Typical values are between 0.05 mm and "
 "0.1 mm."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2192
+msgid "Min (%)"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2193
+msgid ""
+"Percentage of nozzle diameter used to derive this extruder's minimum "
+"printable layer height."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2192
