@@ -31010,3 +31010,98 @@ msgid ""
 msgstr ""
 "Prozentsatz des Duesendurchmessers, der zur Ableitung der minimal druckbaren "
 "Schichthoehe dieses Extruders verwendet wird."
+
+#: src/libslic3r/PrintConfig.cpp:1532
+msgid "Enable purge line"
+msgstr "Purge-Linie aktivieren"
+
+#: src/libslic3r/PrintConfig.cpp:1533 src/slic3r/GUI/Tab.cpp:1827
+msgid "Purge line"
+msgstr "Purge-Linie"
+
+#: src/libslic3r/PrintConfig.cpp:1534
+msgid ""
+"If enabled, a purge line is extruded after start G-code and before printing."
+msgstr ""
+"Wenn aktiviert, wird nach dem Start-G-Code und vor dem Druck eine Purge-"
+"Linie extrudiert."
+
+#: src/libslic3r/PrintConfig.cpp:1539
+msgid "Purge line Z-hop"
+msgstr "Purge-Linie Z-Hop"
+
+#: src/libslic3r/PrintConfig.cpp:1541
+msgid ""
+"Bed lowering distance before moving to the purge line start position. This "
+"helps avoid collisions with bed clips."
+msgstr ""
+"Absenkdistanz des Druckbetts vor der Fahrt zur Startposition der Purge-"
+"Linie. Hilft, Kollisionen mit Bettklammern zu vermeiden."
+
+#: src/libslic3r/PrintConfig.cpp:1548
+msgid "Start X"
+msgstr "Start X"
+
+#: src/libslic3r/PrintConfig.cpp:1550
+msgid "X coordinate of the purge line start position."
+msgstr "X-Koordinate der Startposition der Purge-Linie."
+
+#: src/libslic3r/PrintConfig.cpp:1556
+msgid "Start Y"
+msgstr "Start Y"
+
+#: src/libslic3r/PrintConfig.cpp:1558
+msgid "Y coordinate of the purge line start position."
+msgstr "Y-Koordinate der Startposition der Purge-Linie."
+
+#: src/libslic3r/PrintConfig.cpp:1564
+msgid "End X"
+msgstr "Ende X"
+
+#: src/libslic3r/PrintConfig.cpp:1566
+msgid "X coordinate of the purge line end position."
+msgstr "X-Koordinate der Endposition der Purge-Linie."
+
+#: src/libslic3r/PrintConfig.cpp:1572
+msgid "End Y"
+msgstr "Ende Y"
+
+#: src/libslic3r/PrintConfig.cpp:1574
+msgid "Y coordinate of the purge line end position."
+msgstr "Y-Koordinate der Endposition der Purge-Linie."
+
+#: src/libslic3r/PrintConfig.cpp:1580
+msgid "Purge line type"
+msgstr "Purge-Linientyp"
+
+#: src/libslic3r/PrintConfig.cpp:1582
+msgid ""
+"Selects which extrusion width and multiplier are used for the purge line."
+msgstr ""
+"Waehlt, welche Extrusionsbreite und welcher Multiplikator fuer die Purge-"
+"Linie verwendet werden."
+
+#: src/libslic3r/PrintConfig.cpp:3395
+msgid "Retract after purge line"
+msgstr "Nach Purge-Linie retracten"
+
+#: src/libslic3r/PrintConfig.cpp:3396
+msgid ""
+"If enabled, perform standard retraction after the purge line. If disabled, "
+"the first retraction after purge line is skipped."
+msgstr ""
+"Wenn aktiviert, wird nach der Purge-Linie eine Standard-Retraktion "
+"ausgefuehrt. Wenn deaktiviert, wird die erste Retraktion nach der Purge-"
+"Linie uebersprungen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow outside build plate placement"
+msgstr "Platzierung ausserhalb der Bauplatte erlauben"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, purge line coordinates are accepted without errors and clamped "
+"to the nearest build plate boundary."
+msgstr ""
+"Wenn aktiviert, werden Koordinaten der Purge-Linie ohne Fehler akzeptiert "
+"und auf die naechste Bauplatten-Grenze begrenzt."

@@ -19528,3 +19528,79 @@ msgid ""
 "They are used only locally for project versioning and are stored only in "
 ".3mf files."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1532
+msgid "Enable purge line"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1533 src/slic3r/GUI/Tab.cpp:1827
+msgid "Purge line"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1534
+msgid "If enabled, a purge line is extruded after start G-code and before printing."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1539
+msgid "Purge line Z-hop"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1541
+msgid "Bed lowering distance before moving to the purge line start position. This helps avoid collisions with bed clips."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1548
+msgid "Start X"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1550
+msgid "X coordinate of the purge line start position."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1556
+msgid "Start Y"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1558
+msgid "Y coordinate of the purge line start position."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1564
+msgid "End X"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1566
+msgid "X coordinate of the purge line end position."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1572
+msgid "End Y"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1574
+msgid "Y coordinate of the purge line end position."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1580
+msgid "Purge line type"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1582
+msgid "Selects which extrusion width and multiplier are used for the purge line."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:3395
+msgid "Retract after purge line"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:3396
+msgid "If enabled, perform standard retraction after the purge line. If disabled, the first retraction after purge line is skipped."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow outside build plate placement"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "If enabled, purge line coordinates are accepted without errors and clamped to the nearest build plate boundary."
+msgstr ""
