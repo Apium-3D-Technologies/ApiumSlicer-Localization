@@ -31105,3 +31105,7 @@ msgid ""
 msgstr ""
 "Wenn aktiviert, werden Koordinaten der Purge-Linie ohne Fehler akzeptiert "
 "und auf die naechste Bauplatten-Grenze begrenzt."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Override value: %1%"
+msgstr "Override-Wert: %1%"

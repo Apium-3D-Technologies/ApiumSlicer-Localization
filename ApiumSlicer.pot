@@ -19604,3 +19604,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp
 msgid "If enabled, purge line coordinates are accepted without errors and clamped to the nearest build plate boundary."
 msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Override value: %1%"
+msgstr ""

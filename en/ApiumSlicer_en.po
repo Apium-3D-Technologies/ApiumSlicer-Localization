@@ -30375,3 +30375,7 @@ msgid ""
 msgstr ""
 "If enabled, purge line coordinates are accepted without errors and clamped "
 "to the nearest build plate boundary."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Override value: %1%"
+msgstr "Override value: %1%"

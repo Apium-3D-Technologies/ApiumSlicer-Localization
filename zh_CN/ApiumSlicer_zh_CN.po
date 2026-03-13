@@ -29919,3 +29919,8 @@ msgid ""
 msgstr ""
 "Percentage of nozzle diameter used to derive this extruder's minimum "
 "printable layer height."
+
+#: src/slic3r/GUI/Tab.cpp
+#, fuzzy
+msgid "Override value: %1%"
+msgstr "Override value: %1%"
