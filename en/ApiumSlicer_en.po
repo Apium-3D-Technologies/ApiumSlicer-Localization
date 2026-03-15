@@ -30342,15 +30342,37 @@ msgstr "End Y"
 msgid "Y coordinate of the purge line end position."
 msgstr "Y coordinate of the purge line end position."
 
-#: src/libslic3r/PrintConfig.cpp:1580
-msgid "Purge line type"
-msgstr "Purge line type"
+#: src/libslic3r/PrintConfig.cpp:1635
+msgid "Purge line extrusion type"
+msgstr "Purge line extrusion type"
 
-#: src/libslic3r/PrintConfig.cpp:1582
+#: src/libslic3r/PrintConfig.cpp:1637
 msgid ""
 "Selects which extrusion width and multiplier are used for the purge line."
 msgstr ""
 "Selects which extrusion width and multiplier are used for the purge line."
+
+#: src/libslic3r/PrintConfig.cpp:4933
+msgid "Injection every N layers"
+msgstr "Injection every N layers"
+
+#: src/libslic3r/PrintConfig.cpp:4935
+msgid ""
+"Defines the vertical cadence of Apium injection and phase switching in "
+"Alternate 180 mode. Apium keeps the same wave phase for N consecutive "
+"layers, then flips phase and injects on the flip layer. This stacks "
+"identical wave channels in Z to form deeper pockets before injection, "
+"improving mechanical anchoring for high-warping materials. Injected target "
+"volume is scaled linearly with N to account for deeper pockets. In Fixed "
+"phase mode this setting is ignored."
+msgstr ""
+"Defines the vertical cadence of Apium injection and phase switching in "
+"Alternate 180 mode. Apium keeps the same wave phase for N consecutive "
+"layers, then flips phase and injects on the flip layer. This stacks "
+"identical wave channels in Z to form deeper pockets before injection, "
+"improving mechanical anchoring for high-warping materials. Injected target "
+"volume is scaled linearly with N to account for deeper pockets. In Fixed "
+"phase mode this setting is ignored."
 
 #: src/libslic3r/PrintConfig.cpp:3395
 msgid "Retract after purge line"
