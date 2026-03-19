@@ -30401,3 +30401,57 @@ msgstr ""
 #: src/slic3r/GUI/Tab.cpp
 msgid "Override value: %1%"
 msgstr "Override value: %1%"
+
+#: src/slic3r/GUI/Tab.cpp:1666
+msgid ""
+"Apium is a recursive acronym for \"Apium Perimeter Interweaving Undulating "
+"Method\". It generates interweaving undulating perimeter channels between "
+"outer and inner shell anchors. Wave phase alternates between layers to "
+"interlock pockets and reduce warping stress while improving Z-direction "
+"anchoring."
+msgstr ""
+"Apium is a recursive acronym for \"Apium Perimeter Interweaving Undulating "
+"Method\". It generates interweaving undulating perimeter channels between "
+"outer and inner shell anchors. Wave phase alternates between layers to "
+"interlock pockets and reduce warping stress while improving Z-direction "
+"anchoring."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use relative layer heights"
+msgstr "Use relative layer heights"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, Layer height and First layer height are derived from their "
+"percentage values over the smallest configured nozzle diameter. Derived mm "
+"values are limited by printer layer height limits."
+msgstr ""
+"If enabled, Layer height and First layer height are derived from their "
+"percentage values over the smallest configured nozzle diameter. Derived mm "
+"values are limited by printer layer height limits."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Layer height (%)"
+msgstr "Layer height (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of the smallest configured nozzle diameter used to derive Layer "
+"height in mm. Changing this value or nozzle diameter updates Layer height."
+msgstr ""
+"Percentage of the smallest configured nozzle diameter used to derive Layer "
+"height in mm. Changing this value or nozzle diameter updates Layer height."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "First layer height (%)"
+msgstr "First layer height (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of the smallest configured nozzle diameter used to derive First "
+"layer height in mm. Changing this value or nozzle diameter updates First "
+"layer height."
+msgstr ""
+"Percentage of the smallest configured nozzle diameter used to derive First "
+"layer height in mm. Changing this value or nozzle diameter updates First "
+"layer height."

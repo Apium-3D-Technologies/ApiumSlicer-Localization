@@ -31132,3 +31132,60 @@ msgstr ""
 #: src/slic3r/GUI/Tab.cpp
 msgid "Override value: %1%"
 msgstr "Override-Wert: %1%"
+
+#: src/slic3r/GUI/Tab.cpp:1666
+msgid ""
+"Apium is a recursive acronym for \"Apium Perimeter Interweaving Undulating "
+"Method\". It generates interweaving undulating perimeter channels between "
+"outer and inner shell anchors. Wave phase alternates between layers to "
+"interlock pockets and reduce warping stress while improving Z-direction "
+"anchoring."
+msgstr ""
+"Apium ist ein rekursives Akronym fuer \"Apium Perimeter Interweaving "
+"Undulating Method\". Es erzeugt ineinander greifende, wellenfoermige "
+"Perimeter-Kanaele zwischen aeusserer und innerer Schalenverankerung. Die "
+"Wellenphase wechselt zwischen den Schichten, um Taschen zu verzahnen, "
+"Warping-Spannungen zu reduzieren und die Verankerung in Z-Richtung zu "
+"verbessern."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use relative layer heights"
+msgstr "Relative Schichthoehen verwenden"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, Layer height and First layer height are derived from their "
+"percentage values over the smallest configured nozzle diameter. Derived mm "
+"values are limited by printer layer height limits."
+msgstr ""
+"Wenn aktiviert, werden Schichthoehe und erste Schichthoehe aus ihren "
+"Prozentwerten ueber den kleinsten konfigurierten Duesendurchmesser "
+"berechnet. Die abgeleiteten mm-Werte werden durch die Schichthoehen-Grenzen "
+"des Druckers begrenzt."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Layer height (%)"
+msgstr "Schichthoehe (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of the smallest configured nozzle diameter used to derive Layer "
+"height in mm. Changing this value or nozzle diameter updates Layer height."
+msgstr ""
+"Prozentsatz des kleinsten konfigurierten Duesendurchmessers zur Berechnung "
+"der Schichthoehe in mm. Das Aendern dieses Werts oder des Duesendurchmessers "
+"aktualisiert die Schichthoehe."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "First layer height (%)"
+msgstr "Erste Schichthoehe (%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Percentage of the smallest configured nozzle diameter used to derive First "
+"layer height in mm. Changing this value or nozzle diameter updates First "
+"layer height."
+msgstr ""
+"Prozentsatz des kleinsten konfigurierten Duesendurchmessers zur Berechnung "
+"der ersten Schichthoehe in mm. Das Aendern dieses Werts oder des "
+"Duesendurchmessers aktualisiert die erste Schichthoehe."
