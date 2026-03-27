@@ -8874,7 +8874,7 @@ msgid "Percentage"
 msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2296 src/slic3r/GUI/GCodeViewer.cpp:2314
-msgid "Height (mm)"
+msgid "Layer height (mm)"
 msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2296 src/slic3r/GUI/GCodeViewer.cpp:2314

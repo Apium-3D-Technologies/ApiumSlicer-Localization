@@ -7346,8 +7346,8 @@ msgstr ""
 "dasselbe wie layer_z, kann aber unterschiedlich sein."
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2296 src/slic3r/GUI/GCodeViewer.cpp:2314
-msgid "Height (mm)"
-msgstr "Höhe (mm)"
+msgid "Layer height (mm)"
+msgstr "Schichthöhe (mm)"
 
 #: src/libslic3r/PrintConfig.cpp:2677
 msgid "Height of skirt expressed in layers."

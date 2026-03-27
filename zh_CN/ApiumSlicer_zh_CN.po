@@ -9696,8 +9696,8 @@ msgid "Percentage"
 msgstr "百分率"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2448 src/slic3r/GUI/GCodeViewer.cpp:2466
-msgid "Height (mm)"
-msgstr "高度 (mm)"
+msgid "Layer height (mm)"
+msgstr "层高度 (mm)"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2448 src/slic3r/GUI/GCodeViewer.cpp:2466
 msgid "Width (mm)"
