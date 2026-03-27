@@ -8432,7 +8432,7 @@ msgstr ""
 "available for all printers. These might not be compatible with your printer."
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1009 src/slic3r/GUI/ConfigWizard.cpp:1023
-#: src/slic3r/GUI/ConfigWizard.cpp:3918 src/slic3r/GUI/Tab.hpp:479
+#: src/slic3r/GUI/ConfigWizard.cpp:3918
 msgid "Filaments"
 msgstr "Filaments"
 
@@ -19472,7 +19472,9 @@ msgstr ""
 "last saved preset.\n"
 "Click to reset current value to the last saved preset."
 
-#: src/slic3r/GUI/Tab.cpp:5331 src/slic3r/GUI/Tab.cpp:5333
+#: src/slic3r/GUI/Tab.hpp:525 src/slic3r/GUI/Tab.cpp:3688
+#: src/slic3r/GUI/Tab.cpp:3689 src/slic3r/GUI/Tab.cpp:5331
+#: src/slic3r/GUI/Tab.cpp:5333
 msgid "Material"
 msgstr "Material"
 

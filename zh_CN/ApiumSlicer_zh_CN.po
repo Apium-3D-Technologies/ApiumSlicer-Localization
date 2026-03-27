@@ -8085,7 +8085,7 @@ msgstr ""
 "能与您的打印机不兼容。"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:987 src/slic3r/GUI/ConfigWizard.cpp:1001
-#: src/slic3r/GUI/ConfigWizard.cpp:3911 src/slic3r/GUI/Tab.hpp:480
+#: src/slic3r/GUI/ConfigWizard.cpp:3911
 msgid "Filaments"
 msgstr "耗材"
 
@@ -19085,7 +19085,9 @@ msgstr ""
 "后退箭头图标指示该值已更改，不等于上次保存的预设。\n"
 "单击以将当前值重置为上次保存的预设。"
 
-#: src/slic3r/GUI/Tab.cpp:5433 src/slic3r/GUI/Tab.cpp:5435
+#: src/slic3r/GUI/Tab.hpp:525 src/slic3r/GUI/Tab.cpp:3688
+#: src/slic3r/GUI/Tab.cpp:3689 src/slic3r/GUI/Tab.cpp:5433
+#: src/slic3r/GUI/Tab.cpp:5435
 msgid "Material"
 msgstr "材料"
 

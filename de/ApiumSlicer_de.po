@@ -6288,7 +6288,7 @@ msgid "filaments"
 msgstr "Filamente"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1009 src/slic3r/GUI/ConfigWizard.cpp:1023
-#: src/slic3r/GUI/ConfigWizard.cpp:3918 src/slic3r/GUI/Tab.hpp:479
+#: src/slic3r/GUI/ConfigWizard.cpp:3918
 msgid "Filaments"
 msgstr "Filamente"
 
@@ -9715,7 +9715,9 @@ msgstr "Maskierte SLA-Datei exportiert nach %1%"
 msgid "Match single line"
 msgstr "Einzelne Zeile abgleichen"
 
-#: src/slic3r/GUI/Tab.cpp:5331 src/slic3r/GUI/Tab.cpp:5333
+#: src/slic3r/GUI/Tab.hpp:525 src/slic3r/GUI/Tab.cpp:3688
+#: src/slic3r/GUI/Tab.cpp:3689 src/slic3r/GUI/Tab.cpp:5331
+#: src/slic3r/GUI/Tab.cpp:5333
 msgid "Material"
 msgstr "Material"
 
