@@ -29643,12 +29643,12 @@ msgid "HighTemp"
 msgstr "高温"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "ViscoTec Single Component"
-msgstr "ViscoTec 单组分"
+msgid "ViscoTec 1C"
+msgstr "ViscoTec 1C"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "ViscoTec Dual Component"
-msgstr "ViscoTec 双组分"
+msgid "ViscoTec 2C"
+msgstr "ViscoTec 2C"
 
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater commands were skipped because requirements are not met:"

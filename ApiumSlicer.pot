@@ -19304,11 +19304,11 @@ msgid "HighTemp"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "ViscoTec Single Component"
+msgid "ViscoTec 1C"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "ViscoTec Dual Component"
+msgid "ViscoTec 2C"
 msgstr ""
 
 #: src/libslic3r/Print.cpp
