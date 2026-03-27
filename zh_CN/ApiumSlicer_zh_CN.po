@@ -1500,9 +1500,14 @@ msgstr "75%悬挑的速度"
 msgid "Enable dynamic fan speeds"
 msgstr "启用动态风扇速度"
 
-#: src/libslic3r/PrintConfig.cpp:810
-msgid "This setting enables dynamic fan speed control on overhangs."
-msgstr "此设置可在悬挑上启用动态风扇速度控制。"
+#: src/libslic3r/PrintConfig.cpp:811
+msgid ""
+"This setting enables dynamic fan speed control based on how much each "
+"extrusion overlaps the previous layer. A part tilted around a single axis "
+"may therefore only activate it on the expanding side."
+msgstr ""
+"此设置会根据每条挤出与前一层的重叠量动态控制风扇速度。因此，对于仅绕单一轴倾"
+"斜的零件，它可能只会在向外扩展的那一侧生效。"
 
 #. TRN FilamentSettings : "Dynamic fan speeds"
 #: src/libslic3r/PrintConfig.cpp:815

@@ -1533,9 +1533,15 @@ msgstr "speed for 75% overlap"
 msgid "Enable dynamic fan speeds"
 msgstr "Enable dynamic fan speeds"
 
-#: src/libslic3r/PrintConfig.cpp:726
-msgid "This setting enables dynamic fan speed control on overhangs."
-msgstr "This setting enables dynamic fan speed control on overhangs."
+#: src/libslic3r/PrintConfig.cpp:727
+msgid ""
+"This setting enables dynamic fan speed control based on how much each "
+"extrusion overlaps the previous layer. A part tilted around a single axis "
+"may therefore only activate it on the expanding side."
+msgstr ""
+"This setting enables dynamic fan speed control based on how much each "
+"extrusion overlaps the previous layer. A part tilted around a single axis "
+"may therefore only activate it on the expanding side."
 
 #. TRN FilamentSettings : "Dynamic fan speeds"
 #: src/libslic3r/PrintConfig.cpp:731

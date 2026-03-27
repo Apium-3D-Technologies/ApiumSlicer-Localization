@@ -19257,11 +19257,16 @@ msgstr ""
 "Scheiben/Schichten. Dünnere Schichten ergeben eine bessere Genauigkeit, "
 "benötigen aber mehr Zeit zum Drucken."
 
-#: src/libslic3r/PrintConfig.cpp:726
-msgid "This setting enables dynamic fan speed control on overhangs."
+#: src/libslic3r/PrintConfig.cpp:727
+msgid ""
+"This setting enables dynamic fan speed control based on how much each "
+"extrusion overlaps the previous layer. A part tilted around a single axis "
+"may therefore only activate it on the expanding side."
 msgstr ""
-"Diese Einstellung ermöglicht eine dynamische Lüfter-"
-"Geschwindigkeitskontrolle bei Überhängen."
+"Diese Einstellung aktiviert eine dynamische Lüfterregelung anhand der "
+"Überlappung jeder Extrusion mit der vorherigen Schicht. Bei Teilen, die nur "
+"um eine Achse gekippt sind, kann sie deshalb nur auf der expandierenden "
+"Seite aktiv werden."
 
 #: src/libslic3r/PrintConfig.cpp:677
 msgid "This setting enables dynamic speed control on overhangs."
