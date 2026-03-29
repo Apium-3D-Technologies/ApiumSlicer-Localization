@@ -29728,8 +29728,9 @@ msgstr ""
 msgid "failed to flush the file '%s'"
 msgstr "Versuch, die Datei „%s“ zu entladen, fehlgeschlagen"
 
+#. #-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#
 #. TRANSLATORS: Name of Boolean false value
-#: ../src/generic/datavgen.cpp:1030
+#: ../src/generic/datavgen.cpp:1030 src/slic3r/GUI/Tab.cpp:3426
 msgid "false"
 msgstr "falsch"
 
@@ -30134,8 +30135,9 @@ msgstr "Abschließenden Gegenschrägstrich in „%s“ ignoriert"
 msgid "translator-credits"
 msgstr "Übersetzer"
 
+#. #-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#
 #. TRANSLATORS: Name of Boolean true value
-#: ../src/generic/datavgen.cpp:1028
+#: ../src/generic/datavgen.cpp:1028 src/slic3r/GUI/Tab.cpp:3425
 msgid "true"
 msgstr "wahr"
 
@@ -31196,3 +31198,123 @@ msgstr ""
 "Prozentsatz des kleinsten konfigurierten Duesendurchmessers zur Berechnung "
 "der ersten Schichthoehe in mm. Das Aendern dieses Werts oder des "
 "Duesendurchmessers aktualisiert die erste Schichthoehe."
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:66
+msgid ""
+"The automatic extrusion widths calculation requires:\n"
+"- Default extrusion width: 0\n"
+"- First layer extrusion width: 0\n"
+"- Perimeter extrusion width: 0\n"
+"- External perimeter extrusion width: 0\n"
+"- Infill extrusion width: 0\n"
+"- Bridge infill extrusion width: 0\n"
+"- Solid infill extrusion width: 0\n"
+"- Top infill extrusion width: 0\n"
+"- Support material extrusion width: 0"
+msgstr ""
+"Die automatische Berechnung der Extrusionsbreiten erfordert:\n"
+"- Standard-Extrusionsbreite: 0\n"
+"- Extrusionsbreite der ersten Schicht: 0\n"
+"- Kontur-Extrusionsbreite: 0\n"
+"- Aussenkontur-Extrusionsbreite: 0\n"
+"- Infill-Extrusionsbreite: 0\n"
+"- Bridge-Infill-Extrusionsbreite: 0\n"
+"- Solid-Infill-Extrusionsbreite: 0\n"
+"- Top-Infill-Extrusionsbreite: 0\n"
+"- Stuetzmaterial-Extrusionsbreite: 0"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:78
+msgid ""
+"Shall I adjust those settings in order to enable automatic extrusion widths "
+"calculation?"
+msgstr ""
+"Soll ich diese Einstellungen anpassen, um die automatische Berechnung der "
+"Extrusionsbreiten zu aktivieren?"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:81
+msgid "Automatic extrusion widths calculation"
+msgstr "Automatische Berechnung der Extrusionsbreiten"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for bridge "
+"infill. If left zero, bridge infill width is derived from bridge flow ratio "
+"and nozzle diameter. If expressed as percentage (for example 90%) it will be "
+"computed over the selected calculation base."
+msgstr ""
+"Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle "
+"Extrusionsbreite fuer Bridge Infill festzulegen. Bei Null wird die Bridge-"
+"Infill-Breite aus Bridge-Flow-Ratio und Duesendurchmesser abgeleitet. Bei "
+"Prozentwerten (z. B. 90 %) wird anhand der ausgewaehlten "
+"Berechnungsgrundlage gerechnet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Base for percentage-based bridge infill extrusion width calculation. Used "
+"only for percentage values."
+msgstr ""
+"Berechnungsgrundlage fuer die prozentbasierte Bridge-Infill-"
+"Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge infill extrusion multiplier"
+msgstr "Bridge-Infill-Extrusionsmultiplikator"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge infill extrusions."
+msgstr "Multiplikator fuer Bridge-Infill-Extrusionen."
+
+#: src/libslic3r/Print.cpp:876
+msgid ""
+"The Wipe Tower is only supported for multiple objects if they are printed "
+"with the same effective support contact distance."
+msgstr ""
+"Der Wischturm wird bei mehreren Objekten nur unterstuetzt, wenn sie mit "
+"demselben effektiven Stuetz-Kontaktabstand gedruckt werden."
+
+#: src/slic3r/GUI/Tab.cpp:2498
+#, boost-format
+msgid "Override Active (T%1%)"
+msgstr "Override aktiv (T%1%)"
+
+#: src/slic3r/GUI/Tab.cpp:2522
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\"."
+msgstr "Override-Quelle: T%1%, Filament-Profil \"%2%\"."
+
+#: src/slic3r/GUI/Tab.cpp:2524
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+msgstr "Override-Quelle: T%1%, Filament-Profil \"%2%\", Material \"%3%\"."
+
+#: src/slic3r/GUI/Tab.cpp:2741
+msgid "Invalid setting key."
+msgstr "Ungueltiger Einstellungsschluessel."
+
+#: src/slic3r/GUI/Tab.cpp:2765
+msgid "Please use true or false."
+msgstr "Bitte true oder false verwenden."
+
+#: src/slic3r/GUI/Tab.cpp:2781
+msgid "Invalid enum value."
+msgstr "Ungueltiger Enum-Wert."
+
+#: src/slic3r/GUI/Tab.cpp:2791
+msgid "Unable to parse override value."
+msgstr "Override-Wert konnte nicht geparst werden."
+
+#: src/slic3r/GUI/Tab.cpp:2841
+msgid "Add print setting override"
+msgstr "Druckeinstellungs-Override hinzufuegen"
+
+#: src/slic3r/GUI/Tab.cpp:2851
+msgid "Search print settings"
+msgstr "Druckeinstellungen durchsuchen"
+
+#: src/slic3r/GUI/Tab.cpp:3452 src/slic3r/GUI/Tab.cpp:3487
+msgid "Invalid override value"
+msgstr "Ungueltiger Override-Wert"
+
+#: src/slic3r/GUI/Tab.cpp:3518
+msgid "Remove override"
+msgstr "Override entfernen"

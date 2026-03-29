@@ -7821,6 +7821,7 @@ msgid ""
 "- Perimeter extrusion width: 0\n"
 "- External perimeter extrusion width: 0\n"
 "- Infill extrusion width: 0\n"
+"- Bridge infill extrusion width: 0\n"
 "- Solid infill extrusion width: 0\n"
 "- Top infill extrusion width: 0\n"
 "- Support material extrusion width: 0"
@@ -28695,11 +28696,9 @@ msgstr "写zip条目 '%s' 时出错: crc 校验或长度错误"
 msgid "failed to flush the file '%s'"
 msgstr "刷新文件 '%s' 失败"
 
-#. TRANSLATORS: Name of Boolean false value
-#: ../src/generic/datavgen.cpp:1030
-#, fuzzy
+#: src/slic3r/GUI/Tab.cpp:3426
 msgid "false"
-msgstr "False"
+msgstr "假"
 
 #: ../src/common/datetimefmt.cpp:1966
 msgid "fifteenth"
@@ -29100,10 +29099,9 @@ msgstr "'%s'尾部的斜线将被忽略"
 msgid "translator-credits"
 msgstr "翻译人员"
 
-#. TRANSLATORS: Name of Boolean true value
-#: ../src/generic/datavgen.cpp:1028
+#: src/slic3r/GUI/Tab.cpp:3425
 msgid "true"
-msgstr ""
+msgstr "真"
 
 #: ../src/common/datetimefmt.cpp:1963
 msgid "twelfth"
@@ -30028,3 +30026,92 @@ msgstr ""
 "Percentage of the smallest configured nozzle diameter used to derive First "
 "layer height in mm. Changing this value or nozzle diameter updates First "
 "layer height."
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid ""
+"Set this to a non-zero value to set a manual extrusion width for bridge "
+"infill. If left zero, bridge infill width is derived from bridge flow ratio "
+"and nozzle diameter. If expressed as percentage (for example 90%) it will be "
+"computed over the selected calculation base."
+msgstr ""
+"Set this to a non-zero value to set a manual extrusion width for bridge "
+"infill. If left zero, bridge infill width is derived from bridge flow ratio "
+"and nozzle diameter. If expressed as percentage (for example 90%) it will be "
+"computed over the selected calculation base."
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid ""
+"Base for percentage-based bridge infill extrusion width calculation. Used "
+"only for percentage values."
+msgstr ""
+"Base for percentage-based bridge infill extrusion width calculation. Used "
+"only for percentage values."
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid "Bridge infill extrusion multiplier"
+msgstr "Bridge infill extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+#, fuzzy
+msgid "Multiplier applied to bridge infill extrusions."
+msgstr "Multiplier applied to bridge infill extrusions."
+
+#: src/libslic3r/Print.cpp:876
+msgid ""
+"The Wipe Tower is only supported for multiple objects if they are printed "
+"with the same effective support contact distance."
+msgstr "仅当多个对象使用相同的有效支撑接触距离打印时，才支持擦拭塔。"
+
+#: src/slic3r/GUI/Tab.cpp:2498
+#, boost-format
+msgid "Override Active (T%1%)"
+msgstr "覆盖已生效 (T%1%)"
+
+#: src/slic3r/GUI/Tab.cpp:2522
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\"."
+msgstr "覆盖来源：T%1%，耗材预设“%2%”。"
+
+#: src/slic3r/GUI/Tab.cpp:2524
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+msgstr "覆盖来源：T%1%，耗材预设“%2%”，材料“%3%”。"
+
+#: src/slic3r/GUI/Tab.cpp:2741
+msgid "Invalid setting key."
+msgstr "无效的设置键。"
+
+#: src/slic3r/GUI/Tab.cpp:2765
+msgid "Please use true or false."
+msgstr "请输入 true 或 false。"
+
+#: src/slic3r/GUI/Tab.cpp:2781
+msgid "Invalid enum value."
+msgstr "无效的枚举值。"
+
+#: src/slic3r/GUI/Tab.cpp:2791
+msgid "Unable to parse override value."
+msgstr "无法解析覆盖值。"
+
+#: src/slic3r/GUI/Tab.cpp:2841
+msgid "Add print setting override"
+msgstr "添加打印设置覆盖"
+
+#: src/slic3r/GUI/Tab.cpp:2851
+msgid "Search print settings"
+msgstr "搜索打印设置"
+
+#: src/slic3r/GUI/Tab.cpp:3452 src/slic3r/GUI/Tab.cpp:3487
+msgid "Invalid override value"
+msgstr "无效的覆盖值"
+
+#: src/slic3r/GUI/Tab.cpp:3518
+msgid "Remove override"
+msgstr "移除覆盖"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:495
+msgid "Purge line"
+msgstr "清洗线"

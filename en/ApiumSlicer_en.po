@@ -8194,6 +8194,42 @@ msgstr ""
 "\n"
 "The first layer height will be reset to 0.01."
 
+#: src/slic3r/GUI/ConfigManipulation.cpp:66
+msgid ""
+"The automatic extrusion widths calculation requires:\n"
+"- Default extrusion width: 0\n"
+"- First layer extrusion width: 0\n"
+"- Perimeter extrusion width: 0\n"
+"- External perimeter extrusion width: 0\n"
+"- Infill extrusion width: 0\n"
+"- Bridge infill extrusion width: 0\n"
+"- Solid infill extrusion width: 0\n"
+"- Top infill extrusion width: 0\n"
+"- Support material extrusion width: 0"
+msgstr ""
+"The automatic extrusion widths calculation requires:\n"
+"- Default extrusion width: 0\n"
+"- First layer extrusion width: 0\n"
+"- Perimeter extrusion width: 0\n"
+"- External perimeter extrusion width: 0\n"
+"- Infill extrusion width: 0\n"
+"- Bridge infill extrusion width: 0\n"
+"- Solid infill extrusion width: 0\n"
+"- Top infill extrusion width: 0\n"
+"- Support material extrusion width: 0"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:78
+msgid ""
+"Shall I adjust those settings in order to enable automatic extrusion widths "
+"calculation?"
+msgstr ""
+"Shall I adjust those settings in order to enable automatic extrusion widths "
+"calculation?"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:81
+msgid "Automatic extrusion widths calculation"
+msgstr "Automatic extrusion widths calculation"
+
 #: src/slic3r/GUI/ConfigManipulation.cpp:86
 msgid ""
 "The Spiral Vase mode requires:\n"
@@ -29051,8 +29087,9 @@ msgstr "error writing zip entry '%s': bad crc or length"
 msgid "failed to flush the file '%s'"
 msgstr "failed to flush the file '%s'"
 
+#. #-#-#-#-#  ApiumSlicer_en.po  #-#-#-#-#
 #. TRANSLATORS: Name of Boolean false value
-#: ../src/generic/datavgen.cpp:1030
+#: ../src/generic/datavgen.cpp:1030 src/slic3r/GUI/Tab.cpp:3426
 msgid "false"
 msgstr "false"
 
@@ -29455,8 +29492,9 @@ msgstr "trailing backslash ignored in '%s'"
 msgid "translator-credits"
 msgstr "translator-credits"
 
+#. #-#-#-#-#  ApiumSlicer_en.po  #-#-#-#-#
 #. TRANSLATORS: Name of Boolean true value
-#: ../src/generic/datavgen.cpp:1028
+#: ../src/generic/datavgen.cpp:1028 src/slic3r/GUI/Tab.cpp:3425
 msgid "true"
 msgstr "true"
 
@@ -29689,6 +29727,18 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
+"Set this to a non-zero value to set a manual extrusion width for bridge "
+"infill. If left zero, bridge infill width is derived from bridge flow ratio "
+"and nozzle diameter. If expressed as percentage (for example 90%) it will be "
+"computed over the selected calculation base."
+msgstr ""
+"Set this to a non-zero value to set a manual extrusion width for bridge "
+"infill. If left zero, bridge infill width is derived from bridge flow ratio "
+"and nozzle diameter. If expressed as percentage (for example 90%) it will be "
+"computed over the selected calculation base."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
 "Set this to a non-zero value to set a manual extrusion width for perimeters. "
 "You may want to use thinner extrudates to get more accurate surfaces. If "
 "left zero, default extrusion width will be used if set, otherwise 1.125 x "
@@ -29780,6 +29830,14 @@ msgid ""
 msgstr ""
 "Base for percentage-based infill extrusion width calculation. Used only for "
 "percentage values."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Base for percentage-based bridge infill extrusion width calculation. Used "
+"only for percentage values."
+msgstr ""
+"Base for percentage-based bridge infill extrusion width calculation. Used "
+"only for percentage values."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -29926,6 +29984,14 @@ msgid ""
 msgstr ""
 "Multiplier applied to bridge extrusions. Bridge multiplier has priority over "
 "other line type multipliers."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge infill extrusion multiplier"
+msgstr "Bridge infill extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge infill extrusions."
+msgstr "Multiplier applied to bridge infill extrusions."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Raft extrusion multiplier"
@@ -30463,3 +30529,58 @@ msgstr ""
 "Percentage of the smallest configured nozzle diameter used to derive First "
 "layer height in mm. Changing this value or nozzle diameter updates First "
 "layer height."
+
+#: src/libslic3r/Print.cpp:876
+msgid ""
+"The Wipe Tower is only supported for multiple objects if they are printed "
+"with the same effective support contact distance."
+msgstr ""
+"The Wipe Tower is only supported for multiple objects if they are printed "
+"with the same effective support contact distance."
+
+#: src/slic3r/GUI/Tab.cpp:2498
+#, boost-format
+msgid "Override Active (T%1%)"
+msgstr "Override Active (T%1%)"
+
+#: src/slic3r/GUI/Tab.cpp:2522
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\"."
+msgstr "Override source: T%1%, filament preset \"%2%\"."
+
+#: src/slic3r/GUI/Tab.cpp:2524
+#, boost-format
+msgid "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+msgstr "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+
+#: src/slic3r/GUI/Tab.cpp:2741
+msgid "Invalid setting key."
+msgstr "Invalid setting key."
+
+#: src/slic3r/GUI/Tab.cpp:2765
+msgid "Please use true or false."
+msgstr "Please use true or false."
+
+#: src/slic3r/GUI/Tab.cpp:2781
+msgid "Invalid enum value."
+msgstr "Invalid enum value."
+
+#: src/slic3r/GUI/Tab.cpp:2791
+msgid "Unable to parse override value."
+msgstr "Unable to parse override value."
+
+#: src/slic3r/GUI/Tab.cpp:2841
+msgid "Add print setting override"
+msgstr "Add print setting override"
+
+#: src/slic3r/GUI/Tab.cpp:2851
+msgid "Search print settings"
+msgstr "Search print settings"
+
+#: src/slic3r/GUI/Tab.cpp:3452 src/slic3r/GUI/Tab.cpp:3487
+msgid "Invalid override value"
+msgstr "Invalid override value"
+
+#: src/slic3r/GUI/Tab.cpp:3518
+msgid "Remove override"
+msgstr "Remove override"

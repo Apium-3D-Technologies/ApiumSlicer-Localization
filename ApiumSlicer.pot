@@ -7127,6 +7127,30 @@ msgid ""
 "The first layer height will be reset to 0.01."
 msgstr ""
 
+#: src/slic3r/GUI/ConfigManipulation.cpp:66
+msgid ""
+"The automatic extrusion widths calculation requires:\n"
+"- Default extrusion width: 0\n"
+"- First layer extrusion width: 0\n"
+"- Perimeter extrusion width: 0\n"
+"- External perimeter extrusion width: 0\n"
+"- Infill extrusion width: 0\n"
+"- Bridge infill extrusion width: 0\n"
+"- Solid infill extrusion width: 0\n"
+"- Top infill extrusion width: 0\n"
+"- Support material extrusion width: 0"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:78
+msgid ""
+"Shall I adjust those settings in order to enable automatic extrusion widths "
+"calculation?"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigManipulation.cpp:81
+msgid "Automatic extrusion widths calculation"
+msgstr ""
+
 #: src/slic3r/GUI/ConfigManipulation.cpp:86
 msgid ""
 "The Spiral Vase mode requires:\n"
@@ -19064,6 +19088,10 @@ msgid "Set this to a non-zero value to set a manual extrusion width for infill. 
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
+msgid "Set this to a non-zero value to set a manual extrusion width for bridge infill. If left zero, bridge infill width is derived from bridge flow ratio and nozzle diameter. If expressed as percentage (for example 90%) it will be computed over the selected calculation base."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
 msgid "Set this to a non-zero value to set a manual extrusion width for perimeters. You may want to use thinner extrudates to get more accurate surfaces. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%) it will be computed over the selected calculation base."
 msgstr ""
 
@@ -19097,6 +19125,10 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Base for percentage-based infill extrusion width calculation. Used only for percentage values."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based bridge infill extrusion width calculation. Used only for percentage values."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19193,6 +19225,14 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Multiplier applied to bridge extrusions. Bridge multiplier has priority over other line type multipliers."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge infill extrusion multiplier"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to bridge infill extrusions."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19667,4 +19707,66 @@ msgid ""
 "Percentage of the smallest configured nozzle diameter used to derive First "
 "layer height in mm. Changing this value or nozzle diameter updates First "
 "layer height."
+msgstr ""
+
+#: src/libslic3r/Print.cpp:876
+msgid ""
+"The Wipe Tower is only supported for multiple objects if they are printed "
+"with the same effective support contact distance."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2498
+#, possible-boost-format
+msgid "Override Active (T%1%)"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2522
+#, possible-boost-format
+msgid "Override source: T%1%, filament preset \"%2%\"."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2524
+#, possible-boost-format
+msgid "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2741
+msgid "Invalid setting key."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2765
+msgid "Please use true or false."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2781
+msgid "Invalid enum value."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2791
+msgid "Unable to parse override value."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2841
+msgid "Add print setting override"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2851
+msgid "Search print settings"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:3425
+msgid "true"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:3426
+msgid "false"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:3452
+#: src/slic3r/GUI/Tab.cpp:3487
+msgid "Invalid override value"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:3518
+msgid "Remove override"
 msgstr ""
