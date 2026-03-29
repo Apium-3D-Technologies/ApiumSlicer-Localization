@@ -1872,6 +1872,14 @@ msgstr ""
 "Fill pattern for bottom infill. This only affects the bottom external "
 "visible layer, and not its adjacent solid shells."
 
+#: src/libslic3r/PrintConfig.cpp:979
+msgid "Solid fill pattern"
+msgstr "Solid fill pattern"
+
+#: src/libslic3r/PrintConfig.cpp:981
+msgid "Fill pattern for internal solid infill."
+msgstr "Fill pattern for internal solid infill."
+
 #: src/libslic3r/PrintConfig.cpp:981 src/libslic3r/PrintConfig.cpp:993
 #: src/libslic3r/PrintConfig.cpp:2311
 msgid "External perimeters"

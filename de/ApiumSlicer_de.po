@@ -1867,6 +1867,14 @@ msgstr "Boden Kontakt Z Abstand"
 msgid "Bottom fill pattern"
 msgstr "Bodenfüllmuster"
 
+#: src/libslic3r/PrintConfig.cpp:979
+msgid "Solid fill pattern"
+msgstr "Muster für feste Füllung"
+
+#: src/libslic3r/PrintConfig.cpp:981
+msgid "Fill pattern for internal solid infill."
+msgstr "Füllmuster für interne feste Füllung."
+
 #: src/libslic3r/PrintConfig.cpp:3071
 msgid "Bottom interface layers"
 msgstr "Untere Schnittstellenschichten"

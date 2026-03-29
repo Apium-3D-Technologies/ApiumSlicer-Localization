@@ -1643,6 +1643,14 @@ msgid ""
 "visible layer, and not its adjacent solid shells."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:979
+msgid "Solid fill pattern"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:981
+msgid "Fill pattern for internal solid infill."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:981 src/libslic3r/PrintConfig.cpp:993
 #: src/libslic3r/PrintConfig.cpp:2311
 msgid "External perimeters"

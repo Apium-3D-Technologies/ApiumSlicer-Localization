@@ -1866,6 +1866,14 @@ msgid ""
 "visible layer, and not its adjacent solid shells."
 msgstr "填充底部填充的模式。这仅影响底部外部可见图层，而不影响其相邻的实体壳。"
 
+#: src/libslic3r/PrintConfig.cpp:979
+msgid "Solid fill pattern"
+msgstr "实体填充模式"
+
+#: src/libslic3r/PrintConfig.cpp:981
+msgid "Fill pattern for internal solid infill."
+msgstr "内部实体填充的填充模式。"
+
 #: src/libslic3r/PrintConfig.cpp:1099 src/libslic3r/PrintConfig.cpp:1111
 #: src/libslic3r/PrintConfig.cpp:2527
 msgid "External perimeters"
