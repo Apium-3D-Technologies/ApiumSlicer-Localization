@@ -30123,3 +30123,7 @@ msgstr "移除覆盖"
 #: src/slic3r/GUI/GCodeViewer.cpp:495
 msgid "Purge line"
 msgstr "清洗线"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:2640 src/slic3r/GUI/GCodeViewer.cpp:2647
+msgid "Retract coasting"
+msgstr ""

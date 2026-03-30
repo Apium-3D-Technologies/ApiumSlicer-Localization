@@ -30592,3 +30592,7 @@ msgstr "Invalid override value"
 #: src/slic3r/GUI/Tab.cpp:3518
 msgid "Remove override"
 msgstr "Remove override"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:2640 src/slic3r/GUI/GCodeViewer.cpp:2647
+msgid "Retract coasting"
+msgstr "Retract coasting"
