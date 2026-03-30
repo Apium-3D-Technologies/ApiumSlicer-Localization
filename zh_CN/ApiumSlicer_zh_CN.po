@@ -1101,7 +1101,7 @@ msgstr "避免穿越卷曲的悬垂物（实验）。"
 #. TRN PrintSettings: "Avoid crossing curled overhangs (Experimental)"
 #: src/libslic3r/PrintConfig.cpp:567
 msgid ""
-"Plan travel moves such that the extruder avoids areas where the filament may "
+"Plan travel moves such that the extruder avoids areas where the material may "
 "be curled up. This is mostly happening on steeper rounded overhangs and may "
 "cause a crash with the nozzle. This feature slows down both the print and "
 "the G-code generation."
@@ -1581,7 +1581,7 @@ msgid "Colorprint height"
 msgstr "彩色打印高度"
 
 #: src/libslic3r/PrintConfig.cpp:890
-msgid "Heights at which a filament change is to occur."
+msgid "Heights at which a material change is to occur."
 msgstr "发生耗材变化的高度。"
 
 #: src/libslic3r/PrintConfig.cpp:894 src/slic3r/GUI/Tab.cpp:101
@@ -1709,13 +1709,13 @@ msgstr ""
 "重置加速度。"
 
 #: src/libslic3r/PrintConfig.cpp:994
-msgid "Default filament profile"
+msgid "Default material profile"
 msgstr "默认耗材配置文件"
 
 #: src/libslic3r/PrintConfig.cpp:995
 msgid ""
-"Default filament profile associated with the current printer profile. On "
-"selection of the current printer profile, this filament profile will be "
+"Default material profile associated with the current printer profile. On "
+"selection of the current printer profile, this material profile will be "
 "activated."
 msgstr ""
 "与当前打印机配置文件关联的默认耗材配置文件。在选择当前打印机配置文件时, 将激"
@@ -2048,7 +2048,7 @@ msgid ""
 "This factor changes the amount of flow proportionally. You may need to tweak "
 "this setting to get nice surface finish and correct single wall widths. "
 "Usual values are between 0.9 and 1.1. If you think you need to change this "
-"more, check filament diameter and your firmware E steps."
+"more, check material diameter and your firmware E steps."
 msgstr ""
 "此因子按比例更改流量。您可能需要调整此设置，以获得漂亮的表面光洁度和正确的单"
 "壁宽度。通常值介于 0.9 和 1.1 之间。如果您认为需要更改更多，请检查耗材直径和"
@@ -2104,11 +2104,11 @@ msgid "Color"
 msgstr "颜色"
 
 #: src/libslic3r/PrintConfig.cpp:1248
-msgid "Filament notes"
+msgid "Material notes"
 msgstr "耗材备注"
 
 #: src/libslic3r/PrintConfig.cpp:1249
-msgid "You can put your notes regarding the filament here."
+msgid "You can put your notes regarding the material here."
 msgstr "你可以把关于耗材的笔记放在这里。"
 
 #: src/libslic3r/PrintConfig.cpp:1257 src/libslic3r/PrintConfig.cpp:2341
@@ -2117,8 +2117,8 @@ msgstr "最大体积速度"
 
 #: src/libslic3r/PrintConfig.cpp:1258
 msgid ""
-"Maximum volumetric speed allowed for this filament. Limits the maximum "
-"volumetric speed of a print to the minimum of print and filament volumetric "
+"Maximum volumetric speed allowed for this material. Limits the maximum "
+"volumetric speed of a print to the minimum of print and material volumetric "
 "speed. Set to zero for no limit."
 msgstr ""
 "此耗材允许的最大体积速度。将打印的最大体积速度限制为最小打印和耗材体积速度。"
@@ -2136,7 +2136,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1268
 msgid ""
-"Maximum speed allowed for this filament while printing infill without any "
+"Maximum speed allowed for this material while printing infill without any "
 "self intersections in a single layer. Set to zero for no limit."
 msgstr ""
 
@@ -2146,7 +2146,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1278
 msgid ""
-"Maximum speed allowed for this filament while printing infill with self "
+"Maximum speed allowed for this material while printing infill with self "
 "intersections in a single layer. Set to zero for no limit."
 msgstr ""
 
@@ -2155,7 +2155,7 @@ msgid "Loading speed"
 msgstr "加载速度"
 
 #: src/libslic3r/PrintConfig.cpp:1288
-msgid "Speed used for loading the filament on the wipe tower."
+msgid "Speed used for loading the material on the wipe tower."
 msgstr "用于在擦料塔上装载耗材的速度。"
 
 #: src/libslic3r/PrintConfig.cpp:1295
@@ -2172,7 +2172,7 @@ msgstr "卸载速度"
 
 #: src/libslic3r/PrintConfig.cpp:1304
 msgid ""
-"Speed used for unloading the filament on the wipe tower (does not affect  "
+"Speed used for unloading the material on the wipe tower (does not affect  "
 "initial part of unloading just after ramming)."
 msgstr "用于卸载擦聊塔上的耗材的速度（不影响冲压后卸载的初始部分）。"
 
@@ -2182,7 +2182,7 @@ msgstr "开始时卸载速度"
 
 #: src/libslic3r/PrintConfig.cpp:1313
 msgid ""
-"Speed used for unloading the tip of the filament immediately after ramming."
+"Speed used for unloading the tip of the material immediately after ramming."
 msgstr "冲压后立即卸载耗材尖端的速度。"
 
 #: src/libslic3r/PrintConfig.cpp:1320
@@ -2191,7 +2191,7 @@ msgstr "卸载后延迟"
 
 #: src/libslic3r/PrintConfig.cpp:1321
 msgid ""
-"Time to wait after the filament is unloaded. May help to get reliable "
+"Time to wait after the material is unloaded. May help to get reliable "
 "toolchanges with flexible materials that may need more time to shrink to "
 "original dimensions."
 msgstr ""
@@ -2225,9 +2225,9 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1339
 msgid ""
-"If set to nonzero value, filament is moved toward the nozzle between the "
+"If set to nonzero value, material is moved toward the nozzle between the "
 "individual cooling moves (\"stamping\"). This option configures how long "
-"this movement should be before the filament is retracted again."
+"this movement should be before the material is retracted again."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1347
@@ -2236,7 +2236,7 @@ msgstr "冷却移动次数"
 
 #: src/libslic3r/PrintConfig.cpp:1348
 msgid ""
-"Filament is cooled by being moved back and forth in the cooling tubes. "
+"Material is cooled by being moved back and forth in the cooling tubes. "
 "Specify desired number of these moves."
 msgstr "在冷却管中来回移动，使耗材冷却。指定这些移动的所需数量。"
 
@@ -2254,8 +2254,8 @@ msgstr "擦料塔上的最小清理量"
 
 #: src/libslic3r/PrintConfig.cpp:1365
 msgid ""
-"After a tool change, the exact position of the newly loaded filament inside "
-"the nozzle may not be known, and the filament pressure is likely not yet "
+"After a tool change, the exact position of the newly loaded material inside "
+"the nozzle may not be known, and the material pressure is likely not yet "
 "stable. Before purging the print head into an infill or a sacrificial "
 "object, Slic3r will always prime this amount of material into the wipe tower "
 "to produce successive infill or sacrificial object extrusions reliably."
@@ -2284,18 +2284,18 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:1384
 msgid ""
 "Purging volume on the wipe tower is determined by 'multimaterial_purging' in "
-"Printer Settings. This option allows to modify the volume on filament level. "
+"Printer Settings. This option allows to modify the volume on material level. "
 "Note that the project can override this by setting project-specific values."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1393
-msgid "Filament load time"
+msgid "Material load time"
 msgstr "耗材加载时间"
 
 #: src/libslic3r/PrintConfig.cpp:1394
 msgid ""
-"Time for the printer firmware (or the Multi Material Unit 2.0) to load a new "
-"filament during a tool change (when executing the T code). This time is "
+"Time for the printer firmware (or the Multi Material Unit 2.0) to load new "
+"material during a tool change (when executing the T code). This time is "
 "added to the total print time by the G-code time estimator."
 msgstr ""
 "打印机固件 (或 Multi Material Unit 2.0) 在工具更换期间 (执行 T 代码时) 加载新"
@@ -2312,13 +2312,13 @@ msgid ""
 msgstr "此字符串由 RammingDialog 编辑，包含冲压特定参数。"
 
 #: src/libslic3r/PrintConfig.cpp:1408
-msgid "Filament unload time"
+msgid "Material unload time"
 msgstr "耗材卸载时间"
 
 #: src/libslic3r/PrintConfig.cpp:1409
 msgid ""
-"Time for the printer firmware (or the Multi Material Unit 2.0) to unload a "
-"filament during a tool change (when executing the T code). This time is "
+"Time for the printer firmware (or the Multi Material Unit 2.0) to unload "
+"material during a tool change (when executing the T code). This time is "
 "added to the total print time by the G-code time estimator."
 msgstr ""
 "打印机固件 (或 Multi Material Unit 2.0) 在工具更换期间 (执行 T 代码时) 卸载耗"
@@ -2332,7 +2332,7 @@ msgstr ""
 msgid ""
 "Perform ramming when using multitool printer (i.e. when the 'Single Extruder "
 "Multimaterial' in Printer Settings is unchecked). When checked, a small "
-"amount of filament is rapidly extruded on the wipe tower just before the "
+"amount of material is rapidly extruded on the wipe tower just before the "
 "toolchange. This option is only used when the wipe tower is enabled."
 msgstr ""
 
@@ -2349,7 +2349,7 @@ msgid "Multitool ramming flow"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1433
-msgid "Flow used for ramming the filament before the toolchange."
+msgid "Flow used for ramming the material before the toolchange."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1440 src/slic3r/GUI/BedShapeDialog.cpp:44
@@ -2359,8 +2359,8 @@ msgstr "直径"
 
 #: src/libslic3r/PrintConfig.cpp:1441
 msgid ""
-"Enter your filament diameter here. Good precision is required, so use a "
-"caliper and do multiple measurements along the filament, then compute the "
+"Enter your material diameter here. Good precision is required, so use a "
+"caliper and do multiple measurements along the material, then compute the "
 "average."
 msgstr ""
 "在此处输入您的耗材直径。需要比较好的精度，建议使用卡钳沿耗材进行多次测量，然"
@@ -2373,8 +2373,8 @@ msgstr "密度"
 
 #: src/libslic3r/PrintConfig.cpp:1449
 msgid ""
-"Enter your filament density here. This is only for statistical information. "
-"A decent way is to weigh a known length of filament and compute the ratio of "
+"Enter your material density here. This is only for statistical information. "
+"A decent way is to weigh a known length of material and compute the ratio of "
 "the length to volume. Better is to calculate the volume directly through "
 "displacement."
 msgstr ""
@@ -2386,11 +2386,11 @@ msgid "g/cm³"
 msgstr "g/cm³"
 
 #: src/libslic3r/PrintConfig.cpp:1457
-msgid "Filament type"
+msgid "Material type"
 msgstr "耗材类型"
 
 #: src/libslic3r/PrintConfig.cpp:1458
-msgid "The filament material type for use in custom G-codes."
+msgid "The material type for use in custom G-codes."
 msgstr "用于自定义 G-Codes 的耗材材料类型。"
 
 #: src/libslic3r/PrintConfig.cpp:1486
@@ -2419,7 +2419,7 @@ msgstr "费用"
 
 #: src/libslic3r/PrintConfig.cpp:1499
 msgid ""
-"Enter your filament cost per kg here. This is only for statistical "
+"Enter your material cost per kg here. This is only for statistical "
 "information."
 msgstr "在此处输入每公斤耗材成本。这仅用于统计信息。"
 
@@ -2433,10 +2433,10 @@ msgstr "线轴重量"
 
 #: src/libslic3r/PrintConfig.cpp:1506
 msgid ""
-"Enter weight of the empty filament spool. One may weigh a partially consumed "
-"filament spool before printing and one may compare the measured weight with "
-"the calculated weight of the filament with the spool to find out whether the "
-"amount of filament on the spool is sufficient to finish the print."
+"Enter weight of the empty material spool. One may weigh a partially consumed "
+"material spool before printing and one may compare the measured weight with "
+"the calculated weight of the material with the spool to find out whether the "
+"amount of material on the spool is sufficient to finish the print."
 msgstr ""
 "输入空耗材滑阀的重量。打印前，可以对部分消耗的耗材线轴进行称重，并将测量重量"
 "与耗材与线轴的计算重量进行比较，以确定线轴上的耗材量是否足以完成打印。"
@@ -2455,7 +2455,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1524
 msgid ""
-"Enter your filament shrinkage percentages for the X and Y axes here to apply "
+"Enter your material shrinkage percentages for the X and Y axes here to apply "
 "scaling of the object to compensate for shrinkage in the X and Y axes. For "
 "example, if you measured 99mm instead of 100mm, enter 1%."
 msgstr ""
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1535
 msgid ""
-"Enter your filament shrinkage percentages for the Z axis here to apply "
+"Enter your material shrinkage percentages for the Z axis here to apply "
 "scaling of the object to compensate for shrinkage in the Z axis. For "
 "example, if you measured 99mm instead of 100mm, enter 1%."
 msgstr ""
@@ -2813,14 +2813,14 @@ msgid "Find / replace patterns in G-code lines and substitute them."
 msgstr "查找/替换 G-Code 行中的模式并替换它们。"
 
 #: src/libslic3r/PrintConfig.cpp:1816
-msgid "High extruder current on filament swap"
+msgid "High extruder current on material swap"
 msgstr "耗材切换时的高挤出机电流"
 
 #: src/libslic3r/PrintConfig.cpp:1817
 msgid ""
 "It may be beneficial to increase the extruder motor current during the "
-"filament exchange sequence to allow for rapid ramming feed rates and to "
-"overcome resistance when loading a filament with an ugly shaped tip."
+"material exchange sequence to allow for rapid ramming feed rates and to "
+"overcome resistance when loading a material with an ugly shaped tip."
 msgstr ""
 "在耗材切换序列中增加挤出机电机电流可能是有益的, 这样可以快速冲击进料速度, 并"
 "在用不良形状的尖端加载耗材时克服阻力。"
@@ -3070,7 +3070,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:2042
 msgid ""
 "Generate interlocking beam structure at the locations where different "
-"filaments touch. This improves the adhesion between filaments, especially "
+"materials touch. This improves the adhesion between materials, especially "
 "models printed in different materials."
 msgstr ""
 
@@ -3106,7 +3106,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2076
 msgid ""
-"The distance from the boundary between filaments to generate interlocking "
+"The distance from the boundary between materials to generate interlocking "
 "structure, measured in cells. Too few cells will result in poor adhesion."
 msgstr ""
 
@@ -3471,13 +3471,13 @@ msgid "Slic3r will not scale speed down below this speed."
 msgstr "Slic3r 不会将速度降低到低于此速度。"
 
 #: src/libslic3r/PrintConfig.cpp:2400
-msgid "Minimal filament extrusion length"
+msgid "Minimal material extrusion length"
 msgstr "最小耗材挤出长度"
 
 #: src/libslic3r/PrintConfig.cpp:2401
 msgid ""
 "Generate no less than the number of skirt loops required to consume the "
-"specified amount of filament on the bottom layer. For multi-extruder "
+"specified amount of material on the bottom layer. For multi-extruder "
 "machines, this minimum applies to each extruder."
 msgstr ""
 "生成不低于在底层消耗指定数量的耗材所需的裙圈数。对于多挤出机,此最小值适用于每"
@@ -3573,12 +3573,12 @@ msgid ""
 msgstr "用于调整悬伸的流量（将使用桥流）的实验选项，以应用桥速并启用风扇。"
 
 #: src/libslic3r/PrintConfig.cpp:2493
-msgid "Filament parking position"
+msgid "Material parking position"
 msgstr "耗材停车位"
 
 #: src/libslic3r/PrintConfig.cpp:2494
 msgid ""
-"Distance of the extruder tip from the position where the filament is parked "
+"Distance of the extruder tip from the position where the material is parked "
 "when unloaded. This should match the value in printer firmware."
 msgstr "卸载时，挤出机尖端与耗材停放位置的距离。这应该与打印机固件中的值匹配。"
 
@@ -3588,7 +3588,7 @@ msgstr "额外装载距离"
 
 #: src/libslic3r/PrintConfig.cpp:2503
 msgid ""
-"When set to zero, the distance the filament is moved from parking position "
+"When set to zero, the distance the material is moved from parking position "
 "during load is exactly the same as it was moved back during unload. When "
 "positive, it is loaded further,  if negative, the loading move is shorter "
 "than unloading."
@@ -3603,7 +3603,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:2512
 msgid ""
 "Determines purging volume on the wipe tower. This can be modified in "
-"Filament Settings ('filament_purge_multiplier') or overridden using project-"
+"Material Settings ('filament_purge_multiplier') or overridden using project-"
 "specific settings."
 msgstr ""
 
@@ -3849,8 +3849,8 @@ msgstr "回抽长度"
 
 #: src/libslic3r/PrintConfig.cpp:2726
 msgid ""
-"When retraction is triggered, filament is pulled back by the specified "
-"amount (the length is measured on raw filament, before it enters the "
+"When retraction is triggered, material is pulled back by the specified "
+"amount (the length is measured on raw material, before it enters the "
 "extruder)."
 msgstr "触发回抽时，耗材按指定量拉回（长度在进入挤出机之前在原始耗材上测量）。"
 
@@ -3865,8 +3865,8 @@ msgstr "回抽长度 (工具更换)"
 
 #: src/libslic3r/PrintConfig.cpp:2734
 msgid ""
-"When retraction is triggered before changing tool, filament is pulled back "
-"by the specified amount (the length is measured on raw filament, before it "
+"When retraction is triggered before changing tool, material is pulled back "
+"by the specified amount (the length is measured on raw material, before it "
 "enters the extruder)."
 msgstr ""
 "在更换热头之前触发回抽时，耗材按指定量拉回（长度在进入挤出机之前在原始耗材上"
@@ -3969,7 +3969,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:2811
 msgid ""
 "When the retraction is compensated after the travel move, the extruder will "
-"push this additional amount of filament. This setting is rarely needed."
+"push this additional amount of material. This setting is rarely needed."
 msgstr ""
 "当回抽在打印后得到补偿时，挤出机将推进这个额外的耗材量。很少需要此设置。"
 
@@ -3980,7 +3980,7 @@ msgstr "重新启动时的额外长度"
 #: src/libslic3r/PrintConfig.cpp:2819
 msgid ""
 "When the retraction is compensated after changing tool, the extruder will "
-"push this additional amount of filament."
+"push this additional amount of material."
 msgstr "当更换热头后补偿回抽时，挤出机将推进这额外的耗材量。"
 
 #: src/libslic3r/PrintConfig.cpp:2826 src/libslic3r/PrintConfig.cpp:2827
@@ -3997,7 +3997,7 @@ msgstr "减速速度"
 
 #: src/libslic3r/PrintConfig.cpp:2836
 msgid ""
-"The speed for loading of a filament into extruder after retraction (it only "
+"The speed for loading of material into extruder after retraction (it only "
 "applies to the extruder motor). If left to zero, the retraction speed is "
 "used."
 msgstr ""
@@ -4323,7 +4323,7 @@ msgstr "温度变化"
 #: src/libslic3r/PrintConfig.cpp:3098
 msgid ""
 "Temperature difference to be applied when an extruder is not active. The "
-"value is not used when 'idle_temperature' in filament settings is defined."
+"value is not used when 'idle_temperature' in material settings is defined."
 msgstr ""
 "挤出机不活动时要应用的温度。当定义耗材设置中的 \"idle_temperature \"时，该值"
 "不使用。"
@@ -4362,7 +4362,7 @@ msgstr ""
 "阅“autoemit_temperature_commands”。"
 
 #: src/libslic3r/PrintConfig.cpp:3143
-msgid "Custom filament parameters"
+msgid "Custom material parameters"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:3153
@@ -4405,7 +4405,7 @@ msgid "Single Extruder Multi Material"
 msgstr "单挤出机多材料"
 
 #: src/libslic3r/PrintConfig.cpp:3197
-msgid "The printer multiplexes filaments into a single hot end."
+msgid "The printer multiplexes materials into a single hot end."
 msgstr "打印机将耗材多路复用到一个热端。"
 
 #: src/libslic3r/PrintConfig.cpp:3202
@@ -5049,9 +5049,9 @@ msgstr "使用体积 E"
 msgid ""
 "This experimental setting uses outputs the E values in cubic millimeters "
 "instead of linear millimeters. If your firmware doesn't already know "
-"filament diameter(s), you can put commands like 'M200 D[filament_diameter_0] "
+"material diameter(s), you can put commands like 'M200 D[filament_diameter_0] "
 "T0' in your start G-code in order to turn volumetric mode on and use the "
-"filament diameter associated to the filament selected in Slic3r. This is "
+"material diameter associated to the material selected in Slic3r. This is "
 "only supported in recent Marlin."
 msgstr ""
 "此实验设置使用以立方 mm 为单位的 E 值而不是线性 mm。如果您的固件不知道耗材直"
@@ -5105,7 +5105,7 @@ msgstr "清除量-矩阵"
 #: src/libslic3r/PrintConfig.cpp:3774
 msgid ""
 "This matrix describes volumes (in cubic milimetres) required to purge the "
-"new filament on the wipe tower for any given pair of tools."
+"new material on the wipe tower for any given pair of tools."
 msgstr ""
 "此矩阵描述清除擦料塔上任何给定工具对的新耗材所需的体积（以立方米为单位）。"
 
@@ -18388,7 +18388,7 @@ msgid "default print profile"
 msgstr "默认打印配置文件"
 
 #: src/slic3r/GUI/Tab.cpp:1356
-msgid "default filament profile"
+msgid "default material profile"
 msgstr "默认耗材配置"
 
 #: src/slic3r/GUI/Tab.cpp:1370
@@ -18576,7 +18576,7 @@ msgid "Found reserved keywords in"
 msgstr "在中找到保留关键字"
 
 #: src/slic3r/GUI/Tab.cpp:2030
-msgid "Filament Overrides"
+msgid "Material Overrides"
 msgstr "耗材参数替换"
 
 #: src/slic3r/GUI/Tab.cpp:2233
@@ -18608,7 +18608,7 @@ msgid "Cooling thresholds"
 msgstr "冷却阈值"
 
 #: src/slic3r/GUI/Tab.cpp:2287
-msgid "Filament properties"
+msgid "Material properties"
 msgstr "耗材特性"
 
 #: src/slic3r/GUI/Tab.cpp:2295
@@ -18781,7 +18781,7 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:3326
-msgid "Reset to Filament Color"
+msgid "Reset to Material Color"
 msgstr "重置为耗材颜色"
 
 #: src/slic3r/GUI/Tab.cpp:3362
@@ -19153,11 +19153,6 @@ msgstr "支撑杆和接头的连接"
 #: src/slic3r/GUI/Tab.cpp:5858 src/slic3r/GUI/Tab.cpp:6000
 msgid "Branching"
 msgstr "分支"
-
-#. TRN: Page title in Material Settings in SLA mode.
-#: src/slic3r/GUI/Tab.cpp:5915
-msgid "Material Overrides"
-msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:6002
 msgid "Automatic generation"
@@ -29449,7 +29444,7 @@ msgstr "挤出乘数"
 msgid ""
 "Multiplier applied to object extrusions on the first object layer. This does "
 "not apply to brim/skirt, support, or raft extrusions. The final extrusion is "
-"this multiplier times filament extrusion multiplier."
+"this multiplier times material extrusion multiplier."
 msgstr ""
 "应用于对象首个对象层挤出的乘数。此项不适用于 brim/skirt、支撑或 raft 挤出。最"
 "终挤出量为该乘数与耗材挤出乘数的乘积。"
@@ -29558,7 +29553,7 @@ msgstr "最小挤出乘数警告阈值"
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Warning threshold for final extrusion multiplier (line type multiplier times "
-"filament extrusion multiplier). A non-blocking slicing warning is shown when "
+"material extrusion multiplier). A non-blocking slicing warning is shown when "
 "the final multiplier falls below this value. Set to 0 to disable warnings."
 msgstr ""
 "最终挤出乘数（线型乘数乘以耗材挤出乘数）的警告阈值。当最终乘数低于该值时会显"
@@ -30080,12 +30075,12 @@ msgstr "覆盖已生效 (T%1%)"
 
 #: src/slic3r/GUI/Tab.cpp:2522
 #, boost-format
-msgid "Override source: T%1%, filament preset \"%2%\"."
+msgid "Override source: T%1%, material preset \"%2%\"."
 msgstr "覆盖来源：T%1%，耗材预设“%2%”。"
 
 #: src/slic3r/GUI/Tab.cpp:2524
 #, boost-format
-msgid "Override source: T%1%, filament preset \"%2%\", material \"%3%\"."
+msgid "Override source: T%1%, material preset \"%2%\", material \"%3%\"."
 msgstr "覆盖来源：T%1%，耗材预设“%2%”，材料“%3%”。"
 
 #: src/slic3r/GUI/Tab.cpp:2741
