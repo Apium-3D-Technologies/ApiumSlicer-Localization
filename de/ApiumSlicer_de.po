@@ -30955,8 +30955,11 @@ msgid "Versioning manager is unavailable."
 msgstr "Der Versionierungsmanager ist nicht verfuegbar."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
-msgid "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
-msgstr "Metadata/Slic3r_PE.config konnte fuer eine oder beide ausgewaehlten Versionen nicht gelesen werden."
+msgid ""
+"Could not read Metadata/Slic3r_PE.config for one or both selected versions."
+msgstr ""
+"Metadata/Slic3r_PE.config konnte fuer eine oder beide ausgewaehlten "
+"Versionen nicht gelesen werden."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "No differences found for Metadata/Slic3r_PE.config."
@@ -30964,7 +30967,9 @@ msgstr "Keine Unterschiede in Metadata/Slic3r_PE.config gefunden."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Showing %d differing settings from Metadata/Slic3r_PE.config."
-msgstr "Es werden %d unterschiedliche Einstellungen aus Metadata/Slic3r_PE.config angezeigt."
+msgstr ""
+"Es werden %d unterschiedliche Einstellungen aus Metadata/Slic3r_PE.config "
+"angezeigt."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "(not set)"

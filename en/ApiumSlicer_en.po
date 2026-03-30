@@ -30318,8 +30318,10 @@ msgid "Versioning manager is unavailable."
 msgstr "Versioning manager is unavailable."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
-msgid "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
-msgstr "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
+msgid ""
+"Could not read Metadata/Slic3r_PE.config for one or both selected versions."
+msgstr ""
+"Could not read Metadata/Slic3r_PE.config for one or both selected versions."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "No differences found for Metadata/Slic3r_PE.config."
