@@ -19783,3 +19783,71 @@ msgstr ""
 #: src/slic3r/GUI/GCodeViewer.cpp:2647
 msgid "Retract coasting"
 msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Copied"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Default value"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Visibility"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Parameter type"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Parameter name"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "none"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "float"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "integer"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "text"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "percent"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "float or percent"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "point"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "point3"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "bool"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "enum"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "undefined"
+msgstr ""
+
+#: src/slic3r/GUI/Field.cpp
+msgid "Undefined mode"
+msgstr ""
