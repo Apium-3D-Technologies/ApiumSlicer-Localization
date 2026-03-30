@@ -30906,6 +30906,74 @@ msgstr "Commit-Informationen zur aktuellen Version anzeigen"
 msgid "Version %s — Message"
 msgstr "Version %s — Nachricht"
 
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Compare settings between two versions"
+msgstr "Einstellungen zwischen zwei Versionen vergleichen"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Version Diff"
+msgstr "Versions-Diff"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Select version"
+msgstr "Version auswaehlen"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Choose left version for comparison"
+msgstr "Linke Version fuer den Vergleich auswaehlen"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Choose right version for comparison"
+msgstr "Rechte Version fuer den Vergleich auswaehlen"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Left version"
+msgstr "Linke Version"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Right version"
+msgstr "Rechte Version"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Setting"
+msgstr "Einstellung"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Left value"
+msgstr "Linker Wert"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Right value"
+msgstr "Rechter Wert"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Select two versions to compare."
+msgstr "Waehlen Sie zwei Versionen zum Vergleichen aus."
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Versioning manager is unavailable."
+msgstr "Der Versionierungsmanager ist nicht verfuegbar."
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
+msgstr "Metadata/Slic3r_PE.config konnte fuer eine oder beide ausgewaehlten Versionen nicht gelesen werden."
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "No differences found for Metadata/Slic3r_PE.config."
+msgstr "Keine Unterschiede in Metadata/Slic3r_PE.config gefunden."
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Showing %d differing settings from Metadata/Slic3r_PE.config."
+msgstr "Es werden %d unterschiedliche Einstellungen aus Metadata/Slic3r_PE.config angezeigt."
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "(not set)"
+msgstr "(nicht gesetzt)"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Unknown version"
+msgstr "Unbekannte Version"
+
 #: src/slic3r/GUI/Tab.cpp
 msgid "Advanced profile comparison/edit"
 msgstr "Erweiterter Profilvergleich/-bearbeitung"

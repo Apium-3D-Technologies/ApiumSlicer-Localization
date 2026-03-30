@@ -143,3 +143,4 @@ src/slic3r/Utils/Repetier.cpp
 src/slic3r/Utils/PresetUpdaterWrapper.cpp
 src/slic3r/GUI/VersionedSaveDialog.cpp
 src/slic3r/GUI/VersionInfoDialog.cpp
+src/slic3r/GUI/VersionDiffDialog.cpp

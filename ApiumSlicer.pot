@@ -19407,6 +19407,74 @@ msgstr ""
 msgid "Version %s \xe2\x80\x94 Message"
 msgstr ""
 
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Compare settings between two versions"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Version Diff"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Select version"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Choose left version for comparison"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Choose right version for comparison"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Left version"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Right version"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Setting"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Left value"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Right value"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Select two versions to compare."
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Versioning manager is unavailable."
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "No differences found for Metadata/Slic3r_PE.config."
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Showing %d differing settings from Metadata/Slic3r_PE.config."
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "(not set)"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Unknown version"
+msgstr ""
+
 #: src/slic3r/GUI/Tab.cpp
 msgid "Advanced profile comparison/edit"
 msgstr ""
