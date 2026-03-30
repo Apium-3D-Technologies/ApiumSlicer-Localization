@@ -31398,3 +31398,209 @@ msgstr "undefiniert"
 #: src/slic3r/GUI/Field.cpp
 msgid "Undefined mode"
 msgstr "Undefinierter Modus"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater operation mode.\n"
+"Off: no zoneheater commands are emitted.\n"
+"Static: a fixed power level (zoneheater_static_power) is set once at the "
+"start; the variable tool is disabled.\n"
+"Variable: per-layer power is controlled via the variable zoneheater power "
+"profile; the static power setting is inactive.\n"
+"Cranial (experimental): per-object, per-layer axis gradient mode with center/"
+"edge power bands.\n"
+"Adaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr ""
+"Zoneheater-Betriebsmodus.\n"
+"Aus: Es werden keine Zoneheater-Befehle ausgegeben.\n"
+"Statisch: Eine feste Leistung (zoneheater_static_power) wird einmal am Start "
+"gesetzt; das variable Tool ist deaktiviert.\n"
+"Variabel: Die Leistung wird pro Schicht ueber das variable Zoneheater-Profil "
+"gesteuert; die statische Leistung ist inaktiv.\n"
+"Cranial (experimentell): Objekt-/schichtbasierter Achsverlauf mit Center-/"
+"Edge-Leistungsbereichen.\n"
+"Adaptiv: Automatische Heizung (nutzt zoneheater_adaptive_multiplier)."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial (experimental)"
+msgstr "Cranial (experimentell)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient axis"
+msgstr "Cranial-Modus Verlaufsachse"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Axis used for cranial gradient sampling along printhead movement."
+msgstr "Achse fuer Cranial-Verlaufssampling entlang der Druckkopfbewegung."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis"
+msgstr "X-Achse"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis"
+msgstr "Y-Achse"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center width"
+msgstr "Cranial-Modus Center-Breite"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Center band total width on the selected cranial gradient axis. Supports "
+"millimeters or percent of the model width."
+msgstr ""
+"Gesamtbreite des Center-Bands auf der gewaehlten Cranial-Achse. Unterstuetzt "
+"Millimeter oder Prozent der Modellbreite."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center power"
+msgstr "Cranial-Modus Center-Leistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent when the printhead is inside the cranial center "
+"band."
+msgstr ""
+"Zoneheater-Leistung in Prozent, wenn der Druckkopf im Cranial-Center-Band "
+"ist."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge width"
+msgstr "Cranial-Modus Edge-Breite"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Edge band width per side from model border toward center on the selected "
+"cranial gradient axis. Supports millimeters or percent."
+msgstr ""
+"Edge-Band-Breite pro Seite vom Modellrand zum Zentrum auf der gewaehlten "
+"Cranial-Achse. Unterstuetzt Millimeter oder Prozent."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge power"
+msgstr "Cranial-Modus Edge-Leistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent when the printhead is inside the cranial edge "
+"band."
+msgstr ""
+"Zoneheater-Leistung in Prozent, wenn der Druckkopf im Cranial-Edge-Band ist."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient type"
+msgstr "Cranial-Modus Verlaufstyp"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Interpolation curve between edge and center cranial bands."
+msgstr "Interpolationskurve zwischen Edge- und Center-Cranial-Baendern."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Linear"
+msgstr "Linear"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Exponential"
+msgstr "Exponentiell"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Logarithmic"
+msgstr "Logarithmisch"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode invert gradient"
+msgstr "Cranial-Modus Verlauf invertieren"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Invert cranial gradient curve steepness between edge and center while "
+"keeping edge-to-center direction."
+msgstr ""
+"Invertiert die Steigung des Cranial-Verlaufs zwischen Edge und Center bei "
+"gleicher Edge-zu-Center-Richtung."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode apply on infill only"
+msgstr "Cranial-Modus nur auf Infill anwenden"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Apply cranial gradient sampling only on infill extrusion roles."
+msgstr "Cranial-Verlaufssampling nur auf Infill-Extrusionsrollen anwenden."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode default power"
+msgstr "Cranial-Modus Standardleistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Fallback zoneheater power in percent for cranial mode where neither bed "
+"annealing compensation nor cranial sampling applies."
+msgstr ""
+"Fallback-Zoneheater-Leistung in Prozent fuer den Cranial-Modus, wenn weder "
+"Bed-Annealing-Kompensation noch Cranial-Sampling greift."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode exclude Support/Raft"
+msgstr "Cranial-Modus Support/Raft ausschliessen"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Exclude support and raft extrusion from cranial sampling. When disabled, "
+"support/raft may use cranial sampling if a valid context exists."
+msgstr ""
+"Schliesst Support- und Raft-Extrusionen vom Cranial-Sampling aus. Wenn "
+"deaktiviert, koennen Support/Raft Cranial-Sampling nutzen, sofern ein "
+"gueltiger Kontext vorliegt."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Zoneheater cranial mode"
+msgstr "Zoneheater Cranial-Modus"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid ""
+"Cranial mode varies zoneheater power along a selected X/Y axis using edge, "
+"gradient and center zones per object layer. This mode is designed for "
+"cranial plates and similarly curved models; for flat or strongly rectangular "
+"geometries it may have limited benefit."
+msgstr ""
+"Der Cranial-Modus variiert die Zoneheater-Leistung entlang einer gewaehlten "
+"X/Y-Achse mit Edge-, Verlauf- und Center-Zonen pro Objektschicht. Dieser "
+"Modus ist fuer Cranial-Platten und aehnlich gekruemmte Modelle konzipiert; "
+"bei flachen oder stark rechteckigen Geometrien ist der Nutzen meist begrenzt."
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial widths were clamped:"
+msgstr "Zoneheater-Cranial-Breiten wurden begrenzt:"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial center/edge overlap detected:"
+msgstr "Zoneheater-Cranial-Center/Edge-Ueberlappung erkannt:"
+
+#: src/libslic3r/Print.cpp
+msgid "center percent clamped to [0,100]"
+msgstr "Center-Prozent auf [0,100] begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "center mm clamped to >= 0"
+msgstr "Center-mm auf >= 0 begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "center width clamped to layer model width"
+msgstr "Center-Breite auf Schicht-Modellbreite begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "edge percent clamped to [0,100]"
+msgstr "Edge-Prozent auf [0,100] begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "edge mm clamped to >= 0"
+msgstr "Edge-mm auf >= 0 begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "edge width clamped to layer model width"
+msgstr "Edge-Breite auf Schicht-Modellbreite begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "center/edge overlap (center overrides edge, hard transition)"
+msgstr "Center/Edge-Ueberlappung (Center hat Vorrang, harter Uebergang)"

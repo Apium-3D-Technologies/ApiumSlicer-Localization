@@ -30212,3 +30212,198 @@ msgstr "undefined"
 #, fuzzy
 msgid "Undefined mode"
 msgstr "Undefined mode"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater operation mode.\n"
+"Off: no zoneheater commands are emitted.\n"
+"Static: a fixed power level (zoneheater_static_power) is set once at the "
+"start; the variable tool is disabled.\n"
+"Variable: per-layer power is controlled via the variable zoneheater power "
+"profile; the static power setting is inactive.\n"
+"Cranial (experimental): per-object, per-layer axis gradient mode with center/"
+"edge power bands.\n"
+"Adaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr ""
+"Zoneheater 工作模式。\n"
+"关闭：不输出任何 zoneheater 命令。\n"
+"静态：在开始时设置固定功率（zoneheater_static_power）；变量工具被禁用。\n"
+"变量：按层通过可变 zoneheater 功率曲线控制；静态功率设置无效。\n"
+"Cranial（实验性）：按对象、按层，基于轴向的中心/边缘功率带渐变模式。\n"
+"自适应：自动自适应加热（使用 zoneheater_adaptive_multiplier）。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial (experimental)"
+msgstr "Cranial（实验性）"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient axis"
+msgstr "Cranial 模式渐变轴"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Axis used for cranial gradient sampling along printhead movement."
+msgstr "沿打印头运动方向进行 cranial 渐变采样所使用的轴。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis"
+msgstr "X 轴"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis"
+msgstr "Y 轴"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center width"
+msgstr "Cranial 模式中心宽度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Center band total width on the selected cranial gradient axis. Supports "
+"millimeters or percent of the model width."
+msgstr "所选 cranial 渐变轴上的中心带总宽度。支持毫米或模型宽度百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center power"
+msgstr "Cranial 模式中心功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent when the printhead is inside the cranial center "
+"band."
+msgstr "当打印头位于 cranial 中心带内时的 Zoneheater 功率百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge width"
+msgstr "Cranial 模式边缘宽度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Edge band width per side from model border toward center on the selected "
+"cranial gradient axis. Supports millimeters or percent."
+msgstr ""
+"在所选 cranial 渐变轴上，从模型边界向中心方向每侧的边缘带宽度。支持毫米或百分"
+"比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge power"
+msgstr "Cranial 模式边缘功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent when the printhead is inside the cranial edge "
+"band."
+msgstr "当打印头位于 cranial 边缘带内时的 Zoneheater 功率百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient type"
+msgstr "Cranial 模式渐变类型"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Interpolation curve between edge and center cranial bands."
+msgstr "cranial 边缘带与中心带之间的插值曲线。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Linear"
+msgstr "线性"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Exponential"
+msgstr "指数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Logarithmic"
+msgstr "对数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode invert gradient"
+msgstr "Cranial 模式反转渐变"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Invert cranial gradient curve steepness between edge and center while "
+"keeping edge-to-center direction."
+msgstr ""
+"在保持边缘到中心方向不变的情况下，反转 cranial 边缘与中心之间曲线的陡峭度。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode apply on infill only"
+msgstr "Cranial 模式仅应用于填充"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Apply cranial gradient sampling only on infill extrusion roles."
+msgstr "仅对填充挤出角色应用 cranial 渐变采样。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode default power"
+msgstr "Cranial 模式默认功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Fallback zoneheater power in percent for cranial mode where neither bed "
+"annealing compensation nor cranial sampling applies."
+msgstr ""
+"在 Cranial 模式下，当床退火补偿和 Cranial 采样都未生效时使用的后备 "
+"Zoneheater 功率百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode exclude Support/Raft"
+msgstr "Cranial 模式排除 Support/Raft"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Exclude support and raft extrusion from cranial sampling. When disabled, "
+"support/raft may use cranial sampling if a valid context exists."
+msgstr ""
+"将支撑和筏层挤出从 Cranial 采样中排除。禁用后，若存在有效上下文，Support/"
+"Raft 可使用 Cranial 采样。"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Zoneheater cranial mode"
+msgstr "Zoneheater cranial 模式"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid ""
+"Cranial mode varies zoneheater power along a selected X/Y axis using edge, "
+"gradient and center zones per object layer. This mode is designed for "
+"cranial plates and similarly curved models; for flat or strongly rectangular "
+"geometries it may have limited benefit."
+msgstr ""
+"Cranial 模式会沿所选 X/Y 轴按对象层使用边缘、渐变和中心区域来调整 Zoneheater "
+"功率。该模式专为颅骨板及类似曲面模型设计；对于平坦或强矩形几何，效果可能有"
+"限。"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial widths were clamped:"
+msgstr "Zoneheater cranial 宽度已被钳制："
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial center/edge overlap detected:"
+msgstr "检测到 Zoneheater cranial 中心/边缘重叠："
+
+#: src/libslic3r/Print.cpp
+msgid "center percent clamped to [0,100]"
+msgstr "中心百分比已钳制到 [0,100]"
+
+#: src/libslic3r/Print.cpp
+msgid "center mm clamped to >= 0"
+msgstr "中心毫米值已钳制为 >= 0"
+
+#: src/libslic3r/Print.cpp
+msgid "center width clamped to layer model width"
+msgstr "中心宽度已钳制到该层模型宽度"
+
+#: src/libslic3r/Print.cpp
+msgid "edge percent clamped to [0,100]"
+msgstr "边缘百分比已钳制到 [0,100]"
+
+#: src/libslic3r/Print.cpp
+msgid "edge mm clamped to >= 0"
+msgstr "边缘毫米值已钳制为 >= 0"
+
+#: src/libslic3r/Print.cpp
+msgid "edge width clamped to layer model width"
+msgstr "边缘宽度已钳制到该层模型宽度"
+
+#: src/libslic3r/Print.cpp
+msgid "center/edge overlap (center overrides edge, hard transition)"
+msgstr "中心/边缘重叠（中心覆盖边缘，硬切换）"

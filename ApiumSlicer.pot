@@ -19851,3 +19851,161 @@ msgstr ""
 #: src/slic3r/GUI/Field.cpp
 msgid "Undefined mode"
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater operation mode.\n"
+"Off: no zoneheater commands are emitted.\n"
+"Static: a fixed power level (zoneheater_static_power) is set once at the start; the variable tool is disabled.\n"
+"Variable: per-layer power is controlled via the variable zoneheater power profile; the static power setting is inactive.\n"
+"Cranial (experimental): per-object, per-layer axis gradient mode with center/edge power bands.\n"
+"Adaptive: automatic adaptive heating (uses zoneheater_adaptive_multiplier)."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial (experimental)"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient axis"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Axis used for cranial gradient sampling along printhead movement."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Center band total width on the selected cranial gradient axis. Supports millimeters or percent of the model width."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode center power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power in percent when the printhead is inside the cranial center band."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Edge band width per side from model border toward center on the selected cranial gradient axis. Supports millimeters or percent."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode edge power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power in percent when the printhead is inside the cranial edge band."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode gradient type"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Interpolation curve between edge and center cranial bands."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Linear"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Exponential"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Logarithmic"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode invert gradient"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Invert cranial gradient curve steepness between edge and center while keeping edge-to-center direction."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode apply on infill only"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Apply cranial gradient sampling only on infill extrusion roles."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode default power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Fallback zoneheater power in percent for cranial mode where neither bed annealing compensation nor cranial sampling applies."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cranial mode exclude Support/Raft"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Exclude support and raft extrusion from cranial sampling. When disabled, support/raft may use cranial sampling if a valid context exists."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Zoneheater cranial mode"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Cranial mode varies zoneheater power along a selected X/Y axis using edge, gradient and center zones per object layer. This mode is designed for cranial plates and similarly curved models; for flat or strongly rectangular geometries it may have limited benefit."
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial widths were clamped:"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial center/edge overlap detected:"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "center percent clamped to [0,100]"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "center mm clamped to >= 0"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "center width clamped to layer model width"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "edge percent clamped to [0,100]"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "edge mm clamped to >= 0"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "edge width clamped to layer model width"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "center/edge overlap (center overrides edge, hard transition)"
+msgstr ""
