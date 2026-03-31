@@ -30472,3 +30472,45 @@ msgstr "(not set)"
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Unknown version"
 msgstr "Unknown version"
+
+#: src/libslic3r/PrintConfig.cpp:1027
+msgid ""
+"The tool which determines bed temperatures. Choose 'Current extruder' to "
+"determine temperatures based on the first printing extruder of the first and "
+"second layers."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2740
+msgid "The tool to use when printing infill. T0 is the first extruder."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:3424
+msgid ""
+"The tool to use when printing perimeters and brim. T0 is the first extruder."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:3986
+msgid "The tool to use when printing solid infill. T0 is the first extruder."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:4461
+msgid ""
+"The tool to use when printing support material, raft and skirt. Choose "
+"'Current extruder' to minimize tool changes."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:4501
+msgid ""
+"The tool to use when printing support material interface. Choose 'Current "
+"extruder' to minimize tool changes. This affects raft too."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:5015
+msgid ""
+"The tool to use when printing perimeter of the wipe tower. Choose 'Current "
+"extruder' to use an available tool (non-soluble would be preferred)."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:2094
+msgid "T%1% (%2%)"
+msgstr ""
