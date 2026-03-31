@@ -1025,6 +1025,27 @@ msgid ""
 "as percentage (for example 50%) of a direct travel path."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:531
+msgid "In object force travel over infill"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:533
+msgid ""
+"Plan travel moves in object so they preferentially pass over infill regions. "
+"Perimeter crossing is allowed. This feature may increase travel length and "
+"slicing time."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:539
+msgid "In object force travel over infill - Max detour"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:541
+msgid ""
+"Maximum allowed detour percentage for infill-oriented travel compared to the "
+"direct path. If set to 0%, the infill-oriented path is always preferred."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:524
 msgid "mm or % (zero to disable)"
 msgstr ""

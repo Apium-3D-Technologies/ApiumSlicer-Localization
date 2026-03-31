@@ -1663,6 +1663,14 @@ msgstr "Kreuzen der Perimeter vermeiden"
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr "Kreuzen von Perimetern Vermeiden - Maximale Umleitungslänge"
 
+#: src/libslic3r/PrintConfig.cpp:531
+msgid "In object force travel over infill"
+msgstr "Im Objekt Fahrt über Infill erzwingen"
+
+#: src/libslic3r/PrintConfig.cpp:539
+msgid "In object force travel over infill - Max detour"
+msgstr "Im Objekt Fahrt über Infill erzwingen - Maximale Umleitung"
+
 #: src/libslic3r/Print.cpp:556
 msgid ""
 "Avoid crossing perimeters option and avoid crossing curled overhangs option "
@@ -17912,6 +17920,25 @@ msgstr ""
 "nicht für diesen Fahrweg angewendet. Die Umleitungslänge kann entweder als "
 "absoluter Wert oder als Prozentsatz (z. B. 50 %) eines direkten Verfahrwegs "
 "angegeben werden."
+
+#: src/libslic3r/PrintConfig.cpp:541
+msgid ""
+"Maximum allowed detour percentage for infill-oriented travel compared to the "
+"direct path. If set to 0%, the infill-oriented path is always preferred."
+msgstr ""
+"Maximal zulässige Umleitung in Prozent für infill-orientierte Fahrwege im "
+"Vergleich zum direkten Weg. Bei 0% wird der infill-orientierte Weg immer "
+"bevorzugt."
+
+#: src/libslic3r/PrintConfig.cpp:533
+msgid ""
+"Plan travel moves in object so they preferentially pass over infill regions. "
+"Perimeter crossing is allowed. This feature may increase travel length and "
+"slicing time."
+msgstr ""
+"Plant Fahrbewegungen im Objekt so, dass sie vorzugsweise über Infill-"
+"Bereiche verlaufen. Das Kreuzen von Perimetern ist erlaubt. Diese Funktion "
+"kann die Fahrwege und die Slicing-Zeit erhöhen."
 
 #: src/libslic3r/PrintConfig.cpp:1598
 msgid ""

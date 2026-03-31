@@ -1126,6 +1126,14 @@ msgstr ""
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr "避免穿越周长-最大绕行长度"
 
+#: src/libslic3r/PrintConfig.cpp:531
+msgid "In object force travel over infill"
+msgstr "模型内强制经过填充移动"
+
+#: src/libslic3r/PrintConfig.cpp:539
+msgid "In object force travel over infill - Max detour"
+msgstr "模型内强制经过填充移动 - 最大绕行"
+
 #: src/libslic3r/PrintConfig.cpp:584
 msgid ""
 "The maximum detour length for avoid crossing perimeters. If the detour is "
@@ -1135,6 +1143,23 @@ msgid ""
 msgstr ""
 "避免穿越周长的最大绕行长度。如果绕道长度超过该值，则避免穿越周长不适用于该行"
 "驶路径。迂回长度可以指定为绝对值或直接行驶路径的百分比（例如 50%）。"
+
+#: src/libslic3r/PrintConfig.cpp:541
+msgid ""
+"Maximum allowed detour percentage for infill-oriented travel compared to the "
+"direct path. If set to 0%, the infill-oriented path is always preferred."
+msgstr ""
+"与直线路径相比，填充优先空移允许的最大绕行百分比。设为 0% 时，始终优先选择填"
+"充优先路径。"
+
+#: src/libslic3r/PrintConfig.cpp:533
+msgid ""
+"Plan travel moves in object so they preferentially pass over infill regions. "
+"Perimeter crossing is allowed. This feature may increase travel length and "
+"slicing time."
+msgstr ""
+"在模型内部规划空移路径，使其优先经过填充区域。允许跨越外轮廓。该功能可能增加"
+"空移长度和切片时间。"
 
 #: src/libslic3r/PrintConfig.cpp:587
 msgid "mm or % (zero to disable)"
