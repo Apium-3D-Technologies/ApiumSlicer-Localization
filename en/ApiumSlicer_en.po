@@ -10350,7 +10350,7 @@ msgstr "Planar"
 msgid "Dovetail"
 msgstr "Dovetail"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:206
+#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:206 src/libslic3r/PrintConfig.cpp
 msgid "Auto"
 msgstr "Auto"
 
@@ -30911,6 +30911,64 @@ msgstr ""
 "support/raft may use cranial sampling if a valid context exists."
 
 #: src/slic3r/GUI/Tab.cpp
+msgid "Enable Zoneheater ring compensation travels"
+msgstr "Enable Zoneheater ring compensation travels"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Enable additional non-extruding ring compensation travels around internal "
+"infill groups in cranial mode."
+msgstr ""
+"Enable additional non-extruding ring compensation travels around internal "
+"infill groups in cranial mode."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation travel length"
+msgstr "Ring compensation travel length"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Length in millimeters of the cranial ring compensation travel segment along "
+"the selected gradient axis."
+msgstr ""
+"Length in millimeters of the cranial ring compensation travel segment along "
+"the selected gradient axis."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation travel speed"
+msgstr "Ring compensation travel speed"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Travel speed in mm/s used for the cranial ring compensation travel segment."
+msgstr ""
+"Travel speed in mm/s used for the cranial ring compensation travel segment."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation zoneheater power"
+msgstr "Ring compensation zoneheater power"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent used during cranial ring compensation travel "
+"segments."
+msgstr ""
+"Zoneheater power in percent used during cranial ring compensation travel "
+"segments."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Skip compensation below width"
+msgstr "Skip compensation below width"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Skip cranial ring compensation for layers whose total model width on the "
+"selected gradient axis is below this value."
+msgstr ""
+"Skip cranial ring compensation for layers whose total model width on the "
+"selected gradient axis is below this value."
+
+#: src/slic3r/GUI/Tab.cpp
 msgid "Zoneheater cranial mode"
 msgstr "Zoneheater cranial mode"
 
@@ -30933,6 +30991,26 @@ msgstr "Zoneheater cranial widths were clamped:"
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater cranial center/edge overlap detected:"
 msgstr "Zoneheater cranial center/edge overlap detected:"
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial ring compensation values adjusted:"
+msgstr "Zoneheater cranial ring compensation values adjusted:"
+
+#: src/libslic3r/Print.cpp
+msgid "ring travel length clamped to >= 0"
+msgstr "ring travel length clamped to >= 0"
+
+#: src/libslic3r/Print.cpp
+msgid "ring travel speed must be > 0 (ring compensation disabled)"
+msgstr "ring travel speed must be > 0 (ring compensation disabled)"
+
+#: src/libslic3r/Print.cpp
+msgid "ring power clamped to [0,max]"
+msgstr "ring power clamped to [0,max]"
+
+#: src/libslic3r/Print.cpp
+msgid "ring skip-below-width clamped to >= 0"
+msgstr "ring skip-below-width clamped to >= 0"
 
 #: src/libslic3r/Print.cpp
 msgid "center percent clamped to [0,100]"
@@ -31013,3 +31091,39 @@ msgstr ""
 #: src/slic3r/GUI/Tab.cpp:2094
 msgid "T%1% (%2%)"
 msgstr "T%1% (%2%)"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill direction"
+msgstr "Infill direction"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Print direction for compatible sparse infill patterns. This setting affects "
+"internal sparse infill only and does not affect top, bottom, or solid infill."
+msgstr ""
+"Print direction for compatible sparse infill patterns. This setting affects "
+"internal sparse infill only and does not affect top, bottom, or solid infill."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Left to Right"
+msgstr "X-Axis Left to Right"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Right to Left"
+msgstr "X-Axis Right to Left"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Switching"
+msgstr "X-Axis Switching"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Front to Back"
+msgstr "Y-Axis Front to Back"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Back to Front"
+msgstr "Y-Axis Back to Front"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Switching"
+msgstr "Y-Axis Switching"

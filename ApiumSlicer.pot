@@ -19967,6 +19967,46 @@ msgid "Exclude support and raft extrusion from cranial sampling. When disabled, 
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp
+msgid "Enable Zoneheater ring compensation travels"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable additional non-extruding ring compensation travels around internal infill groups in cranial mode."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation travel length"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Length in millimeters of the cranial ring compensation travel segment along the selected gradient axis."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation travel speed"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Travel speed in mm/s used for the cranial ring compensation travel segment."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ring compensation zoneheater power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power in percent used during cranial ring compensation travel segments."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Skip compensation below width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Skip cranial ring compensation for layers whose total model width on the selected gradient axis is below this value."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
 msgid "Zoneheater cranial mode"
 msgstr ""
 
@@ -19980,6 +20020,26 @@ msgstr ""
 
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater cranial center/edge overlap detected:"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Zoneheater cranial ring compensation values adjusted:"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "ring travel length clamped to >= 0"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "ring travel speed must be > 0 (ring compensation disabled)"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "ring power clamped to [0,max]"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "ring skip-below-width clamped to >= 0"
 msgstr ""
 
 #: src/libslic3r/Print.cpp
@@ -20049,4 +20109,42 @@ msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2094
 msgid "T%1% (%2%)"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill direction"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Print direction for compatible sparse infill patterns. This setting affects "
+"internal sparse infill only and does not affect top, bottom, or solid infill."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Auto"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Left to Right"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Right to Left"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "X-Axis Switching"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Front to Back"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Back to Front"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Y-Axis Switching"
 msgstr ""
