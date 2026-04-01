@@ -31155,3 +31155,25 @@ msgstr "Y-Axis Back to Front"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Y-Axis Switching"
 msgstr "Y-Axis Switching"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp
+msgid ""
+"Alternate extra perimeter doesn't work well when ensure vertical shell "
+"thickness is set to Enabled."
+msgstr ""
+"Alternate extra perimeter doesn't work well when ensure vertical shell "
+"thickness is set to Enabled."
+
+#: src/slic3r/GUI/ConfigManipulation.cpp
+msgid ""
+"Change these settings automatically?\n"
+"Yes - Change ensure vertical shell thickness to Partial and enable alternate "
+"extra perimeter\n"
+"No  - Keep ensure vertical shell thickness enabled and disable alternate "
+"extra perimeter"
+msgstr ""
+"Change these settings automatically?\n"
+"Yes - Change ensure vertical shell thickness to Partial and enable alternate "
+"extra perimeter\n"
+"No  - Keep ensure vertical shell thickness enabled and disable alternate "
+"extra perimeter"

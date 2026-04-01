@@ -31900,3 +31900,25 @@ msgstr "Y-Achse hinten nach vorne"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Y-Axis Switching"
 msgstr "Y-Achse abwechselnd"
+
+#: src/slic3r/GUI/ConfigManipulation.cpp
+msgid ""
+"Alternate extra perimeter doesn't work well when ensure vertical shell "
+"thickness is set to Enabled."
+msgstr ""
+"Alternierender zusaetzlicher Perimeter funktioniert nicht gut, wenn Ensure "
+"vertical shell thickness auf Enabled steht."
+
+#: src/slic3r/GUI/ConfigManipulation.cpp
+msgid ""
+"Change these settings automatically?\n"
+"Yes - Change ensure vertical shell thickness to Partial and enable alternate "
+"extra perimeter\n"
+"No  - Keep ensure vertical shell thickness enabled and disable alternate "
+"extra perimeter"
+msgstr ""
+"Diese Einstellungen automatisch anpassen?\n"
+"Ja - Ensure vertical shell thickness auf Partial setzen und alternierenden "
+"zusaetzlichen Perimeter aktiviert lassen\n"
+"Nein - Ensure vertical shell thickness auf Enabled lassen und alternierenden "
+"zusaetzlichen Perimeter deaktivieren"
