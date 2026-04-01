@@ -30388,7 +30388,7 @@ msgid ""
 msgstr "在 Cranial 模式下，围绕内部填充组启用额外的非挤出环形补偿空移。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel length"
+msgid "Zoneheater ring compensation travel length"
 msgstr "环形补偿空移长度"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -30398,7 +30398,7 @@ msgid ""
 msgstr "沿所选渐变轴进行 Cranial 环形补偿空移段的长度（毫米）。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel speed"
+msgid "Zoneheater ring compensation travel speed"
 msgstr "环形补偿空移速度"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -30407,17 +30407,29 @@ msgid ""
 msgstr "Cranial 环形补偿空移段使用的空移速度（mm/s）。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation zoneheater power"
-msgstr "环形补偿 Zoneheater 功率"
+msgid "Zoneheater ring compensation power before infill"
+msgstr "填充前 Zoneheater 环形补偿功率"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Zoneheater power in percent used during cranial ring compensation travel "
-"segments."
-msgstr "在 Cranial 环形补偿空移段期间使用的 Zoneheater 功率百分比。"
+"Zoneheater power in percent used during cranial ring compensation pre-travel "
+"segments before internal infill."
+msgstr ""
+"在内部填充之前的 Cranial 环形补偿预空移段中使用的 Zoneheater 功率百分比。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Skip compensation below width"
+msgid "Zoneheater ring compensation power after infill"
+msgstr "填充后 Zoneheater 环形补偿功率"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent used during cranial ring compensation post-"
+"travel segments after internal infill."
+msgstr ""
+"在内部填充之后的 Cranial 环形补偿后空移段中使用的 Zoneheater 功率百分比。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater ring compensation skip below width"
 msgstr "低于该宽度跳过补偿"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -30462,8 +30474,12 @@ msgid "ring travel speed must be > 0 (ring compensation disabled)"
 msgstr "环形空移速度必须 > 0（环形补偿已禁用）"
 
 #: src/libslic3r/Print.cpp
-msgid "ring power clamped to [0,max]"
-msgstr "环形功率已钳制到 [0,max]"
+msgid "ring power before clamped to [0,max]"
+msgstr "环形功率（填充前）已钳制到 [0,max]"
+
+#: src/libslic3r/Print.cpp
+msgid "ring power after clamped to [0,max]"
+msgstr "环形功率（填充后）已钳制到 [0,max]"
 
 #: src/libslic3r/Print.cpp
 msgid "ring skip-below-width clamped to >= 0"
@@ -30644,3 +30660,15 @@ msgstr "Y轴 从后到前"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Y-Axis Switching"
 msgstr "Y轴 交替"
+
+#: src/libslic3r/PrintConfig.cpp:2401
+msgid "Use alternate extra perimeter"
+msgstr "使用交替额外内墙"
+
+#: src/libslic3r/PrintConfig.cpp:2403
+msgid ""
+"Adds an extra inner perimeter on every other layer to wedge infill "
+"vertically. Ignored for spiral vase and when infill density is zero."
+msgstr ""
+"每隔一层添加一条额外内墙以在垂直方向楔紧填充。螺旋花瓶模式下或填充密度为零时"
+"将被忽略。"

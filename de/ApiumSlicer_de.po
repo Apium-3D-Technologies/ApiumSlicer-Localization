@@ -9959,6 +9959,19 @@ msgstr "Maximaler Ruck Z"
 msgid "Maximum length of the infill anchor"
 msgstr "Maximale Länge des Infill-Ankers"
 
+#: src/libslic3r/PrintConfig.cpp:2401
+msgid "Use alternate extra perimeter"
+msgstr "Alternierenden zusaetzlichen Perimeter verwenden"
+
+#: src/libslic3r/PrintConfig.cpp:2403
+msgid ""
+"Adds an extra inner perimeter on every other layer to wedge infill "
+"vertically. Ignored for spiral vase and when infill density is zero."
+msgstr ""
+"Fuegt in jeder zweiten Schicht einen zusaetzlichen inneren Perimeter hinzu, "
+"um das Infill vertikal zu verkeilen. Ignoriert bei Spiralvase und wenn die "
+"Infill-Dichte null ist."
+
 #: src/libslic3r/PrintConfig.cpp:2544
 msgid ""
 "Maximum lift height of the ramping lift. It may not be reached if the next "
@@ -31661,8 +31674,8 @@ msgstr ""
 "interne Infill-Gruppen im Cranial-Modus."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel length"
-msgstr "Ring-Kompensation Travel-Laenge"
+msgid "Zoneheater ring compensation travel length"
+msgstr "Zoneheater-Ring-Kompensation Travel-Laenge"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31673,8 +31686,8 @@ msgstr ""
 "der gewaehlten Verlaufachse."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel speed"
-msgstr "Ring-Kompensation Travel-Geschwindigkeit"
+msgid "Zoneheater ring compensation travel speed"
+msgstr "Zoneheater-Ring-Kompensation Travel-Geschwindigkeit"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31684,20 +31697,32 @@ msgstr ""
 "Segment."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation zoneheater power"
-msgstr "Ring-Kompensation Zoneheater-Leistung"
+msgid "Zoneheater ring compensation power before infill"
+msgstr "Zoneheater-Ring-Kompensation Leistung vor Infill"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Zoneheater power in percent used during cranial ring compensation travel "
-"segments."
+"Zoneheater power in percent used during cranial ring compensation pre-travel "
+"segments before internal infill."
 msgstr ""
-"Zoneheater-Leistung in Prozent waehrend Cranial-Ring-Kompensationstravel-"
-"Segmenten."
+"Zoneheater-Leistung in Prozent waehrend Cranial-Ring-Kompensation-Pre-Travel-"
+"Segmenten vor internem Infill."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Skip compensation below width"
-msgstr "Kompensation unterhalb Breite ueberspringen"
+msgid "Zoneheater ring compensation power after infill"
+msgstr "Zoneheater-Ring-Kompensation Leistung nach Infill"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater power in percent used during cranial ring compensation post-"
+"travel segments after internal infill."
+msgstr ""
+"Zoneheater-Leistung in Prozent waehrend Cranial-Ring-Kompensation-Post-"
+"Travel-Segmenten nach internem Infill."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater ring compensation skip below width"
+msgstr "Zoneheater-Ring-Kompensation unterhalb Breite ueberspringen"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31745,8 +31770,12 @@ msgstr ""
 "Ring-Travel-Geschwindigkeit muss > 0 sein (Ring-Kompensation deaktiviert)"
 
 #: src/libslic3r/Print.cpp
-msgid "ring power clamped to [0,max]"
-msgstr "Ring-Leistung auf [0,max] begrenzt"
+msgid "ring power before clamped to [0,max]"
+msgstr "Ring-Leistung vor Infill auf [0,max] begrenzt"
+
+#: src/libslic3r/Print.cpp
+msgid "ring power after clamped to [0,max]"
+msgstr "Ring-Leistung nach Infill auf [0,max] begrenzt"
 
 #: src/libslic3r/Print.cpp
 msgid "ring skip-below-width clamped to >= 0"

@@ -2587,6 +2587,14 @@ msgstr ""
 msgid "Maximum length of the infill anchor"
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:2401
+msgid "Use alternate extra perimeter"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2403
+msgid "Adds an extra inner perimeter on every other layer to wedge infill vertically. Ignored for spiral vase and when infill density is zero."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:1774
 msgid ""
 "Connect an infill line to an internal perimeter with a short segment of an "
@@ -19975,7 +19983,7 @@ msgid "Enable additional non-extruding ring compensation travels around internal
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel length"
+msgid "Zoneheater ring compensation travel length"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19983,7 +19991,7 @@ msgid "Length in millimeters of the cranial ring compensation travel segment alo
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation travel speed"
+msgid "Zoneheater ring compensation travel speed"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19991,15 +19999,23 @@ msgid "Travel speed in mm/s used for the cranial ring compensation travel segmen
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Ring compensation zoneheater power"
+msgid "Zoneheater ring compensation power before infill"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Zoneheater power in percent used during cranial ring compensation travel segments."
+msgid "Zoneheater power in percent used during cranial ring compensation pre-travel segments before internal infill."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Skip compensation below width"
+msgid "Zoneheater ring compensation power after infill"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power in percent used during cranial ring compensation post-travel segments after internal infill."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater ring compensation skip below width"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -20035,7 +20051,11 @@ msgid "ring travel speed must be > 0 (ring compensation disabled)"
 msgstr ""
 
 #: src/libslic3r/Print.cpp
-msgid "ring power clamped to [0,max]"
+msgid "ring power before clamped to [0,max]"
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "ring power after clamped to [0,max]"
 msgstr ""
 
 #: src/libslic3r/Print.cpp
