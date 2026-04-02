@@ -1547,8 +1547,8 @@ msgstr ""
 "算。"
 
 #: src/libslic3r/PrintConfig.cpp:856
-msgid "Brim width"
-msgstr "裙边宽度"
+msgid "Brim width/pad radius"
+msgstr "裙边宽度/垫片半径"
 
 #: src/libslic3r/PrintConfig.cpp:857 src/libslic3r/PrintConfig.cpp:868
 #: src/libslic3r/PrintConfig.cpp:881 src/slic3r/GUI/GUI_Factories.cpp:169
@@ -30694,3 +30694,127 @@ msgstr ""
 "extra perimeter\n"
 "No  - Keep ensure vertical shell thickness enabled and disable alternate "
 "extra perimeter"
+
+#: gui/brim_ears/label
+msgid "Brim corner pads"
+msgstr "裙边角垫"
+
+#: gui/brim_ears/label
+msgid "Painted pads"
+msgstr "绘制垫片"
+
+#: gui/brim_ears/label
+msgid "Corner pad max angle"
+msgstr "角垫最大角度"
+
+#: gui/brim_ears/label
+msgid "Corner pad detection length"
+msgstr "角垫检测长度"
+
+#: gui/brim_ears/label
+msgid "Pad diameter"
+msgstr "垫片直径"
+
+#: gui/brim_ears/label
+msgid "Add a corner pad"
+msgstr "添加角垫"
+
+#: gui/brim_ears/label
+msgid "Delete a corner pad"
+msgstr "删除角垫"
+
+#: gui/brim_ears/label
+msgid "Adjust pad diameter"
+msgstr "调整垫片直径"
+
+#: gui/brim_ears/label
+msgid "Change point pad diameter"
+msgstr "更改点垫片直径"
+
+#: gui/brim_ears/label
+msgid "Brim follows compensated outline"
+msgstr "Brim 跟随补偿后的轮廓"
+
+#: gui/brim_ears/label
+msgid ""
+"When enabled, the brim (and corner pads) follow the first layer outline "
+"after Elephant Foot Compensation."
+msgstr "启用后，裙边（及角垫）将遵循象脚补偿后的首层轮廓。"
+
+#: gui/brim_ears/label
+msgid "Paint brim corner pads"
+msgstr "绘制裙边角垫"
+
+#: gui/brim_ears/label
+msgid ""
+"Left click adds pads, right click removes them. Auto-generate detects sharp "
+"outer corners."
+msgstr "左键添加角垫，右键删除角垫。自动生成会检测外轮廓的尖角。"
+
+#: gui/brim_ears/label
+msgid ""
+"Pad diameter defines pad size. Max angle controls corner sensitivity. "
+"Detection length simplifies contour before detection."
+msgstr "垫片直径决定尺寸。最大角度控制角点敏感度。检测长度会在检测前简化轮廓。"
+
+#: gui/brim_ears/label
+msgid "Auto-generate"
+msgstr "自动生成"
+
+#: gui/brim_ears/label
+msgid "Remove all"
+msgstr "全部移除"
+
+#: gui/brim_ears/label
+msgid "Section view"
+msgstr "剖切视图"
+
+#: gui/brim_ears/label
+msgid "Adjust section view"
+msgstr "调整剖切视图"
+
+#: gui/brim_ears/label
+msgid "Max angle"
+msgstr "最大角度"
+
+#: gui/brim_ears/label
+msgid "Detection length"
+msgstr "检测长度"
+
+#: gui/brim_ears/label
+msgid "Detection radius"
+msgstr "检测半径"
+
+#: gui/brim_ears/label
+msgid "Please select single object."
+msgstr "请选择单个对象。"
+
+#: gui/brim_ears/tooltip
+msgid ""
+"Maximum angle to let a corner pad appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+msgstr ""
+"允许出现角垫的最大角度。\n"
+"设为 0 时不会生成裙边。\n"
+"设为约 180 时，除直线段外几乎都会生成裙边。"
+
+#: gui/brim_ears/tooltip
+msgid ""
+"The geometry will be decimated before detecting sharp angles.\n"
+"This parameter indicates the minimum length of the deviation for the "
+"decimation.\n"
+"0 to deactivate."
+msgstr ""
+"在检测锐角前会先对几何进行抽稀。\n"
+"该参数表示抽稀时允许的最小偏差长度。\n"
+"设为 0 可禁用。"
+
+#: gui/brim_ears/warning
+msgid ""
+"At least one object has painted brim corner pads, but its Brim type is not "
+"set to 'Painted pads'.\n"
+"Those painted pads will be ignored during slicing."
+msgstr ""
+"至少有一个对象绘制了裙边角垫，但其裙边类型未设置为“绘制垫片”。\n"
+"这些已绘制的垫片在切片时将被忽略。"

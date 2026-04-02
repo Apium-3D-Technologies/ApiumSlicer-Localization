@@ -1390,7 +1390,7 @@ msgid ""
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:772
-msgid "Brim width"
+msgid "Brim width/pad radius"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
@@ -20178,4 +20178,119 @@ msgid ""
 "Change these settings automatically?\n"
 "Yes - Change ensure vertical shell thickness to Partial and enable alternate extra perimeter\n"
 "No  - Keep ensure vertical shell thickness enabled and disable alternate extra perimeter"
+msgstr ""
+#: gui/brim_ears/label
+msgid "Brim corner pads"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Painted pads"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Corner pad max angle"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Corner pad detection length"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Pad diameter"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Add a corner pad"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Delete a corner pad"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Adjust pad diameter"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Change point pad diameter"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Brim follows compensated outline"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid ""
+"When enabled, the brim (and corner pads) follow the first layer outline "
+"after Elephant Foot Compensation."
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Paint brim corner pads"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid ""
+"Left click adds pads, right click removes them. Auto-generate detects sharp "
+"outer corners."
+msgstr ""
+
+#: gui/brim_ears/label
+msgid ""
+"Pad diameter defines pad size. Max angle controls corner sensitivity. "
+"Detection length simplifies contour before detection."
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Auto-generate"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Remove all"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Section view"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Adjust section view"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Max angle"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Detection length"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Detection radius"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Please select single object."
+msgstr ""
+
+#: gui/brim_ears/tooltip
+msgid ""
+"Maximum angle to let a corner pad appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+msgstr ""
+
+#: gui/brim_ears/tooltip
+msgid ""
+"The geometry will be decimated before detecting sharp angles.\n"
+"This parameter indicates the minimum length of the deviation for the "
+"decimation.\n"
+"0 to deactivate."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid ""
+"At least one object has painted brim corner pads, but its Brim type is not "
+"set to 'Painted pads'.\n"
+"Those painted pads will be ignored during slicing."
 msgstr ""

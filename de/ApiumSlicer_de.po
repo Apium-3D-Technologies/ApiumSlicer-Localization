@@ -2054,8 +2054,8 @@ msgid "Brim type"
 msgstr "Randtyp"
 
 #: src/libslic3r/PrintConfig.cpp:772
-msgid "Brim width"
-msgstr "Randbreite"
+msgid "Brim width/pad radius"
+msgstr "Randbreite/Pad-Radius"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1603 src/slic3r/GUI/FirmwareDialog.cpp:819
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:396
@@ -31922,3 +31922,135 @@ msgstr ""
 "zusaetzlichen Perimeter aktiviert lassen\n"
 "Nein - Ensure vertical shell thickness auf Enabled lassen und alternierenden "
 "zusaetzlichen Perimeter deaktivieren"
+
+#: gui/brim_ears/label
+msgid "Brim corner pads"
+msgstr "Brim-Eckpads"
+
+#: gui/brim_ears/label
+msgid "Painted pads"
+msgstr "Gemalte Pads"
+
+#: gui/brim_ears/label
+msgid "Corner pad max angle"
+msgstr "Maximaler Eckpad-Winkel"
+
+#: gui/brim_ears/label
+msgid "Corner pad detection length"
+msgstr "Eckpad-Erkennungslänge"
+
+#: gui/brim_ears/label
+msgid "Pad diameter"
+msgstr "Pad-Durchmesser"
+
+#: gui/brim_ears/label
+msgid "Add a corner pad"
+msgstr "Ein Eckpad hinzufügen"
+
+#: gui/brim_ears/label
+msgid "Delete a corner pad"
+msgstr "Ein Eckpad löschen"
+
+#: gui/brim_ears/label
+msgid "Adjust pad diameter"
+msgstr "Pad-Durchmesser anpassen"
+
+#: gui/brim_ears/label
+msgid "Change point pad diameter"
+msgstr "Punkt-Pad-Durchmesser ändern"
+
+#: gui/brim_ears/label
+msgid "Brim follows compensated outline"
+msgstr "Brim folgt kompensierter Außenkontur"
+
+#: gui/brim_ears/label
+msgid ""
+"When enabled, the brim (and corner pads) follow the first layer outline "
+"after Elephant Foot Compensation."
+msgstr ""
+"Wenn aktiviert, folgen Brim und Eckpads der Kontur nach Elephant-Foot-"
+"Kompensation."
+
+#: gui/brim_ears/label
+msgid "Paint brim corner pads"
+msgstr "Brim-Eckpads malen"
+
+#: gui/brim_ears/label
+msgid ""
+"Left click adds pads, right click removes them. Auto-generate detects sharp "
+"outer corners."
+msgstr ""
+"Linksklick fuegt Pads hinzu, Rechtsklick entfernt sie. Auto-Generieren "
+"erkennt scharfe Aussenkanten."
+
+#: gui/brim_ears/label
+msgid ""
+"Pad diameter defines pad size. Max angle controls corner sensitivity. "
+"Detection length simplifies contour before detection."
+msgstr ""
+"Pad-Durchmesser bestimmt die Pad-Groesse. Maximaler Winkel steuert die "
+"Eckenerkennung. Erkennungslaenge vereinfacht die Kontur vor der Erkennung."
+
+#: gui/brim_ears/label
+msgid "Auto-generate"
+msgstr "Automatisch generieren"
+
+#: gui/brim_ears/label
+msgid "Remove all"
+msgstr "Alle entfernen"
+
+#: gui/brim_ears/label
+msgid "Section view"
+msgstr "Schnittansicht"
+
+#: gui/brim_ears/label
+msgid "Adjust section view"
+msgstr "Schnittansicht anpassen"
+
+#: gui/brim_ears/label
+msgid "Max angle"
+msgstr "Maximaler Winkel"
+
+#: gui/brim_ears/label
+msgid "Detection length"
+msgstr "Erkennungslaenge"
+
+#: gui/brim_ears/label
+msgid "Detection radius"
+msgstr "Erkennungsradius"
+
+#: gui/brim_ears/label
+msgid "Please select single object."
+msgstr "Bitte waehlen Sie ein einzelnes Objekt aus."
+
+#: gui/brim_ears/tooltip
+msgid ""
+"Maximum angle to let a corner pad appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+msgstr ""
+"Maximaler Winkel, damit ein Eckpad erscheint.\n"
+"Bei 0 wird kein Brim erzeugt.\n"
+"Bei ~180 wird Brim ueberall ausser an geraden Abschnitten erzeugt."
+
+#: gui/brim_ears/tooltip
+msgid ""
+"The geometry will be decimated before detecting sharp angles.\n"
+"This parameter indicates the minimum length of the deviation for the "
+"decimation.\n"
+"0 to deactivate."
+msgstr ""
+"Die Geometrie wird vor der Erkennung scharfer Winkel vereinfacht.\n"
+"Dieser Parameter gibt die Mindestlaenge der Abweichung fuer die "
+"Vereinfachung an.\n"
+"0 zum Deaktivieren."
+
+#: gui/brim_ears/warning
+msgid ""
+"At least one object has painted brim corner pads, but its Brim type is not "
+"set to 'Painted pads'.\n"
+"Those painted pads will be ignored during slicing."
+msgstr ""
+"Mindestens ein Objekt hat gemalte Brim-Eckpads, aber sein Brim-Typ ist nicht "
+"auf 'Gemalte Pads' gesetzt.\n"
+"Diese gemalten Pads werden beim Slicen ignoriert."

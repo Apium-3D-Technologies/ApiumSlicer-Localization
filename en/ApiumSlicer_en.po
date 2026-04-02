@@ -1583,8 +1583,8 @@ msgstr ""
 "overhang sizes in between are calculated via linear interpolation."
 
 #: src/libslic3r/PrintConfig.cpp:772
-msgid "Brim width"
-msgstr "Brim width"
+msgid "Brim width/pad radius"
+msgstr "Brim width/pad radius"
 
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
 #: src/libslic3r/PrintConfig.cpp:797 src/slic3r/GUI/GUI_Factories.cpp:168
@@ -31177,3 +31177,135 @@ msgstr ""
 "extra perimeter\n"
 "No  - Keep ensure vertical shell thickness enabled and disable alternate "
 "extra perimeter"
+
+#: gui/brim_ears/label
+msgid "Brim corner pads"
+msgstr "Brim corner pads"
+
+#: gui/brim_ears/label
+msgid "Painted pads"
+msgstr "Painted pads"
+
+#: gui/brim_ears/label
+msgid "Corner pad max angle"
+msgstr "Corner pad max angle"
+
+#: gui/brim_ears/label
+msgid "Corner pad detection length"
+msgstr "Corner pad detection length"
+
+#: gui/brim_ears/label
+msgid "Pad diameter"
+msgstr "Pad diameter"
+
+#: gui/brim_ears/label
+msgid "Add a corner pad"
+msgstr "Add a corner pad"
+
+#: gui/brim_ears/label
+msgid "Delete a corner pad"
+msgstr "Delete a corner pad"
+
+#: gui/brim_ears/label
+msgid "Adjust pad diameter"
+msgstr "Adjust pad diameter"
+
+#: gui/brim_ears/label
+msgid "Change point pad diameter"
+msgstr "Change point pad diameter"
+
+#: gui/brim_ears/label
+msgid "Brim follows compensated outline"
+msgstr "Brim follows compensated outline"
+
+#: gui/brim_ears/label
+msgid ""
+"When enabled, the brim (and corner pads) follow the first layer outline "
+"after Elephant Foot Compensation."
+msgstr ""
+"When enabled, the brim (and corner pads) follow the first layer outline "
+"after Elephant Foot Compensation."
+
+#: gui/brim_ears/label
+msgid "Paint brim corner pads"
+msgstr "Paint brim corner pads"
+
+#: gui/brim_ears/label
+msgid ""
+"Left click adds pads, right click removes them. Auto-generate detects sharp "
+"outer corners."
+msgstr ""
+"Left click adds pads, right click removes them. Auto-generate detects sharp "
+"outer corners."
+
+#: gui/brim_ears/label
+msgid ""
+"Pad diameter defines pad size. Max angle controls corner sensitivity. "
+"Detection length simplifies contour before detection."
+msgstr ""
+"Pad diameter defines pad size. Max angle controls corner sensitivity. "
+"Detection length simplifies contour before detection."
+
+#: gui/brim_ears/label
+msgid "Auto-generate"
+msgstr "Auto-generate"
+
+#: gui/brim_ears/label
+msgid "Remove all"
+msgstr "Remove all"
+
+#: gui/brim_ears/label
+msgid "Section view"
+msgstr "Section view"
+
+#: gui/brim_ears/label
+msgid "Adjust section view"
+msgstr "Adjust section view"
+
+#: gui/brim_ears/label
+msgid "Max angle"
+msgstr "Max angle"
+
+#: gui/brim_ears/label
+msgid "Detection length"
+msgstr "Detection length"
+
+#: gui/brim_ears/label
+msgid "Detection radius"
+msgstr "Detection radius"
+
+#: gui/brim_ears/label
+msgid "Please select single object."
+msgstr "Please select single object."
+
+#: gui/brim_ears/tooltip
+msgid ""
+"Maximum angle to let a corner pad appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+msgstr ""
+"Maximum angle to let a corner pad appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+
+#: gui/brim_ears/tooltip
+msgid ""
+"The geometry will be decimated before detecting sharp angles.\n"
+"This parameter indicates the minimum length of the deviation for the "
+"decimation.\n"
+"0 to deactivate."
+msgstr ""
+"The geometry will be decimated before detecting sharp angles.\n"
+"This parameter indicates the minimum length of the deviation for the "
+"decimation.\n"
+"0 to deactivate."
+
+#: gui/brim_ears/warning
+msgid ""
+"At least one object has painted brim corner pads, but its Brim type is not "
+"set to 'Painted pads'.\n"
+"Those painted pads will be ignored during slicing."
+msgstr ""
+"At least one object has painted brim corner pads, but its Brim type is not "
+"set to 'Painted pads'.\n"
+"Those painted pads will be ignored during slicing."
