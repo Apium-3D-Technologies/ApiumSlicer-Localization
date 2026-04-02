@@ -30824,6 +30824,12 @@ msgid "Painted brim corner pads were removed because the object was rotated."
 msgstr "Painted brim corner pads were removed because the object was rotated."
 
 #: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because the object was moved in Z."
+msgstr ""
+"Painted brim corner pads were removed because the object was moved in Z."
+
+#: gui/brim_ears/warning
 msgid "Painted brim corner pads were removed because the object was mirrored."
 msgstr "Painted brim corner pads were removed because the object was mirrored."
 
