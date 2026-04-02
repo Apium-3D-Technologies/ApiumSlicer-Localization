@@ -2766,7 +2766,7 @@ msgstr "Löcher schließen"
 #: src/libslic3r/PrintConfig.cpp:4485
 #: src/slic3r/GUI/Gizmos/GLGizmoHollow.cpp:38
 msgid "Closing distance"
-msgstr "Schliessabstand"
+msgstr "Schließabstand"
 
 #: src/slic3r/GUI/MainFrame.cpp:252
 msgid "Closing PrusaSlicer. Current project is modified."
@@ -9961,15 +9961,15 @@ msgstr "Maximale Länge des Infill-Ankers"
 
 #: src/libslic3r/PrintConfig.cpp:2401
 msgid "Use alternate extra perimeter"
-msgstr "Alternierenden zusaetzlichen Perimeter verwenden"
+msgstr "Alternierenden zusätzlichen Perimeter verwenden"
 
 #: src/libslic3r/PrintConfig.cpp:2403
 msgid ""
 "Adds an extra inner perimeter on every other layer to wedge infill "
 "vertically. Ignored for spiral vase and when infill density is zero."
 msgstr ""
-"Fuegt in jeder zweiten Schicht einen zusaetzlichen inneren Perimeter hinzu, "
-"um das Infill vertikal zu verkeilen. Ignoriert bei Spiralvase und wenn die "
+"Fügt in jeder zweiten Schicht einen zusätzlichen inneren Perimeter hinzu, um "
+"das Infill vertikal zu verkeilen. Ignoriert bei Spiralvase und wenn die "
 "Infill-Dichte null ist."
 
 #: src/libslic3r/PrintConfig.cpp:2544
@@ -15694,11 +15694,11 @@ msgstr "Konturhüllen"
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:111
 #: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:43
 msgid "Shift + Left mouse button"
-msgstr "Gross + Linke Maustaste"
+msgstr "Umschalt + Linke Maustaste"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:198
 msgid "Shift + Left mouse button:"
-msgstr "Gross + Linke Maustaste:"
+msgstr "Umschalt + Linke Maustaste:"
 
 #: src/slic3r/GUI/GUI_ObjectList.cpp:1932
 msgid "Shift objects to bed"
@@ -15706,7 +15706,7 @@ msgstr "Objekte auf Bett verschieben"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:202
 msgid "Shift + Right mouse button:"
-msgstr "Gross + Rechte Maustaste:"
+msgstr "Umschalt + Rechte Maustaste:"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:782
 msgid "Show"
@@ -20230,7 +20230,7 @@ msgstr ""
 "#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
 "Nicht gespeicherte Änderungen\n"
 "#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
-"Ungespeicherte Aenderungen"
+"Ungespeicherte Änderungen"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:1989
 msgid "Unselect"
@@ -30829,7 +30829,7 @@ msgstr "Titel ist erforderlich."
 
 #: src/slic3r/GUI/VersionedSaveDialog.cpp
 msgid "Invalid e-mail address."
-msgstr "Ungueltige E-Mail-Adresse."
+msgstr "Ungültige E-Mail-Adresse."
 
 #: src/slic3r/GUI/VersionedSaveDialog.cpp
 msgid "Your name as it will appear in the version history"
@@ -30842,16 +30842,15 @@ msgstr "Ihre E-Mail-Adresse wie sie in der Versionshistorie erscheint"
 #: src/slic3r/GUI/VersionedSaveDialog.cpp
 msgid "Short version title (max. 21 characters), e.g. \"Added support\" "
 msgstr ""
-"Kurzer Versionstitel (max. 21 Zeichen), z.B. \"Stuetzstrukturen "
-"hinzugefuegt\""
+"Kurzer Versionstitel (max. 21 Zeichen), z.B. \"Stützstrukturen hinzugefügt\""
 
 #: src/slic3r/GUI/VersionedSaveDialog.cpp
 msgid ""
 "Optional longer description of the changes in this version (max. 500 "
 "characters)"
 msgstr ""
-"Optionale ausfuehrlichere Beschreibung der Aenderungen in dieser Version "
-"(max. 500 Zeichen)"
+"Optionale ausführlichere Beschreibung der Änderungen in dieser Version (max. "
+"500 Zeichen)"
 
 #: src/slic3r/GUI/TopBar.cpp
 msgid "Browse and restore named project versions"
@@ -30876,18 +30875,18 @@ msgstr "Autoren-E-Mail:"
 #: src/slic3r/GUI/Preferences.cpp
 msgid "Name used as Git commit author for versioned saves"
 msgstr ""
-"Name der als Git-Commit-Autor fuer versionierte Speicherungen verwendet wird"
+"Name der als Git-Commit-Autor für versionierte Speicherungen verwendet wird"
 
 #: src/slic3r/GUI/Preferences.cpp
 msgid "E-mail address used as Git commit author for versioned saves"
 msgstr ""
-"E-Mail-Adresse die als Git-Commit-Autor fuer versionierte Speicherungen "
+"E-Mail-Adresse die als Git-Commit-Autor für versionierte Speicherungen "
 "verwendet wird"
 
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "This project is not versioned yet. Do you want to start versioning?"
 msgstr ""
-"Dieses Projekt ist noch nicht versioniert. Moechten Sie die Versionierung "
+"Dieses Projekt ist noch nicht versioniert. Möchten Sie die Versionierung "
 "starten?"
 
 #: src/slic3r/GUI/MainFrame.cpp
@@ -30900,7 +30899,7 @@ msgstr "Versionierung konnte nicht initialisiert werden."
 
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Failed to open project for versioning."
-msgstr "Projekt konnte nicht fuer die Versionierung geoefffnet werden."
+msgstr "Projekt konnte nicht für die Versionierung geöffnet werden."
 
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Maximum version number reached. Cannot create new version."
@@ -30919,9 +30918,9 @@ msgid ""
 "\n"
 "Note: Saving will create a new commit on top of the current history."
 msgstr ""
-"Das aktuelle Projekt hat ungespeicherte Aenderungen.\n"
+"Das aktuelle Projekt hat ungespeicherte Änderungen.\n"
 "\n"
-"Moechten Sie vor dem Wechsel zu Version %s speichern?\n"
+"Möchten Sie vor dem Wechsel zu Version %s speichern?\n"
 "\n"
 "Hinweis: Das Speichern erstellt einen neuen Commit auf der aktuellen "
 "Historie."
@@ -30956,15 +30955,15 @@ msgstr "Versions-Diff"
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Select version"
-msgstr "Version auswaehlen"
+msgstr "Version auswählen"
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Choose left version for comparison"
-msgstr "Linke Version fuer den Vergleich auswaehlen"
+msgstr "Linke Version für den Vergleich auswählen"
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Choose right version for comparison"
-msgstr "Rechte Version fuer den Vergleich auswaehlen"
+msgstr "Rechte Version für den Vergleich auswählen"
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Left version"
@@ -30988,18 +30987,18 @@ msgstr "Rechter Wert"
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Select two versions to compare."
-msgstr "Waehlen Sie zwei Versionen zum Vergleichen aus."
+msgstr "Wählen Sie zwei Versionen zum Vergleichen aus."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "Versioning manager is unavailable."
-msgstr "Der Versionierungsmanager ist nicht verfuegbar."
+msgstr "Der Versionierungsmanager ist nicht verfügbar."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid ""
 "Could not read Metadata/Slic3r_PE.config for one or both selected versions."
 msgstr ""
-"Metadata/Slic3r_PE.config konnte fuer eine oder beide ausgewaehlten "
-"Versionen nicht gelesen werden."
+"Metadata/Slic3r_PE.config konnte für eine oder beide ausgewählten Versionen "
+"nicht gelesen werden."
 
 #: src/slic3r/GUI/VersionDiffDialog.cpp
 msgid "No differences found for Metadata/Slic3r_PE.config."
@@ -31029,7 +31028,7 @@ msgstr "Option"
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Select None"
-msgstr "Keine auswaehlen"
+msgstr "Keine auswählen"
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Show all settings"
@@ -31037,17 +31036,17 @@ msgstr "Alle Einstellungen anzeigen"
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Select at least two presets to compare."
-msgstr "Waehlen Sie mindestens zwei Presets zum Vergleichen aus."
+msgstr "Wählen Sie mindestens zwei Presets zum Vergleichen aus."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "No settings to display for current selection."
-msgstr "Keine Einstellungen fuer die aktuelle Auswahl anzuzeigen."
+msgstr "Keine Einstellungen für die aktuelle Auswahl anzuzeigen."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid ""
 "Double click a value cell to use that value for all selected user presets."
 msgstr ""
-"Doppelklicken Sie eine Wertzelle, um diesen Wert fuer alle ausgewaehlten "
+"Doppelklicken Sie eine Wertzelle, um diesen Wert für alle ausgewählten "
 "Benutzer-Presets zu verwenden."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
@@ -31055,12 +31054,12 @@ msgid ""
 "The currently edited preset has unsaved changes. Please save or discard them "
 "first."
 msgstr ""
-"Das aktuell bearbeitete Preset hat ungespeicherte Aenderungen. Bitte "
+"Das aktuell bearbeitete Preset hat ungespeicherte Änderungen. Bitte "
 "speichern oder verwerfen Sie diese zuerst."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "No editable user presets were changed."
-msgstr "Es wurden keine bearbeitbaren Benutzer-Presets geaendert."
+msgstr "Es wurden keine bearbeitbaren Benutzer-Presets geändert."
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Some presets could not be saved:"
@@ -31068,7 +31067,7 @@ msgstr "Einige Presets konnten nicht gespeichert werden:"
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "New value (for all profiles)"
-msgstr "Neuer Wert (fuer alle Profile)"
+msgstr "Neuer Wert (für alle Profile)"
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp
 msgid "Advanced Preset Diff-Viewer/Editor"
@@ -31094,11 +31093,11 @@ msgid ""
 "saves.\n"
 "You can change these values later in Preferences."
 msgstr ""
-"Die Projektversionierung fuehrt eine Historie Ihrer .3mf-Projektaenderungen, "
-"damit Sie fruehere Versionen nachvollziehen und wiederherstellen koennen.\n"
-"Ihr Name und Ihre E-Mail werden als Git-Commit-Autorenmetadaten fuer "
+"Die Projektversionierung führt eine Historie Ihrer .3mf-Projektänderungen, "
+"damit Sie frühere Versionen nachvollziehen und wiederherstellen können.\n"
+"Ihr Name und Ihre E-Mail werden als Git-Commit-Autorenmetadaten für "
 "versionierte Speicherungen verwendet.\n"
-"Sie koennen diese Werte spaeter in den Einstellungen aendern."
+"Sie können diese Werte später in den Einstellungen ändern."
 
 #: src/slic3r/GUI/ConfigWizard.cpp
 msgid ""
@@ -31107,9 +31106,9 @@ msgid ""
 "They are used only locally for project versioning and are stored only in "
 ".3mf files."
 msgstr ""
-"Diese Daten werden nicht extern uebermittelt und nicht fuer Marketingzwecke "
+"Diese Daten werden nicht extern übermittelt und nicht für Marketingzwecke "
 "verwendet.\n"
-"Sie werden nur lokal fuer die Projektversionierung verwendet und nur in den "
+"Sie werden nur lokal für die Projektversionierung verwendet und nur in den "
 ".3mf-Dateien gespeichert."
 
 #: src/libslic3r/PrintConfig.cpp
@@ -31121,8 +31120,8 @@ msgid ""
 "Percentage of nozzle diameter used to derive this extruder's maximum "
 "printable layer height."
 msgstr ""
-"Prozentsatz des Duesendurchmessers, der zur Ableitung der maximal druckbaren "
-"Schichthoehe dieses Extruders verwendet wird."
+"Prozentsatz des Düsendurchmessers, der zur Ableitung der maximal druckbaren "
+"Schichthöhe dieses Extruders verwendet wird."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Min (%)"
@@ -31133,8 +31132,8 @@ msgid ""
 "Percentage of nozzle diameter used to derive this extruder's minimum "
 "printable layer height."
 msgstr ""
-"Prozentsatz des Duesendurchmessers, der zur Ableitung der minimal druckbaren "
-"Schichthoehe dieses Extruders verwendet wird."
+"Prozentsatz des Düsendurchmessers, der zur Ableitung der minimal druckbaren "
+"Schichthöhe dieses Extruders verwendet wird."
 
 #: src/libslic3r/PrintConfig.cpp:1532
 msgid "Enable purge line"
@@ -31203,8 +31202,8 @@ msgstr "Purge-Linien-Extrusionstyp"
 msgid ""
 "Selects which extrusion width and multiplier are used for the purge line."
 msgstr ""
-"Waehlt, welche Extrusionsbreite und welcher Multiplikator fuer die Purge-"
-"Linie verwendet werden."
+"Wählt, welche Extrusionsbreite und welcher Multiplikator für die Purge-Linie "
+"verwendet werden."
 
 #: src/libslic3r/PrintConfig.cpp:4933
 msgid "Injection every N layers"
@@ -31221,13 +31220,13 @@ msgid ""
 "phase mode this setting is ignored."
 msgstr ""
 "Definiert die vertikale Kadenz der Apium-Injektion und Phasenumschaltung im "
-"Modus Alternate 180. Apium behaelt dieselbe Wellenphase fuer N "
+"Modus Alternate 180. Apium behält dieselbe Wellenphase für N "
 "aufeinanderfolgende Schichten bei, schaltet dann die Phase um und injiziert "
-"auf der Umschalt-Schicht. Dadurch werden identische Wellenkanaele in Z-"
+"auf der Umschalt-Schicht. Dadurch werden identische Wellenkanäle in Z-"
 "Richtung gestapelt, um vor der Injektion tiefere Taschen zu bilden und die "
 "mechanische Verankerung bei stark warping-aktiven Materialien zu verbessern. "
 "Das Zielvolumen der Injektion wird linear mit N skaliert, um tiefere Taschen "
-"zu beruecksichtigen. Im Modus Fixed phase wird diese Einstellung ignoriert."
+"zu berücksichtigen. Im Modus Fixed phase wird diese Einstellung ignoriert."
 
 #: src/libslic3r/PrintConfig.cpp:3395
 msgid "Retract after purge line"
@@ -31239,12 +31238,12 @@ msgid ""
 "the first retraction after purge line is skipped."
 msgstr ""
 "Wenn aktiviert, wird nach der Purge-Linie eine Standard-Retraktion "
-"ausgefuehrt. Wenn deaktiviert, wird die erste Retraktion nach der Purge-"
-"Linie uebersprungen."
+"ausgeführt. Wenn deaktiviert, wird die erste Retraktion nach der Purge-Linie "
+"übersprungen."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Allow outside build plate placement"
-msgstr "Platzierung ausserhalb der Bauplatte erlauben"
+msgstr "Platzierung außerhalb der Bauplatte erlauben"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31252,7 +31251,7 @@ msgid ""
 "to the nearest build plate boundary."
 msgstr ""
 "Wenn aktiviert, werden Koordinaten der Purge-Linie ohne Fehler akzeptiert "
-"und auf die naechste Bauplatten-Grenze begrenzt."
+"und auf die nächste Bauplatten-Grenze begrenzt."
 
 #: src/slic3r/GUI/Tab.cpp
 msgid "Override value: %1%"
@@ -31266,16 +31265,16 @@ msgid ""
 "interlock pockets and reduce warping stress while improving Z-direction "
 "anchoring."
 msgstr ""
-"Apium ist ein rekursives Akronym fuer \"Apium Perimeter Interweaving "
-"Undulating Method\". Es erzeugt ineinander greifende, wellenfoermige "
-"Perimeter-Kanaele zwischen aeusserer und innerer Schalenverankerung. Die "
+"Apium ist ein rekursives Akronym für \"Apium Perimeter Interweaving "
+"Undulating Method\". Es erzeugt ineinander greifende, wellenförmige "
+"Perimeter-Kanäle zwischen äußerer und innerer Schalenverankerung. Die "
 "Wellenphase wechselt zwischen den Schichten, um Taschen zu verzahnen, "
 "Warping-Spannungen zu reduzieren und die Verankerung in Z-Richtung zu "
 "verbessern."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Use relative layer heights"
-msgstr "Relative Schichthoehen verwenden"
+msgstr "Relative Schichthöhen verwenden"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31283,27 +31282,27 @@ msgid ""
 "percentage values over the smallest configured nozzle diameter. Derived mm "
 "values are limited by printer layer height limits."
 msgstr ""
-"Wenn aktiviert, werden Schichthoehe und erste Schichthoehe aus ihren "
-"Prozentwerten ueber den kleinsten konfigurierten Duesendurchmesser "
-"berechnet. Die abgeleiteten mm-Werte werden durch die Schichthoehen-Grenzen "
-"des Druckers begrenzt."
+"Wenn aktiviert, werden Schichthöhe und erste Schichthöhe aus ihren "
+"Prozentwerten über den kleinsten konfigurierten Düsendurchmesser berechnet. "
+"Die abgeleiteten mm-Werte werden durch die Schichthöhen-Grenzen des Druckers "
+"begrenzt."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Layer height (%)"
-msgstr "Schichthoehe (%)"
+msgstr "Schichthöhe (%)"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Percentage of the smallest configured nozzle diameter used to derive Layer "
 "height in mm. Changing this value or nozzle diameter updates Layer height."
 msgstr ""
-"Prozentsatz des kleinsten konfigurierten Duesendurchmessers zur Berechnung "
-"der Schichthoehe in mm. Das Aendern dieses Werts oder des Duesendurchmessers "
-"aktualisiert die Schichthoehe."
+"Prozentsatz des kleinsten konfigurierten Düsendurchmessers zur Berechnung "
+"der Schichthöhe in mm. Das Ändern dieses Werts oder des Düsendurchmessers "
+"aktualisiert die Schichthöhe."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "First layer height (%)"
-msgstr "Erste Schichthoehe (%)"
+msgstr "Erste Schichthöhe (%)"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -31311,9 +31310,9 @@ msgid ""
 "layer height in mm. Changing this value or nozzle diameter updates First "
 "layer height."
 msgstr ""
-"Prozentsatz des kleinsten konfigurierten Duesendurchmessers zur Berechnung "
-"der ersten Schichthoehe in mm. Das Aendern dieses Werts oder des "
-"Duesendurchmessers aktualisiert die erste Schichthoehe."
+"Prozentsatz des kleinsten konfigurierten Düsendurchmessers zur Berechnung "
+"der ersten Schichthöhe in mm. Das Ändern dieses Werts oder des "
+"Düsendurchmessers aktualisiert die erste Schichthöhe."
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:66
 msgid ""
@@ -31332,12 +31331,12 @@ msgstr ""
 "- Standard-Extrusionsbreite: 0\n"
 "- Extrusionsbreite der ersten Schicht: 0\n"
 "- Kontur-Extrusionsbreite: 0\n"
-"- Aussenkontur-Extrusionsbreite: 0\n"
+"- Außenkontur-Extrusionsbreite: 0\n"
 "- Infill-Extrusionsbreite: 0\n"
 "- Bridge-Infill-Extrusionsbreite: 0\n"
 "- Solid-Infill-Extrusionsbreite: 0\n"
 "- Top-Infill-Extrusionsbreite: 0\n"
-"- Stuetzmaterial-Extrusionsbreite: 0"
+"- Stützmaterial-Extrusionsbreite: 0"
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:78
 msgid ""
@@ -31359,18 +31358,18 @@ msgid ""
 "computed over the selected calculation base."
 msgstr ""
 "Setzen Sie dies auf einen Wert ungleich Null, um eine manuelle "
-"Extrusionsbreite fuer Bridge Infill festzulegen. Bei Null wird die Bridge-"
-"Infill-Breite aus Bridge-Flow-Ratio und Duesendurchmesser abgeleitet. Bei "
-"Prozentwerten (z. B. 90 %) wird anhand der ausgewaehlten "
-"Berechnungsgrundlage gerechnet."
+"Extrusionsbreite für Bridge Infill festzulegen. Bei Null wird die Bridge-"
+"Infill-Breite aus Bridge-Flow-Ratio und Düsendurchmesser abgeleitet. Bei "
+"Prozentwerten (z. B. 90 %) wird anhand der ausgewählten Berechnungsgrundlage "
+"gerechnet."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Base for percentage-based bridge infill extrusion width calculation. Used "
 "only for percentage values."
 msgstr ""
-"Berechnungsgrundlage fuer die prozentbasierte Bridge-Infill-"
-"Extrusionsbreite. Wird nur bei Prozentwerten verwendet."
+"Berechnungsgrundlage für die prozentbasierte Bridge-Infill-Extrusionsbreite. "
+"Wird nur bei Prozentwerten verwendet."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Bridge infill extrusion multiplier"
@@ -31378,15 +31377,15 @@ msgstr "Bridge-Infill-Extrusionsmultiplikator"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Multiplier applied to bridge infill extrusions."
-msgstr "Multiplikator fuer Bridge-Infill-Extrusionen."
+msgstr "Multiplikator für Bridge-Infill-Extrusionen."
 
 #: src/libslic3r/Print.cpp:876
 msgid ""
 "The Wipe Tower is only supported for multiple objects if they are printed "
 "with the same effective support contact distance."
 msgstr ""
-"Der Wischturm wird bei mehreren Objekten nur unterstuetzt, wenn sie mit "
-"demselben effektiven Stuetz-Kontaktabstand gedruckt werden."
+"Der Wischturm wird bei mehreren Objekten nur unterstützt, wenn sie mit "
+"demselben effektiven Stütz-Kontaktabstand gedruckt werden."
 
 #: src/slic3r/GUI/Tab.cpp:2498
 #, boost-format
@@ -31405,7 +31404,7 @@ msgstr "Override-Quelle: T%1%, Material-Profil \"%2%\", Material \"%3%\"."
 
 #: src/slic3r/GUI/Tab.cpp:2741
 msgid "Invalid setting key."
-msgstr "Ungueltiger Einstellungsschluessel."
+msgstr "Ungültiger Einstellungsschlüssel."
 
 #: src/slic3r/GUI/Tab.cpp:2765
 msgid "Please use true or false."
@@ -31413,7 +31412,7 @@ msgstr "Bitte true oder false verwenden."
 
 #: src/slic3r/GUI/Tab.cpp:2781
 msgid "Invalid enum value."
-msgstr "Ungueltiger Enum-Wert."
+msgstr "Ungültiger Enum-Wert."
 
 #: src/slic3r/GUI/Tab.cpp:2791
 msgid "Unable to parse override value."
@@ -31421,7 +31420,7 @@ msgstr "Override-Wert konnte nicht geparst werden."
 
 #: src/slic3r/GUI/Tab.cpp:2841
 msgid "Add print setting override"
-msgstr "Druckeinstellungs-Override hinzufuegen"
+msgstr "Druckeinstellungs-Override hinzufügen"
 
 #: src/slic3r/GUI/Tab.cpp:2851
 msgid "Search print settings"
@@ -31429,7 +31428,7 @@ msgstr "Druckeinstellungen durchsuchen"
 
 #: src/slic3r/GUI/Tab.cpp:3452 src/slic3r/GUI/Tab.cpp:3487
 msgid "Invalid override value"
-msgstr "Ungueltiger Override-Wert"
+msgstr "Ungültiger Override-Wert"
 
 #: src/slic3r/GUI/Tab.cpp:3518
 msgid "Remove override"
@@ -31523,7 +31522,7 @@ msgstr ""
 "Aus: Es werden keine Zoneheater-Befehle ausgegeben.\n"
 "Statisch: Eine feste Leistung (zoneheater_static_power) wird einmal am Start "
 "gesetzt; das variable Tool ist deaktiviert.\n"
-"Variabel: Die Leistung wird pro Schicht ueber das variable Zoneheater-Profil "
+"Variabel: Die Leistung wird pro Schicht über das variable Zoneheater-Profil "
 "gesteuert; die statische Leistung ist inaktiv.\n"
 "Cranial (experimentell): Objekt-/schichtbasierter Achsverlauf mit Center-/"
 "Edge-Leistungsbereichen.\n"
@@ -31539,7 +31538,7 @@ msgstr "Cranial-Modus Verlaufsachse"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Axis used for cranial gradient sampling along printhead movement."
-msgstr "Achse fuer Cranial-Verlaufssampling entlang der Druckkopfbewegung."
+msgstr "Achse für Cranial-Verlaufssampling entlang der Druckkopfbewegung."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "X-Axis"
@@ -31558,7 +31557,7 @@ msgid ""
 "Center band total width on the selected cranial gradient axis. Supports "
 "millimeters or percent of the model width."
 msgstr ""
-"Gesamtbreite des Center-Bands auf der gewaehlten Cranial-Achse. Unterstuetzt "
+"Gesamtbreite des Center-Bands auf der gewählten Cranial-Achse. Unterstützt "
 "Millimeter oder Prozent der Modellbreite."
 
 #: src/libslic3r/PrintConfig.cpp
@@ -31582,8 +31581,8 @@ msgid ""
 "Edge band width per side from model border toward center on the selected "
 "cranial gradient axis. Supports millimeters or percent."
 msgstr ""
-"Edge-Band-Breite pro Seite vom Modellrand zum Zentrum auf der gewaehlten "
-"Cranial-Achse. Unterstuetzt Millimeter oder Prozent."
+"Edge-Band-Breite pro Seite vom Modellrand zum Zentrum auf der gewählten "
+"Cranial-Achse. Unterstützt Millimeter oder Prozent."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Cranial mode edge power"
@@ -31602,7 +31601,7 @@ msgstr "Cranial-Modus Verlaufstyp"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Interpolation curve between edge and center cranial bands."
-msgstr "Interpolationskurve zwischen Edge- und Center-Cranial-Baendern."
+msgstr "Interpolationskurve zwischen Edge- und Center-Cranial-Bändern."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Linear"
@@ -31645,21 +31644,21 @@ msgid ""
 "Fallback zoneheater power in percent for cranial mode where neither bed "
 "annealing compensation nor cranial sampling applies."
 msgstr ""
-"Fallback-Zoneheater-Leistung in Prozent fuer den Cranial-Modus, wenn weder "
+"Fallback-Zoneheater-Leistung in Prozent für den Cranial-Modus, wenn weder "
 "Bed-Annealing-Kompensation noch Cranial-Sampling greift."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Cranial mode exclude Support/Raft"
-msgstr "Cranial-Modus Support/Raft ausschliessen"
+msgstr "Cranial-Modus Support/Raft ausschließen"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Exclude support and raft extrusion from cranial sampling. When disabled, "
 "support/raft may use cranial sampling if a valid context exists."
 msgstr ""
-"Schliesst Support- und Raft-Extrusionen vom Cranial-Sampling aus. Wenn "
-"deaktiviert, koennen Support/Raft Cranial-Sampling nutzen, sofern ein "
-"gueltiger Kontext vorliegt."
+"Schließt Support- und Raft-Extrusionen vom Cranial-Sampling aus. Wenn "
+"deaktiviert, können Support/Raft Cranial-Sampling nutzen, sofern ein "
+"gültiger Kontext vorliegt."
 
 #: src/slic3r/GUI/Tab.cpp
 msgid "Enable Zoneheater ring compensation travels"
@@ -31670,20 +31669,20 @@ msgid ""
 "Enable additional non-extruding ring compensation travels around internal "
 "infill groups in cranial mode."
 msgstr ""
-"Aktiviert zusaetzliche nicht-extrudierende Ring-Kompensationstravels um "
+"Aktiviert zusätzliche nicht-extrudierende Ring-Kompensationstravels um "
 "interne Infill-Gruppen im Cranial-Modus."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater ring compensation travel length"
-msgstr "Zoneheater-Ring-Kompensation Travel-Laenge"
+msgstr "Zoneheater-Ring-Kompensation Travel-Länge"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Length in millimeters of the cranial ring compensation travel segment along "
 "the selected gradient axis."
 msgstr ""
-"Laenge in Millimetern des Cranial-Ring-Kompensationstravel-Segments entlang "
-"der gewaehlten Verlaufachse."
+"Länge in Millimetern des Cranial-Ring-Kompensationstravel-Segments entlang "
+"der gewählten Verlaufachse."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater ring compensation travel speed"
@@ -31693,7 +31692,7 @@ msgstr "Zoneheater-Ring-Kompensation Travel-Geschwindigkeit"
 msgid ""
 "Travel speed in mm/s used for the cranial ring compensation travel segment."
 msgstr ""
-"Travel-Geschwindigkeit in mm/s fuer das Cranial-Ring-Kompensationstravel-"
+"Travel-Geschwindigkeit in mm/s für das Cranial-Ring-Kompensationstravel-"
 "Segment."
 
 #: src/libslic3r/PrintConfig.cpp
@@ -31705,7 +31704,7 @@ msgid ""
 "Zoneheater power in percent used during cranial ring compensation pre-travel "
 "segments before internal infill."
 msgstr ""
-"Zoneheater-Leistung in Prozent waehrend Cranial-Ring-Kompensation-Pre-Travel-"
+"Zoneheater-Leistung in Prozent während Cranial-Ring-Kompensation-Pre-Travel-"
 "Segmenten vor internem Infill."
 
 #: src/libslic3r/PrintConfig.cpp
@@ -31717,20 +31716,20 @@ msgid ""
 "Zoneheater power in percent used during cranial ring compensation post-"
 "travel segments after internal infill."
 msgstr ""
-"Zoneheater-Leistung in Prozent waehrend Cranial-Ring-Kompensation-Post-"
-"Travel-Segmenten nach internem Infill."
+"Zoneheater-Leistung in Prozent während Cranial-Ring-Kompensation-Post-Travel-"
+"Segmenten nach internem Infill."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Zoneheater ring compensation skip below width"
-msgstr "Zoneheater-Ring-Kompensation unterhalb Breite ueberspringen"
+msgstr "Zoneheater-Ring-Kompensation unterhalb Breite überspringen"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "Skip cranial ring compensation for layers whose total model width on the "
 "selected gradient axis is below this value."
 msgstr ""
-"Ueberspringt Cranial-Ring-Kompensation fuer Schichten, deren gesamte "
-"Modellbreite auf der gewaehlten Verlaufachse unter diesem Wert liegt."
+"Überspringt Cranial-Ring-Kompensation für Schichten, deren gesamte "
+"Modellbreite auf der gewählten Verlaufachse unter diesem Wert liegt."
 
 #: src/slic3r/GUI/Tab.cpp
 msgid "Zoneheater cranial mode"
@@ -31743,10 +31742,10 @@ msgid ""
 "cranial plates and similarly curved models; for flat or strongly rectangular "
 "geometries it may have limited benefit."
 msgstr ""
-"Der Cranial-Modus variiert die Zoneheater-Leistung entlang einer gewaehlten "
-"X/Y-Achse mit Edge-, Verlauf- und Center-Zonen pro Objektschicht. Dieser "
-"Modus ist fuer Cranial-Platten und aehnlich gekruemmte Modelle konzipiert; "
-"bei flachen oder stark rechteckigen Geometrien ist der Nutzen meist begrenzt."
+"Der Cranial-Modus variiert die Zoneheater-Leistung entlang einer gewählten X/"
+"Y-Achse mit Edge-, Verlauf- und Center-Zonen pro Objektschicht. Dieser Modus "
+"ist für Cranial-Platten und ähnlich gekrümmte Modelle konzipiert; bei "
+"flachen oder stark rechteckigen Geometrien ist der Nutzen meist begrenzt."
 
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater cranial widths were clamped:"
@@ -31754,7 +31753,7 @@ msgstr "Zoneheater-Cranial-Breiten wurden begrenzt:"
 
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater cranial center/edge overlap detected:"
-msgstr "Zoneheater-Cranial-Center/Edge-Ueberlappung erkannt:"
+msgstr "Zoneheater-Cranial-Center/Edge-Überlappung erkannt:"
 
 #: src/libslic3r/Print.cpp
 msgid "Zoneheater cranial ring compensation values adjusted:"
@@ -31762,7 +31761,7 @@ msgstr "Zoneheater-Cranial-Ring-Kompensationswerte wurden angepasst:"
 
 #: src/libslic3r/Print.cpp
 msgid "ring travel length clamped to >= 0"
-msgstr "Ring-Travel-Laenge auf >= 0 begrenzt"
+msgstr "Ring-Travel-Länge auf >= 0 begrenzt"
 
 #: src/libslic3r/Print.cpp
 msgid "ring travel speed must be > 0 (ring compensation disabled)"
@@ -31807,7 +31806,7 @@ msgstr "Edge-Breite auf Schicht-Modellbreite begrenzt"
 
 #: src/libslic3r/Print.cpp
 msgid "center/edge overlap (center overrides edge, hard transition)"
-msgstr "Center/Edge-Ueberlappung (Center hat Vorrang, harter Uebergang)"
+msgstr "Center/Edge-Überlappung (Center hat Vorrang, harter Übergang)"
 
 #: src/libslic3r/PrintConfig.cpp:1027
 msgid ""
@@ -31815,32 +31814,32 @@ msgid ""
 "determine temperatures based on the first printing extruder of the first and "
 "second layers."
 msgstr ""
-"Das Werkzeug bestimmt die Betttemperaturen. Waehlen Sie 'Current extruder', "
+"Das Werkzeug bestimmt die Betttemperaturen. Wählen Sie 'Current extruder', "
 "um die Temperaturen anhand des zuerst druckenden Extruders in der ersten und "
 "zweiten Schicht zu bestimmen."
 
 #: src/libslic3r/PrintConfig.cpp:2740
 msgid "The tool to use when printing infill. T0 is the first extruder."
-msgstr "Das Werkzeug fuer das Drucken von Infill. T0 ist der erste Extruder."
+msgstr "Das Werkzeug für das Drucken von Infill. T0 ist der erste Extruder."
 
 #: src/libslic3r/PrintConfig.cpp:3424
 msgid ""
 "The tool to use when printing perimeters and brim. T0 is the first extruder."
 msgstr ""
-"Das Werkzeug fuer das Drucken von Perimetern und Brim. T0 ist der erste "
+"Das Werkzeug für das Drucken von Perimetern und Brim. T0 ist der erste "
 "Extruder."
 
 #: src/libslic3r/PrintConfig.cpp:3986
 msgid "The tool to use when printing solid infill. T0 is the first extruder."
 msgstr ""
-"Das Werkzeug fuer das Drucken von massivem Infill. T0 ist der erste Extruder."
+"Das Werkzeug für das Drucken von massivem Infill. T0 ist der erste Extruder."
 
 #: src/libslic3r/PrintConfig.cpp:4461
 msgid ""
 "The tool to use when printing support material, raft and skirt. Choose "
 "'Current extruder' to minimize tool changes."
 msgstr ""
-"Das Werkzeug fuer Stuetzmaterial, Raft und Skirt. Waehlen Sie 'Current "
+"Das Werkzeug für Stützmaterial, Raft und Skirt. Wählen Sie 'Current "
 "extruder', um Werkzeugwechsel zu minimieren."
 
 #: src/libslic3r/PrintConfig.cpp:4501
@@ -31848,7 +31847,7 @@ msgid ""
 "The tool to use when printing support material interface. Choose 'Current "
 "extruder' to minimize tool changes. This affects raft too."
 msgstr ""
-"Das Werkzeug fuer die Stuetzmaterial-Schnittstelle. Waehlen Sie 'Current "
+"Das Werkzeug für die Stützmaterial-Schnittstelle. Wählen Sie 'Current "
 "extruder', um Werkzeugwechsel zu minimieren. Das betrifft auch Raft."
 
 #: src/libslic3r/PrintConfig.cpp:5015
@@ -31856,8 +31855,8 @@ msgid ""
 "The tool to use when printing perimeter of the wipe tower. Choose 'Current "
 "extruder' to use an available tool (non-soluble would be preferred)."
 msgstr ""
-"Das Werkzeug fuer den Perimeter des Wipe Towers. Waehlen Sie 'Current "
-"extruder', um ein verfuegbares Werkzeug zu verwenden (nicht-loeslich wird "
+"Das Werkzeug für den Perimeter des Wipe Towers. Wählen Sie 'Current "
+"extruder', um ein verfügbares Werkzeug zu verwenden (nicht-löslich wird "
 "bevorzugt)."
 
 #: src/slic3r/GUI/Tab.cpp:2094
@@ -31873,7 +31872,7 @@ msgid ""
 "Print direction for compatible sparse infill patterns. This setting affects "
 "internal sparse infill only and does not affect top, bottom, or solid infill."
 msgstr ""
-"Druckrichtung fuer kompatible Sparse-Infill-Pattern. Diese Einstellung "
+"Druckrichtung für kompatible Sparse-Infill-Pattern. Diese Einstellung "
 "beeinflusst nur internes Sparse-Infill und nicht Top-, Bottom- oder Solid-"
 "Infill."
 
@@ -31906,7 +31905,7 @@ msgid ""
 "Alternate extra perimeter doesn't work well when ensure vertical shell "
 "thickness is set to Enabled."
 msgstr ""
-"Alternierender zusaetzlicher Perimeter funktioniert nicht gut, wenn Ensure "
+"Alternierender zusätzlicher Perimeter funktioniert nicht gut, wenn Ensure "
 "vertical shell thickness auf Enabled steht."
 
 #: src/slic3r/GUI/ConfigManipulation.cpp
@@ -31919,9 +31918,9 @@ msgid ""
 msgstr ""
 "Diese Einstellungen automatisch anpassen?\n"
 "Ja - Ensure vertical shell thickness auf Partial setzen und alternierenden "
-"zusaetzlichen Perimeter aktiviert lassen\n"
+"zusätzlichen Perimeter aktiviert lassen\n"
 "Nein - Ensure vertical shell thickness auf Enabled lassen und alternierenden "
-"zusaetzlichen Perimeter deaktivieren"
+"zusätzlichen Perimeter deaktivieren"
 
 #: gui/brim_ears/label
 msgid "Brim corner pads"
@@ -31980,16 +31979,16 @@ msgid ""
 "Left click adds pads, right click removes them. Auto-generate detects sharp "
 "outer corners."
 msgstr ""
-"Linksklick fuegt Pads hinzu, Rechtsklick entfernt sie. Auto-Generieren "
-"erkennt scharfe Aussenkanten."
+"Linksklick fügt Pads hinzu, Rechtsklick entfernt sie. Auto-Generieren "
+"erkennt scharfe Außenkanten."
 
 #: gui/brim_ears/label
 msgid ""
 "Pad diameter defines pad size. Max angle controls corner sensitivity. "
 "Detection length simplifies contour before detection."
 msgstr ""
-"Pad-Durchmesser bestimmt die Pad-Groesse. Maximaler Winkel steuert die "
-"Eckenerkennung. Erkennungslaenge vereinfacht die Kontur vor der Erkennung."
+"Pad-Durchmesser bestimmt die Pad-Größe. Maximaler Winkel steuert die "
+"Eckenerkennung. Erkennungslänge vereinfacht die Kontur vor der Erkennung."
 
 #: gui/brim_ears/label
 msgid "Auto-generate"
@@ -32013,7 +32012,7 @@ msgstr "Maximaler Winkel"
 
 #: gui/brim_ears/label
 msgid "Detection length"
-msgstr "Erkennungslaenge"
+msgstr "Erkennungslänge"
 
 #: gui/brim_ears/label
 msgid "Detection radius"
@@ -32021,7 +32020,7 @@ msgstr "Erkennungsradius"
 
 #: gui/brim_ears/label
 msgid "Please select single object."
-msgstr "Bitte waehlen Sie ein einzelnes Objekt aus."
+msgstr "Bitte wählen Sie ein einzelnes Objekt aus."
 
 #: gui/brim_ears/tooltip
 msgid ""
@@ -32031,7 +32030,7 @@ msgid ""
 msgstr ""
 "Maximaler Winkel, damit ein Eckpad erscheint.\n"
 "Bei 0 wird kein Brim erzeugt.\n"
-"Bei ~180 wird Brim ueberall ausser an geraden Abschnitten erzeugt."
+"Bei ~180 wird Brim überall außer an geraden Abschnitten erzeugt."
 
 #: gui/brim_ears/tooltip
 msgid ""
@@ -32041,8 +32040,8 @@ msgid ""
 "0 to deactivate."
 msgstr ""
 "Die Geometrie wird vor der Erkennung scharfer Winkel vereinfacht.\n"
-"Dieser Parameter gibt die Mindestlaenge der Abweichung fuer die "
-"Vereinfachung an.\n"
+"Dieser Parameter gibt die Mindestlänge der Abweichung für die Vereinfachung "
+"an.\n"
 "0 zum Deaktivieren."
 
 #: gui/brim_ears/warning
@@ -32074,20 +32073,20 @@ msgstr ""
 msgid ""
 "Painted brim corner pads were removed because skew was reset for the object."
 msgstr ""
-"Gemalte Brim-Eckpads wurden entfernt, weil die Schraegstellung des Objekts "
-"zurueckgesetzt wurde."
+"Gemalte Brim-Eckpads wurden entfernt, weil die Schrägstellung des Objekts "
+"zurückgesetzt wurde."
 
 #: gui/brim_ears/warning
 msgid ""
 "Painted brim corner pads were removed because the object's mesh was modified."
 msgstr ""
-"Gemalte Brim-Eckpads wurden entfernt, weil das Mesh des Objekts geaendert "
+"Gemalte Brim-Eckpads wurden entfernt, weil das Mesh des Objekts geändert "
 "wurde."
 
 #: gui/brim_ears/warning
 msgid "Painted brim corner pads were removed after merging objects."
 msgstr ""
-"Gemalte Brim-Eckpads wurden nach dem Zusammenfuehren von Objekten entfernt."
+"Gemalte Brim-Eckpads wurden nach dem Zusammenführen von Objekten entfernt."
 
 #: gui/brim_ears/warning
 msgid "Painted brim corner pads were removed after cutting the object."
