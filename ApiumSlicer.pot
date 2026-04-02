@@ -20324,3 +20324,27 @@ msgstr ""
 #: gui/brim_ears/warning
 msgid "Painted brim corner pads were removed after cutting the object."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1828
+msgid "Perimeter printing order"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1830
+msgid "Controls the order in which perimeters are printed."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1832
+msgid "Outer → Inner"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1833
+msgid "Inner → Outer"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1834
+msgid "Outer → Innermost → Inner"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1835
+msgid "Innermost → Outer → Inner"
+msgstr ""
