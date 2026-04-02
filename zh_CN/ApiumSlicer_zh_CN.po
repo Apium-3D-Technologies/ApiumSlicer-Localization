@@ -30818,3 +30818,31 @@ msgid ""
 msgstr ""
 "至少有一个对象绘制了裙边角垫，但其裙边类型未设置为“绘制垫片”。\n"
 "这些已绘制的垫片在切片时将被忽略。"
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was rotated."
+msgstr "Painted brim corner pads were removed because the object was rotated."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was mirrored."
+msgstr "Painted brim corner pads were removed because the object was mirrored."
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because skew was reset for the object."
+msgstr ""
+"Painted brim corner pads were removed because skew was reset for the object."
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because the object's mesh was modified."
+msgstr ""
+"Painted brim corner pads were removed because the object's mesh was modified."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after merging objects."
+msgstr "Painted brim corner pads were removed after merging objects."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after cutting the object."
+msgstr "Painted brim corner pads were removed after cutting the object."

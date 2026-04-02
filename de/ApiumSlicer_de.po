@@ -32054,3 +32054,35 @@ msgstr ""
 "Mindestens ein Objekt hat gemalte Brim-Eckpads, aber sein Brim-Typ ist nicht "
 "auf 'Gemalte Pads' gesetzt.\n"
 "Diese gemalten Pads werden beim Slicen ignoriert."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was rotated."
+msgstr "Gemalte Brim-Eckpads wurden entfernt, weil das Objekt rotiert wurde."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was mirrored."
+msgstr ""
+"Gemalte Brim-Eckpads wurden entfernt, weil das Objekt gespiegelt wurde."
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because skew was reset for the object."
+msgstr ""
+"Gemalte Brim-Eckpads wurden entfernt, weil die Schraegstellung des Objekts "
+"zurueckgesetzt wurde."
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because the object's mesh was modified."
+msgstr ""
+"Gemalte Brim-Eckpads wurden entfernt, weil das Mesh des Objekts geaendert "
+"wurde."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after merging objects."
+msgstr ""
+"Gemalte Brim-Eckpads wurden nach dem Zusammenfuehren von Objekten entfernt."
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after cutting the object."
+msgstr "Gemalte Brim-Eckpads wurden nach dem Schneiden des Objekts entfernt."

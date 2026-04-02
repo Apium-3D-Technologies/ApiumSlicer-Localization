@@ -20294,3 +20294,29 @@ msgid ""
 "set to 'Painted pads'.\n"
 "Those painted pads will be ignored during slicing."
 msgstr ""
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was rotated."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed because the object was mirrored."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because skew was reset for the object."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid ""
+"Painted brim corner pads were removed because the object's mesh was modified."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after merging objects."
+msgstr ""
+
+#: gui/brim_ears/warning
+msgid "Painted brim corner pads were removed after cutting the object."
+msgstr ""
