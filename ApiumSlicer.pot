@@ -20368,3 +20368,12 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:1835
 msgid "Innermost → Outer → Inner"
 msgstr ""
+#: src/libslic3r/PrintConfig.cpp
+msgid "Symmetric infill axis"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Mirrors sparse Zig Zag and Cross Zag infill around the selected axis to keep "
+"symmetric model halves visually consistent."
+msgstr ""

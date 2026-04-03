@@ -30914,16 +30914,19 @@ msgid ""
 msgstr "此参数会在每层填充上增加轻微位移，以形成交叉纹理。"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Symmetric infill Y axis"
-msgstr "沿 Y 轴对称填充"
+msgid "Symmetric infill axis"
+msgstr "对称填充轴"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"If the model has two parts that are symmetric about the Y axis, and you want "
-"these parts to have symmetric textures, enable this option."
+"Mirrors sparse Zig Zag and Cross Zag infill around the selected axis to keep "
+"symmetric model halves visually consistent."
 msgstr ""
-"如果模型有两个关于 Y 轴对称的部分，并且希望这些部分具有对称纹理，请启用此选"
-"项。"
+"围绕所选轴镜像稀疏 Zig Zag 和 Cross Zag 填充，使模型对称两侧的纹理保持一致。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Off"
+msgstr "关闭"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""

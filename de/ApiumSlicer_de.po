@@ -32178,14 +32178,17 @@ msgstr ""
 "um eine Kreuzstruktur zu erzeugen."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Symmetric infill Y axis"
-msgstr "Symmetrische Infill-Y-Achse"
+msgid "Symmetric infill axis"
+msgstr "Symmetrische Infill-Achse"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"If the model has two parts that are symmetric about the Y axis, and you want "
-"these parts to have symmetric textures, enable this option."
+"Mirrors sparse Zig Zag and Cross Zag infill around the selected axis to keep "
+"symmetric model halves visually consistent."
 msgstr ""
-"Wenn das Modell zwei Teile hat, die bezüglich der Y-Achse symmetrisch sind, "
-"und Sie für diese Teile symmetrische Texturen möchten, aktivieren Sie diese "
-"Option."
+"Spiegelt sparse Zig Zag- und Cross Zag-Infill um die gewählte Achse, damit "
+"symmetrische Modellhälften visuell konsistent bleiben."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Off"
+msgstr "Aus"
