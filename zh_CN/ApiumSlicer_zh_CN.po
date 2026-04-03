@@ -30924,3 +30924,28 @@ msgid ""
 msgstr ""
 "如果模型有两个关于 Y 轴对称的部分，并且希望这些部分具有对称纹理，请启用此选"
 "项。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Sets the print direction inside each compatible sparse internal infill "
+"patch. It does not change fill pattern geometry or fill angle, does not "
+"affect top, bottom, or solid infill, and is independent from Infill island "
+"order."
+msgstr ""
+"设置每个兼容的稀疏内部填充区块内部的打印方向。该设置不会改变填充图案几何或填"
+"充角度，不影响顶层、底层或实心填充，并且与“填充岛顺序”独立。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill island order"
+msgstr "填充岛顺序"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Controls the order in which infill islands are printed on each layer when "
+"\"Infill before perimeters\" is enabled. Ordering follows each island's left/"
+"right/front/back extents and does not change the direction inside islands "
+"(set by Infill direction). Auto keeps shortest-path behavior."
+msgstr ""
+"在启用“先填充后轮廓”时，控制每层填充岛的打印顺序。排序依据每个填充岛的最左/最"
+"右/最前/最后边界，不会改变岛内方向（由“填充方向”决定）。Auto 保持最短路径行"
+"为。"

@@ -20137,6 +20137,26 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
+"Sets the print direction inside each compatible sparse internal infill "
+"patch. It does not change fill pattern geometry or fill angle, does not "
+"affect top, bottom, or solid infill, and is independent from Infill island "
+"order."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill island order"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Controls the order in which infill islands are printed on each layer when "
+"\"Infill before perimeters\" is enabled. Ordering follows each island's "
+"left/right/front/back extents and does not change the direction inside "
+"islands (set by Infill direction). Auto keeps shortest-path behavior."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
 "Print direction for compatible sparse infill patterns. This setting affects "
 "internal sparse infill only and does not affect top, bottom, or solid infill."
 msgstr ""
