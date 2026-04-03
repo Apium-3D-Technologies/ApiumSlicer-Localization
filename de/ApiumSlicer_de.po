@@ -32115,3 +32115,48 @@ msgstr "Aussen → Innerster → Innen"
 #: src/libslic3r/PrintConfig.cpp:1835
 msgid "Innermost → Outer → Inner"
 msgstr "Innerster → Aussen → Innen"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cross Hatch"
+msgstr "Kreuzschraffur"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cross Zag"
+msgstr "Kreuz-Zickzack"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Quarter Cubic"
+msgstr "Viertel-Kubisch"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "TPMS-D"
+msgstr "TPMS-D"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "TPMS-FK"
+msgstr "TPMS-FK"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill shift step"
+msgstr "Infill-Verschiebung pro Schicht"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"This parameter adds a slight displacement to each layer of infill to create "
+"a cross texture."
+msgstr ""
+"Dieser Parameter fügt jeder Infill-Schicht eine leichte Verschiebung hinzu, "
+"um eine Kreuzstruktur zu erzeugen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Symmetric infill Y axis"
+msgstr "Symmetrische Infill-Y-Achse"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If the model has two parts that are symmetric about the Y axis, and you want "
+"these parts to have symmetric textures, enable this option."
+msgstr ""
+"Wenn das Modell zwei Teile hat, die bezüglich der Y-Achse symmetrisch sind, "
+"und Sie für diese Teile symmetrische Texturen möchten, aktivieren Sie diese "
+"Option."

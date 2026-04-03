@@ -30882,3 +30882,45 @@ msgstr "Outer → Innermost → Inner"
 #, fuzzy
 msgid "Innermost → Outer → Inner"
 msgstr "Innermost → Outer → Inner"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cross Hatch"
+msgstr "交叉网格"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cross Zag"
+msgstr "交叉锯齿"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Quarter Cubic"
+msgstr "四分之一立方"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "TPMS-D"
+msgstr "TPMS-D"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "TPMS-FK"
+msgstr "TPMS-FK"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Infill shift step"
+msgstr "填充平移步长"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"This parameter adds a slight displacement to each layer of infill to create "
+"a cross texture."
+msgstr "此参数会在每层填充上增加轻微位移，以形成交叉纹理。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Symmetric infill Y axis"
+msgstr "沿 Y 轴对称填充"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If the model has two parts that are symmetric about the Y axis, and you want "
+"these parts to have symmetric textures, enable this option."
+msgstr ""
+"如果模型有两个关于 Y 轴对称的部分，并且希望这些部分具有对称纹理，请启用此选"
+"项。"
