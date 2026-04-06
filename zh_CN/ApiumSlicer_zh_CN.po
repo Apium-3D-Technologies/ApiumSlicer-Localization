@@ -30952,3 +30952,15 @@ msgstr ""
 "在启用“先填充后轮廓”时，控制每层填充岛的打印顺序。排序依据每个填充岛的最左/最"
 "右/最前/最后边界，不会改变岛内方向（由“填充方向”决定）。Auto 保持最短路径行"
 "为。"
+
+#: src/libslic3r/PrintConfig.cpp:1113
+msgid "Enforce fan off"
+msgstr "Enforce fan off"
+
+#: src/libslic3r/PrintConfig.cpp:1114
+msgid ""
+"Force the part cooling fan off whenever cooling control is disabled. Useful "
+"when external commands may switch the fan on during print."
+msgstr ""
+"Force the part cooling fan off whenever cooling control is disabled. Useful "
+"when external commands may switch the fan on during print."

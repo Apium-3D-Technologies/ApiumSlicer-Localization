@@ -1856,7 +1856,17 @@ msgid ""
 "least at its minimum speed. Useful for PLA, harmful for ABS."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:1113
+msgid "Enforce fan off"
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:1114
+msgid ""
+"Force the part cooling fan off whenever cooling control is disabled. Useful "
+"when external commands may switch the fan on during print."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:1119
 msgid "Enable fan if layer print time is below"
 msgstr ""
 

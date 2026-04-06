@@ -9006,6 +9006,19 @@ msgstr "Behalten"
 msgid "Keep fan always on"
 msgstr "Lüfter ständig laufen lassen"
 
+#: src/libslic3r/PrintConfig.cpp:1113
+msgid "Enforce fan off"
+msgstr "Luefter aus erzwingen"
+
+#: src/libslic3r/PrintConfig.cpp:1114
+msgid ""
+"Force the part cooling fan off whenever cooling control is disabled. Useful "
+"when external commands may switch the fan on during print."
+msgstr ""
+"Partkuehlluefter zwangsweise ausschalten, wenn die Kuehlungssteuerung "
+"deaktiviert ist. Nuetzlich, wenn externe Befehle den Luefter waehrend des "
+"Drucks einschalten koennen."
+
 #: src/slic3r/GUI/GLCanvas3D.cpp:250
 msgid "Keep min"
 msgstr "Halte min"
