@@ -20395,3 +20395,11 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp
 msgid "Load as individual objects"
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge infill pattern"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Fill pattern for bridging infill."
+msgstr ""

@@ -30972,3 +30972,11 @@ msgstr "作为一个多部件对象加载"
 #: src/slic3r/GUI/Plater.cpp
 msgid "Load as individual objects"
 msgstr "作为单独对象加载"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge infill pattern"
+msgstr "桥接填充图案"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Fill pattern for bridging infill."
+msgstr "用于桥接填充的填充图案。"
