@@ -31455,3 +31455,11 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp
 msgid "Off"
 msgstr "Off"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Load as one multi-part object"
+msgstr "Load as one multi-part object"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Load as individual objects"
+msgstr "Load as individual objects"

@@ -30964,3 +30964,11 @@ msgid ""
 msgstr ""
 "Force the part cooling fan off whenever cooling control is disabled. Useful "
 "when external commands may switch the fan on during print."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Load as one multi-part object"
+msgstr "作为一个多部件对象加载"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Load as individual objects"
+msgstr "作为单独对象加载"
