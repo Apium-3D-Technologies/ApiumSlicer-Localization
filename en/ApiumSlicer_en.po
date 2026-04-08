@@ -31471,3 +31471,19 @@ msgstr "Bridge infill pattern"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Fill pattern for bridging infill."
 msgstr "Fill pattern for bridging infill."
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Zoneheater spot time (s)"
+msgstr "Zoneheater spot time (s)"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Calculating zoneheater spot time..."
+msgstr "Calculating zoneheater spot time..."
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Zoneheater spot time is approximated in preview mode (nominal speeds)."
+msgstr "Zoneheater spot time is approximated in preview mode (nominal speeds)."
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Show zoneheater ring"
+msgstr "Show zoneheater ring"

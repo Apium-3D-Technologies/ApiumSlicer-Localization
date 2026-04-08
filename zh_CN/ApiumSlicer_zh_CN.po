@@ -30980,3 +30980,19 @@ msgstr "桥接填充图案"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Fill pattern for bridging infill."
 msgstr "用于桥接填充的填充图案。"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Zoneheater spot time (s)"
+msgstr "Zoneheater 停留时间 (s)"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Calculating zoneheater spot time..."
+msgstr "正在计算 Zoneheater 停留时间..."
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Zoneheater spot time is approximated in preview mode (nominal speeds)."
+msgstr "预览模式下的 Zoneheater 停留时间为近似值（标称速度）。"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Show zoneheater ring"
+msgstr "显示 Zoneheater 环"
