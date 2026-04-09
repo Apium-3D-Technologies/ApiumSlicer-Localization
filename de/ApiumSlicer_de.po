@@ -32239,3 +32239,38 @@ msgstr ""
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Show zoneheater ring"
 msgstr "Zoneheater-Ring anzeigen"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1249 src/slic3r/GUI/GUI_Factories.cpp:1271
+#: src/slic3r/GUI/GUI_Factories.cpp:1293
+msgid "Add modifier for this part"
+msgstr "Modifizierer für dieses Teil hinzufügen"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1251 src/slic3r/GUI/GUI_Factories.cpp:1273
+#: src/slic3r/GUI/GUI_Factories.cpp:1295
+msgid "Change target part"
+msgstr "Zielteil ändern"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1254 src/slic3r/GUI/GUI_Factories.cpp:1276
+#: src/slic3r/GUI/GUI_Factories.cpp:1298
+msgid "Remove part binding (object-wide)"
+msgstr "Teilbindung entfernen (objektweit)"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:709
+msgid "Target part missing"
+msgstr "Zielteil fehlt"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4521
+msgid "Part:"
+msgstr "Teil:"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4521
+msgid "Select target part"
+msgstr "Zielteil auswählen"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4525
+msgid "Change Modifier Target Part"
+msgstr "Zielteil des Modifizierers ändern"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4543
+msgid "Clear Modifier Target Part"
+msgstr "Zielteilbindung des Modifizierers entfernen"

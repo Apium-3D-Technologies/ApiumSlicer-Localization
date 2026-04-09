@@ -30996,3 +30996,38 @@ msgstr "预览模式下的 Zoneheater 停留时间为近似值（标称速度）
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "Show zoneheater ring"
 msgstr "显示 Zoneheater 环"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1249 src/slic3r/GUI/GUI_Factories.cpp:1271
+#: src/slic3r/GUI/GUI_Factories.cpp:1293
+msgid "Add modifier for this part"
+msgstr "为此部件添加修改器"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1251 src/slic3r/GUI/GUI_Factories.cpp:1273
+#: src/slic3r/GUI/GUI_Factories.cpp:1295
+msgid "Change target part"
+msgstr "更改目标部件"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:1254 src/slic3r/GUI/GUI_Factories.cpp:1276
+#: src/slic3r/GUI/GUI_Factories.cpp:1298
+msgid "Remove part binding (object-wide)"
+msgstr "移除部件绑定（对象级）"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:709
+msgid "Target part missing"
+msgstr "目标部件缺失"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4521
+msgid "Part:"
+msgstr "部件："
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4521
+msgid "Select target part"
+msgstr "选择目标部件"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4525
+msgid "Change Modifier Target Part"
+msgstr "更改修改器目标部件"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4543
+msgid "Clear Modifier Target Part"
+msgstr "清除修改器目标部件"
