@@ -30700,8 +30700,12 @@ msgid "Brim corner pads"
 msgstr "裙边角垫"
 
 #: gui/brim_ears/label
-msgid "Painted pads"
-msgstr "绘制垫片"
+msgid "Auto brim pads"
+msgstr "自动裙边垫片"
+
+#: gui/brim_ears/label
+msgid "Painted brim pads"
+msgstr "绘制裙边垫片"
 
 #: gui/brim_ears/label
 msgid "Corner pad max angle"
@@ -30813,10 +30817,10 @@ msgstr ""
 #: gui/brim_ears/warning
 msgid ""
 "At least one object has painted brim corner pads, but its Brim type is not "
-"set to 'Painted pads'.\n"
+"set to 'Painted brim pads'.\n"
 "Those painted pads will be ignored during slicing."
 msgstr ""
-"至少有一个对象绘制了裙边角垫，但其裙边类型未设置为“绘制垫片”。\n"
+"至少有一个对象绘制了裙边角垫，但其裙边类型未设置为“绘制裙边垫片”。\n"
 "这些已绘制的垫片在切片时将被忽略。"
 
 #: gui/brim_ears/warning

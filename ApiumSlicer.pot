@@ -20214,7 +20214,11 @@ msgid "Brim corner pads"
 msgstr ""
 
 #: gui/brim_ears/label
-msgid "Painted pads"
+msgid "Auto brim pads"
+msgstr ""
+
+#: gui/brim_ears/label
+msgid "Painted brim pads"
 msgstr ""
 
 #: gui/brim_ears/label
@@ -20321,7 +20325,7 @@ msgstr ""
 #: gui/brim_ears/warning
 msgid ""
 "At least one object has painted brim corner pads, but its Brim type is not "
-"set to 'Painted pads'.\n"
+"set to 'Painted brim pads'.\n"
 "Those painted pads will be ignored during slicing."
 msgstr ""
 

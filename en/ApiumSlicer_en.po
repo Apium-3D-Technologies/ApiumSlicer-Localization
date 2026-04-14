@@ -31223,8 +31223,12 @@ msgid "Brim corner pads"
 msgstr "Brim corner pads"
 
 #: gui/brim_ears/label
-msgid "Painted pads"
-msgstr "Painted pads"
+msgid "Auto brim pads"
+msgstr "Auto brim pads"
+
+#: gui/brim_ears/label
+msgid "Painted brim pads"
+msgstr "Painted brim pads"
 
 #: gui/brim_ears/label
 msgid "Corner pad max angle"
@@ -31343,11 +31347,11 @@ msgstr ""
 #: gui/brim_ears/warning
 msgid ""
 "At least one object has painted brim corner pads, but its Brim type is not "
-"set to 'Painted pads'.\n"
+"set to 'Painted brim pads'.\n"
 "Those painted pads will be ignored during slicing."
 msgstr ""
 "At least one object has painted brim corner pads, but its Brim type is not "
-"set to 'Painted pads'.\n"
+"set to 'Painted brim pads'.\n"
 "Those painted pads will be ignored during slicing."
 
 #: gui/brim_ears/warning

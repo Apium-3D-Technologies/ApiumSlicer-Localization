@@ -31969,8 +31969,12 @@ msgid "Brim corner pads"
 msgstr "Brim-Eckpads"
 
 #: gui/brim_ears/label
-msgid "Painted pads"
-msgstr "Gemalte Pads"
+msgid "Auto brim pads"
+msgstr "Automatische Brim-Pads"
+
+#: gui/brim_ears/label
+msgid "Painted brim pads"
+msgstr "Gemalte Brim-Pads"
 
 #: gui/brim_ears/label
 msgid "Corner pad max angle"
@@ -32089,11 +32093,11 @@ msgstr ""
 #: gui/brim_ears/warning
 msgid ""
 "At least one object has painted brim corner pads, but its Brim type is not "
-"set to 'Painted pads'.\n"
+"set to 'Painted brim pads'.\n"
 "Those painted pads will be ignored during slicing."
 msgstr ""
 "Mindestens ein Objekt hat gemalte Brim-Eckpads, aber sein Brim-Typ ist nicht "
-"auf 'Gemalte Pads' gesetzt.\n"
+"auf 'Gemalte Brim-Pads' gesetzt.\n"
 "Diese gemalten Pads werden beim Slicen ignoriert."
 
 #: gui/brim_ears/warning
