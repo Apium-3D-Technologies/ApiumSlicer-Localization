@@ -31035,3 +31035,29 @@ msgstr "更改修改器目标部件"
 #: src/slic3r/GUI/GUI_ObjectList.cpp:4543
 msgid "Clear Modifier Target Part"
 msgstr "清除修改器目标部件"
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_App.cpp
+msgid "Preview mode"
+msgstr "预览模式"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid ""
+"This build runs in Preview mode.\n"
+"\n"
+"Upgrade to the full version to export, send, or upload G-code."
+msgstr ""
+"此构建运行于预览模式。\n"
+"\n"
+"请升级到完整版以导出、发送或上传 G-code。"
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid ""
+"ApiumSlicer runs in Preview mode.\n"
+"\n"
+"G-code export, send, and upload are disabled.\n"
+"Upgrade to the full version to export G-code."
+msgstr ""
+"ApiumSlicer 运行于预览模式。\n"
+"\n"
+"G-code 导出、发送和上传已禁用。\n"
+"请升级到完整版以导出 G-code。"

@@ -20458,3 +20458,22 @@ msgstr ""
 #: src/slic3r/GUI/GUI_ObjectList.cpp:4543
 msgid "Clear Modifier Target Part"
 msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_App.cpp
+msgid "Preview mode"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid ""
+"This build runs in Preview mode.\n"
+"\n"
+"Upgrade to the full version to export, send, or upload G-code."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid ""
+"ApiumSlicer runs in Preview mode.\n"
+"\n"
+"G-code export, send, and upload are disabled.\n"
+"Upgrade to the full version to export G-code."
+msgstr ""

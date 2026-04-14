@@ -32278,3 +32278,30 @@ msgstr "Zielteil des Modifizierers ändern"
 #: src/slic3r/GUI/GUI_ObjectList.cpp:4543
 msgid "Clear Modifier Target Part"
 msgstr "Zielteilbindung des Modifizierers entfernen"
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_App.cpp
+msgid "Preview mode"
+msgstr "Vorschaumodus"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid ""
+"This build runs in Preview mode.\n"
+"\n"
+"Upgrade to the full version to export, send, or upload G-code."
+msgstr ""
+"Dieser Build läuft im Vorschaumodus.\n"
+"\n"
+"Upgrade auf die Vollversion, um G-Code zu exportieren, zu senden oder "
+"hochzuladen."
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid ""
+"ApiumSlicer runs in Preview mode.\n"
+"\n"
+"G-code export, send, and upload are disabled.\n"
+"Upgrade to the full version to export G-code."
+msgstr ""
+"ApiumSlicer läuft im Vorschaumodus.\n"
+"\n"
+"G-Code-Export, Senden und Upload sind deaktiviert.\n"
+"Upgrade auf die Vollversion, um G-Code zu exportieren."
