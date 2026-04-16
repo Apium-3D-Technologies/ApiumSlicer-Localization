@@ -31061,3 +31061,13 @@ msgstr ""
 "\n"
 "G-code 导出、发送和上传已禁用。\n"
 "请升级到完整版以导出 G-code。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use legacy header"
+msgstr "使用旧版头信息"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, the G-code header uses \"PrusaSlicer\" instead of the current "
+"application name."
+msgstr "启用后，G-code 头部将使用 \"PrusaSlicer\"，而不是当前应用名称。"

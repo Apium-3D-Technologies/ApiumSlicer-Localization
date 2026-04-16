@@ -32305,3 +32305,15 @@ msgstr ""
 "\n"
 "G-Code-Export, Senden und Upload sind deaktiviert.\n"
 "Upgrade auf die Vollversion, um G-Code zu exportieren."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use legacy header"
+msgstr "Legacy-Header verwenden"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, the G-code header uses \"PrusaSlicer\" instead of the current "
+"application name."
+msgstr ""
+"Wenn aktiviert, verwendet der G-code-Header \"PrusaSlicer\" statt des "
+"aktuellen Anwendungsnamens."

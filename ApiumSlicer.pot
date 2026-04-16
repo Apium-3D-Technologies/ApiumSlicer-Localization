@@ -20477,3 +20477,13 @@ msgid ""
 "G-code export, send, and upload are disabled.\n"
 "Upgrade to the full version to export G-code."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use legacy header"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"If enabled, the G-code header uses \"PrusaSlicer\" instead of the current "
+"application name."
+msgstr ""
