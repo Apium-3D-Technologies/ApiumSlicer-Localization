@@ -16758,6 +16758,10 @@ msgstr ""
 msgid "Sphere"
 msgstr "Kugel"
 
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:49
+msgid "Vertical"
+msgstr "Vertikal"
+
 #: src/libslic3r/PrintConfig.cpp:2797
 msgid "Spiral vase"
 msgstr "Spiralvasenmodus"

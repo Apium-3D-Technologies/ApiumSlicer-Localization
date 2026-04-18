@@ -10948,6 +10948,10 @@ msgstr "删除所有选择"
 msgid "Sphere"
 msgstr "球形"
 
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:49
+msgid "Vertical"
+msgstr "垂直"
+
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:69
 msgid "Highlight overhang by angle"
 msgstr "通过角度高亮悬挑"

@@ -11430,6 +11430,10 @@ msgstr "Remove all selection"
 msgid "Sphere"
 msgstr "Sphere"
 
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:49
+msgid "Vertical"
+msgstr "Vertical"
+
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:68
 msgid "Highlight overhang by angle"
 msgstr "Highlight overhang by angle"
