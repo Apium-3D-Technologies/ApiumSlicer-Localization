@@ -19699,11 +19699,11 @@ msgid "If enabled, perform standard retraction after the purge line. If disabled
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Allow outside build plate placement"
+msgid "Allow outside build area placement"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "If enabled, purge line coordinates are accepted without errors and clamped to the nearest build plate boundary."
+msgid "If enabled, purge line coordinates are accepted without errors even when they are outside the print area or inside exclusion zones."
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp

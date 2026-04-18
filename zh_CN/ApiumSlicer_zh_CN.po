@@ -29977,6 +29977,19 @@ msgstr "Override value: %1%"
 
 #: src/libslic3r/PrintConfig.cpp:1635
 #, fuzzy
+msgid "Allow outside build area placement"
+msgstr "允许在构建区域外放置"
+
+#: src/libslic3r/PrintConfig.cpp:1637
+#, fuzzy
+msgid ""
+"If enabled, purge line coordinates are accepted without errors even when "
+"they are outside the print area or inside exclusion zones."
+msgstr ""
+"启用后，即使清线坐标位于打印区域之外或位于禁用区内，也会被接受且不会报错。"
+
+#: src/libslic3r/PrintConfig.cpp:1639
+#, fuzzy
 msgid "Purge line extrusion type"
 msgstr "Purge line extrusion type"
 

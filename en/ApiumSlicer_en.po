@@ -30600,16 +30600,16 @@ msgstr ""
 "the first retraction after purge line is skipped."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Allow outside build plate placement"
-msgstr "Allow outside build plate placement"
+msgid "Allow outside build area placement"
+msgstr "Allow outside build area placement"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"If enabled, purge line coordinates are accepted without errors and clamped "
-"to the nearest build plate boundary."
+"If enabled, purge line coordinates are accepted without errors even when "
+"they are outside the print area or inside exclusion zones."
 msgstr ""
-"If enabled, purge line coordinates are accepted without errors and clamped "
-"to the nearest build plate boundary."
+"If enabled, purge line coordinates are accepted without errors even when "
+"they are outside the print area or inside exclusion zones."
 
 #: src/slic3r/GUI/Tab.cpp
 msgid "Override value: %1%"

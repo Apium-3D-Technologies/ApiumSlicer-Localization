@@ -31271,16 +31271,17 @@ msgstr ""
 "übersprungen."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Allow outside build plate placement"
-msgstr "Platzierung außerhalb der Bauplatte erlauben"
+msgid "Allow outside build area placement"
+msgstr "Platzierung außerhalb des Baubereichs erlauben"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"If enabled, purge line coordinates are accepted without errors and clamped "
-"to the nearest build plate boundary."
+"If enabled, purge line coordinates are accepted without errors even when "
+"they are outside the print area or inside exclusion zones."
 msgstr ""
-"Wenn aktiviert, werden Koordinaten der Purge-Linie ohne Fehler akzeptiert "
-"und auf die nächste Bauplatten-Grenze begrenzt."
+"Wenn aktiviert, werden Koordinaten der Purge-Linie auch dann ohne Fehler "
+"akzeptiert, wenn sie außerhalb der Druckfläche oder innerhalb von "
+"Ausschlusszonen liegen."
 
 #: src/slic3r/GUI/Tab.cpp
 msgid "Override value: %1%"
