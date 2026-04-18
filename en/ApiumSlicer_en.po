@@ -13567,6 +13567,18 @@ msgid "Cylinder"
 msgstr "Cylinder"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Cone"
+msgstr "Cone"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Disc"
+msgstr "Disc"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Torus"
+msgstr "Torus"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:552
 msgid "Slab"
 msgstr "Slab"
 

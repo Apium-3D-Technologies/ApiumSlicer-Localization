@@ -3781,6 +3781,18 @@ msgstr ""
 msgid "Cylinder"
 msgstr "Zylinder"
 
+#: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Cone"
+msgstr "Kegel"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Disc"
+msgstr "Scheibe"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:552
+msgid "Torus"
+msgstr "Torus"
+
 #: src/slic3r/GUI/Preferences.cpp:673
 msgid "Dark mode"
 msgstr "Dunkler Modus"

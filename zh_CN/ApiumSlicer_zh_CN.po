@@ -13175,6 +13175,18 @@ msgid "Cylinder"
 msgstr "圆柱体"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:553
+msgid "Cone"
+msgstr "锥体"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:553
+msgid "Disc"
+msgstr "圆盘"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:553
+msgid "Torus"
+msgstr "环面"
+
+#: src/slic3r/GUI/GUI_Factories.cpp:553
 msgid "Slab"
 msgstr "板坯"
 
