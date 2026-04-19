@@ -12804,7 +12804,7 @@ msgid "Drop to bed"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp
-msgid "Allow Z sinking.\nWhen enabled, objects can be moved freely along the Z axis,\nincluding below the print bed.\nWhen disabled (default), Z stays locked to the print bed."
+msgid "Lock Z axis to the print bed.\nWhen locked (default), objects cannot be lifted off or pushed\ninto the bed by editing the Z position.\nWhen unlocked, the Z position can be set freely."
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp

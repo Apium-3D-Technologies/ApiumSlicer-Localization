@@ -13912,15 +13912,14 @@ msgstr "放到床上"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp
 msgid ""
-"Allow Z sinking.\n"
-"When enabled, objects can be moved freely along the Z axis,\n"
-"including below the print bed.\n"
-"When disabled (default), Z stays locked to the print bed."
+"Lock Z axis to the print bed.\n"
+"When locked (default), objects cannot be lifted off or pushed\n"
+"into the bed by editing the Z position.\n"
+"When unlocked, the Z position can be set freely."
 msgstr ""
-"允许 Z 下沉。\n"
-"启用后，对象可沿 Z 轴自由移动，\n"
-"包括移动到打印床以下。\n"
-"禁用（默认）时，Z 将锁定在打印床上。"
+"将Z轴锁定到打印床。\n"
+"锁定时（默认），通过编辑Z位置无法将对象从打印床抬起或压入打印床。\n"
+"解锁时，可以自由设置Z位置。"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp
 msgid ""
