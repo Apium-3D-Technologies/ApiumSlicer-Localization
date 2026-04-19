@@ -18891,6 +18891,10 @@ msgstr "Minimum shell thickness"
 msgid "Quality (slower slicing)"
 msgstr "Quality (slower slicing)"
 
+#: src/slic3r/GUI/Tab.cpp:1460
+msgid "Layer seams"
+msgstr "Layer seams"
+
 #: src/slic3r/GUI/Tab.cpp:1465
 msgid "Fuzzy skin (experimental)"
 msgstr "Fuzzy skin (experimental)"

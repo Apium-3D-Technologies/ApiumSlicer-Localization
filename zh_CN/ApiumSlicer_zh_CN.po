@@ -31105,3 +31105,7 @@ msgstr "启用后，G-code 头部将使用 \"PrusaSlicer\"，而不是当前应�
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1353
 msgid "Copy GCODE"
 msgstr "复制 GCODE"
+
+#: src/slic3r/GUI/Tab.cpp:1460
+msgid "Layer seams"
+msgstr "层缝"

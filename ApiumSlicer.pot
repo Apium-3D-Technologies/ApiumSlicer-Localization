@@ -17088,6 +17088,10 @@ msgstr ""
 msgid "Quality (slower slicing)"
 msgstr ""
 
+#: src/slic3r/GUI/Tab.cpp:1460
+msgid "Layer seams"
+msgstr ""
+
 #: src/slic3r/GUI/Tab.cpp:1465
 msgid "Fuzzy skin (experimental)"
 msgstr ""
