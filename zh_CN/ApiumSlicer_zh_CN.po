@@ -31100,3 +31100,8 @@ msgid ""
 "If enabled, the G-code header uses \"PrusaSlicer\" instead of the current "
 "application name."
 msgstr "启用后，G-code 头部将使用 \"PrusaSlicer\"，而不是当前应用名称。"
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp:49
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1353
+msgid "Copy GCODE"
+msgstr "复制 GCODE"

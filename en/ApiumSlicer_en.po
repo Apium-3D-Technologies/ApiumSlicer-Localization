@@ -9286,6 +9286,11 @@ msgstr "Add Pause"
 msgid "Add Zoneheater Power"
 msgstr "Add Zoneheater Power"
 
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp:49
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1353
+msgid "Copy GCODE"
+msgstr "Copy GCODE"
+
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:656
 msgid "Add Custom G-code"
 msgstr "Add Custom G-code"
