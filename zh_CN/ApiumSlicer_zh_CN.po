@@ -14046,6 +14046,16 @@ msgstr "输入区域加热功率百分比 (0-100)"
 msgid "Zoneheater power on current layer (%1% mm)."
 msgstr "当前层上的区域加热功率（%1% mm）。"
 
+#: src/slic3r/GUI/GUI_Preview.cpp:752
+#, boost-format
+msgid "Fan power on current layer (%1% mm)"
+msgstr "当前层风扇功率（%1% mm）"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:785
+#, boost-format
+msgid "Nozzle temperature on current layer (%1% mm)"
+msgstr "当前层喷嘴温度（%1% mm）"
+
 #: src/slic3r/GUI/GUI_Preview.cpp:515
 msgid "Enter a finite value between 0 and 100."
 msgstr "请输入 0 到 100 之间的有限数值。"

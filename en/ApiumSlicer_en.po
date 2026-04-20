@@ -14460,6 +14460,16 @@ msgstr "Enter zoneheater power in percent (0-100)"
 msgid "Zoneheater power on current layer (%1% mm)."
 msgstr "Zoneheater power on current layer (%1% mm)."
 
+#: src/slic3r/GUI/GUI_Preview.cpp:752
+#, boost-format
+msgid "Fan power on current layer (%1% mm)"
+msgstr "Fan power on current layer (%1% mm)"
+
+#: src/slic3r/GUI/GUI_Preview.cpp:785
+#, boost-format
+msgid "Nozzle temperature on current layer (%1% mm)"
+msgstr "Nozzle temperature on current layer (%1% mm)"
+
 #: src/slic3r/GUI/GUI_Preview.cpp:515
 msgid "Enter a finite value between 0 and 100."
 msgstr "Enter a finite value between 0 and 100."
