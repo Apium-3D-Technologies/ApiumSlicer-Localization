@@ -32345,6 +32345,54 @@ msgstr ""
 "Wenn aktiviert, verwendet der G-code-Header \"PrusaSlicer\" statt des "
 "aktuellen Anwendungsnamens."
 
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Local Vendor Profiles"
+msgstr "Lokale Anbieterprofile"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Local Profiles"
+msgstr "Lokale Profile"
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"ApiumSlicer can refresh the bundled vendor profiles from this application "
+"package."
+msgstr ""
+"ApiumSlicer kann die mitgelieferten Anbieterprofile aus diesem "
+"Anwendungspaket aktualisieren."
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid ""
+"The old local copies of bundled vendor profiles will be replaced. Personal "
+"presets and custom profiles will be kept."
+msgstr ""
+"Die alten lokalen Kopien der mitgelieferten Anbieterprofile werden ersetzt. "
+"Personliche Presets und eigene Profile bleiben erhalten."
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Update bundled vendor profiles from local resources"
+msgstr "Mitgelieferte Anbieterprofile aus lokalen Ressourcen aktualisieren"
+
+#: src/slic3r/Utils/PresetUpdater.cpp
+msgid "Continue and install local vendor profile updates?"
+msgstr "Fortfahren und lokale Anbieterprofil-Updates installieren?"
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid ""
+"An ApiumSlicer update was detected from version %1% to %2%.\n"
+"\n"
+"Do you want to refresh the bundled vendor profiles from this application "
+"package now?"
+msgstr ""
+"Ein ApiumSlicer-Update von Version %1% auf %2% wurde erkannt.\n"
+"\n"
+"Mochten Sie die mitgelieferten Anbieterprofile aus diesem Anwendungspaket "
+"jetzt aktualisieren?"
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid "Update detected"
+msgstr "Update erkannt"
+
 #: src/slic3r/GUI/DoubleSliderForGcode.cpp:49
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1353
 msgid "Copy GCODE"

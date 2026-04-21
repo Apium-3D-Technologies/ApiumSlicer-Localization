@@ -20522,3 +20522,38 @@ msgid ""
 "If enabled, the G-code header uses \"PrusaSlicer\" instead of the current "
 "application name."
 msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Local Vendor Profiles"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Local Profiles"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "ApiumSlicer can refresh the bundled vendor profiles from this application package."
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "The old local copies of bundled vendor profiles will be replaced. Personal presets and custom profiles will be kept."
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp
+msgid "Update bundled vendor profiles from local resources"
+msgstr ""
+
+#: src/slic3r/Utils/PresetUpdater.cpp
+msgid "Continue and install local vendor profile updates?"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid ""
+"An ApiumSlicer update was detected from version %1% to %2%.\n"
+"\n"
+"Do you want to refresh the bundled vendor profiles from this application package now?"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_App.cpp
+msgid "Update detected"
+msgstr ""
