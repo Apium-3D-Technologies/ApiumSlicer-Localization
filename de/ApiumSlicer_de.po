@@ -13341,6 +13341,10 @@ msgstr "Profil:"
 msgid "Profile dependencies"
 msgstr "Profil Abhängigkeiten"
 
+#: src/slic3r/GUI/Tab.cpp:634
+msgid "Profile version"
+msgstr "Profilversion"
+
 #. TRN: 'Profile' in this context denotes a group of parameters used to configure
 #. layer separation procedure for SLA printers.
 #: src/slic3r/GUI/Tab.cpp:5478

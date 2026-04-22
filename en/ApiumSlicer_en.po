@@ -19018,6 +19018,10 @@ msgstr "Dependencies"
 msgid "Profile dependencies"
 msgstr "Profile dependencies"
 
+#: src/slic3r/GUI/Tab.cpp:634
+msgid "Profile version"
+msgstr "Profile version"
+
 #: src/slic3r/GUI/Tab.cpp:1759
 msgid "Post processing scripts shall modify G-code file in place."
 msgstr "Post processing scripts shall modify G-code file in place."

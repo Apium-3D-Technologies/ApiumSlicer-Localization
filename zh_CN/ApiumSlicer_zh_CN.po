@@ -1019,9 +1019,9 @@ msgstr ""
 msgid "Name of profile vendor"
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:509
+#: src/libslic3r/PrintConfig.cpp:509 src/slic3r/GUI/Tab.cpp:634
 msgid "Profile version"
-msgstr ""
+msgstr "配置文件版本"
 
 #: src/libslic3r/PrintConfig.cpp:510
 msgid "Version of profile"
