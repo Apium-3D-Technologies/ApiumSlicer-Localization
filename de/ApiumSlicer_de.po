@@ -32397,6 +32397,42 @@ msgstr ""
 msgid "Update detected"
 msgstr "Update erkannt"
 
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "More Info"
+msgstr "Weitere Infos"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Sliced Info Details"
+msgstr "Details zu Sliced Info"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Object %1% summary:"
+msgstr "Zusammenfassung Objekt %1%:"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Global extrusion types"
+msgstr "Globale Extrusionstypen"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (g)"
+msgstr "Material (g)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (m)"
+msgstr "Material (m)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (m)"
+msgstr "Filament (m)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (g)"
+msgstr "Filament (g)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Unassigned"
+msgstr "Nicht zugeordnet"
+
 #: src/slic3r/GUI/DoubleSliderForGcode.cpp:49
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1353
 msgid "Copy GCODE"

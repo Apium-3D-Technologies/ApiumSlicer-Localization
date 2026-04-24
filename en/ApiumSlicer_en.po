@@ -31651,3 +31651,39 @@ msgstr ""
 #: src/slic3r/GUI/GUI_App.cpp
 msgid "Update detected"
 msgstr "Update detected"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "More Info"
+msgstr "More Info"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Sliced Info Details"
+msgstr "Sliced Info Details"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Object %1% summary:"
+msgstr "Object %1% summary:"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Global extrusion types"
+msgstr "Global extrusion types"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (g)"
+msgstr "Material (g)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (m)"
+msgstr "Material (m)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (m)"
+msgstr "Filament (m)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (g)"
+msgstr "Filament (g)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Unassigned"
+msgstr "Unassigned"

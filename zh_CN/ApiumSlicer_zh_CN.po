@@ -12115,12 +12115,14 @@ msgid "Bed %1%"
 msgstr ""
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:1831 src/slic3r/GUI/GLCanvas3D.cpp:1983
+#: src/slic3r/GUI/Sidebar.cpp
 msgid "Filament (g)"
-msgstr ""
+msgstr "耗材 (g)"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:1840 src/slic3r/GUI/GLCanvas3D.cpp:1991
+#: src/slic3r/GUI/Sidebar.cpp
 msgid "Filament (m)"
-msgstr ""
+msgstr "耗材 (m)"
 
 #. TRN %1% is one "Stealth mode" or "Normal mode"
 #: src/slic3r/GUI/GLCanvas3D.cpp:1850 src/slic3r/GUI/GLCanvas3D.cpp:1859
@@ -31167,3 +31169,31 @@ msgstr ""
 #: src/slic3r/GUI/GUI_App.cpp
 msgid "Update detected"
 msgstr "Update detected"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "More Info"
+msgstr "更多信息"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Sliced Info Details"
+msgstr "切片信息详情"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Object %1% summary:"
+msgstr "对象 %1% 摘要:"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Global extrusion types"
+msgstr "全局挤出类型"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (g)"
+msgstr "材料 (g)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (m)"
+msgstr "材料 (m)"
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Unassigned"
+msgstr "未分配"

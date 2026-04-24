@@ -20561,3 +20561,39 @@ msgstr ""
 #: src/slic3r/GUI/GUI_App.cpp
 msgid "Update detected"
 msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "More Info"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Sliced Info Details"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Object %1% summary:"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Global extrusion types"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (g)"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Material (m)"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (m)"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Filament (g)"
+msgstr ""
+
+#: src/slic3r/GUI/Sidebar.cpp
+msgid "Unassigned"
+msgstr ""
