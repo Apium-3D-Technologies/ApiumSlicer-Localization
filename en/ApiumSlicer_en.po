@@ -31687,3 +31687,19 @@ msgstr "Filament (g)"
 #: src/slic3r/GUI/Sidebar.cpp
 msgid "Unassigned"
 msgstr "Unassigned"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has heated printbed"
+msgstr "Has heated printbed"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this if the printer has a heated printbed."
+msgstr "Enable this if the printer has a heated printbed."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has heated chamber"
+msgstr "Has heated chamber"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this if the printer can actively heat the chamber."
+msgstr "Enable this if the printer can actively heat the chamber."

@@ -32441,3 +32441,19 @@ msgstr "GCODE kopieren"
 #: src/slic3r/GUI/Tab.cpp:1460
 msgid "Layer seams"
 msgstr "Nahtpositionierung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has heated printbed"
+msgstr "Hat beheiztes Druckbett"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this if the printer has a heated printbed."
+msgstr "Aktivieren, wenn der Drucker ein beheiztes Druckbett hat."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Has heated chamber"
+msgstr "Hat beheizte Kammer"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable this if the printer can actively heat the chamber."
+msgstr "Aktivieren, wenn der Drucker die Kammer aktiv beheizen kann."
