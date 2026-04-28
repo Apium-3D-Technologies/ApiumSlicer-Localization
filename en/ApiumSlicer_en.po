@@ -31703,3 +31703,7 @@ msgstr "Has heated chamber"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Enable this if the printer can actively heat the chamber."
 msgstr "Enable this if the printer can actively heat the chamber."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Preview is out of date. Please re-slice to regenerate G-code."
+msgstr "Preview is out of date. Please re-slice to regenerate G-code."

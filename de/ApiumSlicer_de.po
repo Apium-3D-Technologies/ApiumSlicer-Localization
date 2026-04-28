@@ -32457,3 +32457,9 @@ msgstr "Hat beheizte Kammer"
 #: src/libslic3r/PrintConfig.cpp
 msgid "Enable this if the printer can actively heat the chamber."
 msgstr "Aktivieren, wenn der Drucker die Kammer aktiv beheizen kann."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Preview is out of date. Please re-slice to regenerate G-code."
+msgstr ""
+"Die Vorschau ist nicht aktuell. Bitte erneut slicen, um den G-Code neu zu "
+"erzeugen."
