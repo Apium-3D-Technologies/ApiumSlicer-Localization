@@ -3764,7 +3764,18 @@ msgid ""
 "or chamber, leaving all to Custom Start G-Code."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:2835
+#: src/libslic3r/PrintConfig.cpp:2837
+msgid "Force temperature integers"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2838
+msgid ""
+"When enabled, all supported temperature commands in generated and custom "
+"G-code are rounded to whole numbers. Applies to M104, M109, M140, M190, "
+"M141, M191 and G10 commands."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:2843
 msgid ""
 "This start procedure is inserted at the beginning, possibly prepended by "
 "temperature-changing commands. See 'autoemit_temperature_commands'."
