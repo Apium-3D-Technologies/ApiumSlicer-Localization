@@ -948,8 +948,8 @@ msgid ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://username:"
-"password@your-octopi-address/"
+"name and password into the URL in the following format: https://"
+"username:password@your-octopi-address/"
 msgstr ""
 "Slic3r 可以将 G-Code 文件上传到打印机主机。此字段应包含打印机主机实例的主机"
 "名、IP 地址或 URL。通过将用户名和密码按以下格式输入 URL，可以访问启用基本身份"
@@ -3230,9 +3230,9 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2159
 msgid ""
-"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
-"bgcode files, make sure you have binary G-code enabled in Configuration-"
-">Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To "
+"generate .bgcode files, make sure you have binary G-code enabled in "
+"Configuration->Preferences->Other."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2165
@@ -5798,8 +5798,8 @@ msgstr "怠速温度"
 
 #: src/libslic3r/PrintConfig.cpp:4456
 msgid ""
-"Nozzle temperature when the tool is currently not used in multi-tool setups."
-"This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool "
+"setups.This is only used when 'Ooze prevention' is active in Print Settings."
 msgstr ""
 "在多工具设置中，当前不使用工具时的喷嘴温度。这仅在打印设置中 \"防渗 \"激活时"
 "使用。"
@@ -6605,8 +6605,8 @@ msgstr "日志级别"
 
 #: src/libslic3r/PrintConfig.cpp:5992
 msgid ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
-"trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
+"5:trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 msgstr ""
 "设置日志敏感度。0:致命、1:错误、2:警告、3:信息、4:调试、5:跟踪\n"
@@ -8266,9 +8266,9 @@ msgstr "自动更新内置预设"
 #, c-format, boost-format
 msgid ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary location."
-"When a new preset version becomes available it is offered at application "
-"startup."
+"background.These updates are downloaded into a separate temporary "
+"location.When a new preset version becomes available it is offered at "
+"application startup."
 msgstr ""
 "如果启用，%s 会在后台下载内置系统预设的更新。这些更新将下载到单独的临时位置。"
 "当新的预设版本可用时，它会在应用程序启动时提示。"
@@ -8760,8 +8760,8 @@ msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:497
 msgid ""
-"Performing downloader desktop integration failed - boost::filesystem::"
-"canonical did not return appimage path."
+"Performing downloader desktop integration failed - "
+"boost::filesystem::canonical did not return appimage path."
 msgstr ""
 "执行下载器桌面集成失败-boost:：filesystem：：canonical未返回appimage路径。"
 
@@ -12630,8 +12630,8 @@ msgid ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of ApiumSlicer from https://www."
-"prusa3d.cz/ApiumSlicer/.\n"
+"Please download and install a 64 bit build of ApiumSlicer from https://"
+"www.prusa3d.cz/ApiumSlicer/.\n"
 "Do you wish to continue?"
 msgstr ""
 "您正在 64 位 Windows 上运行 32 位版本的 ApiumSlicer。\n"
@@ -14143,6 +14143,18 @@ msgstr "类别"
 #: src/slic3r/GUI/ImGuiWrapper.cpp:880 src/slic3r/GUI/Search.cpp:610
 msgid "Search in English"
 msgstr "用英语搜索"
+
+#: src/slic3r/GUI/Search.cpp
+msgid "Exact pattern"
+msgstr "精确模式"
+
+#: src/slic3r/GUI/Search.cpp
+msgid "All tags"
+msgstr "所有标签"
+
+#: src/slic3r/GUI/Search.cpp
+msgid "Tooltip text"
+msgstr "提示文本"
 
 #: src/slic3r/GUI/Jobs/ArrangeJob2.cpp:282
 msgid "Filling bed"
@@ -17221,8 +17233,8 @@ msgstr "关联 .gcode 文件到 ApiumSlicer G-Code 查看器"
 
 #: src/slic3r/GUI/Preferences.cpp:416
 msgid ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"gcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .gcode files."
 msgstr ""
 "如果启用，将 ApiumSlicer G-Code Viewer 设置为要打开的默认应用程序 .gcode 文"
 "件。"
@@ -17233,8 +17245,8 @@ msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:420
 msgid ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"bgcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .bgcode files."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:427
@@ -29977,8 +29989,8 @@ msgstr ""
 msgid ""
 "These details are not sent externally and are not used for marketing "
 "purposes.\n"
-"They are used only locally for project versioning and are stored only "
-"in .3mf files."
+"They are used only locally for project versioning and are stored only in "
+".3mf files."
 msgstr ""
 "这些信息不会被外部收集，也不会用于营销目的。\n"
 "它们仅在本地用于项目版本控制，并且只会存储在 .3mf 文件中。"

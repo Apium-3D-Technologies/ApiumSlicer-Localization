@@ -13021,6 +13021,18 @@ msgstr ""
 msgid "Search in English"
 msgstr ""
 
+#: src/slic3r/GUI/Search.cpp
+msgid "Exact pattern"
+msgstr ""
+
+#: src/slic3r/GUI/Search.cpp
+msgid "All tags"
+msgstr ""
+
+#: src/slic3r/GUI/Search.cpp
+msgid "Tooltip text"
+msgstr ""
+
 #: src/slic3r/GUI/Jobs/ArrangeJob.cpp:261
 #: src/slic3r/GUI/Jobs/ArrangeJob2.cpp:206
 msgid "Arranging"
