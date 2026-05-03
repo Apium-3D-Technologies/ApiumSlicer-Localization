@@ -3288,6 +3288,10 @@ msgstr "G-Code-Datei in ASCII-Format umwandeln"
 msgid "Convert G-code file to binary format"
 msgstr "G-Code-Datei in Binärformat umwandeln"
 
+#: src/libslic3r/GCode.cpp:1084
+msgid "Cooling slowdown"
+msgstr "Kühlungsverlangsamung"
+
 #: src/slic3r/GUI/Tab.cpp:2187
 msgid "Cooling"
 msgstr "Kühlung"
@@ -21681,6 +21685,20 @@ msgid ""
 msgstr ""
 "Ihr Druck ist sehr nahe an den Priming-Bereichen. Stellen Sie sicher, dass "
 "es keine Kollision gibt."
+
+#: src/libslic3r/GCode.cpp:1086
+msgid "Max speed caps"
+msgstr "Maximale Geschwindigkeitsbegrenzungen"
+
+#: src/libslic3r/GCode.cpp:1088
+msgid "Max volumetric flow"
+msgstr "Maximaler volumetrischer Durchfluss"
+
+#: src/libslic3r/GCode.cpp:1098
+#, boost-format
+msgid "Print speed was reduced by slicer constraints: %1%."
+msgstr ""
+"Die Druckgeschwindigkeit wurde durch Slicer-Beschränkungen reduziert: %1%."
 
 #. TRN Wifi config dialog explanation line 3.
 #: src/slic3r/GUI/WifiConfigDialog.cpp:54

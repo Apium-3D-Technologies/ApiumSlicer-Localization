@@ -303,6 +303,27 @@ msgid ""
 "collision."
 msgstr "你的指纹非常接近启动区域。确保没有碰撞。"
 
+#: src/libslic3r/GCode.cpp:1084
+msgid "Cooling slowdown"
+msgstr "冷却降速"
+
+#: src/slic3r/GUI/Tab.cpp:2248
+msgid "Cooling"
+msgstr "冷却"
+
+#: src/libslic3r/GCode.cpp:1086
+msgid "Max speed caps"
+msgstr "最大速度限制"
+
+#: src/libslic3r/GCode.cpp:1088
+msgid "Max volumetric flow"
+msgstr "最大体积流量"
+
+#: src/libslic3r/GCode.cpp:1098
+#, boost-format
+msgid "Print speed was reduced by slicer constraints: %1%."
+msgstr "打印速度因切片器限制而降低：%1%。"
+
 #: src/libslic3r/miniz_extension.cpp:96
 msgid "undefined error"
 msgstr "未定义错误"
@@ -18656,10 +18677,6 @@ msgstr "热床"
 #: src/slic3r/GUI/Tab.cpp:2243
 msgid "Chamber"
 msgstr ""
-
-#: src/slic3r/GUI/Tab.cpp:2248
-msgid "Cooling"
-msgstr "冷却"
 
 #: src/slic3r/GUI/Tab.cpp:2263
 msgid "Fan settings"

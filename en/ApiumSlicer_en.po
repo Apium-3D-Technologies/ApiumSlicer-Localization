@@ -317,6 +317,27 @@ msgstr ""
 "Your print is very close to the priming regions. Make sure there is no "
 "collision."
 
+#: src/libslic3r/GCode.cpp:1084
+msgid "Cooling slowdown"
+msgstr "Cooling slowdown"
+
+#: src/slic3r/GUI/Tab.cpp:2187
+msgid "Cooling"
+msgstr "Cooling"
+
+#: src/libslic3r/GCode.cpp:1086
+msgid "Max speed caps"
+msgstr "Max speed caps"
+
+#: src/libslic3r/GCode.cpp:1088
+msgid "Max volumetric flow"
+msgstr "Max volumetric flow"
+
+#: src/libslic3r/GCode.cpp:1098
+#, boost-format
+msgid "Print speed was reduced by slicer constraints: %1%."
+msgstr "Print speed was reduced by slicer constraints: %1%."
+
 #: src/libslic3r/miniz_extension.cpp:96
 msgid "undefined error"
 msgstr "undefined error"
@@ -19072,10 +19093,6 @@ msgstr "Bed"
 #: src/slic3r/GUI/Tab.cpp:2182
 msgid "Chamber"
 msgstr "Chamber"
-
-#: src/slic3r/GUI/Tab.cpp:2187
-msgid "Cooling"
-msgstr "Cooling"
 
 #: src/slic3r/GUI/Tab.cpp:2200
 msgid "Fan settings"
