@@ -1035,14 +1035,14 @@ msgid ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://"
-"username:password@your-octopi-address/"
+"name and password into the URL in the following format: https://username:"
+"password@your-octopi-address/"
 msgstr ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://"
-"username:password@your-octopi-address/"
+"name and password into the URL in the following format: https://username:"
+"password@your-octopi-address/"
 
 #: src/libslic3r/PrintConfig.cpp:411
 msgid "API Key / Password"
@@ -3310,13 +3310,13 @@ msgstr "Supports binary G-code"
 
 #: src/libslic3r/PrintConfig.cpp:1970
 msgid ""
-"Enable, if the firmware supports binary G-code format (bgcode). To "
-"generate .bgcode files, make sure you have binary G-code enabled in "
-"Configuration->Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
+"bgcode files, make sure you have binary G-code enabled in Configuration-"
+">Preferences->Other."
 msgstr ""
-"Enable, if the firmware supports binary G-code format (bgcode). To "
-"generate .bgcode files, make sure you have binary G-code enabled in "
-"Configuration->Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
+"bgcode files, make sure you have binary G-code enabled in Configuration-"
+">Preferences->Other."
 
 #: src/libslic3r/PrintConfig.cpp:1976
 msgid "How to apply limits"
@@ -6031,11 +6031,11 @@ msgstr "Idle temperature"
 
 #: src/libslic3r/PrintConfig.cpp:4131
 msgid ""
-"Nozzle temperature when the tool is currently not used in multi-tool "
-"setups.This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool setups."
+"This is only used when 'Ooze prevention' is active in Print Settings."
 msgstr ""
-"Nozzle temperature when the tool is currently not used in multi-tool "
-"setups.This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool setups."
+"This is only used when 'Ooze prevention' is active in Print Settings."
 
 #: src/libslic3r/PrintConfig.cpp:4139 src/libslic3r/PrintConfig.cpp:4140
 msgid "Bottle volume"
@@ -6968,12 +6968,12 @@ msgstr "Logging level"
 
 #: src/libslic3r/PrintConfig.cpp:5682
 msgid ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
-"5:trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
+"trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 msgstr ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
-"5:trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
+"trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 
 #: src/libslic3r/PrintConfig.cpp:5692
@@ -8686,14 +8686,14 @@ msgstr "Update built-in Presets automatically"
 #, c-format, boost-format
 msgid ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary "
-"location.When a new preset version becomes available it is offered at "
-"application startup."
+"background.These updates are downloaded into a separate temporary location."
+"When a new preset version becomes available it is offered at application "
+"startup."
 msgstr ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary "
-"location.When a new preset version becomes available it is offered at "
-"application startup."
+"background.These updates are downloaded into a separate temporary location."
+"When a new preset version becomes available it is offered at application "
+"startup."
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1544
 msgid ""
@@ -9204,11 +9204,11 @@ msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:493
 msgid ""
-"Performing downloader desktop integration failed - "
-"boost::filesystem::canonical did not return appimage path."
+"Performing downloader desktop integration failed - boost::filesystem::"
+"canonical did not return appimage path."
 msgstr ""
-"Performing downloader desktop integration failed - "
-"boost::filesystem::canonical did not return appimage path."
+"Performing downloader desktop integration failed - boost::filesystem::"
+"canonical did not return appimage path."
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:505
 msgid ""
@@ -12995,15 +12995,15 @@ msgid ""
 "You are running a 32 bit build of PrusaSlicer on 64-bit Windows.\n"
 "32 bit build of PrusaSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of PrusaSlicer from https://"
-"www.prusa3d.cz/prusaslicer/.\n"
+"Please download and install a 64 bit build of PrusaSlicer from https://www."
+"prusa3d.cz/prusaslicer/.\n"
 "Do you wish to continue?"
 msgstr ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of ApiumSlicer from https://"
-"www.apiumslicer.apiumtec.com.\n"
+"Please download and install a 64 bit build of ApiumSlicer from https://www."
+"apiumslicer.apiumtec.com.\n"
 "Do you wish to continue?"
 
 #: src/slic3r/GUI/GUI_App.cpp:1349
@@ -17599,11 +17599,11 @@ msgstr "Associate .gcode files to ApiumSlicer G-code Viewer"
 
 #: src/slic3r/GUI/Preferences.cpp:420
 msgid ""
-"If enabled, sets PrusaSlicer G-code Viewer as default application to "
-"open .gcode files."
+"If enabled, sets PrusaSlicer G-code Viewer as default application to open ."
+"gcode files."
 msgstr ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to "
-"open .gcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
+"gcode files."
 
 #: src/slic3r/GUI/Preferences.cpp:423
 msgid "Associate .bgcode files to PrusaSlicer G-code Viewer"
@@ -17611,11 +17611,11 @@ msgstr "Associate .bgcode files to ApiumSlicer G-code Viewer"
 
 #: src/slic3r/GUI/Preferences.cpp:424
 msgid ""
-"If enabled, sets PrusaSlicer G-code Viewer as default application to "
-"open .bgcode files."
+"If enabled, sets PrusaSlicer G-code Viewer as default application to open ."
+"bgcode files."
 msgstr ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to "
-"open .bgcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
+"bgcode files."
 
 #: src/slic3r/GUI/Preferences.cpp:431
 msgid "Use Retina resolution for the 3D scene"
@@ -30555,13 +30555,13 @@ msgstr ""
 msgid ""
 "These details are not sent externally and are not used for marketing "
 "purposes.\n"
-"They are used only locally for project versioning and are stored only in "
-".3mf files."
+"They are used only locally for project versioning and are stored only "
+"in .3mf files."
 msgstr ""
 "These details are not sent externally and are not used for marketing "
 "purposes.\n"
-"They are used only locally for project versioning and are stored only in "
-".3mf files."
+"They are used only locally for project versioning and are stored only "
+"in .3mf files."
 
 #: src/libslic3r/PrintConfig.cpp:1532
 msgid "Enable purge line"
@@ -31750,3 +31750,57 @@ msgstr "Enable this if the printer can actively heat the chamber."
 #: src/slic3r/GUI/Plater.cpp
 msgid "Preview is out of date. Please re-slice to regenerate G-code."
 msgstr "Preview is out of date. Please re-slice to regenerate G-code."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Slicer Warnings"
+msgstr "Slicer Warnings"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nozzle temperature deviation warning"
+msgstr "Nozzle temperature deviation warning"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Warning threshold for nozzle temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the temperature delta (maximum minus "
+"minimum) for any used toolhead exceeds this value. Idle/cooldown "
+"temperatures are ignored. Set to 0 to disable warnings."
+msgstr ""
+"Warning threshold for nozzle temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the temperature delta (maximum minus "
+"minimum) for any used toolhead exceeds this value. Idle/cooldown "
+"temperatures are ignored. Set to 0 to disable warnings."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printbed temperature deviation warning"
+msgstr "Printbed temperature deviation warning"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Warning threshold for print bed temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the bed temperature delta (maximum "
+"minus minimum) exceeds this value. Set to 0 to disable warnings."
+msgstr ""
+"Warning threshold for print bed temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the bed temperature delta (maximum "
+"minus minimum) exceeds this value. Set to 0 to disable warnings."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Temperature deviations exceed configured slicing warning thresholds:"
+msgstr "Temperature deviations exceed configured slicing warning thresholds:"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold "
+"%5$.1f °C)."
+msgstr ""
+"Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold "
+"%5$.1f °C)."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold "
+"%4$.1f °C)."
+msgstr ""
+"Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold "
+"%4$.1f °C)."

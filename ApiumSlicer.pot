@@ -20657,3 +20657,46 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp
 msgid "Preview is out of date. Please re-slice to regenerate G-code."
 msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Slicer Warnings"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nozzle temperature deviation warning"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Warning threshold for nozzle temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the temperature delta (maximum minus "
+"minimum) for any used toolhead exceeds this value. Idle/cooldown "
+"temperatures are ignored. Set to 0 to disable warnings."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printbed temperature deviation warning"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Warning threshold for print bed temperature variation during slicing. A non-"
+"blocking slicing warning is shown when the bed temperature delta (maximum "
+"minus minimum) exceeds this value. Set to 0 to disable warnings."
+msgstr ""
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Temperature deviations exceed configured slicing warning thresholds:"
+msgstr ""
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold "
+"%5$.1f °C)."
+msgstr ""
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold "
+"%4$.1f °C)."
+msgstr ""
