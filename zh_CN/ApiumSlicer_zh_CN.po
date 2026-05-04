@@ -17223,6 +17223,14 @@ msgstr ""
 msgid "Show load project dialog"
 msgstr "显示加载项目对话框"
 
+#: src/slic3r/GUI/Preferences.cpp:438
+msgid "Show 3d navigator."
+msgstr "显示3D导航器。"
+
+#: src/slic3r/GUI/Preferences.cpp:439
+msgid "If this is enabled, the 3d navigator will be shown."
+msgstr "启用后，将显示3D导航器。"
+
 #: src/slic3r/GUI/Preferences.cpp:369
 msgid ""
 "When checked, whenever dragging and dropping a project file on the "

@@ -15883,7 +15883,15 @@ msgid ""
 "action to take on the file to load."
 msgstr ""
 
-#: src/slic3r/GUI/Preferences.cpp:379 src/slic3r/GUI/Preferences.cpp:383
+#: src/slic3r/GUI/Preferences.cpp:438
+msgid "Show 3d navigator."
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:439
+msgid "If this is enabled, the 3d navigator will be shown."
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:446 src/slic3r/GUI/Preferences.cpp:452
 msgid "Allow just a single PrusaSlicer instance"
 msgstr ""
 

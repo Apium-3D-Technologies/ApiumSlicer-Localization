@@ -15934,6 +15934,14 @@ msgstr "Legende in Vorschau anzeigen"
 msgid "Show load project dialog"
 msgstr "Dialog Projekt laden anzeigen"
 
+#: src/slic3r/GUI/Preferences.cpp:438
+msgid "Show 3d navigator."
+msgstr "3D-Navigator anzeigen."
+
+#: src/slic3r/GUI/Preferences.cpp:439
+msgid "If this is enabled, the 3d navigator will be shown."
+msgstr "Wenn diese Option aktiviert ist, wird der 3D-Navigator angezeigt."
+
 #: src/slic3r/GUI/Preferences.cpp:637
 msgid "Show \"Log in\" button in application top bar"
 msgstr "Schaltfläche \"Anmelden\" in der oberen Anwendungsleiste anzeigen"
