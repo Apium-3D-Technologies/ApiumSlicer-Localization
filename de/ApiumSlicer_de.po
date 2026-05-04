@@ -6847,6 +6847,80 @@ msgstr ""
 "Format der G-Code-Miniaturansichten: PNG für beste Qualität, JPG für "
 "kleinste Größe, QOI für speicherarme Firmware"
 
+#: src/libslic3r/PrintConfig.cpp:370
+msgid "Thumbnails size"
+msgstr "Thumbnails size"
+
+#: src/libslic3r/PrintConfig.cpp:379
+msgid "Thumbnail color"
+msgstr "Thumbnail color"
+
+#: src/libslic3r/PrintConfig.cpp:380
+msgid "This is the color that will be enforced on objects in the thumbnails."
+msgstr "This is the color that will be enforced on objects in the thumbnails."
+
+#: src/libslic3r/PrintConfig.cpp:385
+msgid "Enforce thumbnail color"
+msgstr "Enforce thumbnail color"
+
+#: src/libslic3r/PrintConfig.cpp:386
+msgid ""
+"Enforce a specific color on thumbnails. If not enforced, their color will be "
+"the one defined by the filament."
+msgstr ""
+"Enforce a specific color on thumbnails. If not enforced, their color will be "
+"the one defined by the filament."
+
+#: src/libslic3r/PrintConfig.cpp:391
+msgid "Print at the end"
+msgstr "Print at the end"
+
+#: src/libslic3r/PrintConfig.cpp:392
+msgid ""
+"Print the thumbnail code at the end of the gcode file instead of the front.\n"
+"Be careful! Most firmwares expect it at the front, so be sure that your "
+"firmware support it."
+msgstr ""
+"Print the thumbnail code at the end of the gcode file instead of the front.\n"
+"Be careful! Most firmwares expect it at the front, so be sure that your "
+"firmware support it."
+
+#: src/libslic3r/PrintConfig.cpp:404
+msgid "Write the thumbnail type in gcode."
+msgstr "Write the thumbnail type in gcode."
+
+#: src/libslic3r/PrintConfig.cpp:405
+msgid ""
+"instead of writing 'thumbnails' as tag in the gcode, it will write "
+"'thumbnails_PNG', thumbnails_JPG', 'thumbnail_QOI', etc..\n"
+" Some firmware need it to know how to decode the thumbnail, some others "
+"don't support it."
+msgstr ""
+"instead of writing 'thumbnails' as tag in the gcode, it will write "
+"'thumbnails_PNG', thumbnails_JPG', 'thumbnail_QOI', etc..\n"
+" Some firmware need it to know how to decode the thumbnail, some others "
+"don't support it."
+
+#: src/libslic3r/PrintConfig.cpp:410
+msgid "Bed on thumbnail"
+msgstr "Bed on thumbnail"
+
+#: src/libslic3r/PrintConfig.cpp:411
+msgid "Show the bed texture on the thumbnail picture."
+msgstr "Show the bed texture on the thumbnail picture."
+
+#: src/slic3r/GUI/Tab.cpp:5031
+msgid "Size for Gcode"
+msgstr "Size for Gcode"
+
+#: src/slic3r/GUI/Tab.cpp:5037
+msgid "Color override"
+msgstr "Color override"
+
+#: src/slic3r/GUI/Tab.cpp:5043
+msgid "Thumbnail options"
+msgstr "Thumbnail options"
+
 #: src/libslic3r/PrintConfig.cpp:4513
 msgid "Format of the output SLA archive"
 msgstr "Format des SLA-Ausgabearchivs"

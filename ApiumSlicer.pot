@@ -880,6 +880,72 @@ msgid ""
 "QOI for low memory firmware"
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp:370
+msgid "Thumbnails size"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:379
+msgid "Thumbnail color"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:380
+msgid "This is the color that will be enforced on objects in the thumbnails."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:385
+msgid "Enforce thumbnail color"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:386
+msgid ""
+"Enforce a specific color on thumbnails. If not enforced, their color will "
+"be the one defined by the filament."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:391
+msgid "Print at the end"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:392
+msgid ""
+"Print the thumbnail code at the end of the gcode file instead of the "
+"front.\n"
+"Be careful! Most firmwares expect it at the front, so be sure that your "
+"firmware support it."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:404
+msgid "Write the thumbnail type in gcode."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:405
+msgid ""
+"instead of writing 'thumbnails' as tag in the gcode, it will write "
+"'thumbnails_PNG', thumbnails_JPG', 'thumbnail_QOI', etc..\n"
+" Some firmware need it to know how to decode the thumbnail, some others "
+"don't support it."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:410
+msgid "Bed on thumbnail"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp:411
+msgid "Show the bed texture on the thumbnail picture."
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:5031
+msgid "Size for Gcode"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:5037
+msgid "Color override"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:5043
+msgid "Thumbnail options"
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:383 src/slic3r/GUI/ConfigManipulation.cpp:55
 #: src/slic3r/GUI/GUI_ObjectLayers.cpp:33 src/slic3r/GUI/Tab.cpp:1415
 msgid "Layer height"
