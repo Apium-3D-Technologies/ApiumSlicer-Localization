@@ -14947,37 +14947,37 @@ msgstr ""
 #: src/slic3r/GUI/LoadStepDialog.cpp:44
 #, boost-format
 msgid "STEP import quality (%1%)"
-msgstr ""
+msgstr "STEP 导入质量（%1%）"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:72
 msgid "Apply to all"
-msgstr ""
+msgstr "全部应用"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:96
 msgid "Select requested quality of the mesh after import: "
-msgstr ""
+msgstr "选择导入后网格所需的质量："
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:149
 msgid "Lower quality"
-msgstr ""
+msgstr "较低质量"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:150 src/slic3r/GUI/LoadStepDialog.cpp:203
 msgid "Linear precision"
-msgstr ""
+msgstr "线性精度"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:150 src/slic3r/GUI/LoadStepDialog.cpp:228
 msgid "Angle precision"
-msgstr ""
+msgstr "角度精度"
 
 #: src/slic3r/GUI/LoadStepDialog.cpp:151
 msgid "Higher quality"
-msgstr ""
+msgstr "较高质量"
 
 #. TRN %n% contain min, max and step values respectively
 #: src/slic3r/GUI/LoadStepDialog.cpp:179
 #, boost-format
 msgid "Set value from the range [%1%; %2%] with %3% step"
-msgstr ""
+msgstr "在 [%1%; %2%] 范围内以 %3% 步长设置数值"
 
 #: src/slic3r/GUI/MainFrame.cpp:94 src/slic3r/GUI/MainFrame.cpp:108
 #: src/slic3r/GUI/MainFrame.cpp:1705
@@ -17541,13 +17541,13 @@ msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:633
 msgid "Show STEP file import parameters"
-msgstr ""
+msgstr "显示 STEP 文件导入参数"
 
 #: src/slic3r/GUI/Preferences.cpp:634
 msgid ""
 "If enabled, ApiumSlicer will show a dialog with quality selection when "
 "importing a STEP file."
-msgstr ""
+msgstr "启用后，ApiumSlicer 在导入 STEP 文件时会显示质量选择对话框。"
 
 #: src/slic3r/GUI/Preferences.cpp:638
 msgid "Show \"Log in\" button in application top bar"

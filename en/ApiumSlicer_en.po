@@ -31886,3 +31886,50 @@ msgid ""
 msgstr ""
 "Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold "
 "%4$.1f °C)."
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:44
+#, boost-format
+msgid "STEP import quality (%1%)"
+msgstr "STEP import quality (%1%)"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:72
+msgid "Apply to all"
+msgstr "Apply to all"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:96
+msgid "Select requested quality of the mesh after import: "
+msgstr "Select requested quality of the mesh after import: "
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:149
+msgid "Lower quality"
+msgstr "Lower quality"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:150 src/slic3r/GUI/LoadStepDialog.cpp:203
+msgid "Linear precision"
+msgstr "Linear precision"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:150 src/slic3r/GUI/LoadStepDialog.cpp:228
+msgid "Angle precision"
+msgstr "Angle precision"
+
+#: src/slic3r/GUI/LoadStepDialog.cpp:151
+msgid "Higher quality"
+msgstr "Higher quality"
+
+#. TRN %n% contain min, max and step values respectively
+#: src/slic3r/GUI/LoadStepDialog.cpp:179
+#, boost-format
+msgid "Set value from the range [%1%; %2%] with %3% step"
+msgstr "Set value from the range [%1%; %2%] with %3% step"
+
+#: src/slic3r/GUI/Preferences.cpp:761
+msgid "Show STEP file import parameters"
+msgstr "Show STEP file import parameters"
+
+#: src/slic3r/GUI/Preferences.cpp:762
+msgid ""
+"If enabled, ApiumSlicer will show a dialog with quality selection when "
+"importing a STEP file."
+msgstr ""
+"If enabled, ApiumSlicer will show a dialog with quality selection when "
+"importing a STEP file."
