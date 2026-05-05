@@ -1109,14 +1109,14 @@ msgid ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://username:"
-"password@your-octopi-address/"
+"name and password into the URL in the following format: https://"
+"username:password@your-octopi-address/"
 msgstr ""
 "Slic3r can upload G-code files to a printer host. This field should contain "
 "the hostname, IP address or URL of the printer host instance. Print host "
 "behind HAProxy with basic auth enabled can be accessed by putting the user "
-"name and password into the URL in the following format: https://username:"
-"password@your-octopi-address/"
+"name and password into the URL in the following format: https://"
+"username:password@your-octopi-address/"
 
 #: src/libslic3r/PrintConfig.cpp:411
 msgid "API Key / Password"
@@ -3384,13 +3384,13 @@ msgstr "Supports binary G-code"
 
 #: src/libslic3r/PrintConfig.cpp:1970
 msgid ""
-"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
-"bgcode files, make sure you have binary G-code enabled in Configuration-"
-">Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To "
+"generate .bgcode files, make sure you have binary G-code enabled in "
+"Configuration->Preferences->Other."
 msgstr ""
-"Enable, if the firmware supports binary G-code format (bgcode). To generate ."
-"bgcode files, make sure you have binary G-code enabled in Configuration-"
-">Preferences->Other."
+"Enable, if the firmware supports binary G-code format (bgcode). To "
+"generate .bgcode files, make sure you have binary G-code enabled in "
+"Configuration->Preferences->Other."
 
 #: src/libslic3r/PrintConfig.cpp:1976
 msgid "How to apply limits"
@@ -6105,11 +6105,11 @@ msgstr "Idle temperature"
 
 #: src/libslic3r/PrintConfig.cpp:4131
 msgid ""
-"Nozzle temperature when the tool is currently not used in multi-tool setups."
-"This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool "
+"setups.This is only used when 'Ooze prevention' is active in Print Settings."
 msgstr ""
-"Nozzle temperature when the tool is currently not used in multi-tool setups."
-"This is only used when 'Ooze prevention' is active in Print Settings."
+"Nozzle temperature when the tool is currently not used in multi-tool "
+"setups.This is only used when 'Ooze prevention' is active in Print Settings."
 
 #: src/libslic3r/PrintConfig.cpp:4139 src/libslic3r/PrintConfig.cpp:4140
 msgid "Bottle volume"
@@ -7042,12 +7042,12 @@ msgstr "Logging level"
 
 #: src/libslic3r/PrintConfig.cpp:5682
 msgid ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
-"trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
+"5:trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 msgstr ""
-"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
-"trace\n"
+"Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, "
+"5:trace\n"
 "For example. loglevel=2 logs fatal, error and warning level messages."
 
 #: src/libslic3r/PrintConfig.cpp:5692
@@ -8760,14 +8760,14 @@ msgstr "Update built-in Presets automatically"
 #, c-format, boost-format
 msgid ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary location."
-"When a new preset version becomes available it is offered at application "
-"startup."
+"background.These updates are downloaded into a separate temporary "
+"location.When a new preset version becomes available it is offered at "
+"application startup."
 msgstr ""
 "If enabled, %s downloads updates of built-in system presets in the "
-"background.These updates are downloaded into a separate temporary location."
-"When a new preset version becomes available it is offered at application "
-"startup."
+"background.These updates are downloaded into a separate temporary "
+"location.When a new preset version becomes available it is offered at "
+"application startup."
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1544
 msgid ""
@@ -9278,11 +9278,11 @@ msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:493
 msgid ""
-"Performing downloader desktop integration failed - boost::filesystem::"
-"canonical did not return appimage path."
+"Performing downloader desktop integration failed - "
+"boost::filesystem::canonical did not return appimage path."
 msgstr ""
-"Performing downloader desktop integration failed - boost::filesystem::"
-"canonical did not return appimage path."
+"Performing downloader desktop integration failed - "
+"boost::filesystem::canonical did not return appimage path."
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:505
 msgid ""
@@ -13069,15 +13069,15 @@ msgid ""
 "You are running a 32 bit build of PrusaSlicer on 64-bit Windows.\n"
 "32 bit build of PrusaSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of PrusaSlicer from https://www."
-"prusa3d.cz/prusaslicer/.\n"
+"Please download and install a 64 bit build of PrusaSlicer from https://"
+"www.prusa3d.cz/prusaslicer/.\n"
 "Do you wish to continue?"
 msgstr ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM "
 "available in the system.\n"
-"Please download and install a 64 bit build of ApiumSlicer from https://www."
-"apiumslicer.apiumtec.com.\n"
+"Please download and install a 64 bit build of ApiumSlicer from https://"
+"www.apiumslicer.apiumtec.com.\n"
 "Do you wish to continue?"
 
 #: src/slic3r/GUI/GUI_App.cpp:1349
@@ -17681,11 +17681,11 @@ msgstr "Associate .gcode files to ApiumSlicer G-code Viewer"
 
 #: src/slic3r/GUI/Preferences.cpp:420
 msgid ""
-"If enabled, sets PrusaSlicer G-code Viewer as default application to open ."
-"gcode files."
+"If enabled, sets PrusaSlicer G-code Viewer as default application to "
+"open .gcode files."
 msgstr ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"gcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .gcode files."
 
 #: src/slic3r/GUI/Preferences.cpp:423
 msgid "Associate .bgcode files to PrusaSlicer G-code Viewer"
@@ -17693,11 +17693,11 @@ msgstr "Associate .bgcode files to ApiumSlicer G-code Viewer"
 
 #: src/slic3r/GUI/Preferences.cpp:424
 msgid ""
-"If enabled, sets PrusaSlicer G-code Viewer as default application to open ."
-"bgcode files."
+"If enabled, sets PrusaSlicer G-code Viewer as default application to "
+"open .bgcode files."
 msgstr ""
-"If enabled, sets ApiumSlicer G-code Viewer as default application to open ."
-"bgcode files."
+"If enabled, sets ApiumSlicer G-code Viewer as default application to "
+"open .bgcode files."
 
 #: src/slic3r/GUI/Preferences.cpp:431
 msgid "Use Retina resolution for the 3D scene"
@@ -30637,13 +30637,13 @@ msgstr ""
 msgid ""
 "These details are not sent externally and are not used for marketing "
 "purposes.\n"
-"They are used only locally for project versioning and are stored only "
-"in .3mf files."
+"They are used only locally for project versioning and are stored only in "
+".3mf files."
 msgstr ""
 "These details are not sent externally and are not used for marketing "
 "purposes.\n"
-"They are used only locally for project versioning and are stored only "
-"in .3mf files."
+"They are used only locally for project versioning and are stored only in "
+".3mf files."
 
 #: src/libslic3r/PrintConfig.cpp:1532
 msgid "Enable purge line"
@@ -31933,3 +31933,92 @@ msgid ""
 msgstr ""
 "If enabled, ApiumSlicer will show a dialog with quality selection when "
 "importing a STEP file."
+
+#. Versioning feature strings
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Reset Versioning"
+msgstr "Reset Versioning"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Delete Versioning"
+msgstr "Delete Versioning"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid ""
+"Delete all versioning history and create a new initial version from the "
+"current project state"
+msgstr ""
+"Delete all versioning history and create a new initial version from the "
+"current project state"
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Remove the embedded versioning repository from this project"
+msgstr "Remove the embedded versioning repository from this project"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to determine the current project file."
+msgstr "Failed to determine the current project file."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save current project state."
+msgstr "Failed to save current project state."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to sync current project state for versioning."
+msgstr "Failed to sync current project state for versioning."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to reset versioning history."
+msgstr "Failed to reset versioning history."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to delete project versioning repository."
+msgstr "Failed to delete project versioning repository."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"This will permanently delete all existing versioning commits and tags for "
+"this project.\n"
+"\n"
+"The currently loaded project state will be used as the new starting point.\n"
+"If an older version is currently checked out, that checked-out state will "
+"become the new initial version.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"This will permanently delete all existing versioning commits and tags for "
+"this project.\n"
+"\n"
+"The currently loaded project state will be used as the new starting point.\n"
+"If an older version is currently checked out, that checked-out state will "
+"become the new initial version.\n"
+"\n"
+"Do you want to continue?"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"This will permanently remove the embedded versioning repository from this "
+"project.\n"
+"\n"
+"The currently loaded project state will be saved and kept.\n"
+"If an older version is currently checked out, that checked-out state will be "
+"kept.\n"
+"\n"
+"After this action, the project will be loaded as a normal non-versioned "
+"project.\n"
+"Versioning will not start automatically, but can be started manually later.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"This will permanently remove the embedded versioning repository from this "
+"project.\n"
+"\n"
+"The currently loaded project state will be saved and kept.\n"
+"If an older version is currently checked out, that checked-out state will be "
+"kept.\n"
+"\n"
+"After this action, the project will be loaded as a normal non-versioned "
+"project.\n"
+"Versioning will not start automatically, but can be started manually later.\n"
+"\n"
+"Do you want to continue?"

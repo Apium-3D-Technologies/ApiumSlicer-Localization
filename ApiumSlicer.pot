@@ -20819,3 +20819,58 @@ msgid ""
 "If enabled, ApiumSlicer will show a dialog with quality selection when "
 "importing a STEP file."
 msgstr ""
+
+#. Versioning feature strings
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Reset Versioning"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Delete Versioning"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Delete all versioning history and create a new initial version from the current project state"
+msgstr ""
+
+#: src/slic3r/GUI/VersionDiffDialog.cpp
+msgid "Remove the embedded versioning repository from this project"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to determine the current project file."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save current project state."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to sync current project state for versioning."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to reset versioning history."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to delete project versioning repository."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"This will permanently delete all existing versioning commits and tags for this project.\n\n"
+"The currently loaded project state will be used as the new starting point.\n"
+"If an older version is currently checked out, that checked-out state will become the new initial version.\n\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"This will permanently remove the embedded versioning repository from this project.\n\n"
+"The currently loaded project state will be saved and kept.\n"
+"If an older version is currently checked out, that checked-out state will be kept.\n\n"
+"After this action, the project will be loaded as a normal non-versioned project.\n"
+"Versioning will not start automatically, but can be started manually later.\n\n"
+"Do you want to continue?"
+msgstr ""
