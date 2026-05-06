@@ -32022,3 +32022,108 @@ msgstr ""
 "Versioning will not start automatically, but can be started manually later.\n"
 "\n"
 "Do you want to continue?"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retraction trigger"
+msgstr "Retraction trigger"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Controls when retractions are allowed during G-code generation."
+msgstr "Controls when retractions are allowed during G-code generation."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Model only"
+msgstr "Model only"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on first layer"
+msgstr "Retract on first layer"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions that happen on the physical first printed layer of each "
+"instance."
+msgstr ""
+"Allow retractions that happen on the physical first printed layer of each "
+"instance."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on support"
+msgstr "Retract on support"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing support structures."
+msgstr "Allow retractions while printing support structures."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on raft"
+msgstr "Retract on raft"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing raft layers."
+msgstr "Allow retractions while printing raft layers."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on wipe tower"
+msgstr "Retract on wipe tower"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions related to wipe tower operations, including internal wipe "
+"tower moves."
+msgstr ""
+"Allow retractions related to wipe tower operations, including internal wipe "
+"tower moves."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract model internal"
+msgstr "Retract model internal"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels that stay within the same model instance."
+msgstr ""
+"Allow retractions for travels that stay within the same model instance."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract between models"
+msgstr "Retract between models"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels between different model instances."
+msgstr "Allow retractions for travels between different model instances."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on maintenance moves"
+msgstr "Retract on maintenance moves"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions for maintenance contexts (for example toolchanges, purge "
+"handling and uncategorized moves)."
+msgstr ""
+"Allow retractions for maintenance contexts (for example toolchanges, purge "
+"handling and uncategorized moves)."
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Open Settings"
+msgstr "Open Settings"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Open Settings window"
+msgstr "Open Settings window"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to regular mode [F6]"
+msgstr "Switch to regular mode [F6]"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to settings pop out mode [F6]"
+msgstr "Switch to settings pop out mode [F6]"
+
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Preferences.cpp
+msgid "Settings pop out mode"
+msgstr "Settings pop out mode"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Regular layout with tab bar"
+msgstr "Regular layout with tab bar"

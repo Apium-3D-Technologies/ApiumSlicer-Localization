@@ -31484,3 +31484,101 @@ msgstr ""
 "Versioning will not start automatically, but can be started manually later.\n"
 "\n"
 "Do you want to continue?"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retraction trigger"
+msgstr "回抽触发条件"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Controls when retractions are allowed during G-code generation."
+msgstr "控制在生成 G-code 时何时允许执行回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Model only"
+msgstr "仅模型"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on first layer"
+msgstr "首层回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions that happen on the physical first printed layer of each "
+"instance."
+msgstr "允许在每个实例的物理首个打印层上发生的回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on support"
+msgstr "支撑回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing support structures."
+msgstr "允许在打印支撑结构时回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on raft"
+msgstr "筏层回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing raft layers."
+msgstr "允许在打印筏层时回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on wipe tower"
+msgstr "擦拭塔回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions related to wipe tower operations, including internal wipe "
+"tower moves."
+msgstr "允许与擦拭塔操作相关的回抽，包括擦拭塔内部移动。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract model internal"
+msgstr "模型内部回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels that stay within the same model instance."
+msgstr "允许在同一模型实例内的空驶发生回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract between models"
+msgstr "模型间回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels between different model instances."
+msgstr "允许在不同模型实例之间的空驶发生回抽。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on maintenance moves"
+msgstr "维护移动回抽"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Allow retractions for maintenance contexts (for example toolchanges, purge "
+"handling and uncategorized moves)."
+msgstr "允许在维护场景下回抽（例如换工具、清料处理和未分类移动）。"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Open Settings"
+msgstr "打开设置"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Open Settings window"
+msgstr "打开设置窗口"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to regular mode [F6]"
+msgstr "切换到常规模式 [F6]"
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to settings pop out mode [F6]"
+msgstr "切换到设置弹出窗口模式 [F6]"
+
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Preferences.cpp
+msgid "Settings pop out mode"
+msgstr "设置弹出窗口模式"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Regular layout with tab bar"
+msgstr "带标签栏的常规布局"

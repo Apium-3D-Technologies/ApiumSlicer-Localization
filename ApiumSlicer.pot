@@ -20874,3 +20874,95 @@ msgid ""
 "Versioning will not start automatically, but can be started manually later.\n\n"
 "Do you want to continue?"
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retraction trigger"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Controls when retractions are allowed during G-code generation."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Model only"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on first layer"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions that happen on the physical first printed layer of each instance."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on support"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing support structures."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on raft"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions while printing raft layers."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on wipe tower"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions related to wipe tower operations, including internal wipe tower moves."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract model internal"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels that stay within the same model instance."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract between models"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for travels between different model instances."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Retract on maintenance moves"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow retractions for maintenance contexts (for example toolchanges, purge handling and uncategorized moves)."
+msgstr ""
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Open Settings"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Open Settings window"
+msgstr ""
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to regular mode [F6]"
+msgstr ""
+
+#: src/slic3r/GUI/TopBar.cpp
+msgid "Switch to settings pop out mode [F6]"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Preferences.cpp
+msgid "Settings pop out mode"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Regular layout with tab bar"
+msgstr ""
