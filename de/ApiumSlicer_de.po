@@ -32890,3 +32890,35 @@ msgstr "Settings-Pop-out-Modus"
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Regular layout with tab bar"
 msgstr "Reguläres Layout mit Tab-Leiste"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Purge line extrusion multiplier"
+msgstr "Purge line extrusion multiplier"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Multiplier applied to purge line extrusions when the purge line extrusion type is set to Custom."
+msgstr "Multiplier applied to purge line extrusions when the purge line extrusion type is set to Custom."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Purge line extrusion width"
+msgstr "Purge line extrusion width"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Sets a manual extrusion width for the purge line when the purge line extrusion type is set to Custom. If left at zero, the default extrusion width will be used. Percentage values are computed over the selected calculation base."
+msgstr "Sets a manual extrusion width for the purge line when the purge line extrusion type is set to Custom. If left at zero, the default extrusion width will be used. Percentage values are computed over the selected calculation base."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base for percentage-based purge line extrusion width calculation. Used only for percentage values."
+msgstr "Base for percentage-based purge line extrusion width calculation. Used only for percentage values."
+
+#: src/libslic3r/GCode.cpp
+msgid "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
+msgstr "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
+
+#: src/libslic3r/GCode.cpp
+msgid "Custom zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
+msgstr "Custom zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
+
+#: src/libslic3r/GCode.cpp
+msgid "The original custom G-code settings in the slicer were not modified."
+msgstr "The original custom G-code settings in the slicer were not modified."
