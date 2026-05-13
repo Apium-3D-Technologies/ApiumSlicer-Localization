@@ -32896,32 +32896,53 @@ msgid "Purge line extrusion multiplier"
 msgstr "Purge line extrusion multiplier"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Multiplier applied to purge line extrusions when the purge line extrusion type is set to Custom."
-msgstr "Multiplier applied to purge line extrusions when the purge line extrusion type is set to Custom."
+msgid ""
+"Multiplier applied to purge line extrusions when the purge line extrusion "
+"type is set to Custom."
+msgstr ""
+"Multiplier applied to purge line extrusions when the purge line extrusion "
+"type is set to Custom."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Purge line extrusion width"
 msgstr "Purge line extrusion width"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Sets a manual extrusion width for the purge line when the purge line extrusion type is set to Custom. If left at zero, the default extrusion width will be used. Percentage values are computed over the selected calculation base."
-msgstr "Sets a manual extrusion width for the purge line when the purge line extrusion type is set to Custom. If left at zero, the default extrusion width will be used. Percentage values are computed over the selected calculation base."
+msgid ""
+"Sets a manual extrusion width for the purge line when the purge line "
+"extrusion type is set to Custom. If left at zero, the default extrusion "
+"width will be used. Percentage values are computed over the selected "
+"calculation base."
+msgstr ""
+"Sets a manual extrusion width for the purge line when the purge line "
+"extrusion type is set to Custom. If left at zero, the default extrusion "
+"width will be used. Percentage values are computed over the selected "
+"calculation base."
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base for percentage-based purge line extrusion width calculation. Used only for percentage values."
-msgstr "Base for percentage-based purge line extrusion width calculation. Used only for percentage values."
+msgid ""
+"Base for percentage-based purge line extrusion width calculation. Used only "
+"for percentage values."
+msgstr ""
+"Base for percentage-based purge line extrusion width calculation. Used only "
+"for percentage values."
 
 #: src/libslic3r/GCode.cpp
 msgid "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 msgstr "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 
 #: src/libslic3r/GCode.cpp
-msgid "Custom zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
-msgstr "Custom zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
+msgid ""
+"Custom zoneheater commands exceeded the configured maximum power and were "
+"clamped in the exported G-code:"
+msgstr ""
+"Custom zoneheater commands exceeded the configured maximum power and were "
+"clamped in the exported G-code:"
 
 #: src/libslic3r/GCode.cpp
 msgid "The original custom G-code settings in the slicer were not modified."
 msgstr "The original custom G-code settings in the slicer were not modified."
+
 #: src/slic3r/GUI/GUI_App.cpp
 #, boost-format
 msgid "%1%: Selected filament %2%"
@@ -32946,24 +32967,38 @@ msgid "Printhead label"
 msgstr "Printhead label"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
-msgstr "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+msgid ""
+"Label used throughout the GUI to identify this printhead. Leave empty to "
+"fall back to Tn."
+msgstr ""
+"Label used throughout the GUI to identify this printhead. Leave empty to "
+"fall back to Tn."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Printhead firmware prefix"
 msgstr "Printhead firmware prefix"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
-msgstr "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+msgid ""
+"Tool identifier used in slicer-generated G-code. '%n%' is replaced with the "
+"zero-based printhead number; if omitted, the number is appended "
+"automatically. Line breaks are removed."
+msgstr ""
+"Tool identifier used in slicer-generated G-code. '%n%' is replaced with the "
+"zero-based printhead number; if omitted, the number is appended "
+"automatically. Line breaks are removed."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Extrusion mode"
 msgstr "Extrusion mode"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
-msgstr "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+msgid ""
+"Select whether slicing targets a single printhead, uses normal tool "
+"changing, or stores an IDEX placeholder mode for custom G-code handling."
+msgstr ""
+"Select whether slicing targets a single printhead, uses normal tool "
+"changing, or stores an IDEX placeholder mode for custom G-code handling."
 
 #: src/slic3r/GUI/Tab.cpp
 #, boost-format
