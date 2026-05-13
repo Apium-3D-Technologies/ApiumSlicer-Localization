@@ -9609,8 +9609,8 @@ msgstr "Color change (\"%1%\")"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1235
 #, boost-format
-msgid "Color change (\"%1%\") for T%2%"
-msgstr "Color change (\"%1%\") for T%2%"
+msgid "Color change (\"%1%\") for %2%"
+msgstr "Color change (\"%1%\") for %2%"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1237
 #, boost-format
@@ -9624,8 +9624,8 @@ msgstr "Custom template (\"%1%\")"
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1241
 #, boost-format
-msgid "Extruder (tool) is changed to \"T%1%\""
-msgstr "Extruder (tool) is changed to \"T%1%\""
+msgid "Extruder (tool) is changed to \"%1%\""
+msgstr "Extruder (tool) is changed to \"%1%\""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1248
 msgid "Note"
@@ -11968,8 +11968,8 @@ msgstr "Split bigger facets into smaller ones while the object is painted."
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:645
 #, boost-format
-msgid "Painted using: T%1%"
-msgstr "Painted using: T%1%"
+msgid "Painted using: %1%"
+msgstr "Painted using: %1%"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.hpp:124
 msgid "Entering Multimaterial painting"
@@ -12493,6 +12493,10 @@ msgstr "Change SVG Type"
 #: src/slic3r/GUI/GUI_Factories.cpp:1066
 msgid "Mirror"
 msgstr "Mirror"
+
+#: src/slic3r/GUI/Tab.cpp:367
+msgid "Changing"
+msgstr "Changing"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2182
 msgid "Choose SVG file for emboss:"
@@ -13571,18 +13575,18 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4027 src/slic3r/GUI/GUI_App.cpp:4045
 #, boost-format
-msgid "T%1%: Selected filament %2%"
-msgstr "T%1%: Selected filament %2%"
+msgid "%1%: Selected filament %2%"
+msgstr "%1%: Selected filament %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4061
 #, boost-format
-msgid "T%1%: Installed and selected filament %2%"
-msgstr "T%1%: Installed and selected filament %2%"
+msgid "%1%: Installed and selected filament %2%"
+msgstr "%1%: Installed and selected filament %2%"
 
 #: src/slic3r/GUI/GUI_App.cpp:4065
 #, boost-format
-msgid "T%2%: Failed to find and select filament type: %1%"
-msgstr "T%2%: Failed to find and select filament type: %1%"
+msgid "%2%: Failed to find and select filament type: %1%"
+msgstr "%2%: Failed to find and select filament type: %1%"
 
 #. TRN: Notification text.
 #: src/slic3r/GUI/GUI_App.cpp:4084
@@ -30239,6 +30243,30 @@ msgid "Printhead type"
 msgstr "Printhead type"
 
 #: src/libslic3r/PrintConfig.cpp
+msgid "Printhead label"
+msgstr "Printhead label"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+msgstr "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead firmware prefix"
+msgstr "Printhead firmware prefix"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+msgstr "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion mode"
+msgstr "Extrusion mode"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+msgstr "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+
+#: src/libslic3r/PrintConfig.cpp
 msgid "Has Zoneheater"
 msgstr "Has Zoneheater"
 
@@ -30827,18 +30855,18 @@ msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2498
 #, boost-format
-msgid "Override Active (T%1%)"
-msgstr "Override Active (T%1%)"
+msgid "Override Active (%1%)"
+msgstr "Override Active (%1%)"
 
 #: src/slic3r/GUI/Tab.cpp:2522
 #, boost-format
-msgid "Override source: T%1%, material preset \"%2%\"."
-msgstr "Override source: T%1%, material preset \"%2%\"."
+msgid "Override source: %1%, material preset \"%2%\"."
+msgstr "Override source: %1%, material preset \"%2%\"."
 
 #: src/slic3r/GUI/Tab.cpp:2524
 #, boost-format
-msgid "Override source: T%1%, material preset \"%2%\", material \"%3%\"."
-msgstr "Override source: T%1%, material preset \"%2%\", material \"%3%\"."
+msgid "Override source: %1%, material preset \"%2%\", material \"%3%\"."
+msgstr "Override source: %1%, material preset \"%2%\", material \"%3%\"."
 
 #: src/slic3r/GUI/Tab.cpp:2741
 msgid "Invalid setting key."

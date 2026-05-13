@@ -8304,7 +8304,7 @@ msgstr ""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1235
 #, possible-boost-format
-msgid "Color change (\"%1%\") for T%2%"
+msgid "Color change (\"%1%\") for %2%"
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1237
@@ -8319,7 +8319,7 @@ msgstr ""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1241
 #, possible-boost-format
-msgid "Extruder (tool) is changed to \"T%1%\""
+msgid "Extruder (tool) is changed to \"%1%\""
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSliderForLayers.cpp:1248
@@ -10580,7 +10580,7 @@ msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:645
 #, possible-boost-format
-msgid "Painted using: T%1%"
+msgid "Painted using: %1%"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.hpp:124
@@ -11090,6 +11090,10 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2140
 #: src/slic3r/GUI/GUI_Factories.cpp:1066
 msgid "Mirror"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:367
+msgid "Changing"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2182
@@ -12063,17 +12067,17 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4041 src/slic3r/GUI/GUI_App.cpp:4059
 #, possible-boost-format
-msgid "T%1%: Selected filament %2%"
+msgid "%1%: Selected filament %2%"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4075
 #, possible-boost-format
-msgid "T%1%: Installed and selected filament %2%"
+msgid "%1%: Installed and selected filament %2%"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:4079
 #, possible-boost-format
-msgid "T%2%: Failed to find and select filament type: %1%"
+msgid "%2%: Failed to find and select filament type: %1%"
 msgstr ""
 
 #. TRN: Notification text.
@@ -19383,6 +19387,30 @@ msgid "Printhead type"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
+msgid "Printhead label"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead firmware prefix"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion mode"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
 msgid "Has Zoneheater"
 msgstr ""
 
@@ -19896,17 +19924,17 @@ msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2498
 #, possible-boost-format
-msgid "Override Active (T%1%)"
+msgid "Override Active (%1%)"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2522
 #, possible-boost-format
-msgid "Override source: T%1%, material preset \"%2%\"."
+msgid "Override source: %1%, material preset \"%2%\"."
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2524
 #, possible-boost-format
-msgid "Override source: T%1%, material preset \"%2%\", material \"%3%\"."
+msgid "Override source: %1%, material preset \"%2%\", material \"%3%\"."
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2741

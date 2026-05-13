@@ -31614,3 +31614,75 @@ msgstr "Custom zoneheater commands exceeded the configured maximum power and wer
 #: src/libslic3r/GCode.cpp
 msgid "The original custom G-code settings in the slicer were not modified."
 msgstr "The original custom G-code settings in the slicer were not modified."
+#: src/slic3r/GUI/GUI_App.cpp
+#, boost-format
+msgid "%1%: Selected filament %2%"
+msgstr "%1%: Selected filament %2%"
+
+#: src/slic3r/GUI/GUI_App.cpp
+#, boost-format
+msgid "%1%: Installed and selected filament %2%"
+msgstr "%1%: Installed and selected filament %2%"
+
+#: src/slic3r/GUI/GUI_App.cpp
+#, boost-format
+msgid "%2%: Failed to find and select filament type: %1%"
+msgstr "%2%: Failed to find and select filament type: %1%"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Changing"
+msgstr "Changing"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead label"
+msgstr "Printhead label"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+msgstr "Label used throughout the GUI to identify this printhead. Leave empty to fall back to Tn."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Printhead firmware prefix"
+msgstr "Printhead firmware prefix"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+msgstr "Tool identifier used in slicer-generated G-code. '%n%' is replaced with the zero-based printhead number; if omitted, the number is appended automatically. Line breaks are removed."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extrusion mode"
+msgstr "Extrusion mode"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+msgstr "Select whether slicing targets a single printhead, uses normal tool changing, or stores an IDEX placeholder mode for custom G-code handling."
+
+#: src/slic3r/GUI/Tab.cpp
+#, boost-format
+msgid "Override Active (%1%)"
+msgstr "Override Active (%1%)"
+
+#: src/slic3r/GUI/Tab.cpp
+#, boost-format
+msgid "Override source: %1%, material preset \"%2%\"."
+msgstr "Override source: %1%, material preset \"%2%\"."
+
+#: src/slic3r/GUI/Tab.cpp
+#, boost-format
+msgid "Override source: %1%, material preset \"%2%\", material \"%3%\"."
+msgstr "Override source: %1%, material preset \"%2%\", material \"%3%\"."
+
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
+#, boost-format
+msgid "Color change (\"%1%\") for %2%"
+msgstr "Color change (\"%1%\") for %2%"
+
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
+#, boost-format
+msgid "Extruder (tool) is changed to \"%1%\""
+msgstr "Extruder (tool) is changed to \"%1%\""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp
+#, boost-format
+msgid "Painted using: %1%"
+msgstr "Painted using: %1%"
