@@ -21026,3 +21026,203 @@ msgstr ""
 #: src/libslic3r/GCode.cpp
 msgid "The original custom G-code settings in the slicer were not modified."
 msgstr ""
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp
+msgid "Open selected webinterface in system browser"
+msgstr ""
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp
+msgid "Open SSH connection to selected printer"
+msgstr ""
+
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp
+msgid "No SSH profile found for host \"%1%\". Please add or edit an SSH profile for this printer."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Decrease terminal font size"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Increase terminal font size"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Show Shell Shortcut Info"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Shell Shortcut Info"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Shortcut"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Description"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + C"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + Z"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + D"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + L"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + S"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + Q"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + A"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + E"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Alt + F"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Alt + B"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + X, Ctrl + X"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + U"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + K"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + W"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Alt + D"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + Y"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + _"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + R"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + P"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + N"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Kills the currently running process (sends SIGINT)."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Pauses the current process and moves it to the background (sends SIGTSTP)."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Closes the current shell or SSH session if the command line is empty."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Clears the terminal screen completely while keeping the current input line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Pauses terminal output (useful when output scrolls too fast)."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Resumes terminal output after Ctrl + S."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Moves the cursor to the beginning of the current line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Moves the cursor to the end of the current line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Moves the cursor forward by one word."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Moves the cursor backward by one word."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Jumps between current cursor position and beginning of line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Cuts text from cursor to the beginning of the line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Cuts text from cursor to the end of the line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Cuts the word directly behind the cursor."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Cuts the word directly in front of the cursor."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Pastes the most recently cut text at the cursor."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Undoes the last editing action on the current line."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Opens interactive reverse history search."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Fetches the previous command from history."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Fetches the next command from history."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Show all supported shell shortcuts and their behavior."
+msgstr ""
