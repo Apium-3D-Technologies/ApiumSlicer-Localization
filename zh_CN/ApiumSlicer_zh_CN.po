@@ -32048,3 +32048,52 @@ msgstr ""
 "???????? 3MF ????????????\n"
 "\n"
 "??????"
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Preparing to load..."
+msgstr "准备加载..."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Loading project..."
+msgstr "正在加载项目..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Loading geometry..."
+msgstr "正在加载几何..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Processing model..."
+msgstr "正在处理模型..."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Applying project configuration..."
+msgstr "正在应用项目配置..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Adding objects to the plater..."
+msgstr "正在将对象添加到构建板..."
+
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Plater.cpp
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Finalizing..."
+msgstr "正在完成..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Preparing project..."
+msgstr "正在准备项目..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Writing project archive..."
+msgstr "正在写入项目归档..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Updating version history..."
+msgstr "正在更新版本历史..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Opening version history..."
+msgstr "正在打开版本历史..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Creating project version..."
+msgstr "正在创建项目版本..."

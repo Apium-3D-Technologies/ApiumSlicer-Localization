@@ -32566,3 +32566,52 @@ msgstr ""
 "Please note that only geometry will be uploaded from all 3MF-based files.\n"
 "\n"
 "Would you like to continue anyway?"
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Preparing to load..."
+msgstr "Preparing to load..."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Loading project..."
+msgstr "Loading project..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Loading geometry..."
+msgstr "Loading geometry..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Processing model..."
+msgstr "Processing model..."
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Applying project configuration..."
+msgstr "Applying project configuration..."
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Adding objects to the plater..."
+msgstr "Adding objects to the plater..."
+
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Plater.cpp
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Finalizing..."
+msgstr "Finalizing..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Preparing project..."
+msgstr "Preparing project..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Writing project archive..."
+msgstr "Writing project archive..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Updating version history..."
+msgstr "Updating version history..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Opening version history..."
+msgstr "Opening version history..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Creating project version..."
+msgstr "Creating project version..."
