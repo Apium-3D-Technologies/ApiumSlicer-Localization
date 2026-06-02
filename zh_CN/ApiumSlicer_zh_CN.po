@@ -31987,7 +31987,64 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"?????????????\n"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "High polygon count detected"
+msgstr "检测到高多边形数量"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving this project may take a long time."
+msgstr "保存此项目可能需要很长时间。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"One or more models contain more than %1% triangles. Project saves include "
+"model geometry, thumbnails and versioning data, so very dense meshes can "
+"make saving slow and may keep the project file large."
+msgstr ""
+"一个或多个模型包含超过 %1% 个三角形。项目保存会包含模型几何、缩略图和版本数"
+"据，因此非常密集的网格可能会使保存变慢，并使项目文件变大。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "...and %1% more."
+msgstr "...以及另外 %1% 个。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Always ignore for this project"
+msgstr "始终对此项目忽略"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Simplify Model"
+msgstr "简化模型"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "High polygon save warning threshold"
+msgstr "高多边形保存警告阈值"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"Warn before saving a project when a model exceeds this number of triangles. "
+"Set to 0 to disable the warning."
+msgstr "当模型超过此三角形数量时，在保存项目前发出警告。设为 0 可禁用该警告。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"Another background operation is still running. Please wait until it finishes "
+"before saving the project."
+msgstr "另一个后台操作仍在运行。请等待其完成后再保存项目。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving project..."
+msgstr "正在保存项目..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Could not start the save operation."
+msgstr "无法启动保存操作。"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save project before version switch."
+msgstr ""
+"版本切换前未能保存项目。?????????????\n"
 "???????? 3MF ????????????\n"
 "\n"
 "??????"

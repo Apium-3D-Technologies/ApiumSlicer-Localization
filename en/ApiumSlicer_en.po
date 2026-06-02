@@ -32499,7 +32499,70 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"You have several files for loading.\n"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "High polygon count detected"
+msgstr "High polygon count detected"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving this project may take a long time."
+msgstr "Saving this project may take a long time."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"One or more models contain more than %1% triangles. Project saves include "
+"model geometry, thumbnails and versioning data, so very dense meshes can "
+"make saving slow and may keep the project file large."
+msgstr ""
+"One or more models contain more than %1% triangles. Project saves include "
+"model geometry, thumbnails and versioning data, so very dense meshes can "
+"make saving slow and may keep the project file large."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "...and %1% more."
+msgstr "...and %1% more."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Always ignore for this project"
+msgstr "Always ignore for this project"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Simplify Model"
+msgstr "Simplify Model"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "High polygon save warning threshold"
+msgstr "High polygon save warning threshold"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"Warn before saving a project when a model exceeds this number of triangles. "
+"Set to 0 to disable the warning."
+msgstr ""
+"Warn before saving a project when a model exceeds this number of triangles. "
+"Set to 0 to disable the warning."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"Another background operation is still running. Please wait until it finishes "
+"before saving the project."
+msgstr ""
+"Another background operation is still running. Please wait until it finishes "
+"before saving the project."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving project..."
+msgstr "Saving project..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Could not start the save operation."
+msgstr "Could not start the save operation."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save project before version switch."
+msgstr ""
+"Failed to save project before version switch.You have several files for "
+"loading.\n"
 "Please note that only geometry will be uploaded from all 3MF-based files.\n"
 "\n"
 "Would you like to continue anyway?"

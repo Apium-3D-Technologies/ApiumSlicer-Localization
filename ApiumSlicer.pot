@@ -21289,3 +21289,51 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "High polygon count detected"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving this project may take a long time."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "One or more models contain more than %1% triangles. Project saves include model geometry, thumbnails and versioning data, so very dense meshes can make saving slow and may keep the project file large."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "...and %1% more."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Always ignore for this project"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Simplify Model"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "High polygon save warning threshold"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Warn before saving a project when a model exceeds this number of triangles. Set to 0 to disable the warning."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Another background operation is still running. Please wait until it finishes before saving the project."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving project..."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Could not start the save operation."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save project before version switch."
+msgstr ""

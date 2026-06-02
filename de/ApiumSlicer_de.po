@@ -33318,7 +33318,71 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"Sie haben mehrere Dateien zum Laden ausgew?hlt.\n"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "High polygon count detected"
+msgstr "Hohe Polygonanzahl erkannt"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving this project may take a long time."
+msgstr "Das Speichern dieses Projekts kann lange dauern."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"One or more models contain more than %1% triangles. Project saves include "
+"model geometry, thumbnails and versioning data, so very dense meshes can "
+"make saving slow and may keep the project file large."
+msgstr ""
+"Ein oder mehrere Modelle enthalten mehr als %1% Dreiecke. "
+"Projektspeicherungen enthalten Modellgeometrie, Vorschaubilder und "
+"Versionierungsdaten. Sehr dichte Netze können das Speichern daher "
+"verlangsamen und die Projektdatei groß halten."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "...and %1% more."
+msgstr "...und %1% weitere."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Always ignore for this project"
+msgstr "Für dieses Projekt immer ignorieren"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Simplify Model"
+msgstr "Modell vereinfachen"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "High polygon save warning threshold"
+msgstr "Grenzwert für High-Polygon-Speicherwarnung"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"Warn before saving a project when a model exceeds this number of triangles. "
+"Set to 0 to disable the warning."
+msgstr ""
+"Vor dem Speichern eines Projekts warnen, wenn ein Modell diese Anzahl an "
+"Dreiecken überschreitet. Auf 0 setzen, um die Warnung zu deaktivieren."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"Another background operation is still running. Please wait until it finishes "
+"before saving the project."
+msgstr ""
+"Ein anderer Hintergrundvorgang läuft noch. Bitte warte, bis er abgeschlossen "
+"ist, bevor du das Projekt speicherst."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Saving project..."
+msgstr "Projekt wird gespeichert..."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Could not start the save operation."
+msgstr "Der Speichervorgang konnte nicht gestartet werden."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to save project before version switch."
+msgstr ""
+"Projekt konnte vor dem Versionswechsel nicht gespeichert werden.Sie haben "
+"mehrere Dateien zum Laden ausgew?hlt.\n"
 "Bitte beachten Sie, dass aus allen 3MF-basierten Dateien nur Geometrie "
 "geladen wird.\n"
 "\n"
