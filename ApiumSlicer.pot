@@ -5619,11 +5619,11 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:5449
-msgid "Export 3MF"
+msgid "Export ApiumSlicer Project"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:5450
-msgid "Export the model(s) as 3MF."
+msgid "Export the model(s) as an ApiumSlicer Project (.a3d)."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:5454
@@ -7603,7 +7603,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1824
 msgid ""
-"Export full pathnames of models and parts sources into 3mf and amf files"
+"Export full pathnames of models and parts sources into a3d, 3mf and amf files"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1828
@@ -7615,15 +7615,15 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1837
-msgid "Files association"
+msgid "File association"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1839 src/slic3r/GUI/Preferences.cpp:334
-msgid "Associate .3mf files to PrusaSlicer"
+msgid "Associate .a3d files to ApiumSlicer"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1840 src/slic3r/GUI/Preferences.cpp:339
-msgid "Associate .stl files to PrusaSlicer"
+msgid "Associate .stl files to ApiumSlicer"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1850
@@ -11722,11 +11722,11 @@ msgid "Loading of a mode view"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:2193
-msgid "Choose one file (3MF/AMF):"
+msgid "Choose one file (ApiumSlicer Project/3MF/AMF):"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:2205
-msgid "Choose one or more files (STL/3MF/STEP/OBJ/AMF/SVG):"
+msgid "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:2216
@@ -13290,15 +13290,11 @@ msgid "New project, clear plater"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:92
-msgid "Open project AMF/3MF with config, clear plater"
-msgstr ""
-
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:93
-msgid "Save project (3mf)"
+msgid "Open ApiumSlicer Project/3MF/AMF with config, clear plater"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:94
-msgid "Save project as (3mf)"
+msgid "Save project as (.a3d)"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:95
@@ -13306,7 +13302,7 @@ msgid "(Re)slice"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:97
-msgid "Import STL/3MF/STEP/OBJ/AMF without config, keep plater"
+msgid "Import STL/OBJ/STEP/3MF/AMF without config, keep plater"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:98
@@ -13314,7 +13310,7 @@ msgid "Import Config File (.ini)"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:99
-msgid "Load Config from ini/amf/3mf/gcode and merge"
+msgid "Load Config from ini/amf/a3d/3mf/gcode and merge"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:6698
@@ -14007,7 +14003,7 @@ msgid "Save current project file as"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1389
-msgid "Import STL/3MF/STEP/OBJ/AM&F"
+msgid "Import STL/OBJ/STEP/3MF/AM&F"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:1389
@@ -15821,7 +15817,7 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:327
-msgid "Export sources full pathnames to 3mf and amf"
+msgid "Export sources full pathnames to a3d, 3mf and amf"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:328
@@ -15831,7 +15827,7 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:335
-msgid "If enabled, sets PrusaSlicer as default application to open .3mf files."
+msgid "If enabled, sets ApiumSlicer as default application to open .3mf files."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:340
@@ -21225,4 +21221,71 @@ msgstr ""
 
 #: src/slic3r/GUI/SshTabPanel.cpp
 msgid "Show all supported shell shortcuts and their behavior."
+msgstr ""
+#: src/slic3r/GUI/ConfigWizard.cpp:1960
+msgid "ApiumSlicer Project Files:"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1965
+msgid "3D Models:"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1967 src/slic3r/GUI/Preferences.cpp:393
+msgid "Associate .obj files to ApiumSlicer"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1968 src/slic3r/GUI/Preferences.cpp:399
+msgid "Associate .3mf files to ApiumSlicer"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1969 src/slic3r/GUI/Preferences.cpp:405
+msgid "Associate .step/.stp files to ApiumSlicer"
+msgstr ""
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1984
+msgid "Windows Explorer Preview Extension:"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:381
+msgid "Associate ApiumSlicer Project files (.a3d) to ApiumSlicer"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:382
+msgid "If enabled, sets ApiumSlicer as default application to open .a3d files."
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:394
+msgid "If enabled, sets ApiumSlicer as default application to open .obj files."
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp:406
+msgid ""
+"If enabled, sets ApiumSlicer as default application to open .step and .stp "
+"files."
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp:6993
+msgid "Error saving ApiumSlicer project file"
+msgstr ""
+
+#: src/libslic3r/FileReader.cpp:75
+msgid "Unknown file format. Input file must have .stl, .obj, .step/.stp, .svg, .amf(.xml), .a3d or extension .3mf(.zip)."
+msgstr ""
+
+#: src/libslic3r/FileReader.cpp:110
+msgid "Unknown file format. Input file must have .a3d or .3mf extension."
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp:1579
+msgid ""
+"The selected project file contains a post-processing script.\n"
+"Please review the script carefully before exporting G-code."
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp:5937
+msgid ""
+"You have several files for loading.\n"
+"Please note that only geometry will be uploaded from all 3MF-based files.\n"
+"\n"
+"Would you like to continue anyway?"
 msgstr ""

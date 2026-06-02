@@ -6429,12 +6429,12 @@ msgid "Export the model(s) as STL."
 msgstr "将模型导出为 STL。"
 
 #: src/libslic3r/PrintConfig.cpp:5855
-msgid "Export 3MF"
-msgstr "导出 3MF"
+msgid "Export ApiumSlicer Project"
+msgstr "?? ApiumSlicer ??"
 
 #: src/libslic3r/PrintConfig.cpp:5856
-msgid "Export the model(s) as 3MF."
-msgstr "将模型导出为 3MF。"
+msgid "Export the model(s) as an ApiumSlicer Project (.a3d)."
+msgstr "?????? ApiumSlicer ?? (.a3d)?"
 
 #: src/libslic3r/PrintConfig.cpp:5863
 msgid "Slice"
@@ -8416,7 +8416,7 @@ msgstr "从磁盘重新加载"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1804
 msgid ""
-"Export full pathnames of models and parts sources into 3mf and amf files"
+"Export full pathnames of models and parts sources into a3d, 3mf and amf files"
 msgstr "将模型和零件源的完整路径名导出到 3mf 和 amf 文件中"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1808
@@ -8430,12 +8430,12 @@ msgstr ""
 "如果未启用，则从磁盘重新加载命令将要求使用打开文件对话框选择每个文件。"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1817
-msgid "Files association"
+msgid "File association"
 msgstr "文件关联"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1819 src/slic3r/GUI/Preferences.cpp:330
-msgid "Associate .3mf files to ApiumSlicer"
-msgstr "将 .3mf 文件关联到 ApiumSlicer"
+msgid "Associate .a3d files to ApiumSlicer"
+msgstr "将 .a3d 文件关联到 ApiumSlicer"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1820 src/slic3r/GUI/Preferences.cpp:335
 msgid "Associate .stl files to ApiumSlicer"
@@ -12835,11 +12835,11 @@ msgid "Loading of a mode view"
 msgstr "加载模式视图"
 
 #: src/slic3r/GUI/GUI_App.cpp:2300
-msgid "Choose one file (3MF/AMF):"
-msgstr "选择一个文件 (3MF/AMF):"
+msgid "Choose one file (ApiumSlicer Project/3MF/AMF):"
+msgstr "?????? (ApiumSlicer Project/3MF/AMF):"
 
 #: src/slic3r/GUI/GUI_App.cpp:2312
-msgid "Choose one or more files (STL/3MF/STEP/OBJ/AMF/SVG):"
+msgid "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:2323
@@ -14409,23 +14409,19 @@ msgid "New project, clear plater"
 msgstr "新项目，清盘"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:92
-msgid "Open project AMF/3MF with config, clear plater"
+msgid "Open ApiumSlicer Project/3MF/AMF with config, clear plater"
 msgstr "使用配置打开项目 AMF/3MF，清除模板"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:93
-msgid "Save project (3mf)"
-msgstr "保存项目 (3mf)"
-
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:94
-msgid "Save project as (3mf)"
-msgstr "将项目另存为 (3mf)"
+msgid "Save project as (.a3d)"
+msgstr "将项目另存为 (.a3d)"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:95
 msgid "(Re)slice"
 msgstr "重新切片"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:97
-msgid "Import STL/3MF/STEP/OBJ/AMF without config, keep plater"
+msgid "Import STL/OBJ/STEP/3MF/AMF without config, keep plater"
 msgstr "导入 STL/3MF/STEP/OBJ/AMF 而不配置，保留模板"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:98
@@ -14433,7 +14429,7 @@ msgid "Import Config File (.ini)"
 msgstr "导入配置文件 (.ini)"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:99
-msgid "Load Config from ini/amf/3mf/gcode and merge"
+msgid "Load Config from ini/amf/a3d/3mf/gcode and merge"
 msgstr "从 ini/amf/3mf/gcode 加载配置并合并"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:7290
@@ -15223,7 +15219,7 @@ msgid "Save current project file as"
 msgstr "将当前项目文件另存为"
 
 #: src/slic3r/GUI/MainFrame.cpp:1498
-msgid "Import STL/3MF/STEP/OBJ/AM&F"
+msgid "Import STL/OBJ/STEP/3MF/AM&F"
 msgstr "导入 STL/3MF/STEP/OBJ/AMF(&F)"
 
 #: src/slic3r/GUI/MainFrame.cpp:1498
@@ -16404,12 +16400,6 @@ msgid ""
 "For more info: <a href=%2%>%2%</a>"
 msgstr ""
 
-#: src/slic3r/GUI/Plater.cpp:1433
-msgid ""
-"The selected 3MF file contains a post-processing script.\n"
-"Please review the script carefully before exporting G-code."
-msgstr ""
-
 #: src/slic3r/GUI/Plater.cpp:1474
 #, c-format, boost-format
 msgid ""
@@ -17158,7 +17148,7 @@ msgstr ""
 "床面附着力。"
 
 #: src/slic3r/GUI/Preferences.cpp:323
-msgid "Export sources full pathnames to 3mf and amf"
+msgid "Export sources full pathnames to a3d, 3mf and amf"
 msgstr "将源完整路径名导出到 3mf 和 amf"
 
 #: src/slic3r/GUI/Preferences.cpp:324
@@ -17173,7 +17163,7 @@ msgstr "如果启用，将 ApiumSlicer 设置为打开.3mf 文件的默认应用
 
 #: src/slic3r/GUI/Preferences.cpp:336
 msgid "If enabled, sets ApiumSlicer as default application to open .stl files."
-msgstr "如果启用，则将 ApiumSlicer 设置为要打开的默认应用程序。stl 文件。"
+msgstr "如果启用，将 ApiumSlicer 设置为打开 .stl 文件的默认应用程序。"
 
 #: src/slic3r/GUI/Preferences.cpp:345
 msgid ""
@@ -31924,3 +31914,80 @@ msgstr "Fetches the next command from history."
 #: src/slic3r/GUI/SshTabPanel.cpp
 msgid "Show all supported shell shortcuts and their behavior."
 msgstr "Show all supported shell shortcuts and their behavior."
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1960
+msgid "ApiumSlicer Project Files:"
+msgstr "ApiumSlicer ?????"
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1965
+msgid "3D Models:"
+msgstr "3D ???"
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1967 src/slic3r/GUI/Preferences.cpp:393
+msgid "Associate .obj files to ApiumSlicer"
+msgstr "? .obj ????? ApiumSlicer"
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1968 src/slic3r/GUI/Preferences.cpp:399
+msgid "Associate .3mf files to ApiumSlicer"
+msgstr "? .3mf ????? ApiumSlicer"
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1969 src/slic3r/GUI/Preferences.cpp:405
+msgid "Associate .step/.stp files to ApiumSlicer"
+msgstr "? .step/.stp ????? ApiumSlicer"
+
+#: src/slic3r/GUI/ConfigWizard.cpp:1984
+msgid "Windows Explorer Preview Extension:"
+msgstr "Windows ??????????"
+
+#: src/slic3r/GUI/Preferences.cpp:381
+msgid "Associate ApiumSlicer Project files (.a3d) to ApiumSlicer"
+msgstr "? ApiumSlicer ???? (.a3d) ??? ApiumSlicer"
+
+#: src/slic3r/GUI/Preferences.cpp:382
+msgid "If enabled, sets ApiumSlicer as default application to open .a3d files."
+msgstr "?????? ApiumSlicer ????? .a3d ??????????"
+
+#: src/slic3r/GUI/Preferences.cpp:394
+msgid "If enabled, sets ApiumSlicer as default application to open .obj files."
+msgstr "?????? ApiumSlicer ????? .obj ??????????"
+
+#: src/slic3r/GUI/Preferences.cpp:406
+msgid ""
+"If enabled, sets ApiumSlicer as default application to open .step and .stp "
+"files."
+msgstr "?????? ApiumSlicer ????? .step ? .stp ??????????"
+
+#: src/slic3r/GUI/Plater.cpp:6993
+msgid "Error saving ApiumSlicer project file"
+msgstr "?? ApiumSlicer ???????"
+
+#: src/libslic3r/FileReader.cpp:75
+msgid ""
+"Unknown file format. Input file must "
+"have .stl, .obj, .step/.stp, .svg, .amf(.xml), .a3d or extension .3mf(.zip)."
+msgstr ""
+"?????????????? .stl?.obj?.step/.stp?.svg?.amf(.xml)?.a3d ???? .3mf(.zip)?"
+
+#: src/libslic3r/FileReader.cpp:110
+msgid "Unknown file format. Input file must have .a3d or .3mf extension."
+msgstr "??????????????? .a3d ? .3mf ????"
+
+#: src/slic3r/GUI/Plater.cpp:1579
+msgid ""
+"The selected project file contains a post-processing script.\n"
+"Please review the script carefully before exporting G-code."
+msgstr ""
+"??????????????\n"
+"?? G-code ??????????"
+
+#: src/slic3r/GUI/Plater.cpp:5937
+msgid ""
+"You have several files for loading.\n"
+"Please note that only geometry will be uploaded from all 3MF-based files.\n"
+"\n"
+"Would you like to continue anyway?"
+msgstr ""
+"?????????????\n"
+"???????? 3MF ????????????\n"
+"\n"
+"??????"
