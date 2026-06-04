@@ -1536,6 +1536,10 @@ msgstr "Zusammensetzen des Modells aus Teilen"
 msgid "Associate .a3d files to ApiumSlicer"
 msgstr ".a3d-Dateien mit ApiumSlicer verknüpfen"
 
+#: src/slic3r/GUI/ConfigWizard.cpp:1965
+msgid "Associate .gcode/.bgcode files to ApiumSlicer"
+msgstr ".gcode/.bgcode-Dateien mit ApiumSlicer verknüpfen"
+
 #: src/slic3r/GUI/Preferences.cpp:423
 msgid "Associate .bgcode files to PrusaSlicer G-code Viewer"
 msgstr ".bgcode Dateien mit ApiumSlicer G-code Viewer verknüpfen"

@@ -8437,6 +8437,10 @@ msgstr "文件关联"
 msgid "Associate .a3d files to ApiumSlicer"
 msgstr "将 .a3d 文件关联到 ApiumSlicer"
 
+#: src/slic3r/GUI/ConfigWizard.cpp:1965
+msgid "Associate .gcode/.bgcode files to ApiumSlicer"
+msgstr "将 .gcode/.bgcode 文件关联到 ApiumSlicer"
+
 #: src/slic3r/GUI/ConfigWizard.cpp:1820 src/slic3r/GUI/Preferences.cpp:335
 msgid "Associate .stl files to ApiumSlicer"
 msgstr "将 .stl 文件关联到 ApiumSlicer"
