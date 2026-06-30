@@ -32619,3 +32619,35 @@ msgstr "Opening version history..."
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Creating project version..."
 msgstr "Creating project version..."
+
+#: src/libslic3r/PrintConfig.cpp src/slic3r/GUI/Tab.cpp
+msgid "Enable pressure advance"
+msgstr "Enable pressure advance"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable pressure advance for this filament profile."
+msgstr "Enable pressure advance for this filament profile."
+
+#: src/libslic3r/PrintConfig.cpp src/slic3r/GUI/GCodeViewer.cpp
+msgid "Pressure advance"
+msgstr "Pressure advance"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Pressure advance (Klipper) or linear advance factor (Marlin) for this "
+"filament profile."
+msgstr ""
+"Pressure advance (Klipper) or linear advance factor (Marlin) for this "
+"filament profile."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Flow ratio and Pressure Advance"
+msgstr "Flow ratio and Pressure Advance"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Pressure Advance"
+msgstr "Pressure Advance"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "pressure advance range"
+msgstr "pressure advance range"

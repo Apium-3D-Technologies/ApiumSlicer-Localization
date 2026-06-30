@@ -32101,3 +32101,33 @@ msgstr "正在打开版本历史..."
 #: src/slic3r/GUI/MainFrame.cpp
 msgid "Creating project version..."
 msgstr "正在创建项目版本..."
+
+#: src/libslic3r/PrintConfig.cpp src/slic3r/GUI/Tab.cpp
+msgid "Enable pressure advance"
+msgstr "启用压力提前"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable pressure advance for this filament profile."
+msgstr "为此耗材配置启用压力提前。"
+
+#: src/libslic3r/PrintConfig.cpp src/slic3r/GUI/GCodeViewer.cpp
+msgid "Pressure advance"
+msgstr "压力提前"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Pressure advance (Klipper) or linear advance factor (Marlin) for this "
+"filament profile."
+msgstr "此耗材配置的压力提前（Klipper）或线性提前系数（Marlin）。"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Flow ratio and Pressure Advance"
+msgstr "流量比与压力提前"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "Pressure Advance"
+msgstr "压力提前"
+
+#: src/slic3r/GUI/GCodeViewer.cpp
+msgid "pressure advance range"
+msgstr "压力提前范围"
