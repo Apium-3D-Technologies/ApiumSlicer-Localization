@@ -3843,7 +3843,17 @@ msgid ""
 "The vertical distance between object and raft. Ignored for soluble interface."
 msgstr "物体与木筏之间的垂直距离。对于可溶解的界面忽略。"
 
+#: src/libslic3r/PrintConfig.cpp:2640
+msgid "Enable raft"
+msgstr "启用Raft"
+
 #: src/libslic3r/PrintConfig.cpp:2642
+msgid ""
+"Enable raft generation. When disabled, raft settings are stored but ignored "
+"during slicing."
+msgstr "启用Raft生成。禁用时，Raft设置会被保留，但在切片时被忽略。"
+
+#: src/libslic3r/PrintConfig.cpp:2648
 msgid "Raft expansion"
 msgstr "筏式膨胀"
 
@@ -3878,6 +3888,20 @@ msgid ""
 "The object will be raised by this number of layers, and support material "
 "will be generated under it."
 msgstr "对象将相对此层数抬高，并在其下生成支撑材料。"
+
+#: src/libslic3r/PrintConfig.cpp:2681
+msgid "Raft interface layers"
+msgstr "Raftçé¢å±æ°"
+
+#: src/libslic3r/PrintConfig.cpp:2683
+msgid ""
+"Number of raft interface layers to generate. This includes the top raft "
+"contact layer."
+msgstr "è¦çæçRaftçé¢å±æ°éãè¿åæ¬é¡¶é¨çRaftæ¥è§¦å±ã"
+
+#: src/libslic3r/Print.cpp:1305
+msgid "Raft interface layers must be between 1 and the number of raft layers."
+msgstr "å¯ç¨Raftæ¶ï¼Raftçé¢å±æ°å¿é¡»å¨1å°Raftå±æ°ä¹é´ã"
 
 #: src/libslic3r/PrintConfig.cpp:2959
 msgid "Raft base pattern"

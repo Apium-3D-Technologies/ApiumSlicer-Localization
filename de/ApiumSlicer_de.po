@@ -13720,13 +13720,43 @@ msgstr "Raft"
 msgid "Raft contact Z distance"
 msgstr "Raft Kontakt Z Abstand"
 
+#: src/libslic3r/PrintConfig.cpp:2424
+msgid "Enable raft"
+msgstr "Raft aktivieren"
+
 #: src/libslic3r/PrintConfig.cpp:2426
+msgid ""
+"Enable raft generation. When disabled, raft settings are stored but ignored "
+"during slicing."
+msgstr ""
+"Aktiviert die Erzeugung von Raft. Wenn deaktiviert, werden die Raft-"
+"Einstellungen gespeichert, aber beim Slicen ignoriert."
+
+#: src/libslic3r/PrintConfig.cpp:2432
 msgid "Raft expansion"
 msgstr "Raft Erweiterung"
 
 #: src/libslic3r/PrintConfig.cpp:2454
 msgid "Raft layers"
 msgstr "Raftschichten"
+
+#: src/libslic3r/PrintConfig.cpp:2465
+msgid "Raft interface layers"
+msgstr "Raft-Interfaceschichten"
+
+#: src/libslic3r/PrintConfig.cpp:2467
+msgid ""
+"Number of raft interface layers to generate. This includes the top raft "
+"contact layer."
+msgstr ""
+"Anzahl der zu erzeugenden Raft-Interfaceschichten. Dies schließt die oberste "
+"Raft-Kontaktschicht ein."
+
+#: src/libslic3r/Print.cpp:1305
+msgid "Raft interface layers must be between 1 and the number of raft layers."
+msgstr ""
+"Raft-Interfaceschichten müssen zwischen 1 und der Anzahl der Raftschichten "
+"liegen."
 
 #: src/libslic3r/PrintConfig.cpp:2959
 msgid "Raft base pattern"

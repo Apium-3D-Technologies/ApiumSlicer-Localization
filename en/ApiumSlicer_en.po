@@ -3970,7 +3970,19 @@ msgid ""
 msgstr ""
 "The vertical distance between object and raft. Ignored for soluble interface."
 
+#: src/libslic3r/PrintConfig.cpp:2424
+msgid "Enable raft"
+msgstr "Enable raft"
+
 #: src/libslic3r/PrintConfig.cpp:2426
+msgid ""
+"Enable raft generation. When disabled, raft settings are stored but ignored "
+"during slicing."
+msgstr ""
+"Enable raft generation. When disabled, raft settings are stored but ignored "
+"during slicing."
+
+#: src/libslic3r/PrintConfig.cpp:2432
 msgid "Raft expansion"
 msgstr "Raft expansion"
 
@@ -4009,6 +4021,22 @@ msgid ""
 msgstr ""
 "The object will be raised by this number of layers, and support material "
 "will be generated under it."
+
+#: src/libslic3r/PrintConfig.cpp:2465
+msgid "Raft interface layers"
+msgstr "Raft interface layers"
+
+#: src/libslic3r/PrintConfig.cpp:2467
+msgid ""
+"Number of raft interface layers to generate. This includes the top raft "
+"contact layer."
+msgstr ""
+"Number of raft interface layers to generate. This includes the top raft "
+"contact layer."
+
+#: src/libslic3r/Print.cpp:1305
+msgid "Raft interface layers must be between 1 and the number of raft layers."
+msgstr "Raft interface layers must be between 1 and the number of raft layers."
 
 #: src/libslic3r/PrintConfig.cpp:2959
 msgid "Raft base pattern"
