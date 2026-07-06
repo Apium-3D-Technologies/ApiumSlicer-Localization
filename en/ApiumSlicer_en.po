@@ -24169,6 +24169,10 @@ msgstr "Enables the shadow opacity."
 msgid "Enables the shadow spread."
 msgstr "Enables the shadow spread."
 
+#: ../src/slic3r/GUI/GUI_Preview.cpp:434
+msgid "Begin"
+msgstr "Begin"
+
 #. TRANSLATORS: Name of keyboard key
 #: ../src/common/accelcmn.cpp:66
 msgid "End"

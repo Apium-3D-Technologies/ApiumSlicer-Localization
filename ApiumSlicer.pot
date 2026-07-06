@@ -21443,3 +21443,7 @@ msgstr ""
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "pressure advance range"
 msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Begin"
+msgstr ""

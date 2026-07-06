@@ -24729,6 +24729,10 @@ msgstr "Aktiviert die Deckkraft des Schattens."
 msgid "Enables the shadow spread."
 msgstr "Aktiviert die Ausbreitung des Schattens."
 
+#: ../src/slic3r/GUI/GUI_Preview.cpp:434
+msgid "Begin"
+msgstr "Beginn"
+
 #. TRANSLATORS: Name of keyboard key
 #: ../src/common/accelcmn.cpp:66
 msgid "End"

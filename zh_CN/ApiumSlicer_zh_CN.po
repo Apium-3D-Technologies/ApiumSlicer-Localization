@@ -23720,10 +23720,14 @@ msgstr "启用宽度值。"
 msgid "Enables the shadow spread."
 msgstr "启用宽度值。"
 
+#: ../src/slic3r/GUI/GUI_Preview.cpp:434
+msgid "Begin"
+msgstr "开始"
+
 #. TRANSLATORS: Name of keyboard key
 #: ../src/common/accelcmn.cpp:66
 msgid "End"
-msgstr ""
+msgstr "结束"
 
 #. TRANSLATORS: Name of keyboard key
 #: ../src/common/accelcmn.cpp:55
