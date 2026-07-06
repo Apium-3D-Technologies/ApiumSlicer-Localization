@@ -32683,3 +32683,19 @@ msgstr "Pressure Advance"
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "pressure advance range"
 msgstr "pressure advance range"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"Failed to recover project versioning. The project was not saved to avoid "
+"losing version history."
+msgstr ""
+"Failed to recover project versioning. The project was not saved to avoid "
+"losing version history."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"The selected project file contains version history and was not overwritten. "
+"Use Save or Versioned Save to preserve project history."
+msgstr ""
+"The selected project file contains version history and was not overwritten. "
+"Use Save or Versioned Save to preserve project history."

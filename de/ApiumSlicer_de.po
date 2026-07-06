@@ -33506,3 +33506,20 @@ msgstr "Druckvorschub"
 #: src/slic3r/GUI/GCodeViewer.cpp
 msgid "pressure advance range"
 msgstr "Druckvorschubbereich"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"Failed to recover project versioning. The project was not saved to avoid "
+"losing version history."
+msgstr ""
+"Projektversionierung konnte nicht wiederhergestellt werden. Das Projekt "
+"wurde nicht gespeichert, um den Verlust der Versionshistorie zu vermeiden."
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid ""
+"The selected project file contains version history and was not overwritten. "
+"Use Save or Versioned Save to preserve project history."
+msgstr ""
+"Die ausgewaehlte Projektdatei enthaelt Versionshistorie und wurde nicht "
+"ueberschrieben. Verwenden Sie Speichern oder Versioniert speichern, um die "
+"Projekthistorie zu erhalten."

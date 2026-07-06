@@ -21447,3 +21447,11 @@ msgstr ""
 #: src/slic3r/GUI/GUI_Preview.cpp
 msgid "Begin"
 msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Failed to recover project versioning. The project was not saved to avoid losing version history."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "The selected project file contains version history and was not overwritten. Use Save or Versioned Save to preserve project history."
+msgstr ""
