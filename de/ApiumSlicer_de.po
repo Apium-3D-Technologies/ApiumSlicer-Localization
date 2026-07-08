@@ -4929,6 +4929,10 @@ msgstr "Häkchen bearbeiten - Strg + Linksklick"
 msgid "Edit tick mark - Right click"
 msgstr "Häkchen bearbeiten - Rechtsklick"
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1410
+msgid "Move tick mark - hold %1% and drag"
+msgstr "Häkchen verschieben - %1% gedrückt halten und ziehen"
+
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:1262
 msgid "Edit to scale"
 msgstr "Zum Skalieren eigeben"

@@ -9717,6 +9717,10 @@ msgstr "Edit tick mark - Ctrl + Left click"
 msgid "Edit tick mark - Right click"
 msgstr "Edit tick mark - Right click"
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1410
+msgid "Move tick mark - hold %1% and drag"
+msgstr "Move tick mark - hold %1% and drag"
+
 #: src/slic3r/GUI/Downloader.cpp:154
 #, boost-format
 msgid ""

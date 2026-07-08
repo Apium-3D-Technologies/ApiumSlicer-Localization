@@ -9259,6 +9259,10 @@ msgstr "编辑刻度线-按住 Ctrl 键并单击鼠标左键"
 msgid "Edit tick mark - Right click"
 msgstr "编辑刻度线-单击鼠标右键"
 
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:1410
+msgid "Move tick mark - hold %1% and drag"
+msgstr "移动刻度线-按住 %1% 并拖动"
+
 #: src/slic3r/GUI/Downloader.cpp:172
 #, boost-format
 msgid ""
