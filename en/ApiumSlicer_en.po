@@ -32703,3 +32703,81 @@ msgid ""
 msgstr ""
 "The selected project file contains version history and was not overwritten. "
 "Use Save or Versioned Save to preserve project history."
+
+#: src/libslic3r/PrintConfig.cpp:3780
+msgid "Number of physical extruders configured for this printer."
+msgstr "Number of physical extruders configured for this printer."
+
+#: src/libslic3r/PrintConfig.cpp:3788
+msgid ""
+"Label used throughout the GUI to identify this printhead. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+msgstr ""
+"Label used throughout the GUI to identify this printhead. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+
+#: src/libslic3r/PrintConfig.cpp:3794
+msgid ""
+"Exact tool identifier used in slicer-generated G-code. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+msgstr ""
+"Exact tool identifier used in slicer-generated G-code. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+
+#: src/libslic3r/PrintConfig.cpp:3800
+msgid ""
+"Select a single physical printhead, independent IDEX printing, duplicate "
+"printing, or mirror printing. Available modes depend on the configured "
+"extruder count."
+msgstr ""
+"Select a single physical printhead, independent IDEX printing, duplicate "
+"printing, or mirror printing. Available modes depend on the configured "
+"extruder count."
+
+#: src/slic3r/GUI/Tab.cpp:5334
+msgid ""
+"Reducing the extruder count permanently removes the settings for: %1%. "
+"Continue?"
+msgstr ""
+"Reducing the extruder count permanently removes the settings for: %1%. "
+"Continue?"
+
+#: src/slic3r/GUI/Tab.cpp:5335
+msgid "Reduce extruder count"
+msgstr "Reduce extruder count"
+
+#: src/slic3r/GUI/Tab.cpp:6218
+msgid ""
+"Printhead labels must be unique. \"%1%\" is already used by another "
+"printhead."
+msgstr ""
+"Printhead labels must be unique. \"%1%\" is already used by another "
+"printhead."
+
+#: src/slic3r/GUI/Tab.cpp:6219
+msgid "Duplicate printhead label"
+msgstr "Duplicate printhead label"
+
+#: src/slic3r/GUI/Tab.cpp:6246
+msgid ""
+"Printhead firmware tokens must be unique. \"%1%\" is already used by another "
+"printhead."
+msgstr ""
+"Printhead firmware tokens must be unique. \"%1%\" is already used by another "
+"printhead."
+
+#: src/slic3r/GUI/Tab.cpp:6247
+msgid "Duplicate printhead firmware token"
+msgstr "Duplicate printhead firmware token"
+
+#: src/libslic3r/Print.cpp:493
+msgid ""
+"IDEX requires unique printhead firmware tokens. The token \"%1%\" is used "
+"more than once."
+msgstr ""
+"IDEX requires unique printhead firmware tokens. The token \"%1%\" is used "
+"more than once."

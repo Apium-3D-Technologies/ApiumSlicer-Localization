@@ -32179,3 +32179,70 @@ msgid ""
 msgstr ""
 "The selected project file contains version history and was not overwritten. "
 "Use Save or Versioned Save to preserve project history."
+
+#: src/libslic3r/PrintConfig.cpp:3780
+msgid "Number of physical extruders configured for this printer."
+msgstr "为此打印机配置的物理挤出机数量。"
+
+#: src/libslic3r/PrintConfig.cpp:3788
+msgid ""
+"Label used throughout the GUI to identify this printhead. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+msgstr ""
+"用于在界面中标识此打印头的名称。'%n%' 将替换为从零开始的打印头编号。换行符会"
+"被移除。留空时使用 Tn。"
+
+#: src/libslic3r/PrintConfig.cpp:3794
+msgid ""
+"Exact tool identifier used in slicer-generated G-code. '%n%' is replaced "
+"with the zero-based printhead number. Line breaks are removed. Leave empty "
+"to fall back to Tn."
+msgstr ""
+"切片器生成的 G-code 中使用的精确工具标识。'%n%' 将替换为从零开始的打印头编"
+"号。换行符会被移除。留空时使用 Tn。"
+
+#: src/libslic3r/PrintConfig.cpp:3800
+msgid ""
+"Select a single physical printhead, independent IDEX printing, duplicate "
+"printing, or mirror printing. Available modes depend on the configured "
+"extruder count."
+msgstr ""
+"选择单个物理打印头、独立 IDEX 打印、复制打印或镜像打印。可用模式取决于配置的"
+"挤出机数量。"
+
+#: src/slic3r/GUI/Tab.cpp:5334
+msgid ""
+"Reducing the extruder count permanently removes the settings for: %1%. "
+"Continue?"
+msgstr "减少挤出机数量将永久删除以下设置：%1%。是否继续？"
+
+#: src/slic3r/GUI/Tab.cpp:5335
+msgid "Reduce extruder count"
+msgstr "减少挤出机数量"
+
+#: src/slic3r/GUI/Tab.cpp:6218
+msgid ""
+"Printhead labels must be unique. \"%1%\" is already used by another "
+"printhead."
+msgstr "打印头名称必须唯一。\"%1%\" 已被另一个打印头使用。"
+
+#: src/slic3r/GUI/Tab.cpp:6219
+msgid "Duplicate printhead label"
+msgstr "重复的打印头名称"
+
+#: src/slic3r/GUI/Tab.cpp:6246
+msgid ""
+"Printhead firmware tokens must be unique. \"%1%\" is already used by another "
+"printhead."
+msgstr "打印头固件标识必须唯一。\"%1%\" 已被另一个打印头使用。"
+
+#: src/slic3r/GUI/Tab.cpp:6247
+msgid "Duplicate printhead firmware token"
+msgstr "重复的打印头固件标识"
+
+#: src/libslic3r/Print.cpp:493
+msgid ""
+"IDEX requires unique printhead firmware tokens. The token \"%1%\" is used "
+"more than once."
+msgstr "IDEX 要求打印头固件标识唯一。标识 \"%1%\" 被多次使用。"
