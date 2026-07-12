@@ -308,7 +308,7 @@ msgstr ""
 
 #: src/libslic3r/GCode.cpp:1098
 #, boost-format
-msgid "Print speed was reduced by slicer constraints: %1%."
+msgid "Print speed was reduced by slicer constraints:\n%1%."
 msgstr ""
 
 #: src/libslic3r/miniz_extension.cpp:96

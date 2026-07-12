@@ -21825,9 +21825,12 @@ msgstr "Maximaler volumetrischer Durchfluss"
 
 #: src/libslic3r/GCode.cpp:1098
 #, boost-format
-msgid "Print speed was reduced by slicer constraints: %1%."
+msgid ""
+"Print speed was reduced by slicer constraints:\n"
+"%1%."
 msgstr ""
-"Die Druckgeschwindigkeit wurde durch Slicer-Beschränkungen reduziert: %1%."
+"Die Druckgeschwindigkeit wurde durch Slicer-Beschränkungen reduziert:\n"
+"%1%."
 
 #. TRN Wifi config dialog explanation line 3.
 #: src/slic3r/GUI/WifiConfigDialog.cpp:54
