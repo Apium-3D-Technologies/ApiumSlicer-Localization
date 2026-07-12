@@ -5036,15 +5036,20 @@ msgstr "Temperaturbefehle automatisch ausgeben"
 msgid "Force temperature integers"
 msgstr "Ganzzahlige Temperaturen erzwingen"
 
-#: src/libslic3r/PrintConfig.cpp:2838
+#: src/libslic3r/PrintConfig.cpp
 msgid ""
-"When enabled, all supported temperature commands in generated and custom G-"
-"code are rounded to whole numbers. Applies to M104, M109, M140, M190, M141, "
-"M191 and G10 commands."
+"When enabled, supported nozzle, bed and chamber temperature commands in "
+"generated and custom G-code are rounded to whole numbers during export. This "
+"includes firmware-specific commands and preview slider entries. Klipper "
+"always enforces integer temperatures. The original custom G-code and slider "
+"entries remain unchanged."
 msgstr ""
-"Wenn aktiviert, werden alle unterstützten Temperaturbefehle in erzeugtem und "
-"benutzerdefiniertem G-Code auf ganze Zahlen gerundet. Gilt für M104, M109, "
-"M140, M190, M141, M191 und G10."
+"Wenn aktiviert, werden unterstützte Düsen-, Bett- und "
+"Kammertemperaturbefehle in erzeugtem und benutzerdefiniertem G-Code während "
+"des Exports auf ganze Zahlen gerundet. Dies umfasst Firmware-spezifische "
+"Befehle und Vorschau-Slider-Einträge. Klipper erzwingt immer ganzzahlige "
+"Temperaturen. Die ursprünglichen benutzerdefinierten G-Code- und Slider-"
+"Einträge bleiben unverändert."
 
 #: src/slic3r/GUI/Tab.cpp:2594
 msgid ""
@@ -33608,3 +33613,38 @@ msgid ""
 msgstr ""
 "IDEX erfordert eindeutige Firmware-Kennungen der Druckköpfe. Die Kennung "
 "\"%1%\" wird mehrfach verwendet."
+
+#: src/libslic3r/GCode.cpp
+msgid "checksummed G-code line"
+msgstr "G-Code-Zeile mit Prüfsumme"
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid ""
+"Temperature integer export failed in %1%: %2% contains an unsupported "
+"temperature value (%3%)."
+msgstr ""
+"Der Export ganzzahliger Temperaturen ist in %1% fehlgeschlagen: %2% enthält "
+"einen nicht unterstützten Temperaturwert (%3%)."
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "%1% temperature values were rounded to integers in the exported G-code:"
+msgstr ""
+"%1% Temperaturwerte wurden im exportierten G-Code auf ganze Zahlen gerundet:"
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"The original custom G-code and preview slider entries in the slicer were not "
+"modified."
+msgstr ""
+"Die ursprünglichen benutzerdefinierten G-Code- und Vorschau-Slider-Einträge "
+"im Slicer wurden nicht verändert."
+
+#: src/libslic3r/GCode.cpp
+msgid "Nozzle temperature slider"
+msgstr "Düsentemperatur-Slider"
+
+#: src/libslic3r/GCode.cpp
+msgid "Final slicer G-code output"
+msgstr "Finale G-Code-Ausgabe des Slicers"

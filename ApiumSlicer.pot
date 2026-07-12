@@ -3871,11 +3871,8 @@ msgstr ""
 msgid "Force temperature integers"
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:2838
-msgid ""
-"When enabled, all supported temperature commands in generated and custom "
-"G-code are rounded to whole numbers. Applies to M104, M109, M140, M190, "
-"M141, M191 and G10 commands."
+#: src/libslic3r/PrintConfig.cpp
+msgid "When enabled, supported nozzle, bed and chamber temperature commands in generated and custom G-code are rounded to whole numbers during export. This includes firmware-specific commands and preview slider entries. Klipper always enforces integer temperatures. The original custom G-code and slider entries remain unchanged."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2843
@@ -21502,4 +21499,31 @@ msgstr ""
 
 #: src/libslic3r/Print.cpp:493
 msgid "IDEX requires unique printhead firmware tokens. The token \"%1%\" is used more than once."
+msgstr ""
+
+
+#: src/libslic3r/GCode.cpp
+msgid "checksummed G-code line"
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "Temperature integer export failed in %1%: %2% contains an unsupported temperature value (%3%)."
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "%1% temperature values were rounded to integers in the exported G-code:"
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid "The original custom G-code and preview slider entries in the slicer were not modified."
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid "Nozzle temperature slider"
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid "Final slicer G-code output"
 msgstr ""

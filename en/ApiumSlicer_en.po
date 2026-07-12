@@ -4612,15 +4612,19 @@ msgstr ""
 msgid "Force temperature integers"
 msgstr "Force temperature integers"
 
-#: src/libslic3r/PrintConfig.cpp:2838
+#: src/libslic3r/PrintConfig.cpp
 msgid ""
-"When enabled, all supported temperature commands in generated and custom G-"
-"code are rounded to whole numbers. Applies to M104, M109, M140, M190, M141, "
-"M191 and G10 commands."
+"When enabled, supported nozzle, bed and chamber temperature commands in "
+"generated and custom G-code are rounded to whole numbers during export. This "
+"includes firmware-specific commands and preview slider entries. Klipper "
+"always enforces integer temperatures. The original custom G-code and slider "
+"entries remain unchanged."
 msgstr ""
-"When enabled, all supported temperature commands in generated and custom G-"
-"code are rounded to whole numbers. Applies to M104, M109, M140, M190, M141, "
-"M191 and G10 commands."
+"When enabled, supported nozzle, bed and chamber temperature commands in "
+"generated and custom G-code are rounded to whole numbers during export. This "
+"includes firmware-specific commands and preview slider entries. Klipper "
+"always enforces integer temperatures. The original custom G-code and slider "
+"entries remain unchanged."
 
 #: src/libslic3r/PrintConfig.cpp:2843
 msgid ""
@@ -32785,3 +32789,38 @@ msgid ""
 msgstr ""
 "IDEX requires unique printhead firmware tokens. The token \"%1%\" is used "
 "more than once."
+
+#: src/libslic3r/GCode.cpp
+msgid "checksummed G-code line"
+msgstr "checksummed G-code line"
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid ""
+"Temperature integer export failed in %1%: %2% contains an unsupported "
+"temperature value (%3%)."
+msgstr ""
+"Temperature integer export failed in %1%: %2% contains an unsupported "
+"temperature value (%3%)."
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "%1% temperature values were rounded to integers in the exported G-code:"
+msgstr ""
+"%1% temperature values were rounded to integers in the exported G-code:"
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"The original custom G-code and preview slider entries in the slicer were not "
+"modified."
+msgstr ""
+"The original custom G-code and preview slider entries in the slicer were not "
+"modified."
+
+#: src/libslic3r/GCode.cpp
+msgid "Nozzle temperature slider"
+msgstr "Nozzle temperature slider"
+
+#: src/libslic3r/GCode.cpp
+msgid "Final slicer G-code output"
+msgstr "Final slicer G-code output"

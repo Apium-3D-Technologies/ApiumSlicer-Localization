@@ -4484,14 +4484,17 @@ msgstr "自动发出温度命令"
 msgid "Force temperature integers"
 msgstr "强制温度为整数"
 
-#: src/libslic3r/PrintConfig.cpp:3128
+#: src/libslic3r/PrintConfig.cpp
 msgid ""
-"When enabled, all supported temperature commands in generated and custom G-"
-"code are rounded to whole numbers. Applies to M104, M109, M140, M190, M141, "
-"M191 and G10 commands."
+"When enabled, supported nozzle, bed and chamber temperature commands in "
+"generated and custom G-code are rounded to whole numbers during export. This "
+"includes firmware-specific commands and preview slider entries. Klipper "
+"always enforces integer temperatures. The original custom G-code and slider "
+"entries remain unchanged."
 msgstr ""
-"启用后，生成的 G-code 与自定义 G-code 中所有受支持的温度命令都会被四舍五入为"
-"整数。适用于 M104、M109、M140、M190、M141、M191 和 G10 命令。"
+"启用后，生成和自定义 G-code 中支持的喷嘴、热床和腔体温度命令会在导出时舍入为"
+"整数。这包括固件特定命令和预览滑块条目。Klipper 始终强制使用整数温度。原始自"
+"定义 G-code 和滑块条目保持不变。"
 
 #: src/libslic3r/PrintConfig.cpp:3109
 msgid ""
@@ -32250,3 +32253,33 @@ msgid ""
 "IDEX requires unique printhead firmware tokens. The token \"%1%\" is used "
 "more than once."
 msgstr "IDEX 要求打印头固件标识唯一。标识 \"%1%\" 被多次使用。"
+
+#: src/libslic3r/GCode.cpp
+msgid "checksummed G-code line"
+msgstr "校验和 G-code 行"
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid ""
+"Temperature integer export failed in %1%: %2% contains an unsupported "
+"temperature value (%3%)."
+msgstr "温度整数导出在 %1% 中失败：%2% 包含不受支持的温度值（%3%）。"
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "%1% temperature values were rounded to integers in the exported G-code:"
+msgstr "导出的 G-code 中有 %1% 个温度值被舍入为整数："
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"The original custom G-code and preview slider entries in the slicer were not "
+"modified."
+msgstr "切片软件中的原始自定义 G-code 和预览滑块条目未被修改。"
+
+#: src/libslic3r/GCode.cpp
+msgid "Nozzle temperature slider"
+msgstr "喷嘴温度滑块"
+
+#: src/libslic3r/GCode.cpp
+msgid "Final slicer G-code output"
+msgstr "切片软件最终 G-code 输出"
