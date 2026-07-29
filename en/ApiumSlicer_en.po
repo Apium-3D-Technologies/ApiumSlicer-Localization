@@ -2692,13 +2692,11 @@ msgstr "Fill angle"
 
 #: src/libslic3r/PrintConfig.cpp:1429
 msgid ""
-"Default base angle for infill orientation. Cross-hatching will be applied to "
-"this. Bridges will be infilled using the best direction Slic3r can detect, "
-"so this setting does not affect them."
+"Base angle for the selected infill pattern. Cross-hatching will be applied "
+"to this. Automatically detected bridge directions may override this value."
 msgstr ""
-"Default base angle for infill orientation. Cross-hatching will be applied to "
-"this. Bridges will be infilled using the best direction Slic3r can detect, "
-"so this setting does not affect them."
+"Base angle for the selected infill pattern. Cross-hatching will be applied "
+"to this. Automatically detected bridge directions may override this value."
 
 #: src/libslic3r/PrintConfig.cpp:1440
 msgid "Fill density"

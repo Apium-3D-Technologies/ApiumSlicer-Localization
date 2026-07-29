@@ -3852,13 +3852,12 @@ msgstr "Standard"
 
 #: src/libslic3r/PrintConfig.cpp:1429
 msgid ""
-"Default base angle for infill orientation. Cross-hatching will be applied to "
-"this. Bridges will be infilled using the best direction Slic3r can detect, "
-"so this setting does not affect them."
+"Base angle for the selected infill pattern. Cross-hatching will be applied "
+"to this. Automatically detected bridge directions may override this value."
 msgstr ""
-"Standard-Grundwinkel für die Ausrichtung der Füllung. Hierfür werden "
-"Kreuzschraffuren verwendet. Brücken werden mit der besten Richtung gefüllt, "
-"die Slic3r erkennen kann, so dass diese Einstellung sie nicht beeinflusst."
+"Grundwinkel für das ausgewählte Füllmuster. Darauf wird eine Kreuzschraffur "
+"angewendet. Automatisch erkannte Brückenrichtungen können diesen Wert "
+"überschreiben."
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2447
 msgid "default color"

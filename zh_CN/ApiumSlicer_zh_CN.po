@@ -2601,12 +2601,11 @@ msgstr "填充角度"
 
 #: src/libslic3r/PrintConfig.cpp:1547
 msgid ""
-"Default base angle for infill orientation. Cross-hatching will be applied to "
-"this. Bridges will be infilled using the best direction Slic3r can detect, "
-"so this setting does not affect them."
+"Base angle for the selected infill pattern. Cross-hatching will be applied "
+"to this. Automatically detected bridge directions may override this value."
 msgstr ""
-"填充方向的默认基本角度。交叉阴影将应用于此。网桥将使用 Slic3r 可以检测到的最"
-"佳方向填充，因此此设置不会影响它们。"
+"所选填充图案的基础角度。交叉填充将基于此角度。自动检测的桥接方向可能会覆盖此"
+"值。"
 
 #: src/libslic3r/PrintConfig.cpp:1558
 msgid "Fill density"
