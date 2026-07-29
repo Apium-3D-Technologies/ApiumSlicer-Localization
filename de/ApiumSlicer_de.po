@@ -31496,13 +31496,12 @@ msgstr "Relative Schichthöhen verwenden"
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "If enabled, Layer height and First layer height are derived from their "
-"percentage values over the smallest configured nozzle diameter. Derived mm "
-"values are limited by printer layer height limits."
+"percentage values over the T0 nozzle diameter. Derived mm values are limited "
+"by the T0 layer height limits."
 msgstr ""
 "Wenn aktiviert, werden Schichthöhe und erste Schichthöhe aus ihren "
-"Prozentwerten über den kleinsten konfigurierten Düsendurchmesser berechnet. "
-"Die abgeleiteten mm-Werte werden durch die Schichthöhen-Grenzen des Druckers "
-"begrenzt."
+"Prozentwerten bezogen auf den T0-Düsendurchmesser berechnet. Die "
+"abgeleiteten mm-Werte werden durch die T0-Schichthöhengrenzen begrenzt."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Layer height (%)"
@@ -31510,12 +31509,12 @@ msgstr "Schichthöhe (%)"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive Layer "
-"height in mm. Changing this value or nozzle diameter updates Layer height."
+"Percentage of the T0 nozzle diameter used to derive Layer height in mm. "
+"Changing this value or nozzle diameter updates Layer height."
 msgstr ""
-"Prozentsatz des kleinsten konfigurierten Düsendurchmessers zur Berechnung "
-"der Schichthöhe in mm. Das Ändern dieses Werts oder des Düsendurchmessers "
-"aktualisiert die Schichthöhe."
+"Prozentsatz des T0-Düsendurchmessers zur Berechnung der Schichthöhe in mm. "
+"Das Ändern dieses Werts oder des Düsendurchmessers aktualisiert die "
+"Schichthöhe."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "First layer height (%)"
@@ -31523,13 +31522,12 @@ msgstr "Erste Schichthöhe (%)"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive First "
-"layer height in mm. Changing this value or nozzle diameter updates First "
-"layer height."
+"Percentage of the T0 nozzle diameter used to derive First layer height in "
+"mm. Changing this value or nozzle diameter updates First layer height."
 msgstr ""
-"Prozentsatz des kleinsten konfigurierten Düsendurchmessers zur Berechnung "
-"der ersten Schichthöhe in mm. Das Ändern dieses Werts oder des "
-"Düsendurchmessers aktualisiert die erste Schichthöhe."
+"Prozentsatz des T0-Düsendurchmessers zur Berechnung der ersten Schichthöhe "
+"in mm. Das Ändern dieses Werts oder des Düsendurchmessers aktualisiert die "
+"erste Schichthöhe."
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:66
 msgid ""

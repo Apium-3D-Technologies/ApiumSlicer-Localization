@@ -30212,15 +30212,13 @@ msgid "Use relative layer heights"
 msgstr "Use relative layer heights"
 
 #: src/libslic3r/PrintConfig.cpp
-#, fuzzy
 msgid ""
 "If enabled, Layer height and First layer height are derived from their "
-"percentage values over the smallest configured nozzle diameter. Derived mm "
-"values are limited by printer layer height limits."
+"percentage values over the T0 nozzle diameter. Derived mm values are limited "
+"by the T0 layer height limits."
 msgstr ""
-"If enabled, Layer height and First layer height are derived from their "
-"percentage values over the smallest configured nozzle diameter. Derived mm "
-"values are limited by printer layer height limits."
+"启用后，层高和首层层高根据其相对于 T0 喷嘴直径的百分比计算。派生的毫米值受 "
+"T0 层高限制约束。"
 
 #: src/libslic3r/PrintConfig.cpp
 #, fuzzy
@@ -30228,13 +30226,10 @@ msgid "Layer height (%)"
 msgstr "Layer height (%)"
 
 #: src/libslic3r/PrintConfig.cpp
-#, fuzzy
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive Layer "
-"height in mm. Changing this value or nozzle diameter updates Layer height."
-msgstr ""
-"Percentage of the smallest configured nozzle diameter used to derive Layer "
-"height in mm. Changing this value or nozzle diameter updates Layer height."
+"Percentage of the T0 nozzle diameter used to derive Layer height in mm. "
+"Changing this value or nozzle diameter updates Layer height."
+msgstr "用于计算层高毫米值的 T0 喷嘴直径百分比。更改此值或喷嘴直径会更新层高。"
 
 #: src/libslic3r/PrintConfig.cpp
 #, fuzzy
@@ -30242,15 +30237,12 @@ msgid "First layer height (%)"
 msgstr "First layer height (%)"
 
 #: src/libslic3r/PrintConfig.cpp
-#, fuzzy
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive First "
-"layer height in mm. Changing this value or nozzle diameter updates First "
-"layer height."
+"Percentage of the T0 nozzle diameter used to derive First layer height in "
+"mm. Changing this value or nozzle diameter updates First layer height."
 msgstr ""
-"Percentage of the smallest configured nozzle diameter used to derive First "
-"layer height in mm. Changing this value or nozzle diameter updates First "
-"layer height."
+"用于计算首层层高毫米值的 T0 喷嘴直径百分比。更改此值或喷嘴直径会更新首层层"
+"高。"
 
 #: src/libslic3r/PrintConfig.cpp
 #, fuzzy

@@ -19912,8 +19912,8 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
 "If enabled, Layer height and First layer height are derived from their "
-"percentage values over the smallest configured nozzle diameter. Derived mm "
-"values are limited by printer layer height limits."
+"percentage values over the T0 nozzle diameter. Derived mm values are limited "
+"by the T0 layer height limits."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19922,8 +19922,8 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive Layer "
-"height in mm. Changing this value or nozzle diameter updates Layer height."
+"Percentage of the T0 nozzle diameter used to derive Layer height in mm. "
+"Changing this value or nozzle diameter updates Layer height."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
@@ -19932,9 +19932,8 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Percentage of the smallest configured nozzle diameter used to derive First "
-"layer height in mm. Changing this value or nozzle diameter updates First "
-"layer height."
+"Percentage of the T0 nozzle diameter used to derive First layer height in "
+"mm. Changing this value or nozzle diameter updates First layer height."
 msgstr ""
 
 #: src/libslic3r/Print.cpp:876
