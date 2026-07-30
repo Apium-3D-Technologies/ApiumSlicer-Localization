@@ -21522,6 +21522,26 @@ msgstr ""
 msgid "Nozzle temperature slider"
 msgstr ""
 
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Plater.cpp
+msgid "Import G-code settings"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Select the settings to import from the G-code file"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Open in G-code Viewer"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Select an action to apply to the G-code file"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Material settings"
+msgstr ""
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr ""

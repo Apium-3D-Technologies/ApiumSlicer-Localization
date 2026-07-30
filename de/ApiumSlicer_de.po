@@ -33642,6 +33642,28 @@ msgstr ""
 msgid "Nozzle temperature slider"
 msgstr "Düsentemperatur-Slider"
 
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Plater.cpp
+msgid "Import G-code settings"
+msgstr "G-Code-Einstellungen importieren"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Select the settings to import from the G-code file"
+msgstr ""
+"Wählen Sie die Einstellungen aus, die aus der G-Code-Datei importiert werden "
+"sollen"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Open in G-code Viewer"
+msgstr "Im G-Code-Viewer öffnen"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Select an action to apply to the G-code file"
+msgstr "Wählen Sie eine Aktion für die G-Code-Datei aus"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Material settings"
+msgstr "Materialeinstellungen"
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr "Finale G-Code-Ausgabe des Slicers"

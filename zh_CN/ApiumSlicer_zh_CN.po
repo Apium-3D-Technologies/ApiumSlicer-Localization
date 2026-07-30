@@ -32271,6 +32271,26 @@ msgstr "切片软件中的原始自定义 G-code 和预览滑块条目未被修�
 msgid "Nozzle temperature slider"
 msgstr "喷嘴温度滑块"
 
+#: src/slic3r/GUI/MainFrame.cpp src/slic3r/GUI/Plater.cpp
+msgid "Import G-code settings"
+msgstr "导入 G-code 设置"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Select the settings to import from the G-code file"
+msgstr "选择要从 G-code 文件导入的设置"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Open in G-code Viewer"
+msgstr "在 G-code 查看器中打开"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Select an action to apply to the G-code file"
+msgstr "选择要对 G-code 文件执行的操作"
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Material settings"
+msgstr "材料设置"
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr "切片软件最终 G-code 输出"
