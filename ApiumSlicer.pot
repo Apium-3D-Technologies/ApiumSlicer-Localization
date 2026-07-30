@@ -21525,3 +21525,17 @@ msgstr ""
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Nozzle temperature applied while printing inside this local object region. "
+"The value applies to whichever extruder is active. Set to 0 to inherit the "
+"temperature that would otherwise apply at this position."
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"Local nozzle temperature overrides are active. The printer may not be able "
+"to change the nozzle temperature quickly enough to follow short or rapidly "
+"printed regions accurately."
+msgstr ""

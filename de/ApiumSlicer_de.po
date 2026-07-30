@@ -33645,3 +33645,24 @@ msgstr "Düsentemperatur-Slider"
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr "Finale G-Code-Ausgabe des Slicers"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Nozzle temperature applied while printing inside this local object region. "
+"The value applies to whichever extruder is active. Set to 0 to inherit the "
+"temperature that would otherwise apply at this position."
+msgstr ""
+"Düsentemperatur, die beim Drucken innerhalb dieses lokalen Objektbereichs "
+"verwendet wird. Der Wert gilt für den jeweils aktiven Extruder. Auf 0 "
+"setzen, um die Temperatur zu erben, die an dieser Position sonst gelten "
+"würde."
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"Local nozzle temperature overrides are active. The printer may not be able "
+"to change the nozzle temperature quickly enough to follow short or rapidly "
+"printed regions accurately."
+msgstr ""
+"Lokale Überschreibungen der Düsentemperatur sind aktiv. Der Drucker kann die "
+"Düsentemperatur möglicherweise nicht schnell genug ändern, um kurzen oder "
+"schnell gedruckten Bereichen exakt zu folgen."
