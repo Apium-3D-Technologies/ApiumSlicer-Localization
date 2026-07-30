@@ -21542,6 +21542,14 @@ msgstr ""
 msgid "Material settings"
 msgstr ""
 
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "The preview legend is hidden."
+msgstr ""
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Press L or use View -> Show Legend to show it again."
+msgstr ""
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr ""

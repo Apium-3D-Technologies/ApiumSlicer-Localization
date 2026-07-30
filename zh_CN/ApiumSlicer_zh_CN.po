@@ -32291,6 +32291,14 @@ msgstr "选择要对 G-code 文件执行的操作"
 msgid "Material settings"
 msgstr "材料设置"
 
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "The preview legend is hidden."
+msgstr "预览图例已隐藏。"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Press L or use View -> Show Legend to show it again."
+msgstr "按 L，或使用“视图 -> 显示图例”将其重新显示。"
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr "切片软件最终 G-code 输出"

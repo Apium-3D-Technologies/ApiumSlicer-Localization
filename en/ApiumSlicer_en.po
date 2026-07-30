@@ -32837,6 +32837,14 @@ msgstr "Select an action to apply to the G-code file"
 msgid "Material settings"
 msgstr "Material settings"
 
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "The preview legend is hidden."
+msgstr "The preview legend is hidden."
+
+#: src/slic3r/GUI/GLCanvas3D.cpp
+msgid "Press L or use View -> Show Legend to show it again."
+msgstr "Press L or use View -> Show Legend to show it again."
+
 #: src/libslic3r/GCode.cpp
 msgid "Final slicer G-code output"
 msgstr "Final slicer G-code output"
