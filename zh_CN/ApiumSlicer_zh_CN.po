@@ -3251,6 +3251,33 @@ msgstr "熨烫类型"
 msgid "All solid surfaces"
 msgstr "所有实心表面"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Support interface top"
+msgstr "支撑界面顶层"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Top interface angle"
+msgstr "顶部界面角度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Absolute pattern angle of the top support material interface. Interface "
+"layers alternate by 90 degrees, with the top contact layer using this angle."
+msgstr ""
+"顶部支撑材料界面的绝对图案角度。界面层以 90 度交替，最上方接触层使用此角度。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bottom interface angle"
+msgstr "底部界面角度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Absolute pattern angle of the bottom support material interface. Interface "
+"layers alternate by 90 degrees, with the bottom contact layer using this "
+"angle."
+msgstr ""
+"底部支撑材料界面的绝对图案角度。界面层以 90 度交替，最下方接触层使用此角度。"
+
 #: src/libslic3r/PrintConfig.cpp:2103
 msgid "Flow rate"
 msgstr "流量"
@@ -18657,8 +18684,8 @@ msgid "Raft"
 msgstr "基座"
 
 #: src/slic3r/GUI/Tab.cpp:1566
-msgid "Options for support material and raft"
-msgstr "支撑材料和基座的选项"
+msgid "Options for support material"
+msgstr "支撑材料选项"
 
 #: src/slic3r/GUI/Tab.cpp:1585
 msgid "Organic supports"
