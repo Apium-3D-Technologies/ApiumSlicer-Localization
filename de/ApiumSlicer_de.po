@@ -33698,3 +33698,17 @@ msgstr ""
 "Lokale Überschreibungen der Düsentemperatur sind aktiv. Der Drucker kann die "
 "Düsentemperatur möglicherweise nicht schnell genug ändern, um kurzen oder "
 "schnell gedruckten Bereichen exakt zu folgen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cooling fan speed"
+msgstr "Bauteillüftergeschwindigkeit"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Part cooling fan speed applied while printing inside this local object "
+"region. Set to -1 to inherit the fan speed that would otherwise apply at "
+"this position."
+msgstr ""
+"Bauteillüftergeschwindigkeit, die beim Drucken innerhalb dieses lokalen "
+"Objektbereichs verwendet wird. Auf -1 setzen, um die Lüftergeschwindigkeit "
+"zu erben, die an dieser Position sonst gelten würde."

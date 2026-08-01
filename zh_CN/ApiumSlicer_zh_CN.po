@@ -32320,3 +32320,16 @@ msgid ""
 msgstr ""
 "局部喷嘴温度覆盖已启用。打印机可能无法足够快地改变喷嘴温度，从而无法准确跟随"
 "较短或快速打印的区域。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cooling fan speed"
+msgstr "部件冷却风扇速度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Part cooling fan speed applied while printing inside this local object "
+"region. Set to -1 to inherit the fan speed that would otherwise apply at "
+"this position."
+msgstr ""
+"打印此局部对象区域时应用的部件冷却风扇速度。设为 -1 可继承此位置原本适用的风"
+"扇速度。"

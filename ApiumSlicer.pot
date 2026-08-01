@@ -21567,3 +21567,14 @@ msgid ""
 "to change the nozzle temperature quickly enough to follow short or rapidly "
 "printed regions accurately."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Cooling fan speed"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Part cooling fan speed applied while printing inside this local object "
+"region. Set to -1 to inherit the fan speed that would otherwise apply at "
+"this position."
+msgstr ""
