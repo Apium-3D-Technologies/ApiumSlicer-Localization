@@ -6,6 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
+
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 20:40+0100\n"
@@ -21597,4 +21598,104 @@ msgid ""
 "Part cooling fan speed applied while printing inside this local object "
 "region. Set to -1 to inherit the fan speed that would otherwise apply at "
 "this position."
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp src/slic3r/GUI/Sidebar.cpp
+msgid "Slicing Performance"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Overview"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Pipeline"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Details"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Stage"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Executed"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Reused"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Not reached"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Added"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Removed"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Previous"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Delta"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Failed"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Total cycle"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Successful attempt"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Wasted attempts"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "CPU time"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "CPU utilization"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "RSS delta"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Process peak RSS"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "TBB concurrency"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Workload"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "Slicing engine"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "G-code generation"
+msgstr ""
+
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp
+msgid "GUI completion"
 msgstr ""
