@@ -21838,6 +21838,42 @@ msgstr ""
 msgid "Saved layer: %1% mm, source move: %2%."
 msgstr ""
 
+#: src/slic3r/GUI/Tab.cpp
+msgid "Z-hole compensation"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Enable Z-hole compensation"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Temporarily close eligible Z-oriented internal openings whose first perimeter would be fully unsupported over a bridge. The printed membrane can be removed after printing."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Min. hole diameter"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Minimum equivalent hole diameter to compensate. For non-circular openings, the diameter of a circle with the same sliced area is used."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Max. hole diameter"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Maximum equivalent hole diameter to compensate. For non-circular openings, the diameter of a circle with the same sliced area is used."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Compensation layers count"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Number of object layers to close, including the first bridge layer. Tracking stops early if the opening no longer has a unique continuation."
+msgstr ""
+
 #: src/slic3r/GUI/DoubleSliderForGcode.cpp
 msgid "Add Fan Power"
 msgstr ""

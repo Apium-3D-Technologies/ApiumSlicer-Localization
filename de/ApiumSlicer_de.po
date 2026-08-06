@@ -25483,6 +25483,55 @@ msgstr "Ungültige Lüfterleistung"
 msgid "Invalid nozzle temperature"
 msgstr "Ungültige Düsentemperatur"
 
+#, c-format
+msgid "Z-hole compensation"
+msgstr "Z-Loch-Kompensation"
+
+msgid "Enable Z-hole compensation"
+msgstr "Z-Loch-Kompensation aktivieren"
+
+msgid ""
+"Temporarily close eligible Z-oriented internal openings whose first "
+"perimeter would be fully unsupported over a bridge. The printed membrane can "
+"be removed after printing."
+msgstr ""
+"Geeignete, in Z-Richtung verlaufende Innenöffnungen vorübergehend schließen, "
+"wenn ihr erster Perimeter vollständig ungestützt über einer Brücke läge. Die "
+"gedruckte Membran kann nach dem Druck entfernt werden."
+
+msgid "Min. hole diameter"
+msgstr "Min. Lochdurchmesser"
+
+msgid ""
+"Minimum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr ""
+"Kleinster zu kompensierender äquivalenter Lochdurchmesser. Für nicht runde "
+"Öffnungen wird der Durchmesser eines Kreises mit derselben geslicten Fläche "
+"verwendet."
+
+msgid "Max. hole diameter"
+msgstr "Max. Lochdurchmesser"
+
+msgid ""
+"Maximum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr ""
+"Größter zu kompensierender äquivalenter Lochdurchmesser. Für nicht runde "
+"Öffnungen wird der Durchmesser eines Kreises mit derselben geslicten Fläche "
+"verwendet."
+
+msgid "Compensation layers count"
+msgstr "Anzahl Kompensationsschichten"
+
+msgid ""
+"Number of object layers to close, including the first bridge layer. Tracking "
+"stops early if the opening no longer has a unique continuation."
+msgstr ""
+"Anzahl der zu schließenden Objektschichten einschließlich der ersten "
+"Brückenschicht. Die Verfolgung endet vorzeitig, wenn die Öffnung keine "
+"eindeutige Fortsetzung mehr hat."
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
@@ -31545,7 +31594,6 @@ msgstr "Ungültige Düsentemperatur"
 #~ msgid "yesterday"
 #~ msgstr "Gestern"
 
-#, c-format
 #~ msgid "zlib error %d"
 #~ msgstr "zlib-Fehler %d"
 

@@ -23639,6 +23639,47 @@ msgstr "无效的风扇功率"
 msgid "Invalid nozzle temperature"
 msgstr "无效的喷嘴温度"
 
+#, c-format
+msgid "Z-hole compensation"
+msgstr "Z 向孔补偿"
+
+msgid "Enable Z-hole compensation"
+msgstr "启用 Z 向孔补偿"
+
+msgid ""
+"Temporarily close eligible Z-oriented internal openings whose first "
+"perimeter would be fully unsupported over a bridge. The printed membrane can "
+"be removed after printing."
+msgstr ""
+"临时封闭符合条件的 Z 向内部开口，其首圈轮廓原本会完全悬空在桥接区域上方。打印"
+"后可移除生成的薄膜。"
+
+msgid "Min. hole diameter"
+msgstr "最小孔径"
+
+msgid ""
+"Minimum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr "需要补偿的最小等效孔径。对于非圆形开口，使用与切片面积相同的圆的直径。"
+
+msgid "Max. hole diameter"
+msgstr "最大孔径"
+
+msgid ""
+"Maximum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr "需要补偿的最大等效孔径。对于非圆形开口，使用与切片面积相同的圆的直径。"
+
+msgid "Compensation layers count"
+msgstr "补偿层数"
+
+msgid ""
+"Number of object layers to close, including the first bridge layer. Tracking "
+"stops early if the opening no longer has a unique continuation."
+msgstr ""
+"要封闭的对象层数，包括首个桥接层。如果开口不再具有唯一延续路径，跟踪会提前停"
+"止。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 
@@ -29216,7 +29257,6 @@ msgstr "无效的喷嘴温度"
 #~ msgid "yesterday"
 #~ msgstr "昨天"
 
-#, c-format
 #~ msgid "zlib error %d"
 #~ msgstr "zlib 错误 %d"
 

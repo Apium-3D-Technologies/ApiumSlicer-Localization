@@ -24740,6 +24740,52 @@ msgstr "Invalid fan power"
 msgid "Invalid nozzle temperature"
 msgstr "Invalid nozzle temperature"
 
+#, c-format
+msgid "Z-hole compensation"
+msgstr "Z-hole compensation"
+
+msgid "Enable Z-hole compensation"
+msgstr "Enable Z-hole compensation"
+
+msgid ""
+"Temporarily close eligible Z-oriented internal openings whose first "
+"perimeter would be fully unsupported over a bridge. The printed membrane can "
+"be removed after printing."
+msgstr ""
+"Temporarily close eligible Z-oriented internal openings whose first "
+"perimeter would be fully unsupported over a bridge. The printed membrane can "
+"be removed after printing."
+
+msgid "Min. hole diameter"
+msgstr "Min. hole diameter"
+
+msgid ""
+"Minimum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr ""
+"Minimum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+
+msgid "Max. hole diameter"
+msgstr "Max. hole diameter"
+
+msgid ""
+"Maximum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+msgstr ""
+"Maximum equivalent hole diameter to compensate. For non-circular openings, "
+"the diameter of a circle with the same sliced area is used."
+
+msgid "Compensation layers count"
+msgstr "Compensation layers count"
+
+msgid ""
+"Number of object layers to close, including the first bridge layer. Tracking "
+"stops early if the opening no longer has a unique continuation."
+msgstr ""
+"Number of object layers to close, including the first bridge layer. Tracking "
+"stops early if the opening no longer has a unique continuation."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
@@ -30633,7 +30679,6 @@ msgstr "Invalid nozzle temperature"
 #~ msgid "yesterday"
 #~ msgstr "yesterday"
 
-#, c-format
 #~ msgid "zlib error %d"
 #~ msgstr "zlib error %d"
 
