@@ -25322,6 +25322,68 @@ msgstr ""
 msgid "Change Object Type"
 msgstr "Objekttyp ändern"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power"
+msgstr "Zoneheater-Leistung"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Zoneheater target power applied inside this local object region. Set to -1 "
+"to inherit the target that would otherwise apply at this position."
+msgstr ""
+"Zoneheater-Zielleistung innerhalb dieses lokalen Objektbereichs. Mit -1 wird "
+"der Zielwert übernommen, der an dieser Position sonst gelten würde."
+
+#: src/slic3r/GUI/GUI_ObjectSettings.cpp
+msgid "Enter a relative value such as +5, -5, +5%, or -5%."
+msgstr "Geben Sie einen relativen Wert wie +5, -5, +5% oder -5% ein."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter zoneheater power (0-100) or a relative value such as +5 or -10%"
+msgstr ""
+"Geben Sie die Zoneheater-Leistung (0-100) oder einen relativen Wert wie +5 "
+"oder -10% ein"
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter a finite value between 0 and 100, or a signed relative value."
+msgstr ""
+"Geben Sie einen endlichen Wert zwischen 0 und 100 oder einen relativen Wert "
+"mit Vorzeichen ein."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter fan power (0-100) or a relative value such as +5 or -10%."
+msgstr ""
+"Geben Sie die Lüfterleistung (0-100) oder einen relativen Wert wie +5 oder "
+"-10% ein."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter nozzle temperature or a relative value such as +5 or -10%."
+msgstr ""
+"Geben Sie die Düsentemperatur oder einen relativen Wert wie +5 oder -10% ein."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid ""
+"Enter a finite temperature between 1 and 1500, or a signed relative value."
+msgstr ""
+"Geben Sie eine endliche Temperatur zwischen 1 und 1500 oder einen relativen "
+"Wert mit Vorzeichen ein."
+
+#: src/libslic3r/Print.cpp
+msgid "Invalid relative value for %1%"
+msgstr "Ungültiger relativer Wert für %1%"
+
+#: src/libslic3r/GCode.cpp
+msgid ""
+"Zoneheater commands exceeded the configured maximum power and were clamped "
+"in the exported G-code:"
+msgstr ""
+"Zoneheater-Befehle haben die konfigurierte Maximalleistung überschritten und "
+"wurden im exportierten G-Code begrenzt:"
+
+#: src/libslic3r/GCode.cpp
+msgid "The original settings in the slicer were not modified."
+msgstr "Die ursprünglichen Einstellungen im Slicer wurden nicht geändert."
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"

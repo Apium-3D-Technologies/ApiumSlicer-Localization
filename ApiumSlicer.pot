@@ -21735,3 +21735,46 @@ msgstr ""
 #: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
 msgid "Change Object Type"
 msgstr ""
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater power"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Zoneheater target power applied inside this local object region. Set to -1 to inherit the target that would otherwise apply at this position."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_ObjectSettings.cpp
+msgid "Enter a relative value such as +5, -5, +5%, or -5%."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter zoneheater power (0-100) or a relative value such as +5 or -10%"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter a finite value between 0 and 100, or a signed relative value."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter fan power (0-100) or a relative value such as +5 or -10%."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter nozzle temperature or a relative value such as +5 or -10%."
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter a finite temperature between 1 and 1500, or a signed relative value."
+msgstr ""
+
+#: src/libslic3r/Print.cpp
+msgid "Invalid relative value for %1%"
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid "Zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
+msgstr ""
+
+#: src/libslic3r/GCode.cpp
+msgid "The original settings in the slicer were not modified."
+msgstr ""
