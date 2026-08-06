@@ -23456,6 +23456,46 @@ msgstr "G-code 生成"
 msgid "GUI completion"
 msgstr "GUI 完成"
 
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Print Object"
+msgstr "打印对象"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Unnamed object"
+msgstr "未命名对象"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "1 copy"
+msgstr "1 个副本"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "%1% copies"
+msgstr "%1% 个副本"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "No suitable target object is available on this print bed."
+msgstr "此打印板上没有可用的合适目标对象。"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Target object:"
+msgstr "目标对象："
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Select target object"
+msgstr "选择目标对象"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid ""
+"Layer-specific settings, painted facets, and other object-specific data "
+"cannot be kept when changing this object type. Continue and remove this data?"
+msgstr ""
+"更改此对象类型时无法保留分层设置、涂绘表面和其他对象特定数据。是否继续并删除"
+"这些数据？"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Change Object Type"
+msgstr "更改对象类型"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

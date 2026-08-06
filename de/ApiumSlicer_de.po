@@ -25281,6 +25281,47 @@ msgstr "G-Code-Erzeugung"
 msgid "GUI completion"
 msgstr "GUI-Abschluss"
 
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Print Object"
+msgstr "Druckobjekt"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Unnamed object"
+msgstr "Unbenanntes Objekt"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "1 copy"
+msgstr "1 Kopie"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "%1% copies"
+msgstr "%1% Kopien"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "No suitable target object is available on this print bed."
+msgstr "Auf dieser Druckplatte ist kein geeignetes Zielobjekt verfügbar."
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Target object:"
+msgstr "Zielobjekt:"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Select target object"
+msgstr "Zielobjekt auswählen"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid ""
+"Layer-specific settings, painted facets, and other object-specific data "
+"cannot be kept when changing this object type. Continue and remove this data?"
+msgstr ""
+"Schichtspezifische Einstellungen, bemalte Flächen und andere "
+"objektspezifische Daten können beim Ändern dieses Objekttyps nicht "
+"beibehalten werden. Fortfahren und diese Daten entfernen?"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp src/slic3r/GUI/GUI_Factories.cpp
+msgid "Change Object Type"
+msgstr "Objekttyp ändern"
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
