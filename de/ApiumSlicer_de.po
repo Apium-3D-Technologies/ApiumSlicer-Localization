@@ -25384,6 +25384,105 @@ msgstr ""
 msgid "The original settings in the slicer were not modified."
 msgstr "Die ursprünglichen Einstellungen im Slicer wurden nicht geändert."
 
+#: src/libslic3r/GCode.cpp
+msgid "Horizontal slider custom G-code"
+msgstr "Benutzerdefinierter G-Code des horizontalen Schiebereglers"
+
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid ""
+"%1% horizontal slider G-code tick(s) were skipped because their saved moves "
+"no longer match the generated toolpath. Affected layer heights: %2% mm. Move "
+"or remove the warning ticks in Preview."
+msgstr ""
+"%1% horizontale G-Code-Markierung(en) wurden übersprungen, weil die "
+"gespeicherten Bewegungen nicht mehr zum erzeugten Werkzeugpfad passen. "
+"Betroffene Schichthöhen: %2% mm. Verschieben oder entfernen Sie die "
+"Warnmarkierungen in der Vorschau."
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid ""
+"This horizontal slider tick no longer matches its saved move. Shift-drag it "
+"to a valid move or remove it."
+msgstr ""
+"Diese horizontale Schieberegler-Markierung passt nicht mehr zu ihrer "
+"gespeicherten Bewegung. Verschieben Sie sie mit Umschalt-Ziehen auf eine "
+"gültige Bewegung oder entfernen Sie sie."
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid "Shift-drag to move this horizontal slider tick."
+msgstr ""
+"Mit Umschalt-Ziehen lässt sich diese horizontale Schieberegler-Markierung "
+"verschieben."
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid "Edit horizontal slider tick"
+msgstr "Horizontale Schieberegler-Markierung bearbeiten"
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid "Delete horizontal slider tick"
+msgstr "Horizontale Schieberegler-Markierung löschen"
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+#, boost-format
+msgid "Custom G-code before movement on layer %1% mm."
+msgstr "Benutzerdefinierter G-Code vor der Bewegung auf Schicht %1% mm."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Enter custom G-code executed before the selected movement"
+msgstr ""
+"Benutzerdefinierten G-Code eingeben, der vor der ausgewählten Bewegung "
+"ausgeführt wird"
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+#, boost-format
+msgid "Pause before movement on layer %1% mm."
+msgstr "Pause vor der Bewegung auf Schicht %1% mm."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+#, boost-format
+msgid "Zoneheater power before movement on layer %1% mm."
+msgstr "Zonenheizer-Leistung vor der Bewegung auf Schicht %1% mm."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+#, boost-format
+msgid "Fan power before movement on layer %1% mm."
+msgstr "Lüfterleistung vor der Bewegung auf Schicht %1% mm."
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+#, boost-format
+msgid "Nozzle temperature before movement on layer %1% mm."
+msgstr "Düsentemperatur vor der Bewegung auf Schicht %1% mm."
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+#, boost-format
+msgid "Saved layer: %1% mm, source move: %2%."
+msgstr "Gespeicherte Schicht: %1% mm, Quellbewegung: %2%."
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid "Add Fan Power"
+msgstr "Lüfterleistung hinzufügen"
+
+#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+msgid "Add Nozzle temperature"
+msgstr "Düsentemperatur hinzufügen"
+
+#: src/libslic3r/GCode.cpp
+msgid "Fan power slider"
+msgstr "Lüfterleistungs-Schieberegler"
+
+#: src/libslic3r/GCode.cpp
+msgid "Zoneheater power slider"
+msgstr "Zonenheizerleistungs-Schieberegler"
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Invalid fan power"
+msgstr "Ungültige Lüfterleistung"
+
+#: src/slic3r/GUI/GUI_Preview.cpp
+msgid "Invalid nozzle temperature"
+msgstr "Ungültige Düsentemperatur"
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
