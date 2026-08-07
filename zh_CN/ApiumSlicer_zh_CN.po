@@ -23547,89 +23547,13 @@ msgstr "区域加热器命令超过了配置的最大功率，已在导出的 G-
 msgid "The original settings in the slicer were not modified."
 msgstr "切片软件中的原始设置未被修改。"
 
-#: src/libslic3r/GCode.cpp
-msgid "Horizontal slider custom G-code"
-msgstr "水平滑块自定义 G-code"
-
-#: src/libslic3r/GCode.cpp
-#, boost-format
-msgid ""
-"%1% horizontal slider G-code tick(s) were skipped because their saved moves "
-"no longer match the generated toolpath. Affected layer heights: %2% mm. Move "
-"or remove the warning ticks in Preview."
-msgstr ""
-"已跳过 %1% 个水平滑块 G-code 标记，因为其保存的移动与生成的刀具路径不再匹配。"
-"受影响的层高：%2% mm。请在预览中移动或删除警告标记。"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid ""
-"This horizontal slider tick no longer matches its saved move. Shift-drag it "
-"to a valid move or remove it."
-msgstr ""
-"此水平滑块标记与其保存的移动不再匹配。请按住 Shift 将其拖到有效移动，或将其删"
-"除。"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Shift-drag to move this horizontal slider tick."
-msgstr "按住 Shift 拖动此水平滑块标记。"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Edit horizontal slider tick"
-msgstr "编辑水平滑块标记"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Delete horizontal slider tick"
-msgstr "删除水平滑块标记"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Custom G-code before movement on layer %1% mm."
-msgstr "在层高 %1% mm 的移动前执行自定义 G-code。"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-msgid "Enter custom G-code executed before the selected movement"
-msgstr "输入在所选移动前执行的自定义 G-code"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Pause before movement on layer %1% mm."
-msgstr "在层高 %1% mm 的移动前暂停。"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Zoneheater power before movement on layer %1% mm."
-msgstr "在层高 %1% mm 的移动前设置区域加热器功率。"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Fan power before movement on layer %1% mm."
-msgstr "在层高 %1% mm 的移动前设置风扇功率。"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Nozzle temperature before movement on layer %1% mm."
-msgstr "在层高 %1% mm 的移动前设置喷嘴温度。"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-#, boost-format
-msgid "Saved layer: %1% mm, source move: %2%."
-msgstr "保存的层高：%1% mm，源移动：%2%。"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
 msgid "Add Fan Power"
 msgstr "添加风扇功率"
 
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
 msgid "Add Nozzle temperature"
 msgstr "添加喷嘴温度"
-
-#: src/libslic3r/GCode.cpp
-msgid "Fan power slider"
-msgstr "风扇功率滑块"
-
-#: src/libslic3r/GCode.cpp
-msgid "Zoneheater power slider"
-msgstr "区域加热器功率滑块"
 
 #: src/slic3r/GUI/GUI_Preview.cpp
 msgid "Invalid fan power"

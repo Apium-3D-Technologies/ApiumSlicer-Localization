@@ -24647,90 +24647,13 @@ msgstr ""
 msgid "The original settings in the slicer were not modified."
 msgstr "The original settings in the slicer were not modified."
 
-#: src/libslic3r/GCode.cpp
-msgid "Horizontal slider custom G-code"
-msgstr "Horizontal slider custom G-code"
-
-#: src/libslic3r/GCode.cpp
-#, boost-format
-msgid ""
-"%1% horizontal slider G-code tick(s) were skipped because their saved moves "
-"no longer match the generated toolpath. Affected layer heights: %2% mm. Move "
-"or remove the warning ticks in Preview."
-msgstr ""
-"%1% horizontal slider G-code tick(s) were skipped because their saved moves "
-"no longer match the generated toolpath. Affected layer heights: %2% mm. Move "
-"or remove the warning ticks in Preview."
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid ""
-"This horizontal slider tick no longer matches its saved move. Shift-drag it "
-"to a valid move or remove it."
-msgstr ""
-"This horizontal slider tick no longer matches its saved move. Shift-drag it "
-"to a valid move or remove it."
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Shift-drag to move this horizontal slider tick."
-msgstr "Shift-drag to move this horizontal slider tick."
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Edit horizontal slider tick"
-msgstr "Edit horizontal slider tick"
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-msgid "Delete horizontal slider tick"
-msgstr "Delete horizontal slider tick"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Custom G-code before movement on layer %1% mm."
-msgstr "Custom G-code before movement on layer %1% mm."
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-msgid "Enter custom G-code executed before the selected movement"
-msgstr "Enter custom G-code executed before the selected movement"
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Pause before movement on layer %1% mm."
-msgstr "Pause before movement on layer %1% mm."
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Zoneheater power before movement on layer %1% mm."
-msgstr "Zoneheater power before movement on layer %1% mm."
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Fan power before movement on layer %1% mm."
-msgstr "Fan power before movement on layer %1% mm."
-
-#: src/slic3r/GUI/GUI_Preview.cpp
-#, boost-format
-msgid "Nozzle temperature before movement on layer %1% mm."
-msgstr "Nozzle temperature before movement on layer %1% mm."
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
-#, boost-format
-msgid "Saved layer: %1% mm, source move: %2%."
-msgstr "Saved layer: %1% mm, source move: %2%."
-
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
 msgid "Add Fan Power"
 msgstr "Add Fan Power"
 
-#: src/slic3r/GUI/DoubleSliderForGcode.cpp
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp
 msgid "Add Nozzle temperature"
 msgstr "Add Nozzle temperature"
-
-#: src/libslic3r/GCode.cpp
-msgid "Fan power slider"
-msgstr "Fan power slider"
-
-#: src/libslic3r/GCode.cpp
-msgid "Zoneheater power slider"
-msgstr "Zoneheater power slider"
 
 #: src/slic3r/GUI/GUI_Preview.cpp
 msgid "Invalid fan power"
