@@ -17,6 +17,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
+#: src/slic3r/GUI/Plater.cpp
+msgid "Changing the extrusion mode or printer will remove all multi-material painting assignments. Continue?"
+msgstr "更改挤出模式或打印机将删除所有多材料涂色分配。是否继续？"
+
 #. TRN: Following strings are labels in the G-code Viewer legend.
 #: src/libslic3r/ExtrusionRole.cpp:41
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:34

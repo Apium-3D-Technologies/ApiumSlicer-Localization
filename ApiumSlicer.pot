@@ -19,6 +19,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: src/slic3r/GUI/Plater.cpp
+msgid "Changing the extrusion mode or printer will remove all multi-material painting assignments. Continue?"
+msgstr ""
+
 #. TRN: Following strings are labels in the G-code Viewer legend.
 #: src/libslic3r/ExtrusionRole.cpp:41
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:34
