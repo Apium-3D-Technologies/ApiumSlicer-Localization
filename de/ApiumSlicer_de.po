@@ -25481,6 +25481,23 @@ msgstr ""
 msgid "Beam interlocking"
 msgstr "Balkenverzahnung"
 
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "Processing layer (%1%/%2%)"
+msgstr "Verarbeite Schicht (%1%/%2%)"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Show slicing animation"
+msgstr "Slicing-Animation anzeigen"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"If enabled, the model is built up layer by layer in Preview while FFF G-code "
+"is generated."
+msgstr ""
+"Wenn aktiviert, wird das Modell während der FFF-G-Code-Erzeugung in der "
+"Vorschau Schicht für Schicht aufgebaut."
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"

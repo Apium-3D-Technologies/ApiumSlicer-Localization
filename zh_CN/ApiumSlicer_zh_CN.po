@@ -23636,6 +23636,21 @@ msgstr ""
 msgid "Beam interlocking"
 msgstr "梁式互锁"
 
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "Processing layer (%1%/%2%)"
+msgstr "正在处理层（%1%/%2%）"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Show slicing animation"
+msgstr "显示切片动画"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"If enabled, the model is built up layer by layer in Preview while FFF G-code "
+"is generated."
+msgstr "启用后，在生成 FFF G-code 时，模型将在预览中逐层构建。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

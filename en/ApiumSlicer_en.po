@@ -24741,6 +24741,23 @@ msgstr ""
 msgid "Beam interlocking"
 msgstr "Beam interlocking"
 
+#: src/libslic3r/GCode.cpp
+#, boost-format
+msgid "Processing layer (%1%/%2%)"
+msgstr "Processing layer (%1%/%2%)"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Show slicing animation"
+msgstr "Show slicing animation"
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid ""
+"If enabled, the model is built up layer by layer in Preview while FFF G-code "
+"is generated."
+msgstr ""
+"If enabled, the model is built up layer by layer in Preview while FFF G-code "
+"is generated."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
