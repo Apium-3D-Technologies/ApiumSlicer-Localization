@@ -2085,6 +2085,10 @@ msgstr ""
 msgid "Extruder"
 msgstr "Extruder"
 
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Toolhead"
+msgstr "Toolhead"
+
 #: src/libslic3r/PrintConfig.cpp:1031 src/libslic3r/PrintConfig.cpp:1796
 #: src/libslic3r/PrintConfig.cpp:2320 src/libslic3r/PrintConfig.cpp:2739
 #: src/libslic3r/PrintConfig.cpp:3020 src/libslic3r/PrintConfig.cpp:3048
