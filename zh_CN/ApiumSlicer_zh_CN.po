@@ -18148,10 +18148,14 @@ msgid "Minimum shell thickness"
 msgstr "最小壳体厚度"
 
 #: src/slic3r/GUI/Tab.cpp:1448
-msgid "Quality (slower slicing)"
-msgstr "质量（较慢的切片）"
+msgid "Perimeter slicing settings"
+msgstr "轮廓切片设置"
 
 #: src/slic3r/GUI/Tab.cpp:1460
+msgid "Slicing engine settings"
+msgstr "切片引擎设置"
+
+#: src/slic3r/GUI/Tab.cpp:1470
 msgid "Layer seams"
 msgstr "层缝"
 
@@ -18164,7 +18168,15 @@ msgid "Only one perimeter"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reducing printing time"
+msgid "Infill pattern"
+msgstr "填充图案"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Advanced infill settings"
+msgstr "高级填充设置"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Reduce printing time"
 msgstr "缩短打印时间"
 
 #: src/slic3r/GUI/Tab.cpp:1529
@@ -18172,8 +18184,16 @@ msgid "Raft"
 msgstr "基座"
 
 #: src/slic3r/GUI/Tab.cpp:1534
-msgid "Options for support material"
-msgstr "支撑材料选项"
+msgid "Support"
+msgstr "支撑"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support pattern"
+msgstr "支撑图案"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support interface"
+msgstr "支撑界面"
 
 #: src/slic3r/GUI/Tab.cpp:1553
 msgid "Organic supports"
@@ -23603,6 +23623,10 @@ msgid ""
 msgstr ""
 "要封闭的对象层数，包括首个桥接层。如果开口不再具有唯一延续路径，跟踪会提前停"
 "止。"
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Beam interlocking"
+msgstr "梁式互锁"
 
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"

@@ -19579,10 +19579,14 @@ msgid "Minimum shell thickness"
 msgstr "Minimale Schalenstärke"
 
 #: src/slic3r/GUI/Tab.cpp:1448
-msgid "Quality (slower slicing)"
-msgstr "Qualität (langsameres Slicen)"
+msgid "Perimeter slicing settings"
+msgstr "Perimeter-Slicing-Einstellungen"
 
 #: src/slic3r/GUI/Tab.cpp:1460
+msgid "Slicing engine settings"
+msgstr "Slicing-Engine-Einstellungen"
+
+#: src/slic3r/GUI/Tab.cpp:1470
 msgid "Layer seams"
 msgstr "Nahtpositionierung"
 
@@ -19595,16 +19599,32 @@ msgid "Only one perimeter"
 msgstr "Nur ein Perimeter"
 
 #: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reducing printing time"
-msgstr "Druckzeit wird verkürzt"
+msgid "Infill pattern"
+msgstr "Füllmuster"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Advanced infill settings"
+msgstr "Erweiterte Fülleinstellungen"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Reduce printing time"
+msgstr "Druckzeit reduzieren"
 
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr "Raft"
 
 #: src/slic3r/GUI/Tab.cpp:1534
-msgid "Options for support material"
-msgstr "Optionen für Stützmaterial"
+msgid "Support"
+msgstr "Stützmaterial"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support pattern"
+msgstr "Stützmuster"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support interface"
+msgstr "Stützmaterial-Schnittstelle"
 
 #: src/slic3r/GUI/Tab.cpp:1553
 msgid "Organic supports"
@@ -25448,6 +25468,10 @@ msgstr ""
 "Anzahl der zu schließenden Objektschichten einschließlich der ersten "
 "Brückenschicht. Die Verfolgung endet vorzeitig, wenn die Öffnung keine "
 "eindeutige Fortsetzung mehr hat."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Beam interlocking"
+msgstr "Balkenverzahnung"
 
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"

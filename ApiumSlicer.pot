@@ -17254,10 +17254,14 @@ msgid "Minimum shell thickness"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1448
-msgid "Quality (slower slicing)"
+msgid "Perimeter slicing settings"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1460
+msgid "Slicing engine settings"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:1470
 msgid "Layer seams"
 msgstr ""
 
@@ -17270,7 +17274,15 @@ msgid "Only one perimeter"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reducing printing time"
+msgid "Infill pattern"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Advanced infill settings"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Reduce printing time"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1529
@@ -17278,7 +17290,15 @@ msgid "Raft"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1534
-msgid "Options for support material"
+msgid "Support"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support pattern"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support interface"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1553
@@ -21829,4 +21849,8 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_Preview.cpp
 msgid "Invalid nozzle temperature"
+msgstr ""
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Beam interlocking"
 msgstr ""

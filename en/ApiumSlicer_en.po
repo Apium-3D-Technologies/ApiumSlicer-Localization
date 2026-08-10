@@ -19049,10 +19049,14 @@ msgid "Minimum shell thickness"
 msgstr "Minimum shell thickness"
 
 #: src/slic3r/GUI/Tab.cpp:1448
-msgid "Quality (slower slicing)"
-msgstr "Quality (slower slicing)"
+msgid "Perimeter slicing settings"
+msgstr "Perimeter slicing settings"
 
 #: src/slic3r/GUI/Tab.cpp:1460
+msgid "Slicing engine settings"
+msgstr "Slicing engine settings"
+
+#: src/slic3r/GUI/Tab.cpp:1470
 msgid "Layer seams"
 msgstr "Layer seams"
 
@@ -19065,16 +19069,32 @@ msgid "Only one perimeter"
 msgstr "Only one perimeter"
 
 #: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reducing printing time"
-msgstr "Reducing printing time"
+msgid "Infill pattern"
+msgstr "Infill pattern"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Advanced infill settings"
+msgstr "Advanced infill settings"
+
+#: src/slic3r/GUI/Tab.cpp:1492
+msgid "Reduce printing time"
+msgstr "Reduce printing time"
 
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr "Raft"
 
 #: src/slic3r/GUI/Tab.cpp:1534
-msgid "Options for support material"
-msgstr "Options for support material"
+msgid "Support"
+msgstr "Support"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support pattern"
+msgstr "Support pattern"
+
+#: src/slic3r/GUI/Tab.cpp:1534
+msgid "Support interface"
+msgstr "Support interface"
 
 #: src/slic3r/GUI/Tab.cpp:1553
 msgid "Organic supports"
@@ -24708,6 +24728,10 @@ msgid ""
 msgstr ""
 "Number of object layers to close, including the first bridge layer. Tracking "
 "stops early if the opening no longer has a unique continuation."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Beam interlocking"
+msgstr "Beam interlocking"
 
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
