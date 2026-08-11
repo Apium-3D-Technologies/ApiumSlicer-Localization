@@ -25520,6 +25520,155 @@ msgstr ""
 msgid "Choose an STL file to use as the nozzle shape:"
 msgstr "STL-Datei für die Düsenform auswählen:"
 
+#: src/libslic3r/PrintConfig.cpp:2395
+msgid "Min. extrusion temperature"
+msgstr "Min. Extrusionstemperatur"
+
+#: src/libslic3r/PrintConfig.cpp:2396
+msgid ""
+"Minimum allowed nozzle target while this material is being extruded. Idle, "
+"standby and cooldown temperatures may be lower when no extrusion occurs."
+msgstr ""
+"Minimal zulässige Düsen-Solltemperatur während der Extrusion dieses "
+"Materials. Leerlauf-, Standby- und Abkühltemperaturen dürfen niedriger sein, "
+"solange nicht extrudiert wird."
+
+#: src/libslic3r/PrintConfig.cpp:2405
+msgid "Max. extrusion temperature"
+msgstr "Max. Extrusionstemperatur"
+
+#: src/libslic3r/PrintConfig.cpp:2406
+msgid ""
+"Maximum allowed nozzle target while this material is being extruded. "
+"Violations in generated, slider or custom G-code are reported as slicing "
+"warnings."
+msgstr ""
+"Maximal zulässige Düsen-Solltemperatur während der Extrusion dieses "
+"Materials. Verletzungen im erzeugten G-Code, durch Slider-Ticks oder "
+"benutzerdefinierten G-Code werden als Slicing-Warnungen gemeldet."
+
+#: src/libslic3r/PrintConfig.cpp:5663
+msgid ""
+"Nozzle temperature for this extrusion line type. Enter an absolute "
+"temperature such as 210, a signed offset such as +10 or -20, or a signed "
+"percentage such as +15% or -10%. Relative values use the preceding "
+"temperature stage as their base. Values 0, +0, -0, +0% and -0% leave the "
+"base unchanged. Percentage offsets are limited to +/-200%, and the result is "
+"clamped to the material extrusion temperature limits. Automatic line-type "
+"control is disabled when the normal material temperature is 0 or automatic "
+"temperature commands are disabled. Frequent changes may be too fast for the "
+"printer's thermal response."
+msgstr ""
+"Düsentemperatur für diesen Extrusions-Linientyp. Geben Sie eine absolute "
+"Temperatur wie 210, einen vorzeichenbehafteten Offset wie +10 oder -20 oder "
+"eine vorzeichenbehaftete Prozentangabe wie +15% oder -10% ein. Relative "
+"Werte verwenden das Ergebnis der vorherigen Temperaturstufe als Basis. Die "
+"Werte 0, +0, -0, +0% und -0% lassen die Basis unverändert. Prozentuale "
+"Offsets sind auf +/-200% begrenzt; das Ergebnis wird auf die "
+"Extrusionstemperaturgrenzen des Materials begrenzt. Die automatische "
+"Linientyp-Steuerung ist deaktiviert, wenn die normale Materialtemperatur 0 "
+"ist oder automatische Temperaturbefehle deaktiviert sind. Häufige Änderungen "
+"können für die thermische Reaktion des Druckers zu schnell sein."
+
+#: src/libslic3r/PrintConfig.cpp:5670
+msgid "°C or %"
+msgstr "°C oder %"
+
+#: src/libslic3r/PrintConfig.cpp:5676
+msgid "Overhang perimeters"
+msgstr "Überhangperimeter"
+
+#: src/libslic3r/PrintConfig.cpp:5678
+msgid "Top solid fill"
+msgstr "Oberes massives Infill"
+
+#: src/libslic3r/PrintConfig.cpp:5679
+msgid "Bottom fill"
+msgstr "Unteres Infill"
+
+#: src/libslic3r/PrintConfig.cpp:5680
+msgid "Solid fill"
+msgstr "Massives Infill"
+
+#: src/libslic3r/PrintConfig.cpp:5687
+msgid "Raft interface"
+msgstr "Raft-Kontaktschicht"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp:4039
+#, boost-format
+msgid "%1% extruded at %2$.1f-%3$.1f °C outside the material range %4%-%5% °C."
+msgstr ""
+"Mit %1% wurde bei %2$.1f-%3$.1f °C außerhalb des Materialbereichs %4%-%5% °C "
+"extrudiert."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp:4049
+msgid "Material extrusion temperature limits were exceeded:"
+msgstr "Die Extrusionstemperaturgrenzen des Materials wurden überschritten:"
+
+#: src/slic3r/GUI/Tab.cpp:4542
+msgid ""
+"Minimum extrusion temperature must be lower than maximum extrusion "
+"temperature. The change will be reverted."
+msgstr ""
+"Die minimale Extrusionstemperatur muss niedriger als die maximale "
+"Extrusionstemperatur sein. Die Änderung wird verworfen."
+
+#: src/slic3r/GUI/Tab.cpp:4543
+msgid "Invalid extrusion temperature limits"
+msgstr "Ungültige Extrusionstemperaturgrenzen"
+
+#: src/slic3r/GUI/Tab.cpp:4570
+msgid ""
+"Enter an absolute temperature, a signed temperature offset, or a signed "
+"percentage."
+msgstr ""
+"Geben Sie eine absolute Temperatur, einen vorzeichenbehafteten Temperatur-"
+"Offset oder eine vorzeichenbehaftete Prozentangabe ein."
+
+#: src/slic3r/GUI/Tab.cpp:4571
+msgid "Invalid advanced temperature"
+msgstr "Ungültige erweiterte Temperatur"
+
+#: src/slic3r/GUI/Tab.cpp:4580
+msgid ""
+"This change places one or more advanced temperatures outside the material "
+"extrusion range. Apply the change and clamp the affected advanced values? "
+"Select No to revert the change."
+msgstr ""
+"Durch diese Änderung liegen eine oder mehrere erweiterte Temperaturen "
+"außerhalb des Extrusionsbereichs des Materials. Änderung übernehmen und die "
+"betroffenen erweiterten Werte begrenzen? Wählen Sie Nein, um die Änderung zu "
+"verwerfen."
+
+#: src/slic3r/GUI/Tab.cpp:4581
+msgid "Clamp advanced temperatures"
+msgstr "Erweiterte Temperaturen begrenzen"
+
+#: src/slic3r/GUI/Tab.cpp:4797
+msgid "Advanced temperature control"
+msgstr "Erweiterte Temperatursteuerung"
+
+#: src/libslic3r/PrintConfig.cpp:5671
+msgid ""
+"Resolution order: layer base, line type, object, winning modifier geometry, "
+"then cumulative slider ticks."
+msgstr ""
+"Auflösungsreihenfolge: Schichtbasis, Linientyp, Objekt, gewinnende Modifier-"
+"Geometrie und zuletzt kumulative Slider-Ticks."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use advanced temperature control"
+msgstr "Erweiterte Temperatursteuerung verwenden"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Enable per-line-type nozzle temperature targets for this material. When "
+"disabled, the stored advanced values are ignored."
+msgstr ""
+"Aktiviert Düsen-Solltemperaturen pro Extrusions-Linientyp für dieses "
+"Material. Wenn deaktiviert, werden die gespeicherten erweiterten Werte "
+"ignoriert."
+
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
