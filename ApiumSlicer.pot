@@ -17524,14 +17524,6 @@ msgstr ""
 msgid "Number of extruders of the printer."
 msgstr ""
 
-#: src/slic3r/GUI/Tab.cpp:2663
-msgid ""
-"This is a single extruder multimaterial printer, \n"
-"all extruders must have the same nozzle diameter and 'High flow' state.\n"
-"Do you want to change these values for all extruders to first extruder "
-"values?"
-msgstr ""
-
 #: src/slic3r/GUI/Tab.cpp:2666 src/slic3r/GUI/Tab.cpp:3201
 msgid "Extruder settings do not match"
 msgstr ""
@@ -21977,4 +21969,67 @@ msgid "Enable per-line-type nozzle temperature targets for this material. When d
 msgstr ""
 #: src/libslic3r/PrintConfig.cpp:5671
 msgid "Resolution order: layer base, line type, object, winning modifier geometry, then cumulative slider ticks."
+msgstr ""
+
+msgid "Max. nozzle temperature"
+msgstr ""
+
+msgid "Maximum nozzle target allowed for this printhead. Slicing fails if a selected material or emitted G-code exceeds this temperature."
+msgstr ""
+
+msgid "Max. heated printbed temperature"
+msgstr ""
+
+msgid "Maximum bed target allowed by this printer. Slicing fails if a configured or emitted bed temperature exceeds this value."
+msgstr ""
+
+msgid "Max. heated chamber temperature"
+msgstr ""
+
+msgid "Maximum chamber target allowed by this printer. Slicing fails if a configured or emitted chamber temperature exceeds this value."
+msgstr ""
+
+msgid "The selected material for T%1% allows up to %2% °C, which exceeds the printhead's maximum nozzle temperature of %3% °C."
+msgstr ""
+
+msgid "The configured %1% for T%2% is %3% °C, which exceeds the printhead's maximum nozzle temperature of %4% °C."
+msgstr ""
+
+msgid "first-layer nozzle temperature"
+msgstr ""
+
+msgid "nozzle temperature"
+msgstr ""
+
+msgid "idle nozzle temperature"
+msgstr ""
+
+msgid "The first-layer bed temperature for T%1% is %2% °C, which exceeds the printer's maximum heated printbed temperature of %3% °C."
+msgstr ""
+
+msgid "The bed temperature for T%1% is %2% °C, which exceeds the printer's maximum heated printbed temperature of %3% °C."
+msgstr ""
+
+msgid "The chamber temperature for T%1% is %2% °C, which exceeds the printer's maximum heated chamber temperature of %3% °C."
+msgstr ""
+
+msgid "The minimal chamber temperature for T%1% is %2% °C, which exceeds the printer's maximum heated chamber temperature of %3% °C."
+msgstr ""
+
+msgid "T%1% nozzle target: %2% °C (maximum %3% °C)"
+msgstr ""
+
+msgid "Heated printbed target: %1% °C (maximum %2% °C)"
+msgstr ""
+
+msgid "Heated chamber target: %1% °C (maximum %2% °C)"
+msgstr ""
+
+msgid "Generated G-code exceeds printer temperature capabilities:"
+msgstr ""
+
+msgid "This is a single extruder multimaterial printer, \nall extruders must have the same nozzle diameter, 'High flow' state, and maximum nozzle temperature.\nDo you want to change these values for all extruders to first extruder values?"
+msgstr ""
+
+msgid "This is a single extruder multimaterial printer, maximum nozzle temperature of all extruders will be set to the new value. Do you want to proceed?"
 msgstr ""

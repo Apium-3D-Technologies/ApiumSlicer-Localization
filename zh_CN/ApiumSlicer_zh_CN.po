@@ -18431,14 +18431,6 @@ msgstr "功能"
 msgid "Number of extruders of the printer."
 msgstr "打印机的挤出机数。"
 
-#: src/slic3r/GUI/Tab.cpp:2663
-msgid ""
-"This is a single extruder multimaterial printer, \n"
-"all extruders must have the same nozzle diameter and 'High flow' state.\n"
-"Do you want to change these values for all extruders to first extruder "
-"values?"
-msgstr ""
-
 #: src/slic3r/GUI/Tab.cpp:2666 src/slic3r/GUI/Tab.cpp:3201
 msgid "Extruder settings do not match"
 msgstr ""
@@ -23801,6 +23793,105 @@ msgid ""
 "disabled, the stored advanced values are ignored."
 msgstr ""
 "为此材料启用按挤出线型设置的喷嘴目标温度。禁用时，将忽略已保存的高级值。"
+
+msgid "Max. nozzle temperature"
+msgstr "最大喷嘴温度"
+
+msgid ""
+"Maximum nozzle target allowed for this printhead. Slicing fails if a "
+"selected material or emitted G-code exceeds this temperature."
+msgstr ""
+"此打印头允许的最大喷嘴目标温度。如果所选材料或输出的 G-code 超过此温度，切片"
+"将失败。"
+
+msgid "Max. heated printbed temperature"
+msgstr "最大热床温度"
+
+msgid ""
+"Maximum bed target allowed by this printer. Slicing fails if a configured or "
+"emitted bed temperature exceeds this value."
+msgstr ""
+"此打印机允许的最大热床目标温度。如果配置或输出的热床温度超过此值，切片将失"
+"败。"
+
+msgid "Max. heated chamber temperature"
+msgstr "最大加热腔体温度"
+
+msgid ""
+"Maximum chamber target allowed by this printer. Slicing fails if a "
+"configured or emitted chamber temperature exceeds this value."
+msgstr ""
+"此打印机允许的最大腔体目标温度。如果配置或输出的腔体温度超过此值，切片将失"
+"败。"
+
+msgid ""
+"The selected material for T%1% allows up to %2% °C, which exceeds the "
+"printhead's maximum nozzle temperature of %3% °C."
+msgstr ""
+"T%1% 所选材料允许的最高温度为 %2% °C，超过了打印头的最大喷嘴温度 %3% °C。"
+
+msgid ""
+"The configured %1% for T%2% is %3% °C, which exceeds the printhead's maximum "
+"nozzle temperature of %4% °C."
+msgstr "T%2% 配置的%1%为 %3% °C，超过了打印头的最大喷嘴温度 %4% °C。"
+
+msgid "first-layer nozzle temperature"
+msgstr "首层喷嘴温度"
+
+msgid "nozzle temperature"
+msgstr "喷嘴温度"
+
+msgid "idle nozzle temperature"
+msgstr "空闲喷嘴温度"
+
+msgid ""
+"The first-layer bed temperature for T%1% is %2% °C, which exceeds the "
+"printer's maximum heated printbed temperature of %3% °C."
+msgstr "T%1% 的首层热床温度为 %2% °C，超过了打印机的最大热床温度 %3% °C。"
+
+msgid ""
+"The bed temperature for T%1% is %2% °C, which exceeds the printer's maximum "
+"heated printbed temperature of %3% °C."
+msgstr "T%1% 的热床温度为 %2% °C，超过了打印机的最大热床温度 %3% °C。"
+
+msgid ""
+"The chamber temperature for T%1% is %2% °C, which exceeds the printer's "
+"maximum heated chamber temperature of %3% °C."
+msgstr "T%1% 的腔体温度为 %2% °C，超过了打印机的最大加热腔体温度 %3% °C。"
+
+msgid ""
+"The minimal chamber temperature for T%1% is %2% °C, which exceeds the "
+"printer's maximum heated chamber temperature of %3% °C."
+msgstr "T%1% 的最低腔体温度为 %2% °C，超过了打印机的最大加热腔体温度 %3% °C。"
+
+msgid "T%1% nozzle target: %2% °C (maximum %3% °C)"
+msgstr "T%1% 喷嘴目标温度：%2% °C（最大 %3% °C）"
+
+msgid "Heated printbed target: %1% °C (maximum %2% °C)"
+msgstr "热床目标温度：%1% °C（最大 %2% °C）"
+
+msgid "Heated chamber target: %1% °C (maximum %2% °C)"
+msgstr "加热腔体目标温度：%1% °C（最大 %2% °C）"
+
+msgid "Generated G-code exceeds printer temperature capabilities:"
+msgstr "生成的 G-code 超出了打印机的温度能力："
+
+msgid ""
+"This is a single extruder multimaterial printer, \n"
+"all extruders must have the same nozzle diameter, 'High flow' state, and "
+"maximum nozzle temperature.\n"
+"Do you want to change these values for all extruders to first extruder "
+"values?"
+msgstr ""
+"这是单挤出机多材料打印机。\n"
+"所有挤出机必须具有相同的喷嘴直径、High flow 状态和最大喷嘴温度。\n"
+"是否将所有挤出机的这些值更改为第一个挤出机的值？"
+
+msgid ""
+"This is a single extruder multimaterial printer, maximum nozzle temperature "
+"of all extruders will be set to the new value. Do you want to proceed?"
+msgstr ""
+"这是单挤出机多材料打印机。所有挤出机的最大喷嘴温度都将设为新值。是否继续？"
 
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
