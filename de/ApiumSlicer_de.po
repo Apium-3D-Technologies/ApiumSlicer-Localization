@@ -14,8 +14,12 @@ msgstr ""
 "X-Generator: Poedit 3.6\n"
 
 #: src/slic3r/GUI/Plater.cpp
-msgid "Changing the extrusion mode or printer will remove all multi-material painting assignments. Continue?"
-msgstr "Beim Wechsel des Extrusionsmodus oder Druckers werden alle Multi-Material-Bemalungen entfernt. Fortfahren?"
+msgid ""
+"Changing the extrusion mode or printer will remove all multi-material "
+"painting assignments. Continue?"
+msgstr ""
+"Beim Wechsel des Extrusionsmodus oder Druckers werden alle Multi-Material-"
+"Bemalungen entfernt. Fortfahren?"
 
 #. TRN: Following strings are labels in the G-code Viewer legend.
 #: src/libslic3r/ExtrusionRole.cpp:41
@@ -25497,6 +25501,24 @@ msgid ""
 msgstr ""
 "Wenn aktiviert, wird das Modell während der FFF-G-Code-Erzeugung in der "
 "Vorschau Schicht für Schicht aufgebaut."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nozzle shape"
+msgstr "Düsenform"
+
+#: src/libslic3r/PrintConfig.cpp src/slic3r/GUI/Tab.cpp
+msgid ""
+"The STL must use millimeters, place the nozzle tip at (0,0,0), and extend "
+"along the positive Z axis. The model is not scaled, rotated, or centered "
+"automatically."
+msgstr ""
+"Die STL muss Millimeter verwenden, die Düsenspitze bei (0,0,0) platzieren "
+"und sich entlang der positiven Z-Achse erstrecken. Das Modell wird nicht "
+"automatisch skaliert, gedreht oder zentriert."
+
+#: src/slic3r/GUI/Tab.cpp
+msgid "Choose an STL file to use as the nozzle shape:"
+msgstr "STL-Datei für die Düsenform auswählen:"
 
 #, boost-format
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
