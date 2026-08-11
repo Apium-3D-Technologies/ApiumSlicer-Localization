@@ -25775,6 +25775,12 @@ msgstr ""
 "fortfahren?"
 
 #, boost-format
+msgid "Show FPS"
+msgstr "FPS anzeigen"
+
+msgid "Show the current frame rate in the top-right corner of the 3D scene."
+msgstr "Die aktuelle Bildrate oben rechts in der 3D-Szene anzeigen."
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 

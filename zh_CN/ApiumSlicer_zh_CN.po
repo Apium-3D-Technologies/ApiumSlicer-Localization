@@ -23893,6 +23893,12 @@ msgid ""
 msgstr ""
 "这是单挤出机多材料打印机。所有挤出机的最大喷嘴温度都将设为新值。是否继续？"
 
+msgid "Show FPS"
+msgstr "显示 FPS"
+
+msgid "Show the current frame rate in the top-right corner of the 3D scene."
+msgstr "在 3D 场景右上角显示当前帧率。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

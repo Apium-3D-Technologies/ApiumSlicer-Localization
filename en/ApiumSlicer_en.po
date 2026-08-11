@@ -25025,6 +25025,12 @@ msgstr ""
 "This is a single extruder multimaterial printer, maximum nozzle temperature "
 "of all extruders will be set to the new value. Do you want to proceed?"
 
+msgid "Show FPS"
+msgstr "Show FPS"
+
+msgid "Show the current frame rate in the top-right corner of the 3D scene."
+msgstr "Show the current frame rate in the top-right corner of the 3D scene."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
