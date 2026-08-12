@@ -23705,6 +23705,44 @@ msgstr ""
 "料挤出温度范围内。当普通材料温度为 0 或禁用自动温度命令时，自动线型温度控制将"
 "停用。频繁变化可能超过打印机的热响应速度。"
 
+#: src/libslic3r/PrintConfig.cpp:5690
+msgid ""
+"Enable the per-line-type nozzle temperature target while preserving the "
+"stored value when disabled."
+msgstr "启用此线型的喷嘴目标温度；禁用时保留已存储的值。"
+
+#: src/libslic3r/PrintConfig.cpp:5712
+msgid ""
+"Enable the per-line-type part-cooling fan target while preserving the stored "
+"value when disabled."
+msgstr "启用此线型的部件冷却风扇目标；禁用时保留已存储的值。"
+
+#: src/libslic3r/PrintConfig.cpp:5718
+msgid ""
+"Part-cooling fan speed for this extrusion line type. Enter an absolute "
+"percentage such as 40, a signed offset such as +10 or -20, or a signed "
+"percentage such as +15% or -10%. An absolute 0 turns the fan off, while "
+"signed zero leaves the preceding target unchanged. Relative values use the "
+"preceding fan stage as their base, percentage offsets are limited to "
+"+/-200%, and resolved line-type targets are clamped to 0-100%."
+msgstr ""
+"此挤出线型的部件冷却风扇速度。可输入绝对百分比（如 40）、带符号偏移量（如 "
+"+10 或 -20）或带符号百分比（如 +15% 或 -10%）。绝对值 0 会关闭风扇，带符号的"
+"零则保持前一目标不变。相对值以前一风扇阶段为基准，百分比偏移限制为 +/-200%，"
+"解析后的线型目标限制在 0-100%。"
+
+#: src/libslic3r/PrintConfig.cpp:5724
+msgid ""
+"Resolution order: calculated cooling target, line type, object, winning "
+"modifier geometry, then cumulative slider ticks."
+msgstr ""
+"解析顺序：计算得到的冷却目标、线型、对象、优先级最高的修改器几何体，最后是累"
+"积的滑块刻度。"
+
+#: src/libslic3r/PrintConfig.cpp:5725
+msgid "% or +/-"
+msgstr "% 或 +/-"
+
 #: src/libslic3r/PrintConfig.cpp:5670
 msgid "°C or %"
 msgstr "°C 或 %"
@@ -23775,6 +23813,20 @@ msgstr "限制高级温度"
 msgid "Advanced temperature control"
 msgstr "高级温度控制"
 
+#: src/slic3r/GUI/Tab.cpp:4654
+msgid ""
+"Enter an absolute fan speed, a signed fan-speed offset, or a signed "
+"percentage."
+msgstr "请输入绝对风扇速度、带符号的风扇速度偏移量或带符号的百分比。"
+
+#: src/slic3r/GUI/Tab.cpp:4655
+msgid "Invalid advanced fan speed"
+msgstr "高级风扇速度无效"
+
+#: src/slic3r/GUI/Tab.cpp:4986
+msgid "Advanced cooling control"
+msgstr "高级冷却控制"
+
 #: src/libslic3r/PrintConfig.cpp:5671
 msgid ""
 "Resolution order: layer base, line type, object, winning modifier geometry, "
@@ -23782,17 +23834,6 @@ msgid ""
 msgstr ""
 "解析顺序：层基础温度、线型、对象、优先级最高的修改器几何体，最后是累积的滑块"
 "刻度。"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Use advanced temperature control"
-msgstr "使用高级温度控制"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid ""
-"Enable per-line-type nozzle temperature targets for this material. When "
-"disabled, the stored advanced values are ignored."
-msgstr ""
-"为此材料启用按挤出线型设置的喷嘴目标温度。禁用时，将忽略已保存的高级值。"
 
 msgid "Max. nozzle temperature"
 msgstr "最大喷嘴温度"

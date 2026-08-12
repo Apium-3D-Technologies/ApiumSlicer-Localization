@@ -24816,6 +24816,50 @@ msgstr ""
 "temperature commands are disabled. Frequent changes may be too fast for the "
 "printer's thermal response."
 
+#: src/libslic3r/PrintConfig.cpp:5690
+msgid ""
+"Enable the per-line-type nozzle temperature target while preserving the "
+"stored value when disabled."
+msgstr ""
+"Enable the per-line-type nozzle temperature target while preserving the "
+"stored value when disabled."
+
+#: src/libslic3r/PrintConfig.cpp:5712
+msgid ""
+"Enable the per-line-type part-cooling fan target while preserving the stored "
+"value when disabled."
+msgstr ""
+"Enable the per-line-type part-cooling fan target while preserving the stored "
+"value when disabled."
+
+#: src/libslic3r/PrintConfig.cpp:5718
+msgid ""
+"Part-cooling fan speed for this extrusion line type. Enter an absolute "
+"percentage such as 40, a signed offset such as +10 or -20, or a signed "
+"percentage such as +15% or -10%. An absolute 0 turns the fan off, while "
+"signed zero leaves the preceding target unchanged. Relative values use the "
+"preceding fan stage as their base, percentage offsets are limited to "
+"+/-200%, and resolved line-type targets are clamped to 0-100%."
+msgstr ""
+"Part-cooling fan speed for this extrusion line type. Enter an absolute "
+"percentage such as 40, a signed offset such as +10 or -20, or a signed "
+"percentage such as +15% or -10%. An absolute 0 turns the fan off, while "
+"signed zero leaves the preceding target unchanged. Relative values use the "
+"preceding fan stage as their base, percentage offsets are limited to "
+"+/-200%, and resolved line-type targets are clamped to 0-100%."
+
+#: src/libslic3r/PrintConfig.cpp:5724
+msgid ""
+"Resolution order: calculated cooling target, line type, object, winning "
+"modifier geometry, then cumulative slider ticks."
+msgstr ""
+"Resolution order: calculated cooling target, line type, object, winning "
+"modifier geometry, then cumulative slider ticks."
+
+#: src/libslic3r/PrintConfig.cpp:5725
+msgid "% or +/-"
+msgstr "% or +/-"
+
 #: src/libslic3r/PrintConfig.cpp:5670
 msgid "°C or %"
 msgstr "°C or %"
@@ -24892,6 +24936,22 @@ msgstr "Clamp advanced temperatures"
 msgid "Advanced temperature control"
 msgstr "Advanced temperature control"
 
+#: src/slic3r/GUI/Tab.cpp:4654
+msgid ""
+"Enter an absolute fan speed, a signed fan-speed offset, or a signed "
+"percentage."
+msgstr ""
+"Enter an absolute fan speed, a signed fan-speed offset, or a signed "
+"percentage."
+
+#: src/slic3r/GUI/Tab.cpp:4655
+msgid "Invalid advanced fan speed"
+msgstr "Invalid advanced fan speed"
+
+#: src/slic3r/GUI/Tab.cpp:4986
+msgid "Advanced cooling control"
+msgstr "Advanced cooling control"
+
 #: src/libslic3r/PrintConfig.cpp:5671
 msgid ""
 "Resolution order: layer base, line type, object, winning modifier geometry, "
@@ -24899,18 +24959,6 @@ msgid ""
 msgstr ""
 "Resolution order: layer base, line type, object, winning modifier geometry, "
 "then cumulative slider ticks."
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Use advanced temperature control"
-msgstr "Use advanced temperature control"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid ""
-"Enable per-line-type nozzle temperature targets for this material. When "
-"disabled, the stored advanced values are ignored."
-msgstr ""
-"Enable per-line-type nozzle temperature targets for this material. When "
-"disabled, the stored advanced values are ignored."
 
 msgid "Max. nozzle temperature"
 msgstr "Max. nozzle temperature"

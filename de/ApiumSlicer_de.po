@@ -25557,6 +25557,51 @@ msgstr ""
 "ist oder automatische Temperaturbefehle deaktiviert sind. Häufige Änderungen "
 "können für die thermische Reaktion des Druckers zu schnell sein."
 
+#: src/libslic3r/PrintConfig.cpp:5690
+msgid ""
+"Enable the per-line-type nozzle temperature target while preserving the "
+"stored value when disabled."
+msgstr ""
+"Aktiviert die Düsen-Solltemperatur für diesen Linientyp und behält den "
+"gespeicherten Wert bei, wenn sie deaktiviert ist."
+
+#: src/libslic3r/PrintConfig.cpp:5712
+msgid ""
+"Enable the per-line-type part-cooling fan target while preserving the stored "
+"value when disabled."
+msgstr ""
+"Aktiviert den Bauteilkühlungs-Sollwert für diesen Linientyp und behält den "
+"gespeicherten Wert bei, wenn er deaktiviert ist."
+
+#: src/libslic3r/PrintConfig.cpp:5718
+msgid ""
+"Part-cooling fan speed for this extrusion line type. Enter an absolute "
+"percentage such as 40, a signed offset such as +10 or -20, or a signed "
+"percentage such as +15% or -10%. An absolute 0 turns the fan off, while "
+"signed zero leaves the preceding target unchanged. Relative values use the "
+"preceding fan stage as their base, percentage offsets are limited to "
+"+/-200%, and resolved line-type targets are clamped to 0-100%."
+msgstr ""
+"Bauteilkühlungs-Lüfterdrehzahl für diesen Extrusions-Linientyp. Geben Sie "
+"einen absoluten Prozentwert wie 40, einen vorzeichenbehafteten Offset wie "
+"+10 oder -20 oder eine vorzeichenbehaftete Prozentangabe wie +15% oder -10% "
+"ein. Eine absolute 0 schaltet den Lüfter aus; eine vorzeichenbehaftete Null "
+"lässt den vorherigen Sollwert unverändert. Relative Werte verwenden die "
+"vorherige Lüfterstufe als Basis, prozentuale Offsets sind auf +/-200% "
+"begrenzt und aufgelöste Linientyp-Sollwerte werden auf 0-100% begrenzt."
+
+#: src/libslic3r/PrintConfig.cpp:5724
+msgid ""
+"Resolution order: calculated cooling target, line type, object, winning "
+"modifier geometry, then cumulative slider ticks."
+msgstr ""
+"Auflösungsreihenfolge: berechneter Kühlungs-Sollwert, Linientyp, Objekt, "
+"gewinnende Modifier-Geometrie und zuletzt kumulative Slider-Ticks."
+
+#: src/libslic3r/PrintConfig.cpp:5725
+msgid "% or +/-"
+msgstr "% oder +/-"
+
 #: src/libslic3r/PrintConfig.cpp:5670
 msgid "°C or %"
 msgstr "°C oder %"
@@ -25635,6 +25680,22 @@ msgstr "Erweiterte Temperaturen begrenzen"
 msgid "Advanced temperature control"
 msgstr "Erweiterte Temperatursteuerung"
 
+#: src/slic3r/GUI/Tab.cpp:4654
+msgid ""
+"Enter an absolute fan speed, a signed fan-speed offset, or a signed "
+"percentage."
+msgstr ""
+"Geben Sie eine absolute Lüfterdrehzahl, einen vorzeichenbehafteten "
+"Lüfterdrehzahl-Offset oder eine vorzeichenbehaftete Prozentangabe ein."
+
+#: src/slic3r/GUI/Tab.cpp:4655
+msgid "Invalid advanced fan speed"
+msgstr "Ungültige erweiterte Lüfterdrehzahl"
+
+#: src/slic3r/GUI/Tab.cpp:4986
+msgid "Advanced cooling control"
+msgstr "Erweiterte Kühlungssteuerung"
+
 #: src/libslic3r/PrintConfig.cpp:5671
 msgid ""
 "Resolution order: layer base, line type, object, winning modifier geometry, "
@@ -25642,19 +25703,6 @@ msgid ""
 msgstr ""
 "Auflösungsreihenfolge: Schichtbasis, Linientyp, Objekt, gewinnende Modifier-"
 "Geometrie und zuletzt kumulative Slider-Ticks."
-
-#: src/libslic3r/PrintConfig.cpp
-msgid "Use advanced temperature control"
-msgstr "Erweiterte Temperatursteuerung verwenden"
-
-#: src/libslic3r/PrintConfig.cpp
-msgid ""
-"Enable per-line-type nozzle temperature targets for this material. When "
-"disabled, the stored advanced values are ignored."
-msgstr ""
-"Aktiviert Düsen-Solltemperaturen pro Extrusions-Linientyp für dieses "
-"Material. Wenn deaktiviert, werden die gespeicherten erweiterten Werte "
-"ignoriert."
 
 msgid "Max. nozzle temperature"
 msgstr "Max. Düsentemperatur"
