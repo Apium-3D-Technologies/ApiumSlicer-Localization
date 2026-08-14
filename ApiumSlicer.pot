@@ -22065,3 +22065,51 @@ msgstr ""
 #: src/slic3r/GUI/Preferences.cpp
 msgid "Show the current frame rate in the top-right corner of the 3D scene."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Seam type"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Controls the shape of the external perimeter at the seam. Nip/Tuck creates a V-shaped notch on both sides, Nip on the start side, and Tuck on the end side. Alt. Nip/Tuck alternates Nip and Tuck between layers."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Regular"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip/Tuck"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tuck"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Alt. Nip/Tuck"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Notch width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Width of the seam notch as a multiple of the external perimeter extrusion width."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "× external perimeter width"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Corner threshold"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Maximum corner angle at which a seam notch is applied. Set to 0° to apply the notch regardless of corner sharpness."
+msgstr ""

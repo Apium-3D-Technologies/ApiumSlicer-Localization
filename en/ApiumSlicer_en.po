@@ -4760,7 +4760,7 @@ msgstr ""
 "Use \"Even-odd\" for 3DLabPrint airplane models. Use \"Close holes\" to "
 "close all holes in the model."
 
-#: src/libslic3r/PrintConfig.cpp:2922
+#: src/libslic3r/PrintConfig.cpp:2922 src/libslic3r/PrintConfig.cpp
 msgid "Regular"
 msgstr "Regular"
 
@@ -25078,6 +25078,64 @@ msgstr "Show FPS"
 
 msgid "Show the current frame rate in the top-right corner of the 3D scene."
 msgstr "Show the current frame rate in the top-right corner of the 3D scene."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Seam type"
+msgstr "Seam type"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Controls the shape of the external perimeter at the seam. Nip/Tuck creates a "
+"V-shaped notch on both sides, Nip on the start side, and Tuck on the end "
+"side. Alt. Nip/Tuck alternates Nip and Tuck between layers."
+msgstr ""
+"Controls the shape of the external perimeter at the seam. Nip/Tuck creates a "
+"V-shaped notch on both sides, Nip on the start side, and Tuck on the end "
+"side. Alt. Nip/Tuck alternates Nip and Tuck between layers."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip/Tuck"
+msgstr "Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip"
+msgstr "Nip"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tuck"
+msgstr "Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Alt. Nip/Tuck"
+msgstr "Alt. Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Notch width"
+msgstr "Notch width"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Width of the seam notch as a multiple of the external perimeter extrusion "
+"width."
+msgstr ""
+"Width of the seam notch as a multiple of the external perimeter extrusion "
+"width."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "× external perimeter width"
+msgstr "× external perimeter width"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Corner threshold"
+msgstr "Corner threshold"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum corner angle at which a seam notch is applied. Set to 0° to apply "
+"the notch regardless of corner sharpness."
+msgstr ""
+"Maximum corner angle at which a seam notch is applied. Set to 0° to apply "
+"the notch regardless of corner sharpness."
 
 #~ msgid "Development mode"
 #~ msgstr "Development mode"

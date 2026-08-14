@@ -4386,9 +4386,14 @@ msgid ""
 "close all holes in the model."
 msgstr "3DLabPrint 飞机模型使用“奇偶”。使用“关闭孔”关闭模型中的所有孔。"
 
-#: src/libslic3r/PrintConfig.cpp:2922
+#: src/libslic3r/PrintConfig.cpp:2922 src/libslic3r/PrintConfig.cpp
+#, fuzzy
 msgid "Regular"
-msgstr "一般"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"一般\n"
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"常规"
 
 #: src/libslic3r/PrintConfig.cpp:2923
 msgid "Even-odd"
@@ -23939,6 +23944,60 @@ msgstr "显示 FPS"
 
 msgid "Show the current frame rate in the top-right corner of the 3D scene."
 msgstr "在 3D 场景右上角显示当前帧率。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Seam type"
+msgstr "接缝类型"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Controls the shape of the external perimeter at the seam. Nip/Tuck creates a "
+"V-shaped notch on both sides, Nip on the start side, and Tuck on the end "
+"side. Alt. Nip/Tuck alternates Nip and Tuck between layers."
+msgstr ""
+"控制外轮廓在接缝处的形状。Nip/Tuck 在两侧创建 V 形缺口，Nip 仅在起始侧，Tuck "
+"仅在结束侧。Alt. Nip/Tuck 在各层之间交替使用 Nip 和 Tuck。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip/Tuck"
+msgstr "Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip"
+msgstr "Nip"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tuck"
+msgstr "Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Alt. Nip/Tuck"
+msgstr "交替 Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Notch width"
+msgstr "缺口宽度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Width of the seam notch as a multiple of the external perimeter extrusion "
+"width."
+msgstr "缺口宽度，以外轮廓挤出宽度的倍数表示。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "× external perimeter width"
+msgstr "× 外轮廓宽度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Corner threshold"
+msgstr "拐角阈值"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum corner angle at which a seam notch is applied. Set to 0° to apply "
+"the notch regardless of corner sharpness."
+msgstr ""
+"可应用接缝缺口的最大拐角角度。设为 0° 时，无论拐角尖锐程度如何都会应用缺口。"
 
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"

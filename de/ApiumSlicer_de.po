@@ -4908,9 +4908,14 @@ msgstr ""
 "Verwenden Sie \"Gerade-ungerade\" für 3DLabPrint-Flugzeugmodelle. Verwenden "
 "Sie \"Löcher schließen\", um alle Löcher im Modell zu schließen."
 
-#: src/libslic3r/PrintConfig.cpp:2922
+#: src/libslic3r/PrintConfig.cpp:2922 src/libslic3r/PrintConfig.cpp
+#, fuzzy
 msgid "Regular"
-msgstr "Normal"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Normal\n"
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Regulär"
 
 #: src/libslic3r/PrintConfig.cpp:2923
 msgid "Even-odd"
@@ -25828,6 +25833,64 @@ msgstr "FPS anzeigen"
 
 msgid "Show the current frame rate in the top-right corner of the 3D scene."
 msgstr "Die aktuelle Bildrate oben rechts in der 3D-Szene anzeigen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Seam type"
+msgstr "Nahttyp"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Controls the shape of the external perimeter at the seam. Nip/Tuck creates a "
+"V-shaped notch on both sides, Nip on the start side, and Tuck on the end "
+"side. Alt. Nip/Tuck alternates Nip and Tuck between layers."
+msgstr ""
+"Steuert die Form der Außenkontur an der Naht. Nip/Tuck erzeugt eine V-"
+"förmige Kerbe auf beiden Seiten, Nip auf der Startseite und Tuck auf der "
+"Endseite. Alt. Nip/Tuck wechselt zwischen den Schichten zwischen Nip und "
+"Tuck."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip/Tuck"
+msgstr "Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Nip"
+msgstr "Nip"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Tuck"
+msgstr "Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Alt. Nip/Tuck"
+msgstr "Alt. Nip/Tuck"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Notch width"
+msgstr "Kerbenbreite"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Width of the seam notch as a multiple of the external perimeter extrusion "
+"width."
+msgstr ""
+"Breite der Nahtkerbe als Vielfaches der Extrusionsbreite der Außenkontur."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "× external perimeter width"
+msgstr "× Breite der Außenkontur"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Corner threshold"
+msgstr "Eckenschwelle"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum corner angle at which a seam notch is applied. Set to 0° to apply "
+"the notch regardless of corner sharpness."
+msgstr ""
+"Maximaler Eckwinkel, bei dem eine Nahtkerbe angewendet wird. Bei 0° wird die "
+"Kerbe unabhängig von der Eckenschärfe angewendet."
 
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
