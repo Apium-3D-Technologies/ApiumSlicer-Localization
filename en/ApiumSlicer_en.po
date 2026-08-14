@@ -72,6 +72,80 @@ msgstr "Top solid infill"
 msgid "Ironing"
 msgstr "Ironing"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Painted"
+msgstr "Painted"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Topmost"
+msgstr "Topmost"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "All solid"
+msgstr "All solid"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Iron on support interface top"
+msgstr "Iron on support interface top"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Iron the top contact surfaces of non-raft support interfaces in addition to "
+"the selected object ironing type."
+msgstr ""
+"Iron the top contact surfaces of non-raft support interfaces in addition to "
+"the selected object ironing type."
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+#: src/slic3r/GUI/ObjectDataViewModel.cpp
+msgid "Paint-on ironing surfaces"
+msgstr "Paint-on ironing surfaces"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Entering Paint-on ironing surfaces"
+msgstr "Entering Paint-on ironing surfaces"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Leaving Paint-on ironing surfaces"
+msgstr "Leaving Paint-on ironing surfaces"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Paint-on ironing surface editing"
+msgstr "Paint-on ironing surface editing"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Add ironing"
+msgstr "Add ironing"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Block ironing"
+msgstr "Block ironing"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Surface angle tolerance"
+msgstr "Surface angle tolerance"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid ""
+"Only upward-facing facets within this angle of the print bed are paintable."
+msgstr ""
+"Only upward-facing facets within this angle of the print bed are paintable."
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Remove ironing selection"
+msgstr "Remove ironing selection"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Remove paint-on ironing surfaces"
+msgstr "Remove paint-on ironing surfaces"
+
+#: src/slic3r/GUI/NotificationManager.cpp
+#, c-format, boost-format
+msgid "%1$d object was loaded with ironing surface painting."
+msgid_plural "%1$d objects were loaded with ironing surface painting."
+msgstr[0] "%1$d object was loaded with ironing surface painting."
+msgstr[1] "%1$d objects were loaded with ironing surface painting."
+
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 #: src/slic3r/GUI/GCodeViewer.cpp:288
 msgid "Bridge infill"

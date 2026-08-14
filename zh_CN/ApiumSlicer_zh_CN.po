@@ -73,6 +73,76 @@ msgstr "顶部实心填充"
 msgid "Ironing"
 msgstr "熨烫"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Painted"
+msgstr "已涂绘"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Topmost"
+msgstr "仅最顶部"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "All solid"
+msgstr "所有实体表面"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Iron on support interface top"
+msgstr "熨烫支撑接触面顶部"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Iron the top contact surfaces of non-raft support interfaces in addition to "
+"the selected object ironing type."
+msgstr "除所选模型熨烫类型外，还熨烫非筏层支撑界面的顶部接触面。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+#: src/slic3r/GUI/ObjectDataViewModel.cpp
+msgid "Paint-on ironing surfaces"
+msgstr "涂绘熨烫表面"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Entering Paint-on ironing surfaces"
+msgstr "进入熨烫表面涂绘"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Leaving Paint-on ironing surfaces"
+msgstr "离开熨烫表面涂绘"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Paint-on ironing surface editing"
+msgstr "编辑熨烫表面涂绘"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Add ironing"
+msgstr "添加熨烫"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Block ironing"
+msgstr "阻止熨烫"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Surface angle tolerance"
+msgstr "表面角度容差"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid ""
+"Only upward-facing facets within this angle of the print bed are paintable."
+msgstr "只能涂绘与打印平台夹角在此范围内且朝上的面。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Remove ironing selection"
+msgstr "移除熨烫选择"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Remove paint-on ironing surfaces"
+msgstr "移除涂绘的熨烫表面"
+
+#: src/slic3r/GUI/NotificationManager.cpp
+#, c-format, boost-format
+msgid "%1$d object was loaded with ironing surface painting."
+msgid_plural "%1$d objects were loaded with ironing surface painting."
+msgstr[0] "已加载 %1$d 个带有熨烫表面涂绘的对象。"
+
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 #: src/slic3r/GUI/GCodeViewer.cpp:288
 msgid "Bridge infill"

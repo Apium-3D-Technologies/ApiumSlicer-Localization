@@ -71,6 +71,81 @@ msgstr "Oberes massives Infill"
 msgid "Ironing"
 msgstr "Bügeln"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Painted"
+msgstr "Bemalt"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Topmost"
+msgstr "Oberste"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "All solid"
+msgstr "Alle massiven"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Iron on support interface top"
+msgstr "Oberseite der Stützschnittstelle bügeln"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Iron the top contact surfaces of non-raft support interfaces in addition to "
+"the selected object ironing type."
+msgstr ""
+"Bügelt zusätzlich zum gewählten Objekt-Bügeltyp die oberen Kontaktflächen "
+"von Stützschnittstellen, außer bei Rafts."
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+#: src/slic3r/GUI/ObjectDataViewModel.cpp
+msgid "Paint-on ironing surfaces"
+msgstr "Bügelflächen aufmalen"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Entering Paint-on ironing surfaces"
+msgstr "Bügelflächen-Malwerkzeug wird geöffnet"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Leaving Paint-on ironing surfaces"
+msgstr "Bügelflächen-Malwerkzeug wird geschlossen"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Paint-on ironing surface editing"
+msgstr "Bügelflächen bearbeiten"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Add ironing"
+msgstr "Bügeln hinzufügen"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Block ironing"
+msgstr "Bügeln blockieren"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Surface angle tolerance"
+msgstr "Oberflächen-Winkeltoleranz"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid ""
+"Only upward-facing facets within this angle of the print bed are paintable."
+msgstr ""
+"Nur nach oben gerichtete Facetten innerhalb dieses Winkels zur Druckplatte "
+"können bemalt werden."
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Remove ironing selection"
+msgstr "Bügelauswahl entfernen"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Remove paint-on ironing surfaces"
+msgstr "Aufgemalte Bügelflächen entfernen"
+
+#: src/slic3r/GUI/NotificationManager.cpp
+#, c-format, boost-format
+msgid "%1$d object was loaded with ironing surface painting."
+msgid_plural "%1$d objects were loaded with ironing surface painting."
+msgstr[0] "%1$d Objekt wurde mit aufgemalten Bügelflächen geladen."
+msgstr[1] "%1$d Objekte wurden mit aufgemalten Bügelflächen geladen."
+
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 #: src/slic3r/GUI/GCodeViewer.cpp:288
 msgid "Bridge infill"

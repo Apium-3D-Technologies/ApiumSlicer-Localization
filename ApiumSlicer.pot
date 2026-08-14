@@ -22111,5 +22111,72 @@ msgid "Corner threshold"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
+msgid "Painted"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Topmost"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "All solid"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Iron on support interface top"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Iron the top contact surfaces of non-raft support interfaces in addition to the selected object ironing type."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp src/slic3r/GUI/ObjectDataViewModel.cpp
+msgid "Paint-on ironing surfaces"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Entering Paint-on ironing surfaces"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Leaving Paint-on ironing surfaces"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.hpp
+msgid "Paint-on ironing surface editing"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Add ironing"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Block ironing"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Surface angle tolerance"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Only upward-facing facets within this angle of the print bed are paintable."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp
+msgid "Remove ironing selection"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp
+msgid "Remove paint-on ironing surfaces"
+msgstr ""
+
+#: src/slic3r/GUI/NotificationManager.cpp
+#, c-format, boost-format
+msgid "%1$d object was loaded with ironing surface painting."
+msgid_plural "%1$d objects were loaded with ironing surface painting."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/libslic3r/PrintConfig.cpp
 msgid "Maximum corner angle at which a seam notch is applied. Set to 0° to apply the notch regardless of corner sharpness."
 msgstr ""
