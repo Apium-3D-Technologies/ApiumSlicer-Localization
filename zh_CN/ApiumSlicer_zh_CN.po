@@ -17,6 +17,91 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow exceeding max height"
+msgstr "允许超过最大高度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"By default, G-code export is blocked when any generated Z movement, "
+"including Z offset, Z-hop or lift, and custom G-code, exceeds Max print "
+"height. Enable this option to allow such G-code to be exported. This does "
+"not allow models taller than Max print height and does not change the "
+"printer's physical limits. Enable it only if the printer can safely execute "
+"movements beyond the configured maximum height."
+msgstr ""
+"默认情况下，如果生成的任何 Z 轴移动（包括 Z 偏移、Z 跳或抬升以及自定义 G-"
+"code）超过最大打印高度，将阻止导出 G-code。启用此选项可允许导出此类 G-code。"
+"此选项不会允许模型高于最大打印高度，也不会改变打印机的物理限制。仅当打印机能"
+"够安全执行超出所配置最大高度的移动时才启用此选项。"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Slicer-generated movement"
+msgstr "切片软件生成的移动"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Before the first layer"
+msgstr "第一层之前"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Layer %1%"
+msgstr "第 %1% 层"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Generated G-code exceeds the configured maximum print height. Export is "
+"blocked to protect the printer."
+msgstr "生成的 G-code 超过了配置的最大打印高度。为保护打印机，导出已被阻止。"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Source: %1%"
+msgstr "来源：%1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Location: %1%"
+msgstr "位置：%1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Command: %1%"
+msgstr "命令：%1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid ""
+"Commanded Z: %1$.3f mm; maximum print height: %2$.3f mm; exceeded by: %3$.3f "
+"mm."
+msgstr "指令 Z：%1$.3f mm；最大打印高度：%2$.3f mm；超出：%3$.3f mm。"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid ""
+"Calculation: current layer Z %1$.3f mm + Z offset %2$.3f mm + Z-hop/lift or "
+"custom Z movement %3$.3f mm = %4$.3f mm."
+msgstr ""
+"计算：当前层 Z %1$.3f mm + Z 偏移 %2$.3f mm + Z 跳/抬升或自定义 Z 移动 "
+"%3$.3f mm = %4$.3f mm。"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"A layer-based calculation is unavailable because this movement occurs before "
+"the first generated layer."
+msgstr "由于此移动发生在生成第一层之前，因此无法进行基于层的计算。"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Reduce the model or layer height, Z offset, Z-hop/lift, or the responsible "
+"custom G-code movement. To override this safety check, enable Allow "
+"exceeding max height in Printer Settings > General > Size and coordinates. "
+"The maximum permitted model height remains unchanged."
+msgstr ""
+"请减小模型或层高、Z 偏移、Z 跳/抬升，或修改导致问题的自定义 G-code 移动。若要"
+"覆盖此安全检查，请在打印机设置 > 常规 > 尺寸和坐标中启用“允许超过最大高度”。"
+"允许的最大模型高度不会改变。"
+
 #: src/slic3r/GUI/Plater.cpp
 msgid ""
 "Changing the extrusion mode or printer will remove all multi-material "

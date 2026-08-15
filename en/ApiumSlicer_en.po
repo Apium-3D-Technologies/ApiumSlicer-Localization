@@ -14,6 +14,100 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Allow exceeding max height"
+msgstr "Allow exceeding max height"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"By default, G-code export is blocked when any generated Z movement, "
+"including Z offset, Z-hop or lift, and custom G-code, exceeds Max print "
+"height. Enable this option to allow such G-code to be exported. This does "
+"not allow models taller than Max print height and does not change the "
+"printer's physical limits. Enable it only if the printer can safely execute "
+"movements beyond the configured maximum height."
+msgstr ""
+"By default, G-code export is blocked when any generated Z movement, "
+"including Z offset, Z-hop or lift, and custom G-code, exceeds Max print "
+"height. Enable this option to allow such G-code to be exported. This does "
+"not allow models taller than Max print height and does not change the "
+"printer's physical limits. Enable it only if the printer can safely execute "
+"movements beyond the configured maximum height."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Slicer-generated movement"
+msgstr "Slicer-generated movement"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid "Before the first layer"
+msgstr "Before the first layer"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Layer %1%"
+msgstr "Layer %1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Generated G-code exceeds the configured maximum print height. Export is "
+"blocked to protect the printer."
+msgstr ""
+"Generated G-code exceeds the configured maximum print height. Export is "
+"blocked to protect the printer."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Source: %1%"
+msgstr "Source: %1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Location: %1%"
+msgstr "Location: %1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid "Command: %1%"
+msgstr "Command: %1%"
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid ""
+"Commanded Z: %1$.3f mm; maximum print height: %2$.3f mm; exceeded by: %3$.3f "
+"mm."
+msgstr ""
+"Commanded Z: %1$.3f mm; maximum print height: %2$.3f mm; exceeded by: %3$.3f "
+"mm."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+#, boost-format
+msgid ""
+"Calculation: current layer Z %1$.3f mm + Z offset %2$.3f mm + Z-hop/lift or "
+"custom Z movement %3$.3f mm = %4$.3f mm."
+msgstr ""
+"Calculation: current layer Z %1$.3f mm + Z offset %2$.3f mm + Z-hop/lift or "
+"custom Z movement %3$.3f mm = %4$.3f mm."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"A layer-based calculation is unavailable because this movement occurs before "
+"the first generated layer."
+msgstr ""
+"A layer-based calculation is unavailable because this movement occurs before "
+"the first generated layer."
+
+#: src/libslic3r/GCode/GCodeProcessor.cpp
+msgid ""
+"Reduce the model or layer height, Z offset, Z-hop/lift, or the responsible "
+"custom G-code movement. To override this safety check, enable Allow "
+"exceeding max height in Printer Settings > General > Size and coordinates. "
+"The maximum permitted model height remains unchanged."
+msgstr ""
+"Reduce the model or layer height, Z offset, Z-hop/lift, or the responsible "
+"custom G-code movement. To override this safety check, enable Allow "
+"exceeding max height in Printer Settings > General > Size and coordinates. "
+"The maximum permitted model height remains unchanged."
+
 #: src/slic3r/GUI/Plater.cpp
 msgid ""
 "Changing the extrusion mode or printer will remove all multi-material "
