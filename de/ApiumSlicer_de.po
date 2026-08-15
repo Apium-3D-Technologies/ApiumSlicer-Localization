@@ -17743,6 +17743,18 @@ msgstr "Es gibt aktive Warnungen zu gesliceten Modellen:"
 msgid "generated warnings"
 msgstr "erzeugte Warnungen"
 
+#: src/libslic3r/SlicingNotification.cpp
+msgid "INFO:"
+msgstr "INFO:"
+
+#: src/libslic3r/SlicingNotification.cpp
+msgid "There are active errors concerning sliced models:"
+msgstr "Es gibt aktive Fehler zu geslicten Modellen:"
+
+#: src/libslic3r/SlicingNotification.cpp
+msgid "generated errors"
+msgstr "erzeugte Fehler"
+
 #: src/slic3r/GUI/Plater.cpp:3097
 msgid "Slicing Cancelled."
 msgstr "Slicen abgebrochen"

@@ -16438,6 +16438,18 @@ msgstr "存在有关切片模型的活动警告:"
 msgid "generated warnings"
 msgstr "生成的警告"
 
+#: src/libslic3r/SlicingNotification.cpp
+msgid "INFO:"
+msgstr "信息："
+
+#: src/libslic3r/SlicingNotification.cpp
+msgid "There are active errors concerning sliced models:"
+msgstr "切片模型存在活动错误："
+
+#: src/libslic3r/SlicingNotification.cpp
+msgid "generated errors"
+msgstr "生成的错误"
+
 #: src/slic3r/GUI/Plater.cpp:3097
 msgid "Slicing Cancelled."
 msgstr "切片取消。"
