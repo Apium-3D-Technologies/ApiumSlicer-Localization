@@ -26075,6 +26075,126 @@ msgstr ""
 "Maximaler Eckwinkel, bei dem eine Nahtkerbe angewendet wird. Bei 0° wird die "
 "Kerbe unabhängig von der Eckenschärfe angewendet."
 
+msgid "Admin password"
+msgstr "Administratorpasswort"
+
+msgid "Administrator permission required"
+msgstr "Administratorrechte erforderlich"
+
+#, boost-format
+msgid ""
+"The SSH user for printer \"%1%\" does not have permission to %2%.\n"
+"\n"
+"Path:\n"
+"%3%"
+msgstr ""
+"Der SSH-Benutzer für Drucker \"%1%\" hat keine Berechtigung, um %2%.\n"
+"\n"
+"Pfad:\n"
+"%3%"
+
+msgid "Use sudo once"
+msgstr "Einmal mit sudo"
+
+msgid "Use sudo for session"
+msgstr "Für Sitzung mit sudo"
+
+msgid "Enter administrator password"
+msgstr "Administratorpasswort eingeben"
+
+#, boost-format
+msgid "Enter the sudo password for printer \"%1%\"."
+msgstr "Geben Sie das sudo-Passwort für Drucker \"%1%\" ein."
+
+msgid "read this directory"
+msgstr "dieses Verzeichnis zu lesen"
+
+msgid "create this folder"
+msgstr "diesen Ordner zu erstellen"
+
+msgid "create this file"
+msgstr "diese Datei zu erstellen"
+
+msgid "rename this item"
+msgstr "dieses Element umzubenennen"
+
+msgid "delete the selected item"
+msgstr "das ausgewählte Element zu löschen"
+
+msgid "Failed to create a temporary file for the remote editor."
+msgstr ""
+"Die temporäre Datei für den Remote-Editor konnte nicht erstellt werden."
+
+msgid "open this remote file"
+msgstr "diese Remote-Datei zu öffnen"
+
+msgid "The file operation failed unexpectedly."
+msgstr "Die Dateioperation ist unerwartet fehlgeschlagen."
+
+msgid ""
+"The administrator password was rejected by sudo. Enter the current password "
+"to continue."
+msgstr ""
+"Das Administratorpasswort wurde von sudo abgelehnt. Geben Sie das aktuelle "
+"Passwort ein, um fortzufahren."
+
+msgid "Administrator authentication failed"
+msgstr "Administrator-Authentifizierung fehlgeschlagen"
+
+msgid "move the selected items"
+msgstr "die ausgewählten Elemente zu verschieben"
+
+msgid "copy the selected items"
+msgstr "die ausgewählten Elemente zu kopieren"
+
+msgid "read the selected items"
+msgstr "die ausgewählten Elemente zu lesen"
+
+msgid "upload the changed remote file"
+msgstr "die geänderte Remote-Datei hochzuladen"
+
+msgid "The admin password was rejected by sudo."
+msgstr "Das Administratorpasswort wurde von sudo abgelehnt."
+
+msgid "The SSH user is not allowed to run this operation with sudo: "
+msgstr "Der SSH-Benutzer darf diese Operation nicht mit sudo ausführen: "
+
+msgid "Permission denied while reading the remote directory."
+msgstr "Keine Berechtigung zum Lesen des Remote-Verzeichnisses."
+
+msgid "Permission denied while opening the remote directory."
+msgstr "Keine Berechtigung zum Öffnen des Remote-Verzeichnisses."
+
+msgid "Permission denied while inspecting the remote path."
+msgstr "Keine Berechtigung zum Prüfen des Remote-Pfads."
+
+msgid "Permission denied while moving the remote path."
+msgstr "Keine Berechtigung zum Verschieben des Remote-Pfads."
+
+msgid "Permission denied while deleting the remote path."
+msgstr "Keine Berechtigung zum Löschen des Remote-Pfads."
+
+msgid "Permission denied while creating the remote directory."
+msgstr "Keine Berechtigung zum Erstellen des Remote-Verzeichnisses."
+
+msgid "Permission denied while opening the remote source file."
+msgstr "Keine Berechtigung zum Öffnen der Remote-Quelldatei."
+
+msgid "Permission denied while reading the remote source file."
+msgstr "Keine Berechtigung zum Lesen der Remote-Quelldatei."
+
+msgid "Permission denied while opening the remote target file."
+msgstr "Keine Berechtigung zum Öffnen der Remote-Zieldatei."
+
+msgid "Permission denied while writing the remote target file."
+msgstr "Keine Berechtigung zum Schreiben der Remote-Zieldatei."
+
+msgid "Permission denied while copying the remote file."
+msgstr "Keine Berechtigung zum Kopieren der Remote-Datei."
+
+msgid "Failed to inspect the remote path."
+msgstr "Der Remote-Pfad konnte nicht geprüft werden."
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 

@@ -24166,6 +24166,123 @@ msgid ""
 msgstr ""
 "可应用接缝缺口的最大拐角角度。设为 0° 时，无论拐角尖锐程度如何都会应用缺口。"
 
+msgid "Admin password"
+msgstr "管理员密码"
+
+msgid "Administrator permission required"
+msgstr "需要管理员权限"
+
+#, boost-format
+msgid ""
+"The SSH user for printer \"%1%\" does not have permission to %2%.\n"
+"\n"
+"Path:\n"
+"%3%"
+msgstr ""
+"打印机“%1%”的 SSH 用户没有权限执行以下操作：%2%。\n"
+"\n"
+"路径：\n"
+"%3%"
+
+msgid "Use sudo once"
+msgstr "仅本次使用 sudo"
+
+msgid "Use sudo for session"
+msgstr "本次会话使用 sudo"
+
+msgid "Enter administrator password"
+msgstr "输入管理员密码"
+
+#, boost-format
+msgid "Enter the sudo password for printer \"%1%\"."
+msgstr "请输入打印机“%1%”的 sudo 密码。"
+
+msgid "read this directory"
+msgstr "读取此目录"
+
+msgid "create this folder"
+msgstr "创建此文件夹"
+
+msgid "create this file"
+msgstr "创建此文件"
+
+msgid "rename this item"
+msgstr "重命名此项目"
+
+msgid "delete the selected item"
+msgstr "删除所选项目"
+
+msgid "Failed to create a temporary file for the remote editor."
+msgstr "无法为远程编辑器创建临时文件。"
+
+msgid "open this remote file"
+msgstr "打开此远程文件"
+
+msgid "The file operation failed unexpectedly."
+msgstr "文件操作意外失败。"
+
+msgid ""
+"The administrator password was rejected by sudo. Enter the current password "
+"to continue."
+msgstr "sudo 拒绝了管理员密码。请输入当前密码以继续。"
+
+msgid "Administrator authentication failed"
+msgstr "管理员身份验证失败"
+
+msgid "move the selected items"
+msgstr "移动所选项目"
+
+msgid "copy the selected items"
+msgstr "复制所选项目"
+
+msgid "read the selected items"
+msgstr "读取所选项目"
+
+msgid "upload the changed remote file"
+msgstr "上传已更改的远程文件"
+
+msgid "The admin password was rejected by sudo."
+msgstr "sudo 拒绝了管理员密码。"
+
+msgid "The SSH user is not allowed to run this operation with sudo: "
+msgstr "SSH 用户不允许使用 sudo 执行此操作："
+
+msgid "Permission denied while reading the remote directory."
+msgstr "没有读取远程目录的权限。"
+
+msgid "Permission denied while opening the remote directory."
+msgstr "没有打开远程目录的权限。"
+
+msgid "Permission denied while inspecting the remote path."
+msgstr "没有检查远程路径的权限。"
+
+msgid "Permission denied while moving the remote path."
+msgstr "没有移动远程路径的权限。"
+
+msgid "Permission denied while deleting the remote path."
+msgstr "没有删除远程路径的权限。"
+
+msgid "Permission denied while creating the remote directory."
+msgstr "没有创建远程目录的权限。"
+
+msgid "Permission denied while opening the remote source file."
+msgstr "没有打开远程源文件的权限。"
+
+msgid "Permission denied while reading the remote source file."
+msgstr "没有读取远程源文件的权限。"
+
+msgid "Permission denied while opening the remote target file."
+msgstr "没有打开远程目标文件的权限。"
+
+msgid "Permission denied while writing the remote target file."
+msgstr "没有写入远程目标文件的权限。"
+
+msgid "Permission denied while copying the remote file."
+msgstr "没有复制远程文件的权限。"
+
+msgid "Failed to inspect the remote path."
+msgstr "无法检查远程路径。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

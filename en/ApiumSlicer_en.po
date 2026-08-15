@@ -25317,6 +25317,125 @@ msgstr ""
 "Maximum corner angle at which a seam notch is applied. Set to 0° to apply "
 "the notch regardless of corner sharpness."
 
+msgid "Admin password"
+msgstr "Admin password"
+
+msgid "Administrator permission required"
+msgstr "Administrator permission required"
+
+#, boost-format
+msgid ""
+"The SSH user for printer \"%1%\" does not have permission to %2%.\n"
+"\n"
+"Path:\n"
+"%3%"
+msgstr ""
+"The SSH user for printer \"%1%\" does not have permission to %2%.\n"
+"\n"
+"Path:\n"
+"%3%"
+
+msgid "Use sudo once"
+msgstr "Use sudo once"
+
+msgid "Use sudo for session"
+msgstr "Use sudo for session"
+
+msgid "Enter administrator password"
+msgstr "Enter administrator password"
+
+#, boost-format
+msgid "Enter the sudo password for printer \"%1%\"."
+msgstr "Enter the sudo password for printer \"%1%\"."
+
+msgid "read this directory"
+msgstr "read this directory"
+
+msgid "create this folder"
+msgstr "create this folder"
+
+msgid "create this file"
+msgstr "create this file"
+
+msgid "rename this item"
+msgstr "rename this item"
+
+msgid "delete the selected item"
+msgstr "delete the selected item"
+
+msgid "Failed to create a temporary file for the remote editor."
+msgstr "Failed to create a temporary file for the remote editor."
+
+msgid "open this remote file"
+msgstr "open this remote file"
+
+msgid "The file operation failed unexpectedly."
+msgstr "The file operation failed unexpectedly."
+
+msgid ""
+"The administrator password was rejected by sudo. Enter the current password "
+"to continue."
+msgstr ""
+"The administrator password was rejected by sudo. Enter the current password "
+"to continue."
+
+msgid "Administrator authentication failed"
+msgstr "Administrator authentication failed"
+
+msgid "move the selected items"
+msgstr "move the selected items"
+
+msgid "copy the selected items"
+msgstr "copy the selected items"
+
+msgid "read the selected items"
+msgstr "read the selected items"
+
+msgid "upload the changed remote file"
+msgstr "upload the changed remote file"
+
+msgid "The admin password was rejected by sudo."
+msgstr "The admin password was rejected by sudo."
+
+msgid "The SSH user is not allowed to run this operation with sudo: "
+msgstr "The SSH user is not allowed to run this operation with sudo: "
+
+msgid "Permission denied while reading the remote directory."
+msgstr "Permission denied while reading the remote directory."
+
+msgid "Permission denied while opening the remote directory."
+msgstr "Permission denied while opening the remote directory."
+
+msgid "Permission denied while inspecting the remote path."
+msgstr "Permission denied while inspecting the remote path."
+
+msgid "Permission denied while moving the remote path."
+msgstr "Permission denied while moving the remote path."
+
+msgid "Permission denied while deleting the remote path."
+msgstr "Permission denied while deleting the remote path."
+
+msgid "Permission denied while creating the remote directory."
+msgstr "Permission denied while creating the remote directory."
+
+msgid "Permission denied while opening the remote source file."
+msgstr "Permission denied while opening the remote source file."
+
+msgid "Permission denied while reading the remote source file."
+msgstr "Permission denied while reading the remote source file."
+
+msgid "Permission denied while opening the remote target file."
+msgstr "Permission denied while opening the remote target file."
+
+msgid "Permission denied while writing the remote target file."
+msgstr "Permission denied while writing the remote target file."
+
+msgid "Permission denied while copying the remote file."
+msgstr "Permission denied while copying the remote file."
+
+msgid "Failed to inspect the remote path."
+msgstr "Failed to inspect the remote path."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 

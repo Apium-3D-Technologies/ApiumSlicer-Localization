@@ -22261,3 +22261,149 @@ msgstr[1] ""
 #: src/libslic3r/PrintConfig.cpp
 msgid "Maximum corner angle at which a seam notch is applied. Set to 0° to apply the notch regardless of corner sharpness."
 msgstr ""
+
+#: src/slic3r/GUI/SshPrinterDialog.cpp
+msgid "Admin password"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Administrator permission required"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+#, boost-format
+msgid "The SSH user for printer \"%1%\" does not have permission to %2%.\n\nPath:\n%3%"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Use sudo once"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Use sudo for session"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Enter administrator password"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+#, boost-format
+msgid "Enter the sudo password for printer \"%1%\"."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "read this directory"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "create this folder"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "create this file"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "rename this item"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "delete the selected item"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Failed to create a temporary file for the remote editor."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "open this remote file"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "The file operation failed unexpectedly."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "The administrator password was rejected by sudo. Enter the current password to continue."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Administrator authentication failed"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "move the selected items"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "copy the selected items"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "read the selected items"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "upload the changed remote file"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "The admin password was rejected by sudo."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "The SSH user is not allowed to run this operation with sudo: "
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while reading the remote directory."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while opening the remote directory."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while inspecting the remote path."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while moving the remote path."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while deleting the remote path."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while creating the remote directory."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while opening the remote source file."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while reading the remote source file."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while opening the remote target file."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while writing the remote target file."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Permission denied while copying the remote file."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Failed to inspect the remote path."
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferSessionManager.cpp
+msgid "Failed to inspect the remote path."
+msgstr ""
