@@ -13,6 +13,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.6\n"
 
+#: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp
+msgid "Support type"
+msgstr "Stütztyp"
+
+msgid "Paint regions that will use Snug support style (Blue)."
+msgstr "Bereiche malen, die den anliegenden Stützstil verwenden (Blau)."
+
+msgid "Paint regions that will use Grid support style (Orange)."
+msgstr "Bereiche malen, die den Gitter-Stützstil verwenden (Orange)."
+
+msgid "Paint regions that will use Organic support style (Green)."
+msgstr "Bereiche malen, die den organischen Stützstil verwenden (Grün)."
+
 #: src/libslic3r/PrintConfig.cpp
 msgid "Allow exceeding max height"
 msgstr "Überschreiten der maximalen Höhe erlauben"

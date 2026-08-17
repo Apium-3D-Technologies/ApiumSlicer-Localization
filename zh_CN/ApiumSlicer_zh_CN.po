@@ -17,6 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
+#: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp
+msgid "Support type"
+msgstr "支撑类型"
+
+msgid "Paint regions that will use Snug support style (Blue)."
+msgstr "绘制将使用贴合支撑样式的区域（蓝色）。"
+
+msgid "Paint regions that will use Grid support style (Orange)."
+msgstr "绘制将使用网格支撑样式的区域（橙色）。"
+
+msgid "Paint regions that will use Organic support style (Green)."
+msgstr "绘制将使用有机支撑样式的区域（绿色）。"
+
 #: src/libslic3r/PrintConfig.cpp
 msgid "Allow exceeding max height"
 msgstr "允许超过最大高度"
