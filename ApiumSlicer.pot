@@ -21381,6 +21381,14 @@ msgid "Fetches the next command from history."
 msgstr ""
 
 #: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Ctrl + Shift + P"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
+msgid "Enters the stored administrator password for the selected printer and presses Enter."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp
 msgid "Show all supported shell shortcuts and their behavior."
 msgstr ""
 #: src/slic3r/GUI/ConfigWizard.cpp:1960
