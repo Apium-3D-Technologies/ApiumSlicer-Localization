@@ -22423,3 +22423,8 @@ msgstr ""
 #: src/slic3r/GUI/FileTransferSessionManager.cpp
 msgid "Failed to inspect the remote path."
 msgstr ""
+msgid "Clipping view"
+msgstr ""
+
+msgid "Clip the visible scene using this object as the range"
+msgstr ""
