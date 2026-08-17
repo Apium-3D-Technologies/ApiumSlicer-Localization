@@ -22428,3 +22428,6 @@ msgstr ""
 
 msgid "Clip the visible scene using this object as the range"
 msgstr ""
+
+msgid "Choose face"
+msgstr ""
