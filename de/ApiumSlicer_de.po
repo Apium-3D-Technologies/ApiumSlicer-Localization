@@ -26217,6 +26217,21 @@ msgstr "Die sichtbare Szene zuschneiden; dieses Objekt bestimmt den Bereich"
 msgid "Choose face"
 msgstr "Fläche auswählen"
 
+msgid "Done"
+msgstr "Fertig"
+
+msgid "Reset selection 1"
+msgstr "Auswahl 1 zurücksetzen"
+
+msgid "Reset selection 2"
+msgstr "Auswahl 2 zurücksetzen"
+
+msgid "Scale measured part"
+msgstr "Gemessenes Teil skalieren"
+
+msgid "Scale object instance"
+msgstr "Objektinstanz skalieren"
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 
@@ -28118,9 +28133,6 @@ msgstr "Fläche auswählen"
 
 #~ msgid "Don't Save"
 #~ msgstr "Nicht speichern"
-
-#~ msgid "Done"
-#~ msgstr "Fertig"
 
 #~ msgid "Done."
 #~ msgstr "Fertig."

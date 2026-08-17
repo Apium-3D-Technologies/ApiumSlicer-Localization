@@ -25458,6 +25458,21 @@ msgstr "Clip the visible scene using this object as the range"
 msgid "Choose face"
 msgstr "Choose face"
 
+msgid "Done"
+msgstr "Done"
+
+msgid "Reset selection 1"
+msgstr "Reset selection 1"
+
+msgid "Reset selection 2"
+msgstr "Reset selection 2"
+
+msgid "Scale measured part"
+msgstr "Scale measured part"
+
+msgid "Scale object instance"
+msgstr "Scale object instance"
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
@@ -27298,9 +27313,6 @@ msgstr "Choose face"
 
 #~ msgid "Don't Save"
 #~ msgstr "Don't Save"
-
-#~ msgid "Done"
-#~ msgstr "Done"
 
 #~ msgid "Done."
 #~ msgstr "Done."

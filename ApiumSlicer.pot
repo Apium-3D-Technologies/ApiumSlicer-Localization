@@ -22431,3 +22431,23 @@ msgstr ""
 
 msgid "Choose face"
 msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
+msgid "Reset selection 1"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
+msgid "Reset selection 2"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
+msgid "Scale measured part"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
+msgid "Scale object instance"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
+msgid "Done"
+msgstr ""

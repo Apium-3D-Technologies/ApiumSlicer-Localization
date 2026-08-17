@@ -24305,6 +24305,21 @@ msgstr "使用此对象作为范围裁剪可见场景"
 msgid "Choose face"
 msgstr "选择面"
 
+msgid "Done"
+msgstr "完成"
+
+msgid "Reset selection 1"
+msgstr "重置选择 1"
+
+msgid "Reset selection 2"
+msgstr "重置选择 2"
+
+msgid "Scale measured part"
+msgstr "缩放测量零件"
+
+msgid "Scale object instance"
+msgstr "缩放对象实例"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 
@@ -26110,9 +26125,6 @@ msgstr "选择面"
 
 #~ msgid "Don't Save"
 #~ msgstr "不保存"
-
-#~ msgid "Done"
-#~ msgstr "完成"
 
 #~ msgid "Done."
 #~ msgstr "完成."
