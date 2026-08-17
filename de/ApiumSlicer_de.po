@@ -26112,6 +26112,9 @@ msgstr "Einmal mit sudo"
 msgid "Use sudo for session"
 msgstr "Für Sitzung mit sudo"
 
+msgid "Sudo mode active"
+msgstr "Sudo-Modus aktiv"
+
 msgid "Enter administrator password"
 msgstr "Administratorpasswort eingeben"
 

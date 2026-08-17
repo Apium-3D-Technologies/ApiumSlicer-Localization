@@ -24203,6 +24203,9 @@ msgstr "仅本次使用 sudo"
 msgid "Use sudo for session"
 msgstr "本次会话使用 sudo"
 
+msgid "Sudo mode active"
+msgstr "sudo 模式已启用"
+
 msgid "Enter administrator password"
 msgstr "输入管理员密码"
 

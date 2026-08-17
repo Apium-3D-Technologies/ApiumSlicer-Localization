@@ -22300,6 +22300,10 @@ msgid "Use sudo for session"
 msgstr ""
 
 #: src/slic3r/GUI/FileTransferTabPanel.cpp
+msgid "Sudo mode active"
+msgstr ""
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp
 msgid "Enter administrator password"
 msgstr ""
 

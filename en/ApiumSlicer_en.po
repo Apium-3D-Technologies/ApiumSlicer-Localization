@@ -25354,6 +25354,9 @@ msgstr "Use sudo once"
 msgid "Use sudo for session"
 msgstr "Use sudo for session"
 
+msgid "Sudo mode active"
+msgstr "Sudo mode active"
+
 msgid "Enter administrator password"
 msgstr "Enter administrator password"
 
