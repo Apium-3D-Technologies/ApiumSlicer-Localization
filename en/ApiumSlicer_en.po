@@ -3546,8 +3546,12 @@ msgid "Ironing angle"
 msgstr "Ironing angle"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base angle for ironing movements."
-msgstr "Base angle for ironing movements."
+msgid ""
+"Base angle for ironing movements. Set to 0 to use the automatic angle "
+"derived from the infill angle."
+msgstr ""
+"Base angle for ironing movements. Set to 0 to use the automatic angle "
+"derived from the infill angle."
 
 #: src/libslic3r/PrintConfig.cpp:1916
 msgid "Percent of a flow rate relative to object's normal layer height."

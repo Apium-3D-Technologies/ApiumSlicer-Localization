@@ -3654,8 +3654,12 @@ msgid "Ironing angle"
 msgstr "Bügelwinkel"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base angle for ironing movements."
-msgstr "Grundwinkel für Bügelbewegungen."
+msgid ""
+"Base angle for ironing movements. Set to 0 to use the automatic angle "
+"derived from the infill angle."
+msgstr ""
+"Grundwinkel für Bügelbewegungen. Auf 0 setzen, um den automatisch aus dem "
+"Infill-Winkel abgeleiteten Winkel zu verwenden."
 
 #: src/libslic3r/PrintConfig.cpp:1916
 msgid "Percent of a flow rate relative to object's normal layer height."

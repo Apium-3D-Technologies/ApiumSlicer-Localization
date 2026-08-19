@@ -2914,7 +2914,7 @@ msgid "Ironing angle"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base angle for ironing movements."
+msgid "Base angle for ironing movements. Set to 0 to use the automatic angle derived from the infill angle."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1916

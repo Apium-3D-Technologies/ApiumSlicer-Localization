@@ -3284,8 +3284,10 @@ msgid "Ironing angle"
 msgstr "熨烫角度"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Base angle for ironing movements."
-msgstr "熨烫移动的基础角度。"
+msgid ""
+"Base angle for ironing movements. Set to 0 to use the automatic angle "
+"derived from the infill angle."
+msgstr "熨烫移动的基础角度。设置为 0 时，使用从填充角度自动推导的角度。"
 
 #: src/libslic3r/PrintConfig.cpp:1916
 msgid "Percent of a flow rate relative to object's normal layer height."
