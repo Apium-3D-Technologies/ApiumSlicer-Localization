@@ -25518,6 +25518,12 @@ msgstr "Vector Graphic"
 msgid "Center on face"
 msgstr "Center on face"
 
+msgid "Maximize size"
+msgstr "Maximize size"
+
+msgid "Maximize size is available only for connected planar faces."
+msgstr "Maximize size is available only for connected planar faces."
+
 msgid "Center is available only for connected planar faces."
 msgstr "Center is available only for connected planar faces."
 

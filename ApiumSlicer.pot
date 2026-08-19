@@ -22497,6 +22497,14 @@ msgstr ""
 msgid "Center on face"
 msgstr ""
 
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Maximize size"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Maximize size is available only for connected planar faces."
+msgstr ""
+
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
 msgid "Center is available only for connected planar faces."
 msgstr ""

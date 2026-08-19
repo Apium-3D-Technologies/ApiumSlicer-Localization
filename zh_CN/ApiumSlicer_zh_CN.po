@@ -24363,6 +24363,12 @@ msgstr "矢量图形"
 msgid "Center on face"
 msgstr "在表面居中"
 
+msgid "Maximize size"
+msgstr "最大尺寸"
+
+msgid "Maximize size is available only for connected planar faces."
+msgstr "最大尺寸仅适用于连续的平面。"
+
 msgid "Center is available only for connected planar faces."
 msgstr "仅可在连续的平面上使用居中功能。"
 

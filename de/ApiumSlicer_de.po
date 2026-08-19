@@ -26289,6 +26289,13 @@ msgstr "Vektorgrafik"
 msgid "Center on face"
 msgstr "Auf Fläche zentrieren"
 
+msgid "Maximize size"
+msgstr "Maximale Größe"
+
+msgid "Maximize size is available only for connected planar faces."
+msgstr ""
+"Die maximale Größe ist nur für zusammenhängende planare Flächen verfügbar."
+
 msgid "Center is available only for connected planar faces."
 msgstr "Zentrieren ist nur für zusammenhängende planare Flächen verfügbar."
 
