@@ -3279,6 +3279,14 @@ msgstr ""
 msgid "Flow rate"
 msgstr "流量"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ironing angle"
+msgstr "熨烫角度"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base angle for ironing movements."
+msgstr "熨烫移动的基础角度。"
+
 #: src/libslic3r/PrintConfig.cpp:1916
 msgid "Percent of a flow rate relative to object's normal layer height."
 msgstr "相对于对象正常层高度的流速百分比。"

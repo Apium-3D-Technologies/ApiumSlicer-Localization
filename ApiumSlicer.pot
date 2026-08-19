@@ -2909,6 +2909,14 @@ msgstr ""
 msgid "Flow rate"
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Ironing angle"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Base angle for ironing movements."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:1916
 msgid "Percent of a flow rate relative to object's normal layer height."
 msgstr ""
