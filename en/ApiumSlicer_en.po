@@ -25488,6 +25488,78 @@ msgstr "Scale measured part"
 msgid "Scale object instance"
 msgstr "Scale object instance"
 
+msgid "Strikethrough"
+msgstr "Strikethrough"
+
+msgid "Underline"
+msgstr "Underline"
+
+msgid "Add Text"
+msgstr "Add Text"
+
+msgid "Add SVG"
+msgstr "Add SVG"
+
+msgid "Emboss Logo"
+msgstr "Emboss Logo"
+
+msgid "Emboss Model"
+msgstr "Emboss Model"
+
+msgid "Add editable text or vector graphics to a selected surface."
+msgstr "Add editable text or vector graphics to a selected surface."
+
+msgid "Emboss Logo requires a valid nozzle diameter for tool 0."
+msgstr "Emboss Logo requires a valid nozzle diameter for tool 0."
+
+msgid "Vector Graphic"
+msgstr "Vector Graphic"
+
+msgid "Center on face"
+msgstr "Center on face"
+
+msgid "Center is available only for connected planar faces."
+msgstr "Center is available only for connected planar faces."
+
+msgid "Raised"
+msgstr "Raised"
+
+msgid "Engraved"
+msgstr "Engraved"
+
+msgid "Create the emboss along the outward surface normal."
+msgstr "Create the emboss along the outward surface normal."
+
+msgid "The complete logo must fit on the selected target surface."
+msgstr "The complete logo must fit on the selected target surface."
+
+msgid "Advanced settings"
+msgstr "Advanced settings"
+
+msgid "Select target surface"
+msgstr "Select target surface"
+
+msgid "Click a surface of the selected model to place the emboss."
+msgstr "Click a surface of the selected model to place the emboss."
+
+msgid "Generated emboss features cannot be selected as target surfaces."
+msgstr "Generated emboss features cannot be selected as target surfaces."
+
+msgid "Select target face"
+msgstr "Select target face"
+
+msgid "Select face:"
+msgstr "Select face:"
+
+msgid "Select a face in the 3D view."
+msgstr "Select a face in the 3D view."
+
+msgid "Select a target face to edit the emboss settings."
+msgstr "Select a target face to edit the emboss settings."
+
+msgid "Creating emboss preview..."
+msgstr "Creating emboss preview..."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
@@ -29851,9 +29923,6 @@ msgstr "Scale object instance"
 #~ msgid "Stop"
 #~ msgstr "Stop"
 
-#~ msgid "Strikethrough"
-#~ msgstr "Strikethrough"
-
 #, c-format
 #~ msgid "String To Colour : Incorrect colour specification : %s"
 #~ msgstr "String To Colour : Incorrect colour specification : %s"
@@ -30391,9 +30460,6 @@ msgstr "Scale object instance"
 
 #~ msgid "Undelete"
 #~ msgstr "Undelete"
-
-#~ msgid "Underline"
-#~ msgstr "Underline"
 
 #~ msgid "Underlined"
 #~ msgstr "Underlined"

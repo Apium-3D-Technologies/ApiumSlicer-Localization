@@ -13308,7 +13308,7 @@ msgstr "能够更改文本、字体、大小。。。"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1110
 msgid "Edit SVG"
-msgstr ""
+msgstr "编辑 SVG"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1134
 msgid "Change SVG source file, projection, size, ..."
@@ -24333,6 +24333,78 @@ msgstr "缩放测量零件"
 msgid "Scale object instance"
 msgstr "缩放对象实例"
 
+msgid "Strikethrough"
+msgstr "删除线"
+
+msgid "Underline"
+msgstr "下划线"
+
+msgid "Add Text"
+msgstr "添加文本"
+
+msgid "Add SVG"
+msgstr "添加 SVG"
+
+msgid "Emboss Logo"
+msgstr "浮雕图案"
+
+msgid "Emboss Model"
+msgstr "模型浮雕"
+
+msgid "Add editable text or vector graphics to a selected surface."
+msgstr "在所选表面添加可编辑的文本或矢量图形。"
+
+msgid "Emboss Logo requires a valid nozzle diameter for tool 0."
+msgstr "浮雕图案需要工具 0 的有效喷嘴直径。"
+
+msgid "Vector Graphic"
+msgstr "矢量图形"
+
+msgid "Center on face"
+msgstr "在表面居中"
+
+msgid "Center is available only for connected planar faces."
+msgstr "仅可在连续的平面上使用居中功能。"
+
+msgid "Raised"
+msgstr "凸起"
+
+msgid "Engraved"
+msgstr "凹刻"
+
+msgid "Create the emboss along the outward surface normal."
+msgstr "沿表面向外法线方向创建凸起。"
+
+msgid "The complete logo must fit on the selected target surface."
+msgstr "完整图案必须位于所选目标表面内。"
+
+msgid "Advanced settings"
+msgstr "高级设置"
+
+msgid "Select target surface"
+msgstr "选择目标表面"
+
+msgid "Click a surface of the selected model to place the emboss."
+msgstr "单击所选模型的表面以放置浮雕。"
+
+msgid "Generated emboss features cannot be selected as target surfaces."
+msgstr "生成的浮雕特征不能选作目标表面。"
+
+msgid "Select target face"
+msgstr "选择目标面"
+
+msgid "Select face:"
+msgstr "选择面："
+
+msgid "Select a face in the 3D view."
+msgstr "请在 3D 视图中选择一个面。"
+
+msgid "Select a target face to edit the emboss settings."
+msgstr "请选择目标面以编辑浮雕设置。"
+
+msgid "Creating emboss preview..."
+msgstr "正在创建浮雕预览..."
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 
@@ -28446,9 +28518,6 @@ msgstr "缩放对象实例"
 #~ msgid "Stop"
 #~ msgstr "停止"
 
-#~ msgid "Strikethrough"
-#~ msgstr "删除线"
-
 #, c-format
 #~ msgid "String To Colour : Incorrect colour specification : %s"
 #~ msgstr "字符串 - 颜色: 错误的颜色: %s"
@@ -28946,9 +29015,6 @@ msgstr "缩放对象实例"
 
 #~ msgid "Undelete"
 #~ msgstr "取消删除"
-
-#~ msgid "Underline"
-#~ msgstr "下划线"
 
 #~ msgid "Underlined"
 #~ msgstr "下划线"

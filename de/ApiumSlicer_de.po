@@ -26247,6 +26247,92 @@ msgstr "Gemessenes Teil skalieren"
 msgid "Scale object instance"
 msgstr "Objektinstanz skalieren"
 
+#, fuzzy
+msgid "Strikethrough"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Durchstreichen\n"
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Durchgestrichen"
+
+#, fuzzy
+msgid "Underline"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Unterstreichen\n"
+"#-#-#-#-#  ApiumSlicer_de.po  #-#-#-#-#\n"
+"Unterstrichen"
+
+msgid "Add Text"
+msgstr "Text hinzufügen"
+
+msgid "Add SVG"
+msgstr "SVG hinzufügen"
+
+msgid "Emboss Logo"
+msgstr "Logo prägen"
+
+msgid "Emboss Model"
+msgstr "Modell prägen"
+
+msgid "Add editable text or vector graphics to a selected surface."
+msgstr ""
+"Fügt einer ausgewählten Fläche editierbaren Text oder eine Vektorgrafik "
+"hinzu."
+
+msgid "Emboss Logo requires a valid nozzle diameter for tool 0."
+msgstr "Logo prägen benötigt einen gültigen Düsendurchmesser für Werkzeug 0."
+
+msgid "Vector Graphic"
+msgstr "Vektorgrafik"
+
+msgid "Center on face"
+msgstr "Auf Fläche zentrieren"
+
+msgid "Center is available only for connected planar faces."
+msgstr "Zentrieren ist nur für zusammenhängende planare Flächen verfügbar."
+
+msgid "Raised"
+msgstr "Erhaben"
+
+msgid "Engraved"
+msgstr "Eingraviert"
+
+msgid "Create the emboss along the outward surface normal."
+msgstr "Erzeugt die Prägung entlang der äußeren Flächennormalen."
+
+msgid "The complete logo must fit on the selected target surface."
+msgstr "Das vollständige Logo muss auf die ausgewählte Zielfläche passen."
+
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+msgid "Select target surface"
+msgstr "Zielfläche auswählen"
+
+msgid "Click a surface of the selected model to place the emboss."
+msgstr ""
+"Klicke auf eine Fläche des ausgewählten Modells, um die Prägung zu "
+"platzieren."
+
+msgid "Generated emboss features cannot be selected as target surfaces."
+msgstr "Erzeugte Prägeelemente können nicht als Zielflächen ausgewählt werden."
+
+msgid "Select target face"
+msgstr "Zielfläche auswählen"
+
+msgid "Select face:"
+msgstr "Fläche auswählen:"
+
+msgid "Select a face in the 3D view."
+msgstr "Wähle eine Fläche in der 3D-Ansicht aus."
+
+msgid "Select a target face to edit the emboss settings."
+msgstr "Wähle eine Zielfläche aus, um die Prägeeinstellungen zu bearbeiten."
+
+msgid "Creating emboss preview..."
+msgstr "Prägevorschau wird erstellt ..."
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 
@@ -30731,9 +30817,6 @@ msgstr "Objektinstanz skalieren"
 #~ msgid "Stop"
 #~ msgstr "Stopp"
 
-#~ msgid "Strikethrough"
-#~ msgstr "Durchstreichen"
-
 #, c-format
 #~ msgid "String To Colour : Incorrect colour specification : %s"
 #~ msgstr "String To Colour: Falsche Farbangabe „%s“"
@@ -31288,9 +31371,6 @@ msgstr "Objektinstanz skalieren"
 
 #~ msgid "Undelete"
 #~ msgstr "Löschen rückgängig machen"
-
-#~ msgid "Underline"
-#~ msgstr "Unterstreichen"
 
 #~ msgid "Underlined"
 #~ msgstr "Unterstrichen"

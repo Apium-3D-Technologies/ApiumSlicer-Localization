@@ -22463,3 +22463,100 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp
 msgid "Done"
 msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp
+msgid "Add Text"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp
+msgid "Add SVG"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Emboss Logo"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Emboss Model"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp
+msgid "Add editable text or vector graphics to a selected surface."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Emboss Logo requires a valid nozzle diameter for tool 0."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Vector Graphic"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Center on face"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Center is available only for connected planar faces."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Underline"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Strikethrough"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Raised"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Engraved"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Create the emboss along the outward surface normal."
+msgstr ""
+
+#: src/slic3r/GUI/Jobs/EmbossJob.cpp
+msgid "The complete logo must fit on the selected target surface."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Advanced settings"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Select target surface"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Click a surface of the selected model to place the emboss."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Generated emboss features cannot be selected as target surfaces."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Select target face"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Select face:"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp
+msgid "Select a face in the 3D view."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Select a target face to edit the emboss settings."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
+msgid "Creating emboss preview..."
+msgstr ""
