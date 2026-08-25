@@ -25706,6 +25706,22 @@ msgstr "Percentage Integer"
 msgid "Percentage Float"
 msgstr "Percentage Float"
 
+msgid "Fill cavities"
+msgstr "Fill cavities"
+
+msgid "Fill enclosed internal cavities of the selected object"
+msgstr "Fill enclosed internal cavities of the selected object"
+
+msgid "No closed internal cavities found."
+msgstr "No closed internal cavities found."
+
+msgid ""
+"Custom supports, seams and multimaterial painting were removed after filling "
+"cavities."
+msgstr ""
+"Custom supports, seams and multimaterial painting were removed after filling "
+"cavities."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 

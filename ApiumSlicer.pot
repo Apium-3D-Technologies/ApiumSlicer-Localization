@@ -22679,3 +22679,19 @@ msgstr ""
 
 msgid "Percentage Float"
 msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp src/slic3r/GUI/Plater.cpp
+msgid "Fill cavities"
+msgstr ""
+
+#: src/slic3r/GUI/GUI_Factories.cpp
+msgid "Fill enclosed internal cavities of the selected object"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "No closed internal cavities found."
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Custom supports, seams and multimaterial painting were removed after filling cavities."
+msgstr ""

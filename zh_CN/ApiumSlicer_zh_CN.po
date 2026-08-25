@@ -24545,6 +24545,20 @@ msgstr "百分比整数"
 msgid "Percentage Float"
 msgstr "百分比浮点数"
 
+msgid "Fill cavities"
+msgstr "填充空腔"
+
+msgid "Fill enclosed internal cavities of the selected object"
+msgstr "填充所选对象中封闭的内部空腔"
+
+msgid "No closed internal cavities found."
+msgstr "未找到封闭的内部空腔。"
+
+msgid ""
+"Custom supports, seams and multimaterial painting were removed after filling "
+"cavities."
+msgstr "填充空腔后，已移除自定义支撑、接缝和多材料绘制。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

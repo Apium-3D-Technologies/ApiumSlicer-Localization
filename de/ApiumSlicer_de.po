@@ -26481,6 +26481,22 @@ msgstr "Prozent Ganzzahl"
 msgid "Percentage Float"
 msgstr "Prozent Fließkomma"
 
+msgid "Fill cavities"
+msgstr "Hohlräume füllen"
+
+msgid "Fill enclosed internal cavities of the selected object"
+msgstr "Eingeschlossene Innenhohlräume des ausgewählten Objekts füllen"
+
+msgid "No closed internal cavities found."
+msgstr "Keine geschlossenen Innenhohlräume gefunden."
+
+msgid ""
+"Custom supports, seams and multimaterial painting were removed after filling "
+"cavities."
+msgstr ""
+"Benutzerdefinierte Stützen, Nähte und Mehrmaterial-Bemalungen wurden nach "
+"dem Füllen von Hohlräumen entfernt."
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 
