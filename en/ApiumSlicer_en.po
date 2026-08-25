@@ -25707,6 +25707,18 @@ msgstr ""
 "Custom supports, seams and multimaterial painting were removed after filling "
 "cavities."
 
+msgid "G-code memory reserve (MiB)"
+msgstr "G-code memory reserve (MiB)"
+
+msgid ""
+"Initial memory reserved for the experimental in-memory G-code pipeline in "
+"MiB. Set to 0 for automatic sizing. The maximum selectable reserve is 6144 "
+"MiB (6 GiB); the effective reserve remains limited by the RAM safety frame."
+msgstr ""
+"Initial memory reserved for the experimental in-memory G-code pipeline in "
+"MiB. Set to 0 for automatic sizing. The maximum selectable reserve is 6144 "
+"MiB (6 GiB); the effective reserve remains limited by the RAM safety frame."
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 

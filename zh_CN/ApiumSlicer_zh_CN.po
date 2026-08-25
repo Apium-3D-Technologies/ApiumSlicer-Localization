@@ -24544,6 +24544,17 @@ msgid ""
 "cavities."
 msgstr "填充空腔后，已移除自定义支撑、接缝和多材料绘制。"
 
+msgid "G-code memory reserve (MiB)"
+msgstr "G-code 内存预留（MiB）"
+
+msgid ""
+"Initial memory reserved for the experimental in-memory G-code pipeline in "
+"MiB. Set to 0 for automatic sizing. The maximum selectable reserve is 6144 "
+"MiB (6 GiB); the effective reserve remains limited by the RAM safety frame."
+msgstr ""
+"为实验性内存 G-code 流水线初始预留的内存（MiB）。设为 0 时自动调整。最大可选"
+"预留为 6144 MiB（6 GiB）；实际预留仍受 RAM 安全限制。"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 

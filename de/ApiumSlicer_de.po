@@ -26482,6 +26482,19 @@ msgstr ""
 "Benutzerdefinierte Stützen, Nähte und Mehrmaterial-Bemalungen wurden nach "
 "dem Füllen von Hohlräumen entfernt."
 
+msgid "G-code memory reserve (MiB)"
+msgstr "G-Code-Speicherreserve (MiB)"
+
+msgid ""
+"Initial memory reserved for the experimental in-memory G-code pipeline in "
+"MiB. Set to 0 for automatic sizing. The maximum selectable reserve is 6144 "
+"MiB (6 GiB); the effective reserve remains limited by the RAM safety frame."
+msgstr ""
+"Anfänglich für die experimentelle In-Memory-G-Code-Pipeline reservierter "
+"Speicher in MiB. Für automatische Bemessung auf 0 setzen. Die maximal "
+"wählbare Reserve beträgt 6144 MiB (6 GiB); die effektive Reserve bleibt "
+"durch den RAM-Sicherheitsrahmen begrenzt."
+
 #~ msgid "Color change (\"%1%\") for Extruder %2%"
 #~ msgstr "Farbwechsel (\"%1%\") für Extruder %2%"
 
