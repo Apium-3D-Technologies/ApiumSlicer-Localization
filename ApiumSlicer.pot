@@ -22576,3 +22576,42 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
 msgid "Creating emboss preview..."
 msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp src/slic3r/GUI/RenderPerformanceReview.cpp
+msgid "Start Performance Review"
+msgstr ""
+
+msgid "Run a reproducible rendering benchmark for the active plate"
+msgstr ""
+
+msgid "Rendering Performance Review"
+msgstr ""
+
+msgid "Preparing a fresh slice..."
+msgstr ""
+
+msgid "Slicing and loading the preview..."
+msgstr ""
+
+msgid "Measuring %1% (%2%/%3%)"
+msgstr ""
+
+msgid "Finalizing the report..."
+msgstr ""
+
+msgid "Save Rendering Performance Report"
+msgstr ""
+
+msgid "The rendering performance report could not be written. Please choose another location."
+msgstr ""
+
+msgid "Text files (*.txt)|*.txt"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Use Performance Renderer"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
+msgstr ""

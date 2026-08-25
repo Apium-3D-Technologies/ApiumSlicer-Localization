@@ -30029,3 +30029,39 @@ msgstr "正在创建浮雕预览..."
 #~ "This parameter adds a slight displacement to each layer of infill to "
 #~ "create a cross texture."
 #~ msgstr "此参数会在每层填充上增加轻微位移，以形成交叉纹理。"
+
+msgid "Start Performance Review"
+msgstr "开始性能分析"
+
+msgid "Run a reproducible rendering benchmark for the active plate"
+msgstr "为当前平台运行可复现的渲染基准测试"
+
+msgid "Rendering Performance Review"
+msgstr "渲染性能分析"
+
+msgid "Preparing a fresh slice..."
+msgstr "正在准备新的切片..."
+
+msgid "Slicing and loading the preview..."
+msgstr "正在切片并加载预览..."
+
+msgid "Measuring %1% (%2%/%3%)"
+msgstr "正在测量 %1%（%2%/%3%）"
+
+msgid "Finalizing the report..."
+msgstr "正在完成报告..."
+
+msgid "Save Rendering Performance Report"
+msgstr "保存渲染性能报告"
+
+msgid "The rendering performance report could not be written. Please choose another location."
+msgstr "无法写入渲染性能报告。请选择其他位置。"
+
+msgid "Text files (*.txt)|*.txt"
+msgstr "文本文件 (*.txt)|*.txt"
+
+msgid "Use Performance Renderer"
+msgstr "使用性能渲染器"
+
+msgid "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
+msgstr "在 G-code 预览中移动相机时使用实验性的低质量渲染器。"
