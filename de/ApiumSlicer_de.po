@@ -26454,21 +26454,6 @@ msgstr ""
 "Legt fest, wie %n% im Zoneheater-GCODE ersetzt wird. Das Makro wird durch "
 "die Zoneheater-Leistung in Prozent ersetzt."
 
-msgid "Temperature Integer (80)"
-msgstr "Temperatur Ganzzahl (80)"
-
-msgid "Temperature Float (80.5)"
-msgstr "Temperatur Fließkomma (80.5)"
-
-msgid "Percentage (80%)"
-msgstr "Prozent (80%)"
-
-msgid "Percentage Integer (80)"
-msgstr "Prozent Ganzzahl (80)"
-
-msgid "Percentage Float (0.8)"
-msgstr "Prozent Fließkomma (0.8)"
-
 msgid "Temperature Integer"
 msgstr "Temperatur Ganzzahl"
 

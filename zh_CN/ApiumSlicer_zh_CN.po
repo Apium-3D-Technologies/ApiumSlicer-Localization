@@ -24518,21 +24518,6 @@ msgid ""
 msgstr ""
 "控制如何在区域加热器 GCODE 中替换 %n%。该宏会被区域加热器功率百分比替换。"
 
-msgid "Temperature Integer (80)"
-msgstr "温度整数（80）"
-
-msgid "Temperature Float (80.5)"
-msgstr "温度浮点数（80.5）"
-
-msgid "Percentage (80%)"
-msgstr "百分比（80%）"
-
-msgid "Percentage Integer (80)"
-msgstr "百分比整数（80）"
-
-msgid "Percentage Float (0.8)"
-msgstr "百分比浮点数（0.8）"
-
 msgid "Temperature Integer"
 msgstr "温度整数"
 

@@ -22650,21 +22650,6 @@ msgstr ""
 msgid "Controls how %n% is escaped in the zoneheater GCODE. The macro is replaced by the zoneheater power in percent."
 msgstr ""
 
-msgid "Temperature Integer (80)"
-msgstr ""
-
-msgid "Temperature Float (80.5)"
-msgstr ""
-
-msgid "Percentage (80%)"
-msgstr ""
-
-msgid "Percentage Integer (80)"
-msgstr ""
-
-msgid "Percentage Float (0.8)"
-msgstr ""
-
 msgid "Temperature Integer"
 msgstr ""
 
