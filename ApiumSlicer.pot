@@ -22615,3 +22615,67 @@ msgstr ""
 #: src/slic3r/GUI/Preferences.cpp
 msgid "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
 msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Chamber heater GCODE (set)"
+msgstr ""
+
+msgid "Single-line GCODE used to set the chamber heater target. The required %n% macro is replaced with the formatted target temperature."
+msgstr ""
+
+msgid "Temperature Format"
+msgstr ""
+
+msgid "Controls how %n% is escaped in the chamber heater GCODE. The macro is replaced by the chamber target temperature."
+msgstr ""
+
+msgid "Chamber heater GCODE (set and wait)"
+msgstr ""
+
+msgid "Single-line GCODE used to set and wait for the chamber heater target. The required %n% macro is replaced with the formatted target temperature."
+msgstr ""
+
+msgid "Controls how %n% is escaped in the chamber heater wait GCODE. The macro is replaced by the chamber target temperature."
+msgstr ""
+
+msgid "Zoneheater GCODE"
+msgstr ""
+
+msgid "Single-line GCODE used to control this zoneheater. The required %n% macro is replaced with the formatted zoneheater power."
+msgstr ""
+
+msgid "Value Format"
+msgstr ""
+
+msgid "Controls how %n% is escaped in the zoneheater GCODE. The macro is replaced by the zoneheater power in percent."
+msgstr ""
+
+msgid "Temperature Integer (80)"
+msgstr ""
+
+msgid "Temperature Float (80.5)"
+msgstr ""
+
+msgid "Percentage (80%)"
+msgstr ""
+
+msgid "Percentage Integer (80)"
+msgstr ""
+
+msgid "Percentage Float (0.8)"
+msgstr ""
+
+msgid "Temperature Integer"
+msgstr ""
+
+msgid "Temperature Float"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Percentage Integer"
+msgstr ""
+
+msgid "Percentage Float"
+msgstr ""

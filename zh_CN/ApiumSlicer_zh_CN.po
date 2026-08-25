@@ -9859,8 +9859,13 @@ msgstr "到"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2237 src/slic3r/GUI/GCodeViewer.cpp:2238
 #: src/slic3r/GUI/GCodeViewer.cpp:2352
+#, fuzzy
 msgid "Percentage"
-msgstr "百分率"
+msgstr ""
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"百分率\n"
+"#-#-#-#-#  ApiumSlicer_zh_CN.po  #-#-#-#-#\n"
+"百分比"
 
 #: src/slic3r/GUI/GCodeViewer.cpp:2296 src/slic3r/GUI/GCodeViewer.cpp:2314
 msgid "Layer height (mm)"
@@ -24421,6 +24426,125 @@ msgstr "请选择目标面以编辑浮雕设置。"
 msgid "Creating emboss preview..."
 msgstr "正在创建浮雕预览..."
 
+msgid "Start Performance Review"
+msgstr "开始性能分析"
+
+msgid "Run a reproducible rendering benchmark for the active plate"
+msgstr "为当前平台运行可复现的渲染基准测试"
+
+msgid "Rendering Performance Review"
+msgstr "渲染性能分析"
+
+msgid "Preparing a fresh slice..."
+msgstr "正在准备新的切片..."
+
+msgid "Slicing and loading the preview..."
+msgstr "正在切片并加载预览..."
+
+msgid "Measuring %1% (%2%/%3%)"
+msgstr "正在测量 %1%（%2%/%3%）"
+
+msgid "Finalizing the report..."
+msgstr "正在完成报告..."
+
+msgid "Save Rendering Performance Report"
+msgstr "保存渲染性能报告"
+
+msgid ""
+"The rendering performance report could not be written. Please choose another "
+"location."
+msgstr "无法写入渲染性能报告。请选择其他位置。"
+
+msgid "Text files (*.txt)|*.txt"
+msgstr "文本文件 (*.txt)|*.txt"
+
+msgid "Use Performance Renderer"
+msgstr "使用性能渲染器"
+
+msgid ""
+"Use the experimental reduced-quality renderer while moving the camera in G-"
+"code Preview."
+msgstr "在 G-code 预览中移动相机时使用实验性的低质量渲染器。"
+
+msgid "Chamber heater GCODE (set)"
+msgstr "腔体加热器 GCODE（设置）"
+
+msgid ""
+"Single-line GCODE used to set the chamber heater target. The required %n% "
+"macro is replaced with the formatted target temperature."
+msgstr ""
+"用于设置腔体加热器目标温度的单行 GCODE。必需的 %n% 宏会被格式化后的目标温度替"
+"换。"
+
+msgid "Temperature Format"
+msgstr "温度格式"
+
+msgid ""
+"Controls how %n% is escaped in the chamber heater GCODE. The macro is "
+"replaced by the chamber target temperature."
+msgstr "控制如何在腔体加热器 GCODE 中替换 %n%。该宏会被腔体目标温度替换。"
+
+msgid "Chamber heater GCODE (set and wait)"
+msgstr "腔体加热器 GCODE（设置并等待）"
+
+msgid ""
+"Single-line GCODE used to set and wait for the chamber heater target. The "
+"required %n% macro is replaced with the formatted target temperature."
+msgstr ""
+"用于设置并等待腔体加热器目标温度的单行 GCODE。必需的 %n% 宏会被格式化后的目标"
+"温度替换。"
+
+msgid ""
+"Controls how %n% is escaped in the chamber heater wait GCODE. The macro is "
+"replaced by the chamber target temperature."
+msgstr "控制如何在腔体加热器等待 GCODE 中替换 %n%。该宏会被腔体目标温度替换。"
+
+msgid "Zoneheater GCODE"
+msgstr "区域加热器 GCODE"
+
+msgid ""
+"Single-line GCODE used to control this zoneheater. The required %n% macro is "
+"replaced with the formatted zoneheater power."
+msgstr ""
+"用于控制此区域加热器的单行 GCODE。必需的 %n% 宏会被格式化后的区域加热器功率替"
+"换。"
+
+msgid "Value Format"
+msgstr "数值格式"
+
+msgid ""
+"Controls how %n% is escaped in the zoneheater GCODE. The macro is replaced "
+"by the zoneheater power in percent."
+msgstr ""
+"控制如何在区域加热器 GCODE 中替换 %n%。该宏会被区域加热器功率百分比替换。"
+
+msgid "Temperature Integer (80)"
+msgstr "温度整数（80）"
+
+msgid "Temperature Float (80.5)"
+msgstr "温度浮点数（80.5）"
+
+msgid "Percentage (80%)"
+msgstr "百分比（80%）"
+
+msgid "Percentage Integer (80)"
+msgstr "百分比整数（80）"
+
+msgid "Percentage Float (0.8)"
+msgstr "百分比浮点数（0.8）"
+
+msgid "Temperature Integer"
+msgstr "温度整数"
+
+msgid "Temperature Float"
+msgstr "温度浮点数"
+
+msgid "Percentage Integer"
+msgstr "百分比整数"
+
+msgid "Percentage Float"
+msgstr "百分比浮点数"
+
 #~ msgid "Expert mode"
 #~ msgstr "专家模式"
 
@@ -30029,39 +30153,3 @@ msgstr "正在创建浮雕预览..."
 #~ "This parameter adds a slight displacement to each layer of infill to "
 #~ "create a cross texture."
 #~ msgstr "此参数会在每层填充上增加轻微位移，以形成交叉纹理。"
-
-msgid "Start Performance Review"
-msgstr "开始性能分析"
-
-msgid "Run a reproducible rendering benchmark for the active plate"
-msgstr "为当前平台运行可复现的渲染基准测试"
-
-msgid "Rendering Performance Review"
-msgstr "渲染性能分析"
-
-msgid "Preparing a fresh slice..."
-msgstr "正在准备新的切片..."
-
-msgid "Slicing and loading the preview..."
-msgstr "正在切片并加载预览..."
-
-msgid "Measuring %1% (%2%/%3%)"
-msgstr "正在测量 %1%（%2%/%3%）"
-
-msgid "Finalizing the report..."
-msgstr "正在完成报告..."
-
-msgid "Save Rendering Performance Report"
-msgstr "保存渲染性能报告"
-
-msgid "The rendering performance report could not be written. Please choose another location."
-msgstr "无法写入渲染性能报告。请选择其他位置。"
-
-msgid "Text files (*.txt)|*.txt"
-msgstr "文本文件 (*.txt)|*.txt"
-
-msgid "Use Performance Renderer"
-msgstr "使用性能渲染器"
-
-msgid "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
-msgstr "在 G-code 预览中移动相机时使用实验性的低质量渲染器。"

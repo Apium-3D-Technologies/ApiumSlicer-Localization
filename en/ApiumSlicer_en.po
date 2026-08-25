@@ -25578,6 +25578,134 @@ msgstr "Select a target face to edit the emboss settings."
 msgid "Creating emboss preview..."
 msgstr "Creating emboss preview..."
 
+msgid "Start Performance Review"
+msgstr "Start Performance Review"
+
+msgid "Run a reproducible rendering benchmark for the active plate"
+msgstr "Run a reproducible rendering benchmark for the active plate"
+
+msgid "Rendering Performance Review"
+msgstr "Rendering Performance Review"
+
+msgid "Preparing a fresh slice..."
+msgstr "Preparing a fresh slice..."
+
+msgid "Slicing and loading the preview..."
+msgstr "Slicing and loading the preview..."
+
+msgid "Measuring %1% (%2%/%3%)"
+msgstr "Measuring %1% (%2%/%3%)"
+
+msgid "Finalizing the report..."
+msgstr "Finalizing the report..."
+
+msgid "Save Rendering Performance Report"
+msgstr "Save Rendering Performance Report"
+
+msgid ""
+"The rendering performance report could not be written. Please choose another "
+"location."
+msgstr ""
+"The rendering performance report could not be written. Please choose another "
+"location."
+
+msgid "Text files (*.txt)|*.txt"
+msgstr "Text files (*.txt)|*.txt"
+
+msgid "Use Performance Renderer"
+msgstr "Use Performance Renderer"
+
+msgid ""
+"Use the experimental reduced-quality renderer while moving the camera in G-"
+"code Preview."
+msgstr ""
+"Use the experimental reduced-quality renderer while moving the camera in G-"
+"code Preview."
+
+msgid "Chamber heater GCODE (set)"
+msgstr "Chamber heater GCODE (set)"
+
+msgid ""
+"Single-line GCODE used to set the chamber heater target. The required %n% "
+"macro is replaced with the formatted target temperature."
+msgstr ""
+"Single-line GCODE used to set the chamber heater target. The required %n% "
+"macro is replaced with the formatted target temperature."
+
+msgid "Temperature Format"
+msgstr "Temperature Format"
+
+msgid ""
+"Controls how %n% is escaped in the chamber heater GCODE. The macro is "
+"replaced by the chamber target temperature."
+msgstr ""
+"Controls how %n% is escaped in the chamber heater GCODE. The macro is "
+"replaced by the chamber target temperature."
+
+msgid "Chamber heater GCODE (set and wait)"
+msgstr "Chamber heater GCODE (set and wait)"
+
+msgid ""
+"Single-line GCODE used to set and wait for the chamber heater target. The "
+"required %n% macro is replaced with the formatted target temperature."
+msgstr ""
+"Single-line GCODE used to set and wait for the chamber heater target. The "
+"required %n% macro is replaced with the formatted target temperature."
+
+msgid ""
+"Controls how %n% is escaped in the chamber heater wait GCODE. The macro is "
+"replaced by the chamber target temperature."
+msgstr ""
+"Controls how %n% is escaped in the chamber heater wait GCODE. The macro is "
+"replaced by the chamber target temperature."
+
+msgid "Zoneheater GCODE"
+msgstr "Zoneheater GCODE"
+
+msgid ""
+"Single-line GCODE used to control this zoneheater. The required %n% macro is "
+"replaced with the formatted zoneheater power."
+msgstr ""
+"Single-line GCODE used to control this zoneheater. The required %n% macro is "
+"replaced with the formatted zoneheater power."
+
+msgid "Value Format"
+msgstr "Value Format"
+
+msgid ""
+"Controls how %n% is escaped in the zoneheater GCODE. The macro is replaced "
+"by the zoneheater power in percent."
+msgstr ""
+"Controls how %n% is escaped in the zoneheater GCODE. The macro is replaced "
+"by the zoneheater power in percent."
+
+msgid "Temperature Integer (80)"
+msgstr "Temperature Integer (80)"
+
+msgid "Temperature Float (80.5)"
+msgstr "Temperature Float (80.5)"
+
+msgid "Percentage (80%)"
+msgstr "Percentage (80%)"
+
+msgid "Percentage Integer (80)"
+msgstr "Percentage Integer (80)"
+
+msgid "Percentage Float (0.8)"
+msgstr "Percentage Float (0.8)"
+
+msgid "Temperature Integer"
+msgstr "Temperature Integer"
+
+msgid "Temperature Float"
+msgstr "Temperature Float"
+
+msgid "Percentage Integer"
+msgstr "Percentage Integer"
+
+msgid "Percentage Float"
+msgstr "Percentage Float"
+
 #~ msgid "Development mode"
 #~ msgstr "Development mode"
 
@@ -31492,39 +31620,3 @@ msgstr "Creating emboss preview..."
 #~ msgstr ""
 #~ "This parameter adds a slight displacement to each layer of infill to "
 #~ "create a cross texture."
-
-msgid "Start Performance Review"
-msgstr "Start Performance Review"
-
-msgid "Run a reproducible rendering benchmark for the active plate"
-msgstr "Run a reproducible rendering benchmark for the active plate"
-
-msgid "Rendering Performance Review"
-msgstr "Rendering Performance Review"
-
-msgid "Preparing a fresh slice..."
-msgstr "Preparing a fresh slice..."
-
-msgid "Slicing and loading the preview..."
-msgstr "Slicing and loading the preview..."
-
-msgid "Measuring %1% (%2%/%3%)"
-msgstr "Measuring %1% (%2%/%3%)"
-
-msgid "Finalizing the report..."
-msgstr "Finalizing the report..."
-
-msgid "Save Rendering Performance Report"
-msgstr "Save Rendering Performance Report"
-
-msgid "The rendering performance report could not be written. Please choose another location."
-msgstr "The rendering performance report could not be written. Please choose another location."
-
-msgid "Text files (*.txt)|*.txt"
-msgstr "Text files (*.txt)|*.txt"
-
-msgid "Use Performance Renderer"
-msgstr "Use Performance Renderer"
-
-msgid "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
-msgstr "Use the experimental reduced-quality renderer while moving the camera in G-code Preview."
