@@ -756,9 +756,14 @@ msgstr ""
 "You might want to reduce the size of your model or change current print "
 "settings and retry."
 
-#: src/libslic3r/Print.cpp:625
-msgid "Variable layer height is not supported with Organic supports."
-msgstr "Variable layer height is not supported with Organic supports."
+#: src/libslic3r/Print.cpp:1340
+#, boost-format
+msgid ""
+"Variable layer height regions thicker than %1% mm are not supported with the "
+"current support settings."
+msgstr ""
+"Variable layer height regions thicker than %1% mm are not supported with the "
+"current support settings."
 
 #: src/libslic3r/Print.cpp:638
 msgid ""
@@ -805,6 +810,14 @@ msgid ""
 msgstr ""
 "The Wipe Tower is currently not supported for multimaterial sequential "
 "prints."
+
+#: src/libslic3r/Print.cpp:1378
+msgid ""
+"The Wipe Tower is not supported when supports are combined with variable "
+"layer height."
+msgstr ""
+"The Wipe Tower is not supported when supports are combined with variable "
+"layer height."
 
 #: src/libslic3r/Print.cpp:663
 msgid ""
@@ -1425,11 +1438,13 @@ msgstr "Use travel optimization"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
-"Refine travel ordering with 2-opt improvements after nearest-neighbor chaining. "
-"This can reduce travel distance and stringing, but may increase slicing time."
+"Refine travel ordering with 2-opt improvements after nearest-neighbor "
+"chaining. This can reduce travel distance and stringing, but may increase "
+"slicing time."
 msgstr ""
-"Refine travel ordering with 2-opt improvements after nearest-neighbor chaining. "
-"This can reduce travel distance and stringing, but may increase slicing time."
+"Refine travel ordering with 2-opt improvements after nearest-neighbor "
+"chaining. This can reduce travel distance and stringing, but may increase "
+"slicing time."
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Max. 2-opt iterations"

@@ -716,9 +716,12 @@ msgid ""
 "settings and retry."
 msgstr "您可能希望缩小模型的大小，或者更改当前打印设置，然后重试。"
 
-#: src/libslic3r/Print.cpp:625
-msgid "Variable layer height is not supported with Organic supports."
-msgstr "树状支撑不支持可变层高。"
+#: src/libslic3r/Print.cpp:1340
+#, boost-format
+msgid ""
+"Variable layer height regions thicker than %1% mm are not supported with the "
+"current support settings."
+msgstr "厚度超过 %1% mm 的可变层高区域不受当前支撑设置支持。"
 
 #: src/libslic3r/Print.cpp:638
 #, fuzzy
@@ -757,6 +760,12 @@ msgid ""
 "The Wipe Tower is currently not supported for multimaterial sequential "
 "prints."
 msgstr "擦拭塔目前不支持多材质连续打印。"
+
+#: src/libslic3r/Print.cpp:1378
+msgid ""
+"The Wipe Tower is not supported when supports are combined with variable "
+"layer height."
+msgstr "当支撑与可变层高结合使用时，不支持擦拭塔。"
 
 #: src/libslic3r/Print.cpp:663
 msgid ""

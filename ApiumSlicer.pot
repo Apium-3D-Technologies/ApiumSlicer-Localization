@@ -598,8 +598,9 @@ msgid ""
 "settings and retry."
 msgstr ""
 
-#: src/libslic3r/Print.cpp:625
-msgid "Variable layer height is not supported with Organic supports."
+#: src/libslic3r/Print.cpp:1340
+#, possible-boost-format
+msgid "Variable layer height regions thicker than %1% mm are not supported with the current support settings."
 msgstr ""
 
 #: src/libslic3r/Print.cpp:638
@@ -635,6 +636,10 @@ msgstr ""
 msgid ""
 "The Wipe Tower is currently not supported for multimaterial sequential "
 "prints."
+msgstr ""
+
+#: src/libslic3r/Print.cpp:1378
+msgid "The Wipe Tower is not supported when supports are combined with variable layer height."
 msgstr ""
 
 #: src/libslic3r/Print.cpp:663

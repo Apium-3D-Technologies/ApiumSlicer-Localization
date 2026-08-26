@@ -767,10 +767,14 @@ msgstr ""
 "Verkleinern Sie Ihr Modell oder ändern Sie die aktuellen Druckeinstellungen "
 "und versuchen Sie es erneut."
 
-#: src/libslic3r/Print.cpp:625
-msgid "Variable layer height is not supported with Organic supports."
+#: src/libslic3r/Print.cpp:1340
+#, boost-format
+msgid ""
+"Variable layer height regions thicker than %1% mm are not supported with the "
+"current support settings."
 msgstr ""
-"Die variable Schichthöhe wird bei organischen Stützen nicht unterstützt."
+"Bereiche mit variabler Schichthöhe, die dicker als %1% mm sind, werden mit "
+"den aktuellen Stützeinstellungen nicht unterstützt."
 
 #: src/libslic3r/Print.cpp:638
 msgid ""
@@ -818,6 +822,14 @@ msgid ""
 msgstr ""
 "Der Reinigungsturm wird derzeit nicht für sequentielle Multimaterialdrucke "
 "unterstützt."
+
+#: src/libslic3r/Print.cpp:1378
+msgid ""
+"The Wipe Tower is not supported when supports are combined with variable "
+"layer height."
+msgstr ""
+"Der Reinigungsturm wird nicht unterstützt, wenn Stützen mit variabler "
+"Schichthöhe kombiniert werden."
 
 #: src/libslic3r/Print.cpp:663
 msgid ""
