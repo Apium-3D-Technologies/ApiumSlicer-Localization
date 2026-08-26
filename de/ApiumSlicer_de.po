@@ -1449,6 +1449,37 @@ msgstr ""
 "sickerndem Material leiden. Diese Funktion verlangsamt sowohl den Druck als "
 "auch die Generierung des G-Codes."
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use travel optimization"
+msgstr "Verfahrwegoptimierung verwenden"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Refine travel ordering with 2-opt improvements after nearest-neighbor "
+"chaining. This can reduce travel distance and stringing, but may increase "
+"slicing time."
+msgstr ""
+"Verfeinert die Reihenfolge der Verfahrbewegungen nach der Nächste-Nachbar-"
+"Verkettung mit 2-opt-Verbesserungen. Dies kann die Verfahrstrecke und "
+"Stringing verringern, aber die Slicing-Zeit erhöhen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Max. 2-opt iterations"
+msgstr "Max. 2-opt-Iterationen"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum number of 2-opt refinement passes used when travel optimization is "
+"enabled. Higher values may reduce travel length but increase slicing time."
+msgstr ""
+"Maximale Anzahl der 2-opt-Verbesserungsdurchläufe, die verwendet werden, "
+"wenn die Verfahrwegoptimierung aktiv ist. Höhere Werte können die "
+"Verfahrstrecke verringern, aber die Slicing-Zeit erhöhen."
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "iterations"
+msgstr "Iterationen"
+
 #: src/libslic3r/PrintConfig.cpp:519
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr "Kreuzen von Perimetern Vermeiden - Maximale Umleitungslänge"

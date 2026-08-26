@@ -1170,6 +1170,30 @@ msgid ""
 "feature slows down both the print and the G-code generation."
 msgstr ""
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use travel optimization"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Refine travel ordering with 2-opt improvements after nearest-neighbor chaining. "
+"This can reduce travel distance and stringing, but may increase slicing time."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Max. 2-opt iterations"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum number of 2-opt refinement passes used when travel optimization is "
+"enabled. Higher values may reduce travel length but increase slicing time."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "iterations"
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp:519
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr ""

@@ -1332,6 +1332,35 @@ msgstr ""
 "优化移动移动，以尽量减少周界交叉。这在鲍登挤出机中最有用，它们容易渗漏。此功"
 "能可降低打印和 G-Code 生成速度。"
 
+#: src/libslic3r/PrintConfig.cpp
+msgid "Use travel optimization"
+msgstr "使用空移优化"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Refine travel ordering with 2-opt improvements after nearest-neighbor "
+"chaining. This can reduce travel distance and stringing, but may increase "
+"slicing time."
+msgstr ""
+"在最近邻链式排序后使用 2-opt 改进优化空移顺序。此功能可以减少空移距离和拉丝，"
+"但可能增加切片时间。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Max. 2-opt iterations"
+msgstr "最大 2-opt 迭代次数"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid ""
+"Maximum number of 2-opt refinement passes used when travel optimization is "
+"enabled. Higher values may reduce travel length but increase slicing time."
+msgstr ""
+"启用空移优化时使用的 2-opt 优化迭代次数上限。较高的值可能会减少空移距离，但会"
+"增加切片时间。"
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "iterations"
+msgstr "迭代次数"
+
 #: src/libslic3r/PrintConfig.cpp:519
 msgid "Avoid crossing perimeters - Max detour length"
 msgstr "避免穿越周长-最大绕行长度"
