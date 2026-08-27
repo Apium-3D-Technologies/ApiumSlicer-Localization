@@ -25694,6 +25694,22 @@ msgstr "Z-Loch-Kompensation"
 msgid "Enable Z-hole compensation"
 msgstr "Z-Loch-Kompensation aktivieren"
 
+msgid "multiple print regions"
+msgstr "mehrere Druckregionen"
+
+msgid "not all bridge lines are anchored"
+msgstr "nicht alle Bridge-Linien sind verankert"
+
+msgid "overlapping bridge membranes"
+msgstr "überlappende Bridge-Membranen"
+
+#, boost-format
+msgid ""
+"Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
+msgstr ""
+"Z-Loch-Kompensation hat %1% unsichere Öffnung(en) im Objekt \"%2%\" "
+"übersprungen: %3%."
+
 msgid ""
 "Temporarily close eligible Z-oriented internal openings whose first "
 "perimeter would be fully unsupported over a bridge. The printed membrane can "
@@ -25724,6 +25740,42 @@ msgstr ""
 "Größter zu kompensierender äquivalenter Lochdurchmesser. Für nicht runde "
 "Öffnungen wird der Durchmesser eines Kreises mit derselben geslicten Fläche "
 "verwendet."
+
+msgid "Z-hole bridge angle"
+msgstr "Z-Loch-Bridge-Winkel"
+
+msgid "Shortest Maximum"
+msgstr "Kürzeste längste Linie"
+
+msgid "Shortest Minimum"
+msgstr "Kürzeste kürzeste Linie"
+
+msgid "Shortest Average"
+msgstr "Kürzeste durchschnittliche Linie"
+
+msgid "Most Even"
+msgstr "Gleichmäßigste Linien"
+
+msgid "Bridge Angle"
+msgstr "Bridge-Winkel"
+
+msgid ""
+"Selects the line direction for the first Z-hole bridge layer. Shortest "
+"Maximum minimizes the longest bridge line. Shortest Minimum minimizes the "
+"shortest bridge line. Shortest Average minimizes the average bridge-line "
+"length. Most Even minimizes the variation between bridge-line lengths. "
+"Bridge Angle uses the Bridging angle setting; when that setting is automatic "
+"(0), Shortest Maximum is used. Only directions with fully anchored lines are "
+"considered."
+msgstr ""
+"Legt die Linienrichtung für die erste Z-Loch-Brückenschicht fest. Kürzeste "
+"längste Linie minimiert die längste Brückenlinie. Kürzeste kürzeste Linie "
+"minimiert die kürzeste Brückenlinie. Kürzeste durchschnittliche Linie "
+"minimiert die durchschnittliche Brückenlinienlänge. Gleichmäßigste Linien "
+"minimiert die Unterschiede zwischen den Brückenlinienlängen. Bridge-Winkel "
+"verwendet die Einstellung Bridging angle; ist sie automatisch (0), wird "
+"Kürzeste längste Linie verwendet. Berücksichtigt werden nur Richtungen mit "
+"vollständig verankerten Linien."
 
 msgid "Compensation layers count"
 msgstr "Anzahl Kompensationsschichten"

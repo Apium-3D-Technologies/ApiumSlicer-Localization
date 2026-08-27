@@ -21949,6 +21949,23 @@ msgstr ""
 msgid "Enable Z-hole compensation"
 msgstr ""
 
+#: src/libslic3r/PrintObjectSlice.cpp
+msgid "multiple print regions"
+msgstr ""
+
+#: src/libslic3r/PrintObjectSlice.cpp
+msgid "not all bridge lines are anchored"
+msgstr ""
+
+#: src/libslic3r/PrintObjectSlice.cpp
+msgid "overlapping bridge membranes"
+msgstr ""
+
+#: src/libslic3r/SlicingNotification.cpp
+#, possible-boost-format
+msgid "Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
+msgstr ""
+
 #: src/libslic3r/PrintConfig.cpp
 msgid "Temporarily close eligible Z-oriented internal openings whose first perimeter would be fully unsupported over a bridge. The printed membrane can be removed after printing."
 msgstr ""
@@ -21967,6 +21984,34 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Maximum equivalent hole diameter to compensate. For non-circular openings, the diameter of a circle with the same sliced area is used."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Z-hole bridge angle"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Shortest Maximum"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Shortest Minimum"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Shortest Average"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Most Even"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Bridge Angle"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Selects the line direction for the first Z-hole bridge layer. Shortest Maximum minimizes the longest bridge line. Shortest Minimum minimizes the shortest bridge line. Shortest Average minimizes the average bridge-line length. Most Even minimizes the variation between bridge-line lengths. Bridge Angle uses the Bridging angle setting; when that setting is automatic (0), Shortest Maximum is used. Only directions with fully anchored lines are considered."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp

@@ -23840,6 +23840,20 @@ msgstr "Z 向孔补偿"
 msgid "Enable Z-hole compensation"
 msgstr "启用 Z 向孔补偿"
 
+msgid "multiple print regions"
+msgstr "多个打印区域"
+
+msgid "not all bridge lines are anchored"
+msgstr "并非所有桥接线都已锚定"
+
+msgid "overlapping bridge membranes"
+msgstr "重叠的桥接膜"
+
+#, boost-format
+msgid ""
+"Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
+msgstr "Z 向孔补偿跳过了对象 \"%2%\" 中的 %1% 个不安全开口：%3%。"
+
 msgid ""
 "Temporarily close eligible Z-oriented internal openings whose first "
 "perimeter would be fully unsupported over a bridge. The printed membrane can "
@@ -23863,6 +23877,38 @@ msgid ""
 "Maximum equivalent hole diameter to compensate. For non-circular openings, "
 "the diameter of a circle with the same sliced area is used."
 msgstr "需要补偿的最大等效孔径。对于非圆形开口，使用与切片面积相同的圆的直径。"
+
+msgid "Z-hole bridge angle"
+msgstr "Z 向孔桥接角度"
+
+msgid "Shortest Maximum"
+msgstr "最短最大值"
+
+msgid "Shortest Minimum"
+msgstr "最短最小值"
+
+msgid "Shortest Average"
+msgstr "最短平均值"
+
+msgid "Most Even"
+msgstr "最均匀"
+
+msgid "Bridge Angle"
+msgstr "桥接角度"
+
+msgid ""
+"Selects the line direction for the first Z-hole bridge layer. Shortest "
+"Maximum minimizes the longest bridge line. Shortest Minimum minimizes the "
+"shortest bridge line. Shortest Average minimizes the average bridge-line "
+"length. Most Even minimizes the variation between bridge-line lengths. "
+"Bridge Angle uses the Bridging angle setting; when that setting is automatic "
+"(0), Shortest Maximum is used. Only directions with fully anchored lines are "
+"considered."
+msgstr ""
+"选择首个 Z 向孔桥接层的走线方向。最短最大值使最长桥接线最短。最短最小值使最短"
+"桥接线最短。最短平均值使桥接线的平均长度最短。最均匀使桥接线长度之间的差异最"
+"小。桥接角度使用 Bridging angle 设置；当该设置为自动（0）时，使用最短最大值。只"
+"考虑所有线段均完全锚定的方向。"
 
 msgid "Compensation layers count"
 msgstr "补偿层数"
