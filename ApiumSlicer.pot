@@ -21961,6 +21961,10 @@ msgstr ""
 msgid "overlapping bridge membranes"
 msgstr ""
 
+#: src/libslic3r/PrintObject.cpp
+msgid "insufficient bridge anchor depth"
+msgstr ""
+
 #: src/libslic3r/SlicingNotification.cpp
 #, possible-boost-format
 msgid "Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
@@ -22012,6 +22016,14 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
 msgid "Selects the line direction for the first Z-hole bridge layer. Shortest Maximum minimizes the longest bridge line. Shortest Minimum minimizes the shortest bridge line. Shortest Average minimizes the average bridge-line length. Most Even minimizes the variation between bridge-line lengths. Bridge Angle uses the Bridging angle setting; when that setting is automatic (0), Shortest Maximum is used. Only directions with fully anchored lines are considered."
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Z-hole bridge anchor depth"
+msgstr ""
+
+#: src/libslic3r/PrintConfig.cpp
+msgid "Extends each first Z-hole bridge line only into the lower layer's actual perimeter paths directly adjoining that Z-hole. 0% keeps the bridge at the opening edge. For values below 100%, the locally outermost lower perimeter is left free; the requested depth is rounded to the nearest remaining perimeter, with at least one perimeter reached when two or more are available. 100% may reach every safely available perimeter. A single lower perimeter always keeps edge-only behavior. Outer walls and separate wall groups are not used as anchors. If no more than one third of the bridge lines can reach their requested depth at both ends, the opening is left uncompensated."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
