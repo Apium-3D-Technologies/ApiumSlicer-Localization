@@ -22773,3 +22773,23 @@ msgstr ""
 #: src/slic3r/GUI/Preferences.cpp
 msgid "Initial memory reserved for the experimental in-memory G-code pipeline in MiB. Set to 0 for automatic sizing. The maximum selectable reserve is 6144 MiB (6 GiB); the effective reserve remains limited by the RAM safety frame."
 msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Maximum recent projects"
+msgstr ""
+
+#: src/slic3r/GUI/Preferences.cpp
+msgid "Maximum number of project files kept in the Recent projects menu."
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "(missing)"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Remove unavailable projects"
+msgstr ""
+
+#: src/slic3r/GUI/MainFrame.cpp
+msgid "Remove all unavailable projects from the recent projects list?"
+msgstr ""
