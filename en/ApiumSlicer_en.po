@@ -192,8 +192,8 @@ msgid "All solid"
 msgstr "All solid"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Iron on support interface top"
-msgstr "Iron on support interface top"
+msgid "Ironing on support interface top"
+msgstr "Ironing on support interface top"
 
 #: src/libslic3r/PrintConfig.cpp
 msgid ""
@@ -1906,8 +1906,8 @@ msgstr "Brim width/pad radius"
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
 #: src/libslic3r/PrintConfig.cpp:797 src/slic3r/GUI/GUI_Factories.cpp:168
 #: src/slic3r/GUI/Tab.cpp:1505
-msgid "Skirt and brim"
-msgstr "Skirt and brim"
+msgid "Skirt, brim & purge line"
+msgstr "Skirt, brim & purge line"
 
 #: src/libslic3r/PrintConfig.cpp:774
 msgid ""
@@ -3543,8 +3543,8 @@ msgstr ""
 "Enable ironing of the top layers with the hot print head for smooth surface"
 
 #: src/libslic3r/PrintConfig.cpp:1902 src/libslic3r/PrintConfig.cpp:1904
-msgid "Ironing Type"
-msgstr "Ironing Type"
+msgid "Ironing type"
+msgstr "Ironing type"
 
 #: src/libslic3r/PrintConfig.cpp:1908
 msgid "All solid surfaces"
@@ -19336,10 +19336,6 @@ msgstr "Infill pattern"
 msgid "Advanced infill settings"
 msgstr "Advanced infill settings"
 
-#: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reduce printing time"
-msgstr "Reduce printing time"
-
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr "Raft"
@@ -19371,10 +19367,6 @@ msgstr "Dynamic overhang speed"
 #: src/slic3r/GUI/Tab.cpp:1585
 msgid "Speed for non-print moves"
 msgstr "Speed for non-print moves"
-
-#: src/slic3r/GUI/Tab.cpp:1589
-msgid "Modifiers"
-msgstr "Modifiers"
 
 #: src/slic3r/GUI/Tab.cpp:1593
 msgid "Acceleration control (advanced)"
@@ -19507,8 +19499,8 @@ msgid "Cooling thresholds"
 msgstr "Cooling thresholds"
 
 #: src/slic3r/GUI/Tab.cpp:2224
-msgid "Material properties"
-msgstr "Material properties"
+msgid "Material Properties"
+msgstr "Material Properties"
 
 #: src/slic3r/GUI/Tab.cpp:2232
 msgid "Print speed override"

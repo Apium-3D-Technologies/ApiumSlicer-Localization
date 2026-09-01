@@ -1582,7 +1582,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
 #: src/libslic3r/PrintConfig.cpp:797 src/slic3r/GUI/GUI_Factories.cpp:168
 #: src/slic3r/GUI/Tab.cpp:1505
-msgid "Skirt and brim"
+msgid "Skirt, brim & purge line"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:774
@@ -2907,7 +2907,7 @@ msgid ""
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1902 src/libslic3r/PrintConfig.cpp:1904
-msgid "Ironing Type"
+msgid "Ironing type"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1908
@@ -17423,10 +17423,6 @@ msgstr ""
 msgid "Advanced infill settings"
 msgstr ""
 
-#: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reduce printing time"
-msgstr ""
-
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr ""
@@ -17457,10 +17453,6 @@ msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1585
 msgid "Speed for non-print moves"
-msgstr ""
-
-#: src/slic3r/GUI/Tab.cpp:1589
-msgid "Modifiers"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:1593
@@ -17594,7 +17586,7 @@ msgid "Cooling thresholds"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2224
-msgid "Material properties"
+msgid "Material Properties"
 msgstr ""
 
 #: src/slic3r/GUI/Tab.cpp:2232
@@ -22322,7 +22314,7 @@ msgid "All solid"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Iron on support interface top"
+msgid "Ironing on support interface top"
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp

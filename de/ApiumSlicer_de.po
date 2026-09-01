@@ -193,7 +193,7 @@ msgid "All solid"
 msgstr "Alle massiven"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Iron on support interface top"
+msgid "Ironing on support interface top"
 msgstr "Oberseite der Stützschnittstelle bügeln"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -1954,8 +1954,8 @@ msgstr "Randbreite/Pad-Radius"
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
 #: src/libslic3r/PrintConfig.cpp:797 src/slic3r/GUI/GUI_Factories.cpp:168
 #: src/slic3r/GUI/Tab.cpp:1505
-msgid "Skirt and brim"
-msgstr "Schürze und Rand"
+msgid "Skirt, brim & purge line"
+msgstr "Schürze, Rand und Reinigungslinie"
 
 #: src/libslic3r/PrintConfig.cpp:774
 msgid ""
@@ -3650,7 +3650,7 @@ msgstr ""
 "glatte Oberfläche"
 
 #: src/libslic3r/PrintConfig.cpp:1902 src/libslic3r/PrintConfig.cpp:1904
-msgid "Ironing Type"
+msgid "Ironing type"
 msgstr "Bügeltyp"
 
 #: src/libslic3r/PrintConfig.cpp:1908
@@ -19874,10 +19874,6 @@ msgstr "Füllmuster"
 msgid "Advanced infill settings"
 msgstr "Erweiterte Fülleinstellungen"
 
-#: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reduce printing time"
-msgstr "Druckzeit reduzieren"
-
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr "Raft"
@@ -19909,10 +19905,6 @@ msgstr "Dynamische Geschwindigkeit bei Überhängen"
 #: src/slic3r/GUI/Tab.cpp:1585
 msgid "Speed for non-print moves"
 msgstr "Geschwindigkeit für Bewegungen zwischen den Druckvorgängen"
-
-#: src/slic3r/GUI/Tab.cpp:1589
-msgid "Modifiers"
-msgstr "Veränderer"
 
 #: src/slic3r/GUI/Tab.cpp:1593
 msgid "Acceleration control (advanced)"
@@ -20052,8 +20044,8 @@ msgid "Cooling thresholds"
 msgstr "Kühlungsschwellwerte"
 
 #: src/slic3r/GUI/Tab.cpp:2224
-msgid "Material properties"
-msgstr "Material Eigenschaften"
+msgid "Material Properties"
+msgstr "Materialeigenschaften"
 
 #: src/slic3r/GUI/Tab.cpp:2232
 msgid "Print speed override"

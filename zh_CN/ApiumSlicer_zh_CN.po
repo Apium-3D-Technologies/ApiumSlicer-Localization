@@ -184,7 +184,7 @@ msgid "All solid"
 msgstr "所有实体表面"
 
 #: src/libslic3r/PrintConfig.cpp
-msgid "Iron on support interface top"
+msgid "Ironing on support interface top"
 msgstr "熨烫支撑接触面顶部"
 
 #: src/libslic3r/PrintConfig.cpp
@@ -1780,8 +1780,8 @@ msgstr "裙边宽度/垫片半径"
 #: src/libslic3r/PrintConfig.cpp:773 src/libslic3r/PrintConfig.cpp:784
 #: src/libslic3r/PrintConfig.cpp:797 src/slic3r/GUI/GUI_Factories.cpp:168
 #: src/slic3r/GUI/Tab.cpp:1505
-msgid "Skirt and brim"
-msgstr "环绕和裙边"
+msgid "Skirt, brim & purge line"
+msgstr "裙边、边缘和清洗线"
 
 #: src/libslic3r/PrintConfig.cpp:774
 msgid ""
@@ -3279,7 +3279,7 @@ msgid ""
 msgstr "使用热打印头熨烫顶层，使表面光滑"
 
 #: src/libslic3r/PrintConfig.cpp:1902 src/libslic3r/PrintConfig.cpp:1904
-msgid "Ironing Type"
+msgid "Ironing type"
 msgstr "熨烫类型"
 
 #: src/libslic3r/PrintConfig.cpp:1908
@@ -18423,10 +18423,6 @@ msgstr "填充图案"
 msgid "Advanced infill settings"
 msgstr "高级填充设置"
 
-#: src/slic3r/GUI/Tab.cpp:1492
-msgid "Reduce printing time"
-msgstr "缩短打印时间"
-
 #: src/slic3r/GUI/Tab.cpp:1529
 msgid "Raft"
 msgstr "基座"
@@ -18458,10 +18454,6 @@ msgstr "动态悬挑速度"
 #: src/slic3r/GUI/Tab.cpp:1585
 msgid "Speed for non-print moves"
 msgstr "非打印移动的速度"
-
-#: src/slic3r/GUI/Tab.cpp:1589
-msgid "Modifiers"
-msgstr "修改器"
 
 #: src/slic3r/GUI/Tab.cpp:1593
 msgid "Acceleration control (advanced)"
@@ -18596,7 +18588,7 @@ msgid "Cooling thresholds"
 msgstr "冷却阈值"
 
 #: src/slic3r/GUI/Tab.cpp:2224
-msgid "Material properties"
+msgid "Material Properties"
 msgstr "耗材特性"
 
 #: src/slic3r/GUI/Tab.cpp:2232
