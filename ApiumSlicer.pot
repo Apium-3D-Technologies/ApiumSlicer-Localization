@@ -11053,6 +11053,18 @@ msgstr ""
 msgid "Reset clipping plane"
 msgstr ""
 
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to Mesh view"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to X-Ray view"
+msgstr ""
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to Solid view"
+msgstr ""
+
 #: src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1285
 msgid "Switch to editing mode"
 msgstr ""

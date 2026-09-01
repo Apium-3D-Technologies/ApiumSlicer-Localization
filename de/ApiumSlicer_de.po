@@ -12912,6 +12912,18 @@ msgstr "Beschnittebene bewegen"
 msgid "Reset clipping plane"
 msgstr "Beschnittebene zurücksetzen"
 
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to Mesh view"
+msgstr "Zur Mesh-Ansicht wechseln"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to X-Ray view"
+msgstr "Zur Röntgenansicht wechseln"
+
+#: src/slic3r/GUI/Plater.cpp
+msgid "Switch to Solid view"
+msgstr "Zur Solid-Ansicht wechseln"
+
 #: src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1285
 msgid "Switch to editing mode"
 msgstr "Zum Bearbeitungsmodus umschalten"
