@@ -1,1 +1,0 @@
-The name of the translation files (.mo) MUST match the SLIC3R_APP_NAME in the version.inc file!
