@@ -19,10 +19,83 @@ from typing import Iterable, Sequence
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parents[1]
+
+
+def is_source_checkout(path: Path) -> bool:
+    """Return whether *path* looks like the ApiumSlicer source checkout."""
+    return (path / "src").is_dir() and (path / "resources" / "data" / "hints.ini").is_file()
+
+
+def git_root(path: Path) -> Path | None:
+    """Return the Git worktree containing *path*, without raising outside Git."""
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--show-toplevel"],
+            cwd=path,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=False,
+        )
+    except OSError:
+        return None
+    value = result.stdout.strip()
+    return Path(value).resolve() if result.returncode == 0 and value else None
+
+
+def git_superproject_root(path: Path) -> Path | None:
+    """Return the parent worktree when *path* belongs to a Git submodule."""
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--show-superproject-working-tree"],
+            cwd=path,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=False,
+        )
+    except OSError:
+        return None
+    value = result.stdout.strip()
+    return Path(value).resolve() if result.returncode == 0 and value else None
+
+
+def discover_source_root(script_dir: Path, superproject: Path | None = None) -> Path | None:
+    """Find the source checkout for embedded, submodule and sibling layouts."""
+    script_dir = script_dir.resolve()
+    superproject = superproject.resolve() if superproject else git_superproject_root(script_dir)
+    if superproject and is_source_checkout(superproject):
+        return superproject
+
+    # Supports both the historical resources/localization directory and a
+    # localization repository placed anywhere below the source checkout.
+    for candidate in (script_dir, *script_dir.parents):
+        if is_source_checkout(candidate):
+            return candidate
+
+    # A standalone localization checkout is commonly cloned next to the main
+    # repository. Resolve that layout automatically when it is unambiguous.
+    localization_root = git_root(script_dir) or script_dir
+    try:
+        siblings = [
+            candidate.resolve()
+            for candidate in localization_root.parent.iterdir()
+            if candidate.is_dir() and candidate.resolve() != localization_root and is_source_checkout(candidate)
+        ]
+    except OSError:
+        siblings = []
+    return siblings[0] if len(siblings) == 1 else None
+
+
+SOURCE_ROOT = discover_source_root(SCRIPT_DIR)
+# Catalog-only commands work in a standalone checkout even when no source
+# checkout is available. Source-dependent commands provide a focused error.
+REPO_ROOT = SOURCE_ROOT or (git_root(SCRIPT_DIR) or SCRIPT_DIR)
 POT_PATH = SCRIPT_DIR / "ApiumSlicer.pot"
 LIST_PATH = SCRIPT_DIR / "list.txt"
-HINTS_PATH = REPO_ROOT / "resources" / "data" / "hints.ini"
+HINTS_PATH = (SOURCE_ROOT or REPO_ROOT) / "resources" / "data" / "hints.ini"
 AUDIT_ALLOWLIST_PATH = SCRIPT_DIR / "audit_allowlist.json"
 SOURCE_SUFFIXES = {".c", ".cc", ".cpp", ".cxx", ".h", ".hh", ".hpp", ".hxx"}
 GETTEXT_TOOLS = ("xgettext", "msgcat", "msguniq", "msgmerge", "msgattrib", "msgfmt")
@@ -31,6 +104,16 @@ WIDTH = "100"
 
 class LocalizationError(RuntimeError):
     """Raised when catalog generation or validation cannot continue safely."""
+
+
+def require_source_checkout() -> Path:
+    if SOURCE_ROOT is None:
+        raise LocalizationError(
+            "ApiumSlicer source checkout was not found. Run this repository as "
+            "resources/localization submodule, keep it inside the source checkout, "
+            "or clone it next to a single ApiumSlicer source checkout."
+        )
+    return SOURCE_ROOT
 
 
 @dataclass(frozen=True)
@@ -941,26 +1024,29 @@ def command_overview(show_details: bool = False) -> int:
 
 
 def command_extract() -> int:
-    apply_outputs(build_extraction_outputs(REPO_ROOT, SCRIPT_DIR))
+    source_root = require_source_checkout()
+    apply_outputs(build_extraction_outputs(source_root, SCRIPT_DIR))
     return 0
 
 
 def command_sync(use_existing_pot: bool) -> int:
-    apply_outputs(build_outputs(REPO_ROOT, SCRIPT_DIR, use_existing_pot=use_existing_pot))
+    source_root = require_source_checkout()
+    apply_outputs(build_outputs(source_root, SCRIPT_DIR, use_existing_pot=use_existing_pot))
     return 0
 
 
 def command_check() -> int:
-    expected = build_outputs(REPO_ROOT, SCRIPT_DIR)
+    source_root = require_source_checkout()
+    expected = build_outputs(source_root, SCRIPT_DIR)
     stale = [path for path, content in expected.items() if not path.exists() or path.read_bytes() != content]
     if stale:
-        details = "\n  ".join(path.relative_to(REPO_ROOT).as_posix() for path in stale)
+        details = "\n  ".join(path.relative_to(source_root).as_posix() for path in stale)
         raise LocalizationError(
             f"Localization files are not synchronized; run localization.py sync:\n  {details}"
         )
     validate_catalog_set(POT_PATH, SCRIPT_DIR)
     print("Localization catalogs are synchronized and valid.")
-    run_audit(REPO_ROOT)
+    run_audit(source_root)
     return 0
 
 
@@ -1000,7 +1086,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         if args.command == "check":
             return command_check()
         if args.command == "audit":
-            return run_audit(REPO_ROOT)
+            return run_audit(require_source_checkout())
         if args.command == "overview":
             return command_overview(args.details)
         if args.command == "compile":

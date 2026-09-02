@@ -17,7 +17,7 @@ the end of each run.
 - GNU gettext tools on `PATH`: `xgettext`, `msgcat`, `msguniq`, `msgmerge`,
   `msgattrib`, and `msgfmt`
 
-Run all commands from the repository root:
+From the ApiumSlicer repository root, run:
 
 ```text
 python resources/localization/localization.py <command>
@@ -25,6 +25,45 @@ python resources/localization/localization.py <command>
 
 Use `python resources/localization/localization.py --help` or append `--help`
 to a command to see its command-line options.
+
+## Repository layouts and automatic source discovery
+
+No source-root option or environment variable is required. The tool determines
+its layout automatically, independently of the current working directory:
+
+1. When this repository is mounted as a Git submodule, Git's superproject is
+   used as the ApiumSlicer source checkout.
+2. The historical `resources/localization` directory inside an ApiumSlicer
+   checkout is detected by walking through the script's parent directories.
+3. A standalone localization repository may be cloned directly next to one
+   ApiumSlicer source checkout. The single matching sibling is selected
+   automatically.
+
+Example standalone sibling layout:
+
+```text
+workspace/
+  ApiumSlicer/
+    src/
+    resources/data/hints.ini
+  ApiumSlicer-Localization/
+    localization.py
+```
+
+Commands may then be run from the standalone repository as follows:
+
+```text
+python localization.py sync
+python localization.py check
+```
+
+`overview` and `compile` need only the localization repository and therefore
+also work when no source checkout is present. `extract`, `sync`, `check`, and
+`audit` require the ApiumSlicer sources. If no source checkout can be detected,
+they stop with a diagnostic instead of silently using the wrong directory. If
+multiple sibling source checkouts are present, place the localization checkout
+inside the intended source tree as a submodule to make the relationship
+unambiguous.
 
 ## Quick workflow
 
