@@ -2022,7 +2022,7 @@ msgstr "Randbreite/Pad-Radius"
 #: src/libslic3r/PrintConfig.cpp:1774 src/libslic3r/PrintConfig.cpp:1783
 #: src/slic3r/GUI/GUI_Factories.cpp:181 src/slic3r/GUI/Tab.cpp:2342
 msgid "Skirt, brim & purge line"
-msgstr "Schürze, Rand und Reinigungslinie"
+msgstr "Schürze, Rand & Purgeline"
 
 #: src/libslic3r/PrintConfig.cpp:1669
 msgid ""
