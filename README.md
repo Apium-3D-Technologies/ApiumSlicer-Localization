@@ -316,10 +316,17 @@ they delegate to `localization.py`:
 
 ## Tests
 
-The maintenance code has isolated fixture tests under `tests/localization`:
+The maintenance code has isolated fixture tests inside the localization
+repository under `tests`. From the ApiumSlicer source root, run:
 
 ```text
-python -m unittest discover -s tests/localization -v
+python -m unittest discover -s resources/localization/tests -v
+```
+
+From a standalone localization checkout, run instead:
+
+```text
+python -m unittest discover -s tests -v
 ```
 
 The tests cover extraction references, hints, contexts, plurals, duplicate
@@ -330,7 +337,7 @@ health counts, audit detection, and allowlisting.
 Before committing localization changes, run at minimum:
 
 ```text
-python -m unittest discover -s tests/localization -v
+python -m unittest discover -s resources/localization/tests -v
 python resources/localization/localization.py sync
 python resources/localization/localization.py overview --details
 python resources/localization/localization.py check
