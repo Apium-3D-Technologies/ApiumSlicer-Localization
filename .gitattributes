@@ -1,0 +1,12 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.po text eol=lf
+*.pot text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+
+*.mo binary
