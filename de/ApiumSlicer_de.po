@@ -9550,7 +9550,7 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr "Slice das Modell und Export von SLA-Druckschichten als PNG."
 
 #: src/libslic3r/PrintConfig.cpp:9118 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:8925 src/slic3r/GUI/Sidebar.cpp:1269
+#: src/slic3r/GUI/Plater.cpp:8936 src/slic3r/GUI/Sidebar.cpp:1269
 msgid "Export G-code"
 msgstr "Export G-Code"
 
@@ -10565,7 +10565,7 @@ msgstr "INFO:"
 
 #: src/libslic3r/SlicingNotification.cpp:22 src/slic3r/GUI/NotificationManager.cpp:2335
 #: src/slic3r/GUI/NotificationManager.cpp:2343 src/slic3r/GUI/NotificationManager.cpp:2354
-#: src/slic3r/GUI/Plater.cpp:2683
+#: src/slic3r/GUI/Plater.cpp:2694
 msgid "WARNING:"
 msgstr "WARNUNG:"
 
@@ -11083,10 +11083,10 @@ msgstr "Versionsinfo kopieren"
 #: src/slic3r/GUI/GCodeViewer.cpp:1277 src/slic3r/GUI/GCodeViewer.cpp:1287
 #: src/slic3r/GUI/GCodeViewer.cpp:1302 src/slic3r/GUI/GCodeViewer.cpp:1312
 #: src/slic3r/GUI/GCodeViewer.cpp:1322 src/slic3r/GUI/GCodeViewer.cpp:1335
-#: src/slic3r/GUI/OptionsGroup.cpp:230 src/slic3r/GUI/OptionsGroup.cpp:1147
-#: src/slic3r/GUI/OptionsGroup.cpp:1158 src/slic3r/GUI/OptionsGroup.cpp:1162
-#: src/slic3r/GUI/OptionsGroup.cpp:1165 src/slic3r/GUI/OptionsGroup.cpp:1172
-#: src/slic3r/GUI/OptionsGroup.cpp:1176 src/slic3r/GUI/UnsavedChangesDialog.cpp:1102
+#: src/slic3r/GUI/OptionsGroup.cpp:230 src/slic3r/GUI/OptionsGroup.cpp:1154
+#: src/slic3r/GUI/OptionsGroup.cpp:1165 src/slic3r/GUI/OptionsGroup.cpp:1169
+#: src/slic3r/GUI/OptionsGroup.cpp:1172 src/slic3r/GUI/OptionsGroup.cpp:1179
+#: src/slic3r/GUI/OptionsGroup.cpp:1183 src/slic3r/GUI/UnsavedChangesDialog.cpp:1102
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:1114
 msgid "N/A"
 msgstr "N.V."
@@ -11202,7 +11202,7 @@ msgstr "Interner Name"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1829
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1835
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1845 src/slic3r/GUI/GLCanvas3D.cpp:8816
-#: src/slic3r/GUI/Plater.cpp:3014 src/slic3r/GUI/Plater.cpp:4201
+#: src/slic3r/GUI/Plater.cpp:3025 src/slic3r/GUI/Plater.cpp:4212
 msgid "Invalid data"
 msgstr "Ungültige Daten"
 
@@ -11333,7 +11333,7 @@ msgstr ""
 "um die Platzierung der Objekte zu optimieren und Kollisionen mit dem Portal zu vermeiden."
 
 #: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:147 src/slic3r/GUI/GLCanvas3D.cpp:7071
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:8840
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:8851
 msgid "Arrange"
 msgstr "Anordnen"
 
@@ -12210,7 +12210,7 @@ msgid "Chosen directory for downloads does not exist."
 msgstr "Das gewählte Verzeichnis für Downloads existiert nicht."
 
 #: src/slic3r/GUI/ConfigWizard.cpp:2026 src/slic3r/GUI/GUI_Factories.cpp:1002
-#: src/slic3r/GUI/Plater.cpp:3454
+#: src/slic3r/GUI/Plater.cpp:3465
 msgid "Reload from disk"
 msgstr "Neuladen von Festplatte"
 
@@ -14669,7 +14669,7 @@ msgid "Add..."
 msgstr "Hinzufügen..."
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:7062 src/slic3r/GUI/KBShortcutsDialog.cpp:110
-#: src/slic3r/GUI/Plater.cpp:6637 src/slic3r/GUI/Tab.cpp:8603
+#: src/slic3r/GUI/Plater.cpp:6648 src/slic3r/GUI/Tab.cpp:8603
 msgid "Delete all"
 msgstr "Alle löschen"
 
@@ -14781,8 +14781,8 @@ msgstr "Rechts"
 msgid "Unsliced bed"
 msgstr "Nicht geslictes Druckbett"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8813 src/slic3r/GUI/Plater.cpp:3057 src/slic3r/GUI/Plater.cpp:7774
-#: src/slic3r/GUI/Plater.cpp:7776 src/slic3r/GUI/Plater.cpp:7804 src/slic3r/GUI/Plater.cpp:7818
+#: src/slic3r/GUI/GLCanvas3D.cpp:8813 src/slic3r/GUI/Plater.cpp:3068 src/slic3r/GUI/Plater.cpp:7785
+#: src/slic3r/GUI/Plater.cpp:7787 src/slic3r/GUI/Plater.cpp:7815 src/slic3r/GUI/Plater.cpp:7829
 #: src/slic3r/GUI/Tab.cpp:2763 src/slic3r/GUI/Tab.cpp:9670
 msgid "Slicing"
 msgstr "Slice"
@@ -14895,9 +14895,9 @@ msgstr "Auswahl über Rechteck entfernen"
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2847 src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:556
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:564 src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:584
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:937 src/slic3r/GUI/PhysicalPrinterDialog.cpp:956
-#: src/slic3r/GUI/PhysicalPrinterDialog.cpp:986 src/slic3r/GUI/Plater.cpp:5693
-#: src/slic3r/GUI/Plater.cpp:5701 src/slic3r/GUI/Plater.cpp:5771 src/slic3r/GUI/Plater.cpp:5779
-#: src/slic3r/GUI/Plater.cpp:8343 src/slic3r/GUI/WifiConfigDialog.cpp:256
+#: src/slic3r/GUI/PhysicalPrinterDialog.cpp:986 src/slic3r/GUI/Plater.cpp:5704
+#: src/slic3r/GUI/Plater.cpp:5712 src/slic3r/GUI/Plater.cpp:5782 src/slic3r/GUI/Plater.cpp:5790
+#: src/slic3r/GUI/Plater.cpp:8354 src/slic3r/GUI/WifiConfigDialog.cpp:256
 #: src/slic3r/GUI/WipeTowerDialog.cpp:70 src/slic3r/Utils/PresetUpdaterWrapper.cpp:60
 msgid "Warning"
 msgstr "Warnung"
@@ -15122,7 +15122,7 @@ msgstr ""
 "G-Code-Export, Senden und Upload sind deaktiviert.\n"
 "Upgrade auf die Vollversion, um G-Code zu exportieren."
 
-#: src/slic3r/GUI/GUI_App.cpp:880 src/slic3r/GUI/Plater.cpp:7118
+#: src/slic3r/GUI/GUI_App.cpp:880 src/slic3r/GUI/Plater.cpp:7129
 msgid "Preview mode"
 msgstr "Vorschaumodus"
 
@@ -15916,7 +15916,7 @@ msgstr "Reparatur durch Windows-Reparaturalgorithmus"
 msgid "Simplify model"
 msgstr "Modell vereinfachen"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:983 src/slic3r/GUI/Plater.cpp:2540
+#: src/slic3r/GUI/GUI_Factories.cpp:983 src/slic3r/GUI/Plater.cpp:2551
 msgid "Fill cavities"
 msgstr "Hohlräume füllen"
 
@@ -15932,7 +15932,7 @@ msgstr "Exportiere als STL/OBJ"
 msgid "Reload the selected volumes from disk"
 msgstr "Die ausgewählten Volumen von der Festplatte neu laden"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1009 src/slic3r/GUI/Plater.cpp:3324
+#: src/slic3r/GUI/GUI_Factories.cpp:1009 src/slic3r/GUI/Plater.cpp:3335
 msgid "Replace model"
 msgstr "Modell ersetzen"
 
@@ -15980,7 +15980,7 @@ msgstr "Auf Druckvolumen skalieren"
 msgid "Scale the selected object to fit the print volume"
 msgstr "Skalieren des ausgewählten Objekts so, dass es in das Druckvolumen passt"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1269 src/slic3r/GUI/Plater.cpp:2571
+#: src/slic3r/GUI/GUI_Factories.cpp:1269 src/slic3r/GUI/Plater.cpp:2582
 msgid "Move center"
 msgstr "In die Mitte verschieben"
 
@@ -15988,19 +15988,19 @@ msgstr "In die Mitte verschieben"
 msgid "Move selected objects to bed center"
 msgstr "Ausgewählte Objekte in die Bettmitte verschieben"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1311 src/slic3r/GUI/Plater.cpp:6885
+#: src/slic3r/GUI/GUI_Factories.cpp:1311 src/slic3r/GUI/Plater.cpp:6896
 msgid "Convert from imperial units"
 msgstr "Von imperialen Einheiten umrechnen"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1312 src/slic3r/GUI/Plater.cpp:6886
+#: src/slic3r/GUI/GUI_Factories.cpp:1312 src/slic3r/GUI/Plater.cpp:6897
 msgid "Revert conversion from imperial units"
 msgstr "Umrechnung von imperialen Einheiten rückgängig machen"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1313 src/slic3r/GUI/Plater.cpp:6887
+#: src/slic3r/GUI/GUI_Factories.cpp:1313 src/slic3r/GUI/Plater.cpp:6898
 msgid "Convert from meters"
 msgstr "Umrechnen von Meter"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1314 src/slic3r/GUI/Plater.cpp:6887
+#: src/slic3r/GUI/GUI_Factories.cpp:1314 src/slic3r/GUI/Plater.cpp:6898
 msgid "Revert conversion from meters"
 msgstr "Umrechnung von Metern umkehren"
 
@@ -16058,11 +16058,11 @@ msgid "Add Shape"
 msgstr "Form hinzufügen"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1485 src/slic3r/GUI/KBShortcutsDialog.cpp:162
-#: src/slic3r/GUI/ObjectClippingController.cpp:417 src/slic3r/GUI/Plater.cpp:4492
+#: src/slic3r/GUI/ObjectClippingController.cpp:417 src/slic3r/GUI/Plater.cpp:4503
 msgid "Clipping view"
 msgstr "Schnittansicht"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1486 src/slic3r/GUI/Plater.cpp:4493
+#: src/slic3r/GUI/GUI_Factories.cpp:1486 src/slic3r/GUI/Plater.cpp:4504
 msgid "Clip the visible scene using this object as the range"
 msgstr "Die sichtbare Szene zuschneiden; dieses Objekt bestimmt den Bereich"
 
@@ -16361,7 +16361,7 @@ msgid "Adding objects to the plater..."
 msgstr "Objekte werden zur Druckplatte hinzugefügt..."
 
 #: src/slic3r/GUI/GUI_ObjectList.cpp:2112 src/slic3r/GUI/MainFrame.cpp:2059
-#: src/slic3r/GUI/MainFrame.cpp:2101 src/slic3r/GUI/Plater.cpp:2000
+#: src/slic3r/GUI/MainFrame.cpp:2101 src/slic3r/GUI/Plater.cpp:2011
 msgid "Finalizing..."
 msgstr "Wird abgeschlossen..."
 
@@ -19407,7 +19407,7 @@ msgstr "?ffne ApiumSlicer Project/3MF/AMF mit Konfiguration, Druckplatte leeren"
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:93 src/slic3r/GUI/MainFrame.cpp:2029
 #: src/slic3r/GUI/MainFrame.cpp:2201 src/slic3r/GUI/MainFrame.cpp:2295
 #: src/slic3r/GUI/MainFrame.cpp:2621 src/slic3r/GUI/MainFrame.cpp:2694
-#: src/slic3r/GUI/Plater.cpp:7589
+#: src/slic3r/GUI/Plater.cpp:7600
 msgid "Save project"
 msgstr "Projekt speichern"
 
@@ -19431,7 +19431,7 @@ msgstr "Konfigurationsdatei (.ini) importieren"
 msgid "Load Config from ini/amf/a3d/3mf/gcode and merge"
 msgstr "Lade und f?ge Konfiguration von ini/amf/a3d/3mf/gcode hinzu"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:8926
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:8937
 msgid "Send G-code"
 msgstr "Sende G-code"
 
@@ -19801,7 +19801,7 @@ msgstr "Legende ein-/ausblenden"
 msgid "Show/Hide G-code window"
 msgstr "G-Code-Fenster ein-/ausblenden"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:244 src/slic3r/GUI/Plater.cpp:4697
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:244 src/slic3r/GUI/Plater.cpp:4708
 #: src/slic3r/GUI/Tab.cpp:6629
 msgid "Preview"
 msgstr "Vorschau"
@@ -19992,7 +19992,7 @@ msgstr "ApiumSlicer schließt"
 msgid "Closing PrusaSlicer while some presets are modified."
 msgstr "Schließen von ApiumSlicer, während einige Voreinstellungen geändert wurden."
 
-#: src/slic3r/GUI/MainFrame.cpp:911 src/slic3r/GUI/Plater.cpp:451 src/slic3r/GUI/Plater.cpp:2166
+#: src/slic3r/GUI/MainFrame.cpp:911 src/slic3r/GUI/Plater.cpp:451 src/slic3r/GUI/Plater.cpp:2177
 #: src/slic3r/GUI/Sidebar.cpp:580
 msgid "Untitled"
 msgstr "Unbenannt"
@@ -20854,7 +20854,7 @@ msgstr ""
 msgid "Select G-code file to load settings from:"
 msgstr "G-Code-Datei zum Laden der Einstellungen auswählen:"
 
-#: src/slic3r/GUI/MainFrame.cpp:3794 src/slic3r/GUI/Plater.cpp:6219
+#: src/slic3r/GUI/MainFrame.cpp:3794 src/slic3r/GUI/Plater.cpp:6230
 msgid "Import G-code settings"
 msgstr "G-Code-Einstellungen importieren"
 
@@ -20894,7 +20894,7 @@ msgstr ""
 "gespeichert sind. Möchten Sie die Passwörter im Klartext in die exportierte Datei aufnehmen?"
 
 #: src/slic3r/GUI/MainFrame.cpp:4031 src/slic3r/GUI/PhysicalPrinterDialog.cpp:221
-#: src/slic3r/GUI/Plater.cpp:7902 src/slic3r/GUI/UserAccountCommunication.cpp:129
+#: src/slic3r/GUI/Plater.cpp:7913 src/slic3r/GUI/UserAccountCommunication.cpp:129
 msgid "Failed to load credentials from the system password store."
 msgstr "Die Zugangsdaten konnten nicht aus dem Kennwortspeicher des Systems geladen werden."
 
@@ -21283,7 +21283,7 @@ msgid "This printer will be shown in the presets list as"
 msgstr "Dieser Drucker wird in der Voreinstellungsliste angezeigt als"
 
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:186 src/slic3r/GUI/PhysicalPrinterDialog.cpp:212
-#: src/slic3r/GUI/Plater.cpp:7893 src/slic3r/GUI/UserAccountCommunication.cpp:94
+#: src/slic3r/GUI/Plater.cpp:7904 src/slic3r/GUI/UserAccountCommunication.cpp:94
 #: src/slic3r/GUI/UserAccountCommunication.cpp:120
 msgid "This system doesn't support storing passwords securely"
 msgstr "Dieses System unterstützt nicht die sichere Speicherung von Passwörtern"
@@ -21457,7 +21457,7 @@ msgstr "Erfolgreich ausgeworfen. Das Gerät %s(%s) kann nun sicher vom Computer 
 msgid "Ejecting of device %s(%s) has failed."
 msgstr "Das Auswerfen von Gerät %s(%s) ist fehlgeschlagen."
 
-#: src/slic3r/GUI/Plater.cpp:1118 src/slic3r/GUI/Plater.cpp:5443
+#: src/slic3r/GUI/Plater.cpp:1118 src/slic3r/GUI/Plater.cpp:5454
 msgid "New Project"
 msgstr "Neues Projekt"
 
@@ -21622,17 +21622,17 @@ msgstr ""
 "Anstatt sie als mehrere Objekte zu betrachten, sollte \n"
 "die Datei als ein einziges Objekt mit mehreren Teilen geladen werden?"
 
-#: src/slic3r/GUI/Plater.cpp:1833 src/slic3r/GUI/Plater.cpp:1955
+#: src/slic3r/GUI/Plater.cpp:1833 src/slic3r/GUI/Plater.cpp:1960
 msgid "Multi-part object detected"
 msgstr "Objekt mit mehreren Teilen erkannt"
 
-#: src/slic3r/GUI/Plater.cpp:1835
-msgid "Load as one multi-part object"
-msgstr "Als ein Mehrteilobjekt laden"
+#: src/slic3r/GUI/Plater.cpp:1835 src/slic3r/GUI/Plater.cpp:1962
+msgid "Import as one multi-part assembly"
+msgstr "Als eine mehrteilige Baugruppe importieren"
 
-#: src/slic3r/GUI/Plater.cpp:1836
-msgid "Load as individual objects"
-msgstr "Als einzelne Objekte laden"
+#: src/slic3r/GUI/Plater.cpp:1836 src/slic3r/GUI/Plater.cpp:1963
+msgid "Import as separate objects"
+msgstr "Als separate Objekte importieren"
 
 #: src/slic3r/GUI/Plater.cpp:1841
 msgid "Apply to all objects being loaded."
@@ -21659,50 +21659,66 @@ msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:1952
 msgid ""
-"Multiple objects were loaded for a multi-material printer.\n"
-"Instead of considering them as multiple objects, should I consider\n"
-"these files to represent a single object having multiple parts?"
+"Multiple model files were loaded for a printer with multiple extruders.\n"
+"You can import them as one multi-part assembly and assign its parts to different extruders, or "
+"import them as separate objects.\n"
+"\n"
+"How would you like to import them?"
 msgstr ""
-"Für einen Multimaterialdrucker wurden mehrere Objekte geladen.\n"
-"Soll ich, anstatt sie als mehrere Objekte zu betrachten, \n"
-"diese Dateien als ein einzelnes Objekt mit mehreren Teilen behandeln?"
+"Mehrere Modelldateien wurden für einen Drucker mit mehreren Extrudern geladen.\n"
+"Sie können sie als eine mehrteilige Baugruppe importieren und deren Teile verschiedenen Extrudern "
+"zuweisen oder sie als separate Objekte importieren.\n"
+"\n"
+"Wie möchten Sie sie importieren?"
 
-#: src/slic3r/GUI/Plater.cpp:2099
+#: src/slic3r/GUI/Plater.cpp:1956
+msgid ""
+"Multiple model files were loaded for a printer with one extruder.\n"
+"You can import them as one multi-part assembly or as separate objects.\n"
+"\n"
+"How would you like to import them?"
+msgstr ""
+"Mehrere Modelldateien wurden für einen Drucker mit einem Extruder geladen.\n"
+"Sie können sie als eine mehrteilige Baugruppe oder als separate Objekte importieren.\n"
+"\n"
+"Wie möchten Sie sie importieren?"
+
+#: src/slic3r/GUI/Plater.cpp:2110
 msgid ""
 "Your object appears to be too large, so it was automatically scaled down to fit your print bed."
 msgstr ""
 "Ihr Objekt scheint zu groß zu sein. Es wurde deshalb automatisch verkleinert, um auf Ihre "
 "Druckplatte zu passen."
 
-#: src/slic3r/GUI/Plater.cpp:2100
+#: src/slic3r/GUI/Plater.cpp:2111
 msgid "Object too large?"
 msgstr "Objekt zu groß?"
 
-#: src/slic3r/GUI/Plater.cpp:2195
+#: src/slic3r/GUI/Plater.cpp:2206
 msgid "Export STL file:"
 msgstr "Exportiere STL Datei:"
 
-#: src/slic3r/GUI/Plater.cpp:2202
+#: src/slic3r/GUI/Plater.cpp:2213
 msgid "Export AMF file:"
 msgstr "Exportiere AMF Datei:"
 
-#: src/slic3r/GUI/Plater.cpp:2208
+#: src/slic3r/GUI/Plater.cpp:2219
 msgid "Save file as:"
 msgstr "Speichere Datei als:"
 
-#: src/slic3r/GUI/Plater.cpp:2214
+#: src/slic3r/GUI/Plater.cpp:2225
 msgid "Export OBJ file:"
 msgstr "Exportiere OBJ Datei:"
 
-#: src/slic3r/GUI/Plater.cpp:2374
+#: src/slic3r/GUI/Plater.cpp:2385
 msgid "Delete object which is a part of cut object"
 msgstr "Objekt löschen, das ein Teil eines Schnittobjekts ist"
 
-#: src/slic3r/GUI/Plater.cpp:2375
+#: src/slic3r/GUI/Plater.cpp:2386
 msgid "You try to delete an object which is a part of a cut object."
 msgstr "Sie versuchen, ein Objekt zu löschen, das Teil eines Schnittobjekts ist."
 
-#: src/slic3r/GUI/Plater.cpp:2376
+#: src/slic3r/GUI/Plater.cpp:2387
 msgid ""
 "This action will break a cut information.\n"
 "After that PrusaSlicer can't guarantee model consistency"
@@ -21710,63 +21726,63 @@ msgstr ""
 "Diese Aktion zerstört eine Schnittinformation.\n"
 "Danach kann ApiumSlicer die Konsistenz des Modells nicht mehr garantieren."
 
-#: src/slic3r/GUI/Plater.cpp:2379
+#: src/slic3r/GUI/Plater.cpp:2390
 msgid "Delete object"
 msgstr "Objekt löschen"
 
-#: src/slic3r/GUI/Plater.cpp:2384
+#: src/slic3r/GUI/Plater.cpp:2395
 msgid "Delete Object"
 msgstr "Objekt löschen"
 
-#: src/slic3r/GUI/Plater.cpp:2403
+#: src/slic3r/GUI/Plater.cpp:2414
 msgid "Delete All Objects"
 msgstr "Alle Objekte löschen"
 
-#: src/slic3r/GUI/Plater.cpp:2432
+#: src/slic3r/GUI/Plater.cpp:2443
 msgid "Reset Project"
 msgstr "Projekt zurücksetzen"
 
-#: src/slic3r/GUI/Plater.cpp:2479
+#: src/slic3r/GUI/Plater.cpp:2490
 msgid "Custom supports, seams and multimaterial painting were removed after splitting the object."
 msgstr ""
 "Individuelle Stützen, Nähte und Multimaterialbemalung wurden nach der Teilung des Objekts "
 "entfernt."
 
-#: src/slic3r/GUI/Plater.cpp:2487
+#: src/slic3r/GUI/Plater.cpp:2498
 msgid "The selected object couldn't be split because it contains only one solid part."
 msgstr "Das ausgewählte Objekt konnte nicht geteilt werden, da es nur ein solides Teil enthält."
 
-#: src/slic3r/GUI/Plater.cpp:2494
+#: src/slic3r/GUI/Plater.cpp:2505
 msgid "All non-solid parts (modifiers) were deleted"
 msgstr "Alle nicht soliden Teile (Modifikatoren) wurden gelöscht"
 
-#: src/slic3r/GUI/Plater.cpp:2496
+#: src/slic3r/GUI/Plater.cpp:2507
 msgid "Split to Objects"
 msgstr "In Objekte trennen"
 
-#: src/slic3r/GUI/Plater.cpp:2536
+#: src/slic3r/GUI/Plater.cpp:2547
 msgid "No closed internal cavities found."
 msgstr "Keine geschlossenen Innenhohlräume gefunden."
 
-#: src/slic3r/GUI/Plater.cpp:2541
+#: src/slic3r/GUI/Plater.cpp:2552
 msgid "Custom supports, seams and multimaterial painting were removed after filling cavities."
 msgstr ""
 "Benutzerdefinierte Stützen, Nähte und Mehrmaterial-Bemalungen wurden nach dem Füllen von "
 "Hohlräumen entfernt."
 
-#: src/slic3r/GUI/Plater.cpp:2607
+#: src/slic3r/GUI/Plater.cpp:2618
 msgid "An object has custom support enforcers which will not be used because supports are disabled."
 msgstr ""
 "Ein Objekt verfügt über benutzerdefinierte Stützverstärker, die nicht verwendet werden, weil "
 "Stützen deaktiviert sind."
 
-#: src/slic3r/GUI/Plater.cpp:2609
+#: src/slic3r/GUI/Plater.cpp:2620
 msgid "Enable supports for enforcers only."
 msgstr "Stützen nur für Verstärker aktivieren."
 
 #. TRN: Text of a notification, followed by (single) hyperlink to two of the config options. The sentence had to be split because of the hyperlink, sorry.
 #. The hyperlink part of the sentence reads "'Bed temperature by extruder' and 'Wipe tower extruder'", and it is also to be translated.
-#: src/slic3r/GUI/Plater.cpp:2623
+#: src/slic3r/GUI/Plater.cpp:2634
 msgid ""
 "Bed temperatures for the used filaments differ significantly.\n"
 "For multi-material prints it is recommended to set the "
@@ -21776,11 +21792,11 @@ msgstr ""
 
 #. TRN: The other part of the sentence starting "Bed temperatures for the used" (also in the dictionary). Sorry for splitting it, technical reasons -
 #. this part of the sentence is a hyperlink.
-#: src/slic3r/GUI/Plater.cpp:2627
+#: src/slic3r/GUI/Plater.cpp:2638
 msgid "'Bed temperature by extruder' and 'Wipe tower extruder'"
 msgstr "„Druckbetttemperatur nach Extruder“ und „Wipe-Tower-Extruder“"
 
-#: src/slic3r/GUI/Plater.cpp:2635
+#: src/slic3r/GUI/Plater.cpp:2646
 msgid ""
 "Filament shrinkage will not be used because filament shrinkage for the used filaments differs "
 "significantly."
@@ -21788,7 +21804,7 @@ msgstr ""
 "Die Filamentschrumpfung wird nicht angewendet, da die Filamentschrumpfung bei den verwendeten "
 "Filamenten sehr unterschiedlich ist."
 
-#: src/slic3r/GUI/Plater.cpp:2639
+#: src/slic3r/GUI/Plater.cpp:2650
 msgid ""
 "Using the wipe tower for extruders with different nozzle diameters is experimental, so proceed "
 "with caution."
@@ -21798,7 +21814,7 @@ msgstr ""
 
 #. TRN: This is a first part of the notification text:
 #. "Printing supports with different nozzle diameters is experimental. For best results, switch to Organic supports and assign a specific extruder for supports."
-#: src/slic3r/GUI/Plater.cpp:2645
+#: src/slic3r/GUI/Plater.cpp:2656
 msgid ""
 "Printing supports with different nozzle diameters is experimental. For best results, switch to "
 "Organic supports and"
@@ -21808,11 +21824,11 @@ msgstr ""
 
 #. TRN: This is a second part (hyperlink) of the notification text:
 #. "Printing supports with different nozzle diameters is experimental. For best results, switch to Organic supports and assign a specific extruder for supports."
-#: src/slic3r/GUI/Plater.cpp:2649
+#: src/slic3r/GUI/Plater.cpp:2660
 msgid "assign a specific extruder for supports."
 msgstr "weisen Sie den Stützstrukturen einen bestimmten Extruder zu."
 
-#: src/slic3r/GUI/Plater.cpp:2657
+#: src/slic3r/GUI/Plater.cpp:2668
 msgid ""
 "At least one object has painted adhesion pads in Brim mode, but its Brim type is not set to "
 "'Painted brim pads'.\n"
@@ -21822,79 +21838,79 @@ msgstr ""
 "„Aufgemalte Brim-Pads“ eingestellt.\n"
 "Diese aufgemalten Pads werden beim Slicen ignoriert."
 
-#: src/slic3r/GUI/Plater.cpp:3045 src/slic3r/GUI/Plater.cpp:8563
+#: src/slic3r/GUI/Plater.cpp:3056 src/slic3r/GUI/Plater.cpp:8574
 msgid "Preview is out of date. Please re-slice to regenerate G-code."
 msgstr "Die Vorschau ist nicht aktuell. Bitte erneut slicen, um den G-Code neu zu erzeugen."
 
-#: src/slic3r/GUI/Plater.cpp:3051 src/slic3r/GUI/Plater.cpp:3057 src/slic3r/GUI/Plater.cpp:4228
-#: src/slic3r/GUI/Plater.cpp:4231 src/slic3r/GUI/Plater.cpp:7784 src/slic3r/GUI/Plater.cpp:7821
-#: src/slic3r/GUI/Plater.cpp:8556 src/slic3r/GUI/Plater.cpp:8557 src/slic3r/GUI/Sidebar.cpp:1270
+#: src/slic3r/GUI/Plater.cpp:3062 src/slic3r/GUI/Plater.cpp:3068 src/slic3r/GUI/Plater.cpp:4239
+#: src/slic3r/GUI/Plater.cpp:4242 src/slic3r/GUI/Plater.cpp:7795 src/slic3r/GUI/Plater.cpp:7832
+#: src/slic3r/GUI/Plater.cpp:8567 src/slic3r/GUI/Plater.cpp:8568 src/slic3r/GUI/Sidebar.cpp:1270
 msgid "Slice now"
 msgstr "Jetzt slicen"
 
-#: src/slic3r/GUI/Plater.cpp:3126
+#: src/slic3r/GUI/Plater.cpp:3137
 msgid "Another export job is currently running."
 msgstr "Ein anderer Exportjob läuft zurzeit."
 
-#: src/slic3r/GUI/Plater.cpp:3212
+#: src/slic3r/GUI/Plater.cpp:3223
 msgid "Replace from:"
 msgstr "Ersetzen von:"
 
-#: src/slic3r/GUI/Plater.cpp:3230
+#: src/slic3r/GUI/Plater.cpp:3241
 msgid "Unable to replace with more than one volume"
 msgstr "Kann nicht durch mehr als ein Volumen ersetzt werden"
 
-#: src/slic3r/GUI/Plater.cpp:3230 src/slic3r/GUI/Plater.cpp:3319
+#: src/slic3r/GUI/Plater.cpp:3241 src/slic3r/GUI/Plater.cpp:3330
 msgid "Error during replace"
 msgstr "Fehler während Ersatz"
 
-#: src/slic3r/GUI/Plater.cpp:3311
+#: src/slic3r/GUI/Plater.cpp:3322
 msgid "Select the new file"
 msgstr "Neue Datei auswählen"
 
-#: src/slic3r/GUI/Plater.cpp:3319
+#: src/slic3r/GUI/Plater.cpp:3330
 msgid "File for the replace wasn't selected"
 msgstr "Datei zum Ersetzen wurde nicht ausgewählt"
 
-#: src/slic3r/GUI/Plater.cpp:3406
+#: src/slic3r/GUI/Plater.cpp:3417
 msgid "Please select the file to reload"
 msgstr "Bitte wählen Sie die neu zu ladende Datei aus"
 
-#: src/slic3r/GUI/Plater.cpp:3437 src/slic3r/GUI/Plater.cpp:5616 src/slic3r/GUI/Plater.cpp:5626
+#: src/slic3r/GUI/Plater.cpp:3448 src/slic3r/GUI/Plater.cpp:5627 src/slic3r/GUI/Plater.cpp:5637
 msgid "The selected file"
 msgstr "Die gewählte Datei"
 
-#: src/slic3r/GUI/Plater.cpp:3438
+#: src/slic3r/GUI/Plater.cpp:3449
 msgid "differs from the original file"
 msgstr "weicht von der Originaldatei ab"
 
-#: src/slic3r/GUI/Plater.cpp:3438
+#: src/slic3r/GUI/Plater.cpp:3449
 msgid "Do you want to replace it"
 msgstr "Möchten Sie es ersetzen"
 
-#: src/slic3r/GUI/Plater.cpp:3458 src/slic3r/GUI/Plater.cpp:3464
+#: src/slic3r/GUI/Plater.cpp:3469 src/slic3r/GUI/Plater.cpp:3475
 msgid "Reload from:"
 msgstr "Neuladen von:"
 
-#: src/slic3r/GUI/Plater.cpp:3581
+#: src/slic3r/GUI/Plater.cpp:3592
 msgid "Unable to reload:"
 msgstr "Kann nicht nachgeladen werden:"
 
-#: src/slic3r/GUI/Plater.cpp:3586
+#: src/slic3r/GUI/Plater.cpp:3597
 msgid "Error during reload"
 msgstr "Fehler beim erneuten Laden"
 
-#: src/slic3r/GUI/Plater.cpp:3604
+#: src/slic3r/GUI/Plater.cpp:3615
 msgid "Reload all from disk"
 msgstr "Alles von der Festplatte neu laden"
 
-#: src/slic3r/GUI/Plater.cpp:3786
+#: src/slic3r/GUI/Plater.cpp:3797
 msgid "You are using template filament preset."
 msgid_plural "You are using template filament presets."
 msgstr[0] "Sie verwenden eine Vorlagen-Filament-Voreinstellung."
 msgstr[1] "Sie verwenden Vorlagen-Filament-Voreinstellungen."
 
-#: src/slic3r/GUI/Plater.cpp:4064 src/slic3r/GUI/Search.cpp:92 src/slic3r/GUI/Search.cpp:456
+#: src/slic3r/GUI/Plater.cpp:4075 src/slic3r/GUI/Search.cpp:92 src/slic3r/GUI/Search.cpp:456
 #: src/slic3r/GUI/Tab.cpp:6355
 msgid "Stealth"
 msgstr "Stealth"
@@ -21903,39 +21919,39 @@ msgstr "Stealth"
 msgid "Normal"
 msgstr "Normal"
 
-#: src/slic3r/GUI/Plater.cpp:4213
+#: src/slic3r/GUI/Plater.cpp:4224
 msgid "Slicing Cancelled."
 msgstr "Slicen abgebrochen"
 
-#: src/slic3r/GUI/Plater.cpp:4436
+#: src/slic3r/GUI/Plater.cpp:4447
 msgid "Start Performance Review"
 msgstr "Performance-Analyse starten"
 
-#: src/slic3r/GUI/Plater.cpp:4437
+#: src/slic3r/GUI/Plater.cpp:4448
 msgid "Run a reproducible rendering benchmark for the active plate"
 msgstr "Einen reproduzierbaren Rendering-Benchmark für die aktive Platte ausführen"
 
-#: src/slic3r/GUI/Plater.cpp:4689
+#: src/slic3r/GUI/Plater.cpp:4700
 msgid "3D editor view"
 msgstr "3D Editiermodus"
 
-#: src/slic3r/GUI/Plater.cpp:4715
+#: src/slic3r/GUI/Plater.cpp:4726
 msgid "Switch to Mesh view"
 msgstr "Zur Mesh-Ansicht wechseln"
 
-#: src/slic3r/GUI/Plater.cpp:4724
+#: src/slic3r/GUI/Plater.cpp:4735
 msgid "Switch to X-Ray view"
 msgstr "Zur Röntgenansicht wechseln"
 
-#: src/slic3r/GUI/Plater.cpp:4732
+#: src/slic3r/GUI/Plater.cpp:4743
 msgid "Switch to Solid view"
 msgstr "Zur Solid-Ansicht wechseln"
 
-#: src/slic3r/GUI/Plater.cpp:5254
+#: src/slic3r/GUI/Plater.cpp:5265
 msgid "Undo / Redo is processing"
 msgstr "Undo / Redo arbeitet"
 
-#: src/slic3r/GUI/Plater.cpp:5256
+#: src/slic3r/GUI/Plater.cpp:5267
 #, boost-format
 msgid ""
 "Switching the printer technology from %1% to %2%.\n"
@@ -21945,21 +21961,21 @@ msgstr ""
 "Es wurden einige %1%-Voreinstellungen geändert, die nach dem Wechsel der Druckertechnologie "
 "verloren gehen."
 
-#: src/slic3r/GUI/Plater.cpp:5428
+#: src/slic3r/GUI/Plater.cpp:5439
 msgid "Creating a new project while the current project is modified."
 msgstr "Erstellen eines neuen Projekts, während das aktuelle Projekt geändert wurde."
 
-#: src/slic3r/GUI/Plater.cpp:5431
+#: src/slic3r/GUI/Plater.cpp:5442
 msgid "Creating a new project while some presets are modified."
 msgstr "Erstellen eines neuen Projekts, während einige Voreinstellungen geändert wurden."
 
-#: src/slic3r/GUI/Plater.cpp:5432
+#: src/slic3r/GUI/Plater.cpp:5443
 msgid "You can keep presets modifications to the new project or discard them"
 msgstr ""
 "Sie können die Änderungen an den Voreinstellungen für das neue Projekt beibehalten oder sie "
 "verwerfen."
 
-#: src/slic3r/GUI/Plater.cpp:5433
+#: src/slic3r/GUI/Plater.cpp:5444
 msgid ""
 "You can keep presets modifications to the new project, discard them or save changes as new "
 "presets.\n"
@@ -21969,177 +21985,177 @@ msgstr ""
 "oder als neue Voreinstellungen speichern.\n"
 "Hinweis: Wenn die Änderungen gespeichert werden, werden sie nicht in das neue Projekt übernommen."
 
-#: src/slic3r/GUI/Plater.cpp:5438
+#: src/slic3r/GUI/Plater.cpp:5449
 msgid "Creating a new project"
 msgstr "Neues Projekt erstellen"
 
-#: src/slic3r/GUI/Plater.cpp:5472
+#: src/slic3r/GUI/Plater.cpp:5483
 msgid "Load Project"
 msgstr "Projekt laden"
 
-#: src/slic3r/GUI/Plater.cpp:5508
+#: src/slic3r/GUI/Plater.cpp:5519
 msgid "Import Object"
 msgstr "Objekt importieren"
 
-#: src/slic3r/GUI/Plater.cpp:5512
+#: src/slic3r/GUI/Plater.cpp:5523
 msgid "Import Objects"
 msgstr "Objekte importieren"
 
-#: src/slic3r/GUI/Plater.cpp:5542
+#: src/slic3r/GUI/Plater.cpp:5553
 msgid "Import SLA archive"
 msgstr "SLA-Archiv importieren"
 
-#: src/slic3r/GUI/Plater.cpp:5616 src/slic3r/GUI/Plater.cpp:5626
+#: src/slic3r/GUI/Plater.cpp:5627 src/slic3r/GUI/Plater.cpp:5637
 msgid "does not contain valid gcode."
 msgstr "enthält keinen gültigen G-Code."
 
-#: src/slic3r/GUI/Plater.cpp:5617 src/slic3r/GUI/Plater.cpp:5627
+#: src/slic3r/GUI/Plater.cpp:5628 src/slic3r/GUI/Plater.cpp:5638
 msgid "Error while loading .gcode file"
 msgstr "Fehler beim Laden einer .gcode-Datei"
 
-#: src/slic3r/GUI/Plater.cpp:5679 src/slic3r/GUI/Plater.cpp:5757
+#: src/slic3r/GUI/Plater.cpp:5690 src/slic3r/GUI/Plater.cpp:5768
 msgid "Unable to open the selected file."
 msgstr "Ausgewählte Datei kann nicht geöffnet werden."
 
-#: src/slic3r/GUI/Plater.cpp:5693
+#: src/slic3r/GUI/Plater.cpp:5704
 msgid "The selected file is already in ASCII format."
 msgstr "Die ausgewählte Datei ist bereits im ASCII-Format."
 
-#: src/slic3r/GUI/Plater.cpp:5709 src/slic3r/GUI/Plater.cpp:5787
+#: src/slic3r/GUI/Plater.cpp:5720 src/slic3r/GUI/Plater.cpp:5798
 #: src/slic3r/GUI/UpdateDialogs.cpp:251
 #, boost-format
 msgid "File %1% already exists. Do you wish to overwrite it?"
 msgstr "Die Datei %1% existiert bereits. Möchten Sie sie überschreiben?"
 
-#: src/slic3r/GUI/Plater.cpp:5717 src/slic3r/GUI/Plater.cpp:5795
+#: src/slic3r/GUI/Plater.cpp:5728 src/slic3r/GUI/Plater.cpp:5806
 msgid "Unable to open output file."
 msgstr "Ausgabedatei kann nicht geöffnet werden."
 
-#: src/slic3r/GUI/Plater.cpp:5733 src/slic3r/GUI/Plater.cpp:5812
+#: src/slic3r/GUI/Plater.cpp:5744 src/slic3r/GUI/Plater.cpp:5823
 msgid "Error converting G-code file"
 msgstr "Fehler beim Umwandeln einer G-Code-Datei"
 
-#: src/slic3r/GUI/Plater.cpp:5741
+#: src/slic3r/GUI/Plater.cpp:5752
 msgid "Successfully created G-code ASCII file"
 msgstr "G-code ASCII-Datei erfolgreich erstellt"
 
-#: src/slic3r/GUI/Plater.cpp:5742
+#: src/slic3r/GUI/Plater.cpp:5753
 msgid "Convert G-code file to ASCII format"
 msgstr "G-Code-Datei in ASCII-Format umwandeln"
 
-#: src/slic3r/GUI/Plater.cpp:5771
+#: src/slic3r/GUI/Plater.cpp:5782
 msgid "The selected file is already in binary format."
 msgstr "Die ausgewählte Datei ist bereits im Binärformat."
 
-#: src/slic3r/GUI/Plater.cpp:5820
+#: src/slic3r/GUI/Plater.cpp:5831
 msgid "Successfully created G-code binary file"
 msgstr "G-Code Binärdatei erfolgreich erstellt"
 
-#: src/slic3r/GUI/Plater.cpp:5821
+#: src/slic3r/GUI/Plater.cpp:5832
 msgid "Convert G-code file to binary format"
 msgstr "G-Code-Datei in Binärformat umwandeln"
 
-#: src/slic3r/GUI/Plater.cpp:5883
+#: src/slic3r/GUI/Plater.cpp:5894
 #, boost-format
 msgid "%1% - Multiple projects file"
 msgstr "%1% - Datei mit mehreren Projekten"
 
-#: src/slic3r/GUI/Plater.cpp:5893
+#: src/slic3r/GUI/Plater.cpp:5904
 msgid "There are several files being loaded, including Project files."
 msgstr "Es werden mehrere Dateien geladen, darunter auch Projektdateien."
 
-#: src/slic3r/GUI/Plater.cpp:5893 src/slic3r/GUI/Plater.cpp:5896
+#: src/slic3r/GUI/Plater.cpp:5904 src/slic3r/GUI/Plater.cpp:5907
 msgid "Select an action to apply to all files."
 msgstr "Wählen Sie eine Aktion, die auf alle Dateien angewendet werden soll."
 
-#: src/slic3r/GUI/Plater.cpp:5896
+#: src/slic3r/GUI/Plater.cpp:5907
 msgid "There are several files being loaded."
 msgstr "Es werden mehrere Dateien geladen."
 
-#: src/slic3r/GUI/Plater.cpp:5898 src/slic3r/GUI/Plater.cpp:6213 src/slic3r/GUI/Plater.cpp:6343
+#: src/slic3r/GUI/Plater.cpp:5909 src/slic3r/GUI/Plater.cpp:6224 src/slic3r/GUI/Plater.cpp:6354
 msgid "Action"
 msgstr "Aktion"
 
-#: src/slic3r/GUI/Plater.cpp:5919
+#: src/slic3r/GUI/Plater.cpp:5930
 msgid "Import 3D models"
 msgstr "3D Modelle imortieren"
 
-#: src/slic3r/GUI/Plater.cpp:5932
+#: src/slic3r/GUI/Plater.cpp:5943
 msgid "Start a new instance of PrusaSlicer"
 msgstr "Eine neue ApiumSlicer-Instanz starten"
 
-#: src/slic3r/GUI/Plater.cpp:5946
+#: src/slic3r/GUI/Plater.cpp:5957
 msgid "Select one to load as project"
 msgstr "Wählen Sie eine zum Laden als Projekt"
 
-#: src/slic3r/GUI/Plater.cpp:5957
+#: src/slic3r/GUI/Plater.cpp:5968
 msgid "Select only one file to load the configuration."
 msgstr "Wählen Sie nur eine Datei aus, um die Konfiguration zu laden."
 
 #. TRN %1% is archive path
-#: src/slic3r/GUI/Plater.cpp:6004
+#: src/slic3r/GUI/Plater.cpp:6015
 #, boost-format
 msgid "Loading of a ZIP archive on path %1% has failed."
 msgstr "Das Laden eines ZIP-Archivs auf dem Pfad %1% ist fehlgeschlagen."
 
 #. TRN: First argument = path to file, second argument = error description
-#: src/slic3r/GUI/Plater.cpp:6064
+#: src/slic3r/GUI/Plater.cpp:6075
 #, boost-format
 msgid "Failed to unzip file to %1%: %2%"
 msgstr "Entpacken der Datei nach %1%: %2% fehlgeschlagen"
 
-#: src/slic3r/GUI/Plater.cpp:6074
+#: src/slic3r/GUI/Plater.cpp:6085
 #, boost-format
 msgid "Failed to find unzipped file at %1%. Unzipping of file has failed."
 msgstr ""
 "Die entpackte Datei bei %1% konnte nicht gefunden werden. Das Entpacken der Datei ist "
 "fehlgeschlagen."
 
-#: src/slic3r/GUI/Plater.cpp:6203 src/slic3r/GUI/Plater.cpp:6401
+#: src/slic3r/GUI/Plater.cpp:6214 src/slic3r/GUI/Plater.cpp:6412
 msgid "Drag and drop G-code file"
 msgstr "G-Code-Datei ziehen und ablegen"
 
-#: src/slic3r/GUI/Plater.cpp:6210
+#: src/slic3r/GUI/Plater.cpp:6221
 msgid "Select an action to apply to the G-code file"
 msgstr "Wählen Sie eine Aktion für die G-Code-Datei aus"
 
-#: src/slic3r/GUI/Plater.cpp:6218
+#: src/slic3r/GUI/Plater.cpp:6229
 msgid "Open in G-code Viewer"
 msgstr "Im G-Code-Viewer öffnen"
 
-#: src/slic3r/GUI/Plater.cpp:6322
+#: src/slic3r/GUI/Plater.cpp:6333
 msgid "Load project file"
 msgstr "Projektdatei laden"
 
-#: src/slic3r/GUI/Plater.cpp:6331
+#: src/slic3r/GUI/Plater.cpp:6342
 msgid "Open as project"
 msgstr "Als Projekt öffnen"
 
-#: src/slic3r/GUI/Plater.cpp:6332
+#: src/slic3r/GUI/Plater.cpp:6343
 msgid "Import 3D models only"
 msgstr "Nur 3D-Modelle importieren"
 
-#: src/slic3r/GUI/Plater.cpp:6333
+#: src/slic3r/GUI/Plater.cpp:6344
 msgid "Import config only"
 msgstr "Nur Konfiguration importieren"
 
-#: src/slic3r/GUI/Plater.cpp:6335
+#: src/slic3r/GUI/Plater.cpp:6346
 msgid "Start new PrusaSlicer instance"
 msgstr "Eine neue ApiumSlicer-Instanz starten"
 
-#: src/slic3r/GUI/Plater.cpp:6338
+#: src/slic3r/GUI/Plater.cpp:6349
 msgid "Select an action to apply to the file"
 msgstr "Wählen Sie eine Aktion, die auf die Datei angewendet werden soll"
 
-#: src/slic3r/GUI/Plater.cpp:6359
+#: src/slic3r/GUI/Plater.cpp:6370
 msgid "Don't show again"
 msgstr "Nicht mehr anzeigen"
 
-#: src/slic3r/GUI/Plater.cpp:6400
+#: src/slic3r/GUI/Plater.cpp:6411
 msgid "You can open only one .gcode file at a time."
 msgstr "Sie können immer nur eine .gcode-Datei gleichzeitig öffnen."
 
-#: src/slic3r/GUI/Plater.cpp:6508
+#: src/slic3r/GUI/Plater.cpp:6519
 #, boost-format
 msgid ""
 "You have several files for loading and \"%1%\" is one of them.\n"
@@ -22154,11 +22170,11 @@ msgstr ""
 "\n"
 "Möchten Sie trotzdem fortfahren?"
 
-#: src/slic3r/GUI/Plater.cpp:6512 src/slic3r/GUI/Plater.cpp:6528
+#: src/slic3r/GUI/Plater.cpp:6523 src/slic3r/GUI/Plater.cpp:6539
 msgid "Drag and drop several files"
 msgstr "Mehrere Dateien per Drag-and-drop ablegen"
 
-#: src/slic3r/GUI/Plater.cpp:6525
+#: src/slic3r/GUI/Plater.cpp:6536
 msgid ""
 "You have several files for loading.\n"
 "Please note that only geometry will be uploaded from all 3MF-based files.\n"
@@ -22170,53 +22186,53 @@ msgstr ""
 "\n"
 "Möchten Sie trotzdem fortfahren?"
 
-#: src/slic3r/GUI/Plater.cpp:6537
+#: src/slic3r/GUI/Plater.cpp:6548
 msgid "Load File"
 msgstr "Datei laden"
 
-#: src/slic3r/GUI/Plater.cpp:6542
+#: src/slic3r/GUI/Plater.cpp:6553
 msgid "Load Files"
 msgstr "Dateien laden"
 
-#: src/slic3r/GUI/Plater.cpp:6637
+#: src/slic3r/GUI/Plater.cpp:6648
 msgid "All objects will be removed, continue?"
 msgstr "Alle Objekte werden entfernt, fortfahren?"
 
-#: src/slic3r/GUI/Plater.cpp:6648
+#: src/slic3r/GUI/Plater.cpp:6659
 msgid "Delete Selected Objects"
 msgstr "Ausgewählte Objekte entfernen"
 
-#: src/slic3r/GUI/Plater.cpp:6657
+#: src/slic3r/GUI/Plater.cpp:6668
 msgid "Increase Instances"
 msgstr "Kopien erhöhen"
 
-#: src/slic3r/GUI/Plater.cpp:6734
+#: src/slic3r/GUI/Plater.cpp:6745
 msgid "Decrease Instances"
 msgstr "Kopien verringern"
 
-#: src/slic3r/GUI/Plater.cpp:6792
+#: src/slic3r/GUI/Plater.cpp:6803
 msgid "Enter the number of copies:"
 msgstr "Geben Sie die Anzahl der Kopien ein:"
 
-#: src/slic3r/GUI/Plater.cpp:6793
+#: src/slic3r/GUI/Plater.cpp:6804
 msgid "Copies of the selected object"
 msgstr "Kopien des ausgewählten Objekts"
 
-#: src/slic3r/GUI/Plater.cpp:6796
+#: src/slic3r/GUI/Plater.cpp:6807
 #, c-format, boost-format
 msgid "Set numbers of copies to %d"
 msgstr "Setze Anzahl der Kopien auf %d"
 
-#: src/slic3r/GUI/Plater.cpp:6820
+#: src/slic3r/GUI/Plater.cpp:6831
 msgid "Fill bed"
 msgstr "Bett auffüllen"
 
-#: src/slic3r/GUI/Plater.cpp:6971
+#: src/slic3r/GUI/Plater.cpp:6982
 msgid "Painted adhesion pads were removed after cutting the object."
 msgstr "Aufgemalte Haft-Pads wurden nach dem Schneiden des Objekts entfernt."
 
 #. TRN The placeholder %1% is the file extension the user has selected.
-#: src/slic3r/GUI/Plater.cpp:6990
+#: src/slic3r/GUI/Plater.cpp:7001
 #, boost-format
 msgid ""
 "Cannot save binary G-code with %1% extension.\n"
@@ -22229,7 +22245,7 @@ msgstr ""
 "a> in den Druckereinstellungen."
 
 #. TRN The placeholder %1% is the file extension the user has selected.
-#: src/slic3r/GUI/Plater.cpp:6996
+#: src/slic3r/GUI/Plater.cpp:7007
 #, boost-format
 msgid ""
 "Cannot save ASCII G-code with %1% extension.\n"
@@ -22241,27 +22257,27 @@ msgstr ""
 "Verwenden Sie eine andere Erweiterung oder aktivieren Sie <a href=%2%>Binär-G-Code-Export</a> in "
 "den Druckereinstellungen."
 
-#: src/slic3r/GUI/Plater.cpp:7057
+#: src/slic3r/GUI/Plater.cpp:7068
 msgid "The provided file name is not valid."
 msgstr "Der angegebene Dateiname ist ungültig."
 
-#: src/slic3r/GUI/Plater.cpp:7058
+#: src/slic3r/GUI/Plater.cpp:7069
 msgid "The following characters are not allowed by a FAT file system:"
 msgstr "Die folgenden Zeichen sind in einem FAT-Dateisystem nicht zulässig:"
 
-#: src/slic3r/GUI/Plater.cpp:7076
+#: src/slic3r/GUI/Plater.cpp:7087
 msgid "Save G-code file as:"
 msgstr "Speichere G-Code Datei als:"
 
-#: src/slic3r/GUI/Plater.cpp:7076
+#: src/slic3r/GUI/Plater.cpp:7087
 msgid "Save SL1 / SL1S file as:"
 msgstr "SL1 / SL1S-Datei speichern unter:"
 
-#: src/slic3r/GUI/Plater.cpp:7100
+#: src/slic3r/GUI/Plater.cpp:7111
 msgid "Choose export directory:"
 msgstr "Exportverzeichnis auswählen:"
 
-#: src/slic3r/GUI/Plater.cpp:7117
+#: src/slic3r/GUI/Plater.cpp:7128
 msgid ""
 "This build runs in Preview mode.\n"
 "\n"
@@ -22271,17 +22287,17 @@ msgstr ""
 "\n"
 "Upgrade auf die Vollversion, um G-Code zu exportieren, zu senden oder hochzuladen."
 
-#: src/slic3r/GUI/Plater.cpp:7277
+#: src/slic3r/GUI/Plater.cpp:7288
 msgid "Export beds"
 msgstr "Druckbetten exportieren"
 
-#: src/slic3r/GUI/Plater.cpp:7350
+#: src/slic3r/GUI/Plater.cpp:7361
 msgid "Unable to perform boolean operation on model meshes. Only positive parts will be exported."
 msgstr ""
 "Boolesche Operationen an Modellnetzen können nicht durchgeführt werden. Es werden nur positive "
 "Teile exportiert."
 
-#: src/slic3r/GUI/Plater.cpp:7558
+#: src/slic3r/GUI/Plater.cpp:7569
 msgid ""
 "Are you sure you want to store original SVGs with their local paths into the 3MF file?\n"
 "If you hit 'NO', all SVGs in the project will not be editable any more."
@@ -22290,11 +22306,11 @@ msgstr ""
 "möchten?\n"
 "Wenn Sie 'NEIN' wählen, können alle SVGs im Projekt nicht mehr bearbeitet werden."
 
-#: src/slic3r/GUI/Plater.cpp:7560
+#: src/slic3r/GUI/Plater.cpp:7571
 msgid "Private protection"
 msgstr "Privater Schutz"
 
-#: src/slic3r/GUI/Plater.cpp:7589
+#: src/slic3r/GUI/Plater.cpp:7600
 msgid ""
 "The plater is empty.\n"
 "Do you want to save the project?"
@@ -22302,35 +22318,35 @@ msgstr ""
 "Die Plattform ist leer.\n"
 "Möchten Sie das Projekt speichern?"
 
-#: src/slic3r/GUI/Plater.cpp:7670 src/slic3r/GUI/Plater.cpp:7674
+#: src/slic3r/GUI/Plater.cpp:7681 src/slic3r/GUI/Plater.cpp:7685
 msgid "Unable to save file"
 msgstr "Kann Datei nicht speichern"
 
-#: src/slic3r/GUI/Plater.cpp:7671
+#: src/slic3r/GUI/Plater.cpp:7682
 msgid "Error saving ApiumSlicer project file"
 msgstr "Fehler beim Speichern der ApiumSlicer-Projektdatei"
 
-#: src/slic3r/GUI/Plater.cpp:7939
+#: src/slic3r/GUI/Plater.cpp:7950
 msgid "Failed to select a printer."
 msgstr "Die Auswahl eines Druckers ist fehlgeschlagen."
 
-#: src/slic3r/GUI/Plater.cpp:7961
+#: src/slic3r/GUI/Plater.cpp:7972
 msgid "Failed to read response from Prusa Connect server. Upload is cancelled."
 msgstr "Antwort vom Prusa Connect Server konnte nicht gelesen werden. Der Upload wird abgebrochen."
 
-#: src/slic3r/GUI/Plater.cpp:8059 src/slic3r/GUI/Sidebar.cpp:1303
+#: src/slic3r/GUI/Plater.cpp:8070 src/slic3r/GUI/Sidebar.cpp:1303
 msgid "Send all to Connect"
 msgstr "Alle an Connect senden"
 
-#: src/slic3r/GUI/Plater.cpp:8233
+#: src/slic3r/GUI/Plater.cpp:8244
 msgid "Is the printer ready? Is the print sheet in place, empty and clean?"
 msgstr "Ist der Drucker bereit? Ist das Druckblech an seinem Platz, leer und sauber?"
 
-#: src/slic3r/GUI/Plater.cpp:8233 src/slic3r/GUI/PrintHostDialogs.cpp:136
+#: src/slic3r/GUI/Plater.cpp:8244 src/slic3r/GUI/PrintHostDialogs.cpp:136
 msgid "Upload and Print"
 msgstr "Hochladen und Drucken"
 
-#: src/slic3r/GUI/Plater.cpp:8342
+#: src/slic3r/GUI/Plater.cpp:8353
 msgid ""
 "Changing the extrusion mode or printer will remove all multi-material painting assignments. "
 "Continue?"
@@ -22338,19 +22354,19 @@ msgstr ""
 "Beim Wechsel des Extrusionsmodus oder Druckers werden alle Multi-Material-Bemalungen entfernt. "
 "Fortfahren?"
 
-#: src/slic3r/GUI/Plater.cpp:8530
+#: src/slic3r/GUI/Plater.cpp:8541
 msgid "Zoneheater mode changed from variable. Existing variable zoneheater power data was kept."
 msgstr ""
 "Der Zonenheizer-Modus wurde von „Variabel“ geändert. Vorhandene variable Zonenheizer-"
 "Leistungsdaten wurden beibehalten."
 
-#: src/slic3r/GUI/Plater.cpp:8531
+#: src/slic3r/GUI/Plater.cpp:8542
 msgid "Zoneheater mode is not active or zoneheater is disabled. Existing zoneheater data was kept."
 msgstr ""
 "Der Zonenheizer-Modus ist nicht aktiv oder der Zonenheizer ist deaktiviert. Vorhandene "
 "Zonenheizer-Daten wurden beibehalten."
 
-#: src/slic3r/GUI/Plater.cpp:8822
+#: src/slic3r/GUI/Plater.cpp:8833
 msgid ""
 "Sequential arrange for a single bed is only allowed when all instances of the affected objects "
 "are on the same bed."
@@ -22358,7 +22374,7 @@ msgstr ""
 "Die sequenzielle Anordnung für ein einzelnes Druckbett ist nur zulässig, wenn sich alle Instanzen "
 "der betroffenen Objekte auf demselben Druckbett befinden."
 
-#: src/slic3r/GUI/Plater.cpp:8863
+#: src/slic3r/GUI/Plater.cpp:8874
 #, c-format, boost-format
 msgid ""
 "Arrangement ignored the following objects which can't fit into a single bed:\n"
@@ -22368,19 +22384,19 @@ msgstr ""
 "ignoriert:\n"
 "%s"
 
-#: src/slic3r/GUI/Plater.cpp:8925
+#: src/slic3r/GUI/Plater.cpp:8936
 msgid "Export"
 msgstr "Export"
 
-#: src/slic3r/GUI/Plater.cpp:8926 src/slic3r/GUI/Sidebar.cpp:1251
+#: src/slic3r/GUI/Plater.cpp:8937 src/slic3r/GUI/Sidebar.cpp:1251
 msgid "Send to printer"
 msgstr "Zum Drucker senden"
 
-#: src/slic3r/GUI/Plater.cpp:9000
+#: src/slic3r/GUI/Plater.cpp:9011
 msgid "Painted adhesion pads were removed because the object's mesh was modified."
 msgstr "Aufgemalte Haft-Pads wurden entfernt, weil das Netz des Objekts verändert wurde."
 
-#: src/slic3r/GUI/Plater.cpp:9123
+#: src/slic3r/GUI/Plater.cpp:9134
 msgid "Paste From Clipboard"
 msgstr "Aus Zwischenablage einfügen"
 
