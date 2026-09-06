@@ -18,6 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: src/libslic3r/Config.cpp:1076
+msgid "Not an ApiumSlicer generated g-code."
+msgstr ""
+
 #. TRN: Following strings are labels in the G-code Viewer legend.
 #: src/libslic3r/ExtrusionRole.cpp:42 src/slic3r/GUI/ConfigSnapshotDialog.cpp:34
 #: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:1178
@@ -185,7 +189,7 @@ msgstr ""
 msgid "Cannot calculate extrusion width for %1%: Variable \"%2%\" not accessible."
 msgstr ""
 
-#: src/libslic3r/Format/3mf.cpp:1078
+#: src/libslic3r/Format/3mf.cpp:1080
 #, boost-format
 msgid ""
 "The 3MF file does not contain a valid mesh.\n"
@@ -193,26 +197,26 @@ msgid ""
 "\"%1%\""
 msgstr ""
 
-#: src/libslic3r/Format/3mf.cpp:2413
+#: src/libslic3r/Format/3mf.cpp:2415
 #, boost-format
 msgid "The selected 3mf file has been saved with a newer version of %1% and is not compatible."
 msgstr ""
 
-#: src/libslic3r/Format/3mf.cpp:2424
-msgid ""
-"The selected 3MF contains FDM supports painted object using a newer version of PrusaSlicer and is "
-"not compatible."
-msgstr ""
-
 #: src/libslic3r/Format/3mf.cpp:2428
 msgid ""
-"The selected 3MF contains seam painted object using a newer version of PrusaSlicer and is not "
-"compatible."
+"The selected 3MF contains FDM supports painted object using a newer version of ApiumSlicer and is "
+"not compatible."
 msgstr ""
 
 #: src/libslic3r/Format/3mf.cpp:2432
 msgid ""
-"The selected 3MF contains multi-material painted object using a newer version of PrusaSlicer and "
+"The selected 3MF contains seam painted object using a newer version of ApiumSlicer and is not "
+"compatible."
+msgstr ""
+
+#: src/libslic3r/Format/3mf.cpp:2436
+msgid ""
+"The selected 3MF contains multi-material painted object using a newer version of ApiumSlicer and "
 "is not compatible."
 msgstr ""
 
@@ -2172,14 +2176,14 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:1940
 msgid ""
 "This end procedure is inserted at the end of the output file. Note that you can use placeholder "
-"variables for all PrusaSlicer settings."
+"variables for all ApiumSlicer settings."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:1950
 msgid ""
 "This end procedure is inserted at the end of the output file, before the printer end gcode (and "
 "before any toolchange from this material in case of multimaterial printers). Note that you can "
-"use placeholder variables for all PrusaSlicer settings. If you have multiple extruders, the gcode "
+"use placeholder variables for all ApiumSlicer settings. If you have multiple extruders, the gcode "
 "is processed in extruder order."
 msgstr ""
 
@@ -3829,7 +3833,7 @@ msgstr ""
 msgid ""
 "Some G/M-code commands, including temperature control and others, are not universal. Set this "
 "option to your printer's firmware to get a compatible output. The \"No extrusion\" flavor "
-"prevents PrusaSlicer from exporting any extrusion value at all."
+"prevents ApiumSlicer from exporting any extrusion value at all."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:3402
@@ -3954,7 +3958,7 @@ msgstr ""
 msgid ""
 "Connect an infill line to an internal perimeter with a short segment of an additional perimeter. "
 "If expressed as percentage (example: 15%) it is calculated over infill extrusion width. "
-"PrusaSlicer tries to connect two close infill lines to a short perimeter segment. If no such "
+"ApiumSlicer tries to connect two close infill lines to a short perimeter segment. If no such "
 "perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a "
 "perimeter segment at just one side and the length of the perimeter segment taken is limited to "
 "this parameter, but no longer than anchor_length_max. Set this parameter to zero to disable "
@@ -3993,7 +3997,7 @@ msgstr ""
 msgid ""
 "Connect an infill line to an internal perimeter with a short segment of an additional perimeter. "
 "If expressed as percentage (example: 15%) it is calculated over infill extrusion width. "
-"PrusaSlicer tries to connect two close infill lines to a short perimeter segment. If no such "
+"ApiumSlicer tries to connect two close infill lines to a short perimeter segment. If no such "
 "perimeter segment shorter than this parameter is found, the infill line is connected to a "
 "perimeter segment at just one side and the length of the perimeter segment taken is limited to "
 "infill_anchor, but no longer than this parameter. Set this parameter to zero to disable anchoring."
@@ -4392,7 +4396,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:3930
 msgid ""
 "Maximum Junction Deviation (M205 J; applies only if JD > 0 on Marlin).\n"
-"When enabled, PrusaSlicer uses it for time estimates and G-code Viewer speeds instead of Jerk."
+"When enabled, ApiumSlicer uses it for time estimates and G-code Viewer speeds instead of Jerk."
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:3939
@@ -5166,7 +5170,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:4679
 msgid ""
-"If enabled, PrusaSlicer detects obstacles along the travel path and makes the slope steeper in "
+"If enabled, ApiumSlicer detects obstacles along the travel path and makes the slope steeper in "
 "case an obstacle might be hit during the initial phase of the travel."
 msgstr ""
 
@@ -5674,17 +5678,17 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:5120
 msgid ""
-"When enabled, PrusaSlicer will check whether your custom Start G-Code contains G-codes to set "
+"When enabled, ApiumSlicer will check whether your custom Start G-Code contains G-codes to set "
 "extruder, bed or chamber temperature (M104, M109, M140, M190, M141 and M191). If so, the "
 "temperatures will not be emitted automatically so you're free to customize the order of heating "
 "commands and other custom actions. Note that you can use placeholder variables for all "
-"PrusaSlicer settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you "
+"ApiumSlicer settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you "
 "want.\n"
-"If your custom Start G-Code does NOT contain these G-codes, PrusaSlicer will execute the Start G-"
+"If your custom Start G-Code does NOT contain these G-codes, ApiumSlicer will execute the Start G-"
 "Code after heated chamber was set to its temperature, bed reached its target temperature and "
 "extruder just started heating.\n"
 "\n"
-"When disabled, PrusaSlicer will NOT emit commands to heat up extruder, bed or chamber, leaving "
+"When disabled, ApiumSlicer will NOT emit commands to heat up extruder, bed or chamber, leaving "
 "all to Custom Start G-Code."
 msgstr ""
 
@@ -5718,10 +5722,10 @@ msgstr ""
 msgid ""
 "This start procedure is inserted at the beginning, after any printer start gcode (and after any "
 "toolchange to this material in case of multi-material printers). This is used to override "
-"settings for a specific material. If PrusaSlicer detects M104, M109, M140 or M190 in your custom "
+"settings for a specific material. If ApiumSlicer detects M104, M109, M140 or M190 in your custom "
 "codes, such commands will not be prepended automatically so you're free to customize the order of "
 "heating commands and other custom actions. Note that you can use placeholder variables for all "
-"PrusaSlicer settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you "
+"ApiumSlicer settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you "
 "want. If you have multiple extruders, the gcode is processed in extruder order."
 msgstr ""
 
@@ -6644,10 +6648,10 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:6045
 msgid ""
-"This custom code is inserted before every toolchange. Placeholder variables for all PrusaSlicer "
+"This custom code is inserted before every toolchange. Placeholder variables for all ApiumSlicer "
 "settings as well as {toolchange_z}, {previous_extruder} and {next_extruder} can be used. When a "
 "tool-changing command which changes to the correct extruder is included (such as "
-"T{next_extruder}), PrusaSlicer will emit no other such command. It is therefore possible to "
+"T{next_extruder}), ApiumSlicer will emit no other such command. It is therefore possible to "
 "script custom behaviour both before and after the toolchange."
 msgstr ""
 
@@ -8437,8 +8441,8 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:9207
 msgid ""
-"This version of PrusaSlicer may not understand configurations produced by the newest PrusaSlicer "
-"versions. For example, newer PrusaSlicer may extend the list of supported firmware flavors. One "
+"This version of ApiumSlicer may not understand configurations produced by the newest ApiumSlicer "
+"versions. For example, newer ApiumSlicer may extend the list of supported firmware flavors. One "
 "may decide to bail out or to substitute an unknown value with a default silently or verbosely."
 msgstr ""
 
@@ -8531,8 +8535,8 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:9266
 msgid ""
-"If enabled, the command line arguments are sent to an existing instance of GUI PrusaSlicer, or an "
-"existing PrusaSlicer window is activated. Overrides the \"single_instance\" configuration value "
+"If enabled, the command line arguments are sent to an existing instance of GUI ApiumSlicer, or an "
+"existing ApiumSlicer window is activated. Overrides the \"single_instance\" configuration value "
 "from application preferences."
 msgstr ""
 
@@ -8571,7 +8575,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:9315
 msgid ""
 "Position of the extruder at the beginning of the custom G-code block. If the custom G-code "
-"travels somewhere else, it should write to this variable so PrusaSlicer knows where it travels "
+"travels somewhere else, it should write to this variable so ApiumSlicer knows where it travels "
 "from when it gets control back."
 msgstr ""
 
@@ -8582,7 +8586,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:9320
 msgid ""
 "Retraction state at the beginning of the custom G-code block. If the custom G-code moves the "
-"extruder axis, it should write to this variable so PrusaSlicer deretracts correctly when it gets "
+"extruder axis, it should write to this variable so ApiumSlicer deretracts correctly when it gets "
 "control back."
 msgstr ""
 
@@ -9611,16 +9615,21 @@ msgstr ""
 msgid "%1%s"
 msgstr ""
 
+#: src/slic3r/Config/Snapshot.cpp:375
+#, boost-format
+msgid "ApiumSlicer was unable to create a directory at %1%."
+msgstr ""
+
 #: src/slic3r/Config/Snapshot.cpp:588
 msgid "Taking a configuration snapshot failed."
 msgstr ""
 
 #: src/slic3r/Config/Snapshot.cpp:602
-msgid "PrusaSlicer has encountered an error while taking a configuration snapshot."
+msgid "ApiumSlicer has encountered an error while taking a configuration snapshot."
 msgstr ""
 
 #: src/slic3r/Config/Snapshot.cpp:603
-msgid "PrusaSlicer error"
+msgid "ApiumSlicer error"
 msgstr ""
 
 #: src/slic3r/Config/Snapshot.cpp:605
@@ -9631,7 +9640,7 @@ msgstr ""
 msgid "Abort"
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:63 src/slic3r/GUI/AboutDialog.cpp:328
+#: src/slic3r/GUI/AboutDialog.cpp:63 src/slic3r/GUI/AboutDialog.cpp:329
 msgid "Portions copyright"
 msgstr ""
 
@@ -9649,32 +9658,34 @@ msgstr ""
 msgid "About %s"
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:263 src/slic3r/GUI/AboutDialog.cpp:394
+#: src/slic3r/GUI/AboutDialog.cpp:263 src/slic3r/GUI/AboutDialog.cpp:395
 #: src/slic3r/GUI/GUI_App.cpp:312 src/slic3r/GUI/Tab.cpp:878 src/slic3r/GUI/Tab.cpp:879
 msgid "Version"
 msgstr ""
 
 #. TRN AboutDialog: "Slic3r %1% GNU Affero General Public License"
-#: src/slic3r/GUI/AboutDialog.cpp:290
+#: src/slic3r/GUI/AboutDialog.cpp:291
 msgid "is licensed under the"
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:291
+#: src/slic3r/GUI/AboutDialog.cpp:292
 msgid "GNU Affero General Public License, version 3"
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:292
-msgid "PrusaSlicer is based on Slic3r by Alessandro Ranellucci and the RepRap community."
+#: src/slic3r/GUI/AboutDialog.cpp:293
+msgid ""
+"ApiumSlicer is based on PrusaSlicer, which was based on Slic3r by Alessandro Ranellucci and the "
+"RepRap community."
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:294
+#: src/slic3r/GUI/AboutDialog.cpp:295
 #, boost-format
 msgid ""
 "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, Petr Ledvina, Joseph "
 "Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik, Heiko Liebscher, %1% and numerous others."
 msgstr ""
 
-#: src/slic3r/GUI/AboutDialog.cpp:334
+#: src/slic3r/GUI/AboutDialog.cpp:335
 msgid "Copy Version Info"
 msgstr ""
 
@@ -9958,12 +9969,12 @@ msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:121
 #, boost-format
-msgid "PrusaSlicer has encountered a fatal error: \"%1%\""
+msgid "ApiumSlicer has encountered a fatal error: \"%1%\""
 msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:122
 msgid ""
-"Please save your project and restart PrusaSlicer. We would be glad if you reported the issue."
+"Please save your project and restart ApiumSlicer. We would be glad if you reported the issue."
 msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:255 src/slic3r/GUI/BackgroundSlicingProcess.cpp:296
@@ -10421,7 +10432,7 @@ msgid "Active"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:64
-msgid "PrusaSlicer version"
+msgid "ApiumSlicer version"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:69
@@ -10437,11 +10448,11 @@ msgid "version"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:80
-msgid "min PrusaSlicer version"
+msgid "min ApiumSlicer version"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:82
-msgid "max PrusaSlicer version"
+msgid "max ApiumSlicer version"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:85
@@ -10625,7 +10636,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1658 src/slic3r/GUI/ConfigWizard.cpp:2350
 #: src/slic3r/GUI/ConfigWizard.cpp:3532 src/slic3r/GUI/ConfigWizard.cpp:3713
-#: src/slic3r/GUI/ConfigWizard.cpp:4419 src/slic3r/GUI/GUI.cpp:245 src/slic3r/GUI/GUI_App.cpp:4247
+#: src/slic3r/GUI/ConfigWizard.cpp:4419 src/slic3r/GUI/GUI.cpp:245 src/slic3r/GUI/GUI_App.cpp:4249
 #: src/slic3r/GUI/GUI_Preview.cpp:996 src/slic3r/GUI/Plater.cpp:5720 src/slic3r/GUI/Plater.cpp:5798
 #: src/slic3r/GUI/UpdateDialogs.cpp:226 src/slic3r/GUI/UpdateDialogs.cpp:234
 #: src/slic3r/GUI/UpdateDialogs.cpp:239 src/slic3r/GUI/UpdateDialogs.cpp:244
@@ -10827,7 +10838,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:2218
 msgid ""
-"PrusaSlicer's user interfaces comes in three variants:\n"
+"ApiumSlicer's user interfaces comes in three variants:\n"
 "Simple, Advanced, and Expert.\n"
 "The Simple mode shows only the most frequently used settings relevant for regular 3D printing. "
 "The other two offer progressively more sophisticated fine-tuning, they are suitable for advanced "
@@ -11154,7 +11165,7 @@ msgstr ""
 
 #. TRN Config wizard page with a log in web. first line of text.
 #: src/slic3r/GUI/ConfigWizardWebViewPage.cpp:44 src/slic3r/GUI/ConfigWizardWebViewPage.cpp:71
-msgid "Log in to control your printers remotely through the built-in Connect in PrusaSlicer."
+msgid "Log in to control your printers remotely through the built-in Connect in ApiumSlicer."
 msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:324
@@ -11172,7 +11183,7 @@ msgstr ""
 
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:523
 msgid ""
-"Performing desktop integration failed - could not create Gcodeviewer desktop file. PrusaSlicer "
+"Performing desktop integration failed - could not create Gcodeviewer desktop file. ApiumSlicer "
 "desktop file was probably created successfully."
 msgstr ""
 
@@ -11191,7 +11202,7 @@ msgid ""
 "Performing downloader desktop integration failed because the application directory was not found."
 msgstr ""
 
-#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2867
+#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2869
 msgid "Desktop Integration"
 msgstr ""
 
@@ -11502,8 +11513,8 @@ msgid "The download has failed"
 msgstr ""
 
 #. TRN %1% = file path
-#: src/slic3r/GUI/DownloaderFileGet.cpp:203 src/slic3r/Utils/AppUpdater.cpp:231
-#: src/slic3r/Utils/AppUpdater.cpp:282
+#: src/slic3r/GUI/DownloaderFileGet.cpp:203 src/slic3r/Utils/AppUpdater.cpp:228
+#: src/slic3r/Utils/AppUpdater.cpp:279
 #, boost-format
 msgid "Can't create file at %1%"
 msgstr ""
@@ -13374,8 +13385,8 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI.cpp:376
 msgid ""
-"Most likely the configuration was produced by a newer version of PrusaSlicer or by some "
-"PrusaSlicer fork."
+"Most likely the configuration was produced by a newer version of ApiumSlicer or by some "
+"ApiumSlicer fork."
 msgstr ""
 
 #: src/slic3r/GUI/GUI.cpp:377
@@ -13428,11 +13439,13 @@ msgid "the following characters are not allowed:"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:316
-msgid "is based on Slic3r by Alessandro Ranellucci and the RepRap community."
+msgid ""
+"is based on PrusaSlicer, which was based on Slic3r by Alessandro Ranellucci and the RepRap "
+"community."
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:317
-msgid "Developed by Prusa Research."
+msgid "Developed by Apium 3D Technologies GmbH."
 msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:318
@@ -13491,7 +13504,7 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI_App.cpp:762
 msgid ""
-"PrusaSlicer has encountered a localization error. Please report to PrusaSlicer team, what "
+"ApiumSlicer has encountered a localization error. Please report to ApiumSlicer team, what "
 "language was active and in which scenario this issue happened. Thank you.\n"
 "\n"
 "The application will now terminate."
@@ -13518,12 +13531,12 @@ msgstr ""
 msgid "Preview mode"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1185
+#: src/slic3r/GUI/GUI_App.cpp:1187
 #, boost-format
 msgid "You are opening %1% version %2%."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1188
+#: src/slic3r/GUI/GUI_App.cpp:1190
 #, boost-format
 msgid ""
 "The active configuration was created by <b>%1% %2%</b>,\n"
@@ -13534,7 +13547,7 @@ msgid ""
 "If so, your active configuration will be backed up before importing the new configuration."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1196
+#: src/slic3r/GUI/GUI_App.cpp:1198
 #, boost-format
 msgid ""
 "An existing configuration was found in <b>%3%</b>\n"
@@ -13543,56 +13556,55 @@ msgid ""
 "Shall this configuration be imported?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1204
+#: src/slic3r/GUI/GUI_App.cpp:1206
 msgid "Import"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1205
+#: src/slic3r/GUI/GUI_App.cpp:1207
 msgid "Don't import"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1213
+#: src/slic3r/GUI/GUI_App.cpp:1215
 msgid "Continue and import newer configuration?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1382
+#: src/slic3r/GUI/GUI_App.cpp:1384
 msgid ""
-"You are running a 32 bit build of PrusaSlicer on 64-bit Windows.\n"
-"32 bit build of PrusaSlicer will likely not be able to utilize all the RAM available in the "
+"You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
+"32 bit build of ApiumSlicer will likely not be able to utilize all the RAM available in the "
 "system.\n"
-"Please download and install a 64 bit build of PrusaSlicer from https://www.prusa3d.cz/"
-"prusaslicer/.\n"
+"Please download and install a 64 bit build of ApiumSlicer.\n"
 "Do you wish to continue?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1468
+#: src/slic3r/GUI/GUI_App.cpp:1470
 #, c-format, boost-format
 msgid ""
 "%s\n"
 "Do you want to continue?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1470 src/slic3r/GUI/GUI_App.cpp:3993
+#: src/slic3r/GUI/GUI_App.cpp:1472 src/slic3r/GUI/GUI_App.cpp:3995
 #: src/slic3r/GUI/LoadStepDialog.cpp:64 src/slic3r/GUI/Plater.cpp:459
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:945
 msgid "Remember my choice"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1516
+#: src/slic3r/GUI/GUI_App.cpp:1518
 msgid "Loading configuration"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1549
+#: src/slic3r/GUI/GUI_App.cpp:1551
 #, boost-format
 msgid "New prerelease version %1% is available."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1550
+#: src/slic3r/GUI/GUI_App.cpp:1552
 msgid "See Releases page."
 msgstr ""
 
 #. TRN Notification text, %1% is list of vendors.
-#: src/slic3r/GUI/GUI_App.cpp:1581
+#: src/slic3r/GUI/GUI_App.cpp:1583
 #, boost-format
 msgid ""
 "Update check failed for the following vendors:\n"
@@ -13602,279 +13614,279 @@ msgid ""
 "internet connection. Then select \"Check for Configuration Updates\" to repeat."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1622
+#: src/slic3r/GUI/GUI_App.cpp:1624
 msgid "Preparing settings tabs"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1714 src/slic3r/GUI/Preferences.cpp:649
+#: src/slic3r/GUI/GUI_App.cpp:1716 src/slic3r/GUI/Preferences.cpp:649
 msgid "Restore window position on start"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1716
-msgid "PrusaSlicer started after a crash"
+#: src/slic3r/GUI/GUI_App.cpp:1718
+msgid "ApiumSlicer started after a crash"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1717
+#: src/slic3r/GUI/GUI_App.cpp:1719
 #, boost-format
 msgid ""
-"PrusaSlicer crashed last time when attempting to set window position.\n"
+"ApiumSlicer crashed last time when attempting to set window position.\n"
 "We are sorry for the inconvenience, it unfortunately happens with certain multiple-monitor "
 "setups.\n"
 "More precise reason for the crash: \"%1%\".\n"
-"For more information see our GitHub issue tracker: \"%2%\" and \"%3%\"\n"
+"For more information see the PrusaSlicer GitHub issue tracker: \"%2%\" and \"%3%\"\n"
 "\n"
 "To avoid this problem, consider disabling \"%4%\" in \"Preferences\". Otherwise, the application "
 "will most likely crash again next time."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1729
+#: src/slic3r/GUI/GUI_App.cpp:1731
 #, boost-format
 msgid "Disable \"%1%\""
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:1730
+#: src/slic3r/GUI/GUI_App.cpp:1732
 #, boost-format
 msgid "Leave \"%1%\" enabled"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2190
+#: src/slic3r/GUI/GUI_App.cpp:2192
 msgid "You have the following presets with saved options for \"Print Host upload\""
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2194
+#: src/slic3r/GUI/GUI_App.cpp:2196
 msgid ""
-"But since this version of PrusaSlicer we don't show this information in Printer Settings "
+"But since this version of ApiumSlicer we don't show this information in Printer Settings "
 "anymore.\n"
 "Settings will be available in physical printers settings."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2196
+#: src/slic3r/GUI/GUI_App.cpp:2198
 msgid ""
 "By default new Printer devices will be named as \"Printer N\" during its creation.\n"
 "Note: This name can be changed later from the physical printers settings"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2200 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
+#: src/slic3r/GUI/GUI_App.cpp:2202 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
 msgid "Information"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2215 src/slic3r/GUI/GUI_App.cpp:2225
+#: src/slic3r/GUI/GUI_App.cpp:2217 src/slic3r/GUI/GUI_App.cpp:2227
 msgid "Recreating"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2229
+#: src/slic3r/GUI/GUI_App.cpp:2231
 msgid "Loading of current presets"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2234
+#: src/slic3r/GUI/GUI_App.cpp:2236
 msgid "Loading of a mode view"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2373
+#: src/slic3r/GUI/GUI_App.cpp:2375
 msgid "Choose one file (ApiumSlicer Project/3MF/AMF):"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2385
+#: src/slic3r/GUI/GUI_App.cpp:2387
 msgid "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2396
+#: src/slic3r/GUI/GUI_App.cpp:2398
 msgid "Choose ZIP file"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2408
+#: src/slic3r/GUI/GUI_App.cpp:2410
 msgid "Choose one file (GCODE/GCO/G/BGCODE/BGC/NGC):"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2419
+#: src/slic3r/GUI/GUI_App.cpp:2421
 msgid "Changing of an application language"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2563
+#: src/slic3r/GUI/GUI_App.cpp:2565
 msgid "Select the language"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2563
+#: src/slic3r/GUI/GUI_App.cpp:2565
 msgid "Language"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2730
+#: src/slic3r/GUI/GUI_App.cpp:2732
 msgid "modified"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2790
+#: src/slic3r/GUI/GUI_App.cpp:2792
 msgid ""
 "Simple mode supports manipulation with single-part object(s)\n"
 "or object(s) with support modifiers only."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2792
+#: src/slic3r/GUI/GUI_App.cpp:2794
 msgid "Please check your object list before mode changing."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2793
+#: src/slic3r/GUI/GUI_App.cpp:2795
 msgid "Change application mode"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2853
+#: src/slic3r/GUI/GUI_App.cpp:2855
 #, c-format, boost-format
 msgid "Run %s"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2857
+#: src/slic3r/GUI/GUI_App.cpp:2859
 msgid "&Configuration Snapshots"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2857
+#: src/slic3r/GUI/GUI_App.cpp:2859
 msgid "Inspect / activate configuration snapshots"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2858
+#: src/slic3r/GUI/GUI_App.cpp:2860
 msgid "Take Configuration &Snapshot"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2858
+#: src/slic3r/GUI/GUI_App.cpp:2860
 msgid "Capture a configuration snapshot"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2861
+#: src/slic3r/GUI/GUI_App.cpp:2863
 msgid "Check for Configuration Updates"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2861
+#: src/slic3r/GUI/GUI_App.cpp:2863
 msgid "Check for configuration updates"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2862
+#: src/slic3r/GUI/GUI_App.cpp:2864
 msgid "Check for Application Updates"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2862
+#: src/slic3r/GUI/GUI_App.cpp:2864
 msgid "Check for new version of application"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2872 src/slic3r/GUI/GUI_App.cpp:2874
+#: src/slic3r/GUI/GUI_App.cpp:2874 src/slic3r/GUI/GUI_App.cpp:2876
 msgid "&Preferences"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2872 src/slic3r/GUI/GUI_App.cpp:2874
+#: src/slic3r/GUI/GUI_App.cpp:2874 src/slic3r/GUI/GUI_App.cpp:2876
 msgid "Application preferences"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2886
+#: src/slic3r/GUI/GUI_App.cpp:2888
 msgid "&Language"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2891
+#: src/slic3r/GUI/GUI_App.cpp:2893
 msgid "Flash Printer &Firmware"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2891
+#: src/slic3r/GUI/GUI_App.cpp:2893
 msgid "Upload a firmware image into an Arduino based printer"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2895
+#: src/slic3r/GUI/GUI_App.cpp:2897
 msgid "Wi-Fi Configuration File"
 msgstr ""
 
 #. TRN Wifi config dialog explanation line 1.
-#: src/slic3r/GUI/GUI_App.cpp:2895 src/slic3r/GUI/WifiConfigDialog.cpp:51
+#: src/slic3r/GUI/GUI_App.cpp:2897 src/slic3r/GUI/WifiConfigDialog.cpp:51
 msgid "Generate a file to be loaded by a Prusa printer to configure its Wi-Fi connection."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2916
+#: src/slic3r/GUI/GUI_App.cpp:2918
 msgid "Taking a configuration snapshot"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2917
+#: src/slic3r/GUI/GUI_App.cpp:2919
 msgid ""
 "Some presets are modified and the unsaved changes will not be captured by the configuration "
 "snapshot."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2918
+#: src/slic3r/GUI/GUI_App.cpp:2920
 msgid "Snapshot name"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2934
+#: src/slic3r/GUI/GUI_App.cpp:2936
 msgid "Loading a configuration snapshot"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2943
+#: src/slic3r/GUI/GUI_App.cpp:2945
 #, boost-format
 msgid "Continue to activate a configuration snapshot %1%?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2957
+#: src/slic3r/GUI/GUI_App.cpp:2959
 msgid "Failed to activate configuration snapshot."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2979
+#: src/slic3r/GUI/GUI_App.cpp:2981
 msgid "Language selection"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2982
+#: src/slic3r/GUI/GUI_App.cpp:2984
 msgid ""
 "Switching the language will trigger application restart.\n"
 "You will lose content of the plater."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:2984 src/slic3r/GUI/Preferences.cpp:1151
+#: src/slic3r/GUI/GUI_App.cpp:2986 src/slic3r/GUI/Preferences.cpp:1151
 #: src/slic3r/GUI/Selection.cpp:1506
 msgid "Do you want to proceed?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3023
+#: src/slic3r/GUI/GUI_App.cpp:3025
 msgid "Restart application"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3189
+#: src/slic3r/GUI/GUI_App.cpp:3191
 msgid "For new project all modifications will be reseted"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3227
+#: src/slic3r/GUI/GUI_App.cpp:3229
 msgid "Loading a new project while the current project is modified."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3230
+#: src/slic3r/GUI/GUI_App.cpp:3232
 msgid "Project is loading"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3230
+#: src/slic3r/GUI/GUI_App.cpp:3232
 msgid "Opening new project while some presets are unsaved."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3249
+#: src/slic3r/GUI/GUI_App.cpp:3251
 msgid "The uploads are still ongoing"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3249
+#: src/slic3r/GUI/GUI_App.cpp:3251
 msgid "Stop them and continue anyway?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3253
+#: src/slic3r/GUI/GUI_App.cpp:3255
 msgid "Ongoing uploads"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3578
+#: src/slic3r/GUI/GUI_App.cpp:3580
 msgid "It's impossible to print object(s) which contains parameter modifiers with SLA technology."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3579 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
+#: src/slic3r/GUI/GUI_App.cpp:3581 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
 msgid "Please check your object list before preset changing."
 msgstr ""
 
 #. TRN: Progress dialog title
-#: src/slic3r/GUI/GUI_App.cpp:3594 src/slic3r/GUI/UpdateDialogs.cpp:292
+#: src/slic3r/GUI/GUI_App.cpp:3596 src/slic3r/GUI/UpdateDialogs.cpp:292
 msgid "Opening Configuration Wizard"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3682
+#: src/slic3r/GUI/GUI_App.cpp:3684
 #, boost-format
 msgid "Welcome to %1% version %2%."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3684
+#: src/slic3r/GUI/GUI_App.cpp:3686
 #, boost-format
 msgid ""
 "Do you wish to register downloads from <b>Printables.com</b>\n"
@@ -13883,22 +13895,22 @@ msgid ""
 "Downloads can be registered for only 1 executable at time."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3712
+#: src/slic3r/GUI/GUI_App.cpp:3714
 msgid "Select a gcode file:"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3900
+#: src/slic3r/GUI/GUI_App.cpp:3902
 msgid ""
 "The bundled vendor profiles were refreshed.\n"
 "\n"
 "Do you want to open the Configuration Wizard now to select and install new manufacturer profiles?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3901
+#: src/slic3r/GUI/GUI_App.cpp:3903
 msgid "Install new profiles"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3945
+#: src/slic3r/GUI/GUI_App.cpp:3947
 #, boost-format
 msgid ""
 "An ApiumSlicer update was detected from version %1% to %2%.\n"
@@ -13906,129 +13918,129 @@ msgid ""
 "Do you want to refresh the bundled vendor profiles from this application package now?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3947
+#: src/slic3r/GUI/GUI_App.cpp:3949
 msgid "Update detected"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3992 src/slic3r/GUI/GUI_App.cpp:4012
+#: src/slic3r/GUI/GUI_App.cpp:3994 src/slic3r/GUI/GUI_App.cpp:4014
 msgid "Open hyperlink in default browser?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3992 src/slic3r/GUI/GUI_App.cpp:4012
-msgid "PrusaSlicer: Open hyperlink"
+#: src/slic3r/GUI/GUI_App.cpp:3994 src/slic3r/GUI/GUI_App.cpp:4014
+msgid "ApiumSlicer: Open hyperlink"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3997 src/slic3r/GUI/Preferences.cpp:955
+#: src/slic3r/GUI/GUI_App.cpp:3999 src/slic3r/GUI/Preferences.cpp:955
 msgid "Suppress to open hyperlink in browser"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:3999 src/slic3r/GUI/MainFrame.cpp:997 src/slic3r/GUI/Plater.cpp:465
-msgid "PrusaSlicer will remember your choice."
+#: src/slic3r/GUI/GUI_App.cpp:4001 src/slic3r/GUI/MainFrame.cpp:997 src/slic3r/GUI/Plater.cpp:465
+msgid "ApiumSlicer will remember your choice."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4000
+#: src/slic3r/GUI/GUI_App.cpp:4002
 msgid "You will not be asked about it again on hyperlinks hovering."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4001 src/slic3r/GUI/MainFrame.cpp:998 src/slic3r/GUI/Plater.cpp:469
+#: src/slic3r/GUI/GUI_App.cpp:4003 src/slic3r/GUI/MainFrame.cpp:998 src/slic3r/GUI/Plater.cpp:469
 #, boost-format
 msgid ""
 "Visit \"Preferences\" and check \"%1%\"\n"
 "to changes your choice."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4003 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:471
+#: src/slic3r/GUI/GUI_App.cpp:4005 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:471
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:962
-msgid "PrusaSlicer: Don't ask me again"
+msgid "ApiumSlicer: Don't ask me again"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4054
+#: src/slic3r/GUI/GUI_App.cpp:4056
 msgid ""
 "Open default browser with Prusa Account Log in page?\n"
 "(If you select 'Yes', you will not be asked again.)"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4054
-msgid "PrusaSlicer: Open Log in page"
+#: src/slic3r/GUI/GUI_App.cpp:4056
+msgid "ApiumSlicer: Open Log in page"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4168
+#: src/slic3r/GUI/GUI_App.cpp:4170
 msgid "Check for application update has failed."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4169
+#: src/slic3r/GUI/GUI_App.cpp:4171
 #, boost-format
 msgid "You are currently running the latest released version %1%."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4172
+#: src/slic3r/GUI/GUI_App.cpp:4174
 #, boost-format
 msgid "There are no new released versions online. The latest release version is %1%."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4237 src/slic3r/GUI/WebViewPanel.cpp:2148
+#: src/slic3r/GUI/GUI_App.cpp:4239 src/slic3r/GUI/WebViewPanel.cpp:2148
 #, boost-format
 msgid "Downloading %1%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4247
+#: src/slic3r/GUI/GUI_App.cpp:4249
 msgid "Downloading of the new version is in progress. Do you want to continue?"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4277 src/slic3r/GUI/GUI_App.cpp:4632 src/slic3r/GUI/GUI_App.cpp:4647
+#: src/slic3r/GUI/GUI_App.cpp:4279 src/slic3r/GUI/GUI_App.cpp:4634 src/slic3r/GUI/GUI_App.cpp:4649
 msgid ""
 "Could not start URL download. Destination folder is not set. Please choose destination folder in "
 "Configuration Wizard."
 msgstr ""
 
 #. TRN Text of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4299 src/slic3r/GUI/Plater.cpp:1100
+#: src/slic3r/GUI/GUI_App.cpp:4301 src/slic3r/GUI/Plater.cpp:1100
 msgid "Printer configuration file detected on removable media."
 msgstr ""
 
 #. TRN Text of hypertext of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4301 src/slic3r/GUI/Plater.cpp:1102
+#: src/slic3r/GUI/GUI_App.cpp:4303 src/slic3r/GUI/Plater.cpp:1102
 msgid "Write Wi-Fi credentials."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4455
+#: src/slic3r/GUI/GUI_App.cpp:4457
 #, boost-format
 msgid ""
 "Installed and selected printer:\n"
 "%1%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4456
+#: src/slic3r/GUI/GUI_App.cpp:4458
 #, boost-format
 msgid ""
 "Selected printer:\n"
 "%1%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4457
+#: src/slic3r/GUI/GUI_App.cpp:4459
 #, boost-format
 msgid ""
 "Printer not found:\n"
 "%1%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4512 src/slic3r/GUI/GUI_App.cpp:4530
+#: src/slic3r/GUI/GUI_App.cpp:4514 src/slic3r/GUI/GUI_App.cpp:4532
 #, boost-format
 msgid "%1%: Selected filament %2%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4546
+#: src/slic3r/GUI/GUI_App.cpp:4548
 #, boost-format
 msgid "%1%: Installed and selected filament %2%"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_App.cpp:4550
+#: src/slic3r/GUI/GUI_App.cpp:4552
 #, boost-format
 msgid "%2%: Failed to find and select filament type: %1%"
 msgstr ""
 
 #. TRN: Notification text.
-#: src/slic3r/GUI/GUI_App.cpp:4569
+#: src/slic3r/GUI/GUI_App.cpp:4571
 msgid "Failed to select filament from Connect."
 msgstr ""
 
@@ -14449,7 +14461,7 @@ msgid "Fill the remaining area of bed with instances of the selected object"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Init.cpp:79 src/slic3r/GUI/GUI_Init.cpp:82
-msgid "PrusaSlicer GUI initialization failed"
+msgid "ApiumSlicer GUI initialization failed"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Init.cpp:82
@@ -14755,7 +14767,7 @@ msgstr ""
 #: src/slic3r/GUI/GUI_ObjectList.cpp:2512
 msgid ""
 "This action will break a cut information.\n"
-"After that PrusaSlicer can't guarantee model consistency."
+"After that ApiumSlicer can't guarantee model consistency."
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectList.cpp:2514
@@ -15677,6 +15689,14 @@ msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:3238
 msgid "Connector"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:3310
+#, boost-format
+msgid ""
+"Objects(%1%) have duplicated connectors. Some connectors may be missing in slicing result.\n"
+"Please report to ApiumSlicer team in which scenario this issue happened.\n"
+"Thank you."
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:3317
@@ -18167,7 +18187,7 @@ msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:330 src/slic3r/GUI/MainFrame.cpp:344
 #: src/slic3r/GUI/MainFrame.cpp:3484
-msgid "Open a new PrusaSlicer instance"
+msgid "Open a new ApiumSlicer instance"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:333 src/slic3r/GUI/MainFrame.cpp:346
@@ -18179,7 +18199,7 @@ msgid "Open G-code viewer"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:344 src/slic3r/GUI/MainFrame.cpp:3628
-msgid "Open PrusaSlicer"
+msgid "Open ApiumSlicer"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:346
@@ -18187,24 +18207,20 @@ msgid "Open new G-code viewer"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:510
-msgid "Closing PrusaSlicer. Current project is modified."
+msgid "Closing ApiumSlicer. Current project is modified."
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:517
-msgid "PrusaSlicer is closing"
+msgid "ApiumSlicer is closing"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:517
-msgid "Closing PrusaSlicer while some presets are modified."
+msgid "Closing ApiumSlicer while some presets are modified."
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:911 src/slic3r/GUI/Plater.cpp:451 src/slic3r/GUI/Plater.cpp:2177
 #: src/slic3r/GUI/Sidebar.cpp:580
 msgid "Untitled"
-msgstr ""
-
-#: src/slic3r/GUI/MainFrame.cpp:940
-msgid "based on Slic3r"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:947
@@ -18968,7 +18984,7 @@ msgid "&Open G-code"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:3628
-msgid "Open &PrusaSlicer"
+msgid "Open &ApiumSlicer"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:3642
@@ -19336,7 +19352,7 @@ msgstr ""
 #. TRN: The text is followed by a hyperlink saying "here." It is necessary to split it in two phrases, sorry.
 #: src/slic3r/GUI/NotificationManager.hpp:979
 msgid ""
-"PrusaSlicer received a download request from Printables.com, but it's not allowed. You can allow "
+"ApiumSlicer received a download request from Printables.com, but it's not allowed. You can allow "
 "it"
 msgstr ""
 
@@ -19377,14 +19393,14 @@ msgstr ""
 #: src/slic3r/GUI/OpenGLManager.cpp:383
 #, c-format, boost-format
 msgid ""
-"PrusaSlicer requires OpenGL ES 3.0 capable graphics driver to run correctly, \n"
+"ApiumSlicer requires OpenGL ES 3.0 capable graphics driver to run correctly, \n"
 "while OpenGL version %s, renderer %s, vendor %s was detected."
 msgstr ""
 
 #: src/slic3r/GUI/OpenGLManager.cpp:386
 #, c-format, boost-format
 msgid ""
-"PrusaSlicer requires OpenGL 3.2 capable graphics driver to run correctly,\n"
+"ApiumSlicer requires OpenGL 3.2 capable graphics driver to run correctly,\n"
 "while OpenGL version %s, renderer %s, vendor %s was detected."
 msgstr ""
 
@@ -19394,7 +19410,7 @@ msgstr ""
 
 #: src/slic3r/GUI/OpenGLManager.cpp:393
 msgid ""
-"As a workaround, you may run PrusaSlicer with a software rendered 3D graphics by running prusa-"
+"As a workaround, you may run ApiumSlicer with a software rendered 3D graphics by running apium-"
 "slicer.exe with the --sw-renderer parameter."
 msgstr ""
 
@@ -19575,7 +19591,7 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp:466
 msgid ""
 "You will not be asked about it again, when: \n"
-"- Closing PrusaSlicer,\n"
+"- Closing ApiumSlicer,\n"
 "- Loading or creating a new project"
 msgstr ""
 
@@ -19621,8 +19637,8 @@ msgid "Expand sidebar"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:1507
-msgid "The preset below was temporarily installed on the active instance of PrusaSlicer"
-msgid_plural "The presets below were temporarily installed on the active instance of PrusaSlicer"
+msgid "The preset below was temporarily installed on the active instance of ApiumSlicer"
+msgid_plural "The presets below were temporarily installed on the active instance of ApiumSlicer"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -19655,7 +19671,7 @@ msgid ""
 "\n"
 "File: </b>%1%\n"
 "\n"
-"This project was created in a newer version of PrusaSlicer. Only the geometry was loaded.\n"
+"This project was created in a newer version of ApiumSlicer. Only the geometry was loaded.\n"
 "Update to the latest version for full compatibility.\n"
 "For more info: <a href=%2%>%2%</a>"
 msgstr ""
@@ -19685,11 +19701,11 @@ msgstr ""
 #, c-format, boost-format
 msgid ""
 "The dimensions of the object from file %s seem to be defined in meters.\n"
-"The internal unit of PrusaSlicer is a millimeter. Do you want to recalculate the dimensions of "
+"The internal unit of ApiumSlicer is a millimeter. Do you want to recalculate the dimensions of "
 "the object?"
 msgid_plural ""
 "The dimensions of some objects from file %s seem to be defined in meters.\n"
-"The internal unit of PrusaSlicer is a millimeter. Do you want to recalculate the dimensions of "
+"The internal unit of ApiumSlicer is a millimeter. Do you want to recalculate the dimensions of "
 "these objects?"
 msgstr[0] ""
 msgstr[1] ""
@@ -19706,11 +19722,11 @@ msgstr ""
 #, c-format, boost-format
 msgid ""
 "The dimensions of the object from file %s seem to be defined in inches.\n"
-"The internal unit of PrusaSlicer is a millimeter. Do you want to recalculate the dimensions of "
+"The internal unit of ApiumSlicer is a millimeter. Do you want to recalculate the dimensions of "
 "the object?"
 msgid_plural ""
 "The dimensions of some objects from file %s seem to be defined in inches.\n"
-"The internal unit of PrusaSlicer is a millimeter. Do you want to recalculate the dimensions of "
+"The internal unit of ApiumSlicer is a millimeter. Do you want to recalculate the dimensions of "
 "these objects?"
 msgstr[0] ""
 msgstr[1] ""
@@ -19806,7 +19822,7 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp:2387
 msgid ""
 "This action will break a cut information.\n"
-"After that PrusaSlicer can't guarantee model consistency"
+"After that ApiumSlicer can't guarantee model consistency"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:2390
@@ -20140,7 +20156,7 @@ msgid "Import 3D models"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:5943
-msgid "Start a new instance of PrusaSlicer"
+msgid "Start a new instance of ApiumSlicer"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:5957
@@ -20197,7 +20213,7 @@ msgid "Import config only"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:6346
-msgid "Start new PrusaSlicer instance"
+msgid "Start new ApiumSlicer instance"
 msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:6349
@@ -20537,7 +20553,7 @@ msgid ""
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:561 src/slic3r/GUI/Preferences.cpp:567
-msgid "Allow just a single PrusaSlicer instance"
+msgid "Allow just a single ApiumSlicer instance"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:562
@@ -20549,14 +20565,14 @@ msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:568
 msgid ""
-"If this is enabled, when starting PrusaSlicer and another instance of the same PrusaSlicer is "
+"If this is enabled, when starting ApiumSlicer and another instance of the same ApiumSlicer is "
 "already running, that instance will be reactivated instead."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:579
 msgid ""
 "Always ask for unsaved changes in project, when: \n"
-"- Closing PrusaSlicer,\n"
+"- Closing ApiumSlicer,\n"
 "- Loading or creating a new project"
 msgstr ""
 
@@ -20568,7 +20584,7 @@ msgstr ""
 #: src/slic3r/GUI/Preferences.cpp:591
 msgid ""
 "Always ask for unsaved changes in presets, when: \n"
-"- Closing PrusaSlicer while some presets are modified,\n"
+"- Closing ApiumSlicer while some presets are modified,\n"
 "- Loading a new project while some presets are modified"
 msgstr ""
 
@@ -20589,19 +20605,19 @@ msgid "Always ask for unsaved changes in presets when creating new project"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:616
-msgid "Associate .gcode files to PrusaSlicer G-code Viewer"
+msgid "Associate .gcode files to ApiumSlicer G-code Viewer"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:617
-msgid "If enabled, sets PrusaSlicer G-code Viewer as default application to open .gcode files."
+msgid "If enabled, sets ApiumSlicer G-code Viewer as default application to open .gcode files."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:623
-msgid "Associate .bgcode files to PrusaSlicer G-code Viewer"
+msgid "Associate .bgcode files to ApiumSlicer G-code Viewer"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:624
-msgid "If enabled, sets PrusaSlicer G-code Viewer as default application to open .bgcode files."
+msgid "If enabled, sets ApiumSlicer G-code Viewer as default application to open .bgcode files."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:633
@@ -20619,7 +20635,7 @@ msgid "Show splash screen"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:650
-msgid "If enabled, PrusaSlicer will be open at the position it was closed"
+msgid "If enabled, ApiumSlicer will be open at the position it was closed"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:657
@@ -20856,7 +20872,7 @@ msgid "Use the experimental reduced-quality renderer while moving the camera in 
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:956
-msgid "If enabled, PrusaSlicer will not open a hyperlinks in your browser."
+msgid "If enabled, ApiumSlicer will not open a hyperlinks in your browser."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:965
@@ -20902,7 +20918,7 @@ msgid "Show \"Log in\" button in application top bar"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:1001
-msgid "If enabled, PrusaSlicer will show up \"Log in\" button in application top bar."
+msgid "If enabled, ApiumSlicer will show up \"Log in\" button in application top bar."
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:1007
@@ -20910,7 +20926,7 @@ msgid "Allow downloads from Printables.com"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:1008
-msgid "If enabled, PrusaSlicer will be allowed to download from Printables.com"
+msgid "If enabled, ApiumSlicer will be allowed to download from Printables.com"
 msgstr ""
 
 #: src/slic3r/GUI/Preferences.cpp:1020
@@ -21623,7 +21639,7 @@ msgid ""
 "We do not send any personal information nor anything that would allow us to identify you later. "
 "To detect duplicate entries, a unique number derived from your system is sent, but the source "
 "information cannot be reconstructed. Apart from that, only general data about your OS, hardware "
-"and OpenGL installation are sent. PrusaSlicer is open source, if you want to inspect the code "
+"and OpenGL installation are sent. ApiumSlicer is open source, if you want to inspect the code "
 "actually performing the communication, see %1%."
 msgstr ""
 
@@ -22208,7 +22224,7 @@ msgid "System Information"
 msgstr ""
 
 #: src/slic3r/GUI/SysInfoDialog.cpp:168
-msgid "Blacklisted libraries loaded into PrusaSlicer process:"
+msgid "Blacklisted libraries loaded into ApiumSlicer process:"
 msgstr ""
 
 #: src/slic3r/GUI/SysInfoDialog.cpp:180
@@ -22713,7 +22729,7 @@ msgid ""
 "A new Physical Printer profile is created by clicking on the \"cog\" icon right of the Printer "
 "profiles combo box, by selecting the \"Add physical printer\" item in the Printer combo box. The "
 "Physical Printer profile editor opens also when clicking on the \"cog\" icon in the Printer "
-"settings tab. The Physical Printer profiles are being stored into PrusaSlicer/physical_printer "
+"settings tab. The Physical Printer profiles are being stored into ApiumSlicer/physical_printer "
 "directory."
 msgstr ""
 
@@ -23369,12 +23385,12 @@ msgstr ""
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:956
 msgid ""
 "You will not be asked about the unsaved changes in presets the next time you: \n"
-"- Closing PrusaSlicer while some presets are modified,\n"
+"- Closing ApiumSlicer while some presets are modified,\n"
 "- Loading a new project while some presets are modified"
 msgstr ""
 
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:959
-msgid "PrusaSlicer will remember your action."
+msgid "ApiumSlicer will remember your action."
 msgstr ""
 
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:960
@@ -23554,7 +23570,7 @@ msgstr ""
 
 #: src/slic3r/GUI/UpdateDialogs.cpp:132
 msgid ""
-"Clicking 'Next' will open a browser window where you can select which variant of PrusaSlicer you "
+"Clicking 'Next' will open a browser window where you can select which variant of ApiumSlicer you "
 "want to download."
 msgstr ""
 
@@ -23615,7 +23631,7 @@ msgstr ""
 
 #: src/slic3r/GUI/UpdateDialogs.cpp:293
 msgid ""
-"PrusaSlicer is not using the newest configuration available.\n"
+"ApiumSlicer is not using the newest configuration available.\n"
 "Configuration Wizard may not offer the latest printers, filaments and SLA materials to be "
 "installed."
 msgstr ""
@@ -24334,33 +24350,33 @@ msgid ""
 "%2%"
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:213
+#: src/slic3r/Utils/AppUpdater.cpp:210
 #, boost-format
 msgid "Internal download error for url %1%:"
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:214
+#: src/slic3r/Utils/AppUpdater.cpp:211
 msgid "Destination path is empty."
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:230
+#: src/slic3r/Utils/AppUpdater.cpp:227
 #, boost-format
 msgid "Download from %1% couldn't start:"
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:278
+#: src/slic3r/Utils/AppUpdater.cpp:275
 #, boost-format
 msgid "Downloaded file has wrong size. Expected size: %1% Downloaded size: %2%"
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:293
+#: src/slic3r/Utils/AppUpdater.cpp:290
 #, boost-format
 msgid ""
 "Failed to write to file or to move %1% to %2%:\n"
 "%3%"
 msgstr ""
 
-#: src/slic3r/Utils/AppUpdater.cpp:312
+#: src/slic3r/Utils/AppUpdater.cpp:309
 #, boost-format
 msgid ""
 "Downloading new %1% has failed:\n"
