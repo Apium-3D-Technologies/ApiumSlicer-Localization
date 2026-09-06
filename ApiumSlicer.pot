@@ -24448,27 +24448,29 @@ msgstr ""
 msgid "Note: FlashAir with firmware 2.00.02 or newer and activated upload function is required."
 msgstr ""
 
-#: src/slic3r/Utils/Http.cpp:82
-msgid ""
-"Could not detect system SSL certificate store. PrusaSlicer will be unable to establish secure "
-"network connections."
-msgstr ""
-
-#: src/slic3r/Utils/Http.cpp:87
+#: src/slic3r/Utils/Http.cpp:88
 #, boost-format
-msgid "PrusaSlicer detected system SSL certificate store in: %1%"
+msgid ""
+"Could not detect system SSL certificate store. %1% will be unable to establish secure network "
+"connections."
 msgstr ""
 
-#: src/slic3r/Utils/Http.cpp:91
+#: src/slic3r/Utils/Http.cpp:93
+#, boost-format
+msgid "%1% detected system SSL certificate store in: %2%"
+msgstr ""
+
+#: src/slic3r/Utils/Http.cpp:97
 #, boost-format
 msgid ""
 "To specify the system certificate store manually, please set the %1% environment variable to the "
 "correct CA bundle and restart the application."
 msgstr ""
 
-#: src/slic3r/Utils/Http.cpp:100
+#: src/slic3r/Utils/Http.cpp:107
+#, boost-format
 msgid ""
-"CURL init has failed. PrusaSlicer will be unable to establish network connections. See logs for "
+"CURL init has failed. %1% will be unable to establish network connections. See logs for "
 "additional details."
 msgstr ""
 

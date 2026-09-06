@@ -25347,29 +25347,31 @@ msgstr "无法连接到 FlashAir"
 msgid "Note: FlashAir with firmware 2.00.02 or newer and activated upload function is required."
 msgstr "注：需要固件为 2.00.02 或更新版本的 FlashAir，并激活上传功能。"
 
-#: src/slic3r/Utils/Http.cpp:82
-msgid ""
-"Could not detect system SSL certificate store. PrusaSlicer will be unable to establish secure "
-"network connections."
-msgstr "无法检测系统 SSL 证书库。PrusaSlicer 将无法建立安全的网络连接。"
-
-#: src/slic3r/Utils/Http.cpp:87
+#: src/slic3r/Utils/Http.cpp:88
 #, boost-format
-msgid "PrusaSlicer detected system SSL certificate store in: %1%"
-msgstr "PrusaSlicer 在以下位置检测到系统 SSL 证书库：%1%"
+msgid ""
+"Could not detect system SSL certificate store. %1% will be unable to establish secure network "
+"connections."
+msgstr "无法检测系统 SSL 证书库。%1% 将无法建立安全的网络连接。"
 
-#: src/slic3r/Utils/Http.cpp:91
+#: src/slic3r/Utils/Http.cpp:93
+#, boost-format
+msgid "%1% detected system SSL certificate store in: %2%"
+msgstr "%1% 在以下位置检测到系统 SSL 证书库：%2%"
+
+#: src/slic3r/Utils/Http.cpp:97
 #, boost-format
 msgid ""
 "To specify the system certificate store manually, please set the %1% environment variable to the "
 "correct CA bundle and restart the application."
 msgstr "要手动指定系统证书存储，请将 %1% 环境变量设置为正确的 CA 绑定，然后重新启动应用程序。"
 
-#: src/slic3r/Utils/Http.cpp:100
+#: src/slic3r/Utils/Http.cpp:107
+#, boost-format
 msgid ""
-"CURL init has failed. PrusaSlicer will be unable to establish network connections. See logs for "
+"CURL init has failed. %1% will be unable to establish network connections. See logs for "
 "additional details."
-msgstr "CURL 初始化失败。PrusaSlicer 将无法建立网络连接。更多详细信息请参阅日志。"
+msgstr "CURL 初始化失败。%1% 将无法建立网络连接。更多详细信息请参阅日志。"
 
 #: src/slic3r/Utils/MKS.cpp:61
 msgid "Connection to MKS works correctly."
