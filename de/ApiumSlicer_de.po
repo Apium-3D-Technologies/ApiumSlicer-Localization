@@ -238,108 +238,99 @@ msgstr "SL1-Archiv"
 msgid "SL1 SVG archive"
 msgstr "SL1-SVG-Archiv"
 
-#: src/libslic3r/GCode.cpp:516
-msgid "There is an object with no extrusions in the first layer."
-msgstr "In der ersten Schicht gibt es ein Objekt ohne Extrusionen."
-
-#: src/libslic3r/GCode.cpp:517 src/libslic3r/SlicingNotification.cpp:279
-#: src/libslic3r/SlicingNotification.cpp:289 src/slic3r/GUI/GUI_ObjectManipulation.cpp:186
-msgid "Object name"
-msgstr "Objektname"
-
-#: src/libslic3r/GCode.cpp:674 src/libslic3r/GCode.cpp:3686 src/libslic3r/PrintConfig.cpp:5152
-#: src/libslic3r/PrintConfig.cpp:5171 src/libslic3r/SlicingNotification.cpp:224
+#: src/libslic3r/GCode.cpp:672 src/libslic3r/GCode.cpp:3684 src/libslic3r/PrintConfig.cpp:5152
+#: src/libslic3r/PrintConfig.cpp:5171 src/libslic3r/SlicingNotification.cpp:233
 #: src/slic3r/GUI/Tab.cpp:5069 src/slic3r/GUI/Tab.cpp:5863
 msgid "Start G-code"
 msgstr "Start G-Code"
 
-#: src/libslic3r/GCode.cpp:675 src/libslic3r/GCode.cpp:3932 src/libslic3r/PrintConfig.cpp:1939
-#: src/libslic3r/PrintConfig.cpp:1949 src/libslic3r/SlicingNotification.cpp:225
+#: src/libslic3r/GCode.cpp:673 src/libslic3r/GCode.cpp:3930 src/libslic3r/PrintConfig.cpp:1939
+#: src/libslic3r/PrintConfig.cpp:1949 src/libslic3r/SlicingNotification.cpp:234
 #: src/slic3r/GUI/Tab.cpp:5080 src/slic3r/GUI/Tab.cpp:5878
 msgid "End G-code"
 msgstr "Ende G-Code"
 
-#: src/libslic3r/GCode.cpp:676 src/libslic3r/GCode.cpp:5941 src/libslic3r/PrintConfig.cpp:1349
-#: src/libslic3r/SlicingNotification.cpp:226 src/slic3r/GUI/Tab.cpp:5890
+#: src/libslic3r/GCode.cpp:674 src/libslic3r/GCode.cpp:5939 src/libslic3r/PrintConfig.cpp:1349
+#: src/libslic3r/SlicingNotification.cpp:235 src/slic3r/GUI/Tab.cpp:5890
 msgid "Before layer change G-code"
 msgstr "G-Code vor dem Schichtwechsel"
 
-#: src/libslic3r/GCode.cpp:677 src/libslic3r/GCode.cpp:5990 src/libslic3r/PrintConfig.cpp:3810
-#: src/libslic3r/SlicingNotification.cpp:227 src/slic3r/GUI/Tab.cpp:5902
+#: src/libslic3r/GCode.cpp:675 src/libslic3r/GCode.cpp:5988 src/libslic3r/PrintConfig.cpp:3810
+#: src/libslic3r/SlicingNotification.cpp:236 src/slic3r/GUI/Tab.cpp:5902
 msgid "After layer change G-code"
 msgstr "G-Code am Schichtende"
 
-#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:10344 src/libslic3r/PrintConfig.cpp:6044
-#: src/libslic3r/SlicingNotification.cpp:228 src/slic3r/GUI/Tab.cpp:5914
+#: src/libslic3r/GCode.cpp:676 src/libslic3r/GCode.cpp:10342 src/libslic3r/PrintConfig.cpp:6044
+#: src/libslic3r/SlicingNotification.cpp:237 src/slic3r/GUI/Tab.cpp:5914
 msgid "Tool change G-code"
 msgstr "G-Code für Werkzeugwechsel"
 
-#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:3783
-#: src/libslic3r/SlicingNotification.cpp:229 src/slic3r/GUI/Tab.cpp:5926
+#: src/libslic3r/GCode.cpp:677 src/libslic3r/GCode.cpp:3781
+#: src/libslic3r/SlicingNotification.cpp:238 src/slic3r/GUI/Tab.cpp:5926
 msgid "Between objects G-code (for sequential printing)"
 msgstr "G-Code zwischen Objekten (Sequentielles Drucken)"
 
-#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:5163
-#: src/libslic3r/SlicingNotification.cpp:232 src/slic3r/GUI/Tab.cpp:5938
+#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:5161
+#: src/libslic3r/SlicingNotification.cpp:241 src/slic3r/GUI/Tab.cpp:5938
 msgid "Color Change G-code"
 msgstr "G-Code für Farbwechsel"
 
-#: src/libslic3r/GCode.cpp:681 src/libslic3r/GCode.cpp:5168 src/libslic3r/PrintConfig.cpp:5197
-#: src/libslic3r/SlicingNotification.cpp:233 src/slic3r/GUI/Tab.cpp:5949
+#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:5166 src/libslic3r/PrintConfig.cpp:5197
+#: src/libslic3r/SlicingNotification.cpp:242 src/slic3r/GUI/Tab.cpp:5949
 msgid "Pause Print G-code"
 msgstr "Druckpausen G-Code"
 
-#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:5185
-#: src/libslic3r/SlicingNotification.cpp:234 src/slic3r/GUI/Tab.cpp:5960
+#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:5183
+#: src/libslic3r/SlicingNotification.cpp:243 src/slic3r/GUI/Tab.cpp:5960
 msgid "Template Custom G-code"
 msgstr "Vorlage Benutzerdefinierter G-Code"
 
-#: src/libslic3r/GCode.cpp:685 src/libslic3r/GCode.cpp:10292 src/libslic3r/GCode.cpp:10376
-#: src/libslic3r/SlicingNotification.cpp:230
+#: src/libslic3r/GCode.cpp:683 src/libslic3r/GCode.cpp:10290 src/libslic3r/GCode.cpp:10374
+#: src/libslic3r/SlicingNotification.cpp:239
 msgid "Filament Start G-code"
 msgstr "Filament Start G-code"
 
-#: src/libslic3r/GCode.cpp:692 src/libslic3r/GCode.cpp:3924 src/libslic3r/GCode.cpp:3929
-#: src/libslic3r/GCode.cpp:10322 src/libslic3r/SlicingNotification.cpp:231
+#: src/libslic3r/GCode.cpp:690 src/libslic3r/GCode.cpp:3922 src/libslic3r/GCode.cpp:3927
+#: src/libslic3r/GCode.cpp:10320 src/libslic3r/SlicingNotification.cpp:240
 msgid "Filament End G-code"
 msgstr "Filament Ende G-code"
 
-#: src/libslic3r/GCode.cpp:700 src/libslic3r/GCode.cpp:5190 src/libslic3r/PrintConfig.cpp:5206
-#: src/libslic3r/SlicingNotification.cpp:235 src/slic3r/GUI/GCodeViewer.cpp:1165
+#: src/libslic3r/GCode.cpp:698 src/libslic3r/GCode.cpp:5188 src/libslic3r/PrintConfig.cpp:5206
+#: src/libslic3r/SlicingNotification.cpp:244 src/slic3r/GUI/GCodeViewer.cpp:1165
 #: src/slic3r/GUI/Tab.cpp:5068 src/slic3r/GUI/Tab.cpp:5858 src/slic3r/GUI/Tab.cpp:6229
 #: src/slic3r/GUI/Tab.cpp:6239 src/slic3r/GUI/Tab.cpp:8792
 msgid "Custom G-code"
 msgstr "Benutzerdefinierter G-Code"
 
-#: src/libslic3r/GCode.cpp:984 src/libslic3r/GCode.cpp:987 src/libslic3r/GCode.cpp:1024
-#: src/libslic3r/GCode.cpp:1065 src/libslic3r/GCode.cpp:1100
+#: src/libslic3r/GCode.cpp:982 src/libslic3r/GCode.cpp:985 src/libslic3r/GCode.cpp:1022
+#: src/libslic3r/GCode.cpp:1063 src/libslic3r/GCode.cpp:1098
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1304 src/libslic3r/GCode/CoolingBuffer.cpp:1323
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1523 src/libslic3r/GCode/CoolingBuffer.cpp:1531
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1556 src/libslic3r/GCode/CoolingBuffer.cpp:1567
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1570 src/libslic3r/GCode/CoolingBuffer.cpp:1591
-#: src/libslic3r/GCode/CoolingBuffer.cpp:1595 src/libslic3r/PrintObject.cpp:3654
-#: src/libslic3r/PrintObject.cpp:3662 src/slic3r/GUI/GUI_Preview.cpp:933
+#: src/libslic3r/GCode/CoolingBuffer.cpp:1595 src/libslic3r/PrintObject.cpp:3656
+#: src/libslic3r/PrintObject.cpp:3664 src/slic3r/GUI/GUI_Preview.cpp:933
 msgid "Invalid fan power"
 msgstr "Ungültige Lüfterleistung"
 
-#: src/libslic3r/GCode.cpp:1057 src/libslic3r/GCode.cpp:1061 src/libslic3r/GCode.cpp:1131
-#: src/libslic3r/GCode.cpp:1738 src/libslic3r/PrintObject.cpp:3656
-#: src/libslic3r/PrintObject.cpp:3664 src/slic3r/GUI/GUI_Preview.cpp:897
+#: src/libslic3r/GCode.cpp:1055 src/libslic3r/GCode.cpp:1059 src/libslic3r/GCode.cpp:1129
+#: src/libslic3r/GCode.cpp:1736 src/libslic3r/PrintObject.cpp:3658
+#: src/libslic3r/PrintObject.cpp:3666 src/slic3r/GUI/GUI_Preview.cpp:897
 msgid "Invalid zoneheater power"
 msgstr "Ungültige Zoneheater-Leistung"
 
-#: src/libslic3r/GCode.cpp:1066 src/libslic3r/GCode.cpp:1140 src/slic3r/GUI/ConfigWizard.cpp:2427
+#: src/libslic3r/GCode.cpp:1064 src/libslic3r/GCode.cpp:1138 src/slic3r/GUI/ConfigWizard.cpp:2427
 #: src/slic3r/GUI/ConfigWizard.cpp:2499 src/slic3r/GUI/ConfigWizard.cpp:2504
 #: src/slic3r/GUI/ConfigWizard.cpp:2509 src/slic3r/GUI/Field.cpp:481 src/slic3r/GUI/Field.cpp:556
 #: src/slic3r/GUI/Field.cpp:2236 src/slic3r/GUI/GUI_ObjectLayers.cpp:439
 msgid "Invalid numeric input."
 msgstr "Ungültige numerische Eingabe."
 
-#: src/libslic3r/GCode.cpp:1454 src/libslic3r/GCode.cpp:1531
+#: src/libslic3r/GCode.cpp:1452 src/libslic3r/GCode.cpp:1529
 msgid "checksummed G-code line"
 msgstr "G-Code-Zeile mit Prüfsumme"
 
-#: src/libslic3r/GCode.cpp:1605
+#: src/libslic3r/GCode.cpp:1603
 #, boost-format
 msgid ""
 "Temperature integer export failed in %1%: %2% contains an unsupported temperature value (%3%)."
@@ -347,28 +338,28 @@ msgstr ""
 "Der Export ganzzahliger Temperaturen ist in %1% fehlgeschlagen: %2% enthält einen nicht "
 "unterstützten Temperaturwert (%3%)."
 
-#: src/libslic3r/GCode.cpp:1795
+#: src/libslic3r/GCode.cpp:1793
 msgid "Invalid zoneheater GCODE template"
 msgstr "Ungültige GCODE-Vorlage für den Zonenheizer"
 
-#: src/libslic3r/GCode.cpp:3553 src/libslic3r/GCode.cpp:3566
+#: src/libslic3r/GCode.cpp:3551 src/libslic3r/GCode.cpp:3564
 msgid "No extrusions were generated for objects."
 msgstr "Es wurden keine Extrusionen für Objekte erzeugt."
 
-#: src/libslic3r/GCode.cpp:5008
+#: src/libslic3r/GCode.cpp:5006
 msgid "Invalid chamber heater GCODE template"
 msgstr "Ungültige GCODE-Vorlage für den Kammerheizer"
 
-#: src/libslic3r/GCode.cpp:5190 src/libslic3r/SlicingNotification.cpp:236
+#: src/libslic3r/GCode.cpp:5188 src/libslic3r/SlicingNotification.cpp:245
 msgid "Nozzle temperature slider"
 msgstr "Düsentemperatur-Slider"
 
-#: src/libslic3r/GCode.cpp:6786
+#: src/libslic3r/GCode.cpp:6784
 #, boost-format
 msgid "Processing layer (%1%/%2%)"
 msgstr "Verarbeite Schicht (%1%/%2%)"
 
-#: src/libslic3r/GCode.cpp:9060
+#: src/libslic3r/GCode.cpp:9058
 msgid "Final slicer G-code output"
 msgstr "Finale G-Code-Ausgabe des Slicers"
 
@@ -10587,21 +10578,30 @@ msgstr "Es gibt aktive Fehler zu geslicten Modellen:"
 msgid "generated errors"
 msgstr "erzeugte Fehler"
 
-#: src/libslic3r/SlicingNotification.cpp:45
+#: src/libslic3r/SlicingNotification.cpp:42
+msgid "There is an object with no extrusions in the first layer."
+msgstr "In der ersten Schicht gibt es ein Objekt ohne Extrusionen."
+
+#: src/libslic3r/SlicingNotification.cpp:43 src/libslic3r/SlicingNotification.cpp:288
+#: src/libslic3r/SlicingNotification.cpp:298 src/slic3r/GUI/GUI_ObjectManipulation.cpp:186
+msgid "Object name"
+msgstr "Objektname"
+
+#: src/libslic3r/SlicingNotification.cpp:54
 #, boost-format
 msgid "Empty layer between %1% and %2%."
 msgstr "Leere Schicht zwischen %1% und %2%."
 
-#: src/libslic3r/SlicingNotification.cpp:47
+#: src/libslic3r/SlicingNotification.cpp:56
 msgid "(Some lines not shown)"
 msgstr "(Einige Zeilen nicht gezeigt)"
 
-#: src/libslic3r/SlicingNotification.cpp:49
+#: src/libslic3r/SlicingNotification.cpp:58
 #, boost-format
 msgid "Object name: %1%"
 msgstr "Objekt Name: %1%"
 
-#: src/libslic3r/SlicingNotification.cpp:50
+#: src/libslic3r/SlicingNotification.cpp:59
 msgid ""
 "Make sure the object is printable. This is usually caused by negligibly small extrusions or by a "
 "faulty model. Try to repair the model or change its orientation on the bed."
@@ -10610,12 +10610,12 @@ msgstr ""
 "kleine Extrusionen oder durch ein fehlerhaftes Modell verursacht. Versuchen Sie, das Modell zu "
 "reparieren oder seine Ausrichtung auf dem Bett zu ändern."
 
-#: src/libslic3r/SlicingNotification.cpp:63
+#: src/libslic3r/SlicingNotification.cpp:72
 #, boost-format
 msgid "Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
 msgstr "Z-Loch-Kompensation hat %1% unsichere Öffnung(en) im Objekt \"%2%\" übersprungen: %3%."
 
-#: src/libslic3r/SlicingNotification.cpp:72
+#: src/libslic3r/SlicingNotification.cpp:81
 msgid ""
 "Local nozzle temperature overrides are active. The printer may not be able to change the nozzle "
 "temperature quickly enough to follow short or rapidly printed regions accurately."
@@ -10624,46 +10624,46 @@ msgstr ""
 "möglicherweise nicht schnell genug ändern, um kurzen oder schnell gedruckten Bereichen exakt zu "
 "folgen."
 
-#: src/libslic3r/SlicingNotification.cpp:84
+#: src/libslic3r/SlicingNotification.cpp:93
 #, boost-format
 msgid "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 msgstr "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 
-#: src/libslic3r/SlicingNotification.cpp:90
+#: src/libslic3r/SlicingNotification.cpp:99
 msgid ""
 "Zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
 msgstr ""
 "Zoneheater-Befehle haben die konfigurierte Maximalleistung überschritten und wurden im "
 "exportierten G-Code begrenzt:"
 
-#: src/libslic3r/SlicingNotification.cpp:93
+#: src/libslic3r/SlicingNotification.cpp:102
 msgid "The original settings in the slicer were not modified."
 msgstr "Die ursprünglichen Einstellungen im Slicer wurden nicht geändert."
 
-#: src/libslic3r/SlicingNotification.cpp:112
+#: src/libslic3r/SlicingNotification.cpp:121
 #, boost-format
 msgid "%1% temperature values were rounded to integers in the exported G-code:"
 msgstr "%1% Temperaturwerte wurden im exportierten G-Code auf ganze Zahlen gerundet:"
 
-#: src/libslic3r/SlicingNotification.cpp:116
+#: src/libslic3r/SlicingNotification.cpp:125
 msgid "The original custom G-code and preview slider entries in the slicer were not modified."
 msgstr ""
 "Die ursprünglichen benutzerdefinierten G-Code- und Vorschau-Slider-Einträge im Slicer wurden "
 "nicht verändert."
 
-#: src/libslic3r/SlicingNotification.cpp:127
+#: src/libslic3r/SlicingNotification.cpp:136
 msgid "Cooling slowdown"
 msgstr "Kühlungsverlangsamung"
 
-#: src/libslic3r/SlicingNotification.cpp:129
+#: src/libslic3r/SlicingNotification.cpp:138
 msgid "Max speed caps"
 msgstr "Maximale Geschwindigkeitsbegrenzungen"
 
-#: src/libslic3r/SlicingNotification.cpp:131
+#: src/libslic3r/SlicingNotification.cpp:140
 msgid "Max volumetric flow"
 msgstr "Maximaler volumetrischer Durchfluss"
 
-#: src/libslic3r/SlicingNotification.cpp:141
+#: src/libslic3r/SlicingNotification.cpp:150
 #, boost-format
 msgid ""
 "Print speed was reduced by slicer constraints:\n"
@@ -10672,68 +10672,68 @@ msgstr ""
 "Die Druckgeschwindigkeit wurde durch Slicer-Beschränkungen reduziert:\n"
 "%1%."
 
-#: src/libslic3r/SlicingNotification.cpp:149
+#: src/libslic3r/SlicingNotification.cpp:158
 msgid "In the custom G-code were found reserved keywords:"
 msgstr "In dem benutzerdefinierten G-Code wurden reservierte Schlüsselwörter gefunden:"
 
-#: src/libslic3r/SlicingNotification.cpp:150
+#: src/libslic3r/SlicingNotification.cpp:159
 msgid "This may cause problems in g-code visualization and printing time estimation."
 msgstr ""
 "Dies kann zu Problemen bei der Visualisierung des G-Codes und der Schätzung der Druckzeit führen."
 
-#: src/libslic3r/SlicingNotification.cpp:158
+#: src/libslic3r/SlicingNotification.cpp:167
 msgid "Your print is very close to the priming regions. Make sure there is no collision."
 msgstr ""
 "Ihr Druck ist sehr nahe an den Priming-Bereichen. Stellen Sie sicher, dass es keine Kollision "
 "gibt."
 
-#: src/libslic3r/SlicingNotification.cpp:170
+#: src/libslic3r/SlicingNotification.cpp:179
 #, boost-format
 msgid "%1% extruded at %2$.1f-%3$.1f °C outside the material range %4%-%5% °C."
 msgstr "Mit %1% wurde bei %2$.1f-%3$.1f °C außerhalb des Materialbereichs %4%-%5% °C extrudiert."
 
-#: src/libslic3r/SlicingNotification.cpp:176
+#: src/libslic3r/SlicingNotification.cpp:185
 msgid "Material extrusion temperature limits were exceeded:"
 msgstr "Die Extrusionstemperaturgrenzen des Materials wurden überschritten:"
 
-#: src/libslic3r/SlicingNotification.cpp:190
+#: src/libslic3r/SlicingNotification.cpp:199
 #, boost-format
 msgid "Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold %5$.1f °C)."
 msgstr "Düse %1%: Abweichung %2$.1f °C (min %3$.1f °C, max %4$.1f °C; Schwelle %5$.1f °C)."
 
-#: src/libslic3r/SlicingNotification.cpp:201
+#: src/libslic3r/SlicingNotification.cpp:210
 #, c-format, boost-format
 msgid "Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold %4$.1f °C)."
 msgstr "Druckbett: Abweichung %1$.1f °C (min %2$.1f °C, max %3$.1f °C; Schwelle %4$.1f °C)."
 
-#: src/libslic3r/SlicingNotification.cpp:207
+#: src/libslic3r/SlicingNotification.cpp:216
 msgid "Temperature deviations exceed configured slicing warning thresholds:"
 msgstr "Temperaturabweichungen überschreiten die konfigurierten Slicing-Warnschwellen:"
 
-#: src/libslic3r/SlicingNotification.cpp:215
+#: src/libslic3r/SlicingNotification.cpp:224
 msgid "GCode Post-Processor encountered an invalid toolchange, maybe from a custom gcode:"
 msgstr ""
 "Der G-Code-Nachbearbeitungsprozessor hat einen ungültigen Werkzeugwechsel erkannt, möglicherweise "
 "aus einem benutzerdefinierten G-Code:"
 
-#: src/libslic3r/SlicingNotification.cpp:217
+#: src/libslic3r/SlicingNotification.cpp:226
 msgid "Generated M104 lines may be incorrect."
 msgstr "Erzeugte M104-Zeilen sind möglicherweise fehlerhaft."
 
-#: src/libslic3r/SlicingNotification.cpp:237
+#: src/libslic3r/SlicingNotification.cpp:246
 msgid "Slicer-generated movement"
 msgstr "Vom Slicer erzeugte Bewegung"
 
-#: src/libslic3r/SlicingNotification.cpp:241
+#: src/libslic3r/SlicingNotification.cpp:250
 msgid "Before the first layer"
 msgstr "Vor der ersten Schicht"
 
-#: src/libslic3r/SlicingNotification.cpp:242
+#: src/libslic3r/SlicingNotification.cpp:251
 #, boost-format
 msgid "Layer %1%"
 msgstr "Schicht %1%"
 
-#: src/libslic3r/SlicingNotification.cpp:244
+#: src/libslic3r/SlicingNotification.cpp:253
 msgid ""
 "Generated G-code exceeds the configured maximum print height. Export is blocked to protect the "
 "printer."
@@ -10741,27 +10741,27 @@ msgstr ""
 "Der erzeugte G-Code überschreitet die konfigurierte maximale Druckhöhe. Der Export ist zum Schutz "
 "des Druckers gesperrt."
 
-#: src/libslic3r/SlicingNotification.cpp:245
+#: src/libslic3r/SlicingNotification.cpp:254
 #, boost-format
 msgid "Source: %1%"
 msgstr "Quelle: %1%"
 
-#: src/libslic3r/SlicingNotification.cpp:246
+#: src/libslic3r/SlicingNotification.cpp:255
 #, boost-format
 msgid "Location: %1%"
 msgstr "Position: %1%"
 
-#: src/libslic3r/SlicingNotification.cpp:248
+#: src/libslic3r/SlicingNotification.cpp:257
 #, boost-format
 msgid "Command: %1%"
 msgstr "Befehl: %1%"
 
-#: src/libslic3r/SlicingNotification.cpp:250
+#: src/libslic3r/SlicingNotification.cpp:259
 #, c-format, boost-format
 msgid "Commanded Z: %1$.3f mm; maximum print height: %2$.3f mm; exceeded by: %3$.3f mm."
 msgstr "Angefordertes Z: %1$.3f mm; maximale Druckhöhe: %2$.3f mm; Überschreitung: %3$.3f mm."
 
-#: src/libslic3r/SlicingNotification.cpp:254
+#: src/libslic3r/SlicingNotification.cpp:263
 #, c-format, boost-format
 msgid ""
 "Calculation: current layer Z %1$.3f mm + Z offset %2$.3f mm + Z-hop/lift or custom Z movement "
@@ -10770,7 +10770,7 @@ msgstr ""
 "Berechnung: aktuelles Schicht-Z %1$.3f mm + Z-Versatz %2$.3f mm + Z-Hop/Anheben oder "
 "benutzerdefinierte Z-Bewegung %3$.3f mm = %4$.3f mm."
 
-#: src/libslic3r/SlicingNotification.cpp:257
+#: src/libslic3r/SlicingNotification.cpp:266
 msgid ""
 "A layer-based calculation is unavailable because this movement occurs before the first generated "
 "layer."
@@ -10778,7 +10778,7 @@ msgstr ""
 "Eine schichtbasierte Berechnung ist nicht verfügbar, da diese Bewegung vor der ersten erzeugten "
 "Schicht erfolgt."
 
-#: src/libslic3r/SlicingNotification.cpp:259
+#: src/libslic3r/SlicingNotification.cpp:268
 msgid ""
 "Reduce the model or layer height, Z offset, Z-hop/lift, or the responsible custom G-code "
 "movement. To override this safety check, enable Allow exceeding max height in Printer Settings > "
@@ -10789,7 +10789,7 @@ msgstr ""
 "aktivieren Sie „Überschreiten der maximalen Höhe erlauben“ unter Druckereinstellungen > Allgemein "
 "> Größe und Koordinaten. Die maximal zulässige Modellhöhe bleibt unverändert."
 
-#: src/libslic3r/SlicingNotification.cpp:269
+#: src/libslic3r/SlicingNotification.cpp:278
 #, boost-format
 msgid ""
 "Detected print stability issues:\n"
@@ -10798,7 +10798,7 @@ msgstr ""
 "Erkannte Probleme bei der Druckstabilität:\n"
 "%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:277
+#: src/libslic3r/SlicingNotification.cpp:286
 msgid ""
 "An object has enabled XY Size compensation which will not be used because it is also multi-"
 "material painted.\n"
@@ -10808,7 +10808,7 @@ msgstr ""
 "Multi-Material bemalt ist.\n"
 "Die XY-Größenkompensation kann nicht mit der Multimaterial-Bemalung kombiniert werden."
 
-#: src/libslic3r/SlicingNotification.cpp:287
+#: src/libslic3r/SlicingNotification.cpp:296
 msgid ""
 "An object has enabled XY Size compensation which will not be used because it is also fuzzy skin "
 "painted.\n"
@@ -10818,26 +10818,26 @@ msgstr ""
 "auch Fuzzy Skin aufgemalt wurde.\n"
 "Die XY-Größenkompensation kann nicht mit aufgemalter Fuzzy Skin kombiniert werden."
 
-#: src/libslic3r/SlicingNotification.cpp:297
+#: src/libslic3r/SlicingNotification.cpp:306
 msgid "Mesh to be hollowed is not suitable for hollowing (does not bound a volume)."
 msgstr "Das auszuhöhlende Netz ist nicht zum Aushöhlen geeignet (es begrenzt kein Volumen)."
 
-#: src/libslic3r/SlicingNotification.cpp:305
+#: src/libslic3r/SlicingNotification.cpp:314
 msgid "Unable to drill the current configuration of holes into the model."
 msgstr "Es ist nicht möglich, die aktuelle Konfiguration von Löchern in das Modell zu bohren."
 
-#: src/libslic3r/SlicingNotification.cpp:313
+#: src/libslic3r/SlicingNotification.cpp:322
 msgid ""
 "Drilling holes into the mesh failed. This is usually caused by broken model. Try to fix it first."
 msgstr ""
 "Das Bohren von Löchern in das Netz ist fehlgeschlagen. Dies wird normalerweise durch ein "
 "beschädigtes Modell verursacht. Versuchen Sie zuerst, es zu reparieren."
 
-#: src/libslic3r/SlicingNotification.cpp:319
+#: src/libslic3r/SlicingNotification.cpp:328
 msgid "Failed to drill some holes into the model"
 msgstr "Das Bohren einiger Löcher in das Modell ist fehlgeschlagen"
 
-#: src/libslic3r/SlicingNotification.cpp:326
+#: src/libslic3r/SlicingNotification.cpp:335
 msgid ""
 "Some parts of the print will be previewed with approximated meshes. This does not affect the "
 "quality of slices or the physical print in any way."
@@ -10845,7 +10845,7 @@ msgstr ""
 "Einige Teile des Drucks werden in der Vorschau mit angenäherten Netzen angezeigt. Dies "
 "beeinträchtigt in keiner Weise die Qualität des Slicens oder des physischen Drucks."
 
-#: src/libslic3r/SlicingNotification.cpp:338
+#: src/libslic3r/SlicingNotification.cpp:347
 msgid ""
 "Please note that template presets are not customized for specific printer and should only be used "
 "as a starting point for creating your own user presets."
@@ -10854,7 +10854,7 @@ msgstr ""
 "angepasst sind und nur als Ausgangspunkt für die Erstellung Ihrer eigenen Benutzer-"
 "Voreinstellungen verwendet werden sollten."
 
-#: src/libslic3r/SlicingNotification.cpp:339
+#: src/libslic3r/SlicingNotification.cpp:348
 msgid "More info at"
 msgstr "Weitere Infos unter"
 
@@ -24089,7 +24089,7 @@ msgstr "Verarbeitungskette"
 msgid "Details"
 msgstr "Details"
 
-#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:273 src/slic3r/GUI/SysInfoDialog.cpp:188
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:273 src/slic3r/GUI/SysInfoDialog.cpp:207
 #: src/slic3r/GUI/UpdateDialogs.cpp:636
 msgid "Copy to Clipboard"
 msgstr "Zu Zwischenablage kopieren"
@@ -24397,15 +24397,15 @@ msgstr ""
 msgid "Move over surface"
 msgstr "Über Oberfläche bewegen"
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:100
+#: src/slic3r/GUI/SysInfoDialog.cpp:119
 msgid "System Information"
 msgstr "Systeminformationen"
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:168
+#: src/slic3r/GUI/SysInfoDialog.cpp:187
 msgid "Blacklisted libraries loaded into ApiumSlicer process:"
 msgstr "Blackgelistete Bibliotheken wurden in den ApiumSlicer-Prozess geladen:"
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:180
+#: src/slic3r/GUI/SysInfoDialog.cpp:199
 msgid "Eigen vectorization supported:"
 msgstr "Eigen Vektorisierung unterstützt:"
 

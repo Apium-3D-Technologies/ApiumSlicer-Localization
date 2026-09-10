@@ -231,135 +231,126 @@ msgstr "SL1 归档"
 msgid "SL1 SVG archive"
 msgstr "SL1 SVG 归档"
 
-#: src/libslic3r/GCode.cpp:516
-msgid "There is an object with no extrusions in the first layer."
-msgstr "第一层中有一个没有拉伸的对象。"
-
-#: src/libslic3r/GCode.cpp:517 src/libslic3r/SlicingNotification.cpp:279
-#: src/libslic3r/SlicingNotification.cpp:289 src/slic3r/GUI/GUI_ObjectManipulation.cpp:186
-msgid "Object name"
-msgstr "对象名称"
-
-#: src/libslic3r/GCode.cpp:674 src/libslic3r/GCode.cpp:3686 src/libslic3r/PrintConfig.cpp:5152
-#: src/libslic3r/PrintConfig.cpp:5171 src/libslic3r/SlicingNotification.cpp:224
+#: src/libslic3r/GCode.cpp:672 src/libslic3r/GCode.cpp:3684 src/libslic3r/PrintConfig.cpp:5152
+#: src/libslic3r/PrintConfig.cpp:5171 src/libslic3r/SlicingNotification.cpp:233
 #: src/slic3r/GUI/Tab.cpp:5069 src/slic3r/GUI/Tab.cpp:5863
 msgid "Start G-code"
 msgstr "起始 G-Code"
 
-#: src/libslic3r/GCode.cpp:675 src/libslic3r/GCode.cpp:3932 src/libslic3r/PrintConfig.cpp:1939
-#: src/libslic3r/PrintConfig.cpp:1949 src/libslic3r/SlicingNotification.cpp:225
+#: src/libslic3r/GCode.cpp:673 src/libslic3r/GCode.cpp:3930 src/libslic3r/PrintConfig.cpp:1939
+#: src/libslic3r/PrintConfig.cpp:1949 src/libslic3r/SlicingNotification.cpp:234
 #: src/slic3r/GUI/Tab.cpp:5080 src/slic3r/GUI/Tab.cpp:5878
 msgid "End G-code"
 msgstr "结尾 G-Code"
 
-#: src/libslic3r/GCode.cpp:676 src/libslic3r/GCode.cpp:5941 src/libslic3r/PrintConfig.cpp:1349
-#: src/libslic3r/SlicingNotification.cpp:226 src/slic3r/GUI/Tab.cpp:5890
+#: src/libslic3r/GCode.cpp:674 src/libslic3r/GCode.cpp:5939 src/libslic3r/PrintConfig.cpp:1349
+#: src/libslic3r/SlicingNotification.cpp:235 src/slic3r/GUI/Tab.cpp:5890
 msgid "Before layer change G-code"
 msgstr "图层更改前 G-Code"
 
-#: src/libslic3r/GCode.cpp:677 src/libslic3r/GCode.cpp:5990 src/libslic3r/PrintConfig.cpp:3810
-#: src/libslic3r/SlicingNotification.cpp:227 src/slic3r/GUI/Tab.cpp:5902
+#: src/libslic3r/GCode.cpp:675 src/libslic3r/GCode.cpp:5988 src/libslic3r/PrintConfig.cpp:3810
+#: src/libslic3r/SlicingNotification.cpp:236 src/slic3r/GUI/Tab.cpp:5902
 msgid "After layer change G-code"
 msgstr "图层更改后 G-Code"
 
-#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:10344 src/libslic3r/PrintConfig.cpp:6044
-#: src/libslic3r/SlicingNotification.cpp:228 src/slic3r/GUI/Tab.cpp:5914
+#: src/libslic3r/GCode.cpp:676 src/libslic3r/GCode.cpp:10342 src/libslic3r/PrintConfig.cpp:6044
+#: src/libslic3r/SlicingNotification.cpp:237 src/slic3r/GUI/Tab.cpp:5914
 msgid "Tool change G-code"
 msgstr "工具更改 G-Code"
 
-#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:3783
-#: src/libslic3r/SlicingNotification.cpp:229 src/slic3r/GUI/Tab.cpp:5926
+#: src/libslic3r/GCode.cpp:677 src/libslic3r/GCode.cpp:3781
+#: src/libslic3r/SlicingNotification.cpp:238 src/slic3r/GUI/Tab.cpp:5926
 msgid "Between objects G-code (for sequential printing)"
 msgstr "模型对象之间的 G-Code (用于顺序打印)"
 
-#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:5163
-#: src/libslic3r/SlicingNotification.cpp:232 src/slic3r/GUI/Tab.cpp:5938
+#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:5161
+#: src/libslic3r/SlicingNotification.cpp:241 src/slic3r/GUI/Tab.cpp:5938
 msgid "Color Change G-code"
 msgstr "颜色更改 G-Code"
 
-#: src/libslic3r/GCode.cpp:681 src/libslic3r/GCode.cpp:5168 src/libslic3r/PrintConfig.cpp:5197
-#: src/libslic3r/SlicingNotification.cpp:233 src/slic3r/GUI/Tab.cpp:5949
+#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:5166 src/libslic3r/PrintConfig.cpp:5197
+#: src/libslic3r/SlicingNotification.cpp:242 src/slic3r/GUI/Tab.cpp:5949
 msgid "Pause Print G-code"
 msgstr "暂停打印 G-Code"
 
-#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:5185
-#: src/libslic3r/SlicingNotification.cpp:234 src/slic3r/GUI/Tab.cpp:5960
+#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:5183
+#: src/libslic3r/SlicingNotification.cpp:243 src/slic3r/GUI/Tab.cpp:5960
 msgid "Template Custom G-code"
 msgstr "模板自定义 G-Code"
 
-#: src/libslic3r/GCode.cpp:685 src/libslic3r/GCode.cpp:10292 src/libslic3r/GCode.cpp:10376
-#: src/libslic3r/SlicingNotification.cpp:230
+#: src/libslic3r/GCode.cpp:683 src/libslic3r/GCode.cpp:10290 src/libslic3r/GCode.cpp:10374
+#: src/libslic3r/SlicingNotification.cpp:239
 msgid "Filament Start G-code"
 msgstr "耗材启动 G-Code"
 
-#: src/libslic3r/GCode.cpp:692 src/libslic3r/GCode.cpp:3924 src/libslic3r/GCode.cpp:3929
-#: src/libslic3r/GCode.cpp:10322 src/libslic3r/SlicingNotification.cpp:231
+#: src/libslic3r/GCode.cpp:690 src/libslic3r/GCode.cpp:3922 src/libslic3r/GCode.cpp:3927
+#: src/libslic3r/GCode.cpp:10320 src/libslic3r/SlicingNotification.cpp:240
 msgid "Filament End G-code"
 msgstr "耗材结束 G-Code"
 
-#: src/libslic3r/GCode.cpp:700 src/libslic3r/GCode.cpp:5190 src/libslic3r/PrintConfig.cpp:5206
-#: src/libslic3r/SlicingNotification.cpp:235 src/slic3r/GUI/GCodeViewer.cpp:1165
+#: src/libslic3r/GCode.cpp:698 src/libslic3r/GCode.cpp:5188 src/libslic3r/PrintConfig.cpp:5206
+#: src/libslic3r/SlicingNotification.cpp:244 src/slic3r/GUI/GCodeViewer.cpp:1165
 #: src/slic3r/GUI/Tab.cpp:5068 src/slic3r/GUI/Tab.cpp:5858 src/slic3r/GUI/Tab.cpp:6229
 #: src/slic3r/GUI/Tab.cpp:6239 src/slic3r/GUI/Tab.cpp:8792
 msgid "Custom G-code"
 msgstr "自定义 G-Code"
 
-#: src/libslic3r/GCode.cpp:984 src/libslic3r/GCode.cpp:987 src/libslic3r/GCode.cpp:1024
-#: src/libslic3r/GCode.cpp:1065 src/libslic3r/GCode.cpp:1100
+#: src/libslic3r/GCode.cpp:982 src/libslic3r/GCode.cpp:985 src/libslic3r/GCode.cpp:1022
+#: src/libslic3r/GCode.cpp:1063 src/libslic3r/GCode.cpp:1098
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1304 src/libslic3r/GCode/CoolingBuffer.cpp:1323
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1523 src/libslic3r/GCode/CoolingBuffer.cpp:1531
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1556 src/libslic3r/GCode/CoolingBuffer.cpp:1567
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1570 src/libslic3r/GCode/CoolingBuffer.cpp:1591
-#: src/libslic3r/GCode/CoolingBuffer.cpp:1595 src/libslic3r/PrintObject.cpp:3654
-#: src/libslic3r/PrintObject.cpp:3662 src/slic3r/GUI/GUI_Preview.cpp:933
+#: src/libslic3r/GCode/CoolingBuffer.cpp:1595 src/libslic3r/PrintObject.cpp:3656
+#: src/libslic3r/PrintObject.cpp:3664 src/slic3r/GUI/GUI_Preview.cpp:933
 msgid "Invalid fan power"
 msgstr "无效的风扇功率"
 
-#: src/libslic3r/GCode.cpp:1057 src/libslic3r/GCode.cpp:1061 src/libslic3r/GCode.cpp:1131
-#: src/libslic3r/GCode.cpp:1738 src/libslic3r/PrintObject.cpp:3656
-#: src/libslic3r/PrintObject.cpp:3664 src/slic3r/GUI/GUI_Preview.cpp:897
+#: src/libslic3r/GCode.cpp:1055 src/libslic3r/GCode.cpp:1059 src/libslic3r/GCode.cpp:1129
+#: src/libslic3r/GCode.cpp:1736 src/libslic3r/PrintObject.cpp:3658
+#: src/libslic3r/PrintObject.cpp:3666 src/slic3r/GUI/GUI_Preview.cpp:897
 msgid "Invalid zoneheater power"
 msgstr "无效的区域加热功率"
 
-#: src/libslic3r/GCode.cpp:1066 src/libslic3r/GCode.cpp:1140 src/slic3r/GUI/ConfigWizard.cpp:2427
+#: src/libslic3r/GCode.cpp:1064 src/libslic3r/GCode.cpp:1138 src/slic3r/GUI/ConfigWizard.cpp:2427
 #: src/slic3r/GUI/ConfigWizard.cpp:2499 src/slic3r/GUI/ConfigWizard.cpp:2504
 #: src/slic3r/GUI/ConfigWizard.cpp:2509 src/slic3r/GUI/Field.cpp:481 src/slic3r/GUI/Field.cpp:556
 #: src/slic3r/GUI/Field.cpp:2236 src/slic3r/GUI/GUI_ObjectLayers.cpp:439
 msgid "Invalid numeric input."
 msgstr "无效的数字输入。"
 
-#: src/libslic3r/GCode.cpp:1454 src/libslic3r/GCode.cpp:1531
+#: src/libslic3r/GCode.cpp:1452 src/libslic3r/GCode.cpp:1529
 msgid "checksummed G-code line"
 msgstr "校验和 G-code 行"
 
-#: src/libslic3r/GCode.cpp:1605
+#: src/libslic3r/GCode.cpp:1603
 #, boost-format
 msgid ""
 "Temperature integer export failed in %1%: %2% contains an unsupported temperature value (%3%)."
 msgstr "温度整数导出在 %1% 中失败：%2% 包含不受支持的温度值（%3%）。"
 
-#: src/libslic3r/GCode.cpp:1795
+#: src/libslic3r/GCode.cpp:1793
 msgid "Invalid zoneheater GCODE template"
 msgstr "区域加热器 G-code 模板无效"
 
-#: src/libslic3r/GCode.cpp:3553 src/libslic3r/GCode.cpp:3566
+#: src/libslic3r/GCode.cpp:3551 src/libslic3r/GCode.cpp:3564
 msgid "No extrusions were generated for objects."
 msgstr "没有为对象生成拉伸。"
 
-#: src/libslic3r/GCode.cpp:5008
+#: src/libslic3r/GCode.cpp:5006
 msgid "Invalid chamber heater GCODE template"
 msgstr "腔体加热器 G-code 模板无效"
 
-#: src/libslic3r/GCode.cpp:5190 src/libslic3r/SlicingNotification.cpp:236
+#: src/libslic3r/GCode.cpp:5188 src/libslic3r/SlicingNotification.cpp:245
 msgid "Nozzle temperature slider"
 msgstr "喷嘴温度滑块"
 
-#: src/libslic3r/GCode.cpp:6786
+#: src/libslic3r/GCode.cpp:6784
 #, boost-format
 msgid "Processing layer (%1%/%2%)"
 msgstr "正在处理层（%1%/%2%）"
 
-#: src/libslic3r/GCode.cpp:9060
+#: src/libslic3r/GCode.cpp:9058
 msgid "Final slicer G-code output"
 msgstr "切片软件最终 G-code 输出"
 
@@ -9685,75 +9676,84 @@ msgstr "切片模型存在活动错误："
 msgid "generated errors"
 msgstr "生成的错误"
 
-#: src/libslic3r/SlicingNotification.cpp:45
+#: src/libslic3r/SlicingNotification.cpp:42
+msgid "There is an object with no extrusions in the first layer."
+msgstr "第一层中有一个没有拉伸的对象。"
+
+#: src/libslic3r/SlicingNotification.cpp:43 src/libslic3r/SlicingNotification.cpp:288
+#: src/libslic3r/SlicingNotification.cpp:298 src/slic3r/GUI/GUI_ObjectManipulation.cpp:186
+msgid "Object name"
+msgstr "对象名称"
+
+#: src/libslic3r/SlicingNotification.cpp:54
 #, boost-format
 msgid "Empty layer between %1% and %2%."
 msgstr "空层介于 %1% 和 %2% 之间。"
 
-#: src/libslic3r/SlicingNotification.cpp:47
+#: src/libslic3r/SlicingNotification.cpp:56
 msgid "(Some lines not shown)"
 msgstr "（某些行未显示）"
 
-#: src/libslic3r/SlicingNotification.cpp:49
+#: src/libslic3r/SlicingNotification.cpp:58
 #, boost-format
 msgid "Object name: %1%"
 msgstr "对象名称：%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:50
+#: src/libslic3r/SlicingNotification.cpp:59
 msgid ""
 "Make sure the object is printable. This is usually caused by negligibly small extrusions or by a "
 "faulty model. Try to repair the model or change its orientation on the bed."
 msgstr ""
 "确保对象是可打印的。这通常是由可忽略的小挤压或故障模型造成的。尝试修复模型或更改其在床上的方向。"
 
-#: src/libslic3r/SlicingNotification.cpp:63
+#: src/libslic3r/SlicingNotification.cpp:72
 #, boost-format
 msgid "Z-hole compensation skipped %1% unsafe opening(s) in object \"%2%\": %3%."
 msgstr "Z 向孔补偿跳过了对象 \"%2%\" 中的 %1% 个不安全开口：%3%。"
 
-#: src/libslic3r/SlicingNotification.cpp:72
+#: src/libslic3r/SlicingNotification.cpp:81
 msgid ""
 "Local nozzle temperature overrides are active. The printer may not be able to change the nozzle "
 "temperature quickly enough to follow short or rapidly printed regions accurately."
 msgstr ""
 "局部喷嘴温度覆盖已启用。打印机可能无法足够快地改变喷嘴温度，从而无法准确跟随较短或快速打印的区域。"
 
-#: src/libslic3r/SlicingNotification.cpp:84
+#: src/libslic3r/SlicingNotification.cpp:93
 #, boost-format
 msgid "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 msgstr "%1% (T%2%): requested %3$.1f%%, exported %4$.1f%%."
 
-#: src/libslic3r/SlicingNotification.cpp:90
+#: src/libslic3r/SlicingNotification.cpp:99
 msgid ""
 "Zoneheater commands exceeded the configured maximum power and were clamped in the exported G-code:"
 msgstr "区域加热器命令超过了配置的最大功率，已在导出的 G-code 中限制："
 
-#: src/libslic3r/SlicingNotification.cpp:93
+#: src/libslic3r/SlicingNotification.cpp:102
 msgid "The original settings in the slicer were not modified."
 msgstr "切片软件中的原始设置未被修改。"
 
-#: src/libslic3r/SlicingNotification.cpp:112
+#: src/libslic3r/SlicingNotification.cpp:121
 #, boost-format
 msgid "%1% temperature values were rounded to integers in the exported G-code:"
 msgstr "导出的 G-code 中有 %1% 个温度值被舍入为整数："
 
-#: src/libslic3r/SlicingNotification.cpp:116
+#: src/libslic3r/SlicingNotification.cpp:125
 msgid "The original custom G-code and preview slider entries in the slicer were not modified."
 msgstr "切片软件中的原始自定义 G-code 和预览滑块条目未被修改。"
 
-#: src/libslic3r/SlicingNotification.cpp:127
+#: src/libslic3r/SlicingNotification.cpp:136
 msgid "Cooling slowdown"
 msgstr "冷却降速"
 
-#: src/libslic3r/SlicingNotification.cpp:129
+#: src/libslic3r/SlicingNotification.cpp:138
 msgid "Max speed caps"
 msgstr "最大速度限制"
 
-#: src/libslic3r/SlicingNotification.cpp:131
+#: src/libslic3r/SlicingNotification.cpp:140
 msgid "Max volumetric flow"
 msgstr "最大体积流量"
 
-#: src/libslic3r/SlicingNotification.cpp:141
+#: src/libslic3r/SlicingNotification.cpp:150
 #, boost-format
 msgid ""
 "Print speed was reduced by slicer constraints:\n"
@@ -9762,89 +9762,89 @@ msgstr ""
 "打印速度因切片器限制而降低：\n"
 "%1%。"
 
-#: src/libslic3r/SlicingNotification.cpp:149
+#: src/libslic3r/SlicingNotification.cpp:158
 msgid "In the custom G-code were found reserved keywords:"
 msgstr "在自定义 G-Code 中找到保留关键字:"
 
-#: src/libslic3r/SlicingNotification.cpp:150
+#: src/libslic3r/SlicingNotification.cpp:159
 msgid "This may cause problems in g-code visualization and printing time estimation."
 msgstr "这可能会导致 G-Code 可视化和打印时间估计出现问题。"
 
-#: src/libslic3r/SlicingNotification.cpp:158
+#: src/libslic3r/SlicingNotification.cpp:167
 msgid "Your print is very close to the priming regions. Make sure there is no collision."
 msgstr "你的指纹非常接近启动区域。确保没有碰撞。"
 
-#: src/libslic3r/SlicingNotification.cpp:170
+#: src/libslic3r/SlicingNotification.cpp:179
 #, boost-format
 msgid "%1% extruded at %2$.1f-%3$.1f °C outside the material range %4%-%5% °C."
 msgstr "%1% 在 %2$.1f-%3$.1f °C 下挤出，超出材料范围 %4%-%5% °C。"
 
-#: src/libslic3r/SlicingNotification.cpp:176
+#: src/libslic3r/SlicingNotification.cpp:185
 msgid "Material extrusion temperature limits were exceeded:"
 msgstr "已超出材料挤出温度限制："
 
-#: src/libslic3r/SlicingNotification.cpp:190
+#: src/libslic3r/SlicingNotification.cpp:199
 #, boost-format
 msgid "Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold %5$.1f °C)."
 msgstr "Nozzle %1% deviation is %2$.1f °C (min %3$.1f °C, max %4$.1f °C; threshold %5$.1f °C)."
 
-#: src/libslic3r/SlicingNotification.cpp:201
+#: src/libslic3r/SlicingNotification.cpp:210
 #, c-format, boost-format
 msgid "Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold %4$.1f °C)."
 msgstr "Print bed deviation is %1$.1f °C (min %2$.1f °C, max %3$.1f °C; threshold %4$.1f °C)."
 
-#: src/libslic3r/SlicingNotification.cpp:207
+#: src/libslic3r/SlicingNotification.cpp:216
 msgid "Temperature deviations exceed configured slicing warning thresholds:"
 msgstr "Temperature deviations exceed configured slicing warning thresholds:"
 
-#: src/libslic3r/SlicingNotification.cpp:215
+#: src/libslic3r/SlicingNotification.cpp:224
 msgid "GCode Post-Processor encountered an invalid toolchange, maybe from a custom gcode:"
 msgstr "GCode 后处理器遇到无效换刀，可能来自自定义 G-code："
 
-#: src/libslic3r/SlicingNotification.cpp:217
+#: src/libslic3r/SlicingNotification.cpp:226
 msgid "Generated M104 lines may be incorrect."
 msgstr "生成的 M104 行可能不正确。"
 
-#: src/libslic3r/SlicingNotification.cpp:237
+#: src/libslic3r/SlicingNotification.cpp:246
 msgid "Slicer-generated movement"
 msgstr "切片软件生成的移动"
 
-#: src/libslic3r/SlicingNotification.cpp:241
+#: src/libslic3r/SlicingNotification.cpp:250
 msgid "Before the first layer"
 msgstr "第一层之前"
 
-#: src/libslic3r/SlicingNotification.cpp:242
+#: src/libslic3r/SlicingNotification.cpp:251
 #, boost-format
 msgid "Layer %1%"
 msgstr "第 %1% 层"
 
-#: src/libslic3r/SlicingNotification.cpp:244
+#: src/libslic3r/SlicingNotification.cpp:253
 msgid ""
 "Generated G-code exceeds the configured maximum print height. Export is blocked to protect the "
 "printer."
 msgstr "生成的 G-code 超过了配置的最大打印高度。为保护打印机，导出已被阻止。"
 
-#: src/libslic3r/SlicingNotification.cpp:245
+#: src/libslic3r/SlicingNotification.cpp:254
 #, boost-format
 msgid "Source: %1%"
 msgstr "来源：%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:246
+#: src/libslic3r/SlicingNotification.cpp:255
 #, boost-format
 msgid "Location: %1%"
 msgstr "位置：%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:248
+#: src/libslic3r/SlicingNotification.cpp:257
 #, boost-format
 msgid "Command: %1%"
 msgstr "命令：%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:250
+#: src/libslic3r/SlicingNotification.cpp:259
 #, c-format, boost-format
 msgid "Commanded Z: %1$.3f mm; maximum print height: %2$.3f mm; exceeded by: %3$.3f mm."
 msgstr "指令 Z：%1$.3f mm；最大打印高度：%2$.3f mm；超出：%3$.3f mm。"
 
-#: src/libslic3r/SlicingNotification.cpp:254
+#: src/libslic3r/SlicingNotification.cpp:263
 #, c-format, boost-format
 msgid ""
 "Calculation: current layer Z %1$.3f mm + Z offset %2$.3f mm + Z-hop/lift or custom Z movement "
@@ -9852,13 +9852,13 @@ msgid ""
 msgstr ""
 "计算：当前层 Z %1$.3f mm + Z 偏移 %2$.3f mm + Z 跳/抬升或自定义 Z 移动 %3$.3f mm = %4$.3f mm。"
 
-#: src/libslic3r/SlicingNotification.cpp:257
+#: src/libslic3r/SlicingNotification.cpp:266
 msgid ""
 "A layer-based calculation is unavailable because this movement occurs before the first generated "
 "layer."
 msgstr "由于此移动发生在生成第一层之前，因此无法进行基于层的计算。"
 
-#: src/libslic3r/SlicingNotification.cpp:259
+#: src/libslic3r/SlicingNotification.cpp:268
 msgid ""
 "Reduce the model or layer height, Z offset, Z-hop/lift, or the responsible custom G-code "
 "movement. To override this safety check, enable Allow exceeding max height in Printer Settings > "
@@ -9867,7 +9867,7 @@ msgstr ""
 "请减小模型或层高、Z 偏移、Z 跳/抬升，或修改导致问题的自定义 G-code 移动。若要覆盖此安全检查，请在"
 "打印机设置 > 常规 > 尺寸和坐标中启用“允许超过最大高度”。允许的最大模型高度不会改变。"
 
-#: src/libslic3r/SlicingNotification.cpp:269
+#: src/libslic3r/SlicingNotification.cpp:278
 #, boost-format
 msgid ""
 "Detected print stability issues:\n"
@@ -9876,7 +9876,7 @@ msgstr ""
 "检测到打印稳定性问题：\n"
 "%1%"
 
-#: src/libslic3r/SlicingNotification.cpp:277
+#: src/libslic3r/SlicingNotification.cpp:286
 msgid ""
 "An object has enabled XY Size compensation which will not be used because it is also multi-"
 "material painted.\n"
@@ -9885,7 +9885,7 @@ msgstr ""
 "某个对象已启用“XY大小”补偿，但不会使用该补偿，因为它也是多材质绘制的。\n"
 "XY尺寸补偿不能与多材质绘制相结合。"
 
-#: src/libslic3r/SlicingNotification.cpp:287
+#: src/libslic3r/SlicingNotification.cpp:296
 msgid ""
 "An object has enabled XY Size compensation which will not be used because it is also fuzzy skin "
 "painted.\n"
@@ -9894,36 +9894,36 @@ msgstr ""
 "某个对象启用了 XY 尺寸补偿，但由于它还绘制了绒毛表面，因此不会使用该补偿。\n"
 "XY 尺寸补偿不能与绒毛表面绘制结合使用。"
 
-#: src/libslic3r/SlicingNotification.cpp:297
+#: src/libslic3r/SlicingNotification.cpp:306
 msgid "Mesh to be hollowed is not suitable for hollowing (does not bound a volume)."
 msgstr "要挖空的网格不适合挖空（不绑定卷）。"
 
-#: src/libslic3r/SlicingNotification.cpp:305
+#: src/libslic3r/SlicingNotification.cpp:314
 msgid "Unable to drill the current configuration of holes into the model."
 msgstr "无法在模型中钻取孔的当前配置。"
 
-#: src/libslic3r/SlicingNotification.cpp:313
+#: src/libslic3r/SlicingNotification.cpp:322
 msgid ""
 "Drilling holes into the mesh failed. This is usually caused by broken model. Try to fix it first."
 msgstr "在网格上钻孔失败了。这通常是由模型损坏引起的。试着先把它修好。"
 
-#: src/libslic3r/SlicingNotification.cpp:319
+#: src/libslic3r/SlicingNotification.cpp:328
 msgid "Failed to drill some holes into the model"
 msgstr "未能在模型上钻一些孔"
 
-#: src/libslic3r/SlicingNotification.cpp:326
+#: src/libslic3r/SlicingNotification.cpp:335
 msgid ""
 "Some parts of the print will be previewed with approximated meshes. This does not affect the "
 "quality of slices or the physical print in any way."
 msgstr "打印的某些部分将以近似的网格进行预览。这不会以任何方式影响切片或实物打印的质量。"
 
-#: src/libslic3r/SlicingNotification.cpp:338
+#: src/libslic3r/SlicingNotification.cpp:347
 msgid ""
 "Please note that template presets are not customized for specific printer and should only be used "
 "as a starting point for creating your own user presets."
 msgstr "请注意，模板预设并未针对特定打印机定制，只应作为创建自有用户预设的起点。"
 
-#: src/libslic3r/SlicingNotification.cpp:339
+#: src/libslic3r/SlicingNotification.cpp:348
 msgid "More info at"
 msgstr "更多信息："
 
@@ -22720,7 +22720,7 @@ msgstr "流程"
 msgid "Details"
 msgstr "详细信息"
 
-#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:273 src/slic3r/GUI/SysInfoDialog.cpp:188
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:273 src/slic3r/GUI/SysInfoDialog.cpp:207
 #: src/slic3r/GUI/UpdateDialogs.cpp:636
 msgid "Copy to Clipboard"
 msgstr "复制到剪贴板"
@@ -23022,15 +23022,15 @@ msgstr "输入所选打印机已保存的管理员密码并按下 Enter 键。"
 msgid "Move over surface"
 msgstr "沿表面移动"
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:100
+#: src/slic3r/GUI/SysInfoDialog.cpp:119
 msgid "System Information"
 msgstr "系统信息"
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:168
+#: src/slic3r/GUI/SysInfoDialog.cpp:187
 msgid "Blacklisted libraries loaded into ApiumSlicer process:"
 msgstr "已加载到 ApiumSlicer 进程的黑名单库："
 
-#: src/slic3r/GUI/SysInfoDialog.cpp:180
+#: src/slic3r/GUI/SysInfoDialog.cpp:199
 msgid "Eigen vectorization supported:"
 msgstr "支持特征向量化:"
 
