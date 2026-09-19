@@ -260,8 +260,10 @@ src/libslic3r/GCode/ExtrusionProcessor.cpp
 src/libslic3r/GCode/ExtrusionProcessor.hpp
 src/libslic3r/GCode/FindReplace.cpp
 src/libslic3r/GCode/FindReplace.hpp
-src/libslic3r/GCode/FineOuterPerimeter.cpp
-src/libslic3r/GCode/FineOuterPerimeter.hpp
+src/libslic3r/GCode/FineExternalPerimeter.cpp
+src/libslic3r/GCode/FineExternalPerimeter.hpp
+src/libslic3r/GCode/FineExternalPerimeterSmoothing.cpp
+src/libslic3r/GCode/FineExternalPerimeterSmoothing.hpp
 src/libslic3r/GCode/GCodeDocument.hpp
 src/libslic3r/GCode/GCodeProcessor.cpp
 src/libslic3r/GCode/GCodeProcessor.hpp
