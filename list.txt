@@ -42,6 +42,7 @@ src/libseqarrange/test/seq_test_sequential.cpp
 src/libseqarrange/test/seq_test_sequential.hpp
 src/libslic3r/AABBMesh.cpp
 src/libslic3r/AABBMesh.hpp
+src/libslic3r/AABBQueryStatistics.hpp
 src/libslic3r/AABBTreeIndirect.hpp
 src/libslic3r/AABBTreeLines.hpp
 src/libslic3r/AStar.hpp
