@@ -435,6 +435,8 @@ src/libslic3r/PrintObjectSlice.cpp
 src/libslic3r/PrintRegion.cpp
 src/libslic3r/QuadricEdgeCollapse.cpp
 src/libslic3r/QuadricEdgeCollapse.hpp
+src/libslic3r/RectangularPattern.cpp
+src/libslic3r/RectangularPattern.hpp
 src/libslic3r/RelativeValue.hpp
 src/libslic3r/SLA/AGGRaster.hpp
 src/libslic3r/SLA/BranchingTreeSLA.cpp
@@ -833,6 +835,8 @@ src/slic3r/GUI/Gizmos/GLGizmoBase.cpp
 src/slic3r/GUI/Gizmos/GLGizmoBase.hpp
 src/slic3r/GUI/Gizmos/GLGizmoBrimEars.cpp
 src/slic3r/GUI/Gizmos/GLGizmoBrimEars.hpp
+src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp
+src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.hpp
 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp
 src/slic3r/GUI/Gizmos/GLGizmoCut.hpp
 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp
