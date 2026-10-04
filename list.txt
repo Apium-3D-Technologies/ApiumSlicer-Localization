@@ -818,6 +818,7 @@ src/slic3r/GUI/GUI_ObjectLayers.cpp
 src/slic3r/GUI/GUI_ObjectLayers.hpp
 src/slic3r/GUI/GUI_ObjectList.cpp
 src/slic3r/GUI/GUI_ObjectList.hpp
+src/slic3r/GUI/GUI_ObjectListTree.cpp
 src/slic3r/GUI/GUI_ObjectManipulation.cpp
 src/slic3r/GUI/GUI_ObjectManipulation.hpp
 src/slic3r/GUI/GUI_ObjectSettings.cpp
