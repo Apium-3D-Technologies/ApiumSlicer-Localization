@@ -36,11 +36,13 @@ or environment variable is needed.
 
 1. Mark each new user-visible C++ string with `L`, `_L`, `_u8L`,
    `L_CONTEXT`, or `_L_PLURAL`, as appropriate.
-2. Create or select a Localization branch before generating changes:
+2. Make all Localization changes on `main`. Select and update it before
+   generating changes; do not create feature, Codex, or development branches:
 
    ```text
    cd resources/localization
-   git switch -c <localization-branch>
+   git switch main
+   git pull --ff-only origin main
    cd ../..
    ```
 
@@ -63,8 +65,10 @@ or environment variable is needed.
    python -m unittest discover -s resources/localization/tests -v
    ```
 
-6. Commit and push the catalog changes inside the Localization repository
-   first.
+6. Commit the catalog changes on `main` inside the Localization repository
+   and push them with `git push origin main` first. This repository contains
+   only localization files and tooling; never push ApiumSlicer source branches
+   to its remote.
 7. Return to the ApiumSlicer repository, stage `resources/localization`, and
    commit the updated Gitlink separately:
 
@@ -114,7 +118,7 @@ git ls-tree HEAD resources/localization
 
 `git submodule update --init --recursive` restores the commit pinned by the
 current ApiumSlicer revision. It may leave the submodule in detached-HEAD state;
-create or switch to a branch before committing Localization changes.
+switch to `main` before committing Localization changes.
 
 ## CMake integration
 
