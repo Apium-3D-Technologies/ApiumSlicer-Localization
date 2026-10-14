@@ -195,7 +195,7 @@ msgstr "Error! Invalid model"
 msgid "Cannot calculate extrusion width for %1%: Variable \"%2%\" not accessible."
 msgstr "Cannot calculate extrusion width for %1%: Variable \"%2%\" not accessible."
 
-#: src/libslic3r/Format/3mf.cpp:1089
+#: src/libslic3r/Format/3mf.cpp:1091
 #, boost-format
 msgid ""
 "The 3MF file does not contain a valid mesh.\n"
@@ -206,12 +206,12 @@ msgstr ""
 "\n"
 "\"%1%\""
 
-#: src/libslic3r/Format/3mf.cpp:2424
+#: src/libslic3r/Format/3mf.cpp:2436
 #, boost-format
 msgid "The selected 3mf file has been saved with a newer version of %1% and is not compatible."
 msgstr "The selected 3mf file has been saved with a newer version of %1% and is not compatible."
 
-#: src/libslic3r/Format/3mf.cpp:2437
+#: src/libslic3r/Format/3mf.cpp:2449
 msgid ""
 "The selected 3MF contains FDM supports painted object using a newer version of ApiumSlicer and is "
 "not compatible."
@@ -219,7 +219,7 @@ msgstr ""
 "The selected 3MF contains FDM supports painted object using a newer version of ApiumSlicer and is "
 "not compatible."
 
-#: src/libslic3r/Format/3mf.cpp:2441
+#: src/libslic3r/Format/3mf.cpp:2453
 msgid ""
 "The selected 3MF contains seam painted object using a newer version of ApiumSlicer and is not "
 "compatible."
@@ -227,7 +227,7 @@ msgstr ""
 "The selected 3MF contains seam painted object using a newer version of ApiumSlicer and is not "
 "compatible."
 
-#: src/libslic3r/Format/3mf.cpp:2445
+#: src/libslic3r/Format/3mf.cpp:2457
 msgid ""
 "The selected 3MF contains multi-material painted object using a newer version of ApiumSlicer and "
 "is not compatible."
@@ -364,7 +364,7 @@ msgid "Nozzle temperature slider"
 msgstr "Nozzle temperature slider"
 
 #: src/libslic3r/GCode.cpp:6215 src/libslic3r/GCode.cpp:6225 src/libslic3r/GCode.cpp:6322
-#: src/slic3r/GUI/GUI_ObjectList.cpp:171
+#: src/slic3r/GUI/GUI_ObjectList.cpp:172
 msgid "Unnamed object"
 msgstr "Unnamed object"
 
@@ -9737,7 +9737,7 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr "Slice the model and export SLA printing layers as PNG."
 
 #: src/libslic3r/PrintConfig.cpp:9407 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:9135 src/slic3r/GUI/Sidebar.cpp:1269
+#: src/slic3r/GUI/Plater.cpp:9133 src/slic3r/GUI/Sidebar.cpp:1269
 msgid "Export G-code"
 msgstr "Export G-code"
 
@@ -9808,7 +9808,7 @@ msgid "Multiply copies by creating a grid."
 msgstr "Multiply copies by creating a grid."
 
 #: src/libslic3r/PrintConfig.cpp:9452 src/slic3r/GUI/GUI_Factories.cpp:1351
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2594
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2638
 msgid "Merge"
 msgstr "Merge"
 
@@ -11246,7 +11246,7 @@ msgid "About %s"
 msgstr "About %s"
 
 #: src/slic3r/GUI/AboutDialog.cpp:263 src/slic3r/GUI/AboutDialog.cpp:395
-#: src/slic3r/GUI/GUI_App.cpp:312 src/slic3r/GUI/Tab.cpp:878 src/slic3r/GUI/Tab.cpp:879
+#: src/slic3r/GUI/GUI_App.cpp:325 src/slic3r/GUI/Tab.cpp:878 src/slic3r/GUI/Tab.cpp:879
 msgid "Version"
 msgstr "Version"
 
@@ -11687,7 +11687,7 @@ msgid "Circular"
 msgstr "Circular"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:123 src/slic3r/GUI/BedShapeDialog.cpp:204
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2098 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:241
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2142 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:241
 msgid "Shape"
 msgstr "Shape"
 
@@ -12269,7 +12269,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1658 src/slic3r/GUI/ConfigWizard.cpp:2350
 #: src/slic3r/GUI/ConfigWizard.cpp:3532 src/slic3r/GUI/ConfigWizard.cpp:3713
-#: src/slic3r/GUI/ConfigWizard.cpp:4419 src/slic3r/GUI/GUI.cpp:245 src/slic3r/GUI/GUI_App.cpp:4291
+#: src/slic3r/GUI/ConfigWizard.cpp:4419 src/slic3r/GUI/GUI.cpp:245 src/slic3r/GUI/GUI_App.cpp:4309
 #: src/slic3r/GUI/GUI_Preview.cpp:996 src/slic3r/GUI/Plater.cpp:5760 src/slic3r/GUI/Plater.cpp:5838
 #: src/slic3r/GUI/UpdateDialogs.cpp:226 src/slic3r/GUI/UpdateDialogs.cpp:234
 #: src/slic3r/GUI/UpdateDialogs.cpp:239 src/slic3r/GUI/UpdateDialogs.cpp:244
@@ -12890,7 +12890,7 @@ msgid ""
 msgstr ""
 "Performing downloader desktop integration failed because the application directory was not found."
 
-#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2871
+#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2886
 msgid "Desktop Integration"
 msgstr "Desktop Integration"
 
@@ -13382,7 +13382,7 @@ msgstr "On"
 
 #. TRN: This string appears in Configuration Wizard in the 'Configuration Manager' step.
 #: src/slic3r/GUI/ExclusionZonesDialog.cpp:373 src/slic3r/GUI/FileTransferTabPanel.cpp:1098
-#: src/slic3r/GUI/GUI_ObjectList.cpp:543 src/slic3r/GUI/GUI_ObjectList.cpp:576
+#: src/slic3r/GUI/GUI_ObjectList.cpp:544 src/slic3r/GUI/GUI_ObjectList.cpp:577
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:184 src/slic3r/GUI/SshPrinterDialog.cpp:96
 #: src/slic3r/GUI/UpdatesUIManager.cpp:153 src/slic3r/GUI/UpdatesUIManager.cpp:208
 #: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:105
@@ -13865,7 +13865,7 @@ msgstr "create this file"
 
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:2834 src/slic3r/GUI/FileTransferTabPanel.cpp:3475
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3927 src/slic3r/GUI/FileTransferTabPanel.cpp:3963
-#: src/slic3r/GUI/GUI_Factories.cpp:970
+#: src/slic3r/GUI/GUI_Factories.cpp:970 src/slic3r/GUI/GUI_Factories.cpp:1637
 msgid "Rename"
 msgstr "Rename"
 
@@ -14294,7 +14294,7 @@ msgstr "Show properties"
 msgid "Feature type"
 msgstr "Feature type"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1292 src/slic3r/GUI/GUI_ObjectList.cpp:4518
+#: src/slic3r/GUI/GCodeViewer.cpp:1292 src/slic3r/GUI/GUI_ObjectList.cpp:4562
 msgid "Layer"
 msgstr "Layer"
 
@@ -14577,7 +14577,7 @@ msgid "Variable Zoneheater Power"
 msgstr "Variable Zoneheater Power"
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:714 src/slic3r/GUI/GLCanvas3D.cpp:7254
-#: src/slic3r/GUI/ObjectDataViewModel.cpp:79
+#: src/slic3r/GUI/ObjectDataViewModel.cpp:80
 msgid "Variable layer height"
 msgstr "Variable layer height"
 
@@ -14851,12 +14851,12 @@ msgstr "Copy"
 msgid "Paste"
 msgstr "Paste"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7192 src/slic3r/GUI/GUI_Factories.cpp:1772
-#: src/slic3r/GUI/GUI_Factories.cpp:1796 src/slic3r/GUI/GUI_Factories.cpp:1807
+#: src/slic3r/GUI/GLCanvas3D.cpp:7192 src/slic3r/GUI/GUI_Factories.cpp:1774
+#: src/slic3r/GUI/GUI_Factories.cpp:1798 src/slic3r/GUI/GUI_Factories.cpp:1809
 msgid "Add instance"
 msgstr "Add instance"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7203 src/slic3r/GUI/GUI_Factories.cpp:1775
+#: src/slic3r/GUI/GLCanvas3D.cpp:7203 src/slic3r/GUI/GUI_Factories.cpp:1777
 msgid "Remove instance"
 msgstr "Remove instance"
 
@@ -14926,8 +14926,8 @@ msgstr "Right"
 msgid "Unsliced bed"
 msgstr "Unsliced bed"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8914 src/slic3r/GUI/Plater.cpp:3077 src/slic3r/GUI/Plater.cpp:7977
-#: src/slic3r/GUI/Plater.cpp:7979 src/slic3r/GUI/Plater.cpp:8007 src/slic3r/GUI/Plater.cpp:8021
+#: src/slic3r/GUI/GLCanvas3D.cpp:8914 src/slic3r/GUI/Plater.cpp:3077 src/slic3r/GUI/Plater.cpp:7975
+#: src/slic3r/GUI/Plater.cpp:7977 src/slic3r/GUI/Plater.cpp:8005 src/slic3r/GUI/Plater.cpp:8019
 #: src/slic3r/GUI/Tab.cpp:2846 src/slic3r/GUI/Tab.cpp:9806
 msgid "Slicing"
 msgstr "Slicing"
@@ -15086,7 +15086,7 @@ msgstr "Snap connections do not replace normal Linux device and udev permissions
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:937 src/slic3r/GUI/PhysicalPrinterDialog.cpp:956
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:986 src/slic3r/GUI/Plater.cpp:5744
 #: src/slic3r/GUI/Plater.cpp:5752 src/slic3r/GUI/Plater.cpp:5822 src/slic3r/GUI/Plater.cpp:5830
-#: src/slic3r/GUI/Plater.cpp:8546 src/slic3r/GUI/WifiConfigDialog.cpp:256
+#: src/slic3r/GUI/Plater.cpp:8544 src/slic3r/GUI/WifiConfigDialog.cpp:256
 #: src/slic3r/GUI/WipeTowerDialog.cpp:70 src/slic3r/Utils/PresetUpdaterWrapper.cpp:60
 msgid "Warning"
 msgstr "Warning"
@@ -15194,7 +15194,7 @@ msgstr "The provided name is not valid;"
 msgid "the following characters are not allowed:"
 msgstr "the following characters are not allowed:"
 
-#: src/slic3r/GUI/GUI_App.cpp:316
+#: src/slic3r/GUI/GUI_App.cpp:329
 msgid ""
 "is based on PrusaSlicer, which was based on Slic3r by Alessandro Ranellucci and the RepRap "
 "community."
@@ -15202,15 +15202,15 @@ msgstr ""
 "is based on PrusaSlicer, which was based on Slic3r by Alessandro Ranellucci and the RepRap "
 "community."
 
-#: src/slic3r/GUI/GUI_App.cpp:317
+#: src/slic3r/GUI/GUI_App.cpp:330
 msgid "Developed by Apium 3D Technologies GmbH."
 msgstr "Developed by Apium 3D Technologies GmbH."
 
-#: src/slic3r/GUI/GUI_App.cpp:318
+#: src/slic3r/GUI/GUI_App.cpp:331
 msgid "Licensed under GNU AGPLv3."
 msgstr "Licensed under GNU AGPLv3."
 
-#: src/slic3r/GUI/GUI_App.cpp:453
+#: src/slic3r/GUI/GUI_App.cpp:466
 #, boost-format
 msgid ""
 "Starting with %1% 2.3, configuration directory on Linux has changed (according to XDG Base "
@@ -15241,26 +15241,26 @@ msgstr ""
 "\n"
 "What do you want to do now?"
 
-#: src/slic3r/GUI/GUI_App.cpp:461
+#: src/slic3r/GUI/GUI_App.cpp:474
 #, c-format, boost-format
 msgid "%s - BREAKING CHANGE"
 msgstr "%s - BREAKING CHANGE"
 
-#: src/slic3r/GUI/GUI_App.cpp:463
+#: src/slic3r/GUI/GUI_App.cpp:476
 msgid "Quit, I will move my data now"
 msgstr "Quit, I will move my data now"
 
-#: src/slic3r/GUI/GUI_App.cpp:463
+#: src/slic3r/GUI/GUI_App.cpp:476
 msgid "Start the application"
 msgstr "Start the application"
 
 #. TRN %s = type of file
-#: src/slic3r/GUI/GUI_App.cpp:592
+#: src/slic3r/GUI/GUI_App.cpp:605
 #, c-format, boost-format
 msgid "%s files"
 msgstr "%s files"
 
-#: src/slic3r/GUI/GUI_App.cpp:755
+#: src/slic3r/GUI/GUI_App.cpp:768
 #, c-format, boost-format
 msgid ""
 "%s has encountered an error. It was likely caused by running out of memory. If you are sure you "
@@ -15273,11 +15273,11 @@ msgstr ""
 "\n"
 "The application will now terminate."
 
-#: src/slic3r/GUI/GUI_App.cpp:758
+#: src/slic3r/GUI/GUI_App.cpp:771
 msgid "Fatal error"
 msgstr "Fatal error"
 
-#: src/slic3r/GUI/GUI_App.cpp:762
+#: src/slic3r/GUI/GUI_App.cpp:775
 msgid ""
 "ApiumSlicer has encountered a localization error. Please report to ApiumSlicer team, what "
 "language was active and in which scenario this issue happened. Thank you.\n"
@@ -15289,16 +15289,16 @@ msgstr ""
 "\n"
 "The application will now terminate."
 
-#: src/slic3r/GUI/GUI_App.cpp:765
+#: src/slic3r/GUI/GUI_App.cpp:778
 msgid "Critical error"
 msgstr "Critical error"
 
-#: src/slic3r/GUI/GUI_App.cpp:770 src/slic3r/GUI/Jobs/SeqArrangeJob.cpp:67
+#: src/slic3r/GUI/GUI_App.cpp:783 src/slic3r/GUI/Jobs/SeqArrangeJob.cpp:67
 #, boost-format
 msgid "Internal error: %1%"
 msgstr "Internal error: %1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:879
+#: src/slic3r/GUI/GUI_App.cpp:892
 msgid ""
 "ApiumSlicer runs in Preview mode.\n"
 "\n"
@@ -15310,16 +15310,16 @@ msgstr ""
 "G-code export, send, and upload are disabled.\n"
 "Upgrade to the full version to export G-code."
 
-#: src/slic3r/GUI/GUI_App.cpp:880 src/slic3r/GUI/Plater.cpp:7321
+#: src/slic3r/GUI/GUI_App.cpp:893 src/slic3r/GUI/Plater.cpp:7319
 msgid "Preview mode"
 msgstr "Preview mode"
 
-#: src/slic3r/GUI/GUI_App.cpp:1187
+#: src/slic3r/GUI/GUI_App.cpp:1200
 #, boost-format
 msgid "You are opening %1% version %2%."
 msgstr "You are opening %1% version %2%."
 
-#: src/slic3r/GUI/GUI_App.cpp:1190
+#: src/slic3r/GUI/GUI_App.cpp:1203
 #, boost-format
 msgid ""
 "The active configuration was created by <b>%1% %2%</b>,\n"
@@ -15336,7 +15336,7 @@ msgstr ""
 "Shall the newer configuration be imported?\n"
 "If so, your active configuration will be backed up before importing the new configuration."
 
-#: src/slic3r/GUI/GUI_App.cpp:1198
+#: src/slic3r/GUI/GUI_App.cpp:1211
 #, boost-format
 msgid ""
 "An existing configuration was found in <b>%3%</b>\n"
@@ -15349,19 +15349,19 @@ msgstr ""
 "\n"
 "Shall this configuration be imported?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1206
+#: src/slic3r/GUI/GUI_App.cpp:1219
 msgid "Import"
 msgstr "Import"
 
-#: src/slic3r/GUI/GUI_App.cpp:1207
+#: src/slic3r/GUI/GUI_App.cpp:1220
 msgid "Don't import"
 msgstr "Don't import"
 
-#: src/slic3r/GUI/GUI_App.cpp:1215
+#: src/slic3r/GUI/GUI_App.cpp:1228
 msgid "Continue and import newer configuration?"
 msgstr "Continue and import newer configuration?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1384
+#: src/slic3r/GUI/GUI_App.cpp:1397
 msgid ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM available in the "
@@ -15375,7 +15375,7 @@ msgstr ""
 "Please download and install a 64 bit build of ApiumSlicer.\n"
 "Do you wish to continue?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1470
+#: src/slic3r/GUI/GUI_App.cpp:1483
 #, c-format, boost-format
 msgid ""
 "%s\n"
@@ -15384,27 +15384,27 @@ msgstr ""
 "%s\n"
 "Do you want to continue?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1472 src/slic3r/GUI/GUI_App.cpp:4037
+#: src/slic3r/GUI/GUI_App.cpp:1485 src/slic3r/GUI/GUI_App.cpp:4055
 #: src/slic3r/GUI/LoadStepDialog.cpp:64 src/slic3r/GUI/Plater.cpp:443
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:945
 msgid "Remember my choice"
 msgstr "Remember my choice"
 
-#: src/slic3r/GUI/GUI_App.cpp:1520
+#: src/slic3r/GUI/GUI_App.cpp:1535
 msgid "Loading configuration"
 msgstr "Loading configuration"
 
-#: src/slic3r/GUI/GUI_App.cpp:1553
+#: src/slic3r/GUI/GUI_App.cpp:1568
 #, boost-format
 msgid "New prerelease version %1% is available."
 msgstr "New prerelease version %1% is available."
 
-#: src/slic3r/GUI/GUI_App.cpp:1554
+#: src/slic3r/GUI/GUI_App.cpp:1569
 msgid "See Releases page."
 msgstr "See Releases page."
 
 #. TRN Notification text, %1% is list of vendors.
-#: src/slic3r/GUI/GUI_App.cpp:1585
+#: src/slic3r/GUI/GUI_App.cpp:1600
 #, boost-format
 msgid ""
 "Update check failed for the following vendors:\n"
@@ -15419,19 +15419,19 @@ msgstr ""
 "This may be due to an account logout or a lost connection. Please verify your account status and "
 "internet connection. Then select \"Check for Configuration Updates\" to repeat."
 
-#: src/slic3r/GUI/GUI_App.cpp:1626
+#: src/slic3r/GUI/GUI_App.cpp:1641
 msgid "Preparing settings tabs"
 msgstr "Preparing settings tabs"
 
-#: src/slic3r/GUI/GUI_App.cpp:1718 src/slic3r/GUI/Preferences.cpp:655
+#: src/slic3r/GUI/GUI_App.cpp:1733 src/slic3r/GUI/Preferences.cpp:655
 msgid "Restore window position on start"
 msgstr "Restore window position on start"
 
-#: src/slic3r/GUI/GUI_App.cpp:1720
+#: src/slic3r/GUI/GUI_App.cpp:1735
 msgid "ApiumSlicer started after a crash"
 msgstr "ApiumSlicer started after a crash"
 
-#: src/slic3r/GUI/GUI_App.cpp:1721
+#: src/slic3r/GUI/GUI_App.cpp:1736
 #, boost-format
 msgid ""
 "ApiumSlicer crashed last time when attempting to set window position.\n"
@@ -15452,21 +15452,21 @@ msgstr ""
 "To avoid this problem, consider disabling \"%4%\" in \"Preferences\". Otherwise, the application "
 "will most likely crash again next time."
 
-#: src/slic3r/GUI/GUI_App.cpp:1733
+#: src/slic3r/GUI/GUI_App.cpp:1748
 #, boost-format
 msgid "Disable \"%1%\""
 msgstr "Disable \"%1%\""
 
-#: src/slic3r/GUI/GUI_App.cpp:1734
+#: src/slic3r/GUI/GUI_App.cpp:1749
 #, boost-format
 msgid "Leave \"%1%\" enabled"
 msgstr "Leave \"%1%\" enabled"
 
-#: src/slic3r/GUI/GUI_App.cpp:2194
+#: src/slic3r/GUI/GUI_App.cpp:2209
 msgid "You have the following presets with saved options for \"Print Host upload\""
 msgstr "You have the following presets with saved options for \"Print Host upload\""
 
-#: src/slic3r/GUI/GUI_App.cpp:2198
+#: src/slic3r/GUI/GUI_App.cpp:2213
 msgid ""
 "But since this version of ApiumSlicer we don't show this information in Printer Settings "
 "anymore.\n"
@@ -15476,7 +15476,7 @@ msgstr ""
 "anymore.\n"
 "Settings will be available in physical printers settings."
 
-#: src/slic3r/GUI/GUI_App.cpp:2200
+#: src/slic3r/GUI/GUI_App.cpp:2215
 msgid ""
 "By default new Printer devices will be named as \"Printer N\" during its creation.\n"
 "Note: This name can be changed later from the physical printers settings"
@@ -15484,55 +15484,55 @@ msgstr ""
 "By default new Printer devices will be named as \"Printer N\" during its creation.\n"
 "Note: This name can be changed later from the physical printers settings"
 
-#: src/slic3r/GUI/GUI_App.cpp:2204 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
+#: src/slic3r/GUI/GUI_App.cpp:2219 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
 msgid "Information"
 msgstr "Information"
 
-#: src/slic3r/GUI/GUI_App.cpp:2219 src/slic3r/GUI/GUI_App.cpp:2229
+#: src/slic3r/GUI/GUI_App.cpp:2234 src/slic3r/GUI/GUI_App.cpp:2244
 msgid "Recreating"
 msgstr "Recreating"
 
-#: src/slic3r/GUI/GUI_App.cpp:2233
+#: src/slic3r/GUI/GUI_App.cpp:2248
 msgid "Loading of current presets"
 msgstr "Loading of current presets"
 
-#: src/slic3r/GUI/GUI_App.cpp:2238
+#: src/slic3r/GUI/GUI_App.cpp:2253
 msgid "Loading of a mode view"
 msgstr "Loading of a mode view"
 
-#: src/slic3r/GUI/GUI_App.cpp:2377
+#: src/slic3r/GUI/GUI_App.cpp:2392
 msgid "Choose one file (ApiumSlicer Project/3MF/AMF):"
 msgstr "Choose one file (ApiumSlicer Project/3MF/AMF):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2389
+#: src/slic3r/GUI/GUI_App.cpp:2404
 msgid "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 msgstr "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2400
+#: src/slic3r/GUI/GUI_App.cpp:2415
 msgid "Choose ZIP file"
 msgstr "Choose ZIP file"
 
-#: src/slic3r/GUI/GUI_App.cpp:2412
+#: src/slic3r/GUI/GUI_App.cpp:2427
 msgid "Choose one file (GCODE/GCO/G/BGCODE/BGC/NGC):"
 msgstr "Choose one file (GCODE/GCO/G/BGCODE/BGC/NGC):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2423
+#: src/slic3r/GUI/GUI_App.cpp:2438
 msgid "Changing of an application language"
 msgstr "Changing of an application language"
 
-#: src/slic3r/GUI/GUI_App.cpp:2567
+#: src/slic3r/GUI/GUI_App.cpp:2582
 msgid "Select the language"
 msgstr "Select the language"
 
-#: src/slic3r/GUI/GUI_App.cpp:2567
+#: src/slic3r/GUI/GUI_App.cpp:2582
 msgid "Language"
 msgstr "Language"
 
-#: src/slic3r/GUI/GUI_App.cpp:2734
+#: src/slic3r/GUI/GUI_App.cpp:2749
 msgid "modified"
 msgstr "modified"
 
-#: src/slic3r/GUI/GUI_App.cpp:2794
+#: src/slic3r/GUI/GUI_App.cpp:2809
 msgid ""
 "Simple mode supports manipulation with single-part object(s)\n"
 "or object(s) with support modifiers only."
@@ -15540,85 +15540,85 @@ msgstr ""
 "Simple mode supports manipulation with single-part object(s)\n"
 "or object(s) with support modifiers only."
 
-#: src/slic3r/GUI/GUI_App.cpp:2796
+#: src/slic3r/GUI/GUI_App.cpp:2811
 msgid "Please check your object list before mode changing."
 msgstr "Please check your object list before mode changing."
 
-#: src/slic3r/GUI/GUI_App.cpp:2797
+#: src/slic3r/GUI/GUI_App.cpp:2812
 msgid "Change application mode"
 msgstr "Change application mode"
 
-#: src/slic3r/GUI/GUI_App.cpp:2857
+#: src/slic3r/GUI/GUI_App.cpp:2872
 #, c-format, boost-format
 msgid "Run %s"
 msgstr "Run %s"
 
-#: src/slic3r/GUI/GUI_App.cpp:2861
+#: src/slic3r/GUI/GUI_App.cpp:2876
 msgid "&Configuration Snapshots"
 msgstr "&Configuration Snapshots"
 
-#: src/slic3r/GUI/GUI_App.cpp:2861
+#: src/slic3r/GUI/GUI_App.cpp:2876
 msgid "Inspect / activate configuration snapshots"
 msgstr "Inspect / activate configuration snapshots"
 
-#: src/slic3r/GUI/GUI_App.cpp:2862
+#: src/slic3r/GUI/GUI_App.cpp:2877
 msgid "Take Configuration &Snapshot"
 msgstr "Take Configuration &Snapshot"
 
-#: src/slic3r/GUI/GUI_App.cpp:2862
+#: src/slic3r/GUI/GUI_App.cpp:2877
 msgid "Capture a configuration snapshot"
 msgstr "Capture a configuration snapshot"
 
-#: src/slic3r/GUI/GUI_App.cpp:2865
+#: src/slic3r/GUI/GUI_App.cpp:2880
 msgid "Check for Configuration Updates"
 msgstr "Check for Configuration Updates"
 
-#: src/slic3r/GUI/GUI_App.cpp:2865
+#: src/slic3r/GUI/GUI_App.cpp:2880
 msgid "Check for configuration updates"
 msgstr "Check for configuration updates"
 
-#: src/slic3r/GUI/GUI_App.cpp:2866
+#: src/slic3r/GUI/GUI_App.cpp:2881
 msgid "Check for Application Updates"
 msgstr "Check for Application Updates"
 
-#: src/slic3r/GUI/GUI_App.cpp:2866
+#: src/slic3r/GUI/GUI_App.cpp:2881
 msgid "Check for new version of application"
 msgstr "Check for new version of application"
 
-#: src/slic3r/GUI/GUI_App.cpp:2876 src/slic3r/GUI/GUI_App.cpp:2878
+#: src/slic3r/GUI/GUI_App.cpp:2891 src/slic3r/GUI/GUI_App.cpp:2893
 msgid "&Preferences"
 msgstr "&Preferences"
 
-#: src/slic3r/GUI/GUI_App.cpp:2876 src/slic3r/GUI/GUI_App.cpp:2878
+#: src/slic3r/GUI/GUI_App.cpp:2891 src/slic3r/GUI/GUI_App.cpp:2893
 msgid "Application preferences"
 msgstr "Application preferences"
 
-#: src/slic3r/GUI/GUI_App.cpp:2890
+#: src/slic3r/GUI/GUI_App.cpp:2905
 msgid "&Language"
 msgstr "&Language"
 
-#: src/slic3r/GUI/GUI_App.cpp:2895
+#: src/slic3r/GUI/GUI_App.cpp:2910
 msgid "Flash Printer &Firmware"
 msgstr "Flash Printer &Firmware"
 
-#: src/slic3r/GUI/GUI_App.cpp:2895
+#: src/slic3r/GUI/GUI_App.cpp:2910
 msgid "Upload a firmware image into an Arduino based printer"
 msgstr "Upload a firmware image into an Arduino based printer"
 
-#: src/slic3r/GUI/GUI_App.cpp:2899
+#: src/slic3r/GUI/GUI_App.cpp:2914
 msgid "Wi-Fi Configuration File"
 msgstr "Wi-Fi Configuration File"
 
 #. TRN Wifi config dialog explanation line 1.
-#: src/slic3r/GUI/GUI_App.cpp:2899 src/slic3r/GUI/WifiConfigDialog.cpp:51
+#: src/slic3r/GUI/GUI_App.cpp:2914 src/slic3r/GUI/WifiConfigDialog.cpp:51
 msgid "Generate a file to be loaded by a Prusa printer to configure its Wi-Fi connection."
 msgstr "Generate a file to be loaded by a Prusa printer to configure its Wi-Fi connection."
 
-#: src/slic3r/GUI/GUI_App.cpp:2920
+#: src/slic3r/GUI/GUI_App.cpp:2935
 msgid "Taking a configuration snapshot"
 msgstr "Taking a configuration snapshot"
 
-#: src/slic3r/GUI/GUI_App.cpp:2921
+#: src/slic3r/GUI/GUI_App.cpp:2936
 msgid ""
 "Some presets are modified and the unsaved changes will not be captured by the configuration "
 "snapshot."
@@ -15626,28 +15626,28 @@ msgstr ""
 "Some presets are modified and the unsaved changes will not be captured by the configuration "
 "snapshot."
 
-#: src/slic3r/GUI/GUI_App.cpp:2922
+#: src/slic3r/GUI/GUI_App.cpp:2937
 msgid "Snapshot name"
 msgstr "Snapshot name"
 
-#: src/slic3r/GUI/GUI_App.cpp:2938
+#: src/slic3r/GUI/GUI_App.cpp:2953
 msgid "Loading a configuration snapshot"
 msgstr "Loading a configuration snapshot"
 
-#: src/slic3r/GUI/GUI_App.cpp:2947
+#: src/slic3r/GUI/GUI_App.cpp:2962
 #, boost-format
 msgid "Continue to activate a configuration snapshot %1%?"
 msgstr "Continue to activate a configuration snapshot %1%?"
 
-#: src/slic3r/GUI/GUI_App.cpp:2961
+#: src/slic3r/GUI/GUI_App.cpp:2976
 msgid "Failed to activate configuration snapshot."
 msgstr "Failed to activate configuration snapshot."
 
-#: src/slic3r/GUI/GUI_App.cpp:2983
+#: src/slic3r/GUI/GUI_App.cpp:2998
 msgid "Language selection"
 msgstr "Language selection"
 
-#: src/slic3r/GUI/GUI_App.cpp:2986
+#: src/slic3r/GUI/GUI_App.cpp:3001
 msgid ""
 "Switching the language will trigger application restart.\n"
 "You will lose content of the plater."
@@ -15655,62 +15655,62 @@ msgstr ""
 "Switching the language will trigger application restart.\n"
 "You will lose content of the plater."
 
-#: src/slic3r/GUI/GUI_App.cpp:2988 src/slic3r/GUI/Preferences.cpp:1171
+#: src/slic3r/GUI/GUI_App.cpp:3003 src/slic3r/GUI/Preferences.cpp:1171
 #: src/slic3r/GUI/Selection.cpp:1506
 msgid "Do you want to proceed?"
 msgstr "Do you want to proceed?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3027
+#: src/slic3r/GUI/GUI_App.cpp:3042
 msgid "Restart application"
 msgstr "Restart application"
 
-#: src/slic3r/GUI/GUI_App.cpp:3197
+#: src/slic3r/GUI/GUI_App.cpp:3212
 msgid "For new project all modifications will be reseted"
 msgstr "For new project all modifications will be reseted"
 
-#: src/slic3r/GUI/GUI_App.cpp:3235
+#: src/slic3r/GUI/GUI_App.cpp:3250
 msgid "Loading a new project while the current project is modified."
 msgstr "Loading a new project while the current project is modified."
 
-#: src/slic3r/GUI/GUI_App.cpp:3238
+#: src/slic3r/GUI/GUI_App.cpp:3253
 msgid "Project is loading"
 msgstr "Project is loading"
 
-#: src/slic3r/GUI/GUI_App.cpp:3238
+#: src/slic3r/GUI/GUI_App.cpp:3253
 msgid "Opening new project while some presets are unsaved."
 msgstr "Opening new project while some presets are unsaved."
 
-#: src/slic3r/GUI/GUI_App.cpp:3257
+#: src/slic3r/GUI/GUI_App.cpp:3272
 msgid "The uploads are still ongoing"
 msgstr "The uploads are still ongoing"
 
-#: src/slic3r/GUI/GUI_App.cpp:3257
+#: src/slic3r/GUI/GUI_App.cpp:3272
 msgid "Stop them and continue anyway?"
 msgstr "Stop them and continue anyway?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3261
+#: src/slic3r/GUI/GUI_App.cpp:3276
 msgid "Ongoing uploads"
 msgstr "Ongoing uploads"
 
-#: src/slic3r/GUI/GUI_App.cpp:3586
+#: src/slic3r/GUI/GUI_App.cpp:3601
 msgid "It's impossible to print object(s) which contains parameter modifiers with SLA technology."
 msgstr "It's impossible to print object(s) which contains parameter modifiers with SLA technology."
 
-#: src/slic3r/GUI/GUI_App.cpp:3587 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
+#: src/slic3r/GUI/GUI_App.cpp:3602 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
 msgid "Please check your object list before preset changing."
 msgstr "Please check your object list before preset changing."
 
 #. TRN: Progress dialog title
-#: src/slic3r/GUI/GUI_App.cpp:3602 src/slic3r/GUI/UpdateDialogs.cpp:292
+#: src/slic3r/GUI/GUI_App.cpp:3617 src/slic3r/GUI/UpdateDialogs.cpp:292
 msgid "Opening Configuration Wizard"
 msgstr "Opening Configuration Wizard"
 
-#: src/slic3r/GUI/GUI_App.cpp:3690
+#: src/slic3r/GUI/GUI_App.cpp:3705
 #, boost-format
 msgid "Welcome to %1% version %2%."
 msgstr "Welcome to %1% version %2%."
 
-#: src/slic3r/GUI/GUI_App.cpp:3692
+#: src/slic3r/GUI/GUI_App.cpp:3707
 #, boost-format
 msgid ""
 "Do you wish to register downloads from <b>Printables.com</b>\n"
@@ -15723,11 +15723,11 @@ msgstr ""
 "\n"
 "Downloads can be registered for only 1 executable at time."
 
-#: src/slic3r/GUI/GUI_App.cpp:3720
+#: src/slic3r/GUI/GUI_App.cpp:3735
 msgid "Select a gcode file:"
 msgstr "Select a gcode file:"
 
-#: src/slic3r/GUI/GUI_App.cpp:3944
+#: src/slic3r/GUI/GUI_App.cpp:3962
 msgid ""
 "The bundled vendor profiles were refreshed.\n"
 "\n"
@@ -15737,11 +15737,11 @@ msgstr ""
 "\n"
 "Do you want to open the Configuration Wizard now to select and install new manufacturer profiles?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3945
+#: src/slic3r/GUI/GUI_App.cpp:3963
 msgid "Install new profiles"
 msgstr "Install new profiles"
 
-#: src/slic3r/GUI/GUI_App.cpp:3989
+#: src/slic3r/GUI/GUI_App.cpp:4007
 #, boost-format
 msgid ""
 "An ApiumSlicer update was detected from version %1% to %2%.\n"
@@ -15752,31 +15752,31 @@ msgstr ""
 "\n"
 "Do you want to refresh the bundled vendor profiles from this application package now?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3991
+#: src/slic3r/GUI/GUI_App.cpp:4009
 msgid "Update detected"
 msgstr "Update detected"
 
-#: src/slic3r/GUI/GUI_App.cpp:4036 src/slic3r/GUI/GUI_App.cpp:4056
+#: src/slic3r/GUI/GUI_App.cpp:4054 src/slic3r/GUI/GUI_App.cpp:4074
 msgid "Open hyperlink in default browser?"
 msgstr "Open hyperlink in default browser?"
 
-#: src/slic3r/GUI/GUI_App.cpp:4036 src/slic3r/GUI/GUI_App.cpp:4056
+#: src/slic3r/GUI/GUI_App.cpp:4054 src/slic3r/GUI/GUI_App.cpp:4074
 msgid "ApiumSlicer: Open hyperlink"
 msgstr "ApiumSlicer: Open hyperlink"
 
-#: src/slic3r/GUI/GUI_App.cpp:4041 src/slic3r/GUI/Preferences.cpp:975
+#: src/slic3r/GUI/GUI_App.cpp:4059 src/slic3r/GUI/Preferences.cpp:975
 msgid "Suppress to open hyperlink in browser"
 msgstr "Suppress to open hyperlink in browser"
 
-#: src/slic3r/GUI/GUI_App.cpp:4043 src/slic3r/GUI/MainFrame.cpp:999 src/slic3r/GUI/Plater.cpp:449
+#: src/slic3r/GUI/GUI_App.cpp:4061 src/slic3r/GUI/MainFrame.cpp:999 src/slic3r/GUI/Plater.cpp:449
 msgid "ApiumSlicer will remember your choice."
 msgstr "ApiumSlicer will remember your choice."
 
-#: src/slic3r/GUI/GUI_App.cpp:4044
+#: src/slic3r/GUI/GUI_App.cpp:4062
 msgid "You will not be asked about it again on hyperlinks hovering."
 msgstr "You will not be asked about it again on hyperlinks hovering."
 
-#: src/slic3r/GUI/GUI_App.cpp:4045 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:453
+#: src/slic3r/GUI/GUI_App.cpp:4063 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:453
 #, boost-format
 msgid ""
 "Visit \"Preferences\" and check \"%1%\"\n"
@@ -15785,12 +15785,12 @@ msgstr ""
 "Visit \"Preferences\" and check \"%1%\"\n"
 "to changes your choice."
 
-#: src/slic3r/GUI/GUI_App.cpp:4047 src/slic3r/GUI/MainFrame.cpp:1002 src/slic3r/GUI/Plater.cpp:455
+#: src/slic3r/GUI/GUI_App.cpp:4065 src/slic3r/GUI/MainFrame.cpp:1002 src/slic3r/GUI/Plater.cpp:455
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:962
 msgid "ApiumSlicer: Don't ask me again"
 msgstr "ApiumSlicer: Don't ask me again"
 
-#: src/slic3r/GUI/GUI_App.cpp:4098
+#: src/slic3r/GUI/GUI_App.cpp:4116
 msgid ""
 "Open default browser with Prusa Account Log in page?\n"
 "(If you select 'Yes', you will not be asked again.)"
@@ -15798,34 +15798,34 @@ msgstr ""
 "Open default browser with Prusa Account Log in page?\n"
 "(If you select 'Yes', you will not be asked again.)"
 
-#: src/slic3r/GUI/GUI_App.cpp:4098
+#: src/slic3r/GUI/GUI_App.cpp:4116
 msgid "ApiumSlicer: Open Log in page"
 msgstr "ApiumSlicer: Open Log in page"
 
-#: src/slic3r/GUI/GUI_App.cpp:4212
+#: src/slic3r/GUI/GUI_App.cpp:4230
 msgid "Check for application update has failed."
 msgstr "Check for application update has failed."
 
-#: src/slic3r/GUI/GUI_App.cpp:4213
+#: src/slic3r/GUI/GUI_App.cpp:4231
 #, boost-format
 msgid "You are currently running the latest released version %1%."
 msgstr "You are currently running the latest released version %1%."
 
-#: src/slic3r/GUI/GUI_App.cpp:4216
+#: src/slic3r/GUI/GUI_App.cpp:4234
 #, boost-format
 msgid "There are no new released versions online. The latest release version is %1%."
 msgstr "There are no new released versions online. The latest release version is %1%."
 
-#: src/slic3r/GUI/GUI_App.cpp:4281 src/slic3r/GUI/WebViewPanel.cpp:2148
+#: src/slic3r/GUI/GUI_App.cpp:4299 src/slic3r/GUI/WebViewPanel.cpp:2148
 #, boost-format
 msgid "Downloading %1%"
 msgstr "Downloading %1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4291
+#: src/slic3r/GUI/GUI_App.cpp:4309
 msgid "Downloading of the new version is in progress. Do you want to continue?"
 msgstr "Downloading of the new version is in progress. Do you want to continue?"
 
-#: src/slic3r/GUI/GUI_App.cpp:4321 src/slic3r/GUI/GUI_App.cpp:4676 src/slic3r/GUI/GUI_App.cpp:4691
+#: src/slic3r/GUI/GUI_App.cpp:4339 src/slic3r/GUI/GUI_App.cpp:4694 src/slic3r/GUI/GUI_App.cpp:4709
 msgid ""
 "Could not start URL download. Destination folder is not set. Please choose destination folder in "
 "Configuration Wizard."
@@ -15834,16 +15834,16 @@ msgstr ""
 "Configuration Wizard."
 
 #. TRN Text of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4343 src/slic3r/GUI/Plater.cpp:1096
+#: src/slic3r/GUI/GUI_App.cpp:4361 src/slic3r/GUI/Plater.cpp:1096
 msgid "Printer configuration file detected on removable media."
 msgstr "Printer configuration file detected on removable media."
 
 #. TRN Text of hypertext of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4345 src/slic3r/GUI/Plater.cpp:1098
+#: src/slic3r/GUI/GUI_App.cpp:4363 src/slic3r/GUI/Plater.cpp:1098
 msgid "Write Wi-Fi credentials."
 msgstr "Write Wi-Fi credentials."
 
-#: src/slic3r/GUI/GUI_App.cpp:4499
+#: src/slic3r/GUI/GUI_App.cpp:4517
 #, boost-format
 msgid ""
 "Installed and selected printer:\n"
@@ -15852,7 +15852,7 @@ msgstr ""
 "Installed and selected printer:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4500
+#: src/slic3r/GUI/GUI_App.cpp:4518
 #, boost-format
 msgid ""
 "Selected printer:\n"
@@ -15861,7 +15861,7 @@ msgstr ""
 "Selected printer:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4501
+#: src/slic3r/GUI/GUI_App.cpp:4519
 #, boost-format
 msgid ""
 "Printer not found:\n"
@@ -15870,23 +15870,23 @@ msgstr ""
 "Printer not found:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4556 src/slic3r/GUI/GUI_App.cpp:4574
+#: src/slic3r/GUI/GUI_App.cpp:4574 src/slic3r/GUI/GUI_App.cpp:4592
 #, boost-format
 msgid "%1%: Selected filament %2%"
 msgstr "%1%: Selected filament %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4590
+#: src/slic3r/GUI/GUI_App.cpp:4608
 #, boost-format
 msgid "%1%: Installed and selected filament %2%"
 msgstr "%1%: Installed and selected filament %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4594
+#: src/slic3r/GUI/GUI_App.cpp:4612
 #, boost-format
 msgid "%2%: Failed to find and select filament type: %1%"
 msgstr "%2%: Failed to find and select filament type: %1%"
 
 #. TRN: Notification text.
-#: src/slic3r/GUI/GUI_App.cpp:4613
+#: src/slic3r/GUI/GUI_App.cpp:4631
 msgid "Failed to select filament from Connect."
 msgstr "Failed to select filament from Connect."
 
@@ -16012,7 +16012,7 @@ msgid "Add Text"
 msgstr "Add Text"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:673 src/slic3r/GUI/GUI_Factories.cpp:695
-#: src/slic3r/GUI/GUI_Factories.cpp:1096 src/slic3r/GUI/GUI_ObjectList.cpp:946
+#: src/slic3r/GUI/GUI_Factories.cpp:1096 src/slic3r/GUI/GUI_ObjectList.cpp:978
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:570 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1834
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1715
 msgid "Text"
@@ -16042,8 +16042,8 @@ msgstr "Add editable text or vector graphics to a selected surface."
 msgid "Add settings"
 msgstr "Add settings"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:858 src/slic3r/GUI/GUI_ObjectList.cpp:188
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4928
+#: src/slic3r/GUI/GUI_Factories.cpp:858 src/slic3r/GUI/GUI_ObjectList.cpp:189
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4972
 msgid "Change type"
 msgstr "Change type"
 
@@ -16080,12 +16080,12 @@ msgstr "Set as a Separated Objects"
 msgid "Printable"
 msgstr "Printable"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:955 src/slic3r/GUI/GUI_ObjectList.cpp:2374
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2897
+#: src/slic3r/GUI/GUI_Factories.cpp:955 src/slic3r/GUI/GUI_ObjectList.cpp:2418
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2941
 msgid "Invalidate cut info"
 msgstr "Invalidate cut info"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:980 src/slic3r/GUI/GUI_ObjectList.cpp:5326
+#: src/slic3r/GUI/GUI_Factories.cpp:980 src/slic3r/GUI/GUI_ObjectList.cpp:5370
 msgid "Fix by Windows repair algorithm"
 msgstr "Fix by Windows repair algorithm"
 
@@ -16129,7 +16129,7 @@ msgstr " (active)"
 msgid "Use another extruder"
 msgstr "Use another extruder"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1146 src/slic3r/GUI/GUI_ObjectList.cpp:1295
+#: src/slic3r/GUI/GUI_Factories.cpp:1146 src/slic3r/GUI/GUI_ObjectList.cpp:1339
 msgid "Copy settings to targets"
 msgstr "Copy settings to targets"
 
@@ -16165,19 +16165,19 @@ msgstr "Move center"
 msgid "Move selected objects to bed center"
 msgstr "Move selected objects to bed center"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1327 src/slic3r/GUI/Plater.cpp:7088
+#: src/slic3r/GUI/GUI_Factories.cpp:1327 src/slic3r/GUI/Plater.cpp:7086
 msgid "Convert from imperial units"
 msgstr "Convert from imperial units"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1328 src/slic3r/GUI/Plater.cpp:7089
+#: src/slic3r/GUI/GUI_Factories.cpp:1328 src/slic3r/GUI/Plater.cpp:7087
 msgid "Revert conversion from imperial units"
 msgstr "Revert conversion from imperial units"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1329 src/slic3r/GUI/Plater.cpp:7090
+#: src/slic3r/GUI/GUI_Factories.cpp:1329 src/slic3r/GUI/Plater.cpp:7088
 msgid "Convert from meters"
 msgstr "Convert from meters"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1330 src/slic3r/GUI/Plater.cpp:7090
+#: src/slic3r/GUI/GUI_Factories.cpp:1330 src/slic3r/GUI/Plater.cpp:7088
 msgid "Revert conversion from meters"
 msgstr "Revert conversion from meters"
 
@@ -16229,8 +16229,8 @@ msgstr "Edit SVG"
 msgid "Change SVG source file, projection, size, ..."
 msgstr "Change SVG source file, projection, size, ..."
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1472 src/slic3r/GUI/GUI_Factories.cpp:1825
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2093
+#: src/slic3r/GUI/GUI_Factories.cpp:1472 src/slic3r/GUI/GUI_Factories.cpp:1827
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2137
 msgid "Add Shape"
 msgstr "Add Shape"
 
@@ -16278,31 +16278,31 @@ msgstr "Change target part"
 msgid "Remove part binding (object-wide)"
 msgstr "Remove part binding (object-wide)"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1760 src/slic3r/GUI/GUI_Factories.cpp:1778
+#: src/slic3r/GUI/GUI_Factories.cpp:1762 src/slic3r/GUI/GUI_Factories.cpp:1780
 msgid "Set number of instances"
 msgstr "Set number of instances"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1760
+#: src/slic3r/GUI/GUI_Factories.cpp:1762
 msgid "Change the number of instances of the selected objects"
 msgstr "Change the number of instances of the selected objects"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1772
+#: src/slic3r/GUI/GUI_Factories.cpp:1774
 msgid "Add one more instance of the selected object"
 msgstr "Add one more instance of the selected object"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1775
+#: src/slic3r/GUI/GUI_Factories.cpp:1777
 msgid "Remove one instance of the selected object"
 msgstr "Remove one instance of the selected object"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1778
+#: src/slic3r/GUI/GUI_Factories.cpp:1780
 msgid "Change the number of instances of the selected object"
 msgstr "Change the number of instances of the selected object"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1782
+#: src/slic3r/GUI/GUI_Factories.cpp:1784
 msgid "Fill bed with instances"
 msgstr "Fill bed with instances"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1782
+#: src/slic3r/GUI/GUI_Factories.cpp:1784
 msgid "Fill the remaining area of bed with instances of the selected object"
 msgstr "Fill the remaining area of bed with instances of the selected object"
 
@@ -16331,286 +16331,294 @@ msgstr "Remove layer range"
 msgid "Add layer range"
 msgstr "Add layer range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:173
+#: src/slic3r/GUI/GUI_ObjectList.cpp:174
 msgid "1 copy"
 msgstr "1 copy"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:174
+#: src/slic3r/GUI/GUI_ObjectList.cpp:175
 #, boost-format
 msgid "%1% copies"
 msgstr "%1% copies"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:188
+#: src/slic3r/GUI/GUI_ObjectList.cpp:189
 msgid "No suitable target object is available on this print bed."
 msgstr "No suitable target object is available on this print bed."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:192
+#: src/slic3r/GUI/GUI_ObjectList.cpp:193
 msgid "Target object:"
 msgstr "Target object:"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:192
+#: src/slic3r/GUI/GUI_ObjectList.cpp:193
 msgid "Select target object"
 msgstr "Select target object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:545 src/slic3r/GUI/GUI_ObjectList.cpp:585
+#: src/slic3r/GUI/GUI_ObjectList.cpp:546 src/slic3r/GUI/GUI_ObjectList.cpp:586
 msgid "Toolhead"
 msgstr "Toolhead"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:697
+#: src/slic3r/GUI/GUI_ObjectList.cpp:698
 msgid "Invalid object part index"
 msgstr "Invalid object part index"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:714
+#: src/slic3r/GUI/GUI_ObjectList.cpp:715
 #, c-format, boost-format
 msgid "Auto-repaired %1$d error"
 msgid_plural "Auto-repaired %1$d errors"
 msgstr[0] "Auto-repaired %1$d error"
 msgstr[1] "Auto-repaired %1$d errors"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:720
+#: src/slic3r/GUI/GUI_ObjectList.cpp:721
 #, c-format, boost-format
 msgid "%1$d degenerate facet"
 msgid_plural "%1$d degenerate facets"
 msgstr[0] "%1$d degenerate facet"
 msgstr[1] "%1$d degenerate facets"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:722
+#: src/slic3r/GUI/GUI_ObjectList.cpp:723
 #, c-format, boost-format
 msgid "%1$d edge fixed"
 msgid_plural "%1$d edges fixed"
 msgstr[0] "%1$d edge fixed"
 msgstr[1] "%1$d edges fixed"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:724
+#: src/slic3r/GUI/GUI_ObjectList.cpp:725
 #, c-format, boost-format
 msgid "%1$d facet removed"
 msgid_plural "%1$d facets removed"
 msgstr[0] "%1$d facet removed"
 msgstr[1] "%1$d facets removed"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:726
+#: src/slic3r/GUI/GUI_ObjectList.cpp:727
 #, c-format, boost-format
 msgid "%1$d facet reversed"
 msgid_plural "%1$d facets reversed"
 msgstr[0] "%1$d facet reversed"
 msgstr[1] "%1$d facets reversed"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:728
+#: src/slic3r/GUI/GUI_ObjectList.cpp:729
 #, c-format, boost-format
 msgid "%1$d backward edge"
 msgid_plural "%1$d backward edges"
 msgstr[0] "%1$d backward edge"
 msgstr[1] "%1$d backward edges"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:731 src/slic3r/GUI/GUI_ObjectList.cpp:734
+#: src/slic3r/GUI/GUI_ObjectList.cpp:732 src/slic3r/GUI/GUI_ObjectList.cpp:735
 #, c-format, boost-format
 msgid "%1$d open edge"
 msgid_plural "%1$d open edges"
 msgstr[0] "%1$d open edge"
 msgstr[1] "%1$d open edges"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:733
+#: src/slic3r/GUI/GUI_ObjectList.cpp:734
 msgid "Remaining errors"
 msgstr "Remaining errors"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:741
+#: src/slic3r/GUI/GUI_ObjectList.cpp:742
 msgid "Right button click the icon to fix STL by Windows repair algorithm"
 msgstr "Right button click the icon to fix STL by Windows repair algorithm"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:788
+#: src/slic3r/GUI/GUI_ObjectList.cpp:809
+msgid "Printing order in Complete individual objects mode."
+msgstr "Printing order in Complete individual objects mode."
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:820
 msgid "Right button click the icon to change the object settings"
 msgstr "Right button click the icon to change the object settings"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:790
+#: src/slic3r/GUI/GUI_ObjectList.cpp:822
 msgid "Click the icon to change the object settings"
 msgstr "Click the icon to change the object settings"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:794
+#: src/slic3r/GUI/GUI_ObjectList.cpp:826
 msgid "Right button click the icon to change the object printable property"
 msgstr "Right button click the icon to change the object printable property"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:796
+#: src/slic3r/GUI/GUI_ObjectList.cpp:828
 msgid "Click the icon to change the object printable property"
 msgstr "Click the icon to change the object printable property"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:935
+#: src/slic3r/GUI/GUI_ObjectList.cpp:967
 msgid "Change Extruder"
 msgstr "Change Extruder"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:964
+#: src/slic3r/GUI/GUI_ObjectList.cpp:996
 msgid "Target part missing"
 msgstr "Target part missing"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:974
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1013
+msgid "Rename Instance"
+msgstr "Rename Instance"
+
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1019
 msgid "Rename Object"
 msgstr "Rename Object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:974
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1019
 msgid "Rename Sub-object"
 msgstr "Rename Sub-object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1326
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1370
 #, boost-format
 msgid "Skipped %1% incompatible setting(s) for %2% target(s)."
 msgstr "Skipped %1% incompatible setting(s) for %2% target(s)."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1502
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1546
 msgid "Move up"
 msgstr "Move up"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1502
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1546
 msgid "Move down"
 msgstr "Move down"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1503
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1547
 msgid "Move to beginning"
 msgstr "Move to beginning"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1503
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1547
 msgid "Move to end"
 msgstr "Move to end"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1698
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1742
 msgid "Add Settings for Layers"
 msgstr "Add Settings for Layers"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1699
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1743
 msgid "Add Settings for Sub-object"
 msgstr "Add Settings for Sub-object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1700
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1744
 msgid "Add Settings for Object"
 msgstr "Add Settings for Object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1739
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1783
 msgid "Add Settings Bundle for Height range"
 msgstr "Add Settings Bundle for Height range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1740
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1784
 msgid "Add Settings Bundle for Sub-object"
 msgstr "Add Settings Bundle for Sub-object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1741
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1785
 msgid "Add Settings Bundle for Object"
 msgstr "Add Settings Bundle for Object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1837
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1881
 msgid "Load Part"
 msgstr "Load Part"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1837
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1881
 msgid "Load Modifier"
 msgstr "Load Modifier"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1869 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4462
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1913 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4462
 #: src/slic3r/GUI/Plater.cpp:1535
 msgid "Loading"
 msgstr "Loading"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1869 src/slic3r/GUI/GUI_ObjectList.cpp:1870
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1913 src/slic3r/GUI/GUI_ObjectList.cpp:1914
 #: src/slic3r/GUI/Plater.cpp:1544 src/slic3r/GUI/Plater.cpp:1553 src/slic3r/GUI/Plater.cpp:1557
 msgid "Preparing to load..."
 msgstr "Preparing to load..."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1907 src/slic3r/GUI/Plater.cpp:1595
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1951 src/slic3r/GUI/Plater.cpp:1595
 msgid "Loading file"
 msgstr "Loading file"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1913 src/slic3r/GUI/Plater.cpp:1673
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1957 src/slic3r/GUI/Plater.cpp:1673
 msgid "Loading geometry..."
 msgstr "Loading geometry..."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1917 src/slic3r/GUI/Plater.cpp:1687
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1961 src/slic3r/GUI/Plater.cpp:1687
 msgid "Processing model..."
 msgstr "Processing model..."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1921 src/slic3r/GUI/Plater.cpp:1625
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1965 src/slic3r/GUI/Plater.cpp:1625
 msgid "Error!"
 msgstr "Error!"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1941 src/slic3r/GUI/Plater.cpp:1928
+#: src/slic3r/GUI/GUI_ObjectList.cpp:1985 src/slic3r/GUI/Plater.cpp:1928
 #: src/slic3r/GUI/Plater.cpp:1937
 msgid "Adding objects to the plater..."
 msgstr "Adding objects to the plater..."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:1969 src/slic3r/GUI/MainFrame.cpp:2061
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2013 src/slic3r/GUI/MainFrame.cpp:2061
 #: src/slic3r/GUI/MainFrame.cpp:2103 src/slic3r/GUI/Plater.cpp:2012
 msgid "Finalizing..."
 msgstr "Finalizing..."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2029
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2073
 msgid "Add Generic Subobject"
 msgstr "Add Generic Subobject"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2061
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2105
 msgid "Generic"
 msgstr "Generic"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2126
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2170
 msgid "Add Shape from Gallery"
 msgstr "Add Shape from Gallery"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2126
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2170
 msgid "Add Shapes from Gallery"
 msgstr "Add Shapes from Gallery"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2236
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2280
 msgid "Remove paint-on supports"
 msgstr "Remove paint-on supports"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2243
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2287
 msgid "Remove paint-on seam"
 msgstr "Remove paint-on seam"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2250
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2294
 msgid "Remove paint-on ironing surfaces"
 msgstr "Remove paint-on ironing surfaces"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2264
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2308
 msgid "Remove Multi Material painting"
 msgstr "Remove Multi Material painting"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2271
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2315
 msgid "Remove paint-on fuzzy skin"
 msgstr "Remove paint-on fuzzy skin"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2277
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2321
 msgid "Shift objects to bed"
 msgstr "Shift objects to bed"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2283
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2327
 msgid "Remove variable layer height"
 msgstr "Remove variable layer height"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2304
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2348
 msgid "Delete Settings"
 msgstr "Delete Settings"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2328
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2372
 msgid "Delete All Instances from Object"
 msgstr "Delete All Instances from Object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2344
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2388
 msgid "Delete Height Range"
 msgstr "Delete Height Range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2362
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2406
 msgid "Delete connector from object which is a part of cut"
 msgstr "Delete connector from object which is a part of cut"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2363
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2407
 msgid "Delete solid part from object which is a part of cut"
 msgstr "Delete solid part from object which is a part of cut"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2364
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2408
 msgid "Delete negative volume from object which is a part of cut"
 msgstr "Delete negative volume from object which is a part of cut"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2366
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2410
 msgid "To save cut information you can delete all connectors from all related objects."
 msgstr "To save cut information you can delete all connectors from all related objects."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2369
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2413
 msgid ""
 "This action will break a cut information.\n"
 "After that ApiumSlicer can't guarantee model consistency."
@@ -16618,45 +16626,45 @@ msgstr ""
 "This action will break a cut information.\n"
 "After that ApiumSlicer can't guarantee model consistency."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2371
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2415
 msgid ""
 "To manipulate with solid parts or negative volumes you have to invalidate cut information first."
 msgstr ""
 "To manipulate with solid parts or negative volumes you have to invalidate cut information first."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2376 src/slic3r/GUI/GUI_ObjectList.cpp:2927
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2420 src/slic3r/GUI/GUI_ObjectList.cpp:2971
 msgid "Delete all connectors"
 msgstr "Delete all connectors"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2407
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2451
 msgid "From Object List You can't delete the last solid part from object."
 msgstr "From Object List You can't delete the last solid part from object."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2416
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2460
 msgid "Delete Subobject"
 msgstr "Delete Subobject"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2442
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2486
 msgid "Last instance of an object cannot be deleted."
 msgstr "Last instance of an object cannot be deleted."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2446
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2490
 msgid "Instance cannot be deleted from cut object."
 msgstr "Instance cannot be deleted from cut object."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2450
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2494
 msgid "Delete Instance"
 msgstr "Delete Instance"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2474
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2518
 msgid "The selected object couldn't be split because it contains only one part."
 msgstr "The selected object couldn't be split because it contains only one part."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2478
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2522
 msgid "Split to Parts"
 msgstr "Split to Parts"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2481
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2525
 msgid ""
 "Custom supports, seams, fuzzy skin and multi-material painting were removed after splitting the "
 "object."
@@ -16664,72 +16672,72 @@ msgstr ""
 "Custom supports, seams, fuzzy skin and multi-material painting were removed after splitting the "
 "object."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2616 src/slic3r/GUI/GUI_ObjectList.cpp:2706
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2660 src/slic3r/GUI/GUI_ObjectList.cpp:2750
 msgid "Painted adhesion pads were removed after merging objects."
 msgstr "Painted adhesion pads were removed after merging objects."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2622
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2666
 msgid "Merged"
 msgstr "Merged"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2697
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2741
 msgid "Merge all parts to the one single object"
 msgstr "Merge all parts to the one single object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2737
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2781
 msgid "Add Layers"
 msgstr "Add Layers"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3012
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3056
 msgid "Connectors information"
 msgstr "Connectors information"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3022 src/slic3r/GUI/GUI_ObjectList.cpp:3087
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3066 src/slic3r/GUI/GUI_ObjectList.cpp:3131
 msgid "Object manipulation"
 msgstr "Object manipulation"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3032
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3076
 msgid "Group manipulation"
 msgstr "Group manipulation"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3127
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3171
 msgid "Object Settings to modify"
 msgstr "Object Settings to modify"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3131
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3175
 msgid "Part Settings to modify"
 msgstr "Part Settings to modify"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3136
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3180
 msgid "Layer range Settings to modify"
 msgstr "Layer range Settings to modify"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3142
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3186
 msgid "Part manipulation"
 msgstr "Part manipulation"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3150
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3194
 msgid "Instance manipulation"
 msgstr "Instance manipulation"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3158
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3202
 msgid "Height ranges"
 msgstr "Height ranges"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3158
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3202
 msgid "Settings for height range"
 msgstr "Settings for height range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3744
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3788
 msgid "Delete Selected"
 msgstr "Delete Selected"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3822 src/slic3r/GUI/GUI_ObjectList.cpp:3850
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3870
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3866 src/slic3r/GUI/GUI_ObjectList.cpp:3894
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3914
 msgid "Add Height Range"
 msgstr "Add Height Range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3916
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3960
 msgid ""
 "Cannot insert a new layer range after the current layer range.\n"
 "The next layer range is too thin to be split to two\n"
@@ -16739,7 +16747,7 @@ msgstr ""
 "The next layer range is too thin to be split to two\n"
 "without violating the minimum layer height."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3920
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3964
 msgid ""
 "Cannot insert a new layer range between the current and the next layer range.\n"
 "The gap between the current layer range and the next layer range\n"
@@ -16749,7 +16757,7 @@ msgstr ""
 "The gap between the current layer range and the next layer range\n"
 "is thinner than the minimum layer height allowed."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3925
+#: src/slic3r/GUI/GUI_ObjectList.cpp:3969
 msgid ""
 "Cannot insert a new layer range after the current layer range.\n"
 "Current layer range overlaps with the next layer range."
@@ -16757,67 +16765,67 @@ msgstr ""
 "Cannot insert a new layer range after the current layer range.\n"
 "Current layer range overlaps with the next layer range."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:3984
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4028
 msgid "Edit Height Range"
 msgstr "Edit Height Range"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4366
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4410
 msgid "Selection-Remove from list"
 msgstr "Selection-Remove from list"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4378
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4422
 msgid "Selection-Add from list"
 msgstr "Selection-Add from list"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4517
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4561
 msgid "Object or Instance"
 msgstr "Object or Instance"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4518 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:262
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4562 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:262
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:2739
 msgid "Part"
 msgstr "Part"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4520
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4564
 msgid "Unsupported selection"
 msgstr "Unsupported selection"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4521
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4565
 #, c-format, boost-format
 msgid "You started your selection with %s Item."
 msgstr "You started your selection with %s Item."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4522
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4566
 #, c-format, boost-format
 msgid "In this mode you can select only other %s Items%s"
 msgstr "In this mode you can select only other %s Items%s"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4525
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4569
 msgid "of a current Object"
 msgstr "of a current Object"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4530 src/slic3r/GUI/GUI_ObjectList.cpp:4605
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4574 src/slic3r/GUI/GUI_ObjectList.cpp:4649
 #: src/slic3r/GUI/Sidebar.cpp:108
 msgid "Info"
 msgstr "Info"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4794
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4838
 msgid "Part:"
 msgstr "Part:"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4794
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4838
 msgid "Select target part"
 msgstr "Select target part"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4798
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4842
 msgid "Change Modifier Target Part"
 msgstr "Change Modifier Target Part"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4816
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4860
 msgid "Clear Modifier Target Part"
 msgstr "Clear Modifier Target Part"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4927
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4971
 msgid ""
 "Layer-specific settings, painted facets, and other object-specific data cannot be kept when "
 "changing this object type. Continue and remove this data?"
@@ -16825,33 +16833,33 @@ msgstr ""
 "Layer-specific settings, painted facets, and other object-specific data cannot be kept when "
 "changing this object type. Continue and remove this data?"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4935 src/slic3r/GUI/GUI_ObjectList.cpp:4948
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4963
+#: src/slic3r/GUI/GUI_ObjectList.cpp:4979 src/slic3r/GUI/GUI_ObjectList.cpp:4992
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5007
 msgid "Change Object Type"
 msgstr "Change Object Type"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:4958 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2432
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5002 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2432
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2571
 msgid "You can't change a type of the last solid part of the object."
 msgstr "You can't change a type of the last solid part of the object."
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5204
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5248
 msgid "Instances to Separated Objects"
 msgstr "Instances to Separated Objects"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5234
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5278
 msgid "Enter new name"
 msgstr "Enter new name"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5234
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5278
 msgid "Renaming"
 msgstr "Renaming"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5296
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5340
 msgid "Repairing model"
 msgstr "Repairing model"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5306
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5350
 msgid ""
 "Custom supports, seams, fuzzy skin and multimaterial painting were removed after repairing the "
 "mesh."
@@ -16860,35 +16868,35 @@ msgstr ""
 "mesh."
 
 #. TRN: This shows in a progress dialog while the operation is in progress.
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5329 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:3361
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5373 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:3361
 msgid "Fixing by Windows repair algorithm"
 msgstr "Fixing by Windows repair algorithm"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5472
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5516
 msgid "Change Extruders"
 msgstr "Change Extruders"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5649
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5693
 msgid "Set Printable group"
 msgstr "Set Printable group"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5649
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5693
 msgid "Set Unprintable group"
 msgstr "Set Unprintable group"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5651
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5695
 msgid "Set Printable"
 msgstr "Set Printable"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5651
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5695
 msgid "Set Unprintable"
 msgstr "Set Unprintable"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5652
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5696
 msgid "Set Printable Instance"
 msgstr "Set Printable Instance"
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:5652
+#: src/slic3r/GUI/GUI_ObjectList.cpp:5696
 msgid "Set Unprintable Instance"
 msgstr "Set Unprintable Instance"
 
@@ -17406,7 +17414,7 @@ msgstr "Create:"
 msgid "Copies"
 msgstr "Copies"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:508 src/slic3r/GUI/ObjectDataViewModel.cpp:123
+#: src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:508 src/slic3r/GUI/ObjectDataViewModel.cpp:124
 msgid "Instances"
 msgstr "Instances"
 
@@ -17524,7 +17532,7 @@ msgstr "Place on cut"
 msgid "Flip upside down"
 msgstr "Flip upside down"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:238 src/slic3r/GUI/ObjectDataViewModel.cpp:76
+#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:238 src/slic3r/GUI/ObjectDataViewModel.cpp:77
 msgid "Connectors"
 msgstr "Connectors"
 
@@ -18384,7 +18392,7 @@ msgstr "Keep up"
 msgid "Collection"
 msgstr "Collection"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:43 src/slic3r/GUI/ObjectDataViewModel.cpp:73
+#: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:43 src/slic3r/GUI/ObjectDataViewModel.cpp:74
 msgid "Paint-on supports"
 msgstr "Paint-on supports"
 
@@ -18621,7 +18629,7 @@ msgstr "Paint-on supports editing"
 msgid "Place on face"
 msgstr "Place on face"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:27 src/slic3r/GUI/ObjectDataViewModel.cpp:80
+#: src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:27 src/slic3r/GUI/ObjectDataViewModel.cpp:81
 msgid "Paint-on fuzzy skin"
 msgstr "Paint-on fuzzy skin"
 
@@ -18709,7 +18717,7 @@ msgstr "Selected object has to be on the active bed."
 msgid "Move drainage hole"
 msgstr "Move drainage hole"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:27 src/slic3r/GUI/ObjectDataViewModel.cpp:75
+#: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:27 src/slic3r/GUI/ObjectDataViewModel.cpp:76
 msgid "Paint-on ironing surfaces"
 msgstr "Paint-on ironing surfaces"
 
@@ -18893,7 +18901,7 @@ msgstr ""
 "Your printer has more extruders than the multi-material painting gizmo supports. For this reason, "
 "only the first %1% extruders will be able to be used for painting."
 
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:52 src/slic3r/GUI/ObjectDataViewModel.cpp:77
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:52 src/slic3r/GUI/ObjectDataViewModel.cpp:78
 msgid "Multimaterial painting"
 msgstr "Multimaterial painting"
 
@@ -19756,7 +19764,7 @@ msgstr "Open ApiumSlicer Project/3MF/AMF with config, clear plater"
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:93 src/slic3r/GUI/MainFrame.cpp:2031
 #: src/slic3r/GUI/MainFrame.cpp:2203 src/slic3r/GUI/MainFrame.cpp:2299
 #: src/slic3r/GUI/MainFrame.cpp:2627 src/slic3r/GUI/MainFrame.cpp:2700
-#: src/slic3r/GUI/Plater.cpp:7792
+#: src/slic3r/GUI/Plater.cpp:7790
 msgid "Save project"
 msgstr "Save project"
 
@@ -19780,7 +19788,7 @@ msgstr "Import Config File (.ini)"
 msgid "Load Config from ini/amf/a3d/3mf/gcode and merge"
 msgstr "Load Config from ini/amf/a3d/3mf/gcode and merge"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:9136
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:9134
 msgid "Send G-code"
 msgstr "Send G-code"
 
@@ -19868,7 +19876,7 @@ msgstr "Show keyboard shortcuts list"
 msgid "Commands"
 msgstr "Commands"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:9050
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:9048
 msgid "Arrange"
 msgstr "Arrange"
 
@@ -21232,7 +21240,7 @@ msgstr ""
 "Do you want to include the passwords in the plain text form in the exported file?"
 
 #: src/slic3r/GUI/MainFrame.cpp:4045 src/slic3r/GUI/PhysicalPrinterDialog.cpp:221
-#: src/slic3r/GUI/Plater.cpp:8105 src/slic3r/GUI/UserAccountCommunication.cpp:129
+#: src/slic3r/GUI/Plater.cpp:8103 src/slic3r/GUI/UserAccountCommunication.cpp:129
 msgid "Failed to load credentials from the system password store."
 msgstr "Failed to load credentials from the system password store."
 
@@ -21529,18 +21537,13 @@ msgstr "here."
 msgid "Choose face"
 msgstr "Choose face"
 
-#: src/slic3r/GUI/ObjectDataViewModel.cpp:74
+#: src/slic3r/GUI/ObjectDataViewModel.cpp:75
 msgid "Paint-on seam"
 msgstr "Paint-on seam"
 
-#: src/slic3r/GUI/ObjectDataViewModel.cpp:78
+#: src/slic3r/GUI/ObjectDataViewModel.cpp:79
 msgid "Sinking"
 msgstr "Sinking"
-
-#: src/slic3r/GUI/ObjectDataViewModel.cpp:127 src/slic3r/GUI/ObjectDataViewModel.cpp:288
-#, c-format, boost-format
-msgid "Instance %d"
-msgstr "Instance %d"
 
 #: src/slic3r/GUI/ObjectDataViewModel.cpp:134 src/slic3r/GUI/Tab.cpp:9254
 #: src/slic3r/GUI/Tab.cpp:9764
@@ -21550,6 +21553,11 @@ msgstr "Layers"
 #: src/slic3r/GUI/ObjectDataViewModel.cpp:163
 msgid "Range"
 msgstr "Range"
+
+#: src/slic3r/GUI/ObjectDataViewModel.cpp:631
+#, c-format, boost-format
+msgid "Instance %d"
+msgstr "Instance %d"
 
 #: src/slic3r/GUI/OpenGLManager.cpp:383
 #, c-format, boost-format
@@ -21615,7 +21623,7 @@ msgid "This printer will be shown in the presets list as"
 msgstr "This printer will be shown in the presets list as"
 
 #: src/slic3r/GUI/PhysicalPrinterDialog.cpp:186 src/slic3r/GUI/PhysicalPrinterDialog.cpp:212
-#: src/slic3r/GUI/Plater.cpp:8096 src/slic3r/GUI/UserAccountCommunication.cpp:94
+#: src/slic3r/GUI/Plater.cpp:8094 src/slic3r/GUI/UserAccountCommunication.cpp:94
 #: src/slic3r/GUI/UserAccountCommunication.cpp:120
 msgid "This system doesn't support storing passwords securely"
 msgstr "This system doesn't support storing passwords securely"
@@ -21776,12 +21784,12 @@ msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:515 src/slic3r/GUI/Plater.cpp:516 src/slic3r/GUI/Plater.cpp:3071
 #: src/slic3r/GUI/Plater.cpp:3077 src/slic3r/GUI/Plater.cpp:4248 src/slic3r/GUI/Plater.cpp:4251
-#: src/slic3r/GUI/Plater.cpp:7987 src/slic3r/GUI/Plater.cpp:8024 src/slic3r/GUI/Plater.cpp:8761
-#: src/slic3r/GUI/Plater.cpp:8762 src/slic3r/GUI/Sidebar.cpp:1270
+#: src/slic3r/GUI/Plater.cpp:7985 src/slic3r/GUI/Plater.cpp:8022 src/slic3r/GUI/Plater.cpp:8759
+#: src/slic3r/GUI/Plater.cpp:8760 src/slic3r/GUI/Sidebar.cpp:1270
 msgid "Slice now"
 msgstr "Slice now"
 
-#: src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3065 src/slic3r/GUI/Plater.cpp:8768
+#: src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3065 src/slic3r/GUI/Plater.cpp:8766
 msgid "Preview is out of date. Please re-slice to regenerate G-code."
 msgstr "Preview is out of date. Please re-slice to regenerate G-code."
 
@@ -22514,41 +22522,41 @@ msgstr "All objects will be removed, continue?"
 msgid "Delete Selected Objects"
 msgstr "Delete Selected Objects"
 
-#: src/slic3r/GUI/Plater.cpp:6849
+#: src/slic3r/GUI/Plater.cpp:6847
 msgid "Could not create the pattern."
 msgstr "Could not create the pattern."
 
-#: src/slic3r/GUI/Plater.cpp:6860
+#: src/slic3r/GUI/Plater.cpp:6858
 msgid "Increase Instances"
 msgstr "Increase Instances"
 
-#: src/slic3r/GUI/Plater.cpp:6937
+#: src/slic3r/GUI/Plater.cpp:6935
 msgid "Decrease Instances"
 msgstr "Decrease Instances"
 
-#: src/slic3r/GUI/Plater.cpp:6995
+#: src/slic3r/GUI/Plater.cpp:6993
 msgid "Enter the number of copies:"
 msgstr "Enter the number of copies:"
 
-#: src/slic3r/GUI/Plater.cpp:6996
+#: src/slic3r/GUI/Plater.cpp:6994
 msgid "Copies of the selected object"
 msgstr "Copies of the selected object"
 
-#: src/slic3r/GUI/Plater.cpp:6999
+#: src/slic3r/GUI/Plater.cpp:6997
 #, c-format, boost-format
 msgid "Set numbers of copies to %d"
 msgstr "Set numbers of copies to %d"
 
-#: src/slic3r/GUI/Plater.cpp:7023
+#: src/slic3r/GUI/Plater.cpp:7021
 msgid "Fill bed"
 msgstr "Fill bed"
 
-#: src/slic3r/GUI/Plater.cpp:7174
+#: src/slic3r/GUI/Plater.cpp:7172
 msgid "Painted adhesion pads were removed after cutting the object."
 msgstr "Painted adhesion pads were removed after cutting the object."
 
 #. TRN The placeholder %1% is the file extension the user has selected.
-#: src/slic3r/GUI/Plater.cpp:7193
+#: src/slic3r/GUI/Plater.cpp:7191
 #, boost-format
 msgid ""
 "Cannot save binary G-code with %1% extension.\n"
@@ -22560,7 +22568,7 @@ msgstr ""
 "Use a different extension or disable <a href=%2%>binary G-code export</a> in Printer Settings."
 
 #. TRN The placeholder %1% is the file extension the user has selected.
-#: src/slic3r/GUI/Plater.cpp:7199
+#: src/slic3r/GUI/Plater.cpp:7197
 #, boost-format
 msgid ""
 "Cannot save ASCII G-code with %1% extension.\n"
@@ -22571,27 +22579,27 @@ msgstr ""
 "\n"
 "Use a different extension or enable <a href=%2%>binary G-code export</a> in Printer Settings."
 
-#: src/slic3r/GUI/Plater.cpp:7260
+#: src/slic3r/GUI/Plater.cpp:7258
 msgid "The provided file name is not valid."
 msgstr "The provided file name is not valid."
 
-#: src/slic3r/GUI/Plater.cpp:7261
+#: src/slic3r/GUI/Plater.cpp:7259
 msgid "The following characters are not allowed by a FAT file system:"
 msgstr "The following characters are not allowed by a FAT file system:"
 
-#: src/slic3r/GUI/Plater.cpp:7279
+#: src/slic3r/GUI/Plater.cpp:7277
 msgid "Save G-code file as:"
 msgstr "Save G-code file as:"
 
-#: src/slic3r/GUI/Plater.cpp:7279
+#: src/slic3r/GUI/Plater.cpp:7277
 msgid "Save SL1 / SL1S file as:"
 msgstr "Save SL1 / SL1S file as:"
 
-#: src/slic3r/GUI/Plater.cpp:7303
+#: src/slic3r/GUI/Plater.cpp:7301
 msgid "Choose export directory:"
 msgstr "Choose export directory:"
 
-#: src/slic3r/GUI/Plater.cpp:7320
+#: src/slic3r/GUI/Plater.cpp:7318
 msgid ""
 "This build runs in Preview mode.\n"
 "\n"
@@ -22601,15 +22609,15 @@ msgstr ""
 "\n"
 "Upgrade to the full version to export, send, or upload G-code."
 
-#: src/slic3r/GUI/Plater.cpp:7480
+#: src/slic3r/GUI/Plater.cpp:7478
 msgid "Export beds"
 msgstr "Export beds"
 
-#: src/slic3r/GUI/Plater.cpp:7553
+#: src/slic3r/GUI/Plater.cpp:7551
 msgid "Unable to perform boolean operation on model meshes. Only positive parts will be exported."
 msgstr "Unable to perform boolean operation on model meshes. Only positive parts will be exported."
 
-#: src/slic3r/GUI/Plater.cpp:7761
+#: src/slic3r/GUI/Plater.cpp:7759
 msgid ""
 "Are you sure you want to store original SVGs with their local paths into the 3MF file?\n"
 "If you hit 'NO', all SVGs in the project will not be editable any more."
@@ -22617,11 +22625,11 @@ msgstr ""
 "Are you sure you want to store original SVGs with their local paths into the 3MF file?\n"
 "If you hit 'NO', all SVGs in the project will not be editable any more."
 
-#: src/slic3r/GUI/Plater.cpp:7763
+#: src/slic3r/GUI/Plater.cpp:7761
 msgid "Private protection"
 msgstr "Private protection"
 
-#: src/slic3r/GUI/Plater.cpp:7792
+#: src/slic3r/GUI/Plater.cpp:7790
 msgid ""
 "The plater is empty.\n"
 "Do you want to save the project?"
@@ -22629,35 +22637,35 @@ msgstr ""
 "The plater is empty.\n"
 "Do you want to save the project?"
 
-#: src/slic3r/GUI/Plater.cpp:7873 src/slic3r/GUI/Plater.cpp:7877
+#: src/slic3r/GUI/Plater.cpp:7871 src/slic3r/GUI/Plater.cpp:7875
 msgid "Unable to save file"
 msgstr "Unable to save file"
 
-#: src/slic3r/GUI/Plater.cpp:7874
+#: src/slic3r/GUI/Plater.cpp:7872
 msgid "Error saving ApiumSlicer project file"
 msgstr "Error saving ApiumSlicer project file"
 
-#: src/slic3r/GUI/Plater.cpp:8142
+#: src/slic3r/GUI/Plater.cpp:8140
 msgid "Failed to select a printer."
 msgstr "Failed to select a printer."
 
-#: src/slic3r/GUI/Plater.cpp:8164
+#: src/slic3r/GUI/Plater.cpp:8162
 msgid "Failed to read response from Prusa Connect server. Upload is cancelled."
 msgstr "Failed to read response from Prusa Connect server. Upload is cancelled."
 
-#: src/slic3r/GUI/Plater.cpp:8262 src/slic3r/GUI/Sidebar.cpp:1303
+#: src/slic3r/GUI/Plater.cpp:8260 src/slic3r/GUI/Sidebar.cpp:1303
 msgid "Send all to Connect"
 msgstr "Send all to Connect"
 
-#: src/slic3r/GUI/Plater.cpp:8436
+#: src/slic3r/GUI/Plater.cpp:8434
 msgid "Is the printer ready? Is the print sheet in place, empty and clean?"
 msgstr "Is the printer ready? Is the print sheet in place, empty and clean?"
 
-#: src/slic3r/GUI/Plater.cpp:8436 src/slic3r/GUI/PrintHostDialogs.cpp:136
+#: src/slic3r/GUI/Plater.cpp:8434 src/slic3r/GUI/PrintHostDialogs.cpp:136
 msgid "Upload and Print"
 msgstr "Upload and Print"
 
-#: src/slic3r/GUI/Plater.cpp:8545
+#: src/slic3r/GUI/Plater.cpp:8543
 msgid ""
 "Changing the extrusion mode or printer will remove all multi-material painting assignments. "
 "Continue?"
@@ -22665,15 +22673,15 @@ msgstr ""
 "Changing the extrusion mode or printer will remove all multi-material painting assignments. "
 "Continue?"
 
-#: src/slic3r/GUI/Plater.cpp:8735
+#: src/slic3r/GUI/Plater.cpp:8733
 msgid "Zoneheater mode changed from variable. Existing variable zoneheater power data was kept."
 msgstr "Zoneheater mode changed from variable. Existing variable zoneheater power data was kept."
 
-#: src/slic3r/GUI/Plater.cpp:8736
+#: src/slic3r/GUI/Plater.cpp:8734
 msgid "Zoneheater mode is not active or zoneheater is disabled. Existing zoneheater data was kept."
 msgstr "Zoneheater mode is not active or zoneheater is disabled. Existing zoneheater data was kept."
 
-#: src/slic3r/GUI/Plater.cpp:9032
+#: src/slic3r/GUI/Plater.cpp:9030
 msgid ""
 "Sequential arrange for a single bed is only allowed when all instances of the affected objects "
 "are on the same bed."
@@ -22681,7 +22689,7 @@ msgstr ""
 "Sequential arrange for a single bed is only allowed when all instances of the affected objects "
 "are on the same bed."
 
-#: src/slic3r/GUI/Plater.cpp:9073
+#: src/slic3r/GUI/Plater.cpp:9071
 #, c-format, boost-format
 msgid ""
 "Arrangement ignored the following objects which can't fit into a single bed:\n"
@@ -22690,19 +22698,19 @@ msgstr ""
 "Arrangement ignored the following objects which can't fit into a single bed:\n"
 "%s"
 
-#: src/slic3r/GUI/Plater.cpp:9135
+#: src/slic3r/GUI/Plater.cpp:9133
 msgid "Export"
 msgstr "Export"
 
-#: src/slic3r/GUI/Plater.cpp:9136 src/slic3r/GUI/Sidebar.cpp:1251
+#: src/slic3r/GUI/Plater.cpp:9134 src/slic3r/GUI/Sidebar.cpp:1251
 msgid "Send to printer"
 msgstr "Send to printer"
 
-#: src/slic3r/GUI/Plater.cpp:9210
+#: src/slic3r/GUI/Plater.cpp:9208
 msgid "Painted adhesion pads were removed because the object's mesh was modified."
 msgstr "Painted adhesion pads were removed because the object's mesh was modified."
 
-#: src/slic3r/GUI/Plater.cpp:9333
+#: src/slic3r/GUI/Plater.cpp:9331
 msgid "Paste From Clipboard"
 msgstr "Paste From Clipboard"
 
