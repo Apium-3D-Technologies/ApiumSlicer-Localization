@@ -619,7 +619,9 @@ src/libvgcode/glad/src/gles2.c
 src/libvgcode/include/ColorPrint.hpp
 src/libvgcode/include/ColorRange.hpp
 src/libvgcode/include/GCodeInputData.hpp
+src/libvgcode/include/PathRenderer.hpp
 src/libvgcode/include/PathVertex.hpp
+src/libvgcode/include/PreviewInteraction.hpp
 src/libvgcode/include/Types.hpp
 src/libvgcode/include/Viewer.hpp
 src/libvgcode/src/Bitset.cpp
@@ -631,6 +633,9 @@ src/libvgcode/src/ColorRange.cpp
 src/libvgcode/src/ExtrusionRoles.cpp
 src/libvgcode/src/ExtrusionRoles.hpp
 src/libvgcode/src/GCodeInputData.cpp
+src/libvgcode/src/HybridGeometry.hpp
+src/libvgcode/src/HybridRenderer.cpp
+src/libvgcode/src/HybridRenderer.hpp
 src/libvgcode/src/Layers.cpp
 src/libvgcode/src/Layers.hpp
 src/libvgcode/src/OpenGLUtils.cpp
@@ -640,6 +645,7 @@ src/libvgcode/src/OptionTemplate.hpp
 src/libvgcode/src/PathVertex.cpp
 src/libvgcode/src/Range.cpp
 src/libvgcode/src/Range.hpp
+src/libvgcode/src/RealisticShaders.hpp
 src/libvgcode/src/SegmentTemplate.cpp
 src/libvgcode/src/SegmentTemplate.hpp
 src/libvgcode/src/Settings.cpp
