@@ -1419,8 +1419,8 @@ msgid "User"
 msgstr "Benutzer"
 
 #. TRN Password of WiFi network.
-#: src/libslic3r/PrintConfig.cpp:1258 src/slic3r/GUI/SshPrinterDialog.cpp:112
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:117 src/slic3r/GUI/WifiConfigDialog.cpp:75
+#: src/libslic3r/PrintConfig.cpp:1258 src/slic3r/GUI/SshPrinterDialog.cpp:114
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:119 src/slic3r/GUI/WifiConfigDialog.cpp:75
 msgid "Password"
 msgstr "Kennwort"
 
@@ -1448,7 +1448,7 @@ msgstr "Namen der Voreinstellungen, die sich auf den physischen Drucker beziehen
 msgid "Authorization Type"
 msgstr "Autorisierungs-Typ"
 
-#: src/libslic3r/PrintConfig.cpp:1284 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:129
+#: src/libslic3r/PrintConfig.cpp:1284 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:131
 msgid "API key"
 msgstr "API Key"
 
@@ -11458,7 +11458,7 @@ msgid "About %s"
 msgstr "Über %s"
 
 #: src/slic3r/GUI/AboutDialog.cpp:263 src/slic3r/GUI/AboutDialog.cpp:395
-#: src/slic3r/GUI/GUI_App.cpp:325 src/slic3r/GUI/Tab.cpp:878 src/slic3r/GUI/Tab.cpp:879
+#: src/slic3r/GUI/GUI_App.cpp:326 src/slic3r/GUI/Tab.cpp:878 src/slic3r/GUI/Tab.cpp:879
 msgid "Version"
 msgstr "Version"
 
@@ -13129,7 +13129,7 @@ msgstr ""
 "Downloader-Desktop-Integration fehlgeschlagen - Anwendungsverzeichnis konnte nicht gefunden "
 "werden."
 
-#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2886
+#: src/slic3r/GUI/DesktopIntegrationDialog.cpp:818 src/slic3r/GUI/GUI_App.cpp:2898
 msgid "Desktop Integration"
 msgstr "Desktop Integration"
 
@@ -13226,8 +13226,8 @@ msgstr "Extrudersequenz für den gesamten Druck einstellen"
 msgid "Ruler"
 msgstr "Lineal"
 
-#: src/slic3r/GUI/DoubleSliderForLayers.cpp:989 src/slic3r/GUI/SshPrinterDialog.cpp:119
-#: src/slic3r/GUI/SshPrinterDialog.cpp:130 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:125
+#: src/slic3r/GUI/DoubleSliderForLayers.cpp:989 src/slic3r/GUI/SshPrinterDialog.cpp:121
+#: src/slic3r/GUI/SshPrinterDialog.cpp:132 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:127
 msgid "Show"
 msgstr "Einblenden"
 
@@ -13629,7 +13629,7 @@ msgstr "Ein"
 msgid "Name"
 msgstr "Name"
 
-#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1561
+#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1554
 #: src/slic3r/GUI/UpdatesUIManager.cpp:153 src/slic3r/GUI/UpdatesUIManager.cpp:208
 msgid "Description"
 msgstr "Beschreibung"
@@ -14050,7 +14050,7 @@ msgstr "Das Quellgerät ist nicht mehr verfügbar."
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3868 src/slic3r/GUI/FileTransferTabPanel.cpp:4665
 #: src/slic3r/GUI/MainFrame.cpp:970 src/slic3r/GUI/MainFrame.cpp:1708
-#: src/slic3r/GUI/SshTabPanel.cpp:1438 src/slic3r/GUI/SshTabPanel.cpp:1449
+#: src/slic3r/GUI/SshTabPanel.cpp:1431 src/slic3r/GUI/SshTabPanel.cpp:1442
 #: src/slic3r/GUI/TopBar.cpp:554
 msgid "File Transfer"
 msgstr "Dateiübertragung"
@@ -14233,15 +14233,15 @@ msgstr "Auf alle verbleibenden Konflikte anwenden"
 msgid "Skip"
 msgstr "Überspringen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1657
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1650
 msgid "SSH host key changed"
 msgstr "SSH-Hostschlüssel geändert"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1657
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1650
 msgid "Trust SSH host key"
 msgstr "SSH-Hostschlüssel vertrauen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1659
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1652
 #, boost-format
 msgid ""
 "The SSH host key for \"%1%\" changed to:\n"
@@ -14254,7 +14254,7 @@ msgstr ""
 "\n"
 "Fortfahren?"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1660
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1653
 #, boost-format
 msgid ""
 "Trust SSH host key for \"%1%\":\n"
@@ -15454,7 +15454,7 @@ msgstr "Der angegebene Name ist ungültig;"
 msgid "the following characters are not allowed:"
 msgstr "die folgenden Zeichen sind nicht erlaubt:"
 
-#: src/slic3r/GUI/GUI_App.cpp:329
+#: src/slic3r/GUI/GUI_App.cpp:330
 msgid ""
 "is based on PrusaSlicer, which was based on Slic3r by Alessandro Ranellucci and the RepRap "
 "community."
@@ -15462,15 +15462,15 @@ msgstr ""
 "basiert auf PrusaSlicer, das seinerseits auf Slic3r von Alessandro Ranellucci und der RepRap-"
 "Community basierte."
 
-#: src/slic3r/GUI/GUI_App.cpp:330
+#: src/slic3r/GUI/GUI_App.cpp:331
 msgid "Developed by Apium 3D Technologies GmbH."
 msgstr "Entwickelt von Apium 3D Technologies GmbH."
 
-#: src/slic3r/GUI/GUI_App.cpp:331
+#: src/slic3r/GUI/GUI_App.cpp:332
 msgid "Licensed under GNU AGPLv3."
 msgstr "Lizensiert unter GNU AGPLv3."
 
-#: src/slic3r/GUI/GUI_App.cpp:466
+#: src/slic3r/GUI/GUI_App.cpp:467
 #, boost-format
 msgid ""
 "Starting with %1% 2.3, configuration directory on Linux has changed (according to XDG Base "
@@ -15503,26 +15503,26 @@ msgstr ""
 "\n"
 "Was möchten Sie jetzt tun?"
 
-#: src/slic3r/GUI/GUI_App.cpp:474
+#: src/slic3r/GUI/GUI_App.cpp:475
 #, c-format, boost-format
 msgid "%s - BREAKING CHANGE"
 msgstr "%s - BREAKING CHANGE"
 
-#: src/slic3r/GUI/GUI_App.cpp:476
+#: src/slic3r/GUI/GUI_App.cpp:477
 msgid "Quit, I will move my data now"
 msgstr "Beenden, ich werde meine Daten jetzt verschieben"
 
-#: src/slic3r/GUI/GUI_App.cpp:476
+#: src/slic3r/GUI/GUI_App.cpp:477
 msgid "Start the application"
 msgstr "Anwendung starten"
 
 #. TRN %s = type of file
-#: src/slic3r/GUI/GUI_App.cpp:605
+#: src/slic3r/GUI/GUI_App.cpp:606
 #, c-format, boost-format
 msgid "%s files"
 msgstr "%s Dateien"
 
-#: src/slic3r/GUI/GUI_App.cpp:768
+#: src/slic3r/GUI/GUI_App.cpp:769
 #, c-format, boost-format
 msgid ""
 "%s has encountered an error. It was likely caused by running out of memory. If you are sure you "
@@ -15536,11 +15536,11 @@ msgstr ""
 "\n"
 "Die Anwendung wird nun beendet."
 
-#: src/slic3r/GUI/GUI_App.cpp:771
+#: src/slic3r/GUI/GUI_App.cpp:772
 msgid "Fatal error"
 msgstr "Fataler Fehler"
 
-#: src/slic3r/GUI/GUI_App.cpp:775
+#: src/slic3r/GUI/GUI_App.cpp:776
 msgid ""
 "ApiumSlicer has encountered a localization error. Please report to ApiumSlicer team, what "
 "language was active and in which scenario this issue happened. Thank you.\n"
@@ -15553,16 +15553,16 @@ msgstr ""
 "\n"
 "Die Anwendung wird nun beendet."
 
-#: src/slic3r/GUI/GUI_App.cpp:778
+#: src/slic3r/GUI/GUI_App.cpp:779
 msgid "Critical error"
 msgstr "Kritischer Fehler"
 
-#: src/slic3r/GUI/GUI_App.cpp:783 src/slic3r/GUI/Jobs/SeqArrangeJob.cpp:67
+#: src/slic3r/GUI/GUI_App.cpp:784 src/slic3r/GUI/Jobs/SeqArrangeJob.cpp:67
 #, boost-format
 msgid "Internal error: %1%"
 msgstr "Interner Fehler: %1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:892
+#: src/slic3r/GUI/GUI_App.cpp:893
 msgid ""
 "ApiumSlicer runs in Preview mode.\n"
 "\n"
@@ -15574,16 +15574,16 @@ msgstr ""
 "G-Code-Export, Senden und Upload sind deaktiviert.\n"
 "Upgrade auf die Vollversion, um G-Code zu exportieren."
 
-#: src/slic3r/GUI/GUI_App.cpp:893 src/slic3r/GUI/Plater.cpp:7363
+#: src/slic3r/GUI/GUI_App.cpp:894 src/slic3r/GUI/Plater.cpp:7363
 msgid "Preview mode"
 msgstr "Vorschaumodus"
 
-#: src/slic3r/GUI/GUI_App.cpp:1200
+#: src/slic3r/GUI/GUI_App.cpp:1201
 #, boost-format
 msgid "You are opening %1% version %2%."
 msgstr "Sie öffnen %1% Version %2%."
 
-#: src/slic3r/GUI/GUI_App.cpp:1203
+#: src/slic3r/GUI/GUI_App.cpp:1204
 #, boost-format
 msgid ""
 "The active configuration was created by <b>%1% %2%</b>,\n"
@@ -15600,7 +15600,7 @@ msgstr ""
 "Soll die neuere Konfiguration importiert werden?\n"
 "Wenn ja, wird Ihre aktive Konfiguration vor dem Importieren der neuen Konfiguration gesichert."
 
-#: src/slic3r/GUI/GUI_App.cpp:1211
+#: src/slic3r/GUI/GUI_App.cpp:1212
 #, boost-format
 msgid ""
 "An existing configuration was found in <b>%3%</b>\n"
@@ -15613,19 +15613,19 @@ msgstr ""
 "\n"
 "Soll diese Konfiguration importiert werden?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1219
+#: src/slic3r/GUI/GUI_App.cpp:1220
 msgid "Import"
 msgstr "Import"
 
-#: src/slic3r/GUI/GUI_App.cpp:1220
+#: src/slic3r/GUI/GUI_App.cpp:1221
 msgid "Don't import"
 msgstr "Nicht Importieren"
 
-#: src/slic3r/GUI/GUI_App.cpp:1228
+#: src/slic3r/GUI/GUI_App.cpp:1229
 msgid "Continue and import newer configuration?"
 msgstr "Fortfahren und neuere Konfiguration importieren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1397
+#: src/slic3r/GUI/GUI_App.cpp:1398
 msgid ""
 "You are running a 32 bit build of ApiumSlicer on 64-bit Windows.\n"
 "32 bit build of ApiumSlicer will likely not be able to utilize all the RAM available in the "
@@ -15639,7 +15639,7 @@ msgstr ""
 "Bitte laden Sie eine 64-Bit-Version von ApiumSlicer herunter und installieren Sie sie.\n"
 "Möchten Sie fortfahren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1483
+#: src/slic3r/GUI/GUI_App.cpp:1484
 #, c-format, boost-format
 msgid ""
 "%s\n"
@@ -15648,27 +15648,27 @@ msgstr ""
 "%s\n"
 "Möchten Sie fortfahren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:1485 src/slic3r/GUI/GUI_App.cpp:4055
+#: src/slic3r/GUI/GUI_App.cpp:1486 src/slic3r/GUI/GUI_App.cpp:4067
 #: src/slic3r/GUI/LoadStepDialog.cpp:64 src/slic3r/GUI/Plater.cpp:443
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:945
 msgid "Remember my choice"
 msgstr "Auswahl merken"
 
-#: src/slic3r/GUI/GUI_App.cpp:1535
+#: src/slic3r/GUI/GUI_App.cpp:1536
 msgid "Loading configuration"
 msgstr "Lade Konfiguration"
 
-#: src/slic3r/GUI/GUI_App.cpp:1568
+#: src/slic3r/GUI/GUI_App.cpp:1569
 #, boost-format
 msgid "New prerelease version %1% is available."
 msgstr "Die neue Vorabversion %1% ist verfügbar."
 
-#: src/slic3r/GUI/GUI_App.cpp:1569
+#: src/slic3r/GUI/GUI_App.cpp:1570
 msgid "See Releases page."
 msgstr "Siehe Releases-Seite."
 
 #. TRN Notification text, %1% is list of vendors.
-#: src/slic3r/GUI/GUI_App.cpp:1600
+#: src/slic3r/GUI/GUI_App.cpp:1601
 #, boost-format
 msgid ""
 "Update check failed for the following vendors:\n"
@@ -15684,19 +15684,40 @@ msgstr ""
 "Ihren Kontostatus und Ihre Internetverbindung. Wählen Sie anschließend „Nach "
 "Konfigurationsupdates suchen“, um den Vorgang zu wiederholen."
 
-#: src/slic3r/GUI/GUI_App.cpp:1641
+#: src/slic3r/GUI/GUI_App.cpp:1642
 msgid "Preparing settings tabs"
 msgstr "Vorbereiten der Einstellungs-Registerkarten"
 
-#: src/slic3r/GUI/GUI_App.cpp:1733 src/slic3r/GUI/Preferences.cpp:666
+#: src/slic3r/GUI/GUI_App.cpp:1650 src/slic3r/GUI/SshPrinterDialog.cpp:171
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:174
+msgid "Printer configuration"
+msgstr "Druckerkonfiguration"
+
+#: src/slic3r/GUI/GUI_App.cpp:1653
+msgid "Save without encryption"
+msgstr "Unverschlüsselt speichern"
+
+#: src/slic3r/GUI/GUI_App.cpp:1654
+msgid "Reset credentials"
+msgstr "Zugangsdaten zurücksetzen"
+
+#: src/slic3r/GUI/GUI_App.cpp:1654
+msgid "Delete saved values"
+msgstr "Gespeicherte Werte löschen"
+
+#: src/slic3r/GUI/GUI_App.cpp:1655
+msgid "Keep saved values"
+msgstr "Gespeicherte Werte behalten"
+
+#: src/slic3r/GUI/GUI_App.cpp:1745 src/slic3r/GUI/Preferences.cpp:666
 msgid "Restore window position on start"
 msgstr "Fensterposition beim Start wiederherstellen"
 
-#: src/slic3r/GUI/GUI_App.cpp:1735
+#: src/slic3r/GUI/GUI_App.cpp:1747
 msgid "ApiumSlicer started after a crash"
 msgstr "ApiumSlicer startet nach einem Absturz"
 
-#: src/slic3r/GUI/GUI_App.cpp:1736
+#: src/slic3r/GUI/GUI_App.cpp:1748
 #, boost-format
 msgid ""
 "ApiumSlicer crashed last time when attempting to set window position.\n"
@@ -15717,23 +15738,23 @@ msgstr ""
 "Um dieses Problem zu vermeiden, sollten Sie \"%4%\" in \"Einstellungen\" deaktivieren. "
 "Andernfalls wird die Anwendung beim nächsten Mal höchstwahrscheinlich wieder abstürzen."
 
-#: src/slic3r/GUI/GUI_App.cpp:1748
+#: src/slic3r/GUI/GUI_App.cpp:1760
 #, boost-format
 msgid "Disable \"%1%\""
 msgstr "\"%1%\" abschalten"
 
-#: src/slic3r/GUI/GUI_App.cpp:1749
+#: src/slic3r/GUI/GUI_App.cpp:1761
 #, boost-format
 msgid "Leave \"%1%\" enabled"
 msgstr "\"%1%\" aktiviert lassen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2209
+#: src/slic3r/GUI/GUI_App.cpp:2221
 msgid "You have the following presets with saved options for \"Print Host upload\""
 msgstr ""
 "Sie haben die folgenden Voreinstellungen mit gespeicherten Optionen für \"Hochladen zum "
 "Druckhost\""
 
-#: src/slic3r/GUI/GUI_App.cpp:2213
+#: src/slic3r/GUI/GUI_App.cpp:2225
 msgid ""
 "But since this version of ApiumSlicer we don't show this information in Printer Settings "
 "anymore.\n"
@@ -15743,7 +15764,7 @@ msgstr ""
 "Druckereinstellungen an.\n"
 "Die Einstellungen sind in den Einstellungen für physische Drucker verfügbar."
 
-#: src/slic3r/GUI/GUI_App.cpp:2215
+#: src/slic3r/GUI/GUI_App.cpp:2227
 msgid ""
 "By default new Printer devices will be named as \"Printer N\" during its creation.\n"
 "Note: This name can be changed later from the physical printers settings"
@@ -15751,55 +15772,55 @@ msgstr ""
 "Standardmäßig werden neue Drucker bei ihrer Erstellung als \"Drucker N\" bezeichnet.\n"
 "Hinweis: Dieser Name kann später über die Einstellungen für physische Drucker geändert werden."
 
-#: src/slic3r/GUI/GUI_App.cpp:2219 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
+#: src/slic3r/GUI/GUI_App.cpp:2231 src/slic3r/GUI/PhysicalPrinterDialog.cpp:1040
 msgid "Information"
 msgstr "Informationen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2234 src/slic3r/GUI/GUI_App.cpp:2244
+#: src/slic3r/GUI/GUI_App.cpp:2246 src/slic3r/GUI/GUI_App.cpp:2256
 msgid "Recreating"
 msgstr "Neu Erzeugen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2248
+#: src/slic3r/GUI/GUI_App.cpp:2260
 msgid "Loading of current presets"
 msgstr "Laden der aktuellen Voreinstellungen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2253
+#: src/slic3r/GUI/GUI_App.cpp:2265
 msgid "Loading of a mode view"
 msgstr "Lade Anzeigemodus"
 
-#: src/slic3r/GUI/GUI_App.cpp:2392
+#: src/slic3r/GUI/GUI_App.cpp:2404
 msgid "Choose one file (ApiumSlicer Project/3MF/AMF):"
 msgstr "W?hlen Sie eine Datei (ApiumSlicer Project/3MF/AMF):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2404
+#: src/slic3r/GUI/GUI_App.cpp:2416
 msgid "Choose one or more files (STL/OBJ/STEP/3MF/AMF/SVG):"
 msgstr "Wählen Sie eine oder mehrere Dateien (STL/3MF/STEP/OBJ/AMF/SVG):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2415
+#: src/slic3r/GUI/GUI_App.cpp:2427
 msgid "Choose ZIP file"
 msgstr "ZIP Datei wählen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2427
+#: src/slic3r/GUI/GUI_App.cpp:2439
 msgid "Choose one file (GCODE/GCO/G/BGCODE/BGC/NGC):"
 msgstr "Datei auswählen (GCODE/GCO/G/BGCODE/BGC/NGC):"
 
-#: src/slic3r/GUI/GUI_App.cpp:2438
+#: src/slic3r/GUI/GUI_App.cpp:2450
 msgid "Changing of an application language"
 msgstr "Wechsele die Anwendungssprache"
 
-#: src/slic3r/GUI/GUI_App.cpp:2582
+#: src/slic3r/GUI/GUI_App.cpp:2594
 msgid "Select the language"
 msgstr "Wählen Sie die Sprache aus"
 
-#: src/slic3r/GUI/GUI_App.cpp:2582
+#: src/slic3r/GUI/GUI_App.cpp:2594
 msgid "Language"
 msgstr "Sprache"
 
-#: src/slic3r/GUI/GUI_App.cpp:2749
+#: src/slic3r/GUI/GUI_App.cpp:2761
 msgid "modified"
 msgstr "geändert"
 
-#: src/slic3r/GUI/GUI_App.cpp:2809
+#: src/slic3r/GUI/GUI_App.cpp:2821
 msgid ""
 "Simple mode supports manipulation with single-part object(s)\n"
 "or object(s) with support modifiers only."
@@ -15807,48 +15828,48 @@ msgstr ""
 "Der einfache Modus unterstützt nur die Manipulation von einteiligen Objekt(en) oder Objekt(en) "
 "mit Stütz-Modifikatoren."
 
-#: src/slic3r/GUI/GUI_App.cpp:2811
+#: src/slic3r/GUI/GUI_App.cpp:2823
 msgid "Please check your object list before mode changing."
 msgstr "Bitte überprüfen Sie Ihre Objektliste, bevor Sie den Modus ändern."
 
-#: src/slic3r/GUI/GUI_App.cpp:2812
+#: src/slic3r/GUI/GUI_App.cpp:2824
 msgid "Change application mode"
 msgstr "Anwendungsmodus ändern"
 
-#: src/slic3r/GUI/GUI_App.cpp:2872
+#: src/slic3r/GUI/GUI_App.cpp:2884
 #, c-format, boost-format
 msgid "Run %s"
 msgstr "%s ausführen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2876
+#: src/slic3r/GUI/GUI_App.cpp:2888
 msgid "&Configuration Snapshots"
 msgstr "Konfi&gurations-Momentaufnahmen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2876
+#: src/slic3r/GUI/GUI_App.cpp:2888
 msgid "Inspect / activate configuration snapshots"
 msgstr "Inspiziere / aktiviere Konfigurations-Momentaufnahmen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2877
+#: src/slic3r/GUI/GUI_App.cpp:2889
 msgid "Take Configuration &Snapshot"
 msgstr "Erfa&ssen einer Konfigurations-Momentaufnahme"
 
-#: src/slic3r/GUI/GUI_App.cpp:2877
+#: src/slic3r/GUI/GUI_App.cpp:2889
 msgid "Capture a configuration snapshot"
 msgstr "Erfassen einer Konfigurations-Momentaufnahme"
 
-#: src/slic3r/GUI/GUI_App.cpp:2880
+#: src/slic3r/GUI/GUI_App.cpp:2892
 msgid "Check for Configuration Updates"
 msgstr "Nach Konfigurationsaktualisierungen suchen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2880
+#: src/slic3r/GUI/GUI_App.cpp:2892
 msgid "Check for configuration updates"
 msgstr "Suche nach Konfigurationsaktualisierungen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2881
+#: src/slic3r/GUI/GUI_App.cpp:2893
 msgid "Check for Application Updates"
 msgstr "Nach Updates suchen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2881
+#: src/slic3r/GUI/GUI_App.cpp:2893
 msgid "Check for new version of application"
 msgstr "Nach einer neuen Version der Anwendung suchen"
 
@@ -15856,38 +15877,38 @@ msgstr "Nach einer neuen Version der Anwendung suchen"
 msgid "&Preferences"
 msgstr "&Einstellungen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2891 src/slic3r/GUI/GUI_App.cpp:2893
+#: src/slic3r/GUI/GUI_App.cpp:2903 src/slic3r/GUI/GUI_App.cpp:2905
 msgid "Application preferences"
 msgstr "Anwendungseinstellungen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2905
+#: src/slic3r/GUI/GUI_App.cpp:2917
 msgid "&Language"
 msgstr "Sp&rache"
 
-#: src/slic3r/GUI/GUI_App.cpp:2910
+#: src/slic3r/GUI/GUI_App.cpp:2922
 msgid "Flash Printer &Firmware"
 msgstr "Flashe Drucker &Firmware"
 
-#: src/slic3r/GUI/GUI_App.cpp:2910
+#: src/slic3r/GUI/GUI_App.cpp:2922
 msgid "Upload a firmware image into an Arduino based printer"
 msgstr "Lade ein Firmware Image zu einem Arduino-basierten Drucker hoch"
 
-#: src/slic3r/GUI/GUI_App.cpp:2914
+#: src/slic3r/GUI/GUI_App.cpp:2926
 msgid "Wi-Fi Configuration File"
 msgstr "Wi-Fi Konfigurationsdatei"
 
 #. TRN Wifi config dialog explanation line 1.
-#: src/slic3r/GUI/GUI_App.cpp:2914 src/slic3r/GUI/WifiConfigDialog.cpp:51
+#: src/slic3r/GUI/GUI_App.cpp:2926 src/slic3r/GUI/WifiConfigDialog.cpp:51
 msgid "Generate a file to be loaded by a Prusa printer to configure its Wi-Fi connection."
 msgstr ""
 "Erzeugt eine Datei, die von einem Prusa-Drucker geladen werden kann, um seine Wi-Fi-Verbindung zu "
 "konfigurieren."
 
-#: src/slic3r/GUI/GUI_App.cpp:2935
+#: src/slic3r/GUI/GUI_App.cpp:2947
 msgid "Taking a configuration snapshot"
 msgstr "Schnappschuss der Konfiguration erstellen"
 
-#: src/slic3r/GUI/GUI_App.cpp:2936
+#: src/slic3r/GUI/GUI_App.cpp:2948
 msgid ""
 "Some presets are modified and the unsaved changes will not be captured by the configuration "
 "snapshot."
@@ -15895,28 +15916,28 @@ msgstr ""
 "Einige Voreinstellungen werden geändert und die nicht gespeicherten Änderungen werden vom "
 "Konfigurations-Snapshot nicht erfasst."
 
-#: src/slic3r/GUI/GUI_App.cpp:2937
+#: src/slic3r/GUI/GUI_App.cpp:2949
 msgid "Snapshot name"
 msgstr "Name der Momentaufnahme"
 
-#: src/slic3r/GUI/GUI_App.cpp:2953
+#: src/slic3r/GUI/GUI_App.cpp:2965
 msgid "Loading a configuration snapshot"
 msgstr "Laden eines Konfigurations-Snapshots"
 
-#: src/slic3r/GUI/GUI_App.cpp:2962
+#: src/slic3r/GUI/GUI_App.cpp:2974
 #, boost-format
 msgid "Continue to activate a configuration snapshot %1%?"
 msgstr "Aktivierung eines Konfigurations-Snapshots %1% fortsetzen?"
 
-#: src/slic3r/GUI/GUI_App.cpp:2976
+#: src/slic3r/GUI/GUI_App.cpp:2988
 msgid "Failed to activate configuration snapshot."
 msgstr "Konfigurations-Snapshot konnte nicht aktiviert werden."
 
-#: src/slic3r/GUI/GUI_App.cpp:2998
+#: src/slic3r/GUI/GUI_App.cpp:3010
 msgid "Language selection"
 msgstr "Sprachauswahl"
 
-#: src/slic3r/GUI/GUI_App.cpp:3001
+#: src/slic3r/GUI/GUI_App.cpp:3013
 msgid ""
 "Switching the language will trigger application restart.\n"
 "You will lose content of the plater."
@@ -15924,64 +15945,64 @@ msgstr ""
 "Das Umschalten der Sprache löst einen Neustart der Anwendung aus.\n"
 "Sie verlieren den Inhalt der Druckplatte."
 
-#: src/slic3r/GUI/GUI_App.cpp:3003 src/slic3r/GUI/Preferences.cpp:1198
+#: src/slic3r/GUI/GUI_App.cpp:3015 src/slic3r/GUI/Preferences.cpp:1198
 #: src/slic3r/GUI/Selection.cpp:1506
 msgid "Do you want to proceed?"
 msgstr "Wollen Sie fortfahren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3042
+#: src/slic3r/GUI/GUI_App.cpp:3054
 msgid "Restart application"
 msgstr "Anwendung neu starten"
 
-#: src/slic3r/GUI/GUI_App.cpp:3212
+#: src/slic3r/GUI/GUI_App.cpp:3224
 msgid "For new project all modifications will be reseted"
 msgstr "Bei einem neuen Projekt werden alle Änderungen zurückgesetzt"
 
-#: src/slic3r/GUI/GUI_App.cpp:3250
+#: src/slic3r/GUI/GUI_App.cpp:3262
 msgid "Loading a new project while the current project is modified."
 msgstr "Laden eines neuen Projekts, während das aktuelle Projekt geändert wurde."
 
-#: src/slic3r/GUI/GUI_App.cpp:3253
+#: src/slic3r/GUI/GUI_App.cpp:3265
 msgid "Project is loading"
 msgstr "Projekt wird geladen"
 
-#: src/slic3r/GUI/GUI_App.cpp:3253
+#: src/slic3r/GUI/GUI_App.cpp:3265
 msgid "Opening new project while some presets are unsaved."
 msgstr "Öffnen eines neuen Projekts, während einige Voreinstellungen nicht gespeichert sind."
 
-#: src/slic3r/GUI/GUI_App.cpp:3272
+#: src/slic3r/GUI/GUI_App.cpp:3284
 msgid "The uploads are still ongoing"
 msgstr "Die Uploads sind noch im Gange"
 
-#: src/slic3r/GUI/GUI_App.cpp:3272
+#: src/slic3r/GUI/GUI_App.cpp:3284
 msgid "Stop them and continue anyway?"
 msgstr "Stoppen und trotzdem weitermachen?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3276
+#: src/slic3r/GUI/GUI_App.cpp:3288
 msgid "Ongoing uploads"
 msgstr "Laufende Uploads"
 
-#: src/slic3r/GUI/GUI_App.cpp:3601
+#: src/slic3r/GUI/GUI_App.cpp:3613
 msgid "It's impossible to print object(s) which contains parameter modifiers with SLA technology."
 msgstr ""
 "Es ist unmöglich, mit der SLA-Technologie Objekte zu drucken, die Parametermodifikatoren "
 "enthalten."
 
-#: src/slic3r/GUI/GUI_App.cpp:3602 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
+#: src/slic3r/GUI/GUI_App.cpp:3614 src/slic3r/GUI/Jobs/SLAImportJob.cpp:158
 msgid "Please check your object list before preset changing."
 msgstr "Bitte überprüfen Sie Ihre Objektliste, bevor Sie die Voreinstellungen ändern."
 
 #. TRN: Progress dialog title
-#: src/slic3r/GUI/GUI_App.cpp:3617 src/slic3r/GUI/UpdateDialogs.cpp:292
+#: src/slic3r/GUI/GUI_App.cpp:3629 src/slic3r/GUI/UpdateDialogs.cpp:292
 msgid "Opening Configuration Wizard"
 msgstr "Öffne Konfigurationsassistent"
 
-#: src/slic3r/GUI/GUI_App.cpp:3705
+#: src/slic3r/GUI/GUI_App.cpp:3717
 #, boost-format
 msgid "Welcome to %1% version %2%."
 msgstr "Willkommen zum %1% Version %2%."
 
-#: src/slic3r/GUI/GUI_App.cpp:3707
+#: src/slic3r/GUI/GUI_App.cpp:3719
 #, boost-format
 msgid ""
 "Do you wish to register downloads from <b>Printables.com</b>\n"
@@ -15994,11 +16015,11 @@ msgstr ""
 "\n"
 "Downloads können jeweils nur für 1 ausführbare Datei registriert werden."
 
-#: src/slic3r/GUI/GUI_App.cpp:3735
+#: src/slic3r/GUI/GUI_App.cpp:3747
 msgid "Select a gcode file:"
 msgstr "Gcode Datei auswählen:"
 
-#: src/slic3r/GUI/GUI_App.cpp:3962
+#: src/slic3r/GUI/GUI_App.cpp:3974
 msgid ""
 "The bundled vendor profiles were refreshed.\n"
 "\n"
@@ -16009,11 +16030,11 @@ msgstr ""
 "Möchten Sie jetzt den Konfigurationsassistenten öffnen, um neue Herstellerprofile auszuwählen und "
 "zu installieren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:3963
+#: src/slic3r/GUI/GUI_App.cpp:3975
 msgid "Install new profiles"
 msgstr "Neue Profile installieren"
 
-#: src/slic3r/GUI/GUI_App.cpp:4007
+#: src/slic3r/GUI/GUI_App.cpp:4019
 #, boost-format
 msgid ""
 "An ApiumSlicer update was detected from version %1% to %2%.\n"
@@ -16024,31 +16045,31 @@ msgstr ""
 "\n"
 "Mochten Sie die mitgelieferten Anbieterprofile aus diesem Anwendungspaket jetzt aktualisieren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:4009
+#: src/slic3r/GUI/GUI_App.cpp:4021
 msgid "Update detected"
 msgstr "Update erkannt"
 
-#: src/slic3r/GUI/GUI_App.cpp:4054 src/slic3r/GUI/GUI_App.cpp:4074
+#: src/slic3r/GUI/GUI_App.cpp:4066 src/slic3r/GUI/GUI_App.cpp:4086
 msgid "Open hyperlink in default browser?"
 msgstr "Hyperlink im Standardbrowser öffnen?"
 
-#: src/slic3r/GUI/GUI_App.cpp:4054 src/slic3r/GUI/GUI_App.cpp:4074
+#: src/slic3r/GUI/GUI_App.cpp:4066 src/slic3r/GUI/GUI_App.cpp:4086
 msgid "ApiumSlicer: Open hyperlink"
 msgstr "ApiumSlicer: Hyperlink öffnen"
 
-#: src/slic3r/GUI/GUI_App.cpp:4059 src/slic3r/GUI/Preferences.cpp:1002
+#: src/slic3r/GUI/GUI_App.cpp:4071 src/slic3r/GUI/Preferences.cpp:1002
 msgid "Suppress to open hyperlink in browser"
 msgstr "Öffnen des Hyperlinks im Browser unterdrücken"
 
-#: src/slic3r/GUI/GUI_App.cpp:4061 src/slic3r/GUI/MainFrame.cpp:999 src/slic3r/GUI/Plater.cpp:449
+#: src/slic3r/GUI/GUI_App.cpp:4073 src/slic3r/GUI/MainFrame.cpp:999 src/slic3r/GUI/Plater.cpp:449
 msgid "ApiumSlicer will remember your choice."
 msgstr "ApiumSlicer wird sich an Ihre Wahl erinnern."
 
-#: src/slic3r/GUI/GUI_App.cpp:4062
+#: src/slic3r/GUI/GUI_App.cpp:4074
 msgid "You will not be asked about it again on hyperlinks hovering."
 msgstr "Sie werden nicht mehr danach gefragt, wenn Sie mit der Maus über Hyperlinks fahren."
 
-#: src/slic3r/GUI/GUI_App.cpp:4063 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:453
+#: src/slic3r/GUI/GUI_App.cpp:4075 src/slic3r/GUI/MainFrame.cpp:1000 src/slic3r/GUI/Plater.cpp:453
 #, boost-format
 msgid ""
 "Visit \"Preferences\" and check \"%1%\"\n"
@@ -16057,12 +16078,12 @@ msgstr ""
 "Besuchen Sie \"Einstellungen\" und prüfen Sie \"%1%\"\n"
 "um Ihre Auswahl zu ändern."
 
-#: src/slic3r/GUI/GUI_App.cpp:4065 src/slic3r/GUI/MainFrame.cpp:1002 src/slic3r/GUI/Plater.cpp:455
+#: src/slic3r/GUI/GUI_App.cpp:4077 src/slic3r/GUI/MainFrame.cpp:1002 src/slic3r/GUI/Plater.cpp:455
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:962
 msgid "ApiumSlicer: Don't ask me again"
 msgstr "ApiumSlicer: Fragen Sie mich nicht noch einmal"
 
-#: src/slic3r/GUI/GUI_App.cpp:4116
+#: src/slic3r/GUI/GUI_App.cpp:4128
 msgid ""
 "Open default browser with Prusa Account Log in page?\n"
 "(If you select 'Yes', you will not be asked again.)"
@@ -16070,35 +16091,35 @@ msgstr ""
 "Standardbrowser mit Prusa Account Anmelde-Seite öffnen?\n"
 "(Wenn Sie 'Ja' wählen, werden Sie nicht erneut gefragt)."
 
-#: src/slic3r/GUI/GUI_App.cpp:4116
+#: src/slic3r/GUI/GUI_App.cpp:4128
 msgid "ApiumSlicer: Open Log in page"
 msgstr "ApiumSlicer: Anmeldeseite öffnen"
 
-#: src/slic3r/GUI/GUI_App.cpp:4230
+#: src/slic3r/GUI/GUI_App.cpp:4242
 msgid "Check for application update has failed."
 msgstr "Die Überprüfung auf ein Anwendungs-Update ist fehlgeschlagen."
 
-#: src/slic3r/GUI/GUI_App.cpp:4231
+#: src/slic3r/GUI/GUI_App.cpp:4243
 #, boost-format
 msgid "You are currently running the latest released version %1%."
 msgstr "Sie verwenden derzeit die letzte freigegebene Version %1%."
 
-#: src/slic3r/GUI/GUI_App.cpp:4234
+#: src/slic3r/GUI/GUI_App.cpp:4246
 #, boost-format
 msgid "There are no new released versions online. The latest release version is %1%."
 msgstr ""
 "Es gibt keine neu veröffentlichten Versionen online. Die letzte freigegebene Version ist %1%."
 
-#: src/slic3r/GUI/GUI_App.cpp:4299 src/slic3r/GUI/WebViewPanel.cpp:2148
+#: src/slic3r/GUI/GUI_App.cpp:4311 src/slic3r/GUI/WebViewPanel.cpp:2148
 #, boost-format
 msgid "Downloading %1%"
 msgstr "Herunterladen %1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4309
+#: src/slic3r/GUI/GUI_App.cpp:4321
 msgid "Downloading of the new version is in progress. Do you want to continue?"
 msgstr "Das Herunterladen der neuen Version ist im Gange. Möchten Sie fortfahren?"
 
-#: src/slic3r/GUI/GUI_App.cpp:4339 src/slic3r/GUI/GUI_App.cpp:4694 src/slic3r/GUI/GUI_App.cpp:4709
+#: src/slic3r/GUI/GUI_App.cpp:4351 src/slic3r/GUI/GUI_App.cpp:4706 src/slic3r/GUI/GUI_App.cpp:4721
 msgid ""
 "Could not start URL download. Destination folder is not set. Please choose destination folder in "
 "Configuration Wizard."
@@ -16107,16 +16128,16 @@ msgstr ""
 "Sie den Zielordner im Konfigurationsassistenten."
 
 #. TRN Text of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4361 src/slic3r/GUI/Plater.cpp:1096
+#: src/slic3r/GUI/GUI_App.cpp:4373 src/slic3r/GUI/Plater.cpp:1096
 msgid "Printer configuration file detected on removable media."
 msgstr "Druckerkonfigurationsdatei auf Wechselmedium entdeckt."
 
 #. TRN Text of hypertext of notification when Slicer starts and usb stick with printer settings ini file is present
-#: src/slic3r/GUI/GUI_App.cpp:4363 src/slic3r/GUI/Plater.cpp:1098
+#: src/slic3r/GUI/GUI_App.cpp:4375 src/slic3r/GUI/Plater.cpp:1098
 msgid "Write Wi-Fi credentials."
 msgstr "Wi-Fi Zugangsdaten schreiben."
 
-#: src/slic3r/GUI/GUI_App.cpp:4517
+#: src/slic3r/GUI/GUI_App.cpp:4529
 #, boost-format
 msgid ""
 "Installed and selected printer:\n"
@@ -16125,7 +16146,7 @@ msgstr ""
 "Installierter und gewählter Drucker:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4518
+#: src/slic3r/GUI/GUI_App.cpp:4530
 #, boost-format
 msgid ""
 "Selected printer:\n"
@@ -16134,7 +16155,7 @@ msgstr ""
 "Gewählter Drucker:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4519
+#: src/slic3r/GUI/GUI_App.cpp:4531
 #, boost-format
 msgid ""
 "Printer not found:\n"
@@ -16143,23 +16164,23 @@ msgstr ""
 "Drucker nicht gefunden:\n"
 "%1%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4574 src/slic3r/GUI/GUI_App.cpp:4592
+#: src/slic3r/GUI/GUI_App.cpp:4586 src/slic3r/GUI/GUI_App.cpp:4604
 #, boost-format
 msgid "%1%: Selected filament %2%"
 msgstr "%1%: Selected filament %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4608
+#: src/slic3r/GUI/GUI_App.cpp:4620
 #, boost-format
 msgid "%1%: Installed and selected filament %2%"
 msgstr "%1%: Installed and selected filament %2%"
 
-#: src/slic3r/GUI/GUI_App.cpp:4612
+#: src/slic3r/GUI/GUI_App.cpp:4624
 #, boost-format
 msgid "%2%: Failed to find and select filament type: %1%"
 msgstr "%2%: Failed to find and select filament type: %1%"
 
 #. TRN: Notification text.
-#: src/slic3r/GUI/GUI_App.cpp:4631
+#: src/slic3r/GUI/GUI_App.cpp:4643
 msgid "Failed to select filament from Connect."
 msgstr "Die Auswahl des Filaments aus Connect ist fehlgeschlagen."
 
@@ -24748,61 +24769,47 @@ msgstr "Hinzugefügt"
 msgid "Removed"
 msgstr "Entfernt"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:65
+#: src/slic3r/GUI/SshPrinterDialog.cpp:66
 msgid "Add SSH Profile"
 msgstr "SSH-Profil hinzufügen"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:65
+#: src/slic3r/GUI/SshPrinterDialog.cpp:66
 msgid "Edit SSH Profile"
 msgstr "SSH-Profil bearbeiten"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:81
+#: src/slic3r/GUI/SshPrinterDialog.cpp:83
 msgid "SSH settings"
 msgstr "SSH-Einstellungen"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:100
+#: src/slic3r/GUI/SshPrinterDialog.cpp:102
 msgid "IP / Host"
 msgstr "IP/Host"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:104
+#: src/slic3r/GUI/SshPrinterDialog.cpp:106
 msgid "Port"
 msgstr "Port"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:108 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:113
+#: src/slic3r/GUI/SshPrinterDialog.cpp:110 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:115
 msgid "Username"
 msgstr "Benutzername"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:123
+#: src/slic3r/GUI/SshPrinterDialog.cpp:125
 msgid "Admin password"
 msgstr "Administratorpasswort"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:134
+#: src/slic3r/GUI/SshPrinterDialog.cpp:136
 msgid "Use SSH key"
 msgstr "SSH-Schlüssel verwenden"
 
-#: src/slic3r/GUI/SshPrinterDialog.cpp:153
+#: src/slic3r/GUI/SshPrinterDialog.cpp:155
 msgid "When enabled, SSH agent or default SSH key files are used and the password is ignored."
 msgstr ""
 "Wenn aktiviert, werden der SSH-Agent oder die standardmäßigen SSH-Schlüsseldateien verwendet und "
 "das Passwort wird ignoriert."
 
-#: src/slic3r/GUI/SshStore.cpp:84
-msgid "Failed to save SSH profiles to webinterfaces.apium."
-msgstr "SSH-Profile konnten nicht in webinterfaces.apium gespeichert werden."
-
-#: src/slic3r/GUI/SshStore.cpp:116 src/slic3r/GUI/SshTabPanel.cpp:1292
-#: src/slic3r/GUI/SshTabPanel.cpp:1332
-msgid "Profile name cannot be empty."
-msgstr "Der Profilname darf nicht leer sein."
-
-#: src/slic3r/GUI/SshStore.cpp:120
-msgid "IP cannot be empty."
-msgstr "Die IP-Adresse darf nicht leer sein."
-
-#: src/slic3r/GUI/SshStore.cpp:133 src/slic3r/GUI/SshTabPanel.cpp:1298
-#: src/slic3r/GUI/SshTabPanel.cpp:1338
-msgid "A profile with this name already exists."
-msgstr "Ein Profil mit diesem Namen existiert bereits."
+#: src/slic3r/GUI/SshPrinterDialog.cpp:163 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:166
+msgid "Reset saved credentials..."
+msgstr "Gespeicherte Zugangsdaten zurücksetzen ..."
 
 #: src/slic3r/GUI/SshTabPanel.cpp:418
 msgid "Open webinterface of selected printer"
@@ -24841,199 +24848,198 @@ msgstr "Profil hinzufügen"
 msgid "SSH (%1%)"
 msgstr "SSH (%1%)"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1362
-#, boost-format
-msgid "Remove SSH profile \"%1%\"?"
-msgstr "SSH-Profil „%1%“ entfernen?"
+#: src/slic3r/GUI/SshTabPanel.cpp:1292 src/slic3r/GUI/SshTabPanel.cpp:1332
+msgid "Profile name cannot be empty."
+msgstr "Der Profilname darf nicht leer sein."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1363
-msgid "Remove SSH Profile"
-msgstr "SSH-Profil entfernen"
+#: src/slic3r/GUI/SshTabPanel.cpp:1298 src/slic3r/GUI/SshTabPanel.cpp:1338
+msgid "A profile with this name already exists."
+msgstr "Ein Profil mit diesem Namen existiert bereits."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1437
+#: src/slic3r/GUI/SshTabPanel.cpp:1430
 msgid ""
 "Selected printer has no persistent ID yet. Please edit and save the printer once, then try again."
 msgstr ""
 "Der ausgewählte Drucker besitzt noch keine dauerhafte ID. Bearbeiten und speichern Sie den "
 "Drucker einmal und versuchen Sie es danach erneut."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1448
+#: src/slic3r/GUI/SshTabPanel.cpp:1441
 msgid "Could not open File Transfer for the selected printer."
 msgstr "Die Dateiübertragung für den ausgewählten Drucker konnte nicht geöffnet werden."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1545
+#: src/slic3r/GUI/SshTabPanel.cpp:1538
 msgid "Shell Shortcut Info"
 msgstr "Shell-Shortcut-Info"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1560
+#: src/slic3r/GUI/SshTabPanel.cpp:1553
 msgid "Shortcut"
 msgstr "Shortcut"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1564
+#: src/slic3r/GUI/SshTabPanel.cpp:1557
 msgid "Ctrl + C"
 msgstr "Ctrl + C"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1564
+#: src/slic3r/GUI/SshTabPanel.cpp:1557
 msgid "Kills the currently running process (sends SIGINT)."
 msgstr "Beendet den aktuell laufenden Prozess (sendet SIGINT)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1565
+#: src/slic3r/GUI/SshTabPanel.cpp:1558
 msgid "Ctrl + Z"
 msgstr "Ctrl + Z"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1565
+#: src/slic3r/GUI/SshTabPanel.cpp:1558
 msgid "Pauses the current process and moves it to the background (sends SIGTSTP)."
 msgstr "Pausiert den aktuellen Prozess und verschiebt ihn in den Hintergrund (sendet SIGTSTP)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1566
+#: src/slic3r/GUI/SshTabPanel.cpp:1559
 msgid "Ctrl + D"
 msgstr "Ctrl + D"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1566
+#: src/slic3r/GUI/SshTabPanel.cpp:1559
 msgid "Closes the current shell or SSH session if the command line is empty."
 msgstr "Schliesst die aktuelle Shell- oder SSH-Sitzung, wenn die Befehlszeile leer ist."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1567
+#: src/slic3r/GUI/SshTabPanel.cpp:1560
 msgid "Ctrl + L"
 msgstr "Ctrl + L"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1567
+#: src/slic3r/GUI/SshTabPanel.cpp:1560
 msgid "Clears the terminal screen completely while keeping the current input line."
 msgstr "Leert den Terminalbildschirm vollstaendig und behaelt die aktuelle Eingabezeile."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1568
+#: src/slic3r/GUI/SshTabPanel.cpp:1561
 msgid "Ctrl + S"
 msgstr "Ctrl + S"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1568
+#: src/slic3r/GUI/SshTabPanel.cpp:1561
 msgid "Pauses terminal output (useful when output scrolls too fast)."
 msgstr "Pausiert die Terminalausgabe (nuetzlich bei zu schnellem Scrollen)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1569
+#: src/slic3r/GUI/SshTabPanel.cpp:1562
 msgid "Ctrl + Q"
 msgstr "Ctrl + Q"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1569
+#: src/slic3r/GUI/SshTabPanel.cpp:1562
 msgid "Resumes terminal output after Ctrl + S."
 msgstr "Setzt die Terminalausgabe nach Ctrl + S fort."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1570
+#: src/slic3r/GUI/SshTabPanel.cpp:1563
 msgid "Ctrl + A"
 msgstr "Ctrl + A"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1570
+#: src/slic3r/GUI/SshTabPanel.cpp:1563
 msgid "Moves the cursor to the beginning of the current line."
 msgstr "Bewegt den Cursor an den Anfang der aktuellen Zeile."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1571
+#: src/slic3r/GUI/SshTabPanel.cpp:1564
 msgid "Ctrl + E"
 msgstr "Ctrl + E"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1571
+#: src/slic3r/GUI/SshTabPanel.cpp:1564
 msgid "Moves the cursor to the end of the current line."
 msgstr "Bewegt den Cursor an das Ende der aktuellen Zeile."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1572
+#: src/slic3r/GUI/SshTabPanel.cpp:1565
 msgid "Alt + F"
 msgstr "Alt + F"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1572
+#: src/slic3r/GUI/SshTabPanel.cpp:1565
 msgid "Moves the cursor forward by one word."
 msgstr "Bewegt den Cursor ein Wort nach vorne."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1573
+#: src/slic3r/GUI/SshTabPanel.cpp:1566
 msgid "Alt + B"
 msgstr "Alt + B"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1573
+#: src/slic3r/GUI/SshTabPanel.cpp:1566
 msgid "Moves the cursor backward by one word."
 msgstr "Bewegt den Cursor ein Wort zurueck."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1574
+#: src/slic3r/GUI/SshTabPanel.cpp:1567
 msgid "Ctrl + X, Ctrl + X"
 msgstr "Ctrl + X, Ctrl + X"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1574
+#: src/slic3r/GUI/SshTabPanel.cpp:1567
 msgid "Jumps between current cursor position and beginning of line."
 msgstr "Springt zwischen aktueller Cursorposition und Zeilenanfang."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1575
+#: src/slic3r/GUI/SshTabPanel.cpp:1568
 msgid "Ctrl + U"
 msgstr "Ctrl + U"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1575
+#: src/slic3r/GUI/SshTabPanel.cpp:1568
 msgid "Cuts text from cursor to the beginning of the line."
 msgstr "Schneidet Text vom Cursor bis zum Zeilenanfang aus."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1576
+#: src/slic3r/GUI/SshTabPanel.cpp:1569
 msgid "Ctrl + K"
 msgstr "Ctrl + K"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1576
+#: src/slic3r/GUI/SshTabPanel.cpp:1569
 msgid "Cuts text from cursor to the end of the line."
 msgstr "Schneidet Text vom Cursor bis zum Zeilenende aus."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1577
+#: src/slic3r/GUI/SshTabPanel.cpp:1570
 msgid "Ctrl + W"
 msgstr "Ctrl + W"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1577
+#: src/slic3r/GUI/SshTabPanel.cpp:1570
 msgid "Cuts the word directly behind the cursor."
 msgstr "Schneidet das Wort direkt hinter dem Cursor aus."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1578
+#: src/slic3r/GUI/SshTabPanel.cpp:1571
 msgid "Alt + D"
 msgstr "Alt + D"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1578
+#: src/slic3r/GUI/SshTabPanel.cpp:1571
 msgid "Cuts the word directly in front of the cursor."
 msgstr "Schneidet das Wort direkt vor dem Cursor aus."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1579
+#: src/slic3r/GUI/SshTabPanel.cpp:1572
 msgid "Ctrl + Y"
 msgstr "Ctrl + Y"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1579
+#: src/slic3r/GUI/SshTabPanel.cpp:1572
 msgid "Pastes the most recently cut text at the cursor."
 msgstr "Fuegt den zuletzt ausgeschnittenen Text am Cursor ein."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1580
+#: src/slic3r/GUI/SshTabPanel.cpp:1573
 msgid "Ctrl + _"
 msgstr "Ctrl + _"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1580
+#: src/slic3r/GUI/SshTabPanel.cpp:1573
 msgid "Undoes the last editing action on the current line."
 msgstr "Macht die letzte Bearbeitungsaktion in der aktuellen Zeile rueckgaengig."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1581
+#: src/slic3r/GUI/SshTabPanel.cpp:1574
 msgid "Ctrl + R"
 msgstr "Ctrl + R"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1581
+#: src/slic3r/GUI/SshTabPanel.cpp:1574
 msgid "Opens interactive reverse history search."
 msgstr "Oeffnet die interaktive Rueckwaertssuche im Verlauf."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1582
+#: src/slic3r/GUI/SshTabPanel.cpp:1575
 msgid "Ctrl + P"
 msgstr "Ctrl + P"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1582
+#: src/slic3r/GUI/SshTabPanel.cpp:1575
 msgid "Fetches the previous command from history."
 msgstr "Holt den vorherigen Befehl aus dem Verlauf."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1583
+#: src/slic3r/GUI/SshTabPanel.cpp:1576
 msgid "Ctrl + N"
 msgstr "Ctrl + N"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1583
+#: src/slic3r/GUI/SshTabPanel.cpp:1576
 msgid "Fetches the next command from history."
 msgstr "Holt den naechsten Befehl aus dem Verlauf."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1584
+#: src/slic3r/GUI/SshTabPanel.cpp:1577
 msgid "Ctrl + Shift + P"
 msgstr "Strg + Umschalt + P"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1584
+#: src/slic3r/GUI/SshTabPanel.cpp:1577
 msgid "Enters the stored administrator password for the selected printer and presses Enter."
 msgstr ""
 "Gibt das gespeicherte Administratorpasswort des ausgewaehlten Druckers ein und bestaetigt mit "
@@ -27173,55 +27179,165 @@ msgstr "Drucker-Webinterface hinzufügen"
 msgid "Edit Printer Webinterface"
 msgstr "Drucker-Webinterface bearbeiten"
 
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:80
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:82
 msgid "Webinterface settings"
 msgstr "Webinterface-Einstellungen"
 
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:109
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:111
 msgid "URL"
 msgstr "URL"
 
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:142
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:144
 msgid "Ignore certificate errors for this host"
 msgstr "Zertifikatsfehler für diesen Host ignorieren"
 
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:148
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:150
 msgid "Ignores certificate errors only for the configured printer host."
 msgstr "Ignoriert Zertifikatsfehler nur für den konfigurierten Druckerhost."
 
-#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:154
+#: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:156
 msgid "Auto login"
 msgstr "Auto-Login"
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:685
-msgid "The legacy web interface backup path is not a file."
-msgstr "Der Pfad zur Sicherung der alten Weboberfläche ist keine Datei."
+#: src/slic3r/GUI/WebInterfaceStore.cpp:303
+msgid "The web interface store could not be loaded and was left unchanged."
+msgstr "Der Speicher der Weboberfläche konnte nicht geladen werden und blieb unverändert."
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:713
-msgid "Failed to back up legacy web interface credentials."
-msgstr "Die alten Anmeldedaten des Webinterfaces konnten nicht gesichert werden."
+#: src/slic3r/GUI/WebInterfaceStore.cpp:308
+msgid "The web interface configuration is too large to save. The file was left unchanged."
+msgstr "Die Webinterface-Konfiguration ist zu groß zum Speichern. Die Datei wurde nicht verändert."
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1531 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1115
+#: src/slic3r/GUI/WebInterfaceStore.cpp:315 src/slic3r/GUI/WebInterfaceStore.cpp:807
+#: src/slic3r/GUI/WebInterfaceStore.cpp:863
+msgid "webinterface.apium changed during editing. Reload the printer settings and try again."
+msgstr ""
+"webinterface.apium wurde während der Bearbeitung geändert. Laden Sie die Druckereinstellungen "
+"erneut und versuchen Sie es noch einmal."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:346 src/slic3r/GUI/WebInterfaceStore.cpp:354
+msgid "Failed to save web interfaces to webinterface.apium. The previous file was left unchanged."
+msgstr ""
+"Die Webinterfaces konnten nicht in webinterface.apium gespeichert werden. Die bisherige Datei "
+"wurde nicht verändert."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:387
+msgid ""
+"The old webinterfaces.apium format is no longer supported. Its file is preserved. Recreate your "
+"printers in webinterface.apium (format 6)."
+msgstr ""
+"Das alte Format webinterfaces.apium wird nicht mehr unterstützt. Die Datei bleibt erhalten. Legen "
+"Sie Ihre Drucker in webinterface.apium (Format 6) neu an."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:396
+msgid ""
+"webinterface.apium could not be read or has an unsupported format. The file is preserved and "
+"saving is disabled. Only format 6 is supported."
+msgstr ""
+"webinterface.apium konnte nicht gelesen werden oder hat ein nicht unterstütztes Format. Die Datei "
+"bleibt erhalten und das Speichern ist deaktiviert. Nur Format 6 wird unterstützt."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:404
+msgid ""
+"The saved credentials for this printer cannot be decrypted on this computer. The hardware "
+"identity may be unavailable or changed, or the data may be damaged. Reset all saved usernames, "
+"passwords and API keys for this printer? Choose Keep saved values to preserve the encrypted data."
+msgstr ""
+"Die gespeicherten Zugangsdaten dieses Druckers können auf diesem Computer nicht entschlüsselt "
+"werden. Die Hardware-Kennung ist möglicherweise nicht verfügbar oder wurde geändert, oder die "
+"Daten sind beschädigt. Alle gespeicherten Benutzernamen, Passwörter und API-Schlüssel dieses "
+"Druckers zurücksetzen? Wählen Sie „Gespeicherte Werte behalten“, um die verschlüsselten Daten zu "
+"erhalten."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:457
+msgid ""
+"The saved credentials are locked. Reload the configuration and confirm the credential reset "
+"before replacing them."
+msgstr ""
+"Die gespeicherten Zugangsdaten sind gesperrt. Laden Sie die Konfiguration erneut und bestätigen "
+"Sie das Zurücksetzen der Zugangsdaten, bevor Sie diese ersetzen."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:464
+msgid ""
+"Save these changes and delete the cleared usernames, passwords or API keys? Other saved values "
+"will be preserved."
+msgstr ""
+"Diese Änderungen speichern und die geleerten Benutzernamen, Passwörter oder API-Schlüssel "
+"löschen? Andere gespeicherte Werte bleiben erhalten."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:465 src/slic3r/GUI/WebInterfaceStore.cpp:812
+#: src/slic3r/GUI/WebInterfaceStore.cpp:875
+msgid "Credential deletion was not confirmed. The file was left unchanged."
+msgstr "Das Löschen der Zugangsdaten wurde nicht bestätigt. Die Datei wurde nicht verändert."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:477
+msgid ""
+"A reproducible hardware identity could not be generated on this computer. Save this printer's "
+"usernames, passwords and API keys without encryption? Anyone who can read webinterface.apium will "
+"be able to read these credentials. Choose Cancel to leave the file unchanged."
+msgstr ""
+"Auf diesem Computer konnte keine reproduzierbare Hardware-Kennung ermittelt werden. "
+"Benutzernamen, Passwörter und API-Schlüssel dieses Druckers unverschlüsselt speichern? Jeder, der "
+"webinterface.apium lesen kann, kann dann auch diese Zugangsdaten lesen. Wählen Sie „Abbrechen“, "
+"um die Datei unverändert zu lassen."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:478
+msgid "Unencrypted credential storage was not confirmed. The file was left unchanged."
+msgstr ""
+"Das unverschlüsselte Speichern der Zugangsdaten wurde nicht bestätigt. Die Datei wurde nicht "
+"verändert."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:497
+msgid ""
+"Credentials could not be encrypted. Check that this computer's hardware identity is accessible. "
+"The file was left unchanged."
+msgstr ""
+"Die Zugangsdaten konnten nicht verschlüsselt werden. Prüfen Sie, ob die Hardware-Kennung dieses "
+"Computers zugänglich ist. Die Datei wurde nicht verändert."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:786 src/slic3r/GUI/WebInterfaceStore.cpp:805
+#: src/slic3r/GUI/WebInterfaceStore.cpp:860
+msgid "The printer no longer exists. Reload the printer settings."
+msgstr "Der Drucker ist nicht mehr vorhanden. Laden Sie die Druckereinstellungen erneut."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:811
+msgid ""
+"Reset all saved usernames, passwords and API keys for this printer? Printer settings will be "
+"preserved."
+msgstr ""
+"Alle gespeicherten Benutzernamen, Passwörter und API-Schlüssel dieses Druckers zurücksetzen? Die "
+"Druckereinstellungen bleiben erhalten."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:839 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1115
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1164
 msgid "Printer name cannot be empty."
 msgstr "Der Druckername darf nicht leer sein."
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1537
+#: src/slic3r/GUI/WebInterfaceStore.cpp:842
+msgid "IP cannot be empty."
+msgstr "Die IP-Adresse darf nicht leer sein."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:843
 msgid "Printer URL cannot be empty."
 msgstr "Die Drucker-URL darf nicht leer sein."
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1550 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1123
+#: src/slic3r/GUI/WebInterfaceStore.cpp:848
+msgid "Enter usernames and passwords in the credential fields, not in the printer URL."
+msgstr ""
+"Geben Sie Benutzernamen und Passwörter in den Feldern für die Zugangsdaten ein, nicht in der "
+"Drucker-URL."
+
+#: src/slic3r/GUI/WebInterfaceStore.cpp:853 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1123
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1172
 msgid "A printer with this name already exists."
 msgstr "Ein Drucker mit diesem Namen existiert bereits."
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1843
-msgid "The web interface store could not be loaded and was left unchanged."
-msgstr "Der Speicher der Weboberfläche konnte nicht geladen werden und blieb unverändert."
+#: src/slic3r/GUI/WebInterfaceStore.cpp:874 src/slic3r/GUI/WebInterfaceStore.cpp:912
+msgid "Delete the saved SSH host key for this printer?"
+msgstr "Den gespeicherten SSH-Hostschlüssel dieses Druckers löschen?"
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1869
-msgid "Failed to save web interfaces to webinterfaces.apium."
-msgstr "Webinterfaces konnten nicht in webinterfaces.apium gespeichert werden."
+#: src/slic3r/GUI/WebInterfaceStore.cpp:926
+msgid "Delete this printer and all its saved settings and credentials?"
+msgstr "Diesen Drucker mit allen gespeicherten Einstellungen und Zugangsdaten löschen?"
 
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:439
 msgid "Open selected webinterface in system browser"
@@ -27247,15 +27363,6 @@ msgstr "Drucker hinzufügen"
 #, boost-format
 msgid "Webinterface (%1%)"
 msgstr "Webinterface (%1%)"
-
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1197
-#, boost-format
-msgid "Remove webinterface printer \"%1%\"?"
-msgstr "Webinterface-Drucker \"%1%\" entfernen?"
-
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1198
-msgid "Remove Printer Webinterface"
-msgstr "Drucker-Webinterface entfernen"
 
 #: src/slic3r/GUI/WebViewDialog.cpp:78 src/slic3r/GUI/WebViewPanel.cpp:294
 msgid "Failed to load a web browser."

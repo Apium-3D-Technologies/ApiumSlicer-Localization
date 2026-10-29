@@ -1046,6 +1046,8 @@ src/slic3r/GUI/VersionInfoDialog.cpp
 src/slic3r/GUI/VersionInfoDialog.hpp
 src/slic3r/GUI/VersionedSaveDialog.cpp
 src/slic3r/GUI/VersionedSaveDialog.hpp
+src/slic3r/GUI/WebInterfaceHardwareIdentity.cpp
+src/slic3r/GUI/WebInterfaceHardwareIdentity.hpp
 src/slic3r/GUI/WebInterfacePrinterDialog.cpp
 src/slic3r/GUI/WebInterfacePrinterDialog.hpp
 src/slic3r/GUI/WebInterfaceStore.cpp
