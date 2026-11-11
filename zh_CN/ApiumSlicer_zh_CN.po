@@ -239,72 +239,72 @@ msgstr "SL1 归档"
 msgid "SL1 SVG archive"
 msgstr "SL1 SVG 归档"
 
-#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:3781 src/libslic3r/PrintConfig.cpp:5410
+#: src/libslic3r/GCode.cpp:678 src/libslic3r/GCode.cpp:3789 src/libslic3r/PrintConfig.cpp:5410
 #: src/libslic3r/PrintConfig.cpp:5429 src/libslic3r/SlicingNotification.cpp:273
 #: src/slic3r/GUI/Tab.cpp:5168 src/slic3r/GUI/Tab.cpp:5962
 msgid "Start G-code"
 msgstr "起始 G-Code"
 
-#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:4028 src/libslic3r/PrintConfig.cpp:2113
+#: src/libslic3r/GCode.cpp:679 src/libslic3r/GCode.cpp:4036 src/libslic3r/PrintConfig.cpp:2113
 #: src/libslic3r/PrintConfig.cpp:2123 src/libslic3r/SlicingNotification.cpp:274
 #: src/slic3r/GUI/Tab.cpp:5179 src/slic3r/GUI/Tab.cpp:5977
 msgid "End G-code"
 msgstr "结尾 G-Code"
 
-#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:7009 src/libslic3r/PrintConfig.cpp:1475
+#: src/libslic3r/GCode.cpp:680 src/libslic3r/GCode.cpp:7017 src/libslic3r/PrintConfig.cpp:1475
 #: src/libslic3r/SlicingNotification.cpp:275 src/slic3r/GUI/Tab.cpp:5989
 msgid "Before layer change G-code"
 msgstr "图层更改前 G-Code"
 
-#: src/libslic3r/GCode.cpp:681 src/libslic3r/GCode.cpp:7058 src/libslic3r/PrintConfig.cpp:4068
+#: src/libslic3r/GCode.cpp:681 src/libslic3r/GCode.cpp:7066 src/libslic3r/PrintConfig.cpp:4068
 #: src/libslic3r/SlicingNotification.cpp:276 src/slic3r/GUI/Tab.cpp:6001
 msgid "After layer change G-code"
 msgstr "图层更改后 G-Code"
 
-#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:11479 src/libslic3r/PrintConfig.cpp:6334
+#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:11487 src/libslic3r/PrintConfig.cpp:6334
 #: src/libslic3r/SlicingNotification.cpp:277 src/slic3r/GUI/Tab.cpp:6013
 msgid "Tool change G-code"
 msgstr "工具更改 G-Code"
 
-#: src/libslic3r/GCode.cpp:683 src/libslic3r/GCode.cpp:3878
+#: src/libslic3r/GCode.cpp:683 src/libslic3r/GCode.cpp:3886
 #: src/libslic3r/SlicingNotification.cpp:278 src/slic3r/GUI/Tab.cpp:6025
 msgid "Between objects G-code (for sequential printing)"
 msgstr "模型对象之间的 G-Code (用于顺序打印)"
 
-#: src/libslic3r/GCode.cpp:684 src/libslic3r/GCode.cpp:5578
+#: src/libslic3r/GCode.cpp:684 src/libslic3r/GCode.cpp:5586
 #: src/libslic3r/SlicingNotification.cpp:281 src/slic3r/GUI/Tab.cpp:6037
 msgid "Color Change G-code"
 msgstr "颜色更改 G-Code"
 
-#: src/libslic3r/GCode.cpp:685 src/libslic3r/GCode.cpp:5583 src/libslic3r/PrintConfig.cpp:5455
+#: src/libslic3r/GCode.cpp:685 src/libslic3r/GCode.cpp:5591 src/libslic3r/PrintConfig.cpp:5455
 #: src/libslic3r/SlicingNotification.cpp:282 src/slic3r/GUI/Tab.cpp:6048
 msgid "Pause Print G-code"
 msgstr "暂停打印 G-Code"
 
-#: src/libslic3r/GCode.cpp:686 src/libslic3r/GCode.cpp:5600
+#: src/libslic3r/GCode.cpp:686 src/libslic3r/GCode.cpp:5608
 #: src/libslic3r/SlicingNotification.cpp:283 src/slic3r/GUI/Tab.cpp:6059
 msgid "Template Custom G-code"
 msgstr "模板自定义 G-Code"
 
-#: src/libslic3r/GCode.cpp:689 src/libslic3r/GCode.cpp:11427 src/libslic3r/GCode.cpp:11511
+#: src/libslic3r/GCode.cpp:689 src/libslic3r/GCode.cpp:11435 src/libslic3r/GCode.cpp:11519
 #: src/libslic3r/SlicingNotification.cpp:279
 msgid "Filament Start G-code"
 msgstr "耗材启动 G-Code"
 
-#: src/libslic3r/GCode.cpp:696 src/libslic3r/GCode.cpp:4020 src/libslic3r/GCode.cpp:4025
-#: src/libslic3r/GCode.cpp:11457 src/libslic3r/SlicingNotification.cpp:280
+#: src/libslic3r/GCode.cpp:696 src/libslic3r/GCode.cpp:4028 src/libslic3r/GCode.cpp:4033
+#: src/libslic3r/GCode.cpp:11465 src/libslic3r/SlicingNotification.cpp:280
 msgid "Filament End G-code"
 msgstr "耗材结束 G-Code"
 
-#: src/libslic3r/GCode.cpp:704 src/libslic3r/GCode.cpp:5605 src/libslic3r/PrintConfig.cpp:5464
+#: src/libslic3r/GCode.cpp:704 src/libslic3r/GCode.cpp:5613 src/libslic3r/PrintConfig.cpp:5464
 #: src/libslic3r/SlicingNotification.cpp:284 src/slic3r/GUI/GCodeViewer.cpp:1167
 #: src/slic3r/GUI/Tab.cpp:5167 src/slic3r/GUI/Tab.cpp:5957 src/slic3r/GUI/Tab.cpp:6328
 #: src/slic3r/GUI/Tab.cpp:6338 src/slic3r/GUI/Tab.cpp:8938
 msgid "Custom G-code"
 msgstr "自定义 G-Code"
 
-#: src/libslic3r/GCode.cpp:988 src/libslic3r/GCode.cpp:991 src/libslic3r/GCode.cpp:1028
-#: src/libslic3r/GCode.cpp:1069 src/libslic3r/GCode.cpp:1104
+#: src/libslic3r/GCode.cpp:992 src/libslic3r/GCode.cpp:995 src/libslic3r/GCode.cpp:1032
+#: src/libslic3r/GCode.cpp:1073 src/libslic3r/GCode.cpp:1108
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1312 src/libslic3r/GCode/CoolingBuffer.cpp:1331
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1538 src/libslic3r/GCode/CoolingBuffer.cpp:1546
 #: src/libslic3r/GCode/CoolingBuffer.cpp:1571 src/libslic3r/GCode/CoolingBuffer.cpp:1582
@@ -314,56 +314,57 @@ msgstr "自定义 G-Code"
 msgid "Invalid fan power"
 msgstr "无效的风扇功率"
 
-#: src/libslic3r/GCode.cpp:1061 src/libslic3r/GCode.cpp:1065 src/libslic3r/GCode.cpp:1135
-#: src/libslic3r/GCode.cpp:1742 src/libslic3r/PrintObject.cpp:3735
+#: src/libslic3r/GCode.cpp:1065 src/libslic3r/GCode.cpp:1069 src/libslic3r/GCode.cpp:1139
+#: src/libslic3r/GCode.cpp:1750 src/libslic3r/PrintObject.cpp:3735
 #: src/libslic3r/PrintObject.cpp:3743 src/slic3r/GUI/GUI_Preview.cpp:897
 msgid "Invalid zoneheater power"
 msgstr "无效的区域加热功率"
 
-#: src/libslic3r/GCode.cpp:1070 src/libslic3r/GCode.cpp:1144 src/slic3r/GUI/ConfigWizard.cpp:2427
+#: src/libslic3r/GCode.cpp:1074 src/libslic3r/GCode.cpp:1148 src/slic3r/GUI/ConfigWizard.cpp:2427
 #: src/slic3r/GUI/ConfigWizard.cpp:2499 src/slic3r/GUI/ConfigWizard.cpp:2504
 #: src/slic3r/GUI/ConfigWizard.cpp:2509 src/slic3r/GUI/Field.cpp:759 src/slic3r/GUI/Field.cpp:834
 #: src/slic3r/GUI/Field.cpp:2507 src/slic3r/GUI/GUI_ObjectLayers.cpp:439
 msgid "Invalid numeric input."
 msgstr "无效的数字输入。"
 
-#: src/libslic3r/GCode.cpp:1458 src/libslic3r/GCode.cpp:1535
+#: src/libslic3r/GCode.cpp:1156 src/libslic3r/GCode.cpp:5613
+#: src/libslic3r/SlicingNotification.cpp:285
+msgid "Nozzle temperature slider"
+msgstr "喷嘴温度滑块"
+
+#: src/libslic3r/GCode.cpp:1466 src/libslic3r/GCode.cpp:1543
 msgid "checksummed G-code line"
 msgstr "校验和 G-code 行"
 
-#: src/libslic3r/GCode.cpp:1609
+#: src/libslic3r/GCode.cpp:1617
 #, boost-format
 msgid ""
 "Temperature integer export failed in %1%: %2% contains an unsupported temperature value (%3%)."
 msgstr "温度整数导出在 %1% 中失败：%2% 包含不受支持的温度值（%3%）。"
 
-#: src/libslic3r/GCode.cpp:1803
+#: src/libslic3r/GCode.cpp:1811
 msgid "Invalid zoneheater GCODE template"
 msgstr "区域加热器 G-code 模板无效"
 
-#: src/libslic3r/GCode.cpp:3648 src/libslic3r/GCode.cpp:3661
+#: src/libslic3r/GCode.cpp:3656 src/libslic3r/GCode.cpp:3669
 msgid "No extrusions were generated for objects."
 msgstr "没有为对象生成拉伸。"
 
-#: src/libslic3r/GCode.cpp:5411
+#: src/libslic3r/GCode.cpp:5419
 msgid "Invalid chamber heater GCODE template"
 msgstr "腔体加热器 G-code 模板无效"
 
-#: src/libslic3r/GCode.cpp:5605 src/libslic3r/SlicingNotification.cpp:285
-msgid "Nozzle temperature slider"
-msgstr "喷嘴温度滑块"
-
-#: src/libslic3r/GCode.cpp:6215 src/libslic3r/GCode.cpp:6225 src/libslic3r/GCode.cpp:6322
+#: src/libslic3r/GCode.cpp:6223 src/libslic3r/GCode.cpp:6233 src/libslic3r/GCode.cpp:6330
 #: src/slic3r/GUI/GUI_ObjectList.cpp:172
 msgid "Unnamed object"
 msgstr "未命名对象"
 
-#: src/libslic3r/GCode.cpp:7897
+#: src/libslic3r/GCode.cpp:7905
 #, boost-format
 msgid "Processing layer (%1%/%2%)"
 msgstr "正在处理层（%1%/%2%）"
 
-#: src/libslic3r/GCode.cpp:10188
+#: src/libslic3r/GCode.cpp:10196
 msgid "Final slicer G-code output"
 msgstr "切片软件最终 G-code 输出"
 
@@ -9066,7 +9067,7 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr "将模型切片并导出 SLA 打印图层为 PNG。"
 
 #: src/libslic3r/PrintConfig.cpp:9435 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:9195 src/slic3r/GUI/Sidebar.cpp:1269
+#: src/slic3r/GUI/Plater.cpp:9199 src/slic3r/GUI/Sidebar.cpp:1269
 msgid "Export G-code"
 msgstr "导出 G-Code"
 
@@ -10017,7 +10018,7 @@ msgstr "信息："
 msgid "WARNING:"
 msgstr "警告:"
 
-#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10108
+#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10130
 #: src/slic3r/GUI/NotificationManager.cpp:2292 src/slic3r/GUI/NotificationManager.cpp:2319
 #: src/slic3r/GUI/NotificationManager.cpp:2325
 msgid "ERROR:"
@@ -10673,7 +10674,7 @@ msgstr "内部名称"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1861
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1869
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1875
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:8999
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:9021
 #: src/slic3r/GUI/Plater.cpp:3039 src/slic3r/GUI/Plater.cpp:4228
 msgid "Invalid data"
 msgstr "无效数据"
@@ -10732,7 +10733,7 @@ msgstr "没有可编辑的用户预设发生更改。"
 msgid "Some presets could not be saved:"
 msgstr "部分预设无法保存："
 
-#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7206
+#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7228
 msgid "Arrange options"
 msgstr "安排选项"
 
@@ -13759,11 +13760,11 @@ msgstr "显示 Zoneheater 环"
 msgid "Center of gravity"
 msgstr "重心"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:714 src/slic3r/GUI/GLCanvas3D.cpp:7359
+#: src/slic3r/GUI/GLCanvas3D.cpp:714 src/slic3r/GUI/GLCanvas3D.cpp:7381
 msgid "Variable Zoneheater Power"
 msgstr "可变区段加热器功率"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:714 src/slic3r/GUI/GLCanvas3D.cpp:7336
+#: src/slic3r/GUI/GLCanvas3D.cpp:714 src/slic3r/GUI/GLCanvas3D.cpp:7358
 #: src/slic3r/GUI/ObjectDataViewModel.cpp:81
 msgid "Variable layer height"
 msgstr "可变层高"
@@ -13931,74 +13932,74 @@ msgstr "所有打印床完成切片后将显示统计信息"
 msgid "Mirror Object"
 msgstr "镜像物体"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4837 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
+#: src/slic3r/GUI/GLCanvas3D.cpp:4843 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
 msgid "Gizmo-Move"
 msgstr "Gizmo-移动"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4931 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
+#: src/slic3r/GUI/GLCanvas3D.cpp:4942 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
 msgid "Gizmo-Rotate"
 msgstr "Gizmo-旋转"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:5799
+#: src/slic3r/GUI/GLCanvas3D.cpp:5821
 msgid "Move Object"
 msgstr "移动对象"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6046
+#: src/slic3r/GUI/GLCanvas3D.cpp:6068
 msgid "Painted adhesion pads were removed because the object was moved in Z."
 msgstr "由于对象沿 Z 方向移动，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6083 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:6105 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
 msgid "Gizmo-Place on Face"
 msgstr "Gizmo-放在面上"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6140
+#: src/slic3r/GUI/GLCanvas3D.cpp:6162
 msgid "Painted adhesion pads were removed because the object was rotated."
 msgstr "由于对象旋转，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6283
+#: src/slic3r/GUI/GLCanvas3D.cpp:6305
 msgid "Painted adhesion pads were removed because the object was mirrored."
 msgstr "由于对象镜像，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6352
+#: src/slic3r/GUI/GLCanvas3D.cpp:6374
 msgid "Painted adhesion pads were removed because skew was reset for the object."
 msgstr "由于对象的倾斜已重置，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6551
+#: src/slic3r/GUI/GLCanvas3D.cpp:6573
 msgid "Switch to Settings"
 msgstr "切换到设置"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6552 src/slic3r/GUI/MainFrame.cpp:949
+#: src/slic3r/GUI/GLCanvas3D.cpp:6574 src/slic3r/GUI/MainFrame.cpp:949
 msgid "Print Settings Tab"
 msgstr "打印设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6553 src/slic3r/GUI/MainFrame.cpp:950
+#: src/slic3r/GUI/GLCanvas3D.cpp:6575 src/slic3r/GUI/MainFrame.cpp:950
 msgid "Filament Settings Tab"
 msgstr "耗材设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6553 src/slic3r/GUI/MainFrame.cpp:950
+#: src/slic3r/GUI/GLCanvas3D.cpp:6575 src/slic3r/GUI/MainFrame.cpp:950
 #: src/slic3r/GUI/MainFrame.cpp:3458 src/slic3r/GUI/MainFrame.cpp:3686
 msgid "Material Settings Tab"
 msgstr "材质设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6554 src/slic3r/GUI/MainFrame.cpp:951
+#: src/slic3r/GUI/GLCanvas3D.cpp:6576 src/slic3r/GUI/MainFrame.cpp:951
 msgid "Printer Settings Tab"
 msgstr "打印机设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6650
+#: src/slic3r/GUI/GLCanvas3D.cpp:6672
 msgid "Undo History"
 msgstr "撤销历史操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6650
+#: src/slic3r/GUI/GLCanvas3D.cpp:6672
 msgid "Redo History"
 msgstr "重做历史操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6670
+#: src/slic3r/GUI/GLCanvas3D.cpp:6692
 #, c-format, boost-format
 msgid "Undo %1$d Action"
 msgid_plural "Undo %1$d Actions"
 msgstr[0] "撤消 %1$d 操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6670
+#: src/slic3r/GUI/GLCanvas3D.cpp:6692
 #, c-format, boost-format
 msgid "Redo %1$d Action"
 msgid_plural "Redo %1$d Actions"
@@ -14008,20 +14009,20 @@ msgstr[0] "重做 %1$d 操作"
 msgid "Search"
 msgstr "搜索"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6697 src/slic3r/GUI/Search.cpp:554
+#: src/slic3r/GUI/GLCanvas3D.cpp:6719 src/slic3r/GUI/Search.cpp:554
 msgid "Enter a search term"
 msgstr "输入搜索词"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7180
+#: src/slic3r/GUI/GLCanvas3D.cpp:7202
 msgid "Add..."
 msgstr "添加..."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7197 src/slic3r/GUI/KBShortcutsDialog.cpp:110
+#: src/slic3r/GUI/GLCanvas3D.cpp:7219 src/slic3r/GUI/KBShortcutsDialog.cpp:110
 #: src/slic3r/GUI/Plater.cpp:6739 src/slic3r/GUI/Tab.cpp:8748
 msgid "Delete all"
 msgstr "全部删除"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7229 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:7251 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
 #: src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:492 src/slic3r/GUI/KBShortcutsDialog.cpp:148
 #: src/slic3r/GUI/Plater.cpp:6857
 msgid "Create Pattern"
@@ -14035,37 +14036,37 @@ msgstr "复制"
 msgid "Paste"
 msgstr "粘贴"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7274 src/slic3r/GUI/GUI_Factories.cpp:1774
+#: src/slic3r/GUI/GLCanvas3D.cpp:7296 src/slic3r/GUI/GUI_Factories.cpp:1774
 #: src/slic3r/GUI/GUI_Factories.cpp:1798 src/slic3r/GUI/GUI_Factories.cpp:1809
 msgid "Add instance"
 msgstr "添加实例"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7285 src/slic3r/GUI/GUI_Factories.cpp:1777
+#: src/slic3r/GUI/GLCanvas3D.cpp:7307 src/slic3r/GUI/GUI_Factories.cpp:1777
 msgid "Remove instance"
 msgstr "删除实例"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7298
+#: src/slic3r/GUI/GLCanvas3D.cpp:7320
 msgid "Split to objects"
 msgstr "拆分为对象"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7308
+#: src/slic3r/GUI/GLCanvas3D.cpp:7330
 msgid "Split to parts"
 msgstr "拆分为零件"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7379 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
+#: src/slic3r/GUI/GLCanvas3D.cpp:7401 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:2263
 msgid "Measure"
 msgstr "测量"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7396 src/slic3r/GUI/MainFrame.cpp:3440
+#: src/slic3r/GUI/GLCanvas3D.cpp:7418 src/slic3r/GUI/MainFrame.cpp:3440
 msgid "Search in settings"
 msgstr "在设置中搜索"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7455 src/slic3r/GUI/GLCanvas3D.cpp:7492
+#: src/slic3r/GUI/GLCanvas3D.cpp:7477 src/slic3r/GUI/GLCanvas3D.cpp:7514
 msgid "Click right mouse button to open/close History"
 msgstr "单击鼠标右键打开/关闭历史记录"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7477
+#: src/slic3r/GUI/GLCanvas3D.cpp:7499
 #, boost-format
 msgid "Next Undo action: %1%"
 msgstr "下一个撤消操作： %1%"
@@ -14074,12 +14075,12 @@ msgstr "下一个撤消操作： %1%"
 msgid "Redo"
 msgstr "重做"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7513
+#: src/slic3r/GUI/GLCanvas3D.cpp:7535
 #, boost-format
 msgid "Next Redo action: %1%"
 msgstr "下一个重做操作： %1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8934 src/slic3r/GUI/MainFrame.cpp:3199
+#: src/slic3r/GUI/GLCanvas3D.cpp:8956 src/slic3r/GUI/MainFrame.cpp:3199
 msgid "Front"
 msgstr "前面"
 
@@ -14115,85 +14116,85 @@ msgstr "左面"
 msgid "Right"
 msgstr "右面"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8995
+#: src/slic3r/GUI/GLCanvas3D.cpp:9017
 msgid "Unsliced bed"
 msgstr "未切片的打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8996 src/slic3r/GUI/Plater.cpp:3082 src/slic3r/GUI/Plater.cpp:8024
+#: src/slic3r/GUI/GLCanvas3D.cpp:9018 src/slic3r/GUI/Plater.cpp:3082 src/slic3r/GUI/Plater.cpp:8024
 #: src/slic3r/GUI/Plater.cpp:8026 src/slic3r/GUI/Plater.cpp:8054 src/slic3r/GUI/Plater.cpp:8068
 #: src/slic3r/GUI/Tab.cpp:2856 src/slic3r/GUI/Tab.cpp:9816
 msgid "Slicing"
 msgstr "切片"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8997
+#: src/slic3r/GUI/GLCanvas3D.cpp:9019
 msgid "Sliced bed"
 msgstr "已切片打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8998
+#: src/slic3r/GUI/GLCanvas3D.cpp:9020
 msgid "Object at boundary"
 msgstr "对象位于边界"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9000
+#: src/slic3r/GUI/GLCanvas3D.cpp:9022
 msgid "Empty bed"
 msgstr "空打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9001
+#: src/slic3r/GUI/GLCanvas3D.cpp:9023
 msgid "Toolpath exceeds bounds"
 msgstr "工具路径超出边界"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9257
+#: src/slic3r/GUI/GLCanvas3D.cpp:9279
 msgid "Slice all"
 msgstr "全部切片"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9476
+#: src/slic3r/GUI/GLCanvas3D.cpp:9498
 msgid "The preview legend is hidden."
 msgstr "预览图例已隐藏。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9477
+#: src/slic3r/GUI/GLCanvas3D.cpp:9499
 msgid "Press L or use View -> Show Legend to show it again."
 msgstr "按 L，或使用“视图 -> 显示图例”将其重新显示。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9640
+#: src/slic3r/GUI/GLCanvas3D.cpp:9662
 msgid "Layer statistics"
 msgstr "层统计"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9641
+#: src/slic3r/GUI/GLCanvas3D.cpp:9663
 #, boost-format
 msgid "Layer area: %1% mm²"
 msgstr "层面积：%1% mm²"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9643
+#: src/slic3r/GUI/GLCanvas3D.cpp:9665
 #, boost-format
 msgid "Area fill: %1% %%"
 msgstr "面积填充：%1% %%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9645
+#: src/slic3r/GUI/GLCanvas3D.cpp:9667
 #, boost-format
 msgid "Layer time: %1%"
 msgstr "层时间：%1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9646
+#: src/slic3r/GUI/GLCanvas3D.cpp:9668
 #, boost-format
 msgid "Time since start: %1%"
 msgstr "从开始至今：%1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10048
+#: src/slic3r/GUI/GLCanvas3D.cpp:10070
 msgid "An object outside the print area was detected."
 msgstr "检测到打印区域外的物体。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10049
+#: src/slic3r/GUI/GLCanvas3D.cpp:10071
 msgid "A toolpath outside the print area was detected."
 msgstr "检测到打印区域外的刀轨。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10050
+#: src/slic3r/GUI/GLCanvas3D.cpp:10072
 msgid "SLA supports outside the print area were detected."
 msgstr "检测到打印区域外的 SLA 支持。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10051
+#: src/slic3r/GUI/GLCanvas3D.cpp:10073
 msgid "Some objects are not visible during editing."
 msgstr "某些对象在编辑期间不可见。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10053
+#: src/slic3r/GUI/GLCanvas3D.cpp:10075
 msgid ""
 "An object outside the print area was detected.\n"
 "Resolve the current problem to continue slicing."
@@ -14202,7 +14203,7 @@ msgstr ""
 "重新解决当前问题以继续切片。"
 
 #. TRN %3% is name of Object1, %4% is name of Object2
-#: src/slic3r/GUI/GLCanvas3D.cpp:10065
+#: src/slic3r/GUI/GLCanvas3D.cpp:10087
 #, boost-format
 msgid ""
 "Conflicts in G-code paths have been detected at layer %1%, z=%2$.2f mm. Please reposition the "
@@ -14210,7 +14211,7 @@ msgid ""
 msgstr "在第 %1% 层（z=%2$.2f mm）检测到 G-code 路径冲突。请将冲突对象（%3% <-> %4%）移得更远。"
 
 #. TRN: Placeholders contain names of the colliding objects.
-#: src/slic3r/GUI/GLCanvas3D.cpp:10075
+#: src/slic3r/GUI/GLCanvas3D.cpp:10097
 #, boost-format
 msgid "Extruder will crash into %1% while printing %2%."
 msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
@@ -14219,11 +14220,11 @@ msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
 msgid "Jump to"
 msgstr "跳转至"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10190
+#: src/slic3r/GUI/GLCanvas3D.cpp:10212
 msgid "Selection-Add from rectangle"
 msgstr "从矩形选择-添加"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10205
+#: src/slic3r/GUI/GLCanvas3D.cpp:10227
 msgid "Selection-Remove from rectangle"
 msgstr "从矩形中选择-删除"
 
@@ -16529,7 +16530,7 @@ msgstr "删除附着垫"
 #: src/slic3r/GUI/Gizmos/GLGizmoBrimEars.cpp:93 src/slic3r/GUI/Gizmos/GLGizmoBrimEars.cpp:95
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:360 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:234
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:264 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:547
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:174 src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1513
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:188 src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1513
 msgid "Mouse wheel"
 msgstr "鼠标滚动"
 
@@ -17594,6 +17595,7 @@ msgstr "画笔形状"
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:59 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:38
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:40 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:2018
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:112 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:41
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:52
 msgid "Left mouse button"
 msgstr "鼠标左键"
 
@@ -17603,6 +17605,7 @@ msgstr "强制支持"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:61 src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:42
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:114 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:43
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:54
 msgid "Right mouse button"
 msgstr "鼠标右键"
 
@@ -17612,13 +17615,13 @@ msgstr "阻止支撑"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:63 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:40
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:116
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:45
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:45 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:56
 msgid "Shift + Left mouse button"
 msgstr "Shift+鼠标左键"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:64 src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:627
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:45 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:46
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:257
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:272
 msgid "Remove selection"
 msgstr "删除所选内容"
 
@@ -17703,12 +17706,12 @@ msgid "Allows painting only on facets selected by: \"%1%\""
 msgstr "仅允许在选择的面上绘制：\"%1%\""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:295 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:173
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:466 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:148
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:466 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:162
 msgid "Paints all facets inside, regardless of their orientation."
 msgstr "绘制内部的所有面，无论其方向如何。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:304 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:182
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:475 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:156
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:475 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:170
 msgid "Ignores facets facing away from the camera."
 msgstr "忽略背对摄影机的面。"
 
@@ -17723,7 +17726,7 @@ msgstr "只绘制一个面。"
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:119
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:492
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:510
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:525 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:136
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:525 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:150
 msgid "Alt + Mouse wheel"
 msgstr "Alt+鼠标滚轮"
 
@@ -17734,7 +17737,7 @@ msgstr "在绘制对象时，将较大的面拆分为较小的面。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:365 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:239
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:269 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:552
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:182
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:196
 msgid "Reset selection"
 msgstr "重置选择"
 
@@ -18373,11 +18376,11 @@ msgstr "SVG文件不包含路径以进行浮雕操作 (%1%)。"
 msgid "Gizmo-Scale"
 msgstr "Gizmo-缩放"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:42 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:260
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:42 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:275
 msgid "Enforce seam"
 msgstr "强制接缝"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:262
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:277
 msgid "Block seam"
 msgstr "阻止接缝"
 
@@ -18385,7 +18388,23 @@ msgstr "阻止接缝"
 msgid "Vertical"
 msgstr "垂直"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:59
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:53
+msgid "Enforce seam line"
+msgstr "沿直线强制接缝"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:55
+msgid "Block seam line"
+msgstr "沿直线阻止接缝"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:57
+msgid "Remove selection along line"
+msgstr "沿直线移除选区"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:58
+msgid "Drag to preview a straight line; release to apply."
+msgstr "拖动以预览直线，松开鼠标以应用。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:67
 msgid "Seam painting"
 msgstr "接缝绘制"
 
@@ -18664,7 +18683,7 @@ msgstr "离开SLA支持点"
 msgid "ERROR: Please close all manipulators available from the left toolbar first"
 msgstr "错误：请先关闭左侧工具栏上的所有可用操纵器"
 
-#: src/slic3r/GUI/Gizmos/GLGizmosManager.cpp:1121
+#: src/slic3r/GUI/Gizmos/GLGizmosManager.cpp:1144
 msgid "You are currently editing SLA support points. Please, apply or discard your changes first."
 msgstr "您当前正在编辑 SLA 支持点。请先应用或放弃您的更改。"
 
@@ -18933,7 +18952,7 @@ msgstr "导入配置文件 (.ini)"
 msgid "Load Config from ini/amf/a3d/3mf/gcode and merge"
 msgstr "从 ini/amf/3mf/gcode 加载配置并合并"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:9196
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:102 src/slic3r/GUI/Plater.cpp:9200
 msgid "Send G-code"
 msgstr "发送 G-Code"
 
@@ -19018,7 +19037,7 @@ msgstr "显示键盘快捷键列表"
 msgid "Commands"
 msgstr "命令"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:9110
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:146 src/slic3r/GUI/Plater.cpp:9114
 msgid "Arrange"
 msgstr "整理"
 
@@ -20903,12 +20922,12 @@ msgstr ""
 
 #: src/slic3r/GUI/Plater.cpp:515 src/slic3r/GUI/Plater.cpp:516 src/slic3r/GUI/Plater.cpp:3076
 #: src/slic3r/GUI/Plater.cpp:3082 src/slic3r/GUI/Plater.cpp:4255 src/slic3r/GUI/Plater.cpp:4258
-#: src/slic3r/GUI/Plater.cpp:8034 src/slic3r/GUI/Plater.cpp:8071 src/slic3r/GUI/Plater.cpp:8821
-#: src/slic3r/GUI/Plater.cpp:8822 src/slic3r/GUI/Sidebar.cpp:1270
+#: src/slic3r/GUI/Plater.cpp:8034 src/slic3r/GUI/Plater.cpp:8071 src/slic3r/GUI/Plater.cpp:8825
+#: src/slic3r/GUI/Plater.cpp:8826 src/slic3r/GUI/Sidebar.cpp:1270
 msgid "Slice now"
 msgstr "现在切片"
 
-#: src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3070 src/slic3r/GUI/Plater.cpp:8828
+#: src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3070 src/slic3r/GUI/Plater.cpp:8832
 msgid "Preview is out of date. Please re-slice to regenerate G-code."
 msgstr "Preview is out of date. Please re-slice to regenerate G-code."
 
@@ -21768,21 +21787,21 @@ msgid ""
 "Continue?"
 msgstr "更改挤出模式或打印机将删除所有多材料涂色分配。是否继续？"
 
-#: src/slic3r/GUI/Plater.cpp:8795
+#: src/slic3r/GUI/Plater.cpp:8799
 msgid "Zoneheater mode changed from variable. Existing variable zoneheater power data was kept."
 msgstr "区域加热器模式已从可变模式更改。现有的可变区域加热器功率数据已保留。"
 
-#: src/slic3r/GUI/Plater.cpp:8796
+#: src/slic3r/GUI/Plater.cpp:8800
 msgid "Zoneheater mode is not active or zoneheater is disabled. Existing zoneheater data was kept."
 msgstr "区域加热器模式未启用或区域加热器已禁用。现有区域加热器数据已保留。"
 
-#: src/slic3r/GUI/Plater.cpp:9092
+#: src/slic3r/GUI/Plater.cpp:9096
 msgid ""
 "Sequential arrange for a single bed is only allowed when all instances of the affected objects "
 "are on the same bed."
 msgstr "仅当相关对象的所有实例都位于同一打印床时，才允许对单个打印床进行顺序排列。"
 
-#: src/slic3r/GUI/Plater.cpp:9133
+#: src/slic3r/GUI/Plater.cpp:9137
 #, c-format, boost-format
 msgid ""
 "Arrangement ignored the following objects which can't fit into a single bed:\n"
@@ -21791,19 +21810,19 @@ msgstr ""
 "排列忽略了下列不能放在一张床上的对象:\n"
 "%s"
 
-#: src/slic3r/GUI/Plater.cpp:9195
+#: src/slic3r/GUI/Plater.cpp:9199
 msgid "Export"
 msgstr "导出"
 
-#: src/slic3r/GUI/Plater.cpp:9196 src/slic3r/GUI/Sidebar.cpp:1251
+#: src/slic3r/GUI/Plater.cpp:9200 src/slic3r/GUI/Sidebar.cpp:1251
 msgid "Send to printer"
 msgstr "发送到打印机"
 
-#: src/slic3r/GUI/Plater.cpp:9270
+#: src/slic3r/GUI/Plater.cpp:9274
 msgid "Painted adhesion pads were removed because the object's mesh was modified."
 msgstr "由于对象网格已修改，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/Plater.cpp:9393
+#: src/slic3r/GUI/Plater.cpp:9397
 msgid "Paste From Clipboard"
 msgstr "从剪贴板粘贴"
 
@@ -23729,7 +23748,7 @@ msgstr "当前自定义预设将与父系统预设分离。"
 msgid "Modifications to the current profile will be saved."
 msgstr "将保存对当前配置文件的修改。"
 
-#: src/slic3r/GUI/Tab.cpp:1921 src/slic3r/GUI/TickCodesManager.cpp:222
+#: src/slic3r/GUI/Tab.cpp:1921 src/slic3r/GUI/TickCodesManager.cpp:224
 msgid ""
 "This action is not revertible.\n"
 "Do you want to proceed?"
@@ -24769,31 +24788,31 @@ msgstr "打印机"
 msgid "Materials"
 msgstr "材料"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:113
+#: src/slic3r/GUI/TickCodesManager.cpp:115
 msgid "Place bearings in slots and resume printing"
 msgstr "将轴承放入槽中，然后继续打印"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:221
+#: src/slic3r/GUI/TickCodesManager.cpp:223
 msgid "This action will cause deletion of all ticks on vertical slider."
 msgstr "此操作将导致删除垂直滑块上的所有标记。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:475
+#: src/slic3r/GUI/TickCodesManager.cpp:486
 msgid "The last color change data was saved for a single extruder printing."
 msgstr "最后的颜色变化数据保存在一台挤出机上进行打印。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:476 src/slic3r/GUI/TickCodesManager.cpp:490
+#: src/slic3r/GUI/TickCodesManager.cpp:487 src/slic3r/GUI/TickCodesManager.cpp:501
 msgid "The last color change data was saved for a multi extruder printing."
 msgstr "最后的颜色变化数据保存在多台挤出机上进行打印。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:478
+#: src/slic3r/GUI/TickCodesManager.cpp:489
 msgid "Your current changes will delete all saved color changes."
 msgstr "当前更改将删除所有保存的颜色更改。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:479 src/slic3r/GUI/TickCodesManager.cpp:498
+#: src/slic3r/GUI/TickCodesManager.cpp:490 src/slic3r/GUI/TickCodesManager.cpp:509
 msgid "Are you sure you want to continue?"
 msgstr "你确定要继续吗？"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:491
+#: src/slic3r/GUI/TickCodesManager.cpp:502
 msgid ""
 "Select YES if you want to delete all saved tool changes, \n"
 "NO if you want all tool changes switch to color changes, \n"
@@ -24803,17 +24822,17 @@ msgstr ""
 "如果要将所有刀具更改切换为颜色更改，请选择“否”， \n"
 "或者选择“取消”以保持其不变。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:494
+#: src/slic3r/GUI/TickCodesManager.cpp:505
 msgid "Do you want to delete all saved tool changes?"
 msgstr "是否要删除所有保存的工具更改？"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:496
+#: src/slic3r/GUI/TickCodesManager.cpp:507
 msgid ""
 "The last color change data was saved for a multi extruder printing with tool changes for whole "
 "print."
 msgstr "最后一次颜色变化数据保存在多台挤出机打印中，整个打印过程中更换了工具。"
 
-#: src/slic3r/GUI/TickCodesManager.cpp:497
+#: src/slic3r/GUI/TickCodesManager.cpp:508
 msgid "Your current changes will delete all saved extruder (tool) changes."
 msgstr "您当前的更改将删除所有保存的挤出机（工具）更改。"
 
