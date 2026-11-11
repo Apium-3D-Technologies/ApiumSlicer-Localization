@@ -26,34 +26,34 @@ msgid "Unknown"
 msgstr "未知"
 
 #: src/libslic3r/ExtrusionRole.cpp:44 src/libslic3r/ExtrusionRole.cpp:67
-#: src/libslic3r/PrintConfig.cpp:2505 src/slic3r/GUI/GCodeViewer.cpp:1181
+#: src/libslic3r/PrintConfig.cpp:2505 src/slic3r/GUI/GCodeViewer.cpp:1182
 msgid "Perimeter"
 msgstr "边界"
 
 #: src/libslic3r/ExtrusionRole.cpp:45 src/libslic3r/ExtrusionRole.cpp:69
-#: src/slic3r/GUI/GCodeViewer.cpp:1182
+#: src/slic3r/GUI/GCodeViewer.cpp:1183
 msgid "External perimeter"
 msgstr "外部边界"
 
 #: src/libslic3r/ExtrusionRole.cpp:46 src/libslic3r/ExtrusionRole.cpp:71
-#: src/slic3r/GUI/GCodeViewer.cpp:1183
+#: src/slic3r/GUI/GCodeViewer.cpp:1184
 msgid "Overhang perimeter"
 msgstr "悬垂边界"
 
 #: src/libslic3r/ExtrusionRole.cpp:47 src/libslic3r/ExtrusionRole.cpp:73
-#: src/slic3r/GUI/GCodeViewer.cpp:1184
+#: src/slic3r/GUI/GCodeViewer.cpp:1185
 msgid "Internal infill"
 msgstr "内部填充物"
 
 #: src/libslic3r/ExtrusionRole.cpp:48 src/libslic3r/ExtrusionRole.cpp:75
 #: src/libslic3r/PrintConfig.cpp:3688 src/libslic3r/PrintConfig.cpp:5304
-#: src/libslic3r/PrintConfig.cpp:5328 src/slic3r/GUI/GCodeViewer.cpp:1185
+#: src/libslic3r/PrintConfig.cpp:5328 src/slic3r/GUI/GCodeViewer.cpp:1186
 msgid "Solid infill"
 msgstr "实心填充"
 
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 #: src/libslic3r/PrintConfig.cpp:3697 src/libslic3r/PrintConfig.cpp:6346
-#: src/libslic3r/PrintConfig.cpp:6371 src/slic3r/GUI/GCodeViewer.cpp:1186
+#: src/libslic3r/PrintConfig.cpp:6371 src/slic3r/GUI/GCodeViewer.cpp:1187
 msgid "Top solid infill"
 msgstr "顶部实心填充"
 
@@ -62,29 +62,29 @@ msgstr "顶部实心填充"
 #: src/libslic3r/PrintConfig.cpp:4017 src/libslic3r/PrintConfig.cpp:4030
 #: src/libslic3r/PrintConfig.cpp:4041 src/libslic3r/PrintConfig.cpp:4051
 #: src/libslic3r/PrintConfig.cpp:4059 src/libslic3r/PrintConfig.cpp:4061
-#: src/libslic3r/PrintConfig.cpp:6307 src/slic3r/GUI/GCodeViewer.cpp:1187
+#: src/libslic3r/PrintConfig.cpp:6307 src/slic3r/GUI/GCodeViewer.cpp:1188
 #: src/slic3r/GUI/GUI_Factories.cpp:184 src/slic3r/GUI/Tab.cpp:2396
 msgid "Ironing"
 msgstr "熨烫"
 
 #: src/libslic3r/ExtrusionRole.cpp:51 src/libslic3r/ExtrusionRole.cpp:81
-#: src/slic3r/GUI/GCodeViewer.cpp:1188
+#: src/slic3r/GUI/GCodeViewer.cpp:1189
 msgid "External bridge"
 msgstr "外部桥接"
 
 #: src/libslic3r/ExtrusionRole.cpp:52 src/libslic3r/ExtrusionRole.cpp:83
-#: src/slic3r/GUI/GCodeViewer.cpp:1189
+#: src/slic3r/GUI/GCodeViewer.cpp:1190
 msgid "Internal bridge"
 msgstr "内部桥接"
 
 #: src/libslic3r/ExtrusionRole.cpp:53 src/libslic3r/ExtrusionRole.cpp:85
 #: src/libslic3r/PrintConfig.cpp:3603 src/libslic3r/PrintConfig.cpp:6307
-#: src/slic3r/GUI/GCodeViewer.cpp:1190
+#: src/slic3r/GUI/GCodeViewer.cpp:1191
 msgid "Gap fill"
 msgstr "间隙填充"
 
 #: src/libslic3r/ExtrusionRole.cpp:54 src/libslic3r/ExtrusionRole.cpp:87
-#: src/slic3r/GUI/GCodeViewer.cpp:1191 src/slic3r/GUI/Sidebar.cpp:678
+#: src/slic3r/GUI/GCodeViewer.cpp:1192 src/slic3r/GUI/Sidebar.cpp:678
 msgid "Skirt/Brim"
 msgstr "裙子/围裙"
 
@@ -123,18 +123,18 @@ msgstr "裙子/围裙"
 #: src/libslic3r/PrintConfig.cpp:6188 src/libslic3r/PrintConfig.cpp:6201
 #: src/libslic3r/PrintConfig.cpp:6214 src/libslic3r/PrintConfig.cpp:6230
 #: src/libslic3r/PrintConfig.cpp:6240 src/libslic3r/PrintConfig.cpp:6307
-#: src/slic3r/GUI/GCodeViewer.cpp:1192 src/slic3r/GUI/GUI_Factories.cpp:108
+#: src/slic3r/GUI/GCodeViewer.cpp:1193 src/slic3r/GUI/GUI_Factories.cpp:108
 #: src/slic3r/GUI/GUI_Factories.cpp:186 src/slic3r/GUI/Tab.cpp:2486
 msgid "Support material"
 msgstr "支撑材料"
 
 #: src/libslic3r/ExtrusionRole.cpp:56 src/libslic3r/ExtrusionRole.cpp:91
-#: src/libslic3r/PrintConfig.cpp:6050 src/slic3r/GUI/GCodeViewer.cpp:1193
+#: src/libslic3r/PrintConfig.cpp:6050 src/slic3r/GUI/GCodeViewer.cpp:1194
 msgid "Support material interface"
 msgstr "支撑材料端口"
 
 #: src/libslic3r/ExtrusionRole.cpp:57 src/libslic3r/ExtrusionRole.cpp:93
-#: src/libslic3r/PrintConfig.cpp:3706 src/slic3r/GUI/GCodeViewer.cpp:1194
+#: src/libslic3r/PrintConfig.cpp:3706 src/slic3r/GUI/GCodeViewer.cpp:1195
 #: src/slic3r/GUI/Sidebar.cpp:680 src/slic3r/GUI/Tab.cpp:2718
 msgid "Wipe tower"
 msgstr "擦料塔"
@@ -146,13 +146,13 @@ msgstr "擦料塔"
 #: src/libslic3r/PrintConfig.cpp:2492 src/libslic3r/PrintConfig.cpp:2500
 #: src/libslic3r/PrintConfig.cpp:2514 src/libslic3r/PrintConfig.cpp:2523
 #: src/libslic3r/PrintConfig.cpp:2531 src/libslic3r/PrintConfig.cpp:6308
-#: src/slic3r/GUI/GCodeViewer.cpp:1195 src/slic3r/GUI/Sidebar.cpp:679 src/slic3r/GUI/Tab.cpp:2407
+#: src/slic3r/GUI/GCodeViewer.cpp:1196 src/slic3r/GUI/Sidebar.cpp:679 src/slic3r/GUI/Tab.cpp:2407
 msgid "Purge line"
 msgstr "清洗线"
 
 #: src/libslic3r/ExtrusionRole.cpp:59 src/libslic3r/ExtrusionRole.cpp:97
 #: src/libslic3r/PrintConfig.cpp:2507 src/libslic3r/PrintConfig.cpp:4515
-#: src/slic3r/GUI/BedShapeDialog.cpp:100 src/slic3r/GUI/GCodeViewer.cpp:1196
+#: src/slic3r/GUI/BedShapeDialog.cpp:100 src/slic3r/GUI/GCodeViewer.cpp:1197
 #: src/slic3r/GUI/LoadStepDialog.cpp:118
 msgid "Custom"
 msgstr "自定义"
@@ -297,7 +297,7 @@ msgid "Filament End G-code"
 msgstr "耗材结束 G-Code"
 
 #: src/libslic3r/GCode.cpp:704 src/libslic3r/GCode.cpp:5613 src/libslic3r/PrintConfig.cpp:5464
-#: src/libslic3r/SlicingNotification.cpp:284 src/slic3r/GUI/GCodeViewer.cpp:1167
+#: src/libslic3r/SlicingNotification.cpp:284 src/slic3r/GUI/GCodeViewer.cpp:1168
 #: src/slic3r/GUI/Tab.cpp:5167 src/slic3r/GUI/Tab.cpp:5957 src/slic3r/GUI/Tab.cpp:6328
 #: src/slic3r/GUI/Tab.cpp:6338 src/slic3r/GUI/Tab.cpp:8938
 msgid "Custom G-code"
@@ -924,9 +924,9 @@ msgstr "第一层将被相对于配置的值在 XY 平面上缩小, 以补偿第
 #: src/slic3r/GUI/BedShapeDialog.cpp:83 src/slic3r/GUI/ConfigWizard.cpp:558
 #: src/slic3r/GUI/ConfigWizard.cpp:2517 src/slic3r/GUI/ConfigWizard.cpp:2553
 #: src/slic3r/GUI/ConfigWizard.cpp:2567 src/slic3r/GUI/ExtruderSequenceDialog.cpp:105
-#: src/slic3r/GUI/GCodeViewer.cpp:1263 src/slic3r/GUI/GCodeViewer.cpp:1283
-#: src/slic3r/GUI/GCodeViewer.cpp:3986 src/slic3r/GUI/GCodeViewer.cpp:3992
-#: src/slic3r/GUI/GCodeViewer.cpp:4000 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
+#: src/slic3r/GUI/GCodeViewer.cpp:1264 src/slic3r/GUI/GCodeViewer.cpp:1284
+#: src/slic3r/GUI/GCodeViewer.cpp:4060 src/slic3r/GUI/GCodeViewer.cpp:4066
+#: src/slic3r/GUI/GCodeViewer.cpp:4074 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -1565,7 +1565,7 @@ msgstr "第一层之后层的床温。将此设置为零以禁用输出中的床
 #: src/libslic3r/PrintConfig.cpp:4989 src/libslic3r/PrintConfig.cpp:5487
 #: src/libslic3r/PrintConfig.cpp:5502 src/libslic3r/PrintConfig.cpp:6256
 #: src/libslic3r/PrintConfig.cpp:7513 src/slic3r/GUI/ConfigWizard.cpp:2642
-#: src/slic3r/GUI/ConfigWizard.cpp:2656 src/slic3r/GUI/GCodeViewer.cpp:1328
+#: src/slic3r/GUI/ConfigWizard.cpp:2656 src/slic3r/GUI/GCodeViewer.cpp:1329
 msgid "°C"
 msgstr "°C"
 
@@ -1849,7 +1849,7 @@ msgstr "外部桥接"
 #: src/libslic3r/PrintConfig.cpp:3895 src/libslic3r/PrintConfig.cpp:4060
 #: src/libslic3r/PrintConfig.cpp:4680 src/libslic3r/PrintConfig.cpp:5264
 #: src/libslic3r/PrintConfig.cpp:5329 src/libslic3r/PrintConfig.cpp:6372
-#: src/slic3r/GUI/GCodeViewer.cpp:1298 src/slic3r/GUI/GUI_Factories.cpp:187
+#: src/slic3r/GUI/GCodeViewer.cpp:1299 src/slic3r/GUI/GUI_Factories.cpp:187
 #: src/slic3r/GUI/Tab.cpp:2604
 msgid "Speed"
 msgstr "速度"
@@ -1871,7 +1871,7 @@ msgstr "打印桥接的速度。"
 #: src/libslic3r/PrintConfig.cpp:4682 src/libslic3r/PrintConfig.cpp:5042
 #: src/libslic3r/PrintConfig.cpp:5051 src/libslic3r/PrintConfig.cpp:6099
 #: src/libslic3r/PrintConfig.cpp:6408 src/libslic3r/PrintConfig.cpp:6418
-#: src/libslic3r/PrintConfig.cpp:7962 src/slic3r/GUI/GCodeViewer.cpp:1298
+#: src/libslic3r/PrintConfig.cpp:7962 src/slic3r/GUI/GCodeViewer.cpp:1299
 msgid "mm/s"
 msgstr "mm/s"
 
@@ -2730,7 +2730,7 @@ msgstr "应用于内部桥接填充挤出的乘数。"
 msgid "Nozzle temperature"
 msgstr "喷嘴温度"
 
-#: src/libslic3r/PrintConfig.cpp:2352 src/slic3r/GUI/GCodeViewer.cpp:1328
+#: src/libslic3r/PrintConfig.cpp:2352 src/slic3r/GUI/GCodeViewer.cpp:1329
 #: src/slic3r/GUI/GUI_Factories.cpp:105 src/slic3r/GUI/GUI_Factories.cpp:191
 #: src/slic3r/GUI/Tab.cpp:4869
 msgid "Temperature"
@@ -2893,7 +2893,7 @@ msgstr "选择清料线使用的挤出宽度和乘数。"
 #: src/libslic3r/PrintConfig.cpp:2504 src/libslic3r/PrintConfig.cpp:3436
 #: src/libslic3r/PrintConfig.cpp:3454 src/libslic3r/PrintConfig.cpp:3464
 #: src/libslic3r/PrintConfig.cpp:3543 src/libslic3r/PrintConfig.cpp:4513
-#: src/slic3r/GUI/GCodeViewer.cpp:4726
+#: src/slic3r/GUI/GCodeViewer.cpp:4807
 msgid "First layer"
 msgstr "第一层"
 
@@ -3011,7 +3011,7 @@ msgstr "默认"
 
 #. TRN - Input label. Be short as possible
 #. Height of one text line - Font Ascent
-#: src/libslic3r/PrintConfig.cpp:2601 src/slic3r/GUI/GCodeViewer.cpp:1283
+#: src/libslic3r/PrintConfig.cpp:2601 src/slic3r/GUI/GCodeViewer.cpp:1284
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4553
 msgid "Height"
 msgstr "高度"
@@ -3074,8 +3074,8 @@ msgid ""
 "printers use A)."
 msgstr "使用此选项可设置与打印机挤出机关联的轴字母（通常为 E，但某些打印机使用 A）。"
 
-#: src/libslic3r/PrintConfig.cpp:2646 src/slic3r/GUI/GCodeViewer.cpp:1273
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/libslic3r/PrintConfig.cpp:2646 src/slic3r/GUI/GCodeViewer.cpp:1274
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 #: src/slic3r/GUI/Tab.cpp:2819
 msgid "Extrusion multiplier"
 msgstr "挤出乘数"
@@ -3097,7 +3097,7 @@ msgstr "启用压力提前"
 msgid "Enable pressure advance for this filament profile."
 msgstr "为此耗材配置启用压力提前。"
 
-#: src/libslic3r/PrintConfig.cpp:2662 src/slic3r/GUI/GCodeViewer.cpp:1332
+#: src/libslic3r/PrintConfig.cpp:2662 src/slic3r/GUI/GCodeViewer.cpp:1333
 msgid "Pressure advance"
 msgstr "压力提前"
 
@@ -3181,7 +3181,7 @@ msgstr ""
 "此耗材允许的最大体积速度。将打印的最大体积速度限制为最小打印和耗材体积速度。设置为零，无限制。"
 
 #: src/libslic3r/PrintConfig.cpp:2737 src/libslic3r/PrintConfig.cpp:2930
-#: src/libslic3r/PrintConfig.cpp:4387 src/slic3r/GUI/GCodeViewer.cpp:1308
+#: src/libslic3r/PrintConfig.cpp:4387 src/slic3r/GUI/GCodeViewer.cpp:1309
 #: src/slic3r/GUI/RammingChart.cpp:99
 msgid "mm³/s"
 msgstr "mm³/s"
@@ -3511,8 +3511,8 @@ msgstr ""
 "输入空耗材滑阀的重量。打印前，可以对部分消耗的耗材线轴进行称重，并将测量重量与耗材与线轴的计算重量"
 "进行比较，以确定线轴上的耗材量是否足以完成打印。"
 
-#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3806
-#: src/slic3r/GUI/GCodeViewer.cpp:4061
+#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3870
+#: src/slic3r/GUI/GCodeViewer.cpp:4136
 msgid "g"
 msgstr "g"
 
@@ -4319,8 +4319,8 @@ msgid ""
 msgstr "这是打印机用于擦料塔的加速度。设为零可禁用擦料塔的加速度控制。"
 
 #: src/libslic3r/PrintConfig.cpp:3715 src/libslic3r/PrintConfig.cpp:6406
-#: src/slic3r/GUI/GCodeViewer.cpp:1168 src/slic3r/GUI/GCodeViewer.cpp:4283
-#: src/slic3r/GUI/GCodeViewer.cpp:4821 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
+#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4364
+#: src/slic3r/GUI/GCodeViewer.cpp:4902 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
 msgid "Travel"
 msgstr "旅行"
 
@@ -5018,8 +5018,8 @@ msgid ""
 "power in percent."
 msgstr "控制区域加热器 G-code 中 %n% 的转义方式。该宏会替换为区域加热器功率百分比。"
 
-#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4105
-#: src/slic3r/GUI/GCodeViewer.cpp:4249 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
+#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4328 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Percentage"
 msgstr "百分比"
 
@@ -7461,7 +7461,7 @@ msgid ""
 "wipe tower for any given pair of tools."
 msgstr "此矩阵描述清除擦料塔上任何给定工具对的新耗材所需的体积（以立方米为单位）。"
 
-#: src/libslic3r/PrintConfig.cpp:6496 src/slic3r/GUI/GCodeViewer.cpp:1263
+#: src/libslic3r/PrintConfig.cpp:6496 src/slic3r/GUI/GCodeViewer.cpp:1264
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:246
 msgid "Width"
 msgstr "宽度"
@@ -9118,7 +9118,7 @@ msgid ""
 msgstr "当物体部分位于床下方时，将其抬到床上方。默认情况下，使用 --no-sure-on-bed 禁用。"
 
 #: src/libslic3r/PrintConfig.cpp:9471 src/slic3r/GUI/ExtraRenderers.cpp:63
-#: src/slic3r/GUI/GCodeViewer.cpp:3731 src/slic3r/GUI/GCodeViewer.cpp:3739
+#: src/slic3r/GUI/GCodeViewer.cpp:3787 src/slic3r/GUI/GCodeViewer.cpp:3795
 #: src/slic3r/GUI/Tab.cpp:457 src/slic3r/GUI/Tab.cpp:482 src/slic3r/GUI/Tab.cpp:6360
 msgid "Duplicate"
 msgstr "复制"
@@ -9533,10 +9533,10 @@ msgstr "擦拭塔体积"
 msgid "Total filament volume extruded on the wipe tower."
 msgstr "擦拭塔上已挤出耗材的总体积。"
 
-#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4105
-#: src/slic3r/GUI/GCodeViewer.cpp:4145 src/slic3r/GUI/GCodeViewer.cpp:4249
-#: src/slic3r/GUI/GCodeViewer.cpp:4251 src/slic3r/GUI/GCodeViewer.cpp:4587
-#: src/slic3r/GUI/GCodeViewer.cpp:4593
+#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4224 src/slic3r/GUI/GCodeViewer.cpp:4328
+#: src/slic3r/GUI/GCodeViewer.cpp:4330 src/slic3r/GUI/GCodeViewer.cpp:4668
+#: src/slic3r/GUI/GCodeViewer.cpp:4674
 msgid "Used filament"
 msgstr "消耗耗材"
 
@@ -10550,10 +10550,10 @@ msgstr "复制版本信息"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:196
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:200
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:204 src/slic3r/GUI/Field.cpp:692
-#: src/slic3r/GUI/GCodeViewer.cpp:1260 src/slic3r/GUI/GCodeViewer.cpp:1270
-#: src/slic3r/GUI/GCodeViewer.cpp:1280 src/slic3r/GUI/GCodeViewer.cpp:1290
-#: src/slic3r/GUI/GCodeViewer.cpp:1305 src/slic3r/GUI/GCodeViewer.cpp:1315
-#: src/slic3r/GUI/GCodeViewer.cpp:1325 src/slic3r/GUI/GCodeViewer.cpp:1338
+#: src/slic3r/GUI/GCodeViewer.cpp:1261 src/slic3r/GUI/GCodeViewer.cpp:1271
+#: src/slic3r/GUI/GCodeViewer.cpp:1281 src/slic3r/GUI/GCodeViewer.cpp:1291
+#: src/slic3r/GUI/GCodeViewer.cpp:1306 src/slic3r/GUI/GCodeViewer.cpp:1316
+#: src/slic3r/GUI/GCodeViewer.cpp:1326 src/slic3r/GUI/GCodeViewer.cpp:1339
 #: src/slic3r/GUI/OptionsGroup.cpp:230 src/slic3r/GUI/OptionsGroup.cpp:1164
 #: src/slic3r/GUI/OptionsGroup.cpp:1175 src/slic3r/GUI/OptionsGroup.cpp:1179
 #: src/slic3r/GUI/OptionsGroup.cpp:1182 src/slic3r/GUI/OptionsGroup.cpp:1189
@@ -10938,7 +10938,7 @@ msgstr "热床形状"
 msgid "Load shape from STL..."
 msgstr "从 STL 文件加载形状..."
 
-#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4647
+#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4728
 #: src/slic3r/GUI/MainFrame.cpp:3818 src/slic3r/GUI/MainFrame.cpp:4608
 msgid "Settings"
 msgstr "设置"
@@ -12498,7 +12498,7 @@ msgstr "特定于%1%"
 msgid "Presets"
 msgstr "预设"
 
-#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4664
+#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4745
 #: src/slic3r/GUI/GUI.cpp:387 src/slic3r/GUI/GUI.cpp:429 src/slic3r/GUI/MainFrame.cpp:3825
 #: src/slic3r/GUI/Sidebar.cpp:1128
 msgid "Print settings"
@@ -12636,8 +12636,8 @@ msgid "Edit Restricted Zones"
 msgstr "编辑限制区域"
 
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3733
-#: src/slic3r/GUI/GCodeViewer.cpp:3741 src/slic3r/GUI/GUI_Factories.cpp:1381
+#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3789
+#: src/slic3r/GUI/GCodeViewer.cpp:3797 src/slic3r/GUI/GUI_Factories.cpp:1381
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2689 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
 #: src/slic3r/GUI/Tab.cpp:6362
 msgid "Mirror"
@@ -12702,7 +12702,7 @@ msgstr "已复制"
 msgid "Essential mode"
 msgstr "基本模式"
 
-#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4715
+#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4796
 #: src/slic3r/GUI/GLCanvas3D.cpp:3074
 msgid "Normal mode"
 msgstr "正常模式"
@@ -13435,84 +13435,84 @@ msgstr "对象周围"
 msgid "Select what kind of pad do you need"
 msgstr "选择您需要哪种垫子"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1161
+#: src/slic3r/GUI/GCodeViewer.cpp:1162
 msgid "Retract"
 msgstr "回抽"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1162
+#: src/slic3r/GUI/GCodeViewer.cpp:1163
 msgid "Unretract"
 msgstr "装填回抽"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1163
+#: src/slic3r/GUI/GCodeViewer.cpp:1164
 msgid "Seam"
 msgstr "接缝"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1164
+#: src/slic3r/GUI/GCodeViewer.cpp:1165
 msgid "Tool Change"
 msgstr "换料"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1165
+#: src/slic3r/GUI/GCodeViewer.cpp:1166
 msgid "Color Change"
 msgstr "颜色变化"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1166
+#: src/slic3r/GUI/GCodeViewer.cpp:1167
 msgid "Pause Print"
 msgstr "暂停打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4837
+#: src/slic3r/GUI/GCodeViewer.cpp:1170 src/slic3r/GUI/GCodeViewer.cpp:4918
 msgid "Wipe"
 msgstr "擦"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1170
+#: src/slic3r/GUI/GCodeViewer.cpp:1171
 msgid "Extrude"
 msgstr "拉伸"
 
 #. TRN: Show/hide properties is a tooltip on a button which toggles an extra window in the G-code Viewer, showing properties of current G-code segment.
-#: src/slic3r/GUI/GCodeViewer.cpp:1234
+#: src/slic3r/GUI/GCodeViewer.cpp:1235
 msgid "Hide properties"
 msgstr "隐藏属性"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1234
+#: src/slic3r/GUI/GCodeViewer.cpp:1235
 msgid "Show properties"
 msgstr "显示属性"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1255 src/slic3r/GUI/GCodeViewer.cpp:4105
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:1256 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 #: src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Feature type"
 msgstr "功能类型"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1293 src/slic3r/GUI/GUI_ObjectList.cpp:4562
+#: src/slic3r/GUI/GCodeViewer.cpp:1294 src/slic3r/GUI/GUI_ObjectList.cpp:4562
 msgid "Layer"
 msgstr "层"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1308
+#: src/slic3r/GUI/GCodeViewer.cpp:1309
 msgid "Volumetric flow rate"
 msgstr "体积流量"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1318 src/slic3r/GUI/Tab.cpp:5061
+#: src/slic3r/GUI/GCodeViewer.cpp:1319 src/slic3r/GUI/Tab.cpp:5061
 msgid "Fan speed"
 msgstr "风扇速度"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1341 src/slic3r/GUI/GCodeViewer.cpp:4105
-#: src/slic3r/GUI/GCodeViewer.cpp:4249 src/slic3r/GUI/RammingChart.cpp:94
+#: src/slic3r/GUI/GCodeViewer.cpp:1342 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4328 src/slic3r/GUI/RammingChart.cpp:94
 #: src/slic3r/GUI/Sidebar.cpp:417 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Time"
 msgstr "时间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1354
+#: src/slic3r/GUI/GCodeViewer.cpp:1355
 msgid "Actual speed profile"
 msgstr "实际速度曲线"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1357
+#: src/slic3r/GUI/GCodeViewer.cpp:1358
 msgid "Hide table"
 msgstr "隐藏表格"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1357
+#: src/slic3r/GUI/GCodeViewer.cpp:1358
 msgid "Show table"
 msgstr "显示表格"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1423
+#: src/slic3r/GUI/GCodeViewer.cpp:1424
 msgid "Tool position"
 msgstr "刀具位置"
 
@@ -13524,16 +13524,16 @@ msgstr "刀具位置"
 msgid "Error"
 msgstr "错误"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:2746
+#: src/slic3r/GUI/GCodeViewer.cpp:2802
 msgid ""
 "The Realistic G-code path renderer could not be initialized. Classic rendering is used instead."
 msgstr "无法初始化逼真 G-code 路径渲染器，将改用经典渲染。"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3486
+#: src/slic3r/GUI/GCodeViewer.cpp:3542
 msgid "pressure advance range"
 msgstr "压力提前范围"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3807 src/slic3r/GUI/GCodeViewer.cpp:4062
+#: src/slic3r/GUI/GCodeViewer.cpp:3871 src/slic3r/GUI/GCodeViewer.cpp:4137
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -13542,119 +13542,131 @@ msgstr "压力提前范围"
 msgid "in"
 msgstr "在里面"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3808 src/slic3r/GUI/GCodeViewer.cpp:4063
+#: src/slic3r/GUI/GCodeViewer.cpp:3872 src/slic3r/GUI/GCodeViewer.cpp:4138
 msgctxt "Metre"
 msgid "m"
 msgstr "米"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3819
+#: src/slic3r/GUI/GCodeViewer.cpp:3888
+msgid "Click to leave solo and toggle this line type"
+msgstr "单击以退出独显模式并切换此线型的可见性"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:3890
 msgid "Click to hide"
 msgstr "单击以隐藏"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3819
+#: src/slic3r/GUI/GCodeViewer.cpp:3890
 msgid "Click to show"
 msgstr "点击显示"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3986
+#: src/slic3r/GUI/GCodeViewer.cpp:3892
+msgid "Ctrl+click to restore previous visibility"
+msgstr "按住 Ctrl 单击以恢复之前的可见性"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:3893
+msgid "Ctrl+click to show only this line type"
+msgstr "按住 Ctrl 单击以仅显示此线型"
+
+#: src/slic3r/GUI/GCodeViewer.cpp:4060
 msgid "up to"
 msgstr "高达"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3992
+#: src/slic3r/GUI/GCodeViewer.cpp:4066
 msgid "above"
 msgstr "在上面"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4000
+#: src/slic3r/GUI/GCodeViewer.cpp:4074
 msgid "from"
 msgstr "从"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4000
+#: src/slic3r/GUI/GCodeViewer.cpp:4074
 msgid "to"
 msgstr "到"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 msgid "Layer height (mm)"
 msgstr "层高度 (mm)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 msgid "Extrusion width (mm)"
 msgstr "挤出宽度 (mm)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 msgid "Speed (mm/s)"
 msgstr "回退速度 (mm/s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
+#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
 msgid "Actual speed (mm/s)"
 msgstr "实际速度（mm/s）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Fan speed (%)"
 msgstr "风扇转速 (%)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Temperature (°C)"
 msgstr "温度 (摄氏度)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Zoneheater power (%)"
 msgstr "区域加热功率 (%)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Zoneheater spot time (s)"
 msgstr "Zoneheater 停留时间 (s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Volumetric flow rate (mm³/s)"
 msgstr "体积流量 (mm³/s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
+#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
 msgid "Actual volumetric flow rate (mm³/s)"
 msgstr "实际体积流量（mm³/s）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4163
+#: src/slic3r/GUI/GCodeViewer.cpp:4242
 msgid "Layer time (linear)"
 msgstr "层时间（线性）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4163
+#: src/slic3r/GUI/GCodeViewer.cpp:4242
 msgid "Layer time (logarithmic)"
 msgstr "层时间（对数）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4163 src/slic3r/GUI/GCodeViewer.cpp:4186
+#: src/slic3r/GUI/GCodeViewer.cpp:4242 src/slic3r/GUI/GCodeViewer.cpp:4265
 msgid "Tool"
 msgstr "工具"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4163 src/slic3r/GUI/GCodeViewer.cpp:4186
+#: src/slic3r/GUI/GCodeViewer.cpp:4242 src/slic3r/GUI/GCodeViewer.cpp:4265
 msgid "Color Print"
 msgstr "彩色打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4180 src/slic3r/GUI/GCodeViewer.cpp:4201
+#: src/slic3r/GUI/GCodeViewer.cpp:4259 src/slic3r/GUI/GCodeViewer.cpp:4280
 msgid "Pressure Advance"
 msgstr "压力提前"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4285 src/slic3r/GUI/GCodeViewer.cpp:4296
-#: src/slic3r/GUI/GCodeViewer.cpp:4301 src/slic3r/GUI/GCodeViewer.cpp:4306
-#: src/slic3r/GUI/GCodeViewer.cpp:4311 src/slic3r/GUI/GCodeViewer.cpp:4322
-#: src/slic3r/GUI/GCodeViewer.cpp:4327
+#: src/slic3r/GUI/GCodeViewer.cpp:4366 src/slic3r/GUI/GCodeViewer.cpp:4377
+#: src/slic3r/GUI/GCodeViewer.cpp:4382 src/slic3r/GUI/GCodeViewer.cpp:4387
+#: src/slic3r/GUI/GCodeViewer.cpp:4392 src/slic3r/GUI/GCodeViewer.cpp:4403
+#: src/slic3r/GUI/GCodeViewer.cpp:4408
 msgid "Retract coasting"
 msgstr "回抽滑行"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4364
+#: src/slic3r/GUI/GCodeViewer.cpp:4445
 msgid "Default color"
 msgstr "默认颜色"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4394
+#: src/slic3r/GUI/GCodeViewer.cpp:4475
 msgid "default color"
 msgstr "默认颜色"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4431
+#: src/slic3r/GUI/GCodeViewer.cpp:4512
 msgid "Calculating zoneheater spot time..."
 msgstr "正在计算 Zoneheater 停留时间..."
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4446
+#: src/slic3r/GUI/GCodeViewer.cpp:4527
 msgid "Zoneheater spot time is approximated in preview mode (nominal speeds)."
 msgstr "预览模式下的 Zoneheater 停留时间为近似值（标称速度）。"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4519 src/slic3r/GUI/GCodeViewer.cpp:4577
+#: src/slic3r/GUI/GCodeViewer.cpp:4600 src/slic3r/GUI/GCodeViewer.cpp:4658
 msgid "Color change"
 msgstr "变色"
 
@@ -13665,98 +13677,98 @@ msgstr "变色"
 msgid "Print"
 msgstr "打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4576 src/slic3r/GUI/GCodeViewer.cpp:4607
+#: src/slic3r/GUI/GCodeViewer.cpp:4657 src/slic3r/GUI/GCodeViewer.cpp:4688
 msgid "Pause"
 msgstr "暂停"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
+#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
 msgid "Event"
 msgstr "事件"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
+#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
 msgid "Remaining time"
 msgstr "剩余时间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
+#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
 msgid "Duration"
 msgstr "期间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4670 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
+#: src/slic3r/GUI/GCodeViewer.cpp:4751 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
 #: src/slic3r/GUI/Sidebar.cpp:1129
 msgid "Filament"
 msgstr "耗材"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4687
+#: src/slic3r/GUI/GCodeViewer.cpp:4768
 msgid "Hide Custom G-code"
 msgstr "隐藏自定义G代码"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4687
+#: src/slic3r/GUI/GCodeViewer.cpp:4768
 msgid "Show Custom G-code"
 msgstr "显示自定义G代码"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4697
+#: src/slic3r/GUI/GCodeViewer.cpp:4778
 msgid "Estimated printing times"
 msgstr "估计打印时间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4716 src/slic3r/GUI/GLCanvas3D.cpp:3065
+#: src/slic3r/GUI/GCodeViewer.cpp:4797 src/slic3r/GUI/GLCanvas3D.cpp:3065
 msgid "Stealth mode"
 msgstr "隐身模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4729 src/slic3r/GUI/GLCanvas3D.cpp:3033
+#: src/slic3r/GUI/GCodeViewer.cpp:4810 src/slic3r/GUI/GLCanvas3D.cpp:3033
 #: src/slic3r/GUI/GLCanvas3D.cpp:3123 src/slic3r/GUI/GLCanvas3D.cpp:3195
 #: src/slic3r/GUI/GLCanvas3D.cpp:3233
 msgid "Total"
 msgstr "全部的"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4746
+#: src/slic3r/GUI/GCodeViewer.cpp:4827
 msgid "Show stealth mode"
 msgstr "显示隐形模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4750
+#: src/slic3r/GUI/GCodeViewer.cpp:4831
 msgid "Show normal mode"
 msgstr "显示正常模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4825
+#: src/slic3r/GUI/GCodeViewer.cpp:4906
 msgid "Seams"
 msgstr "接缝"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4829
+#: src/slic3r/GUI/GCodeViewer.cpp:4910
 msgid "Retractions"
 msgstr "回抽"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4833
+#: src/slic3r/GUI/GCodeViewer.cpp:4914
 msgid "Deretractions"
 msgstr "退缩"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4841
+#: src/slic3r/GUI/GCodeViewer.cpp:4922
 msgid "Tool changes"
 msgstr "工具更换"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4845
+#: src/slic3r/GUI/GCodeViewer.cpp:4926
 msgid "Color changes"
 msgstr "颜色变化"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4849
+#: src/slic3r/GUI/GCodeViewer.cpp:4930
 msgid "Custom G-codes"
 msgstr "自定义 G-Code"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4853
+#: src/slic3r/GUI/GCodeViewer.cpp:4934
 msgid "Print pauses"
 msgstr "打印暂停"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4858
+#: src/slic3r/GUI/GCodeViewer.cpp:4939
 msgid "Shells"
 msgstr "壳"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4863
+#: src/slic3r/GUI/GCodeViewer.cpp:4944
 msgid "Tool marker"
 msgstr "工具标记"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4868
+#: src/slic3r/GUI/GCodeViewer.cpp:4949
 msgid "Show zoneheater ring"
 msgstr "显示 Zoneheater 环"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4875
+#: src/slic3r/GUI/GCodeViewer.cpp:4956
 msgid "Center of gravity"
 msgstr "重心"
 

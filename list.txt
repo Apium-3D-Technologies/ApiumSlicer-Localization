@@ -970,6 +970,7 @@ src/slic3r/GUI/PresetComboBoxes.cpp
 src/slic3r/GUI/PresetComboBoxes.hpp
 src/slic3r/GUI/PresetHints.cpp
 src/slic3r/GUI/PresetHints.hpp
+src/slic3r/GUI/PreviewRoleVisibility.hpp
 src/slic3r/GUI/PrintHostDialogs.cpp
 src/slic3r/GUI/PrintHostDialogs.hpp
 src/slic3r/GUI/PrinterReachabilityMonitor.cpp
