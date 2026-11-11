@@ -925,8 +925,8 @@ msgstr "第一层将被相对于配置的值在 XY 平面上缩小, 以补偿第
 #: src/slic3r/GUI/ConfigWizard.cpp:2517 src/slic3r/GUI/ConfigWizard.cpp:2553
 #: src/slic3r/GUI/ConfigWizard.cpp:2567 src/slic3r/GUI/ExtruderSequenceDialog.cpp:105
 #: src/slic3r/GUI/GCodeViewer.cpp:1263 src/slic3r/GUI/GCodeViewer.cpp:1283
-#: src/slic3r/GUI/GCodeViewer.cpp:3980 src/slic3r/GUI/GCodeViewer.cpp:3986
-#: src/slic3r/GUI/GCodeViewer.cpp:3994 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
+#: src/slic3r/GUI/GCodeViewer.cpp:3986 src/slic3r/GUI/GCodeViewer.cpp:3992
+#: src/slic3r/GUI/GCodeViewer.cpp:4000 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -2893,7 +2893,7 @@ msgstr "选择清料线使用的挤出宽度和乘数。"
 #: src/libslic3r/PrintConfig.cpp:2504 src/libslic3r/PrintConfig.cpp:3436
 #: src/libslic3r/PrintConfig.cpp:3454 src/libslic3r/PrintConfig.cpp:3464
 #: src/libslic3r/PrintConfig.cpp:3543 src/libslic3r/PrintConfig.cpp:4513
-#: src/slic3r/GUI/GCodeViewer.cpp:4720
+#: src/slic3r/GUI/GCodeViewer.cpp:4726
 msgid "First layer"
 msgstr "第一层"
 
@@ -3075,7 +3075,7 @@ msgid ""
 msgstr "使用此选项可设置与打印机挤出机关联的轴字母（通常为 E，但某些打印机使用 A）。"
 
 #: src/libslic3r/PrintConfig.cpp:2646 src/slic3r/GUI/GCodeViewer.cpp:1273
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 #: src/slic3r/GUI/Tab.cpp:2819
 msgid "Extrusion multiplier"
 msgstr "挤出乘数"
@@ -3511,8 +3511,8 @@ msgstr ""
 "输入空耗材滑阀的重量。打印前，可以对部分消耗的耗材线轴进行称重，并将测量重量与耗材与线轴的计算重量"
 "进行比较，以确定线轴上的耗材量是否足以完成打印。"
 
-#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3800
-#: src/slic3r/GUI/GCodeViewer.cpp:4055
+#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3806
+#: src/slic3r/GUI/GCodeViewer.cpp:4061
 msgid "g"
 msgstr "g"
 
@@ -4319,8 +4319,8 @@ msgid ""
 msgstr "这是打印机用于擦料塔的加速度。设为零可禁用擦料塔的加速度控制。"
 
 #: src/libslic3r/PrintConfig.cpp:3715 src/libslic3r/PrintConfig.cpp:6406
-#: src/slic3r/GUI/GCodeViewer.cpp:1168 src/slic3r/GUI/GCodeViewer.cpp:4277
-#: src/slic3r/GUI/GCodeViewer.cpp:4815 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
+#: src/slic3r/GUI/GCodeViewer.cpp:1168 src/slic3r/GUI/GCodeViewer.cpp:4283
+#: src/slic3r/GUI/GCodeViewer.cpp:4821 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
 msgid "Travel"
 msgstr "旅行"
 
@@ -5018,8 +5018,8 @@ msgid ""
 "power in percent."
 msgstr "控制区域加热器 G-code 中 %n% 的转义方式。该宏会替换为区域加热器功率百分比。"
 
-#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4099
-#: src/slic3r/GUI/GCodeViewer.cpp:4243 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
+#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4105
+#: src/slic3r/GUI/GCodeViewer.cpp:4249 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Percentage"
 msgstr "百分比"
 
@@ -9118,7 +9118,7 @@ msgid ""
 msgstr "当物体部分位于床下方时，将其抬到床上方。默认情况下，使用 --no-sure-on-bed 禁用。"
 
 #: src/libslic3r/PrintConfig.cpp:9471 src/slic3r/GUI/ExtraRenderers.cpp:63
-#: src/slic3r/GUI/GCodeViewer.cpp:3725 src/slic3r/GUI/GCodeViewer.cpp:3733
+#: src/slic3r/GUI/GCodeViewer.cpp:3731 src/slic3r/GUI/GCodeViewer.cpp:3739
 #: src/slic3r/GUI/Tab.cpp:457 src/slic3r/GUI/Tab.cpp:482 src/slic3r/GUI/Tab.cpp:6360
 msgid "Duplicate"
 msgstr "复制"
@@ -9533,10 +9533,10 @@ msgstr "擦拭塔体积"
 msgid "Total filament volume extruded on the wipe tower."
 msgstr "擦拭塔上已挤出耗材的总体积。"
 
-#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4099
-#: src/slic3r/GUI/GCodeViewer.cpp:4139 src/slic3r/GUI/GCodeViewer.cpp:4243
-#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4581
-#: src/slic3r/GUI/GCodeViewer.cpp:4587
+#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4105
+#: src/slic3r/GUI/GCodeViewer.cpp:4145 src/slic3r/GUI/GCodeViewer.cpp:4249
+#: src/slic3r/GUI/GCodeViewer.cpp:4251 src/slic3r/GUI/GCodeViewer.cpp:4587
+#: src/slic3r/GUI/GCodeViewer.cpp:4593
 msgid "Used filament"
 msgstr "消耗耗材"
 
@@ -10018,7 +10018,7 @@ msgstr "信息："
 msgid "WARNING:"
 msgstr "警告:"
 
-#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10130
+#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10131
 #: src/slic3r/GUI/NotificationManager.cpp:2292 src/slic3r/GUI/NotificationManager.cpp:2319
 #: src/slic3r/GUI/NotificationManager.cpp:2325
 msgid "ERROR:"
@@ -10938,7 +10938,7 @@ msgstr "热床形状"
 msgid "Load shape from STL..."
 msgstr "从 STL 文件加载形状..."
 
-#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4641
+#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4647
 #: src/slic3r/GUI/MainFrame.cpp:3818 src/slic3r/GUI/MainFrame.cpp:4608
 msgid "Settings"
 msgstr "设置"
@@ -12498,7 +12498,7 @@ msgstr "特定于%1%"
 msgid "Presets"
 msgstr "预设"
 
-#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4658
+#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4664
 #: src/slic3r/GUI/GUI.cpp:387 src/slic3r/GUI/GUI.cpp:429 src/slic3r/GUI/MainFrame.cpp:3825
 #: src/slic3r/GUI/Sidebar.cpp:1128
 msgid "Print settings"
@@ -12636,8 +12636,8 @@ msgid "Edit Restricted Zones"
 msgstr "编辑限制区域"
 
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3727
-#: src/slic3r/GUI/GCodeViewer.cpp:3735 src/slic3r/GUI/GUI_Factories.cpp:1381
+#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3733
+#: src/slic3r/GUI/GCodeViewer.cpp:3741 src/slic3r/GUI/GUI_Factories.cpp:1381
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2689 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
 #: src/slic3r/GUI/Tab.cpp:6362
 msgid "Mirror"
@@ -12702,7 +12702,7 @@ msgstr "已复制"
 msgid "Essential mode"
 msgstr "基本模式"
 
-#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4709
+#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4715
 #: src/slic3r/GUI/GLCanvas3D.cpp:3074
 msgid "Normal mode"
 msgstr "正常模式"
@@ -13459,7 +13459,7 @@ msgstr "颜色变化"
 msgid "Pause Print"
 msgstr "暂停打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4831
+#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4837
 msgid "Wipe"
 msgstr "擦"
 
@@ -13476,8 +13476,8 @@ msgstr "隐藏属性"
 msgid "Show properties"
 msgstr "显示属性"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1255 src/slic3r/GUI/GCodeViewer.cpp:4099
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:1255 src/slic3r/GUI/GCodeViewer.cpp:4105
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 #: src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Feature type"
 msgstr "功能类型"
@@ -13494,8 +13494,8 @@ msgstr "体积流量"
 msgid "Fan speed"
 msgstr "风扇速度"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1341 src/slic3r/GUI/GCodeViewer.cpp:4099
-#: src/slic3r/GUI/GCodeViewer.cpp:4243 src/slic3r/GUI/RammingChart.cpp:94
+#: src/slic3r/GUI/GCodeViewer.cpp:1341 src/slic3r/GUI/GCodeViewer.cpp:4105
+#: src/slic3r/GUI/GCodeViewer.cpp:4249 src/slic3r/GUI/RammingChart.cpp:94
 #: src/slic3r/GUI/Sidebar.cpp:417 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Time"
 msgstr "时间"
@@ -13524,16 +13524,16 @@ msgstr "刀具位置"
 msgid "Error"
 msgstr "错误"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:2740
+#: src/slic3r/GUI/GCodeViewer.cpp:2746
 msgid ""
 "The Realistic G-code path renderer could not be initialized. Classic rendering is used instead."
 msgstr "无法初始化逼真 G-code 路径渲染器，将改用经典渲染。"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3480
+#: src/slic3r/GUI/GCodeViewer.cpp:3486
 msgid "pressure advance range"
 msgstr "压力提前范围"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3801 src/slic3r/GUI/GCodeViewer.cpp:4056
+#: src/slic3r/GUI/GCodeViewer.cpp:3807 src/slic3r/GUI/GCodeViewer.cpp:4062
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -13542,119 +13542,119 @@ msgstr "压力提前范围"
 msgid "in"
 msgstr "在里面"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3802 src/slic3r/GUI/GCodeViewer.cpp:4057
+#: src/slic3r/GUI/GCodeViewer.cpp:3808 src/slic3r/GUI/GCodeViewer.cpp:4063
 msgctxt "Metre"
 msgid "m"
 msgstr "米"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3813
+#: src/slic3r/GUI/GCodeViewer.cpp:3819
 msgid "Click to hide"
 msgstr "单击以隐藏"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3813
+#: src/slic3r/GUI/GCodeViewer.cpp:3819
 msgid "Click to show"
 msgstr "点击显示"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3980
+#: src/slic3r/GUI/GCodeViewer.cpp:3986
 msgid "up to"
 msgstr "高达"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3986
+#: src/slic3r/GUI/GCodeViewer.cpp:3992
 msgid "above"
 msgstr "在上面"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3994
+#: src/slic3r/GUI/GCodeViewer.cpp:4000
 msgid "from"
 msgstr "从"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3994
+#: src/slic3r/GUI/GCodeViewer.cpp:4000
 msgid "to"
 msgstr "到"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 msgid "Layer height (mm)"
 msgstr "层高度 (mm)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 msgid "Extrusion width (mm)"
 msgstr "挤出宽度 (mm)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 msgid "Speed (mm/s)"
 msgstr "回退速度 (mm/s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4155 src/slic3r/GUI/GCodeViewer.cpp:4178
+#: src/slic3r/GUI/GCodeViewer.cpp:4161 src/slic3r/GUI/GCodeViewer.cpp:4184
 msgid "Actual speed (mm/s)"
 msgstr "实际速度（mm/s）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Fan speed (%)"
 msgstr "风扇转速 (%)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Temperature (°C)"
 msgstr "温度 (摄氏度)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Zoneheater power (%)"
 msgstr "区域加热功率 (%)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Zoneheater spot time (s)"
 msgstr "Zoneheater 停留时间 (s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Volumetric flow rate (mm³/s)"
 msgstr "体积流量 (mm³/s)"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4156 src/slic3r/GUI/GCodeViewer.cpp:4179
+#: src/slic3r/GUI/GCodeViewer.cpp:4162 src/slic3r/GUI/GCodeViewer.cpp:4185
 msgid "Actual volumetric flow rate (mm³/s)"
 msgstr "实际体积流量（mm³/s）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4157
+#: src/slic3r/GUI/GCodeViewer.cpp:4163
 msgid "Layer time (linear)"
 msgstr "层时间（线性）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4157
+#: src/slic3r/GUI/GCodeViewer.cpp:4163
 msgid "Layer time (logarithmic)"
 msgstr "层时间（对数）"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4157 src/slic3r/GUI/GCodeViewer.cpp:4180
+#: src/slic3r/GUI/GCodeViewer.cpp:4163 src/slic3r/GUI/GCodeViewer.cpp:4186
 msgid "Tool"
 msgstr "工具"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4157 src/slic3r/GUI/GCodeViewer.cpp:4180
+#: src/slic3r/GUI/GCodeViewer.cpp:4163 src/slic3r/GUI/GCodeViewer.cpp:4186
 msgid "Color Print"
 msgstr "彩色打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4174 src/slic3r/GUI/GCodeViewer.cpp:4195
+#: src/slic3r/GUI/GCodeViewer.cpp:4180 src/slic3r/GUI/GCodeViewer.cpp:4201
 msgid "Pressure Advance"
 msgstr "压力提前"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4279 src/slic3r/GUI/GCodeViewer.cpp:4290
-#: src/slic3r/GUI/GCodeViewer.cpp:4295 src/slic3r/GUI/GCodeViewer.cpp:4300
-#: src/slic3r/GUI/GCodeViewer.cpp:4305 src/slic3r/GUI/GCodeViewer.cpp:4316
-#: src/slic3r/GUI/GCodeViewer.cpp:4321
+#: src/slic3r/GUI/GCodeViewer.cpp:4285 src/slic3r/GUI/GCodeViewer.cpp:4296
+#: src/slic3r/GUI/GCodeViewer.cpp:4301 src/slic3r/GUI/GCodeViewer.cpp:4306
+#: src/slic3r/GUI/GCodeViewer.cpp:4311 src/slic3r/GUI/GCodeViewer.cpp:4322
+#: src/slic3r/GUI/GCodeViewer.cpp:4327
 msgid "Retract coasting"
 msgstr "回抽滑行"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4358
+#: src/slic3r/GUI/GCodeViewer.cpp:4364
 msgid "Default color"
 msgstr "默认颜色"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4388
+#: src/slic3r/GUI/GCodeViewer.cpp:4394
 msgid "default color"
 msgstr "默认颜色"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4425
+#: src/slic3r/GUI/GCodeViewer.cpp:4431
 msgid "Calculating zoneheater spot time..."
 msgstr "正在计算 Zoneheater 停留时间..."
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4440
+#: src/slic3r/GUI/GCodeViewer.cpp:4446
 msgid "Zoneheater spot time is approximated in preview mode (nominal speeds)."
 msgstr "预览模式下的 Zoneheater 停留时间为近似值（标称速度）。"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4513 src/slic3r/GUI/GCodeViewer.cpp:4571
+#: src/slic3r/GUI/GCodeViewer.cpp:4519 src/slic3r/GUI/GCodeViewer.cpp:4577
 msgid "Color change"
 msgstr "变色"
 
@@ -13665,98 +13665,98 @@ msgstr "变色"
 msgid "Print"
 msgstr "打印"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4570 src/slic3r/GUI/GCodeViewer.cpp:4601
+#: src/slic3r/GUI/GCodeViewer.cpp:4576 src/slic3r/GUI/GCodeViewer.cpp:4607
 msgid "Pause"
 msgstr "暂停"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4581 src/slic3r/GUI/GCodeViewer.cpp:4587
+#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
 msgid "Event"
 msgstr "事件"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4581 src/slic3r/GUI/GCodeViewer.cpp:4587
+#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
 msgid "Remaining time"
 msgstr "剩余时间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4581 src/slic3r/GUI/GCodeViewer.cpp:4587
+#: src/slic3r/GUI/GCodeViewer.cpp:4587 src/slic3r/GUI/GCodeViewer.cpp:4593
 msgid "Duration"
 msgstr "期间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4664 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
+#: src/slic3r/GUI/GCodeViewer.cpp:4670 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
 #: src/slic3r/GUI/Sidebar.cpp:1129
 msgid "Filament"
 msgstr "耗材"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4681
+#: src/slic3r/GUI/GCodeViewer.cpp:4687
 msgid "Hide Custom G-code"
 msgstr "隐藏自定义G代码"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4681
+#: src/slic3r/GUI/GCodeViewer.cpp:4687
 msgid "Show Custom G-code"
 msgstr "显示自定义G代码"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4691
+#: src/slic3r/GUI/GCodeViewer.cpp:4697
 msgid "Estimated printing times"
 msgstr "估计打印时间"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4710 src/slic3r/GUI/GLCanvas3D.cpp:3065
+#: src/slic3r/GUI/GCodeViewer.cpp:4716 src/slic3r/GUI/GLCanvas3D.cpp:3065
 msgid "Stealth mode"
 msgstr "隐身模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4723 src/slic3r/GUI/GLCanvas3D.cpp:3033
+#: src/slic3r/GUI/GCodeViewer.cpp:4729 src/slic3r/GUI/GLCanvas3D.cpp:3033
 #: src/slic3r/GUI/GLCanvas3D.cpp:3123 src/slic3r/GUI/GLCanvas3D.cpp:3195
 #: src/slic3r/GUI/GLCanvas3D.cpp:3233
 msgid "Total"
 msgstr "全部的"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4740
+#: src/slic3r/GUI/GCodeViewer.cpp:4746
 msgid "Show stealth mode"
 msgstr "显示隐形模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4744
+#: src/slic3r/GUI/GCodeViewer.cpp:4750
 msgid "Show normal mode"
 msgstr "显示正常模式"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4819
+#: src/slic3r/GUI/GCodeViewer.cpp:4825
 msgid "Seams"
 msgstr "接缝"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4823
+#: src/slic3r/GUI/GCodeViewer.cpp:4829
 msgid "Retractions"
 msgstr "回抽"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4827
+#: src/slic3r/GUI/GCodeViewer.cpp:4833
 msgid "Deretractions"
 msgstr "退缩"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4835
+#: src/slic3r/GUI/GCodeViewer.cpp:4841
 msgid "Tool changes"
 msgstr "工具更换"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4839
+#: src/slic3r/GUI/GCodeViewer.cpp:4845
 msgid "Color changes"
 msgstr "颜色变化"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4843
+#: src/slic3r/GUI/GCodeViewer.cpp:4849
 msgid "Custom G-codes"
 msgstr "自定义 G-Code"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4847
+#: src/slic3r/GUI/GCodeViewer.cpp:4853
 msgid "Print pauses"
 msgstr "打印暂停"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4852
+#: src/slic3r/GUI/GCodeViewer.cpp:4858
 msgid "Shells"
 msgstr "壳"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4857
+#: src/slic3r/GUI/GCodeViewer.cpp:4863
 msgid "Tool marker"
 msgstr "工具标记"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4862
+#: src/slic3r/GUI/GCodeViewer.cpp:4868
 msgid "Show zoneheater ring"
 msgstr "显示 Zoneheater 环"
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4869
+#: src/slic3r/GUI/GCodeViewer.cpp:4875
 msgid "Center of gravity"
 msgstr "重心"
 
@@ -14178,23 +14178,19 @@ msgstr "层时间：%1%"
 msgid "Time since start: %1%"
 msgstr "从开始至今：%1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10070
+#: src/slic3r/GUI/GLCanvas3D.cpp:10071
 msgid "An object outside the print area was detected."
 msgstr "检测到打印区域外的物体。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10071
+#: src/slic3r/GUI/GLCanvas3D.cpp:10072
 msgid "A toolpath outside the print area was detected."
 msgstr "检测到打印区域外的刀轨。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10072
+#: src/slic3r/GUI/GLCanvas3D.cpp:10073
 msgid "SLA supports outside the print area were detected."
 msgstr "检测到打印区域外的 SLA 支持。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10073
-msgid "Some objects are not visible during editing."
-msgstr "某些对象在编辑期间不可见。"
-
-#: src/slic3r/GUI/GLCanvas3D.cpp:10075
+#: src/slic3r/GUI/GLCanvas3D.cpp:10076
 msgid ""
 "An object outside the print area was detected.\n"
 "Resolve the current problem to continue slicing."
@@ -14203,7 +14199,7 @@ msgstr ""
 "重新解决当前问题以继续切片。"
 
 #. TRN %3% is name of Object1, %4% is name of Object2
-#: src/slic3r/GUI/GLCanvas3D.cpp:10087
+#: src/slic3r/GUI/GLCanvas3D.cpp:10088
 #, boost-format
 msgid ""
 "Conflicts in G-code paths have been detected at layer %1%, z=%2$.2f mm. Please reposition the "
@@ -14211,7 +14207,7 @@ msgid ""
 msgstr "在第 %1% 层（z=%2$.2f mm）检测到 G-code 路径冲突。请将冲突对象（%3% <-> %4%）移得更远。"
 
 #. TRN: Placeholders contain names of the colliding objects.
-#: src/slic3r/GUI/GLCanvas3D.cpp:10097
+#: src/slic3r/GUI/GLCanvas3D.cpp:10098
 #, boost-format
 msgid "Extruder will crash into %1% while printing %2%."
 msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
@@ -14220,11 +14216,11 @@ msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
 msgid "Jump to"
 msgstr "跳转至"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10212
+#: src/slic3r/GUI/GLCanvas3D.cpp:10220
 msgid "Selection-Add from rectangle"
 msgstr "从矩形选择-添加"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10227
+#: src/slic3r/GUI/GLCanvas3D.cpp:10235
 msgid "Selection-Remove from rectangle"
 msgstr "从矩形中选择-删除"
 
@@ -15421,7 +15417,7 @@ msgid "Add Shape"
 msgstr "添加形状"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1501 src/slic3r/GUI/KBShortcutsDialog.cpp:163
-#: src/slic3r/GUI/ObjectClippingController.cpp:417 src/slic3r/GUI/Plater.cpp:4525
+#: src/slic3r/GUI/ObjectClippingController.cpp:425 src/slic3r/GUI/Plater.cpp:4525
 msgid "Clipping view"
 msgstr "裁剪视图"
 
@@ -16530,7 +16526,7 @@ msgstr "删除附着垫"
 #: src/slic3r/GUI/Gizmos/GLGizmoBrimEars.cpp:93 src/slic3r/GUI/Gizmos/GLGizmoBrimEars.cpp:95
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:360 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:234
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:264 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:547
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:188 src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1513
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:180 src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:1513
 msgid "Mouse wheel"
 msgstr "鼠标滚动"
 
@@ -17575,8 +17571,8 @@ msgstr "剪切视图"
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:56 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:35
 #: src/slic3r/GUI/Gizmos/GLGizmoHollow.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:37
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:108 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:38
-#: src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:127 src/slic3r/GUI/ObjectClippingController.cpp:428
-#: src/slic3r/GUI/ObjectClippingController.cpp:443
+#: src/slic3r/GUI/Gizmos/GLGizmoSlaSupports.cpp:127 src/slic3r/GUI/ObjectClippingController.cpp:436
+#: src/slic3r/GUI/ObjectClippingController.cpp:451
 msgid "Reset direction"
 msgstr "重置方向"
 
@@ -17595,7 +17591,6 @@ msgstr "画笔形状"
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:59 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:38
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:40 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:2018
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:112 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:41
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:52
 msgid "Left mouse button"
 msgstr "鼠标左键"
 
@@ -17605,7 +17600,6 @@ msgstr "强制支持"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:61 src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:42
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:114 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:43
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:54
 msgid "Right mouse button"
 msgstr "鼠标右键"
 
@@ -17615,13 +17609,13 @@ msgstr "阻止支撑"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:63 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:40
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:116
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:45 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:56
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:45
 msgid "Shift + Left mouse button"
 msgstr "Shift+鼠标左键"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:64 src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:627
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:45 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:46
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:272
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:266
 msgid "Remove selection"
 msgstr "删除所选内容"
 
@@ -17706,12 +17700,12 @@ msgid "Allows painting only on facets selected by: \"%1%\""
 msgstr "仅允许在选择的面上绘制：\"%1%\""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:295 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:173
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:466 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:162
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:466 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:154
 msgid "Paints all facets inside, regardless of their orientation."
 msgstr "绘制内部的所有面，无论其方向如何。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:304 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:182
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:475 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:170
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:475 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:162
 msgid "Ignores facets facing away from the camera."
 msgstr "忽略背对摄影机的面。"
 
@@ -17726,7 +17720,7 @@ msgstr "只绘制一个面。"
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:119
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:492
 #: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:510
-#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:525 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:150
+#: src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:525 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:142
 msgid "Alt + Mouse wheel"
 msgstr "Alt+鼠标滚轮"
 
@@ -17737,7 +17731,7 @@ msgstr "在绘制对象时，将较大的面拆分为较小的面。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:365 src/slic3r/GUI/Gizmos/GLGizmoFuzzySkin.cpp:239
 #: src/slic3r/GUI/Gizmos/GLGizmoIroning.cpp:269 src/slic3r/GUI/Gizmos/GLGizmoMmuSegmentation.cpp:552
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:196
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:188
 msgid "Reset selection"
 msgstr "重置选择"
 
@@ -18376,11 +18370,11 @@ msgstr "SVG文件不包含路径以进行浮雕操作 (%1%)。"
 msgid "Gizmo-Scale"
 msgstr "Gizmo-缩放"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:42 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:275
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:42 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:269
 msgid "Enforce seam"
 msgstr "强制接缝"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:277
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:44 src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:271
 msgid "Block seam"
 msgstr "阻止接缝"
 
@@ -18388,23 +18382,11 @@ msgstr "阻止接缝"
 msgid "Vertical"
 msgstr "垂直"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:53
-msgid "Enforce seam line"
-msgstr "沿直线强制接缝"
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:51
+msgid "Hold CTRL to draw straight lines"
+msgstr "按住 CTRL 绘制直线"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:55
-msgid "Block seam line"
-msgstr "沿直线阻止接缝"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:57
-msgid "Remove selection along line"
-msgstr "沿直线移除选区"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:58
-msgid "Drag to preview a straight line; release to apply."
-msgstr "拖动以预览直线，松开鼠标以应用。"
-
-#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:67
+#: src/slic3r/GUI/Gizmos/GLGizmoSeam.cpp:60
 msgid "Seam painting"
 msgstr "接缝绘制"
 
@@ -20619,23 +20601,27 @@ msgstr "批量导出完成。"
 msgid "Download"
 msgstr "下载"
 
-#: src/slic3r/GUI/NotificationManager.hpp:946
+#: src/slic3r/GUI/NotificationManager.hpp:949
+msgid "Some objects are not visible during editing."
+msgstr "某些对象在编辑期间不可见。"
+
+#: src/slic3r/GUI/NotificationManager.hpp:950
 msgid "3D Mouse disconnected."
 msgstr "3D 鼠标断开连接。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:947
+#: src/slic3r/GUI/NotificationManager.hpp:951
 msgid "Configuration update is available."
 msgstr "配置更新可用。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:947 src/slic3r/GUI/NotificationManager.hpp:954
+#: src/slic3r/GUI/NotificationManager.hpp:951 src/slic3r/GUI/NotificationManager.hpp:958
 msgid "See more."
 msgstr "查看更多。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:954
+#: src/slic3r/GUI/NotificationManager.hpp:958
 msgid "Configuration update is available. Update contains new printer releases."
 msgstr "有可用的配置更新。更新包含新发布的打印机。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:962
+#: src/slic3r/GUI/NotificationManager.hpp:966
 msgid ""
 "You have just added a G-code for color change, but its value is empty.\n"
 "To export the G-code correctly, check the \"Color Change G-code\" in \"Printer Settings > Custom "
@@ -20644,42 +20630,42 @@ msgstr ""
 "您刚刚添加了用于颜色更改的 G-Code，但其值为空。\n"
 "要正确导出 G-Code，请检查“打印机设置>自定义 G-Code ”中的“颜色更改 G-Code ”"
 
-#: src/slic3r/GUI/NotificationManager.hpp:965
+#: src/slic3r/GUI/NotificationManager.hpp:969
 msgid "No color change event was added to the print. The print does not look like a sign."
 msgstr "未向打印添加颜色更改事件。这个指纹看起来不像一个标志。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:967
+#: src/slic3r/GUI/NotificationManager.hpp:971
 msgid "Desktop integration was successful."
 msgstr "桌面集成是成功的。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:969
+#: src/slic3r/GUI/NotificationManager.hpp:973
 msgid "Desktop integration failed."
 msgstr "桌面集成失败。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:971
+#: src/slic3r/GUI/NotificationManager.hpp:975
 msgid "Undo desktop integration was successful."
 msgstr "撤销桌面集成成功。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:973
+#: src/slic3r/GUI/NotificationManager.hpp:977
 msgid "Undo desktop integration failed."
 msgstr "撤消桌面集成失败。"
 
-#: src/slic3r/GUI/NotificationManager.hpp:974
+#: src/slic3r/GUI/NotificationManager.hpp:978
 msgid "Exporting."
 msgstr "出口。"
 
 #. TRN: The text is followed by a hyperlink saying "here." It is necessary to split it in two phrases, sorry.
-#: src/slic3r/GUI/NotificationManager.hpp:979
+#: src/slic3r/GUI/NotificationManager.hpp:983
 msgid ""
 "ApiumSlicer received a download request from Printables.com, but it's not allowed. You can allow "
 "it"
 msgstr "ApiumSlicer 收到来自 Printables.com 的下载请求，但当前不允许。你可以允许该请求"
 
-#: src/slic3r/GUI/NotificationManager.hpp:980
+#: src/slic3r/GUI/NotificationManager.hpp:984
 msgid "here."
 msgstr "这里。"
 
-#: src/slic3r/GUI/ObjectClippingController.cpp:429 src/slic3r/GUI/ObjectClippingController.cpp:447
+#: src/slic3r/GUI/ObjectClippingController.cpp:437 src/slic3r/GUI/ObjectClippingController.cpp:455
 msgid "Choose face"
 msgstr "选择面"
 

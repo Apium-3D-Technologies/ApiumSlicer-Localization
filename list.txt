@@ -885,6 +885,7 @@ src/slic3r/GUI/Gizmos/GLGizmosCommon.cpp
 src/slic3r/GUI/Gizmos/GLGizmosCommon.hpp
 src/slic3r/GUI/Gizmos/GLGizmosManager.cpp
 src/slic3r/GUI/Gizmos/GLGizmosManager.hpp
+src/slic3r/GUI/Gizmos/PainterLineStroke.hpp
 src/slic3r/GUI/HintNotification.cpp
 src/slic3r/GUI/HintNotification.hpp
 src/slic3r/GUI/I18N.cpp
