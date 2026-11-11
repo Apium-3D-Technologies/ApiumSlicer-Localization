@@ -5631,7 +5631,7 @@ msgstr ""
 msgid "Aligned"
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:5085 src/slic3r/GUI/MainFrame.cpp:3201
+#: src/libslic3r/PrintConfig.cpp:5085 src/slic3r/GUI/MainFrame.cpp:3197
 msgid "Rear"
 msgstr ""
 
@@ -10118,7 +10118,7 @@ msgstr ""
 
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:425
 #: src/slic3r/GUI/DesktopIntegrationDialog.cpp:845 src/slic3r/GUI/GLCanvas3D.cpp:7477
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:111 src/slic3r/GUI/MainFrame.cpp:3410
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:111 src/slic3r/GUI/MainFrame.cpp:3406
 msgid "Undo"
 msgstr ""
 
@@ -10136,8 +10136,8 @@ msgstr ""
 #: src/slic3r/GUI/ObjectClippingController.cpp:436 src/slic3r/GUI/ObjectClippingController.cpp:466
 #: src/slic3r/GUI/PrintHostDialogs.cpp:317 src/slic3r/GUI/SendSystemInfoDialog.cpp:140
 #: src/slic3r/GUI/Sidebar.cpp:599 src/slic3r/GUI/SlicingPerformanceDialog.cpp:274
-#: src/slic3r/GUI/VersionDiffDialog.cpp:358 src/slic3r/GUI/VersionInfoDialog.cpp:110
-#: src/slic3r/GUI/VersionInfoDialog.cpp:162
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:67 src/slic3r/GUI/VersionDiffDialog.cpp:358
+#: src/slic3r/GUI/VersionInfoDialog.cpp:110 src/slic3r/GUI/VersionInfoDialog.cpp:162
 msgid "Close"
 msgstr ""
 
@@ -10214,7 +10214,7 @@ msgstr ""
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2100
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2110
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2165
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2210 src/slic3r/GUI/MainFrame.cpp:3498
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2210 src/slic3r/GUI/MainFrame.cpp:3494
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:1787
 msgid "Compare Presets"
 msgstr ""
@@ -10236,7 +10236,7 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2510 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2595
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:71 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:1559
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1620 src/slic3r/GUI/MainFrame.cpp:237
-#: src/slic3r/GUI/MainFrame.cpp:3879 src/slic3r/GUI/Plater.cpp:6335
+#: src/slic3r/GUI/MainFrame.cpp:3875 src/slic3r/GUI/Plater.cpp:6335
 #: src/slic3r/GUI/ProgressStatusBar.cpp:34 src/slic3r/GUI/SendSystemInfoDialog.cpp:111
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:934 src/slic3r/GUI/UnsavedChangesDialog.cpp:1659
 #: src/slic3r/GUI/VersionedSaveDialog.cpp:92
@@ -10460,7 +10460,7 @@ msgid "Load shape from STL..."
 msgstr ""
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4728
-#: src/slic3r/GUI/MainFrame.cpp:3818 src/slic3r/GUI/MainFrame.cpp:4608
+#: src/slic3r/GUI/MainFrame.cpp:3814 src/slic3r/GUI/MainFrame.cpp:4604
 msgid "Settings"
 msgstr ""
 
@@ -10474,7 +10474,7 @@ msgid "Load..."
 msgstr ""
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:319 src/slic3r/GUI/BedShapeDialog.cpp:391
-#: src/slic3r/GUI/BedShapeDialog.cpp:810 src/slic3r/GUI/SshTabPanel.cpp:425
+#: src/slic3r/GUI/BedShapeDialog.cpp:810 src/slic3r/GUI/SshTabPanel.cpp:407
 #: src/slic3r/GUI/Tab.cpp:8277 src/slic3r/GUI/UpdatesUIManager.cpp:255
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:412
 msgid "Remove"
@@ -11938,7 +11938,7 @@ msgid "Presets"
 msgstr ""
 
 #: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4745
-#: src/slic3r/GUI/GUI.cpp:387 src/slic3r/GUI/GUI.cpp:429 src/slic3r/GUI/MainFrame.cpp:3825
+#: src/slic3r/GUI/GUI.cpp:387 src/slic3r/GUI/GUI.cpp:429 src/slic3r/GUI/MainFrame.cpp:3821
 #: src/slic3r/GUI/Sidebar.cpp:1128
 msgid "Print settings"
 msgstr ""
@@ -11951,7 +11951,7 @@ msgstr ""
 msgid "SLA Materials settings"
 msgstr ""
 
-#: src/slic3r/GUI/EditGCodeDialog.cpp:267 src/slic3r/GUI/MainFrame.cpp:3827
+#: src/slic3r/GUI/EditGCodeDialog.cpp:267 src/slic3r/GUI/MainFrame.cpp:3823
 msgid "Printer settings"
 msgstr ""
 
@@ -12001,7 +12001,7 @@ msgid "H:"
 msgstr ""
 
 #: src/slic3r/GUI/ExclusionZonesDialog.cpp:349 src/slic3r/GUI/GalleryDialog.cpp:121
-#: src/slic3r/GUI/SshTabPanel.cpp:423 src/slic3r/GUI/Tab.cpp:4136 src/slic3r/GUI/Tab.cpp:8742
+#: src/slic3r/GUI/SshTabPanel.cpp:405 src/slic3r/GUI/Tab.cpp:4136 src/slic3r/GUI/Tab.cpp:8742
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:410
 msgid "Add"
 msgstr ""
@@ -12023,7 +12023,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1556
+#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1281
 #: src/slic3r/GUI/UpdatesUIManager.cpp:153 src/slic3r/GUI/UpdatesUIManager.cpp:208
 msgid "Description"
 msgstr ""
@@ -12433,7 +12433,7 @@ msgstr ""
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3868 src/slic3r/GUI/FileTransferTabPanel.cpp:4665
 #: src/slic3r/GUI/MainFrame.cpp:970 src/slic3r/GUI/MainFrame.cpp:1708
-#: src/slic3r/GUI/SshTabPanel.cpp:1433 src/slic3r/GUI/SshTabPanel.cpp:1444
+#: src/slic3r/GUI/SshTabPanel.cpp:1158 src/slic3r/GUI/SshTabPanel.cpp:1169
 #: src/slic3r/GUI/TopBar.cpp:554
 msgid "File Transfer"
 msgstr ""
@@ -12613,15 +12613,15 @@ msgstr ""
 msgid "Skip"
 msgstr ""
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1652
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1382
 msgid "SSH host key changed"
 msgstr ""
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1652
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1382
 msgid "Trust SSH host key"
 msgstr ""
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1654
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1384
 #, boost-format
 msgid ""
 "The SSH host key for \"%1%\" changed to:\n"
@@ -12630,7 +12630,7 @@ msgid ""
 "Continue?"
 msgstr ""
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1655
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1385
 #, boost-format
 msgid ""
 "Trust SSH host key for \"%1%\":\n"
@@ -12933,14 +12933,14 @@ msgstr ""
 
 #: src/slic3r/GUI/GCodeViewer.cpp:1783 src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:224
 #: src/slic3r/GUI/MainFrame.cpp:299 src/slic3r/GUI/MainFrame.cpp:309
-#: src/slic3r/GUI/MainFrame.cpp:316 src/slic3r/GUI/MainFrame.cpp:2224
-#: src/slic3r/GUI/MainFrame.cpp:2258 src/slic3r/GUI/MainFrame.cpp:2293
-#: src/slic3r/GUI/MainFrame.cpp:2310 src/slic3r/GUI/MainFrame.cpp:2387
-#: src/slic3r/GUI/MainFrame.cpp:2444 src/slic3r/GUI/MainFrame.cpp:2478
-#: src/slic3r/GUI/MainFrame.cpp:2647 src/slic3r/GUI/MainFrame.cpp:2660
-#: src/slic3r/GUI/MainFrame.cpp:2686 src/slic3r/GUI/MainFrame.cpp:2714
-#: src/slic3r/GUI/MainFrame.cpp:2744 src/slic3r/GUI/MainFrame.cpp:2780
-#: src/slic3r/GUI/MainFrame.cpp:4449 src/slic3r/GUI/Plater.cpp:5743 src/slic3r/GUI/Plater.cpp:5781
+#: src/slic3r/GUI/MainFrame.cpp:316 src/slic3r/GUI/MainFrame.cpp:2220
+#: src/slic3r/GUI/MainFrame.cpp:2254 src/slic3r/GUI/MainFrame.cpp:2289
+#: src/slic3r/GUI/MainFrame.cpp:2306 src/slic3r/GUI/MainFrame.cpp:2383
+#: src/slic3r/GUI/MainFrame.cpp:2440 src/slic3r/GUI/MainFrame.cpp:2474
+#: src/slic3r/GUI/MainFrame.cpp:2643 src/slic3r/GUI/MainFrame.cpp:2656
+#: src/slic3r/GUI/MainFrame.cpp:2682 src/slic3r/GUI/MainFrame.cpp:2710
+#: src/slic3r/GUI/MainFrame.cpp:2740 src/slic3r/GUI/MainFrame.cpp:2776
+#: src/slic3r/GUI/MainFrame.cpp:4445 src/slic3r/GUI/Plater.cpp:5743 src/slic3r/GUI/Plater.cpp:5781
 #: src/slic3r/GUI/Plater.cpp:5821 src/slic3r/GUI/Plater.cpp:5859
 #: src/slic3r/GUI/PrintHostDialogs.cpp:429 src/slic3r/GUI/Tab.cpp:2106
 #: src/slic3r/GUI/VersionedSaveDialog.cpp:172 src/slic3r/GUI/VersionedSaveDialog.cpp:182
@@ -13409,7 +13409,7 @@ msgid "Filament Settings Tab"
 msgstr ""
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:6575 src/slic3r/GUI/MainFrame.cpp:950
-#: src/slic3r/GUI/MainFrame.cpp:3458 src/slic3r/GUI/MainFrame.cpp:3686
+#: src/slic3r/GUI/MainFrame.cpp:3454 src/slic3r/GUI/MainFrame.cpp:3682
 msgid "Material Settings Tab"
 msgstr ""
 
@@ -13464,10 +13464,11 @@ msgid "Create Pattern"
 msgstr ""
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:7275 src/slic3r/GUI/PhysicalPrinterDialog.cpp:452
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:618
 msgid "Copy"
 msgstr ""
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7284
+#: src/slic3r/GUI/GLCanvas3D.cpp:7284 src/slic3r/GUI/SshTerminalCtrl.cpp:618
 msgid "Paste"
 msgstr ""
 
@@ -13493,7 +13494,7 @@ msgstr ""
 msgid "Measure"
 msgstr ""
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7418 src/slic3r/GUI/MainFrame.cpp:3440
+#: src/slic3r/GUI/GLCanvas3D.cpp:7418 src/slic3r/GUI/MainFrame.cpp:3436
 msgid "Search in settings"
 msgstr ""
 
@@ -13507,7 +13508,7 @@ msgid "Next Undo action: %1%"
 msgstr ""
 
 #: src/slic3r/GUI/GLCanvas3D.cpp:7514 src/slic3r/GUI/KBShortcutsDialog.cpp:112
-#: src/slic3r/GUI/MainFrame.cpp:3413
+#: src/slic3r/GUI/MainFrame.cpp:3409
 msgid "Redo"
 msgstr ""
 
@@ -13516,7 +13517,7 @@ msgstr ""
 msgid "Next Redo action: %1%"
 msgstr ""
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8956 src/slic3r/GUI/MainFrame.cpp:3199
+#: src/slic3r/GUI/GLCanvas3D.cpp:8956 src/slic3r/GUI/MainFrame.cpp:3195
 msgid "Front"
 msgstr ""
 
@@ -13525,20 +13526,20 @@ msgid "Back"
 msgstr ""
 
 #. TRN Main menu: View->Top
-#: src/slic3r/GUI/GLCanvas3D.cpp:8958 src/slic3r/GUI/MainFrame.cpp:3194
+#: src/slic3r/GUI/GLCanvas3D.cpp:8958 src/slic3r/GUI/MainFrame.cpp:3190
 msgid "Top"
 msgstr ""
 
 #. TRN Main menu: View->Bottom
-#: src/slic3r/GUI/GLCanvas3D.cpp:8959 src/slic3r/GUI/MainFrame.cpp:3197
+#: src/slic3r/GUI/GLCanvas3D.cpp:8959 src/slic3r/GUI/MainFrame.cpp:3193
 msgid "Bottom"
 msgstr ""
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8960 src/slic3r/GUI/MainFrame.cpp:3203
+#: src/slic3r/GUI/GLCanvas3D.cpp:8960 src/slic3r/GUI/MainFrame.cpp:3199
 msgid "Left"
 msgstr ""
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:8961 src/slic3r/GUI/MainFrame.cpp:3205
+#: src/slic3r/GUI/GLCanvas3D.cpp:8961 src/slic3r/GUI/MainFrame.cpp:3201
 msgid "Right"
 msgstr ""
 
@@ -15075,8 +15076,8 @@ msgstr ""
 msgid "Adding objects to the plater..."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_ObjectList.cpp:2013 src/slic3r/GUI/MainFrame.cpp:2061
-#: src/slic3r/GUI/MainFrame.cpp:2103 src/slic3r/GUI/Plater.cpp:2012
+#: src/slic3r/GUI/GUI_ObjectList.cpp:2013 src/slic3r/GUI/MainFrame.cpp:2057
+#: src/slic3r/GUI/MainFrame.cpp:2099 src/slic3r/GUI/Plater.cpp:2012
 msgid "Finalizing..."
 msgstr ""
 
@@ -15749,7 +15750,7 @@ msgstr ""
 msgid "Apply color change automatically"
 msgstr ""
 
-#: src/slic3r/GUI/GalleryDialog.cpp:73 src/slic3r/GUI/MainFrame.cpp:3477
+#: src/slic3r/GUI/GalleryDialog.cpp:73 src/slic3r/GUI/MainFrame.cpp:3473
 msgid "Shape Gallery"
 msgstr ""
 
@@ -18014,7 +18015,7 @@ msgstr ""
 msgid "Open Documentation in web browser."
 msgstr ""
 
-#: src/slic3r/GUI/ImGuiWrapper.cpp:566 src/slic3r/GUI/SshTabPanel.cpp:424
+#: src/slic3r/GUI/ImGuiWrapper.cpp:566 src/slic3r/GUI/SshTabPanel.cpp:406
 #: src/slic3r/GUI/WebInterfaceTabPanel.cpp:411 src/slic3r/GUI/WebInterfaceTabPanel.cpp:972
 msgid "Edit"
 msgstr ""
@@ -18184,8 +18185,8 @@ msgstr ""
 msgid "You cannot load SLA project with a multi-part object on the bed"
 msgstr ""
 
-#: src/slic3r/GUI/Jobs/SLAImportJob.cpp:159 src/slic3r/GUI/MainFrame.cpp:3776
-#: src/slic3r/GUI/MainFrame.cpp:3963 src/slic3r/GUI/Plater.cpp:1745
+#: src/slic3r/GUI/Jobs/SLAImportJob.cpp:159 src/slic3r/GUI/MainFrame.cpp:3772
+#: src/slic3r/GUI/MainFrame.cpp:3959 src/slic3r/GUI/Plater.cpp:1745
 msgid "Attention!"
 msgstr ""
 
@@ -18216,7 +18217,7 @@ msgstr ""
 msgid "Arrange for sequential print"
 msgstr ""
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:22 src/slic3r/GUI/MainFrame.cpp:3153
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:22 src/slic3r/GUI/MainFrame.cpp:3149
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -18228,9 +18229,9 @@ msgstr ""
 msgid "Open ApiumSlicer Project/3MF/AMF with config, clear plater"
 msgstr ""
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:93 src/slic3r/GUI/MainFrame.cpp:2031
-#: src/slic3r/GUI/MainFrame.cpp:2203 src/slic3r/GUI/MainFrame.cpp:2299
-#: src/slic3r/GUI/MainFrame.cpp:2627 src/slic3r/GUI/MainFrame.cpp:2700
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:93 src/slic3r/GUI/MainFrame.cpp:2027
+#: src/slic3r/GUI/MainFrame.cpp:2199 src/slic3r/GUI/MainFrame.cpp:2295
+#: src/slic3r/GUI/MainFrame.cpp:2623 src/slic3r/GUI/MainFrame.cpp:2696
 #: src/slic3r/GUI/Plater.cpp:7839
 msgid "Save project"
 msgstr ""
@@ -18592,13 +18593,13 @@ msgstr ""
 msgid "Objects List"
 msgstr ""
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:220 src/slic3r/GUI/MainFrame.cpp:3615
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:220 src/slic3r/GUI/MainFrame.cpp:3611
 msgid "Open a G-code file"
 msgstr ""
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:222 src/slic3r/GUI/MainFrame.cpp:1639
-#: src/slic3r/GUI/MainFrame.cpp:3427 src/slic3r/GUI/MainFrame.cpp:3434
-#: src/slic3r/GUI/MainFrame.cpp:3620 src/slic3r/GUI/MainFrame.cpp:3624
+#: src/slic3r/GUI/MainFrame.cpp:3423 src/slic3r/GUI/MainFrame.cpp:3430
+#: src/slic3r/GUI/MainFrame.cpp:3616 src/slic3r/GUI/MainFrame.cpp:3620
 msgid "Reload the plater from disk"
 msgstr ""
 
@@ -18777,7 +18778,7 @@ msgid "&Details"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:330 src/slic3r/GUI/MainFrame.cpp:344
-#: src/slic3r/GUI/MainFrame.cpp:3494
+#: src/slic3r/GUI/MainFrame.cpp:3490
 msgid "Open a new ApiumSlicer instance"
 msgstr ""
 
@@ -18785,11 +18786,11 @@ msgstr ""
 msgid "G-code preview"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:333 src/slic3r/GUI/MainFrame.cpp:3371
+#: src/slic3r/GUI/MainFrame.cpp:333 src/slic3r/GUI/MainFrame.cpp:3367
 msgid "Open G-code viewer"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:344 src/slic3r/GUI/MainFrame.cpp:3638
+#: src/slic3r/GUI/MainFrame.cpp:344 src/slic3r/GUI/MainFrame.cpp:3634
 msgid "Open ApiumSlicer"
 msgstr ""
 
@@ -18818,19 +18819,19 @@ msgstr ""
 msgid "Open Settings window"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:964 src/slic3r/GUI/MainFrame.cpp:4533
+#: src/slic3r/GUI/MainFrame.cpp:964 src/slic3r/GUI/MainFrame.cpp:4529
 msgid "Settings pop out mode"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:964 src/slic3r/GUI/MainFrame.cpp:4533
+#: src/slic3r/GUI/MainFrame.cpp:964 src/slic3r/GUI/MainFrame.cpp:4529
 msgid "Regular layout with tab bar"
 msgstr ""
 
 #: src/slic3r/GUI/MainFrame.cpp:969 src/slic3r/GUI/MainFrame.cpp:1681
-#: src/slic3r/GUI/SshTabPanel.cpp:1279 src/slic3r/GUI/SshTabPanel.cpp:1292
-#: src/slic3r/GUI/SshTabPanel.cpp:1298 src/slic3r/GUI/SshTabPanel.cpp:1305
-#: src/slic3r/GUI/SshTabPanel.cpp:1333 src/slic3r/GUI/SshTabPanel.cpp:1339
-#: src/slic3r/GUI/SshTabPanel.cpp:1346 src/slic3r/GUI/TopBar.cpp:549
+#: src/slic3r/GUI/SshTabPanel.cpp:1007 src/slic3r/GUI/SshTabPanel.cpp:1020
+#: src/slic3r/GUI/SshTabPanel.cpp:1026 src/slic3r/GUI/SshTabPanel.cpp:1033
+#: src/slic3r/GUI/SshTabPanel.cpp:1061 src/slic3r/GUI/SshTabPanel.cpp:1067
+#: src/slic3r/GUI/SshTabPanel.cpp:1074 src/slic3r/GUI/TopBar.cpp:549
 msgid "SSH"
 msgstr ""
 
@@ -18838,7 +18839,7 @@ msgstr ""
 msgid "Show Log in button in application top bar"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:1627 src/slic3r/GUI/MainFrame.cpp:3429
+#: src/slic3r/GUI/MainFrame.cpp:1627 src/slic3r/GUI/MainFrame.cpp:3425
 msgid "Re&load Web Content"
 msgstr ""
 
@@ -18862,84 +18863,84 @@ msgstr ""
 msgid "Reload File Transfer"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:1638 src/slic3r/GUI/MainFrame.cpp:3426
-#: src/slic3r/GUI/MainFrame.cpp:3433 src/slic3r/GUI/MainFrame.cpp:3619
-#: src/slic3r/GUI/MainFrame.cpp:3623
+#: src/slic3r/GUI/MainFrame.cpp:1638 src/slic3r/GUI/MainFrame.cpp:3422
+#: src/slic3r/GUI/MainFrame.cpp:3429 src/slic3r/GUI/MainFrame.cpp:3615
+#: src/slic3r/GUI/MainFrame.cpp:3619
 msgid "Re&load from Disk"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2030
+#: src/slic3r/GUI/MainFrame.cpp:2026
 msgid ""
 "Another background operation is still running. Please wait until it finishes before saving the "
 "project."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2043 src/slic3r/GUI/MainFrame.cpp:2051
-#: src/slic3r/GUI/MainFrame.cpp:2052 src/slic3r/GUI/MainFrame.cpp:2057
+#: src/slic3r/GUI/MainFrame.cpp:2039 src/slic3r/GUI/MainFrame.cpp:2047
+#: src/slic3r/GUI/MainFrame.cpp:2048 src/slic3r/GUI/MainFrame.cpp:2053
 msgid "Preparing project..."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2074
+#: src/slic3r/GUI/MainFrame.cpp:2070
 msgid "Could not start the save operation."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2204 src/slic3r/GUI/MainFrame.cpp:2300
-#: src/slic3r/GUI/MainFrame.cpp:2327 src/slic3r/GUI/MainFrame.cpp:2367
-#: src/slic3r/GUI/MainFrame.cpp:2628 src/slic3r/GUI/MainFrame.cpp:2701
+#: src/slic3r/GUI/MainFrame.cpp:2200 src/slic3r/GUI/MainFrame.cpp:2296
+#: src/slic3r/GUI/MainFrame.cpp:2323 src/slic3r/GUI/MainFrame.cpp:2363
+#: src/slic3r/GUI/MainFrame.cpp:2624 src/slic3r/GUI/MainFrame.cpp:2697
 msgid "Writing project archive..."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2207 src/slic3r/GUI/MainFrame.cpp:2370
-#: src/slic3r/GUI/MainFrame.cpp:2631 src/slic3r/GUI/MainFrame.cpp:2704
+#: src/slic3r/GUI/MainFrame.cpp:2203 src/slic3r/GUI/MainFrame.cpp:2366
+#: src/slic3r/GUI/MainFrame.cpp:2627 src/slic3r/GUI/MainFrame.cpp:2700
 msgid "Updating version history..."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2212 src/slic3r/GUI/MainFrame.cpp:2336
-#: src/slic3r/GUI/MainFrame.cpp:2375 src/slic3r/GUI/MainFrame.cpp:2636
+#: src/slic3r/GUI/MainFrame.cpp:2208 src/slic3r/GUI/MainFrame.cpp:2332
+#: src/slic3r/GUI/MainFrame.cpp:2371 src/slic3r/GUI/MainFrame.cpp:2632
 msgid "Creating project version..."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2223 src/slic3r/GUI/MainFrame.cpp:2309
+#: src/slic3r/GUI/MainFrame.cpp:2219 src/slic3r/GUI/MainFrame.cpp:2305
 msgid "Failed to save project."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2257
+#: src/slic3r/GUI/MainFrame.cpp:2253
 msgid ""
 "Failed to recover project versioning. The project was not saved to avoid losing version history."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2292
+#: src/slic3r/GUI/MainFrame.cpp:2288
 msgid ""
 "The selected project file contains version history and was not overwritten. Use Save or Versioned "
 "Save to preserve project history."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2326 src/slic3r/GUI/MainFrame.cpp:2366
-#: src/slic3r/GUI/MainFrame.cpp:2455
+#: src/slic3r/GUI/MainFrame.cpp:2322 src/slic3r/GUI/MainFrame.cpp:2362
+#: src/slic3r/GUI/MainFrame.cpp:2451
 msgid "Versioned Save"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2330
+#: src/slic3r/GUI/MainFrame.cpp:2326
 msgid "Opening version history..."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2386
+#: src/slic3r/GUI/MainFrame.cpp:2382
 msgid "Internal error: Failed to create version."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2443
+#: src/slic3r/GUI/MainFrame.cpp:2439
 msgid "Failed to open project for versioning."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2454
+#: src/slic3r/GUI/MainFrame.cpp:2450
 msgid "This project is not versioned yet. Do you want to start versioning?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2477
+#: src/slic3r/GUI/MainFrame.cpp:2473
 msgid "Maximum version number reached. Cannot create new version."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2604
+#: src/slic3r/GUI/MainFrame.cpp:2600
 #, c-format, boost-format
 msgid ""
 "The current project has unsaved changes.\n"
@@ -18949,28 +18950,28 @@ msgid ""
 "Note: Saving will create a new commit on top of the current history."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2608 src/slic3r/GUI/UnsavedChangesDialog.cpp:823
+#: src/slic3r/GUI/MainFrame.cpp:2604 src/slic3r/GUI/UnsavedChangesDialog.cpp:823
 msgid "Unsaved Changes"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2646
+#: src/slic3r/GUI/MainFrame.cpp:2642
 msgid "Failed to save project before version switch."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2659
+#: src/slic3r/GUI/MainFrame.cpp:2655
 #, c-format, boost-format
 msgid "Failed to restore version %s."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2686
+#: src/slic3r/GUI/MainFrame.cpp:2682
 msgid "Failed to determine the current project file."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2714
+#: src/slic3r/GUI/MainFrame.cpp:2710
 msgid "Failed to sync current project state for versioning."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2729
+#: src/slic3r/GUI/MainFrame.cpp:2725
 msgid ""
 "This will permanently delete all existing versioning commits and tags for this project.\n"
 "\n"
@@ -18981,15 +18982,15 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2734 src/slic3r/GUI/VersionDiffDialog.cpp:350
+#: src/slic3r/GUI/MainFrame.cpp:2730 src/slic3r/GUI/VersionDiffDialog.cpp:350
 msgid "Reset Versioning"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2744
+#: src/slic3r/GUI/MainFrame.cpp:2740
 msgid "Failed to reset versioning history."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2765
+#: src/slic3r/GUI/MainFrame.cpp:2761
 msgid ""
 "This will permanently remove the embedded versioning repository from this project.\n"
 "\n"
@@ -19002,710 +19003,710 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2772 src/slic3r/GUI/VersionDiffDialog.cpp:354
+#: src/slic3r/GUI/MainFrame.cpp:2768 src/slic3r/GUI/VersionDiffDialog.cpp:354
 msgid "Delete Versioning"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:2780
+#: src/slic3r/GUI/MainFrame.cpp:2776
 msgid "Failed to delete project versioning repository."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3066 src/slic3r/GUI/MainFrame.cpp:3069
+#: src/slic3r/GUI/MainFrame.cpp:3062 src/slic3r/GUI/MainFrame.cpp:3065
 #, c-format, boost-format
 msgid "&About %s"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3066 src/slic3r/GUI/MainFrame.cpp:3069
+#: src/slic3r/GUI/MainFrame.cpp:3062 src/slic3r/GUI/MainFrame.cpp:3065
 msgid "Show about dialog"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3091
+#: src/slic3r/GUI/MainFrame.cpp:3087
 #, c-format, boost-format
 msgid "%s &Website"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3092 src/slic3r/GUI/MainFrame.cpp:3099
-#: src/slic3r/GUI/MainFrame.cpp:3103
+#: src/slic3r/GUI/MainFrame.cpp:3088 src/slic3r/GUI/MainFrame.cpp:3095
+#: src/slic3r/GUI/MainFrame.cpp:3099
 #, c-format, boost-format
 msgid "Open the %s website in your browser"
 msgstr ""
 
 #. TRN Item from "Help" menu
-#: src/slic3r/GUI/MainFrame.cpp:3098
+#: src/slic3r/GUI/MainFrame.cpp:3094
 msgid "&Quick Start"
 msgstr ""
 
 #. TRN Item from "Help" menu
-#: src/slic3r/GUI/MainFrame.cpp:3102
+#: src/slic3r/GUI/MainFrame.cpp:3098
 msgid "Sample &G-codes and Models"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3106
+#: src/slic3r/GUI/MainFrame.cpp:3102
 msgid "Prusa 3D &Drivers"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3106
+#: src/slic3r/GUI/MainFrame.cpp:3102
 msgid "Open the Prusa3D drivers download page in your browser"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3110
+#: src/slic3r/GUI/MainFrame.cpp:3106
 msgid "Software &Releases"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3110
+#: src/slic3r/GUI/MainFrame.cpp:3106
 msgid "Open the software releases page in your browser"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3122
+#: src/slic3r/GUI/MainFrame.cpp:3118
 msgid "System &Info"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3122
+#: src/slic3r/GUI/MainFrame.cpp:3118
 msgid "Show system information"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3129
+#: src/slic3r/GUI/MainFrame.cpp:3125
 msgid "Show &Configuration Folder"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3129
+#: src/slic3r/GUI/MainFrame.cpp:3125
 msgid "Show user configuration folder (datadir)"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3134
+#: src/slic3r/GUI/MainFrame.cpp:3130
 msgid "Report an I&ssue"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3134
+#: src/slic3r/GUI/MainFrame.cpp:3130
 #, c-format, boost-format
 msgid "Report an issue on %s"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3143
+#: src/slic3r/GUI/MainFrame.cpp:3139
 msgid "Show Tip of the Day"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3148
+#: src/slic3r/GUI/MainFrame.cpp:3144
 msgid ""
 "Opens Tip of the day notification in bottom right corner or shows another tip if already opened."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3153
+#: src/slic3r/GUI/MainFrame.cpp:3149
 msgid "Show the list of the keyboard shortcuts"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3173 src/slic3r/GUI/MainFrame.cpp:3183
-#: src/slic3r/GUI/MainFrame.cpp:3555 src/slic3r/GUI/MainFrame.cpp:3570
-#: src/slic3r/GUI/MainFrame.cpp:3665
+#: src/slic3r/GUI/MainFrame.cpp:3169 src/slic3r/GUI/MainFrame.cpp:3179
+#: src/slic3r/GUI/MainFrame.cpp:3551 src/slic3r/GUI/MainFrame.cpp:3566
+#: src/slic3r/GUI/MainFrame.cpp:3661
 msgid "&Help"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3190
+#: src/slic3r/GUI/MainFrame.cpp:3186
 msgid "Iso"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3190
+#: src/slic3r/GUI/MainFrame.cpp:3186
 msgid "Iso View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3194
+#: src/slic3r/GUI/MainFrame.cpp:3190
 msgid "Top View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3197
+#: src/slic3r/GUI/MainFrame.cpp:3193
 msgid "Bottom View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3199
+#: src/slic3r/GUI/MainFrame.cpp:3195
 msgid "Front View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3201
+#: src/slic3r/GUI/MainFrame.cpp:3197
 msgid "Rear View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3203
+#: src/slic3r/GUI/MainFrame.cpp:3199
 msgid "Left View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3205
+#: src/slic3r/GUI/MainFrame.cpp:3201
 msgid "Right View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3218
+#: src/slic3r/GUI/MainFrame.cpp:3214
 msgid "&New Project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3218
+#: src/slic3r/GUI/MainFrame.cpp:3214
 msgid "Start a new project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3221
+#: src/slic3r/GUI/MainFrame.cpp:3217
 msgid "&Open Project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3221
+#: src/slic3r/GUI/MainFrame.cpp:3217
 msgid "Open a project file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3227 src/slic3r/GUI/MainFrame.cpp:4399
+#: src/slic3r/GUI/MainFrame.cpp:3223 src/slic3r/GUI/MainFrame.cpp:4395
 msgid "Recent projects"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3250
+#: src/slic3r/GUI/MainFrame.cpp:3246
 msgid "&Save Project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3250
+#: src/slic3r/GUI/MainFrame.cpp:3246
 msgid "Save current project file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3254 src/slic3r/GUI/MainFrame.cpp:3256
+#: src/slic3r/GUI/MainFrame.cpp:3250 src/slic3r/GUI/MainFrame.cpp:3252
 msgid "Save Project &as"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3254 src/slic3r/GUI/MainFrame.cpp:3256
+#: src/slic3r/GUI/MainFrame.cpp:3250 src/slic3r/GUI/MainFrame.cpp:3252
 msgid "Save current project file as"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3261
+#: src/slic3r/GUI/MainFrame.cpp:3257
 msgid "Save &Version"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3267
+#: src/slic3r/GUI/MainFrame.cpp:3263
 msgid "Save a named version of the current project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3274
+#: src/slic3r/GUI/MainFrame.cpp:3270
 msgid "Import STL/OBJ/STEP/3MF/AM&F"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3274
+#: src/slic3r/GUI/MainFrame.cpp:3270
 msgid "Load a model"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3278
+#: src/slic3r/GUI/MainFrame.cpp:3274
 msgid "Import STL (Imperial Units)"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3278
+#: src/slic3r/GUI/MainFrame.cpp:3274
 msgid "Load an model saved with imperial units"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3282
+#: src/slic3r/GUI/MainFrame.cpp:3278
 msgid "Import SLA Archive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3282
+#: src/slic3r/GUI/MainFrame.cpp:3278
 msgid "Load an SLA archive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3286
+#: src/slic3r/GUI/MainFrame.cpp:3282
 msgid "Import ZIP Archive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3286
+#: src/slic3r/GUI/MainFrame.cpp:3282
 msgid "Load a ZIP archive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3291
+#: src/slic3r/GUI/MainFrame.cpp:3287
 msgid "Import Config &File"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3291
+#: src/slic3r/GUI/MainFrame.cpp:3287
 msgid "Load exported configuration file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3294
+#: src/slic3r/GUI/MainFrame.cpp:3290
 msgid "Import Config from &G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3294
+#: src/slic3r/GUI/MainFrame.cpp:3290
 msgid "Load configuration from G-code file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3297
+#: src/slic3r/GUI/MainFrame.cpp:3293
 msgid "Import Config from &Project"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3297
+#: src/slic3r/GUI/MainFrame.cpp:3293
 msgid "Load configuration from project file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3301
+#: src/slic3r/GUI/MainFrame.cpp:3297
 msgid "Import Config &Bundle"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3301
+#: src/slic3r/GUI/MainFrame.cpp:3297
 msgid "Load presets from a bundle"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3304
+#: src/slic3r/GUI/MainFrame.cpp:3300
 msgid "&Import"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3311 src/slic3r/GUI/MainFrame.cpp:3681
+#: src/slic3r/GUI/MainFrame.cpp:3307 src/slic3r/GUI/MainFrame.cpp:3677
 msgid "Export &G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3311
+#: src/slic3r/GUI/MainFrame.cpp:3307
 msgid "Export current plate as G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3315 src/slic3r/GUI/MainFrame.cpp:3683
+#: src/slic3r/GUI/MainFrame.cpp:3311 src/slic3r/GUI/MainFrame.cpp:3679
 msgid "S&end G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3315
+#: src/slic3r/GUI/MainFrame.cpp:3311
 msgid "Send to print current plate as G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3319
+#: src/slic3r/GUI/MainFrame.cpp:3315
 msgid "Export G-code to SD Card / Flash Drive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3319
+#: src/slic3r/GUI/MainFrame.cpp:3315
 msgid "Export current plate as G-code to SD card / Flash drive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3323
+#: src/slic3r/GUI/MainFrame.cpp:3319
 msgid "Export Plate as &STL/OBJ"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3323
+#: src/slic3r/GUI/MainFrame.cpp:3319
 msgid "Export current plate as STL/OBJ"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3326
+#: src/slic3r/GUI/MainFrame.cpp:3322
 msgid "Export Plate as STL/OBJ &Including Supports"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3326
+#: src/slic3r/GUI/MainFrame.cpp:3322
 msgid "Export current plate as STL/OBJ including supports"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3330 src/slic3r/GUI/MainFrame.cpp:3635
+#: src/slic3r/GUI/MainFrame.cpp:3326 src/slic3r/GUI/MainFrame.cpp:3631
 msgid "Export &Toolpaths as OBJ"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3330 src/slic3r/GUI/MainFrame.cpp:3635
+#: src/slic3r/GUI/MainFrame.cpp:3326 src/slic3r/GUI/MainFrame.cpp:3631
 msgid "Export toolpaths as OBJ"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3334
+#: src/slic3r/GUI/MainFrame.cpp:3330
 msgid "Export &Config"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3334
+#: src/slic3r/GUI/MainFrame.cpp:3330
 msgid "Export current configuration to file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3337
+#: src/slic3r/GUI/MainFrame.cpp:3333
 msgid "Export Config &Bundle"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3337
+#: src/slic3r/GUI/MainFrame.cpp:3333
 msgid "Export all presets to file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3340
+#: src/slic3r/GUI/MainFrame.cpp:3336
 msgid "Export Config Bundle With Physical Printers"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3340
+#: src/slic3r/GUI/MainFrame.cpp:3336
 msgid "Export all presets including physical printers to file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3343
+#: src/slic3r/GUI/MainFrame.cpp:3339
 msgid "&Export"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3347 src/slic3r/GUI/MainFrame.cpp:3628
+#: src/slic3r/GUI/MainFrame.cpp:3343 src/slic3r/GUI/MainFrame.cpp:3624
 msgid "Convert ASCII G-code to &binary"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3347 src/slic3r/GUI/MainFrame.cpp:3628
+#: src/slic3r/GUI/MainFrame.cpp:3343 src/slic3r/GUI/MainFrame.cpp:3624
 msgid "Convert a G-code file from ASCII to binary format"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3350 src/slic3r/GUI/MainFrame.cpp:3631
+#: src/slic3r/GUI/MainFrame.cpp:3346 src/slic3r/GUI/MainFrame.cpp:3627
 msgid "Convert binary G-code to &ASCII"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3350 src/slic3r/GUI/MainFrame.cpp:3631
+#: src/slic3r/GUI/MainFrame.cpp:3346 src/slic3r/GUI/MainFrame.cpp:3627
 msgid "Convert a G-code file from binary to ASCII format"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3353
+#: src/slic3r/GUI/MainFrame.cpp:3349
 msgid "&Convert"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3355
+#: src/slic3r/GUI/MainFrame.cpp:3351
 msgid "Ejec&t SD Card / Flash Drive"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3355
+#: src/slic3r/GUI/MainFrame.cpp:3351
 msgid "Eject SD card / Flash drive after the G-code was exported to it."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3361
+#: src/slic3r/GUI/MainFrame.cpp:3357
 msgid "(Re)Slice No&w"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3361
+#: src/slic3r/GUI/MainFrame.cpp:3357
 msgid "Start new slicing process"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3365
+#: src/slic3r/GUI/MainFrame.cpp:3361
 msgid "&Repair STL file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3365
+#: src/slic3r/GUI/MainFrame.cpp:3361
 msgid "Automatically repair an STL file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3371
+#: src/slic3r/GUI/MainFrame.cpp:3367
 msgid "&G-code Preview"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3376
+#: src/slic3r/GUI/MainFrame.cpp:3372
 msgid "E&xit"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3376 src/slic3r/GUI/UpdateDialogs.cpp:419
+#: src/slic3r/GUI/MainFrame.cpp:3372 src/slic3r/GUI/UpdateDialogs.cpp:419
 #: src/slic3r/GUI/UpdateDialogs.cpp:466
 #, c-format, boost-format
 msgid "Exit %s"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3378 src/slic3r/GUI/MainFrame.cpp:3642
+#: src/slic3r/GUI/MainFrame.cpp:3374 src/slic3r/GUI/MainFrame.cpp:3638
 msgid "&Quit"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3378 src/slic3r/GUI/MainFrame.cpp:3642
+#: src/slic3r/GUI/MainFrame.cpp:3374 src/slic3r/GUI/MainFrame.cpp:3638
 #, c-format, boost-format
 msgid "Quit %s"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3394
+#: src/slic3r/GUI/MainFrame.cpp:3390
 msgid "&Select All"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3395
+#: src/slic3r/GUI/MainFrame.cpp:3391
 msgid "Selects all objects"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3397
+#: src/slic3r/GUI/MainFrame.cpp:3393
 msgid "D&eselect All"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3398
+#: src/slic3r/GUI/MainFrame.cpp:3394
 msgid "Deselects all objects"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3401
+#: src/slic3r/GUI/MainFrame.cpp:3397
 msgid "&Delete Selected"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3402
+#: src/slic3r/GUI/MainFrame.cpp:3398
 msgid "Deletes the current selection"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3404
+#: src/slic3r/GUI/MainFrame.cpp:3400
 msgid "Delete &All"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3405
+#: src/slic3r/GUI/MainFrame.cpp:3401
 msgid "Deletes all objects"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3409
+#: src/slic3r/GUI/MainFrame.cpp:3405
 msgid "&Undo"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3412
+#: src/slic3r/GUI/MainFrame.cpp:3408
 msgid "&Redo"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3417
+#: src/slic3r/GUI/MainFrame.cpp:3413
 msgid "&Copy"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3418
+#: src/slic3r/GUI/MainFrame.cpp:3414
 msgid "Copy selection to clipboard"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3420
+#: src/slic3r/GUI/MainFrame.cpp:3416
 msgid "&Paste"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3421
+#: src/slic3r/GUI/MainFrame.cpp:3417
 msgid "Paste clipboard"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3430
+#: src/slic3r/GUI/MainFrame.cpp:3426
 msgid "Reload Web Content"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3439
+#: src/slic3r/GUI/MainFrame.cpp:3435
 msgid "Searc&h"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3450
+#: src/slic3r/GUI/MainFrame.cpp:3446
 msgid "&Plater Tab"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3450
+#: src/slic3r/GUI/MainFrame.cpp:3446
 msgid "Show the plater"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3455
+#: src/slic3r/GUI/MainFrame.cpp:3451
 msgid "P&rint Settings Tab"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3455
+#: src/slic3r/GUI/MainFrame.cpp:3451
 msgid "Show the print settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3458
+#: src/slic3r/GUI/MainFrame.cpp:3454
 msgid "Show the filament settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3462
+#: src/slic3r/GUI/MainFrame.cpp:3458
 msgid "Print&er Settings Tab"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3462
+#: src/slic3r/GUI/MainFrame.cpp:3458
 msgid "Show the printer settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3468
+#: src/slic3r/GUI/MainFrame.cpp:3464
 msgid "3&D"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3468
+#: src/slic3r/GUI/MainFrame.cpp:3464
 msgid "Show the 3D editing view"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3471
+#: src/slic3r/GUI/MainFrame.cpp:3467
 msgid "Pre&view"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3471
+#: src/slic3r/GUI/MainFrame.cpp:3467
 msgid "Show the 3D slices preview"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3477
+#: src/slic3r/GUI/MainFrame.cpp:3473
 msgid "Open the dialog to modify shape gallery"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3489
+#: src/slic3r/GUI/MainFrame.cpp:3485
 msgid "Print &Host Upload Queue"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3489
+#: src/slic3r/GUI/MainFrame.cpp:3485
 msgid "Display the Print Host Upload Queue window"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3494
+#: src/slic3r/GUI/MainFrame.cpp:3490
 msgid "Open New Instance"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3498
+#: src/slic3r/GUI/MainFrame.cpp:3494
 msgid "Compare presets"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3516
+#: src/slic3r/GUI/MainFrame.cpp:3512
 msgid "Show &Labels"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3516
+#: src/slic3r/GUI/MainFrame.cpp:3512
 msgid "Show object/instance labels in 3D scene"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3519 src/slic3r/GUI/MainFrame.cpp:3652
+#: src/slic3r/GUI/MainFrame.cpp:3515 src/slic3r/GUI/MainFrame.cpp:3648
 msgid "Show Legen&d"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3519
+#: src/slic3r/GUI/MainFrame.cpp:3515
 msgid "Show legend in preview"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3522
+#: src/slic3r/GUI/MainFrame.cpp:3518
 msgid "&Collapse Sidebar"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3522 src/slic3r/GUI/Plater.cpp:1457
+#: src/slic3r/GUI/MainFrame.cpp:3518 src/slic3r/GUI/Plater.cpp:1457
 msgid "Collapse sidebar"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3527
+#: src/slic3r/GUI/MainFrame.cpp:3523
 msgid "&Fullscreen"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3527
+#: src/slic3r/GUI/MainFrame.cpp:3523
 msgid "Fullscreen"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3541 src/slic3r/GUI/MainFrame.cpp:3564
-#: src/slic3r/GUI/MainFrame.cpp:3661
+#: src/slic3r/GUI/MainFrame.cpp:3537 src/slic3r/GUI/MainFrame.cpp:3560
+#: src/slic3r/GUI/MainFrame.cpp:3657
 msgid "&File"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3543 src/slic3r/GUI/MainFrame.cpp:3565
+#: src/slic3r/GUI/MainFrame.cpp:3539 src/slic3r/GUI/MainFrame.cpp:3561
 msgid "&Edit"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3547 src/slic3r/GUI/MainFrame.cpp:3566
+#: src/slic3r/GUI/MainFrame.cpp:3543 src/slic3r/GUI/MainFrame.cpp:3562
 msgid "&Window"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3549 src/slic3r/GUI/MainFrame.cpp:3567
-#: src/slic3r/GUI/MainFrame.cpp:3662
+#: src/slic3r/GUI/MainFrame.cpp:3545 src/slic3r/GUI/MainFrame.cpp:3563
+#: src/slic3r/GUI/MainFrame.cpp:3658
 msgid "&View"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3551 src/slic3r/GUI/MainFrame.cpp:3569
-#: src/slic3r/GUI/MainFrame.cpp:3664
+#: src/slic3r/GUI/MainFrame.cpp:3547 src/slic3r/GUI/MainFrame.cpp:3565
+#: src/slic3r/GUI/MainFrame.cpp:3660
 msgid "&Configuration"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3615
+#: src/slic3r/GUI/MainFrame.cpp:3611
 msgid "&Open G-code"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3638
+#: src/slic3r/GUI/MainFrame.cpp:3634
 msgid "Open &ApiumSlicer"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3652
+#: src/slic3r/GUI/MainFrame.cpp:3648
 msgid "Show legend"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3681
+#: src/slic3r/GUI/MainFrame.cpp:3677
 msgid "E&xport"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3683
+#: src/slic3r/GUI/MainFrame.cpp:3679
 msgid "S&end to print"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3705
+#: src/slic3r/GUI/MainFrame.cpp:3701
 msgid "Select the STL file to repair:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3715
+#: src/slic3r/GUI/MainFrame.cpp:3711
 msgid "Save OBJ file (less prone to coordinate errors than STL) as:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3726
+#: src/slic3r/GUI/MainFrame.cpp:3722
 msgid "Your file was repaired."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3726
+#: src/slic3r/GUI/MainFrame.cpp:3722
 msgid "Repair"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3740
+#: src/slic3r/GUI/MainFrame.cpp:3736
 msgid "Save configuration as:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3757 src/slic3r/GUI/MainFrame.cpp:3787
-#: src/slic3r/GUI/MainFrame.cpp:3939
+#: src/slic3r/GUI/MainFrame.cpp:3753 src/slic3r/GUI/MainFrame.cpp:3783
+#: src/slic3r/GUI/MainFrame.cpp:3935
 msgid "Loading of a configuration file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3759
+#: src/slic3r/GUI/MainFrame.cpp:3755
 msgid "Select configuration file to load:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3769 src/slic3r/GUI/MainFrame.cpp:3957
+#: src/slic3r/GUI/MainFrame.cpp:3765 src/slic3r/GUI/MainFrame.cpp:3953
 msgid ""
 "The selected config file contains a post-processing script.\n"
 "Please review the script carefully before exporting G-code."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3790
+#: src/slic3r/GUI/MainFrame.cpp:3786
 msgid "Select G-code file to load settings from:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3808 src/slic3r/GUI/Plater.cpp:6283
+#: src/slic3r/GUI/MainFrame.cpp:3804 src/slic3r/GUI/Plater.cpp:6283
 msgid "Import G-code settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3815
+#: src/slic3r/GUI/MainFrame.cpp:3811
 msgid "Select the settings to import from the G-code file"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3824
+#: src/slic3r/GUI/MainFrame.cpp:3820
 msgid "All settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:3826
+#: src/slic3r/GUI/MainFrame.cpp:3822
 msgid "Material settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4004
+#: src/slic3r/GUI/MainFrame.cpp:4000
 msgid "Exporting configuration bundle"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4005
+#: src/slic3r/GUI/MainFrame.cpp:4001
 msgid ""
 "Some presets are modified and the unsaved changes will not be exported into configuration bundle."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4014
+#: src/slic3r/GUI/MainFrame.cpp:4010
 msgid "Save presets bundle as:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4033
+#: src/slic3r/GUI/MainFrame.cpp:4029
 msgid ""
 "Some of the exported printers contain passwords, which are stored in the system password store. "
 "Do you want to include the passwords in the plain text form in the exported file?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4045 src/slic3r/GUI/PhysicalPrinterDialog.cpp:221
+#: src/slic3r/GUI/MainFrame.cpp:4041 src/slic3r/GUI/PhysicalPrinterDialog.cpp:221
 #: src/slic3r/GUI/Plater.cpp:8152 src/slic3r/GUI/UserAccountCommunication.cpp:129
 msgid "Failed to load credentials from the system password store."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4056
+#: src/slic3r/GUI/MainFrame.cpp:4052
 #, boost-format
 msgid "Failed to load credentials from the system password store for printer %1%."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4086
+#: src/slic3r/GUI/MainFrame.cpp:4082
 msgid "Loading of a configuration bundle"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4089
+#: src/slic3r/GUI/MainFrame.cpp:4085
 msgid "Select configuration to load:"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4127
+#: src/slic3r/GUI/MainFrame.cpp:4123
 #, c-format, boost-format
 msgid "%d presets successfully imported."
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4373
+#: src/slic3r/GUI/MainFrame.cpp:4369
 msgid "Remove unavailable projects"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4398
+#: src/slic3r/GUI/MainFrame.cpp:4394
 msgid "Remove all unavailable projects from the recent projects list?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4448
+#: src/slic3r/GUI/MainFrame.cpp:4444
 msgid ""
 "The selected project is no longer available.\n"
 "Do you want to remove it from the recent projects list?"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4540 src/slic3r/GUI/MainFrame.cpp:4541
+#: src/slic3r/GUI/MainFrame.cpp:4536 src/slic3r/GUI/MainFrame.cpp:4537
 msgid "Material Settings"
 msgstr ""
 
-#: src/slic3r/GUI/MainFrame.cpp:4540 src/slic3r/GUI/MainFrame.cpp:4541
+#: src/slic3r/GUI/MainFrame.cpp:4536 src/slic3r/GUI/MainFrame.cpp:4537
 msgid "Filament Settings"
 msgstr ""
 
@@ -22537,7 +22538,7 @@ msgstr ""
 msgid "Stage"
 msgstr ""
 
-#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:239
+#: src/slic3r/GUI/SlicingPerformanceDialog.cpp:239 src/slic3r/GUI/SshTerminalCtrl.cpp:65
 msgid "Previous"
 msgstr ""
 
@@ -22606,234 +22607,310 @@ msgstr ""
 msgid "Reset saved credentials..."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:418
+#: src/slic3r/GUI/SshTabPanel.cpp:400
 msgid "Open webinterface of selected printer"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:419
+#: src/slic3r/GUI/SshTabPanel.cpp:401
 msgid "Open File Transfer of selected printer"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:435
+#: src/slic3r/GUI/SshTabPanel.cpp:417
 msgid "Decrease terminal font size"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:436
+#: src/slic3r/GUI/SshTabPanel.cpp:418
 msgid "Increase terminal font size"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:437
+#: src/slic3r/GUI/SshTabPanel.cpp:419
 msgid "Show Shell Shortcut Info"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:438
+#: src/slic3r/GUI/SshTabPanel.cpp:420
 msgid "Restart"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:456
+#: src/slic3r/GUI/SshTabPanel.cpp:438
 msgid "No SSH profile configured yet."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:457
+#: src/slic3r/GUI/SshTabPanel.cpp:439
 msgid "Add profile"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1281
+#: src/slic3r/GUI/SshTabPanel.cpp:758
+msgid "SSH connection error: "
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:760
+msgid "SSH session closed. Restart to reconnect."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:762
+msgid "Connecting to SSH server..."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1009
 #, boost-format
 msgid "SSH (%1%)"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1292 src/slic3r/GUI/SshTabPanel.cpp:1333
+#: src/slic3r/GUI/SshTabPanel.cpp:1020 src/slic3r/GUI/SshTabPanel.cpp:1061
 msgid "Profile name cannot be empty."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1298 src/slic3r/GUI/SshTabPanel.cpp:1339
+#: src/slic3r/GUI/SshTabPanel.cpp:1026 src/slic3r/GUI/SshTabPanel.cpp:1067
 msgid "A profile with this name already exists."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1432
+#: src/slic3r/GUI/SshTabPanel.cpp:1157
 msgid ""
 "Selected printer has no persistent ID yet. Please edit and save the printer once, then try again."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1443
+#: src/slic3r/GUI/SshTabPanel.cpp:1168
 msgid "Could not open File Transfer for the selected printer."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1540
+#: src/slic3r/GUI/SshTabPanel.cpp:1265
 msgid "Shell Shortcut Info"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1555
+#: src/slic3r/GUI/SshTabPanel.cpp:1280
 msgid "Shortcut"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1559
+#: src/slic3r/GUI/SshTabPanel.cpp:1284
+msgid "Ctrl + Shift + C / V"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1284
+msgid "Copies selected terminal text or pastes clipboard text."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1285
+msgid "Ctrl + Shift + F"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1285
+msgid "Searches terminal output and scrollback."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1286
+msgid "Shift + Page Up / Page Down"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1286
+msgid "Scrolls local terminal history by one page."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1287
+msgid "Shift + Home / End"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1287
+msgid "Moves to the start of terminal history or returns to live output."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1288
+msgid "Shift + Mouse"
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1288
+msgid "Selects text or scrolls locally even when the remote application uses the mouse."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1289
 msgid "Ctrl + C"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1559
+#: src/slic3r/GUI/SshTabPanel.cpp:1289
 msgid "Kills the currently running process (sends SIGINT)."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1560
+#: src/slic3r/GUI/SshTabPanel.cpp:1290
 msgid "Ctrl + Z"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1560
+#: src/slic3r/GUI/SshTabPanel.cpp:1290
 msgid "Pauses the current process and moves it to the background (sends SIGTSTP)."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1561
+#: src/slic3r/GUI/SshTabPanel.cpp:1291
 msgid "Ctrl + D"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1561
+#: src/slic3r/GUI/SshTabPanel.cpp:1291
 msgid "Closes the current shell or SSH session if the command line is empty."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1562
+#: src/slic3r/GUI/SshTabPanel.cpp:1292
 msgid "Ctrl + L"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1562
+#: src/slic3r/GUI/SshTabPanel.cpp:1292
 msgid "Clears the terminal screen completely while keeping the current input line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1563
+#: src/slic3r/GUI/SshTabPanel.cpp:1293
 msgid "Ctrl + S"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1563
+#: src/slic3r/GUI/SshTabPanel.cpp:1293
 msgid "Pauses terminal output (useful when output scrolls too fast)."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1564
+#: src/slic3r/GUI/SshTabPanel.cpp:1294
 msgid "Ctrl + Q"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1564
+#: src/slic3r/GUI/SshTabPanel.cpp:1294
 msgid "Resumes terminal output after Ctrl + S."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1565
+#: src/slic3r/GUI/SshTabPanel.cpp:1295
 msgid "Ctrl + A"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1565
+#: src/slic3r/GUI/SshTabPanel.cpp:1295
 msgid "Moves the cursor to the beginning of the current line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1566
+#: src/slic3r/GUI/SshTabPanel.cpp:1296
 msgid "Ctrl + E"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1566
+#: src/slic3r/GUI/SshTabPanel.cpp:1296
 msgid "Moves the cursor to the end of the current line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1567
+#: src/slic3r/GUI/SshTabPanel.cpp:1297
 msgid "Alt + F"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1567
+#: src/slic3r/GUI/SshTabPanel.cpp:1297
 msgid "Moves the cursor forward by one word."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1568
+#: src/slic3r/GUI/SshTabPanel.cpp:1298
 msgid "Alt + B"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1568
+#: src/slic3r/GUI/SshTabPanel.cpp:1298
 msgid "Moves the cursor backward by one word."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1569
+#: src/slic3r/GUI/SshTabPanel.cpp:1299
 msgid "Ctrl + X, Ctrl + X"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1569
+#: src/slic3r/GUI/SshTabPanel.cpp:1299
 msgid "Jumps between current cursor position and beginning of line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1570
+#: src/slic3r/GUI/SshTabPanel.cpp:1300
 msgid "Ctrl + U"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1570
+#: src/slic3r/GUI/SshTabPanel.cpp:1300
 msgid "Cuts text from cursor to the beginning of the line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1571
+#: src/slic3r/GUI/SshTabPanel.cpp:1301
 msgid "Ctrl + K"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1571
+#: src/slic3r/GUI/SshTabPanel.cpp:1301
 msgid "Cuts text from cursor to the end of the line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1572
+#: src/slic3r/GUI/SshTabPanel.cpp:1302
 msgid "Ctrl + W"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1572
+#: src/slic3r/GUI/SshTabPanel.cpp:1302
 msgid "Cuts the word directly behind the cursor."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1573
+#: src/slic3r/GUI/SshTabPanel.cpp:1303
 msgid "Alt + D"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1573
+#: src/slic3r/GUI/SshTabPanel.cpp:1303
 msgid "Cuts the word directly in front of the cursor."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1574
+#: src/slic3r/GUI/SshTabPanel.cpp:1304
 msgid "Ctrl + Y"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1574
+#: src/slic3r/GUI/SshTabPanel.cpp:1304
 msgid "Pastes the most recently cut text at the cursor."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1575
+#: src/slic3r/GUI/SshTabPanel.cpp:1305
 msgid "Ctrl + _"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1575
+#: src/slic3r/GUI/SshTabPanel.cpp:1305
 msgid "Undoes the last editing action on the current line."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1576
+#: src/slic3r/GUI/SshTabPanel.cpp:1306
 msgid "Ctrl + R"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1576
+#: src/slic3r/GUI/SshTabPanel.cpp:1306
 msgid "Opens interactive reverse history search."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1577
+#: src/slic3r/GUI/SshTabPanel.cpp:1307
 msgid "Ctrl + P"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1577
+#: src/slic3r/GUI/SshTabPanel.cpp:1307
 msgid "Fetches the previous command from history."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1578
+#: src/slic3r/GUI/SshTabPanel.cpp:1308
 msgid "Ctrl + N"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1578
+#: src/slic3r/GUI/SshTabPanel.cpp:1308
 msgid "Fetches the next command from history."
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1579
+#: src/slic3r/GUI/SshTabPanel.cpp:1309
 msgid "Ctrl + Shift + P"
 msgstr ""
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1579
+#: src/slic3r/GUI/SshTabPanel.cpp:1309
 msgid "Enters the stored administrator password for the selected printer and presses Enter."
+msgstr ""
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1398
+msgid "Terminal input was not sent. Check the SSH connection."
+msgstr ""
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:63
+msgid "Match case"
+msgstr ""
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:66 src/slic3r/GUI/UpdateDialogs.cpp:142
+msgid "Next"
+msgstr ""
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:476
+msgid "Terminal input queue is full. Input was not sent."
+msgstr ""
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:476
+msgid "SSH session is not connected."
+msgstr ""
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:685
+msgid "No matches"
 msgstr ""
 
 #: src/slic3r/GUI/SurfaceDrag.cpp:350
@@ -24238,10 +24315,6 @@ msgstr ""
 msgid ""
 "Clicking 'Next' will open a browser window where you can select which variant of ApiumSlicer you "
 "want to download."
-msgstr ""
-
-#: src/slic3r/GUI/UpdateDialogs.cpp:142
-msgid "Next"
 msgstr ""
 
 #: src/slic3r/GUI/UpdateDialogs.cpp:160

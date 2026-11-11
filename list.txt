@@ -626,6 +626,7 @@ src/libvgcode/include/Types.hpp
 src/libvgcode/include/Viewer.hpp
 src/libvgcode/src/Bitset.cpp
 src/libvgcode/src/Bitset.hpp
+src/libvgcode/src/ClassicClippingShader.hpp
 src/libvgcode/src/CogMarker.cpp
 src/libvgcode/src/CogMarker.hpp
 src/libvgcode/src/ColorPrint.cpp
