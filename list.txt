@@ -1021,6 +1021,10 @@ src/slic3r/GUI/SysInfoDialog.cpp
 src/slic3r/GUI/SysInfoDialog.hpp
 src/slic3r/GUI/Tab.cpp
 src/slic3r/GUI/Tab.hpp
+src/slic3r/GUI/TerminalModel.cpp
+src/slic3r/GUI/TerminalModel.hpp
+src/slic3r/GUI/TerminalTransport.cpp
+src/slic3r/GUI/TerminalTransport.hpp
 src/slic3r/GUI/TextLines.cpp
 src/slic3r/GUI/TextLines.hpp
 src/slic3r/GUI/TickCodesManager.cpp
@@ -1049,6 +1053,11 @@ src/slic3r/GUI/VersionInfoDialog.cpp
 src/slic3r/GUI/VersionInfoDialog.hpp
 src/slic3r/GUI/VersionedSaveDialog.cpp
 src/slic3r/GUI/VersionedSaveDialog.hpp
+src/slic3r/GUI/WebDownload.cpp
+src/slic3r/GUI/WebDownload.hpp
+src/slic3r/GUI/WebDownloadLinux.cpp
+src/slic3r/GUI/WebDownloadPolicy.hpp
+src/slic3r/GUI/WebDownloadScript.hpp
 src/slic3r/GUI/WebInterfaceHardwareIdentity.cpp
 src/slic3r/GUI/WebInterfaceHardwareIdentity.hpp
 src/slic3r/GUI/WebInterfaceIni.cpp
