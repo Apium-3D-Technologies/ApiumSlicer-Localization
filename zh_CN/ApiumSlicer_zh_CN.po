@@ -12578,7 +12578,7 @@ msgstr "开启"
 msgid "Name"
 msgstr "名称"
 
-#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1286
+#: src/slic3r/GUI/ExclusionZonesDialog.cpp:375 src/slic3r/GUI/SshTabPanel.cpp:1297
 #: src/slic3r/GUI/UpdatesUIManager.cpp:153 src/slic3r/GUI/UpdatesUIManager.cpp:208
 msgid "Description"
 msgstr "Description"
@@ -12831,65 +12831,65 @@ msgstr "预览存档"
 msgid "Open"
 msgstr "打开"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:863
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:891
 msgid "The admin password was rejected by sudo."
 msgstr "sudo 拒绝了管理员密码。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:868
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:896
 msgid "The SSH user is not allowed to run this operation with sudo: "
 msgstr "SSH 用户不允许使用 sudo 执行此操作："
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:969
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1165
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:997
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1193
 msgid "Permission denied while reading the remote directory."
 msgstr "没有读取远程目录的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1052
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1080
 msgid "Permission denied while opening the remote directory."
 msgstr "没有打开远程目录的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1231
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1252
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1313
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1259
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1280
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1341
 msgid "Permission denied while inspecting the remote path."
 msgstr "没有检查远程路径的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1331
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1359
 msgid "Failed to inspect the remote path."
 msgstr "无法检查远程路径。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1628
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1656
 msgid "Permission denied while moving the remote path."
 msgstr "没有移动远程路径的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1678
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1706
 msgid "Permission denied while deleting the remote path."
 msgstr "没有删除远程路径的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1893
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:1947
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1921
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:1975
 msgid "Permission denied while creating the remote directory."
 msgstr "没有创建远程目录的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2047
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2144
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2075
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2172
 msgid "Permission denied while opening the remote source file."
 msgstr "没有打开远程源文件的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2211
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2239
 msgid "Permission denied while reading the remote source file."
 msgstr "没有读取远程源文件的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2336
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2414
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2364
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2442
 msgid "Permission denied while opening the remote target file."
 msgstr "没有打开远程目标文件的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2473
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2501
 msgid "Permission denied while writing the remote target file."
 msgstr "没有写入远程目标文件的权限。"
 
-#: src/slic3r/GUI/FileTransferSessionManager.cpp:2578
+#: src/slic3r/GUI/FileTransferSessionManager.cpp:2606
 msgid "Permission denied while copying the remote file."
 msgstr "没有复制远程文件的权限。"
 
@@ -12998,7 +12998,7 @@ msgstr "源设备已不可用。"
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
 #: src/slic3r/GUI/FileTransferTabPanel.cpp:3868 src/slic3r/GUI/FileTransferTabPanel.cpp:4665
 #: src/slic3r/GUI/MainFrame.cpp:970 src/slic3r/GUI/MainFrame.cpp:1708
-#: src/slic3r/GUI/SshTabPanel.cpp:1163 src/slic3r/GUI/SshTabPanel.cpp:1174
+#: src/slic3r/GUI/SshTabPanel.cpp:1174 src/slic3r/GUI/SshTabPanel.cpp:1185
 #: src/slic3r/GUI/TopBar.cpp:554
 msgid "File Transfer"
 msgstr "文件传输"
@@ -13181,15 +13181,15 @@ msgstr "应用于所有剩余冲突"
 msgid "Skip"
 msgstr "跳过"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1390
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "SSH host key changed"
 msgstr "SSH 主机密钥已更改"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1390
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "Trust SSH host key"
 msgstr "信任 SSH 主机密钥"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1392
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1414
 #, boost-format
 msgid ""
 "The SSH host key for \"%1%\" changed to:\n"
@@ -13202,7 +13202,7 @@ msgstr ""
 "\n"
 "是否继续？"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1393
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1415
 #, boost-format
 msgid ""
 "Trust SSH host key for \"%1%\":\n"
@@ -19522,10 +19522,10 @@ msgid "Regular layout with tab bar"
 msgstr "带标签栏的常规布局"
 
 #: src/slic3r/GUI/MainFrame.cpp:969 src/slic3r/GUI/MainFrame.cpp:1681
-#: src/slic3r/GUI/SshTabPanel.cpp:1007 src/slic3r/GUI/SshTabPanel.cpp:1020
-#: src/slic3r/GUI/SshTabPanel.cpp:1026 src/slic3r/GUI/SshTabPanel.cpp:1033
-#: src/slic3r/GUI/SshTabPanel.cpp:1066 src/slic3r/GUI/SshTabPanel.cpp:1072
-#: src/slic3r/GUI/SshTabPanel.cpp:1079 src/slic3r/GUI/TopBar.cpp:549
+#: src/slic3r/GUI/SshTabPanel.cpp:1018 src/slic3r/GUI/SshTabPanel.cpp:1031
+#: src/slic3r/GUI/SshTabPanel.cpp:1037 src/slic3r/GUI/SshTabPanel.cpp:1044
+#: src/slic3r/GUI/SshTabPanel.cpp:1077 src/slic3r/GUI/SshTabPanel.cpp:1083
+#: src/slic3r/GUI/SshTabPanel.cpp:1090 src/slic3r/GUI/TopBar.cpp:549
 msgid "SSH"
 msgstr "SSH"
 
@@ -23442,289 +23442,327 @@ msgstr "启用后，将使用 SSH 代理或默认 SSH 密钥文件，并忽略�
 msgid "Reset saved credentials..."
 msgstr "重置已保存的凭据..."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:400
+#: src/slic3r/GUI/SshTabPanel.cpp:402
 msgid "Open webinterface of selected printer"
 msgstr "打开所选打印机的网页界面"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:401
+#: src/slic3r/GUI/SshTabPanel.cpp:403
 msgid "Open File Transfer of selected printer"
 msgstr "打开所选打印机的文件传输"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:417
+#: src/slic3r/GUI/SshTabPanel.cpp:419
 msgid "Decrease terminal font size"
 msgstr "Decrease terminal font size"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:418
+#: src/slic3r/GUI/SshTabPanel.cpp:420
 msgid "Increase terminal font size"
 msgstr "Increase terminal font size"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:419
+#: src/slic3r/GUI/SshTabPanel.cpp:421
 msgid "Show Shell Shortcut Info"
 msgstr "Show Shell Shortcut Info"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:420
+#: src/slic3r/GUI/SshTabPanel.cpp:422
 msgid "Restart"
 msgstr "重新启动"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:438
+#: src/slic3r/GUI/SshTabPanel.cpp:440
 msgid "No SSH profile configured yet."
 msgstr "尚未配置 SSH 配置。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:439
+#: src/slic3r/GUI/SshTabPanel.cpp:441
 msgid "Add profile"
 msgstr "添加配置"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:758
+#: src/slic3r/GUI/SshTabPanel.cpp:769
 msgid "SSH connection error: "
 msgstr "SSH 连接错误："
 
-#: src/slic3r/GUI/SshTabPanel.cpp:760
+#: src/slic3r/GUI/SshTabPanel.cpp:771
 msgid "SSH session closed. Restart to reconnect."
 msgstr "SSH 会话已关闭。请重新启动以重新连接。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:762
+#: src/slic3r/GUI/SshTabPanel.cpp:773
 msgid "Connecting to SSH server..."
 msgstr "正在连接 SSH 服务器..."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1009
+#: src/slic3r/GUI/SshTabPanel.cpp:1020
 #, boost-format
 msgid "SSH (%1%)"
 msgstr "SSH（%1%）"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1020 src/slic3r/GUI/SshTabPanel.cpp:1066
+#: src/slic3r/GUI/SshTabPanel.cpp:1031 src/slic3r/GUI/SshTabPanel.cpp:1077
 msgid "Profile name cannot be empty."
 msgstr "配置名称不能为空。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1026 src/slic3r/GUI/SshTabPanel.cpp:1072
+#: src/slic3r/GUI/SshTabPanel.cpp:1037 src/slic3r/GUI/SshTabPanel.cpp:1083
 msgid "A profile with this name already exists."
 msgstr "已存在同名配置。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1162
+#: src/slic3r/GUI/SshTabPanel.cpp:1173
 msgid ""
 "Selected printer has no persistent ID yet. Please edit and save the printer once, then try again."
 msgstr "所选打印机尚无永久 ID。请先编辑并保存一次打印机，然后重试。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1173
+#: src/slic3r/GUI/SshTabPanel.cpp:1184
 msgid "Could not open File Transfer for the selected printer."
 msgstr "无法为所选打印机打开文件传输。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1270
+#: src/slic3r/GUI/SshTabPanel.cpp:1281
 msgid "Shell Shortcut Info"
 msgstr "Shell Shortcut Info"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1285
+#: src/slic3r/GUI/SshTabPanel.cpp:1296
 msgid "Shortcut"
 msgstr "Shortcut"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1289
+#: src/slic3r/GUI/SshTabPanel.cpp:1300
+msgid "Shift + Enter"
+msgstr "Shift + Enter"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1300
+msgid "Runs the current Bash command, displays stdout and copies it to the local system clipboard."
+msgstr "运行当前 Bash 命令，显示标准输出并将其复制到本机系统剪贴板。"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1301
+msgid "Ctrl + Shift + Enter"
+msgstr "Ctrl + Shift + Enter"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1301
+msgid ""
+"Runs the current Bash command and copies stdout without displaying it. Stderr stays in the "
+"terminal."
+msgstr "运行当前 Bash 命令并复制标准输出，但不显示该输出。标准错误仍显示在终端中。"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1302
+msgid "Command capture"
+msgstr "命令输出捕获"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1302
+msgid ""
+"Empty output, terminal applications (vim, nano, less, etc.), binary output and screen controls "
+"leave the clipboard unchanged."
+msgstr "空输出、终端应用程序（vim、nano、less 等）、二进制输出和屏幕控制序列不会更改剪贴板。"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1303
+msgid "Capture limits"
+msgstr "捕获限制"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1303
+msgid ""
+"Requires Bash. Copies up to 1 MiB of UTF-8 text after completion; runs in a subshell and does not "
+"change the parent shell."
+msgstr "需要 Bash。完成后最多复制 1 MiB 的 UTF-8 文本；命令在子 Shell 中运行，不会更改父 Shell。"
+
+#: src/slic3r/GUI/SshTabPanel.cpp:1304
 msgid "Ctrl + Shift + C / V"
 msgstr "Ctrl + Shift + C / V"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1289
+#: src/slic3r/GUI/SshTabPanel.cpp:1304
 msgid "Copies selected terminal text or pastes clipboard text."
 msgstr "复制所选终端文本或粘贴剪贴板文本。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1290
+#: src/slic3r/GUI/SshTabPanel.cpp:1305
 msgid "Ctrl + Shift + F"
 msgstr "Ctrl + Shift + F"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1290
+#: src/slic3r/GUI/SshTabPanel.cpp:1305
 msgid "Searches terminal output and scrollback."
 msgstr "搜索终端输出和回滚历史记录。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1291
+#: src/slic3r/GUI/SshTabPanel.cpp:1306
 msgid "Shift + Page Up / Page Down"
 msgstr "Shift + Page Up / Page Down"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1291
+#: src/slic3r/GUI/SshTabPanel.cpp:1306
 msgid "Scrolls local terminal history by one page."
 msgstr "将本地终端历史记录滚动一页。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1292
+#: src/slic3r/GUI/SshTabPanel.cpp:1307
 msgid "Shift + Home / End"
 msgstr "Shift + Home / End"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1292
+#: src/slic3r/GUI/SshTabPanel.cpp:1307
 msgid "Moves to the start of terminal history or returns to live output."
 msgstr "跳转到终端历史记录开头或返回实时输出。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1293
+#: src/slic3r/GUI/SshTabPanel.cpp:1308
 msgid "Shift + Mouse"
 msgstr "Shift + 鼠标"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1293
+#: src/slic3r/GUI/SshTabPanel.cpp:1308
 msgid "Selects text or scrolls locally even when the remote application uses the mouse."
 msgstr "即使远程应用程序启用了鼠标，也可在本地选择文本或滚动。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1294
+#: src/slic3r/GUI/SshTabPanel.cpp:1309
 msgid "Ctrl + C"
 msgstr "Ctrl + C"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1294
+#: src/slic3r/GUI/SshTabPanel.cpp:1309
 msgid "Kills the currently running process (sends SIGINT)."
 msgstr "Kills the currently running process (sends SIGINT)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1295
+#: src/slic3r/GUI/SshTabPanel.cpp:1310
 msgid "Ctrl + Z"
 msgstr "Ctrl + Z"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1295
+#: src/slic3r/GUI/SshTabPanel.cpp:1310
 msgid "Pauses the current process and moves it to the background (sends SIGTSTP)."
 msgstr "Pauses the current process and moves it to the background (sends SIGTSTP)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1296
+#: src/slic3r/GUI/SshTabPanel.cpp:1311
 msgid "Ctrl + D"
 msgstr "Ctrl + D"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1296
+#: src/slic3r/GUI/SshTabPanel.cpp:1311
 msgid "Closes the current shell or SSH session if the command line is empty."
 msgstr "Closes the current shell or SSH session if the command line is empty."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1297
+#: src/slic3r/GUI/SshTabPanel.cpp:1312
 msgid "Ctrl + L"
 msgstr "Ctrl + L"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1297
+#: src/slic3r/GUI/SshTabPanel.cpp:1312
 msgid "Clears the terminal screen completely while keeping the current input line."
 msgstr "Clears the terminal screen completely while keeping the current input line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1298
+#: src/slic3r/GUI/SshTabPanel.cpp:1313
 msgid "Ctrl + S"
 msgstr "Ctrl + S"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1298
+#: src/slic3r/GUI/SshTabPanel.cpp:1313
 msgid "Pauses terminal output (useful when output scrolls too fast)."
 msgstr "Pauses terminal output (useful when output scrolls too fast)."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1299
+#: src/slic3r/GUI/SshTabPanel.cpp:1314
 msgid "Ctrl + Q"
 msgstr "Ctrl + Q"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1299
+#: src/slic3r/GUI/SshTabPanel.cpp:1314
 msgid "Resumes terminal output after Ctrl + S."
 msgstr "Resumes terminal output after Ctrl + S."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1300
+#: src/slic3r/GUI/SshTabPanel.cpp:1315
 msgid "Ctrl + A"
 msgstr "Ctrl + A"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1300
+#: src/slic3r/GUI/SshTabPanel.cpp:1315
 msgid "Moves the cursor to the beginning of the current line."
 msgstr "Moves the cursor to the beginning of the current line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1301
+#: src/slic3r/GUI/SshTabPanel.cpp:1316
 msgid "Ctrl + E"
 msgstr "Ctrl + E"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1301
+#: src/slic3r/GUI/SshTabPanel.cpp:1316
 msgid "Moves the cursor to the end of the current line."
 msgstr "Moves the cursor to the end of the current line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1302
+#: src/slic3r/GUI/SshTabPanel.cpp:1317
 msgid "Alt + F"
 msgstr "Alt + F"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1302
+#: src/slic3r/GUI/SshTabPanel.cpp:1317
 msgid "Moves the cursor forward by one word."
 msgstr "Moves the cursor forward by one word."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1303
+#: src/slic3r/GUI/SshTabPanel.cpp:1318
 msgid "Alt + B"
 msgstr "Alt + B"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1303
+#: src/slic3r/GUI/SshTabPanel.cpp:1318
 msgid "Moves the cursor backward by one word."
 msgstr "Moves the cursor backward by one word."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1304
+#: src/slic3r/GUI/SshTabPanel.cpp:1319
 msgid "Ctrl + X, Ctrl + X"
 msgstr "Ctrl + X, Ctrl + X"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1304
+#: src/slic3r/GUI/SshTabPanel.cpp:1319
 msgid "Jumps between current cursor position and beginning of line."
 msgstr "Jumps between current cursor position and beginning of line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1305
+#: src/slic3r/GUI/SshTabPanel.cpp:1320
 msgid "Ctrl + U"
 msgstr "Ctrl + U"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1305
+#: src/slic3r/GUI/SshTabPanel.cpp:1320
 msgid "Cuts text from cursor to the beginning of the line."
 msgstr "Cuts text from cursor to the beginning of the line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1306
+#: src/slic3r/GUI/SshTabPanel.cpp:1321
 msgid "Ctrl + K"
 msgstr "Ctrl + K"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1306
+#: src/slic3r/GUI/SshTabPanel.cpp:1321
 msgid "Cuts text from cursor to the end of the line."
 msgstr "Cuts text from cursor to the end of the line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1307
+#: src/slic3r/GUI/SshTabPanel.cpp:1322
 msgid "Ctrl + W"
 msgstr "Ctrl + W"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1307
+#: src/slic3r/GUI/SshTabPanel.cpp:1322
 msgid "Cuts the word directly behind the cursor."
 msgstr "Cuts the word directly behind the cursor."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1308
+#: src/slic3r/GUI/SshTabPanel.cpp:1323
 msgid "Alt + D"
 msgstr "Alt + D"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1308
+#: src/slic3r/GUI/SshTabPanel.cpp:1323
 msgid "Cuts the word directly in front of the cursor."
 msgstr "Cuts the word directly in front of the cursor."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1309
+#: src/slic3r/GUI/SshTabPanel.cpp:1324
 msgid "Ctrl + Y"
 msgstr "Ctrl + Y"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1309
+#: src/slic3r/GUI/SshTabPanel.cpp:1324
 msgid "Pastes the most recently cut text at the cursor."
 msgstr "Pastes the most recently cut text at the cursor."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1310
+#: src/slic3r/GUI/SshTabPanel.cpp:1325
 msgid "Ctrl + _"
 msgstr "Ctrl + _"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1310
+#: src/slic3r/GUI/SshTabPanel.cpp:1325
 msgid "Undoes the last editing action on the current line."
 msgstr "Undoes the last editing action on the current line."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1311
+#: src/slic3r/GUI/SshTabPanel.cpp:1326
 msgid "Ctrl + R"
 msgstr "Ctrl + R"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1311
+#: src/slic3r/GUI/SshTabPanel.cpp:1326
 msgid "Opens interactive reverse history search."
 msgstr "Opens interactive reverse history search."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1312
+#: src/slic3r/GUI/SshTabPanel.cpp:1327
 msgid "Ctrl + P"
 msgstr "Ctrl + P"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1312
+#: src/slic3r/GUI/SshTabPanel.cpp:1327
 msgid "Fetches the previous command from history."
 msgstr "Fetches the previous command from history."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1313
+#: src/slic3r/GUI/SshTabPanel.cpp:1328
 msgid "Ctrl + N"
 msgstr "Ctrl + N"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1313
+#: src/slic3r/GUI/SshTabPanel.cpp:1328
 msgid "Fetches the next command from history."
 msgstr "Fetches the next command from history."
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1314
+#: src/slic3r/GUI/SshTabPanel.cpp:1329
 msgid "Ctrl + Shift + P"
 msgstr "Ctrl + Shift + P"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1314
+#: src/slic3r/GUI/SshTabPanel.cpp:1329
 msgid "Enters the stored administrator password for the selected printer and presses Enter."
 msgstr "输入所选打印机已保存的管理员密码并按下 Enter 键。"
 
-#: src/slic3r/GUI/SshTabPanel.cpp:1406
+#: src/slic3r/GUI/SshTabPanel.cpp:1428
 msgid "Terminal input was not sent. Check the SSH connection."
 msgstr "未发送终端输入。请检查 SSH 连接。"
 
@@ -23736,15 +23774,19 @@ msgstr "区分大小写"
 msgid "Next"
 msgstr "下一个"
 
-#: src/slic3r/GUI/SshTerminalCtrl.cpp:577
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:578
+msgid "Command capture requires an idle Bash prompt. Input was not sent."
+msgstr "命令输出捕获需要空闲的 Bash 提示符。未发送输入。"
+
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:579
 msgid "Terminal input queue is full. Input was not sent."
 msgstr "终端输入队列已满。未发送输入。"
 
-#: src/slic3r/GUI/SshTerminalCtrl.cpp:577
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:579
 msgid "SSH session is not connected."
 msgstr "SSH 会话未连接。"
 
-#: src/slic3r/GUI/SshTerminalCtrl.cpp:803
+#: src/slic3r/GUI/SshTerminalCtrl.cpp:815
 msgid "No matches"
 msgstr "无匹配项"
 
