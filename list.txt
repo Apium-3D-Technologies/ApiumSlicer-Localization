@@ -1021,6 +1021,8 @@ src/slic3r/GUI/SysInfoDialog.cpp
 src/slic3r/GUI/SysInfoDialog.hpp
 src/slic3r/GUI/Tab.cpp
 src/slic3r/GUI/Tab.hpp
+src/slic3r/GUI/TerminalCommandCapture.cpp
+src/slic3r/GUI/TerminalCommandCapture.hpp
 src/slic3r/GUI/TerminalModel.cpp
 src/slic3r/GUI/TerminalModel.hpp
 src/slic3r/GUI/TerminalTransport.cpp

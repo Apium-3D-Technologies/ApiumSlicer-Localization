@@ -10702,7 +10702,7 @@ msgstr ""
 msgid "Compare Presets"
 msgstr "比较预设"
 
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2084 src/slic3r/GUI/FileTransferTabPanel.cpp:3925
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2084 src/slic3r/GUI/FileTransferTabPanel.cpp:4147
 msgid "Overwrite"
 msgstr "覆盖"
 
@@ -12693,7 +12693,7 @@ msgstr "此设置已锁定，因为其可用性取决于 %1% 的当前值。"
 msgid "This setting is locked because its availability depends on the current values of %1%."
 msgstr "此设置已锁定，因为其可用性取决于 %1% 的当前值。"
 
-#: src/slic3r/GUI/Field.cpp:353 src/slic3r/GUI/FileTransferTabPanel.cpp:4617
+#: src/slic3r/GUI/Field.cpp:353 src/slic3r/GUI/FileTransferTabPanel.cpp:4839
 #: src/slic3r/GUI/OG_CustomCtrl.cpp:47
 msgid "Copied"
 msgstr "已复制"
@@ -12897,11 +12897,15 @@ msgstr "没有复制远程文件的权限。"
 msgid "Computer"
 msgstr "计算机"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:894
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:754
+msgid "Drop File(s) Here"
+msgstr "将文件拖放到此处"
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1051
 msgid "Administrator permission required"
 msgstr "需要管理员权限"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:903
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1060
 #, boost-format
 msgid ""
 "The SSH user for printer \"%1%\" does not have permission to %2%.\n"
@@ -12914,28 +12918,28 @@ msgstr ""
 "路径：\n"
 "%3%"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:909
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1066
 msgid "Use sudo once"
 msgstr "仅本次使用 sudo"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:910
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1067
 msgid "Use sudo for session"
 msgstr "本次会话使用 sudo"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:939
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1096
 msgid "Enter administrator password"
 msgstr "输入管理员密码"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:947
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1104
 #, boost-format
 msgid "Enter the sudo password for printer \"%1%\"."
 msgstr "请输入打印机“%1%”的 sudo 密码。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1076
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1252
 msgid "Open selected printer in Webinterface"
 msgstr "在网页界面中打开所选打印机"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1077 src/slic3r/GUI/WebInterfaceTabPanel.cpp:420
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1253 src/slic3r/GUI/WebInterfaceTabPanel.cpp:420
 msgid "Open SSH connection to selected printer"
 msgstr "Open SSH connection to selected printer"
 
@@ -12952,11 +12956,11 @@ msgstr "刷新"
 msgid "Type"
 msgstr "类型"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1100
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1276
 msgid "Rights"
 msgstr "权限"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1101
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1277
 msgid "Owner"
 msgstr "所有者"
 
@@ -12964,60 +12968,57 @@ msgstr "所有者"
 msgid "Modified"
 msgstr "修改日期"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1111
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1287
 msgid "Sudo mode active"
 msgstr "sudo 模式已启用"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1137 src/slic3r/GUI/FileTransferTabPanel.cpp:3486
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1313 src/slic3r/GUI/FileTransferTabPanel.cpp:3702
 msgid "Abort transfer"
 msgstr "中止传输"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1327
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1503
 msgid "Hide hidden files"
 msgstr "隐藏隐藏文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1327
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1503
 msgid "Show hidden files"
 msgstr "显示隐藏文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1616 src/slic3r/GUI/FileTransferTabPanel.cpp:3061
-msgid "Transfer already running..."
-msgstr "传输已在进行..."
-
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1622 src/slic3r/GUI/FileTransferTabPanel.cpp:3067
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1795 src/slic3r/GUI/FileTransferTabPanel.cpp:3271
 msgid "Source device is no longer available."
 msgstr "源设备已不可用。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1622 src/slic3r/GUI/FileTransferTabPanel.cpp:1646
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2526 src/slic3r/GUI/FileTransferTabPanel.cpp:2774
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2818 src/slic3r/GUI/FileTransferTabPanel.cpp:2862
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2958 src/slic3r/GUI/FileTransferTabPanel.cpp:3067
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3096 src/slic3r/GUI/FileTransferTabPanel.cpp:3124
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3153 src/slic3r/GUI/FileTransferTabPanel.cpp:3163
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3199 src/slic3r/GUI/FileTransferTabPanel.cpp:3235
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3868 src/slic3r/GUI/FileTransferTabPanel.cpp:4665
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1795 src/slic3r/GUI/FileTransferTabPanel.cpp:1819
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2730 src/slic3r/GUI/FileTransferTabPanel.cpp:2978
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3022 src/slic3r/GUI/FileTransferTabPanel.cpp:3066
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3162 src/slic3r/GUI/FileTransferTabPanel.cpp:3271
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3300 src/slic3r/GUI/FileTransferTabPanel.cpp:3328
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3357 src/slic3r/GUI/FileTransferTabPanel.cpp:3367
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3403 src/slic3r/GUI/FileTransferTabPanel.cpp:3439
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3997 src/slic3r/GUI/FileTransferTabPanel.cpp:4005
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4090 src/slic3r/GUI/FileTransferTabPanel.cpp:4887
 #: src/slic3r/GUI/MainFrame.cpp:970 src/slic3r/GUI/MainFrame.cpp:1708
 #: src/slic3r/GUI/SshTabPanel.cpp:1174 src/slic3r/GUI/SshTabPanel.cpp:1185
 #: src/slic3r/GUI/TopBar.cpp:554
 msgid "File Transfer"
 msgstr "文件传输"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1646 src/slic3r/GUI/FileTransferTabPanel.cpp:3096
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1819 src/slic3r/GUI/FileTransferTabPanel.cpp:3300
 msgid "Failed to enqueue transfer job."
 msgstr "无法将传输任务加入队列。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1650 src/slic3r/GUI/FileTransferTabPanel.cpp:1651
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3100 src/slic3r/GUI/FileTransferTabPanel.cpp:3101
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1823 src/slic3r/GUI/FileTransferTabPanel.cpp:1824
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1850 src/slic3r/GUI/FileTransferTabPanel.cpp:3304
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3305
 msgid "Preparing transfer..."
 msgstr "正在准备传输..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1717 src/slic3r/GUI/FileTransferTabPanel.cpp:1727
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1728
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1921 src/slic3r/GUI/FileTransferTabPanel.cpp:1931
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1932
 msgid "Local Computer"
 msgstr "本地计算机"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2297
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2501
 msgid "Folder"
 msgstr "文件夹"
 
@@ -13025,54 +13026,54 @@ msgstr "文件夹"
 msgid "File"
 msgstr "文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2388 src/slic3r/GUI/FileTransferTabPanel.cpp:2418
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2592 src/slic3r/GUI/FileTransferTabPanel.cpp:2622
 msgid "read this directory"
 msgstr "读取此目录"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2726
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2930
 msgid "Create Folder"
 msgstr "创建文件夹"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2726
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2930
 msgid "Folder name"
 msgstr "文件夹名称"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2758
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2962
 msgid "create this folder"
 msgstr "创建此文件夹"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2787
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2991
 msgid "Create File"
 msgstr "创建文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2787
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2991
 msgid "File name"
 msgstr "文件名"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2812
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3016
 msgid "create this file"
 msgstr "创建此文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2834 src/slic3r/GUI/FileTransferTabPanel.cpp:3475
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3927 src/slic3r/GUI/FileTransferTabPanel.cpp:3963
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3038 src/slic3r/GUI/FileTransferTabPanel.cpp:3691
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4149 src/slic3r/GUI/FileTransferTabPanel.cpp:4185
 #: src/slic3r/GUI/GUI_Factories.cpp:970 src/slic3r/GUI/GUI_Factories.cpp:1637
 msgid "Rename"
 msgstr "重命名"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2834 src/slic3r/GUI/FileTransferTabPanel.cpp:3963
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3038 src/slic3r/GUI/FileTransferTabPanel.cpp:4185
 msgid "New name"
 msgstr "新名称"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2856
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3060
 msgid "rename this item"
 msgstr "重命名此项目"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2870
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3074
 #, boost-format
 msgid "Delete \"%1%\" permanently?"
 msgstr "永久删除“%1%”？"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2871
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3075
 #, boost-format
 msgid "Delete %1% items permanently?"
 msgstr "永久删除 %1% 个项目？"
@@ -13083,76 +13084,80 @@ msgstr "永久删除 %1% 个项目？"
 msgid "Delete"
 msgstr "删除"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2951
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3155
 msgid "delete the selected item"
 msgstr "删除所选项目"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2996
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3200
 msgid "Path copied to clipboard."
 msgstr "路径已复制到剪贴板。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3124
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3265
+msgid "Transfer already running..."
+msgstr "传输已在进行..."
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3328
 msgid "Failed to create a temporary file for the remote editor."
 msgstr "无法为远程编辑器创建临时文件。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3137
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3341
 msgid "open this remote file"
 msgstr "打开此远程文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3163
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3367
 msgid "Failed to open local editor."
 msgstr "无法打开本地编辑器。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3199 src/slic3r/GUI/FileTransferTabPanel.cpp:3235
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3403 src/slic3r/GUI/FileTransferTabPanel.cpp:3439
 msgid "Failed to open file with default editor."
 msgstr "无法使用默认编辑器打开文件。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3472
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3688
 msgid "Open/Edit"
 msgstr "打开/编辑"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3473
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3689
 msgid "New Folder"
 msgstr "新建文件夹"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3474
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3690
 msgid "New File"
 msgstr "新建文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3478
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3694
 msgid "Copy\tCtrl+C"
 msgstr "复制\tCtrl+C"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3479
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3695
 msgid "Copy file path\tCtrl+Shift+C"
 msgstr "复制文件路径\tCtrl+Shift+C"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3480
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3696
 msgid "Cut\tCtrl+X"
 msgstr "剪切\tCtrl+X"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3481
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3697
 msgid "Paste\tCtrl+V"
 msgstr "粘贴\tCtrl+V"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3482
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3698
 msgid "Select All\tCtrl+A"
 msgstr "全选\tCtrl+A"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3580 src/slic3r/GUI/FileTransferTabPanel.cpp:3581
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3796 src/slic3r/GUI/FileTransferTabPanel.cpp:3797
 msgid "Transfer abort requested."
 msgstr "已请求中止传输。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3868
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3997 src/slic3r/GUI/FileTransferTabPanel.cpp:4005
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4090
 msgid "The file operation failed unexpectedly."
 msgstr "文件操作意外失败。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3912
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4134
 msgid "Conflict"
 msgstr "冲突"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 #, boost-format
 msgid ""
 "Target exists:\n"
@@ -13165,15 +13170,15 @@ msgstr ""
 "\n"
 "请选择对 %2% 执行的操作"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 msgid "folder"
 msgstr "文件夹"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 msgid "file"
 msgstr "文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3922
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4144
 msgid "Apply to all remaining conflicts"
 msgstr "应用于所有剩余冲突"
 
@@ -13181,15 +13186,15 @@ msgstr "应用于所有剩余冲突"
 msgid "Skip"
 msgstr "跳过"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4229 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "SSH host key changed"
 msgstr "SSH 主机密钥已更改"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4229 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "Trust SSH host key"
 msgstr "信任 SSH 主机密钥"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1414
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4231 src/slic3r/GUI/SshTabPanel.cpp:1414
 #, boost-format
 msgid ""
 "The SSH host key for \"%1%\" changed to:\n"
@@ -13202,7 +13207,7 @@ msgstr ""
 "\n"
 "是否继续？"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1415
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4232 src/slic3r/GUI/SshTabPanel.cpp:1415
 #, boost-format
 msgid ""
 "Trust SSH host key for \"%1%\":\n"
@@ -13215,63 +13220,63 @@ msgstr ""
 "\n"
 "是否继续？"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4056
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4278
 msgid "The administrator password was rejected by sudo. Enter the current password to continue."
 msgstr "sudo 拒绝了管理员密码。请输入当前密码以继续。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4057
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4279
 msgid "Administrator authentication failed"
 msgstr "管理员身份验证失败"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4185 src/slic3r/GUI/FileTransferTabPanel.cpp:4186
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4624
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4407 src/slic3r/GUI/FileTransferTabPanel.cpp:4408
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4846
 msgid "Transfer cancelled."
 msgstr "传输已取消。"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4351
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4573
 msgid "Calculating..."
 msgstr "正在计算..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4352
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4574
 msgid "  Scanning..."
 msgstr "  正在扫描..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4433 src/slic3r/GUI/FileTransferTabPanel.cpp:4434
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4655 src/slic3r/GUI/FileTransferTabPanel.cpp:4656
 msgid "Transfer stalled, cancelling..."
 msgstr "传输停滞，正在取消..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4541 src/slic3r/GUI/FileTransferTabPanel.cpp:4550
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4556
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4763 src/slic3r/GUI/FileTransferTabPanel.cpp:4772
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4778
 msgid "move the selected items"
 msgstr "移动所选项目"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4541 src/slic3r/GUI/FileTransferTabPanel.cpp:4556
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4763 src/slic3r/GUI/FileTransferTabPanel.cpp:4778
 msgid "copy the selected items"
 msgstr "复制所选项目"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4550
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4772
 msgid "read the selected items"
 msgstr "读取所选项目"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4575 src/slic3r/GUI/FileTransferTabPanel.cpp:4576
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4797 src/slic3r/GUI/FileTransferTabPanel.cpp:4798
 #, boost-format
 msgid "Transfer failed: %1%"
 msgstr "传输失败：%1%"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4617
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4839
 msgid "Moved"
 msgstr "已移动"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4658
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4880
 msgid "upload the changed remote file"
 msgstr "上传已更改的远程文件"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4688
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4910
 #, boost-format
 msgid "Upload changes for remote file \"%1%\" now?"
 msgstr "现在上传远程文件“%1%”的更改吗？"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4689
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4911
 msgid "Remote file changed"
 msgstr "远程文件已更改"
 

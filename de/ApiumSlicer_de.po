@@ -11681,7 +11681,7 @@ msgstr ""
 msgid "Compare Presets"
 msgstr "Voreinstellungen vergleichen"
 
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2084 src/slic3r/GUI/FileTransferTabPanel.cpp:3925
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:2084 src/slic3r/GUI/FileTransferTabPanel.cpp:4147
 msgid "Overwrite"
 msgstr "Überschreiben"
 
@@ -13776,7 +13776,7 @@ msgid "This setting is locked because its availability depends on the current va
 msgstr ""
 "Diese Einstellung ist gesperrt, weil ihre Verfügbarkeit von den aktuellen Werten von %1% abhängt."
 
-#: src/slic3r/GUI/Field.cpp:353 src/slic3r/GUI/FileTransferTabPanel.cpp:4617
+#: src/slic3r/GUI/Field.cpp:353 src/slic3r/GUI/FileTransferTabPanel.cpp:4839
 #: src/slic3r/GUI/OG_CustomCtrl.cpp:47
 msgid "Copied"
 msgstr "Kopiert"
@@ -13980,11 +13980,15 @@ msgstr "Keine Berechtigung zum Kopieren der Remote-Datei."
 msgid "Computer"
 msgstr "Computer"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:894
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:754
+msgid "Drop File(s) Here"
+msgstr "Datei(en) hier ablegen"
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1051
 msgid "Administrator permission required"
 msgstr "Administratorrechte erforderlich"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:903
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1060
 #, boost-format
 msgid ""
 "The SSH user for printer \"%1%\" does not have permission to %2%.\n"
@@ -13997,28 +14001,28 @@ msgstr ""
 "Pfad:\n"
 "%3%"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:909
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1066
 msgid "Use sudo once"
 msgstr "Einmal mit sudo"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:910
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1067
 msgid "Use sudo for session"
 msgstr "Für Sitzung mit sudo"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:939
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1096
 msgid "Enter administrator password"
 msgstr "Administratorpasswort eingeben"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:947
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1104
 #, boost-format
 msgid "Enter the sudo password for printer \"%1%\"."
 msgstr "Geben Sie das sudo-Passwort für Drucker \"%1%\" ein."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1076
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1252
 msgid "Open selected printer in Webinterface"
 msgstr "Ausgewählten Drucker im Webinterface öffnen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1077 src/slic3r/GUI/WebInterfaceTabPanel.cpp:420
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1253 src/slic3r/GUI/WebInterfaceTabPanel.cpp:420
 msgid "Open SSH connection to selected printer"
 msgstr "SSH-Verbindung zum ausgewaehlten Drucker oeffnen"
 
@@ -14035,11 +14039,11 @@ msgstr "Aktualisiere"
 msgid "Type"
 msgstr "Typ"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1100
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1276
 msgid "Rights"
 msgstr "Berechtigungen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1101
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1277
 msgid "Owner"
 msgstr "Eigentümer"
 
@@ -14047,60 +14051,57 @@ msgstr "Eigentümer"
 msgid "Modified"
 msgstr "Geändert"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1111
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1287
 msgid "Sudo mode active"
 msgstr "Sudo-Modus aktiv"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1137 src/slic3r/GUI/FileTransferTabPanel.cpp:3486
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1313 src/slic3r/GUI/FileTransferTabPanel.cpp:3702
 msgid "Abort transfer"
 msgstr "Übertragung abbrechen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1327
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1503
 msgid "Hide hidden files"
 msgstr "Versteckte Dateien ausblenden"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1327
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1503
 msgid "Show hidden files"
 msgstr "Versteckte Dateien anzeigen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1616 src/slic3r/GUI/FileTransferTabPanel.cpp:3061
-msgid "Transfer already running..."
-msgstr "Übertragung läuft bereits …"
-
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1622 src/slic3r/GUI/FileTransferTabPanel.cpp:3067
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1795 src/slic3r/GUI/FileTransferTabPanel.cpp:3271
 msgid "Source device is no longer available."
 msgstr "Das Quellgerät ist nicht mehr verfügbar."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1622 src/slic3r/GUI/FileTransferTabPanel.cpp:1646
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2526 src/slic3r/GUI/FileTransferTabPanel.cpp:2774
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2818 src/slic3r/GUI/FileTransferTabPanel.cpp:2862
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2958 src/slic3r/GUI/FileTransferTabPanel.cpp:3067
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3096 src/slic3r/GUI/FileTransferTabPanel.cpp:3124
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3153 src/slic3r/GUI/FileTransferTabPanel.cpp:3163
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3199 src/slic3r/GUI/FileTransferTabPanel.cpp:3235
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3868 src/slic3r/GUI/FileTransferTabPanel.cpp:4665
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1795 src/slic3r/GUI/FileTransferTabPanel.cpp:1819
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2730 src/slic3r/GUI/FileTransferTabPanel.cpp:2978
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3022 src/slic3r/GUI/FileTransferTabPanel.cpp:3066
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3162 src/slic3r/GUI/FileTransferTabPanel.cpp:3271
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3300 src/slic3r/GUI/FileTransferTabPanel.cpp:3328
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3357 src/slic3r/GUI/FileTransferTabPanel.cpp:3367
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3403 src/slic3r/GUI/FileTransferTabPanel.cpp:3439
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3997 src/slic3r/GUI/FileTransferTabPanel.cpp:4005
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4090 src/slic3r/GUI/FileTransferTabPanel.cpp:4887
 #: src/slic3r/GUI/MainFrame.cpp:970 src/slic3r/GUI/MainFrame.cpp:1708
 #: src/slic3r/GUI/SshTabPanel.cpp:1174 src/slic3r/GUI/SshTabPanel.cpp:1185
 #: src/slic3r/GUI/TopBar.cpp:554
 msgid "File Transfer"
 msgstr "Dateiübertragung"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1646 src/slic3r/GUI/FileTransferTabPanel.cpp:3096
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1819 src/slic3r/GUI/FileTransferTabPanel.cpp:3300
 msgid "Failed to enqueue transfer job."
 msgstr "Der Übertragungsauftrag konnte nicht in die Warteschlange eingereiht werden."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1650 src/slic3r/GUI/FileTransferTabPanel.cpp:1651
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3100 src/slic3r/GUI/FileTransferTabPanel.cpp:3101
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1823 src/slic3r/GUI/FileTransferTabPanel.cpp:1824
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1850 src/slic3r/GUI/FileTransferTabPanel.cpp:3304
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3305
 msgid "Preparing transfer..."
 msgstr "Übertragung wird vorbereitet..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1717 src/slic3r/GUI/FileTransferTabPanel.cpp:1727
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:1728
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1921 src/slic3r/GUI/FileTransferTabPanel.cpp:1931
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:1932
 msgid "Local Computer"
 msgstr "Lokaler Computer"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2297
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2501
 msgid "Folder"
 msgstr "Ordner"
 
@@ -14108,54 +14109,54 @@ msgstr "Ordner"
 msgid "File"
 msgstr "Datei"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2388 src/slic3r/GUI/FileTransferTabPanel.cpp:2418
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2592 src/slic3r/GUI/FileTransferTabPanel.cpp:2622
 msgid "read this directory"
 msgstr "dieses Verzeichnis zu lesen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2726
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2930
 msgid "Create Folder"
 msgstr "Ordner erstellen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2726
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2930
 msgid "Folder name"
 msgstr "Ordnername"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2758
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2962
 msgid "create this folder"
 msgstr "diesen Ordner zu erstellen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2787
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2991
 msgid "Create File"
 msgstr "Datei erstellen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2787
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:2991
 msgid "File name"
 msgstr "Dateiname"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2812
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3016
 msgid "create this file"
 msgstr "diese Datei zu erstellen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2834 src/slic3r/GUI/FileTransferTabPanel.cpp:3475
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3927 src/slic3r/GUI/FileTransferTabPanel.cpp:3963
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3038 src/slic3r/GUI/FileTransferTabPanel.cpp:3691
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4149 src/slic3r/GUI/FileTransferTabPanel.cpp:4185
 #: src/slic3r/GUI/GUI_Factories.cpp:970 src/slic3r/GUI/GUI_Factories.cpp:1637
 msgid "Rename"
 msgstr "Umbenennen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2834 src/slic3r/GUI/FileTransferTabPanel.cpp:3963
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3038 src/slic3r/GUI/FileTransferTabPanel.cpp:4185
 msgid "New name"
 msgstr "Neuer Name"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2856
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3060
 msgid "rename this item"
 msgstr "dieses Element umzubenennen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2870
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3074
 #, boost-format
 msgid "Delete \"%1%\" permanently?"
 msgstr "„%1%“ dauerhaft löschen?"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2871
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3075
 #, boost-format
 msgid "Delete %1% items permanently?"
 msgstr "%1% Elemente dauerhaft löschen?"
@@ -14166,76 +14167,80 @@ msgstr "%1% Elemente dauerhaft löschen?"
 msgid "Delete"
 msgstr "Löschen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2951
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3155
 msgid "delete the selected item"
 msgstr "das ausgewählte Element zu löschen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:2996
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3200
 msgid "Path copied to clipboard."
 msgstr "Pfad in die Zwischenablage kopiert."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3124
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3265
+msgid "Transfer already running..."
+msgstr "Übertragung läuft bereits …"
+
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3328
 msgid "Failed to create a temporary file for the remote editor."
 msgstr "Die temporäre Datei für den Remote-Editor konnte nicht erstellt werden."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3137
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3341
 msgid "open this remote file"
 msgstr "diese Remote-Datei zu öffnen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3163
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3367
 msgid "Failed to open local editor."
 msgstr "Der lokale Editor konnte nicht geöffnet werden."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3199 src/slic3r/GUI/FileTransferTabPanel.cpp:3235
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3403 src/slic3r/GUI/FileTransferTabPanel.cpp:3439
 msgid "Failed to open file with default editor."
 msgstr "Die Datei konnte nicht mit dem Standardeditor geöffnet werden."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3472
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3688
 msgid "Open/Edit"
 msgstr "Öffnen/Bearbeiten"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3473
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3689
 msgid "New Folder"
 msgstr "Neuer Ordner"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3474
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3690
 msgid "New File"
 msgstr "Neue Datei"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3478
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3694
 msgid "Copy\tCtrl+C"
 msgstr "Kopieren\tStrg+C"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3479
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3695
 msgid "Copy file path\tCtrl+Shift+C"
 msgstr "Dateipfad kopieren\tStrg+Umschalt+C"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3480
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3696
 msgid "Cut\tCtrl+X"
 msgstr "Ausschneiden\tStrg+X"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3481
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3697
 msgid "Paste\tCtrl+V"
 msgstr "Einfügen\tStrg+V"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3482
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3698
 msgid "Select All\tCtrl+A"
 msgstr "Alles auswählen\tStrg+A"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3580 src/slic3r/GUI/FileTransferTabPanel.cpp:3581
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3796 src/slic3r/GUI/FileTransferTabPanel.cpp:3797
 msgid "Transfer abort requested."
 msgstr "Abbruch der Übertragung angefordert."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3775 src/slic3r/GUI/FileTransferTabPanel.cpp:3783
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3868
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:3997 src/slic3r/GUI/FileTransferTabPanel.cpp:4005
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4090
 msgid "The file operation failed unexpectedly."
 msgstr "Die Dateioperation ist unerwartet fehlgeschlagen."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3912
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4134
 msgid "Conflict"
 msgstr "Konflikt"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 #, boost-format
 msgid ""
 "Target exists:\n"
@@ -14248,15 +14253,15 @@ msgstr ""
 "\n"
 "Aktion für %2% auswählen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 msgid "folder"
 msgstr "Ordner"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3919
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4141
 msgid "file"
 msgstr "Datei"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:3922
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4144
 msgid "Apply to all remaining conflicts"
 msgstr "Auf alle verbleibenden Konflikte anwenden"
 
@@ -14264,15 +14269,15 @@ msgstr "Auf alle verbleibenden Konflikte anwenden"
 msgid "Skip"
 msgstr "Überspringen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4229 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "SSH host key changed"
 msgstr "SSH-Hostschlüssel geändert"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4007 src/slic3r/GUI/SshTabPanel.cpp:1412
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4229 src/slic3r/GUI/SshTabPanel.cpp:1412
 msgid "Trust SSH host key"
 msgstr "SSH-Hostschlüssel vertrauen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4009 src/slic3r/GUI/SshTabPanel.cpp:1414
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4231 src/slic3r/GUI/SshTabPanel.cpp:1414
 #, boost-format
 msgid ""
 "The SSH host key for \"%1%\" changed to:\n"
@@ -14285,7 +14290,7 @@ msgstr ""
 "\n"
 "Fortfahren?"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4010 src/slic3r/GUI/SshTabPanel.cpp:1415
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4232 src/slic3r/GUI/SshTabPanel.cpp:1415
 #, boost-format
 msgid ""
 "Trust SSH host key for \"%1%\":\n"
@@ -14298,65 +14303,65 @@ msgstr ""
 "\n"
 "Fortfahren?"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4056
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4278
 msgid "The administrator password was rejected by sudo. Enter the current password to continue."
 msgstr ""
 "Das Administratorpasswort wurde von sudo abgelehnt. Geben Sie das aktuelle Passwort ein, um "
 "fortzufahren."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4057
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4279
 msgid "Administrator authentication failed"
 msgstr "Administrator-Authentifizierung fehlgeschlagen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4185 src/slic3r/GUI/FileTransferTabPanel.cpp:4186
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4624
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4407 src/slic3r/GUI/FileTransferTabPanel.cpp:4408
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4846
 msgid "Transfer cancelled."
 msgstr "Übertragung abgebrochen."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4351
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4573
 msgid "Calculating..."
 msgstr "Wird berechnet..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4352
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4574
 msgid "  Scanning..."
 msgstr "  Wird durchsucht..."
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4433 src/slic3r/GUI/FileTransferTabPanel.cpp:4434
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4655 src/slic3r/GUI/FileTransferTabPanel.cpp:4656
 msgid "Transfer stalled, cancelling..."
 msgstr "Übertragung reagiert nicht, Abbruch läuft …"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4541 src/slic3r/GUI/FileTransferTabPanel.cpp:4550
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4556
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4763 src/slic3r/GUI/FileTransferTabPanel.cpp:4772
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4778
 msgid "move the selected items"
 msgstr "die ausgewählten Elemente zu verschieben"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4541 src/slic3r/GUI/FileTransferTabPanel.cpp:4556
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4763 src/slic3r/GUI/FileTransferTabPanel.cpp:4778
 msgid "copy the selected items"
 msgstr "die ausgewählten Elemente zu kopieren"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4550
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4772
 msgid "read the selected items"
 msgstr "die ausgewählten Elemente zu lesen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4575 src/slic3r/GUI/FileTransferTabPanel.cpp:4576
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4797 src/slic3r/GUI/FileTransferTabPanel.cpp:4798
 #, boost-format
 msgid "Transfer failed: %1%"
 msgstr "Übertragung fehlgeschlagen: %1%"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4617
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4839
 msgid "Moved"
 msgstr "Verschoben"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4658
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4880
 msgid "upload the changed remote file"
 msgstr "die geänderte Remote-Datei hochzuladen"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4688
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4910
 #, boost-format
 msgid "Upload changes for remote file \"%1%\" now?"
 msgstr "Änderungen an der entfernten Datei „%1%“ jetzt hochladen?"
 
-#: src/slic3r/GUI/FileTransferTabPanel.cpp:4689
+#: src/slic3r/GUI/FileTransferTabPanel.cpp:4911
 msgid "Remote file changed"
 msgstr "Entfernte Datei geändert"
 
