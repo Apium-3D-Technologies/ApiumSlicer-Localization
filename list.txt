@@ -789,6 +789,8 @@ src/slic3r/GUI/Field.cpp
 src/slic3r/GUI/Field.hpp
 src/slic3r/GUI/FileArchiveDialog.cpp
 src/slic3r/GUI/FileArchiveDialog.hpp
+src/slic3r/GUI/FileThumbnailFrame.cpp
+src/slic3r/GUI/FileThumbnailFrame.hpp
 src/slic3r/GUI/FileTransferSessionManager.cpp
 src/slic3r/GUI/FileTransferSessionManager.hpp
 src/slic3r/GUI/FileTransferTabPanel.cpp
