@@ -147,6 +147,8 @@ src/libslic3r/ElephantFootCompensation.cpp
 src/libslic3r/ElephantFootCompensation.hpp
 src/libslic3r/Emboss.cpp
 src/libslic3r/Emboss.hpp
+src/libslic3r/EmbossMeshExport.cpp
+src/libslic3r/EmbossMeshExport.hpp
 src/libslic3r/EmbossShape.hpp
 src/libslic3r/ExPolygon.cpp
 src/libslic3r/ExPolygon.hpp
@@ -836,6 +838,7 @@ src/slic3r/GUI/GUI_Utils.cpp
 src/slic3r/GUI/GUI_Utils.hpp
 src/slic3r/GUI/GalleryDialog.cpp
 src/slic3r/GUI/GalleryDialog.hpp
+src/slic3r/GUI/Gizmos/EmbossEditSession.hpp
 src/slic3r/GUI/Gizmos/EmbossLogoPanel.hpp
 src/slic3r/GUI/Gizmos/EmbossTargetFaceSelector.cpp
 src/slic3r/GUI/Gizmos/EmbossTargetFaceSelector.hpp
