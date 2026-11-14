@@ -264,7 +264,7 @@ msgstr ""
 msgid "After layer change G-code"
 msgstr ""
 
-#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:11487 src/libslic3r/PrintConfig.cpp:6334
+#: src/libslic3r/GCode.cpp:682 src/libslic3r/GCode.cpp:11489 src/libslic3r/PrintConfig.cpp:6334
 #: src/libslic3r/SlicingNotification.cpp:277 src/slic3r/GUI/Tab.cpp:6013
 msgid "Tool change G-code"
 msgstr ""
@@ -289,13 +289,13 @@ msgstr ""
 msgid "Template Custom G-code"
 msgstr ""
 
-#: src/libslic3r/GCode.cpp:689 src/libslic3r/GCode.cpp:11435 src/libslic3r/GCode.cpp:11519
+#: src/libslic3r/GCode.cpp:689 src/libslic3r/GCode.cpp:11437 src/libslic3r/GCode.cpp:11521
 #: src/libslic3r/SlicingNotification.cpp:279
 msgid "Filament Start G-code"
 msgstr ""
 
 #: src/libslic3r/GCode.cpp:696 src/libslic3r/GCode.cpp:4028 src/libslic3r/GCode.cpp:4033
-#: src/libslic3r/GCode.cpp:11465 src/libslic3r/SlicingNotification.cpp:280
+#: src/libslic3r/GCode.cpp:11467 src/libslic3r/SlicingNotification.cpp:280
 msgid "Filament End G-code"
 msgstr ""
 
@@ -362,12 +362,12 @@ msgstr ""
 msgid "Unnamed object"
 msgstr ""
 
-#: src/libslic3r/GCode.cpp:7905
+#: src/libslic3r/GCode.cpp:7907
 #, boost-format
 msgid "Processing layer (%1%/%2%)"
 msgstr ""
 
-#: src/libslic3r/GCode.cpp:10196
+#: src/libslic3r/GCode.cpp:10198
 msgid "Final slicer G-code output"
 msgstr ""
 
@@ -947,8 +947,8 @@ msgstr ""
 #: src/slic3r/GUI/ConfigWizard.cpp:2517 src/slic3r/GUI/ConfigWizard.cpp:2553
 #: src/slic3r/GUI/ConfigWizard.cpp:2567 src/slic3r/GUI/ExtruderSequenceDialog.cpp:105
 #: src/slic3r/GUI/GCodeViewer.cpp:1264 src/slic3r/GUI/GCodeViewer.cpp:1284
-#: src/slic3r/GUI/GCodeViewer.cpp:4060 src/slic3r/GUI/GCodeViewer.cpp:4066
-#: src/slic3r/GUI/GCodeViewer.cpp:4074 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
+#: src/slic3r/GUI/GCodeViewer.cpp:4064 src/slic3r/GUI/GCodeViewer.cpp:4070
+#: src/slic3r/GUI/GCodeViewer.cpp:4078 src/slic3r/GUI/GUI_ObjectLayers.cpp:149
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -1294,7 +1294,7 @@ msgid ""
 "password required for authentication."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:1235 src/slic3r/GUI/GCodeViewer.cpp:4742 src/slic3r/GUI/GUI.cpp:391
+#: src/libslic3r/PrintConfig.cpp:1235 src/slic3r/GUI/GCodeViewer.cpp:4746 src/slic3r/GUI/GUI.cpp:391
 #: src/slic3r/GUI/GUI.cpp:433 src/slic3r/GUI/Sidebar.cpp:1132
 msgid "Printer"
 msgstr ""
@@ -2833,7 +2833,7 @@ msgstr ""
 #: src/libslic3r/PrintConfig.cpp:2504 src/libslic3r/PrintConfig.cpp:3436
 #: src/libslic3r/PrintConfig.cpp:3454 src/libslic3r/PrintConfig.cpp:3464
 #: src/libslic3r/PrintConfig.cpp:3543 src/libslic3r/PrintConfig.cpp:4513
-#: src/slic3r/GUI/GCodeViewer.cpp:4807
+#: src/slic3r/GUI/GCodeViewer.cpp:4811
 msgid "First layer"
 msgstr ""
 
@@ -2995,7 +2995,7 @@ msgid ""
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:2646 src/slic3r/GUI/GCodeViewer.cpp:1274
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 #: src/slic3r/GUI/Tab.cpp:2819
 msgid "Extrusion multiplier"
 msgstr ""
@@ -3015,7 +3015,7 @@ msgstr ""
 msgid "Enable pressure advance for this filament profile."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:2662 src/slic3r/GUI/GCodeViewer.cpp:1333
+#: src/libslic3r/PrintConfig.cpp:2662 src/slic3r/GUI/GCodeViewer.cpp:1337
 msgid "Pressure advance"
 msgstr ""
 
@@ -3405,8 +3405,8 @@ msgid ""
 "finish the print."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3870
-#: src/slic3r/GUI/GCodeViewer.cpp:4136
+#: src/libslic3r/PrintConfig.cpp:3019 src/slic3r/GUI/GCodeViewer.cpp:3874
+#: src/slic3r/GUI/GCodeViewer.cpp:4140
 msgid "g"
 msgstr ""
 
@@ -4174,8 +4174,8 @@ msgid ""
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:3715 src/libslic3r/PrintConfig.cpp:6406
-#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4364
-#: src/slic3r/GUI/GCodeViewer.cpp:4902 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
+#: src/slic3r/GUI/GCodeViewer.cpp:1169 src/slic3r/GUI/GCodeViewer.cpp:4368
+#: src/slic3r/GUI/GCodeViewer.cpp:4906 src/slic3r/GUI/Sidebar.cpp:677 src/slic3r/GUI/Sidebar.cpp:693
 msgid "Travel"
 msgstr ""
 
@@ -4834,8 +4834,8 @@ msgid ""
 "power in percent."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4184
-#: src/slic3r/GUI/GCodeViewer.cpp:4328 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
+#: src/libslic3r/PrintConfig.cpp:4343 src/slic3r/GUI/GCodeViewer.cpp:4188
+#: src/slic3r/GUI/GCodeViewer.cpp:4332 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Percentage"
 msgstr ""
 
@@ -8673,7 +8673,7 @@ msgid ""
 msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:9471 src/slic3r/GUI/ExtraRenderers.cpp:63
-#: src/slic3r/GUI/GCodeViewer.cpp:3787 src/slic3r/GUI/GCodeViewer.cpp:3795
+#: src/slic3r/GUI/GCodeViewer.cpp:3791 src/slic3r/GUI/GCodeViewer.cpp:3799
 #: src/slic3r/GUI/Tab.cpp:457 src/slic3r/GUI/Tab.cpp:482 src/slic3r/GUI/Tab.cpp:6360
 msgid "Duplicate"
 msgstr ""
@@ -9080,10 +9080,10 @@ msgstr ""
 msgid "Total filament volume extruded on the wipe tower."
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4184
-#: src/slic3r/GUI/GCodeViewer.cpp:4224 src/slic3r/GUI/GCodeViewer.cpp:4328
-#: src/slic3r/GUI/GCodeViewer.cpp:4330 src/slic3r/GUI/GCodeViewer.cpp:4668
-#: src/slic3r/GUI/GCodeViewer.cpp:4674
+#: src/libslic3r/PrintConfig.cpp:9732 src/slic3r/GUI/GCodeViewer.cpp:4188
+#: src/slic3r/GUI/GCodeViewer.cpp:4228 src/slic3r/GUI/GCodeViewer.cpp:4332
+#: src/slic3r/GUI/GCodeViewer.cpp:4334 src/slic3r/GUI/GCodeViewer.cpp:4672
+#: src/slic3r/GUI/GCodeViewer.cpp:4678
 msgid "Used filament"
 msgstr ""
 
@@ -10067,7 +10067,7 @@ msgstr ""
 #: src/slic3r/GUI/GCodeViewer.cpp:1261 src/slic3r/GUI/GCodeViewer.cpp:1271
 #: src/slic3r/GUI/GCodeViewer.cpp:1281 src/slic3r/GUI/GCodeViewer.cpp:1291
 #: src/slic3r/GUI/GCodeViewer.cpp:1306 src/slic3r/GUI/GCodeViewer.cpp:1316
-#: src/slic3r/GUI/GCodeViewer.cpp:1326 src/slic3r/GUI/GCodeViewer.cpp:1339
+#: src/slic3r/GUI/GCodeViewer.cpp:1326 src/slic3r/GUI/GCodeViewer.cpp:1343
 #: src/slic3r/GUI/OptionsGroup.cpp:230 src/slic3r/GUI/OptionsGroup.cpp:1164
 #: src/slic3r/GUI/OptionsGroup.cpp:1175 src/slic3r/GUI/OptionsGroup.cpp:1179
 #: src/slic3r/GUI/OptionsGroup.cpp:1182 src/slic3r/GUI/OptionsGroup.cpp:1189
@@ -10460,7 +10460,7 @@ msgstr ""
 msgid "Load shape from STL..."
 msgstr ""
 
-#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4728
+#: src/slic3r/GUI/BedShapeDialog.cpp:275 src/slic3r/GUI/GCodeViewer.cpp:4732
 #: src/slic3r/GUI/MainFrame.cpp:3814 src/slic3r/GUI/MainFrame.cpp:4626
 msgid "Settings"
 msgstr ""
@@ -11938,7 +11938,7 @@ msgstr ""
 msgid "Presets"
 msgstr ""
 
-#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4745
+#: src/slic3r/GUI/EditGCodeDialog.cpp:257 src/slic3r/GUI/GCodeViewer.cpp:4749
 #: src/slic3r/GUI/GUI.cpp:387 src/slic3r/GUI/GUI.cpp:429 src/slic3r/GUI/MainFrame.cpp:3821
 #: src/slic3r/GUI/Sidebar.cpp:1128
 msgid "Print settings"
@@ -12082,8 +12082,8 @@ msgid "Edit Restricted Zones"
 msgstr ""
 
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3789
-#: src/slic3r/GUI/GCodeViewer.cpp:3797 src/slic3r/GUI/GUI_Factories.cpp:1381
+#: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3793
+#: src/slic3r/GUI/GCodeViewer.cpp:3801 src/slic3r/GUI/GUI_Factories.cpp:1381
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2809 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
 #: src/slic3r/GUI/Tab.cpp:6362
 msgid "Mirror"
@@ -12148,7 +12148,7 @@ msgstr ""
 msgid "Essential mode"
 msgstr ""
 
-#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4796
+#: src/slic3r/GUI/Field.cpp:373 src/slic3r/GUI/GCodeViewer.cpp:4800
 #: src/slic3r/GUI/GLCanvas3D.cpp:3074
 msgid "Normal mode"
 msgstr ""
@@ -12881,7 +12881,7 @@ msgstr ""
 msgid "Pause Print"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1170 src/slic3r/GUI/GCodeViewer.cpp:4918
+#: src/slic3r/GUI/GCodeViewer.cpp:1170 src/slic3r/GUI/GCodeViewer.cpp:4922
 msgid "Wipe"
 msgstr ""
 
@@ -12898,8 +12898,8 @@ msgstr ""
 msgid "Show properties"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1256 src/slic3r/GUI/GCodeViewer.cpp:4184
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:1256 src/slic3r/GUI/GCodeViewer.cpp:4188
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 #: src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Feature type"
 msgstr ""
@@ -12916,29 +12916,34 @@ msgstr ""
 msgid "Fan speed"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1342 src/slic3r/GUI/GCodeViewer.cpp:4184
-#: src/slic3r/GUI/GCodeViewer.cpp:4328 src/slic3r/GUI/RammingChart.cpp:94
+#: src/slic3r/GUI/GCodeViewer.cpp:1333 src/slic3r/GUI/GCodeViewer.cpp:4245
+#: src/slic3r/GUI/GCodeViewer.cpp:4268
+msgid "Zoneheater power (%)"
+msgstr ""
+
+#: src/slic3r/GUI/GCodeViewer.cpp:1346 src/slic3r/GUI/GCodeViewer.cpp:4188
+#: src/slic3r/GUI/GCodeViewer.cpp:4332 src/slic3r/GUI/RammingChart.cpp:94
 #: src/slic3r/GUI/Sidebar.cpp:417 src/slic3r/GUI/Sidebar.cpp:740 src/slic3r/GUI/Sidebar.cpp:826
 msgid "Time"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1355
+#: src/slic3r/GUI/GCodeViewer.cpp:1359
 msgid "Actual speed profile"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1358
+#: src/slic3r/GUI/GCodeViewer.cpp:1362
 msgid "Hide table"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1358
+#: src/slic3r/GUI/GCodeViewer.cpp:1362
 msgid "Show table"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1424
+#: src/slic3r/GUI/GCodeViewer.cpp:1428
 msgid "Tool position"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:1783 src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:224
+#: src/slic3r/GUI/GCodeViewer.cpp:1787 src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp:224
 #: src/slic3r/GUI/MainFrame.cpp:299 src/slic3r/GUI/MainFrame.cpp:309
 #: src/slic3r/GUI/MainFrame.cpp:316 src/slic3r/GUI/MainFrame.cpp:2220
 #: src/slic3r/GUI/MainFrame.cpp:2254 src/slic3r/GUI/MainFrame.cpp:2289
@@ -12954,16 +12959,16 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:2802
+#: src/slic3r/GUI/GCodeViewer.cpp:2806
 msgid ""
 "The Realistic G-code path renderer could not be initialized. Classic rendering is used instead."
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3542
+#: src/slic3r/GUI/GCodeViewer.cpp:3546
 msgid "pressure advance range"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3871 src/slic3r/GUI/GCodeViewer.cpp:4137
+#: src/slic3r/GUI/GCodeViewer.cpp:3875 src/slic3r/GUI/GCodeViewer.cpp:4141
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:363 src/slic3r/GUI/GUI_ObjectManipulation.cpp:506
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:646 src/slic3r/GUI/GUI_ObjectManipulation.cpp:647
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:259 src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:568
@@ -12972,230 +12977,226 @@ msgstr ""
 msgid "in"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3872 src/slic3r/GUI/GCodeViewer.cpp:4138
+#: src/slic3r/GUI/GCodeViewer.cpp:3876 src/slic3r/GUI/GCodeViewer.cpp:4142
 msgctxt "Metre"
 msgid "m"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3888
+#: src/slic3r/GUI/GCodeViewer.cpp:3892
 msgid "Click to leave solo and toggle this line type"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3890
+#: src/slic3r/GUI/GCodeViewer.cpp:3894
 msgid "Click to hide"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3890
+#: src/slic3r/GUI/GCodeViewer.cpp:3894
 msgid "Click to show"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3892
+#: src/slic3r/GUI/GCodeViewer.cpp:3896
 msgid "Ctrl+click to restore previous visibility"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:3893
+#: src/slic3r/GUI/GCodeViewer.cpp:3897
 msgid "Ctrl+click to show only this line type"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4060
+#: src/slic3r/GUI/GCodeViewer.cpp:4064
 msgid "up to"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4066
+#: src/slic3r/GUI/GCodeViewer.cpp:4070
 msgid "above"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4074
+#: src/slic3r/GUI/GCodeViewer.cpp:4078
 msgid "from"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4074
+#: src/slic3r/GUI/GCodeViewer.cpp:4078
 msgid "to"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 msgid "Layer height (mm)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 msgid "Extrusion width (mm)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 msgid "Speed (mm/s)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4240 src/slic3r/GUI/GCodeViewer.cpp:4263
+#: src/slic3r/GUI/GCodeViewer.cpp:4244 src/slic3r/GUI/GCodeViewer.cpp:4267
 msgid "Actual speed (mm/s)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
+#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4268
 msgid "Fan speed (%)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
+#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4268
 msgid "Temperature (°C)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
-msgid "Zoneheater power (%)"
-msgstr ""
-
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
+#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4268
 msgid "Zoneheater spot time (s)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
+#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4268
 msgid "Volumetric flow rate (mm³/s)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4241 src/slic3r/GUI/GCodeViewer.cpp:4264
+#: src/slic3r/GUI/GCodeViewer.cpp:4245 src/slic3r/GUI/GCodeViewer.cpp:4268
 msgid "Actual volumetric flow rate (mm³/s)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4242
+#: src/slic3r/GUI/GCodeViewer.cpp:4246
 msgid "Layer time (linear)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4242
+#: src/slic3r/GUI/GCodeViewer.cpp:4246
 msgid "Layer time (logarithmic)"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4242 src/slic3r/GUI/GCodeViewer.cpp:4265
+#: src/slic3r/GUI/GCodeViewer.cpp:4246 src/slic3r/GUI/GCodeViewer.cpp:4269
 msgid "Tool"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4242 src/slic3r/GUI/GCodeViewer.cpp:4265
+#: src/slic3r/GUI/GCodeViewer.cpp:4246 src/slic3r/GUI/GCodeViewer.cpp:4269
 msgid "Color Print"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4259 src/slic3r/GUI/GCodeViewer.cpp:4280
+#: src/slic3r/GUI/GCodeViewer.cpp:4263 src/slic3r/GUI/GCodeViewer.cpp:4284
 msgid "Pressure Advance"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4366 src/slic3r/GUI/GCodeViewer.cpp:4377
-#: src/slic3r/GUI/GCodeViewer.cpp:4382 src/slic3r/GUI/GCodeViewer.cpp:4387
-#: src/slic3r/GUI/GCodeViewer.cpp:4392 src/slic3r/GUI/GCodeViewer.cpp:4403
-#: src/slic3r/GUI/GCodeViewer.cpp:4408
+#: src/slic3r/GUI/GCodeViewer.cpp:4370 src/slic3r/GUI/GCodeViewer.cpp:4381
+#: src/slic3r/GUI/GCodeViewer.cpp:4386 src/slic3r/GUI/GCodeViewer.cpp:4391
+#: src/slic3r/GUI/GCodeViewer.cpp:4396 src/slic3r/GUI/GCodeViewer.cpp:4407
+#: src/slic3r/GUI/GCodeViewer.cpp:4412
 msgid "Retract coasting"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4445
+#: src/slic3r/GUI/GCodeViewer.cpp:4449
 msgid "Default color"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4475
+#: src/slic3r/GUI/GCodeViewer.cpp:4479
 msgid "default color"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4512
+#: src/slic3r/GUI/GCodeViewer.cpp:4516
 msgid "Calculating zoneheater spot time..."
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4527
+#: src/slic3r/GUI/GCodeViewer.cpp:4531
 msgid "Zoneheater spot time is approximated in preview mode (nominal speeds)."
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4600 src/slic3r/GUI/GCodeViewer.cpp:4658
+#: src/slic3r/GUI/GCodeViewer.cpp:4604 src/slic3r/GUI/GCodeViewer.cpp:4662
 msgid "Color change"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4619 src/slic3r/GUI/GCodeViewer.cpp:4656
+#: src/slic3r/GUI/GCodeViewer.cpp:4623 src/slic3r/GUI/GCodeViewer.cpp:4660
 msgid "Print"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4657 src/slic3r/GUI/GCodeViewer.cpp:4688
+#: src/slic3r/GUI/GCodeViewer.cpp:4661 src/slic3r/GUI/GCodeViewer.cpp:4692
 msgid "Pause"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
+#: src/slic3r/GUI/GCodeViewer.cpp:4672 src/slic3r/GUI/GCodeViewer.cpp:4678
 msgid "Event"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
+#: src/slic3r/GUI/GCodeViewer.cpp:4672 src/slic3r/GUI/GCodeViewer.cpp:4678
 msgid "Remaining time"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4668 src/slic3r/GUI/GCodeViewer.cpp:4674
+#: src/slic3r/GUI/GCodeViewer.cpp:4672 src/slic3r/GUI/GCodeViewer.cpp:4678
 msgid "Duration"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4751 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
+#: src/slic3r/GUI/GCodeViewer.cpp:4755 src/slic3r/GUI/GUI.cpp:389 src/slic3r/GUI/GUI.cpp:431
 #: src/slic3r/GUI/Sidebar.cpp:1129
 msgid "Filament"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4768
+#: src/slic3r/GUI/GCodeViewer.cpp:4772
 msgid "Hide Custom G-code"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4768
+#: src/slic3r/GUI/GCodeViewer.cpp:4772
 msgid "Show Custom G-code"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4778
+#: src/slic3r/GUI/GCodeViewer.cpp:4782
 msgid "Estimated printing times"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4797 src/slic3r/GUI/GLCanvas3D.cpp:3065
+#: src/slic3r/GUI/GCodeViewer.cpp:4801 src/slic3r/GUI/GLCanvas3D.cpp:3065
 msgid "Stealth mode"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4810 src/slic3r/GUI/GLCanvas3D.cpp:3033
+#: src/slic3r/GUI/GCodeViewer.cpp:4814 src/slic3r/GUI/GLCanvas3D.cpp:3033
 #: src/slic3r/GUI/GLCanvas3D.cpp:3123 src/slic3r/GUI/GLCanvas3D.cpp:3195
 #: src/slic3r/GUI/GLCanvas3D.cpp:3233
 msgid "Total"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4827
+#: src/slic3r/GUI/GCodeViewer.cpp:4831
 msgid "Show stealth mode"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4831
+#: src/slic3r/GUI/GCodeViewer.cpp:4835
 msgid "Show normal mode"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4906
+#: src/slic3r/GUI/GCodeViewer.cpp:4910
 msgid "Seams"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4910
+#: src/slic3r/GUI/GCodeViewer.cpp:4914
 msgid "Retractions"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4914
+#: src/slic3r/GUI/GCodeViewer.cpp:4918
 msgid "Deretractions"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4922
+#: src/slic3r/GUI/GCodeViewer.cpp:4926
 msgid "Tool changes"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4926
+#: src/slic3r/GUI/GCodeViewer.cpp:4930
 msgid "Color changes"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4930
+#: src/slic3r/GUI/GCodeViewer.cpp:4934
 msgid "Custom G-codes"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4934
+#: src/slic3r/GUI/GCodeViewer.cpp:4938
 msgid "Print pauses"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4939
+#: src/slic3r/GUI/GCodeViewer.cpp:4943
 msgid "Shells"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4944
+#: src/slic3r/GUI/GCodeViewer.cpp:4948
 msgid "Tool marker"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4949
+#: src/slic3r/GUI/GCodeViewer.cpp:4953
 msgid "Show zoneheater ring"
 msgstr ""
 
-#: src/slic3r/GUI/GCodeViewer.cpp:4956
+#: src/slic3r/GUI/GCodeViewer.cpp:4960
 msgid "Center of gravity"
 msgstr ""
 
