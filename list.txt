@@ -377,6 +377,8 @@ src/libslic3r/MinAreaBoundingBox.cpp
 src/libslic3r/MinAreaBoundingBox.hpp
 src/libslic3r/Model.cpp
 src/libslic3r/Model.hpp
+src/libslic3r/ModelClipboard.cpp
+src/libslic3r/ModelClipboard.hpp
 src/libslic3r/ModelProcessing.cpp
 src/libslic3r/ModelProcessing.hpp
 src/libslic3r/MultiMaterialSegmentation.cpp
@@ -602,6 +604,7 @@ src/libslic3r/ZHoleCompensation.hpp
 src/libslic3r/Zipper.cpp
 src/libslic3r/Zipper.hpp
 src/libslic3r/ZoneHeaterCranial.hpp
+src/libslic3r/ZoneHeaterGradient.hpp
 src/libslic3r/clipper.cpp
 src/libslic3r/clipper.hpp
 src/libslic3r/clonable_ptr.hpp
@@ -946,6 +949,8 @@ src/slic3r/GUI/MainFrame.cpp
 src/slic3r/GUI/MainFrame.hpp
 src/slic3r/GUI/MeshUtils.cpp
 src/slic3r/GUI/MeshUtils.hpp
+src/slic3r/GUI/ModelClipboardService.cpp
+src/slic3r/GUI/ModelClipboardService.hpp
 src/slic3r/GUI/Mouse3DController.cpp
 src/slic3r/GUI/Mouse3DController.hpp
 src/slic3r/GUI/MsgDialog.cpp
