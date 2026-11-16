@@ -8333,7 +8333,7 @@ msgstr "Y 中的像素数"
 msgid "Display horizontal mirroring"
 msgstr "显示水平镜像"
 
-#: src/libslic3r/PrintConfig.cpp:7453 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2633
+#: src/libslic3r/PrintConfig.cpp:7453 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2637
 msgid "Mirror horizontally"
 msgstr "水平镜像"
 
@@ -8345,7 +8345,7 @@ msgstr "启用输出图像的水平镜像"
 msgid "Display vertical mirroring"
 msgstr "显示垂直镜像"
 
-#: src/libslic3r/PrintConfig.cpp:7460 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2626
+#: src/libslic3r/PrintConfig.cpp:7460 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2630
 msgid "Mirror vertically"
 msgstr "垂直镜像"
 
@@ -12636,7 +12636,7 @@ msgstr "编辑限制区域"
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3796
 #: src/slic3r/GUI/GCodeViewer.cpp:3804 src/slic3r/GUI/GUI_Factories.cpp:1381
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2809 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2813 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
 #: src/slic3r/GUI/Tab.cpp:6429
 msgid "Mirror"
 msgstr "镜像"
@@ -14356,10 +14356,10 @@ msgstr "SLA 打印设置"
 
 #: src/slic3r/GUI/GUI.cpp:392 src/slic3r/GUI/GUI.cpp:434 src/slic3r/GUI/MainFrame.cpp:693
 #: src/slic3r/GUI/MainFrame.cpp:978 src/slic3r/GUI/MainFrame.cpp:1225 src/slic3r/GUI/TopBar.cpp:547
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1184 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1268
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1276 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1285
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1324 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1332
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1341
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1187 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1271
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1279 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1288
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1327 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1335
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1344
 msgid "Webinterface"
 msgstr "网页界面"
 
@@ -15128,16 +15128,16 @@ msgid "Add text modifier"
 msgstr "添加文本修改器"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:234
-msgid "Add SVG part"
-msgstr "添加svg零件"
+msgid "Add SVG / DXF part"
+msgstr "添加 SVG / DXF 零件"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:235
-msgid "Add negative SVG"
-msgstr "添加负零件SVG"
+msgid "Add negative SVG / DXF"
+msgstr "添加 SVG / DXF 负体积"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:236
-msgid "Add SVG modifier"
-msgstr "添加SVG修改器"
+msgid "Add SVG / DXF modifier"
+msgstr "添加 SVG / DXF 修改器"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:384
 msgid "Select showing settings"
@@ -15213,17 +15213,18 @@ msgstr "添加文本"
 #: src/slic3r/GUI/GUI_Factories.cpp:673 src/slic3r/GUI/GUI_Factories.cpp:695
 #: src/slic3r/GUI/GUI_Factories.cpp:1096 src/slic3r/GUI/GUI_ObjectList.cpp:978
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:572 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1955
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1812
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1813
 msgid "Text"
 msgstr "文本"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:678
-msgid "Add SVG"
-msgstr "添加 SVG"
+msgid "Add SVG / DXF"
+msgstr "添加 SVG / DXF"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:678
-msgid "SVG"
-msgstr "SVG"
+#: src/slic3r/GUI/GUI_Factories.cpp:678 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1957
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1819
+msgid "SVG / DXF"
+msgstr "SVG / DXF"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:701 src/slic3r/GUI/GUI_Factories.cpp:757
 msgid "Height range Modifier"
@@ -15251,7 +15252,7 @@ msgid "Print Object"
 msgstr "打印对象"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:868 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2583
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2701
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2705
 msgid "Modifier"
 msgstr "修改器 Modifier"
 
@@ -15420,13 +15421,13 @@ msgstr "编辑文本"
 msgid "Ability to change text, font, size, ..."
 msgstr "能够更改文本、字体、大小。。。"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1425 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:445
-msgid "Edit SVG"
-msgstr "编辑 SVG"
+#: src/slic3r/GUI/GUI_Factories.cpp:1425 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:446
+msgid "Edit SVG / DXF"
+msgstr "编辑 SVG / DXF"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1449
-msgid "Change SVG source file, projection, size, ..."
-msgstr "改变SVG源文件、投影、大小 ..."
+msgid "Change SVG or DXF source file, projection, size, ..."
+msgstr "更改 SVG 或 DXF 源文件、投影、尺寸等"
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1472 src/slic3r/GUI/GUI_Factories.cpp:1827
 #: src/slic3r/GUI/GUI_ObjectList.cpp:2137
@@ -16025,7 +16026,7 @@ msgid "Change Object Type"
 msgstr "更改对象类型"
 
 #: src/slic3r/GUI/GUI_ObjectList.cpp:5002 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2568
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2686
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2690
 msgid "You can't change a type of the last solid part of the object."
 msgstr "不能更改对象的最后一个实体部分的类型。"
 
@@ -16197,7 +16198,7 @@ msgstr "选择坐标空间，将在其中执行转换。"
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:246 src/slic3r/GUI/GUI_ObjectManipulation.cpp:702
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:244 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4735
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2807 src/slic3r/GUI/Mouse3DController.cpp:541
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2811 src/slic3r/GUI/Mouse3DController.cpp:541
 #: src/slic3r/GUI/Mouse3DController.cpp:562
 msgid "Rotation"
 msgstr "旋转"
@@ -16222,7 +16223,7 @@ msgid "Mirror along %1% axis"
 msgstr "沿%1%轴镜像"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:322 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:489
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2644
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2648
 msgid "Set Mirror"
 msgstr "设置镜像"
 
@@ -16243,7 +16244,7 @@ msgstr ""
 "锁定时（默认），通过编辑Z位置无法将对象从打印床抬起或压入打印床。\n"
 "解锁时，可以自由设置Z位置。"
 
-#: src/slic3r/GUI/GUI_ObjectManipulation.cpp:434 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2594
+#: src/slic3r/GUI/GUI_ObjectManipulation.cpp:434 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2598
 msgid "Reset rotation"
 msgstr "重置旋转"
 
@@ -16252,7 +16253,7 @@ msgid "Reset Rotation"
 msgstr "重置旋转"
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:474 src/slic3r/GUI/GUI_ObjectManipulation.cpp:499
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2388
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2392
 msgid "Reset scale"
 msgstr "重置比例"
 
@@ -16722,7 +16723,7 @@ msgstr "连接器"
 #. Size in emboss direction
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:242 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4697
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2799
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2803
 msgid "Depth"
 msgstr "深度"
 
@@ -16766,7 +16767,7 @@ msgid "Move cut plane"
 msgstr "移动剖切面"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:532 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1953
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1810
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1811
 msgid "Mode"
 msgstr "模式"
 
@@ -17029,8 +17030,8 @@ msgstr "离开浮雕小工具"
 msgid "Embossing actions"
 msgstr "浮雕动作"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:857 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:445
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:593
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:857 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:446
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:594
 msgid "Emboss Model"
 msgstr "模型浮雕"
 
@@ -17066,47 +17067,47 @@ msgstr "缺省字体"
 msgid "Custom supports, seams and multimaterial painting were removed after embossed text changed."
 msgstr "浮雕文字更改后，自定义支撑、接缝和多材料绘制已被移除。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1919 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1710
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1919 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1711
 msgid "Select face:"
 msgstr "选择面："
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1926 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1717
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1926 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1718
 msgid "Select"
 msgstr "选择"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1730
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1731
 msgid "Creating emboss preview..."
 msgstr "正在创建浮雕预览..."
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1941 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1732
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1941 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1733
 msgid "Select a face in the 3D view."
 msgstr "请在 3D 视图中选择一个面。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1977 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1841
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1977 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1842
 msgid "Center on face"
 msgstr "在表面居中"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1984 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1852
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1984 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1853
 msgid "Center is available only for connected planar faces."
 msgstr "仅可在连续的平面上使用居中功能。"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1996 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2543
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1868 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2663
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1869 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2667
 msgid "Operation"
 msgstr "操作"
 
 #. TRN EmbossOperation
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2002 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2679
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
 msgid "Raised"
 msgstr "凸起"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2004 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2569
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2687
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2691
 msgid "Emboss"
 msgstr "浮雕"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2012 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1877
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2012 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1878
 msgid "Calculating emboss geometry..."
 msgstr "正在计算浮雕几何体..."
 
@@ -17171,7 +17172,7 @@ msgstr "删除线"
 msgid "Font \"%1%\" can't be selected."
 msgstr "无法选择字体“%1%”。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2679
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
 msgid "Join"
 msgstr "加入"
 
@@ -17179,20 +17180,20 @@ msgstr "加入"
 msgid "Create the emboss along the outward surface normal."
 msgstr "沿表面向外法线方向创建凸起。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2565 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2565 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2687
 msgid "Click to change text into object part."
 msgstr "单击可将文本更改为对象部分。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2570 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2688
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2570 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2692
 msgctxt "EmbossOperation"
 msgid "Cut"
 msgstr "切"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2577 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2695
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2577 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2699
 msgid "Click to change part type into negative volume."
 msgstr "单击可将零件类型更改为负体积。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2589 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2707
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2589 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2711
 msgid "Click to change part type into modifier."
 msgstr "单击可将零件类型更改为修改器。"
 
@@ -17515,7 +17516,7 @@ msgstr "字体"
 #. TRN - Input label. Be short as possible
 #. Copy surface of model on surface of the embossed text
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4708 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2803
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4708 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2807
 msgid "Use surface"
 msgstr "使用曲面"
 
@@ -17556,7 +17557,7 @@ msgstr "偏斜率"
 #. move text as part fully into not flat surface
 #. move text as modifier fully out of not flat surface
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4731 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2805
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4731 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2809
 msgid "From surface"
 msgstr "从表面"
 
@@ -18172,99 +18173,99 @@ msgid "Optimize orientation"
 msgstr "优化方向"
 
 #. TRN - Title in Undo/Redo stack after rotate with SVG around emboss axe
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:61
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:62
 msgid "SVG rotate"
 msgstr "旋转SVG图形"
 
 #. TRN - Title in Undo/Redo stack after move with SVG along emboss axe - From surface
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:65
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:66
 msgid "SVG move"
 msgstr "移动SVG图形"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:428
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:429
 msgid "Enter SVG gizmo"
 msgstr "进入SVG小工具"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:429
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:430
 msgid "Leave SVG gizmo"
 msgstr "离开SVG小工具"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:430
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:431
 msgid "SVG actions"
 msgstr "SVG操作"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1182 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1219
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1183 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1220
 #, boost-format
 msgid "Opacity (%1%)"
 msgstr "不透明度 (%1%)"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1187 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1223
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1188 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1224
 #, boost-format
 msgid "Color gradient (%1%)"
 msgstr "渐变 (%1%)"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1190
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1191
 msgid "Undefined fill type"
 msgstr "未定义的填充类型"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1193 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1229
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1194 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1230
 msgid "Linear gradient"
 msgstr "线性渐变"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1197 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1233
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1198 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1234
 msgid "Radial gradient"
 msgstr "径向渐变"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1206
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1207
 msgid "Open filled path"
 msgstr "打开填充路径"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1226
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1227
 msgid "Undefined stroke type"
 msgstr "未定义的描边类型"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1270
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1271
 msgid "Path can't be healed from selfintersection and multiple points."
 msgstr "无法修复路径中的自相交和重复点。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1274
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1275
 msgid "Final shape constains selfintersection or multiple points with same coordinate."
 msgstr "最终形状包含自相交或坐标相同的重复点。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1280
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1281
 #, boost-format
 msgid "Shape is marked as invisible (%1%)."
 msgstr "形状已被标记为不可见 (%1%)."
 
 #. TRN: The first placeholder is shape identifier, the second one is text describing the problem.
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1287
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1288
 #, boost-format
 msgid "Fill of shape (%1%) contains unsupported: %2%."
 msgstr "形状填充（%1%）包含不受支持的：%2%。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1292
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1293
 #, boost-format
 msgid "Stroke of shape (%1%) is too thin (minimal width is %2% mm)."
 msgstr "形状 (%1%) 的描边太细了（不小于 %2% mm）。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1297
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1298
 #, boost-format
 msgid "Stroke of shape (%1%) contains unsupported: %2%."
 msgstr "形状笔划（%1%）包含不受支持的：%2%。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1703
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1704
 msgid "Custom supports, seams and multimaterial painting were removed after SVG changed."
 msgstr "SVG 更改后，已移除自定义支撑、接缝和多材料绘制。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1854
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1855
 msgid "Maximize size"
 msgstr "最大尺寸"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1857
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1858
 msgid "Maximize size is available only for connected planar faces."
 msgstr "最大尺寸仅适用于连续的平面。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1945 src/slic3r/GUI/SurfaceDrag.cpp:637
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1946 src/slic3r/GUI/SurfaceDrag.cpp:637
 msgid "Face the camera"
 msgstr "面向摄像机"
 
@@ -18273,22 +18274,22 @@ msgstr "面向摄像机"
 msgid "Unknown filename"
 msgstr "未知文件名"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2036
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2037
 #, boost-format
-msgid "SVG file path is \"%1%\""
-msgstr "SVG文件路径：\"%1%\""
+msgid "Source file path is \"%1%\""
+msgstr "源文件路径为“%1%”"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2053
-msgid "Reload SVG file from disk."
-msgstr "从磁盘重新加载SVG文件。"
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2055
+msgid "Reload source file from disk."
+msgstr "从磁盘重新加载源文件。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2063
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2065
 msgid "Change file"
 msgstr "改变文件"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2072
-msgid "Change to another .svg file"
-msgstr "更换为另一个 .svg 文件"
+msgid "Change to another SVG or DXF file"
+msgstr "更换为其他 SVG 或 DXF 文件"
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2075
 msgid "Forget the file path"
@@ -18324,69 +18325,126 @@ msgstr "保存SVG文件"
 msgid "Save as '.svg' file"
 msgstr "另存为“.svg”文件"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2224
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2228
 msgid "Size in emboss direction."
 msgstr "浮雕方向上的大小"
 
 #. TRN: The placeholder contains a number.
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2278
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2282
 #, boost-format
 msgid "Scale also changes amount of curve samples (%1%)"
 msgstr "缩放也会改变曲线样本的数量（%1%）"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2317
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2321
 msgid "Lock/unlock the aspect ratio of the SVG."
 msgstr "锁定/解锁SVG的宽高比。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2355
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2359
 msgid "Width of SVG."
 msgstr "SVG宽度"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2375
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2379
 msgid "Height of SVG."
 msgstr "SVG高度"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2521
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2525
 msgid "Distance of the center of the SVG to the model surface."
 msgstr "SVG中心到模型表面的距离。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2547
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2551
 msgid "Reset distance"
 msgstr "重置距离"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2571
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2575
 msgid "Rotate Clock-wise."
 msgstr "顺时针旋转。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2614
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2618
 msgid "Lock/unlock rotation angle when dragging above the surface."
 msgstr "在曲面上方拖动时锁定/解锁旋转角度。"
 
 #. TRN: This is the name of the action that shows in undo/redo stack (changing part type from SVG to something else).
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2720
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2724
 msgid "Change SVG Type"
 msgstr "改变SVG类型"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2851
-msgid "Choose SVG file for emboss:"
-msgstr "选择SVG文件进行浮雕操作:"
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2855
+msgid "Choose SVG or DXF file for emboss:"
+msgstr "选择用于浮雕的 SVG 或 DXF 文件："
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2905
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2857
+msgid "Vector files (SVG, DXF)"
+msgstr "矢量文件（SVG、DXF）"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2909
 #, boost-format
 msgid "File does NOT exist (%1%)."
 msgstr "文件不存在 (%1%)。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2910
-#, boost-format
-msgid "Filename has to end with \".svg\" but you selected %1%"
-msgstr "文件名必须以“.svg”结尾，但您选择的是%1%"
-
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2915
+#, boost-format
+msgid "Filename has to end with \".svg\" or \".dxf\" but you selected %1%"
+msgstr "文件名必须以“.svg”或“.dxf”结尾，但您选择了 %1%"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2923
+#, boost-format
+msgid "Unable to read DXF file (%1%)."
+msgstr "无法读取 DXF 文件（%1%）。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2931
+msgid "The file is not a valid ASCII DXF drawing. Binary DXF is not supported."
+msgstr "该文件不是有效的 ASCII DXF 图形。不支持二进制 DXF 文件。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2933
+msgid ""
+"Supported DXF elements are LINE, ARC, CIRCLE, ELLIPSE, LWPOLYLINE and 2D POLYLINE without width. "
+"Convert text, splines, blocks and hatches to these outlines before importing."
+msgstr ""
+"支持的 DXF 元素包括 LINE、ARC、CIRCLE、ELLIPSE、LWPOLYLINE 和无宽度的二维 POLYLINE。导入前请将文"
+"字、样条曲线、块和填充转换为这些轮廓。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2935
+msgid ""
+"DXF outlines must lie in the XY plane at Z = 0, without thickness or a custom extrusion direction."
+msgstr "DXF 轮廓必须位于 Z = 0 的 XY 平面内，且不能具有厚度或自定义拉伸方向。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2937
+msgid ""
+"DXF outlines must form closed contours without branches. Join the endpoints in your CAD "
+"application before importing."
+msgstr "DXF 轮廓必须闭合且无分支。导入前请在 CAD 应用程序中连接端点。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2968
+msgid "The DXF drawing does not contain any closed outlines to emboss."
+msgstr "DXF 图形中没有可用于浮雕的闭合轮廓。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2941
+msgid ""
+"The DXF drawing is too large or its coordinates exceed the supported range. Simplify it before "
+"importing."
+msgstr "DXF 图形过大或其坐标超出支持的范围。请在导入前简化图形。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2944 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2967
+#, boost-format
+msgid ""
+"Unable to import DXF file (%1%):\n"
+"%2%"
+msgstr ""
+"无法导入 DXF 文件（%1%）：\n"
+"%2%"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2950
+#, boost-format
+msgid ""
+"DXF import: %1% point entities and %2% open paths were skipped. Only closed contours are embossed."
+msgstr "DXF 导入：已跳过 %1% 个点实体和 %2% 条开放路径。仅对闭合轮廓进行浮雕。"
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2955
 #, boost-format
 msgid "Nano SVG parser can't load from file (%1%)."
 msgstr "Nano SVG解析器无法从文件中加载 (%1%)。"
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2925
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2970
 #, boost-format
 msgid "SVG file does NOT contain a single path to be embossed (%1%)."
 msgstr "SVG文件不包含路径以进行浮雕操作 (%1%)。"
@@ -25925,7 +25983,7 @@ msgid "The G-code viewer could not be started."
 msgstr "无法启动 G-code 查看器。"
 
 #: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:63 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:84
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:443
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:444
 msgid "Thermoshape settings"
 msgstr "Thermoshape 设置"
 
@@ -26055,8 +26113,8 @@ msgid ""
 "preserved."
 msgstr "要重置此打印机所有已保存的用户名、密码和 API 密钥吗？打印机设置将予以保留。"
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1214 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1268
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1324
+#: src/slic3r/GUI/WebInterfaceStore.cpp:1214 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1271
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1327
 msgid "Printer name cannot be empty."
 msgstr "打印机名称不能为空。"
 
@@ -26076,8 +26134,8 @@ msgstr "请在凭据字段中输入用户名和密码，不要将其放在打印
 msgid "Enter a valid HTTP or HTTPS printer URL with a valid port."
 msgstr "请输入有效的 HTTP 或 HTTPS 打印机 URL，并使用有效端口。"
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1238 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1276
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1332
+#: src/slic3r/GUI/WebInterfaceStore.cpp:1238 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1279
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1335
 msgid "A printer with this name already exists."
 msgstr "已存在同名打印机。"
 
@@ -26101,36 +26159,36 @@ msgstr "打开所选打印机的文件传输"
 msgid "Reload"
 msgstr "重新加载"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:456 src/slic3r/GUI/WebInterfaceTabPanel.cpp:717
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:459 src/slic3r/GUI/WebInterfaceTabPanel.cpp:720
 msgid "No webinterface printer configured yet."
 msgstr "尚未配置网页界面打印机。"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:457 src/slic3r/GUI/WebInterfaceTabPanel.cpp:719
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:460 src/slic3r/GUI/WebInterfaceTabPanel.cpp:722
 msgid "Add printer"
 msgstr "添加打印机"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:479
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:482
 msgid "Reset remembered download actions"
 msgstr "重置已记住的下载操作"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:608
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:611
 msgid "This browser runtime cannot display PDF files. Install a WebKitGTK runtime with PDF support."
 msgstr "此浏览器运行时无法显示 PDF 文件。请安装支持 PDF 的 WebKitGTK 运行时。"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:617 src/slic3r/GUI/WebViewDialog.cpp:78
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:620 src/slic3r/GUI/WebViewDialog.cpp:78
 #: src/slic3r/GUI/WebViewPanel.cpp:299
 msgid "Failed to load a web browser."
 msgstr "无法加载网页浏览器。"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:717
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:720
 msgid "Thermoshape settings could not be loaded."
 msgstr "无法加载 Thermoshape 设置。"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1147
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1150
 msgid "This printer has no valid webinterface URL. Use Edit to configure it."
 msgstr "此打印机尚未配置有效的 Web 界面 URL。请使用“编辑”进行配置。"
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1186
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1189
 #, boost-format
 msgid "Webinterface (%1%)"
 msgstr "网页界面（%1%）"

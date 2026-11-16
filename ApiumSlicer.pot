@@ -8039,7 +8039,7 @@ msgstr ""
 msgid "Display horizontal mirroring"
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:7453 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2633
+#: src/libslic3r/PrintConfig.cpp:7453 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2637
 msgid "Mirror horizontally"
 msgstr ""
 
@@ -8051,7 +8051,7 @@ msgstr ""
 msgid "Display vertical mirroring"
 msgstr ""
 
-#: src/libslic3r/PrintConfig.cpp:7460 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2626
+#: src/libslic3r/PrintConfig.cpp:7460 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2630
 msgid "Mirror vertically"
 msgstr ""
 
@@ -10365,7 +10365,7 @@ msgstr ""
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:2365 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1926
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2651 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2736
 #: src/slic3r/GUI/Gizmos/GLGizmoFdmSupports.cpp:71 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:1559
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1717 src/slic3r/GUI/MainFrame.cpp:237
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1718 src/slic3r/GUI/MainFrame.cpp:237
 #: src/slic3r/GUI/MainFrame.cpp:3924 src/slic3r/GUI/Plater.cpp:6346
 #: src/slic3r/GUI/ProgressStatusBar.cpp:34 src/slic3r/GUI/SendSystemInfoDialog.cpp:111
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:934 src/slic3r/GUI/UnsavedChangesDialog.cpp:1659
@@ -10548,7 +10548,7 @@ msgstr ""
 
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/BedShapeDialog.cpp:50 src/slic3r/GUI/FileTransferTabPanel.cpp:1278
-#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:243 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2801
+#: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:243 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2805
 #: src/slic3r/GUI/Sidebar.cpp:131
 msgid "Size"
 msgstr ""
@@ -12214,7 +12214,7 @@ msgstr ""
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/ExtraRenderers.cpp:65 src/slic3r/GUI/GCodeViewer.cpp:3796
 #: src/slic3r/GUI/GCodeViewer.cpp:3804 src/slic3r/GUI/GUI_Factories.cpp:1381
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2809 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2813 src/slic3r/GUI/Tab.cpp:459 src/slic3r/GUI/Tab.cpp:484
 #: src/slic3r/GUI/Tab.cpp:6429
 msgid "Mirror"
 msgstr ""
@@ -13901,10 +13901,10 @@ msgstr ""
 
 #: src/slic3r/GUI/GUI.cpp:392 src/slic3r/GUI/GUI.cpp:434 src/slic3r/GUI/MainFrame.cpp:693
 #: src/slic3r/GUI/MainFrame.cpp:978 src/slic3r/GUI/MainFrame.cpp:1225 src/slic3r/GUI/TopBar.cpp:547
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1184 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1268
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1276 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1285
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1324 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1332
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1341
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1187 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1271
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1279 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1288
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1327 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1335
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1344
 msgid "Webinterface"
 msgstr ""
 
@@ -14600,15 +14600,15 @@ msgid "Add text modifier"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:234
-msgid "Add SVG part"
+msgid "Add SVG / DXF part"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:235
-msgid "Add negative SVG"
+msgid "Add negative SVG / DXF"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:236
-msgid "Add SVG modifier"
+msgid "Add SVG / DXF modifier"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:384
@@ -14687,16 +14687,17 @@ msgstr ""
 #: src/slic3r/GUI/GUI_Factories.cpp:673 src/slic3r/GUI/GUI_Factories.cpp:695
 #: src/slic3r/GUI/GUI_Factories.cpp:1096 src/slic3r/GUI/GUI_ObjectList.cpp:978
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:572 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1955
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1812
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1813
 msgid "Text"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:678
-msgid "Add SVG"
+msgid "Add SVG / DXF"
 msgstr ""
 
-#: src/slic3r/GUI/GUI_Factories.cpp:678
-msgid "SVG"
+#: src/slic3r/GUI/GUI_Factories.cpp:678 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1957
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1819
+msgid "SVG / DXF"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:701 src/slic3r/GUI/GUI_Factories.cpp:757
@@ -14725,7 +14726,7 @@ msgid "Print Object"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:868 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2583
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2701
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2705
 msgid "Modifier"
 msgstr ""
 
@@ -14894,12 +14895,12 @@ msgstr ""
 msgid "Ability to change text, font, size, ..."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1425 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:445
-msgid "Edit SVG"
+#: src/slic3r/GUI/GUI_Factories.cpp:1425 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:446
+msgid "Edit SVG / DXF"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1449
-msgid "Change SVG source file, projection, size, ..."
+msgid "Change SVG or DXF source file, projection, size, ..."
 msgstr ""
 
 #: src/slic3r/GUI/GUI_Factories.cpp:1472 src/slic3r/GUI/GUI_Factories.cpp:1827
@@ -15498,7 +15499,7 @@ msgid "Change Object Type"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectList.cpp:5002 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2568
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2686
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2690
 msgid "You can't change a type of the last solid part of the object."
 msgstr ""
 
@@ -15670,7 +15671,7 @@ msgstr ""
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:246 src/slic3r/GUI/GUI_ObjectManipulation.cpp:702
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:244 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4735
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2807 src/slic3r/GUI/Mouse3DController.cpp:541
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2811 src/slic3r/GUI/Mouse3DController.cpp:541
 #: src/slic3r/GUI/Mouse3DController.cpp:562
 msgid "Rotation"
 msgstr ""
@@ -15692,7 +15693,7 @@ msgid "Mirror along %1% axis"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:322 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:489
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2644
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2648
 msgid "Set Mirror"
 msgstr ""
 
@@ -15710,7 +15711,7 @@ msgid ""
 "When unlocked, the Z position can be set freely."
 msgstr ""
 
-#: src/slic3r/GUI/GUI_ObjectManipulation.cpp:434 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2594
+#: src/slic3r/GUI/GUI_ObjectManipulation.cpp:434 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2598
 msgid "Reset rotation"
 msgstr ""
 
@@ -15719,7 +15720,7 @@ msgid "Reset Rotation"
 msgstr ""
 
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:474 src/slic3r/GUI/GUI_ObjectManipulation.cpp:499
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2388
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2392
 msgid "Reset scale"
 msgstr ""
 
@@ -16186,7 +16187,7 @@ msgstr ""
 #. Size in emboss direction
 #. TRN - Input label. Be short as possible
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:242 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4697
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2799
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2803
 msgid "Depth"
 msgstr ""
 
@@ -16225,7 +16226,7 @@ msgid "Move cut plane"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoCut.cpp:532 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1953
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1810
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1811
 msgid "Mode"
 msgstr ""
 
@@ -16487,8 +16488,8 @@ msgstr ""
 msgid "Embossing actions"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:857 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:445
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:593
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:857 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:446
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:594
 msgid "Emboss Model"
 msgstr ""
 
@@ -16524,51 +16525,51 @@ msgstr ""
 msgid "Custom supports, seams and multimaterial painting were removed after embossed text changed."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1919 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1710
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1919 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1711
 msgid "Select face:"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1926 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1717
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1926 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1718
 msgid "Select"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1730
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1731
 msgid "Creating emboss preview..."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1941 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1732
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1941 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1733
 msgid "Select a face in the 3D view."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1977 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1841
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1977 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1842
 msgid "Center on face"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1984 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1852
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1984 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1853
 msgid "Center is available only for connected planar faces."
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1996 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2543
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1868 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2663
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1869 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2667
 msgid "Operation"
 msgstr ""
 
 #. TRN EmbossOperation
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2002 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2679
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
 msgid "Raised"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2004 src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2569
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2687
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2691
 msgid "Emboss"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2012 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1877
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2012 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1878
 msgid "Calculating emboss geometry..."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2026 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1890
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2026 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1891
 msgid "Confirm"
 msgstr ""
 
@@ -16630,7 +16631,7 @@ msgstr ""
 msgid "Font \"%1%\" can't be selected."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2679
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2559 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
 msgid "Join"
 msgstr ""
 
@@ -16638,20 +16639,20 @@ msgstr ""
 msgid "Create the emboss along the outward surface normal."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2565 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2683
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2565 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2687
 msgid "Click to change text into object part."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2570 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2688
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2570 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2692
 msgctxt "EmbossOperation"
 msgid "Cut"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2577 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2695
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2577 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2699
 msgid "Click to change part type into negative volume."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2589 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2707
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:2589 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2711
 msgid "Click to change part type into modifier."
 msgstr ""
 
@@ -16962,7 +16963,7 @@ msgstr ""
 #. TRN - Input label. Be short as possible
 #. Copy surface of model on surface of the embossed text
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4708 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2803
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4708 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2807
 msgid "Use surface"
 msgstr ""
 
@@ -17005,7 +17006,7 @@ msgstr ""
 #. move text as part fully into not flat surface
 #. move text as modifier fully out of not flat surface
 #. TRN - Input label. Be short as possible
-#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4731 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2805
+#: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:4731 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2809
 msgid "From surface"
 msgstr ""
 
@@ -17620,99 +17621,99 @@ msgid "Optimize orientation"
 msgstr ""
 
 #. TRN - Title in Undo/Redo stack after rotate with SVG around emboss axe
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:61
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:62
 msgid "SVG rotate"
 msgstr ""
 
 #. TRN - Title in Undo/Redo stack after move with SVG along emboss axe - From surface
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:65
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:66
 msgid "SVG move"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:428
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:429
 msgid "Enter SVG gizmo"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:429
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:430
 msgid "Leave SVG gizmo"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:430
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:431
 msgid "SVG actions"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1182 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1219
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1183 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1220
 #, boost-format
 msgid "Opacity (%1%)"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1187 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1223
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1188 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1224
 #, boost-format
 msgid "Color gradient (%1%)"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1190
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1191
 msgid "Undefined fill type"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1193 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1229
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1194 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1230
 msgid "Linear gradient"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1197 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1233
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1198 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1234
 msgid "Radial gradient"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1206
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1207
 msgid "Open filled path"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1226
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1227
 msgid "Undefined stroke type"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1270
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1271
 msgid "Path can't be healed from selfintersection and multiple points."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1274
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1275
 msgid "Final shape constains selfintersection or multiple points with same coordinate."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1280
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1281
 #, boost-format
 msgid "Shape is marked as invisible (%1%)."
 msgstr ""
 
 #. TRN: The first placeholder is shape identifier, the second one is text describing the problem.
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1287
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1288
 #, boost-format
 msgid "Fill of shape (%1%) contains unsupported: %2%."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1292
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1293
 #, boost-format
 msgid "Stroke of shape (%1%) is too thin (minimal width is %2% mm)."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1297
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1298
 #, boost-format
 msgid "Stroke of shape (%1%) contains unsupported: %2%."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1703
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1704
 msgid "Custom supports, seams and multimaterial painting were removed after SVG changed."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1854
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1855
 msgid "Maximize size"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1857
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1858
 msgid "Maximize size is available only for connected planar faces."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1945 src/slic3r/GUI/SurfaceDrag.cpp:637
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:1946 src/slic3r/GUI/SurfaceDrag.cpp:637
 msgid "Face the camera"
 msgstr ""
 
@@ -17721,21 +17722,21 @@ msgstr ""
 msgid "Unknown filename"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2036
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2037
 #, boost-format
-msgid "SVG file path is \"%1%\""
+msgid "Source file path is \"%1%\""
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2053
-msgid "Reload SVG file from disk."
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2055
+msgid "Reload source file from disk."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2063
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2065
 msgid "Change file"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2072
-msgid "Change to another .svg file"
+msgid "Change to another SVG or DXF file"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2075
@@ -17770,69 +17771,122 @@ msgstr ""
 msgid "Save as '.svg' file"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2224
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2228
 msgid "Size in emboss direction."
 msgstr ""
 
 #. TRN: The placeholder contains a number.
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2278
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2282
 #, boost-format
 msgid "Scale also changes amount of curve samples (%1%)"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2317
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2321
 msgid "Lock/unlock the aspect ratio of the SVG."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2355
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2359
 msgid "Width of SVG."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2375
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2379
 msgid "Height of SVG."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2521
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2525
 msgid "Distance of the center of the SVG to the model surface."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2547
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2551
 msgid "Reset distance"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2571
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2575
 msgid "Rotate Clock-wise."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2614
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2618
 msgid "Lock/unlock rotation angle when dragging above the surface."
 msgstr ""
 
 #. TRN: This is the name of the action that shows in undo/redo stack (changing part type from SVG to something else).
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2720
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2724
 msgid "Change SVG Type"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2851
-msgid "Choose SVG file for emboss:"
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2855
+msgid "Choose SVG or DXF file for emboss:"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2905
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2857
+msgid "Vector files (SVG, DXF)"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2909
 #, boost-format
 msgid "File does NOT exist (%1%)."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2910
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2915
 #, boost-format
-msgid "Filename has to end with \".svg\" but you selected %1%"
+msgid "Filename has to end with \".svg\" or \".dxf\" but you selected %1%"
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2915
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2923
+#, boost-format
+msgid "Unable to read DXF file (%1%)."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2931
+msgid "The file is not a valid ASCII DXF drawing. Binary DXF is not supported."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2933
+msgid ""
+"Supported DXF elements are LINE, ARC, CIRCLE, ELLIPSE, LWPOLYLINE and 2D POLYLINE without width. "
+"Convert text, splines, blocks and hatches to these outlines before importing."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2935
+msgid ""
+"DXF outlines must lie in the XY plane at Z = 0, without thickness or a custom extrusion direction."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2937
+msgid ""
+"DXF outlines must form closed contours without branches. Join the endpoints in your CAD "
+"application before importing."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2939 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2968
+msgid "The DXF drawing does not contain any closed outlines to emboss."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2941
+msgid ""
+"The DXF drawing is too large or its coordinates exceed the supported range. Simplify it before "
+"importing."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2944 src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2967
+#, boost-format
+msgid ""
+"Unable to import DXF file (%1%):\n"
+"%2%"
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2950
+#, boost-format
+msgid ""
+"DXF import: %1% point entities and %2% open paths were skipped. Only closed contours are embossed."
+msgstr ""
+
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2955
 #, boost-format
 msgid "Nano SVG parser can't load from file (%1%)."
 msgstr ""
 
-#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2925
+#: src/slic3r/GUI/Gizmos/GLGizmoSVG.cpp:2970
 #, boost-format
 msgid "SVG file does NOT contain a single path to be embossed (%1%)."
 msgstr ""
@@ -18162,7 +18216,7 @@ msgid "Open Documentation in web browser."
 msgstr ""
 
 #: src/slic3r/GUI/ImGuiWrapper.cpp:578 src/slic3r/GUI/SshTabPanel.cpp:408
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:433 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1148
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:433 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1151
 msgid "Edit"
 msgstr ""
 
@@ -25142,7 +25196,7 @@ msgid "The G-code viewer could not be started."
 msgstr ""
 
 #: src/slic3r/GUI/WebInterfacePrinterDialog.cpp:63 src/slic3r/GUI/WebInterfacePrinterDialog.cpp:84
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:443
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:444
 msgid "Thermoshape settings"
 msgstr ""
 
@@ -25266,8 +25320,8 @@ msgid ""
 "preserved."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1214 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1268
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1324
+#: src/slic3r/GUI/WebInterfaceStore.cpp:1214 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1271
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1327
 msgid "Printer name cannot be empty."
 msgstr ""
 
@@ -25287,8 +25341,8 @@ msgstr ""
 msgid "Enter a valid HTTP or HTTPS printer URL with a valid port."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceStore.cpp:1238 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1276
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1332
+#: src/slic3r/GUI/WebInterfaceStore.cpp:1238 src/slic3r/GUI/WebInterfaceTabPanel.cpp:1279
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1335
 msgid "A printer with this name already exists."
 msgstr ""
 
@@ -25312,36 +25366,36 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:456 src/slic3r/GUI/WebInterfaceTabPanel.cpp:717
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:459 src/slic3r/GUI/WebInterfaceTabPanel.cpp:720
 msgid "No webinterface printer configured yet."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:457 src/slic3r/GUI/WebInterfaceTabPanel.cpp:719
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:460 src/slic3r/GUI/WebInterfaceTabPanel.cpp:722
 msgid "Add printer"
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:479
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:482
 msgid "Reset remembered download actions"
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:608
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:611
 msgid "This browser runtime cannot display PDF files. Install a WebKitGTK runtime with PDF support."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:617 src/slic3r/GUI/WebViewDialog.cpp:78
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:620 src/slic3r/GUI/WebViewDialog.cpp:78
 #: src/slic3r/GUI/WebViewPanel.cpp:299
 msgid "Failed to load a web browser."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:717
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:720
 msgid "Thermoshape settings could not be loaded."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1147
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1150
 msgid "This printer has no valid webinterface URL. Use Edit to configure it."
 msgstr ""
 
-#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1186
+#: src/slic3r/GUI/WebInterfaceTabPanel.cpp:1189
 #, boost-format
 msgid "Webinterface (%1%)"
 msgstr ""

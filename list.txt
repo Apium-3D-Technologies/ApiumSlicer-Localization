@@ -225,6 +225,8 @@ src/libslic3r/Format/AMF.cpp
 src/libslic3r/Format/AMF.hpp
 src/libslic3r/Format/AnycubicSLA.cpp
 src/libslic3r/Format/AnycubicSLA.hpp
+src/libslic3r/Format/DXF.cpp
+src/libslic3r/Format/DXF.hpp
 src/libslic3r/Format/OBJ.cpp
 src/libslic3r/Format/OBJ.hpp
 src/libslic3r/Format/PrintRequest.cpp
