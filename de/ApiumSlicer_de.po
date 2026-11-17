@@ -3795,7 +3795,7 @@ msgstr ""
 
 #: src/libslic3r/PrintConfig.cpp:3030 src/libslic3r/PrintConfig.cpp:7640
 #: src/libslic3r/PrintConfig.cpp:7641 src/slic3r/GUI/GLCanvas3D.cpp:3039
-#: src/slic3r/GUI/Sidebar.cpp:1862
+#: src/slic3r/GUI/Sidebar.cpp:1880
 msgid "Cost"
 msgstr "Kosten"
 
@@ -9936,7 +9936,7 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr "Slice das Modell und Export von SLA-Druckschichten als PNG."
 
 #: src/libslic3r/PrintConfig.cpp:9542 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:9263 src/slic3r/GUI/Sidebar.cpp:1269
+#: src/slic3r/GUI/Plater.cpp:9263 src/slic3r/GUI/Sidebar.cpp:1274
 msgid "Export G-code"
 msgstr "Export G-Code"
 
@@ -10955,7 +10955,7 @@ msgstr "INFO:"
 msgid "WARNING:"
 msgstr "WARNUNG:"
 
-#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10234
+#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10300
 #: src/slic3r/GUI/NotificationManager.cpp:2292 src/slic3r/GUI/NotificationManager.cpp:2319
 #: src/slic3r/GUI/NotificationManager.cpp:2325
 msgid "ERROR:"
@@ -11648,7 +11648,7 @@ msgstr "Interner Name"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1861
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1869
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1875
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:9124
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:9189
 #: src/slic3r/GUI/Plater.cpp:3050 src/slic3r/GUI/Plater.cpp:4239
 msgid "Invalid data"
 msgstr "Ungültige Daten"
@@ -11711,7 +11711,7 @@ msgstr "Es wurden keine bearbeitbaren Benutzer-Presets geändert."
 msgid "Some presets could not be saved:"
 msgstr "Einige Presets konnten nicht gespeichert werden:"
 
-#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7331
+#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7391
 msgid "Arrange options"
 msgstr "Anordnungsoptionen"
 
@@ -14865,11 +14865,11 @@ msgstr "Zoneheater-Ring anzeigen"
 msgid "Center of gravity"
 msgstr "Schwerpunkt"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7484
+#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7544
 msgid "Variable Zoneheater Power"
 msgstr "Variable Zoneheater-Leistung"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7461
+#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7521
 #: src/slic3r/GUI/ObjectDataViewModel.cpp:81
 msgid "Variable layer height"
 msgstr "Variable Schichthöhe"
@@ -15037,76 +15037,76 @@ msgstr "Statistiken sind verfügbar, sobald alle Druckbetten gesliced wurden"
 msgid "Mirror Object"
 msgstr "Objekt spiegeln"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4868 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
+#: src/slic3r/GUI/GLCanvas3D.cpp:4876 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
 msgid "Gizmo-Move"
 msgstr "Gizmo Bewegen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4967 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
+#: src/slic3r/GUI/GLCanvas3D.cpp:4979 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
 msgid "Gizmo-Rotate"
 msgstr "Gizmo-Rotation"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:5846
+#: src/slic3r/GUI/GLCanvas3D.cpp:5906
 msgid "Move Object"
 msgstr "Objekt bewegen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6093
+#: src/slic3r/GUI/GLCanvas3D.cpp:6153
 msgid "Painted adhesion pads were removed because the object was moved in Z."
 msgstr "Aufgemalte Haft-Pads wurden entfernt, weil das Objekt in Z-Richtung verschoben wurde."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6130 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:6190 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
 msgid "Gizmo-Place on Face"
 msgstr "Gizmo Auf Fläche legen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6187
+#: src/slic3r/GUI/GLCanvas3D.cpp:6247
 msgid "Painted adhesion pads were removed because the object was rotated."
 msgstr "Aufgemalte Haft-Pads wurden entfernt, weil das Objekt gedreht wurde."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6330
+#: src/slic3r/GUI/GLCanvas3D.cpp:6390
 msgid "Painted adhesion pads were removed because the object was mirrored."
 msgstr "Aufgemalte Haft-Pads wurden entfernt, weil das Objekt gespiegelt wurde."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6399
+#: src/slic3r/GUI/GLCanvas3D.cpp:6459
 msgid "Painted adhesion pads were removed because skew was reset for the object."
 msgstr ""
 "Aufgemalte Haft-Pads wurden entfernt, weil die Schrägstellung des Objekts zurückgesetzt wurde."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6598
+#: src/slic3r/GUI/GLCanvas3D.cpp:6658
 msgid "Switch to Settings"
 msgstr "Zu Einstellungen wechseln"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6599 src/slic3r/GUI/MainFrame.cpp:959
+#: src/slic3r/GUI/GLCanvas3D.cpp:6659 src/slic3r/GUI/MainFrame.cpp:959
 msgid "Print Settings Tab"
 msgstr "Druckeinstellungsreiter"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6600 src/slic3r/GUI/MainFrame.cpp:960
+#: src/slic3r/GUI/GLCanvas3D.cpp:6660 src/slic3r/GUI/MainFrame.cpp:960
 msgid "Filament Settings Tab"
 msgstr "Filamenteinstellungsreiter"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6600 src/slic3r/GUI/MainFrame.cpp:960
+#: src/slic3r/GUI/GLCanvas3D.cpp:6660 src/slic3r/GUI/MainFrame.cpp:960
 #: src/slic3r/GUI/MainFrame.cpp:3503 src/slic3r/GUI/MainFrame.cpp:3731
 msgid "Material Settings Tab"
 msgstr "Materialeinstellungsreiter"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6601 src/slic3r/GUI/MainFrame.cpp:961
+#: src/slic3r/GUI/GLCanvas3D.cpp:6661 src/slic3r/GUI/MainFrame.cpp:961
 msgid "Printer Settings Tab"
 msgstr "Druckereinstellungsreiter"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6697
+#: src/slic3r/GUI/GLCanvas3D.cpp:6757
 msgid "Undo History"
 msgstr "Undo Verlauf"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6697
+#: src/slic3r/GUI/GLCanvas3D.cpp:6757
 msgid "Redo History"
 msgstr "Redo Verlauf"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6717
+#: src/slic3r/GUI/GLCanvas3D.cpp:6777
 #, c-format, boost-format
 msgid "Undo %1$d Action"
 msgid_plural "Undo %1$d Actions"
 msgstr[0] "Undo %1$d Aktion"
 msgstr[1] "Undo %1$d Aktionen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6717
+#: src/slic3r/GUI/GLCanvas3D.cpp:6777
 #, c-format, boost-format
 msgid "Redo %1$d Action"
 msgid_plural "Redo %1$d Actions"
@@ -15117,20 +15117,20 @@ msgstr[1] "Redo %1$d Aktionen"
 msgid "Search"
 msgstr "Suchen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6744 src/slic3r/GUI/Search.cpp:554
+#: src/slic3r/GUI/GLCanvas3D.cpp:6804 src/slic3r/GUI/Search.cpp:554
 msgid "Enter a search term"
 msgstr "Suchbegriff eingeben"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7305
+#: src/slic3r/GUI/GLCanvas3D.cpp:7365
 msgid "Add..."
 msgstr "Hinzufügen..."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7322 src/slic3r/GUI/KBShortcutsDialog.cpp:110
+#: src/slic3r/GUI/GLCanvas3D.cpp:7382 src/slic3r/GUI/KBShortcutsDialog.cpp:110
 #: src/slic3r/GUI/Plater.cpp:6750 src/slic3r/GUI/Tab.cpp:8815
 msgid "Delete all"
 msgstr "Alle löschen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7354 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:7414 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
 #: src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:492 src/slic3r/GUI/KBShortcutsDialog.cpp:148
 #: src/slic3r/GUI/Plater.cpp:6868
 msgid "Create Pattern"
@@ -15144,37 +15144,37 @@ msgstr "Kopieren"
 msgid "Paste"
 msgstr "Einfügen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7399 src/slic3r/GUI/GUI_Factories.cpp:1774
+#: src/slic3r/GUI/GLCanvas3D.cpp:7459 src/slic3r/GUI/GUI_Factories.cpp:1774
 #: src/slic3r/GUI/GUI_Factories.cpp:1798 src/slic3r/GUI/GUI_Factories.cpp:1809
 msgid "Add instance"
 msgstr "Kopie hinzufügen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7410 src/slic3r/GUI/GUI_Factories.cpp:1777
+#: src/slic3r/GUI/GLCanvas3D.cpp:7470 src/slic3r/GUI/GUI_Factories.cpp:1777
 msgid "Remove instance"
 msgstr "Kopie entfernen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7423
+#: src/slic3r/GUI/GLCanvas3D.cpp:7483
 msgid "Split to objects"
 msgstr "In Objekte trennen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7433
+#: src/slic3r/GUI/GLCanvas3D.cpp:7493
 msgid "Split to parts"
 msgstr "In Teile trennen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7504 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
+#: src/slic3r/GUI/GLCanvas3D.cpp:7564 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:2263
 msgid "Measure"
 msgstr "Messen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7521 src/slic3r/GUI/MainFrame.cpp:3485
+#: src/slic3r/GUI/GLCanvas3D.cpp:7581 src/slic3r/GUI/MainFrame.cpp:3485
 msgid "Search in settings"
 msgstr "Suche in Einstellungen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7580 src/slic3r/GUI/GLCanvas3D.cpp:7617
+#: src/slic3r/GUI/GLCanvas3D.cpp:7640 src/slic3r/GUI/GLCanvas3D.cpp:7677
 msgid "Click right mouse button to open/close History"
 msgstr "Klicken Sie mit der rechten Maustaste, um die Historie zu öffnen/schließen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7602
+#: src/slic3r/GUI/GLCanvas3D.cpp:7662
 #, boost-format
 msgid "Next Undo action: %1%"
 msgstr "Nächste Undo-Aktion: %1%"
@@ -15183,12 +15183,12 @@ msgstr "Nächste Undo-Aktion: %1%"
 msgid "Redo"
 msgstr "Redo"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7638
+#: src/slic3r/GUI/GLCanvas3D.cpp:7698
 #, boost-format
 msgid "Next Redo action: %1%"
 msgstr "Nächste Redo Aktion: %1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9059 src/slic3r/GUI/MainFrame.cpp:3244
+#: src/slic3r/GUI/GLCanvas3D.cpp:9124 src/slic3r/GUI/MainFrame.cpp:3244
 msgid "Front"
 msgstr "Front"
 
@@ -15224,81 +15224,81 @@ msgstr "Links"
 msgid "Right"
 msgstr "Rechts"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9120
+#: src/slic3r/GUI/GLCanvas3D.cpp:9185
 msgid "Unsliced bed"
 msgstr "Nicht geslictes Druckbett"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9121 src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:8088
+#: src/slic3r/GUI/GLCanvas3D.cpp:9186 src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:8088
 #: src/slic3r/GUI/Plater.cpp:8090 src/slic3r/GUI/Plater.cpp:8118 src/slic3r/GUI/Plater.cpp:8132
 #: src/slic3r/GUI/Tab.cpp:2857 src/slic3r/GUI/Tab.cpp:9883
 msgid "Slicing"
 msgstr "Slice"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9122
+#: src/slic3r/GUI/GLCanvas3D.cpp:9187
 msgid "Sliced bed"
 msgstr "Geslictes Druckbett"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9123
+#: src/slic3r/GUI/GLCanvas3D.cpp:9188
 msgid "Object at boundary"
 msgstr "Objekt am Rand"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9125
+#: src/slic3r/GUI/GLCanvas3D.cpp:9190
 msgid "Empty bed"
 msgstr "Leeres Druckbett"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9126
+#: src/slic3r/GUI/GLCanvas3D.cpp:9191
 msgid "Toolpath exceeds bounds"
 msgstr "Werkzeugpfad überschreitet die Grenzen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9382
+#: src/slic3r/GUI/GLCanvas3D.cpp:9447
 msgid "Slice all"
 msgstr "Alle slicen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9601
+#: src/slic3r/GUI/GLCanvas3D.cpp:9666
 msgid "The preview legend is hidden."
 msgstr "Die Vorschaulegende ist ausgeblendet."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9602
+#: src/slic3r/GUI/GLCanvas3D.cpp:9667
 msgid "Press L or use View -> Show Legend to show it again."
 msgstr "Drücken Sie L oder verwenden Sie Ansicht -> Legende anzeigen, um sie wieder einzublenden."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9765
+#: src/slic3r/GUI/GLCanvas3D.cpp:9830
 msgid "Layer statistics"
 msgstr "Schicht-Statistiken"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9766
+#: src/slic3r/GUI/GLCanvas3D.cpp:9831
 #, boost-format
 msgid "Layer area: %1% mm²"
 msgstr "Schicht-Bereich: %1% mm²"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9768
+#: src/slic3r/GUI/GLCanvas3D.cpp:9833
 #, boost-format
 msgid "Area fill: %1% %%"
 msgstr "Breichsfüllung: %1% %%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9770
+#: src/slic3r/GUI/GLCanvas3D.cpp:9835
 #, boost-format
 msgid "Layer time: %1%"
 msgstr "Schicht-Zeit: %1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9771
+#: src/slic3r/GUI/GLCanvas3D.cpp:9836
 #, boost-format
 msgid "Time since start: %1%"
 msgstr "Zeit seit Start: %1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10174
+#: src/slic3r/GUI/GLCanvas3D.cpp:10240
 msgid "An object outside the print area was detected."
 msgstr "Es wurde ein Objekt außerhalb des Druckbereichs erkannt."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10175
+#: src/slic3r/GUI/GLCanvas3D.cpp:10241
 msgid "A toolpath outside the print area was detected."
 msgstr "Es wurde ein Werkzeugweg außerhalb des Druckbereichs erkannt."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10176
+#: src/slic3r/GUI/GLCanvas3D.cpp:10242
 msgid "SLA supports outside the print area were detected."
 msgstr "SLA-Stützen außerhalb des Druckbereichs wurden erkannt."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10179
+#: src/slic3r/GUI/GLCanvas3D.cpp:10245
 msgid ""
 "An object outside the print area was detected.\n"
 "Resolve the current problem to continue slicing."
@@ -15307,7 +15307,7 @@ msgstr ""
 "Das Problem lösen, um mit dem Slicen fortzufahren."
 
 #. TRN %3% is name of Object1, %4% is name of Object2
-#: src/slic3r/GUI/GLCanvas3D.cpp:10191
+#: src/slic3r/GUI/GLCanvas3D.cpp:10257
 #, boost-format
 msgid ""
 "Conflicts in G-code paths have been detected at layer %1%, z=%2$.2f mm. Please reposition the "
@@ -15317,7 +15317,7 @@ msgstr ""
 "positionieren Sie die kollidierenden Objekte (%3% <-> %4%) weiter auseinander."
 
 #. TRN: Placeholders contain names of the colliding objects.
-#: src/slic3r/GUI/GLCanvas3D.cpp:10201
+#: src/slic3r/GUI/GLCanvas3D.cpp:10267
 #, boost-format
 msgid "Extruder will crash into %1% while printing %2%."
 msgstr "Der Extruder kollidiert beim Drucken von %2% mit %1%."
@@ -15326,11 +15326,15 @@ msgstr "Der Extruder kollidiert beim Drucken von %2% mit %1%."
 msgid "Jump to"
 msgstr "Gehen zu"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10323
+#: src/slic3r/GUI/GLCanvas3D.cpp:10392
+msgid "Selection-Add from lasso"
+msgstr "Auswahl per Lasso hinzufügen"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:10392
 msgid "Selection-Add from rectangle"
 msgstr "Auswahl über Rechteck hinzufügen"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10338
+#: src/slic3r/GUI/GLCanvas3D.cpp:10407
 msgid "Selection-Remove from rectangle"
 msgstr "Auswahl über Rechteck entfernen"
 
@@ -16570,7 +16574,7 @@ msgstr "SVG- oder DXF-Quelldatei, Projektion, Größe usw. ändern"
 msgid "Add Shape"
 msgstr "Form hinzufügen"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1501 src/slic3r/GUI/KBShortcutsDialog.cpp:163
+#: src/slic3r/GUI/GUI_Factories.cpp:1501 src/slic3r/GUI/KBShortcutsDialog.cpp:166
 #: src/slic3r/GUI/ObjectClippingController.cpp:485 src/slic3r/GUI/Plater.cpp:4536
 msgid "Clipping view"
 msgstr "Schnittansicht"
@@ -20245,7 +20249,7 @@ msgstr "Sende G-code"
 msgid "Export config"
 msgstr "Konfiguration exportieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:104 src/slic3r/GUI/Sidebar.cpp:1252
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:104 src/slic3r/GUI/Sidebar.cpp:1257
 msgid "Export to SD card / Flash drive"
 msgstr "Export auf SD-Karte/Flash-Laufwerk"
 
@@ -20266,7 +20270,7 @@ msgid "Paste from clipboard"
 msgstr "Aus Zwischenablage einfügen"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:116 src/slic3r/GUI/KBShortcutsDialog.cpp:118
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:224
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:227
 msgid "Reload plater from disk"
 msgstr "Druckplatte neu von der Festplatte laden"
 
@@ -20318,7 +20322,7 @@ msgstr "Einstellungen"
 msgid "Show keyboard shortcuts list"
 msgstr "Liste der Tastaturkürzel anzeigen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:143 src/slic3r/GUI/KBShortcutsDialog.cpp:228
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:143 src/slic3r/GUI/KBShortcutsDialog.cpp:231
 msgid "Commands"
 msgstr "Befehle"
 
@@ -20338,7 +20342,7 @@ msgstr "Kopie des gewählten Objektes hinzufügen"
 msgid "Remove Instance of the selected object"
 msgstr "Entfernt Kopie des gewählten Objekts"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:151
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:152
 msgid ""
 "Press to select multiple objects\n"
 "or move multiple objects with mouse"
@@ -20346,59 +20350,63 @@ msgstr ""
 "Drücken zum Auswählen des mehrteiligen Objekts \n"
 "oder Bewegen des mehrteiligen Objekts mit der Maus"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:152
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:154
+msgid "Drag with the left mouse button to add objects using a lasso"
+msgstr "Mit gedrückter linker Maustaste ziehen, um Objekte per Lasso zur Auswahl hinzuzufügen"
+
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:155
 msgid "Press to activate selection rectangle"
 msgstr "Drücken um das Auswahlrechteck zu aktivieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:153
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:156
 msgid "Press to activate deselection rectangle"
 msgstr "Drücken um das Abwahlrechteck zu aktivieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:154 src/slic3r/GUI/KBShortcutsDialog.cpp:232
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:248 src/slic3r/GUI/KBShortcutsDialog.cpp:263
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:157 src/slic3r/GUI/KBShortcutsDialog.cpp:235
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:251 src/slic3r/GUI/KBShortcutsDialog.cpp:266
 msgid "Arrow Up"
 msgstr "Pfeil hoch"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:154
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:157
 msgid "Move selection 10 mm in positive Y direction"
 msgstr "Auswahl 10 mm in positiver Y-Richtung verschieben"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:155 src/slic3r/GUI/KBShortcutsDialog.cpp:233
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:249 src/slic3r/GUI/KBShortcutsDialog.cpp:264
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:158 src/slic3r/GUI/KBShortcutsDialog.cpp:236
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:252 src/slic3r/GUI/KBShortcutsDialog.cpp:267
 msgid "Arrow Down"
 msgstr "Pfeil runter"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:155
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:158
 msgid "Move selection 10 mm in negative Y direction"
 msgstr "Auswahl 10 mm in negativer Y-Richtung verschieben"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:156 src/slic3r/GUI/KBShortcutsDialog.cpp:234
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:250 src/slic3r/GUI/KBShortcutsDialog.cpp:261
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:159 src/slic3r/GUI/KBShortcutsDialog.cpp:237
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:253 src/slic3r/GUI/KBShortcutsDialog.cpp:264
 msgid "Arrow Left"
 msgstr "Pfeil links"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:156
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:159
 msgid "Move selection 10 mm in negative X direction"
 msgstr "Auswahl 10 mm in negativer X-Richtung verschieben"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:157 src/slic3r/GUI/KBShortcutsDialog.cpp:235
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:251 src/slic3r/GUI/KBShortcutsDialog.cpp:262
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:160 src/slic3r/GUI/KBShortcutsDialog.cpp:238
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:254 src/slic3r/GUI/KBShortcutsDialog.cpp:265
 msgid "Arrow Right"
 msgstr "Pfeil rechts"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:157
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:160
 msgid "Move selection 10 mm in positive X direction"
 msgstr "Auswahl 10 mm in positiver X-Richtung verschieben"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:158 src/slic3r/GUI/KBShortcutsDialog.cpp:159
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:161 src/slic3r/GUI/KBShortcutsDialog.cpp:162
 msgid "Any arrow"
 msgstr "Jeder Pfeil"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:158
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:161
 msgid "Movement step set to 1 mm"
 msgstr "Bewegungsschritt auf 1 mm eingestellt"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:159
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:162
 msgid "Movement in camera space"
 msgstr "Bewegung im Kameraraum"
 
@@ -20407,7 +20415,7 @@ msgstr "Bewegung im Kameraraum"
 msgid "Page Up"
 msgstr "Page Up"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:160
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:163
 msgid "Rotate selection 45 degrees CCW"
 msgstr "Auswahl um 45 Grad drehen gegen UZS"
 
@@ -20416,75 +20424,75 @@ msgstr "Auswahl um 45 Grad drehen gegen UZS"
 msgid "Page Down"
 msgstr "Page Down"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:161
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:164
 msgid "Rotate selection 45 degrees CW"
 msgstr "Auswahl um 45 Grad drehen im UZS"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:162
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:165
 msgid "Move selection to bed center"
 msgstr "Auswahl in die Mitte des Druckbetts verschieben"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:164
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:167
 msgid "Gizmo move"
 msgstr "Gizmo Bewegung"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:165
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:168
 msgid "Gizmo scale"
 msgstr "Gizmo Skalieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:166
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:169
 msgid "Gizmo rotate"
 msgstr "Gizmo Rotieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:167
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:170
 msgid "Gizmo cut"
 msgstr "Gizmo Schnitt"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:168
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:171
 msgid "Gizmo Place face on bed"
 msgstr "Gizmo auf Fläche platzieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:169
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:172
 msgid "Gizmo SLA hollow"
 msgstr "Gizmo SLA Aushöhlung"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:170
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:173
 msgid "Gizmo FDM paint-on fuzzy skin"
 msgstr "Gizmo: FDM-Fuzzy-Skin aufmalen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:171
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:174
 msgid "Gizmo SLA support points"
 msgstr "Gizmo SLA Stützpunkte"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:172
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:175
 msgid "Gizmo FDM paint-on supports"
 msgstr "Gizmo FDM Aufmal-Stützen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:173
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:176
 msgid "Gizmo FDM paint-on seam"
 msgstr "Gizmo FDM Aufmal-Naht"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:174
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:177
 msgid "Gizmo Multi Material painting"
 msgstr "Gizmo Multi Material Bemalung"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:175
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:178
 msgid "Gizmo Text emboss / engrave"
 msgstr "Gizmo Text Prägen / Gravieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:176
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:179
 msgid "Unselect gizmo or clear selection"
 msgstr "Gizmo abwählen oder Auswahl löschen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:177
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:180
 msgid "Change camera type (perspective, orthographic)"
 msgstr "Ändern des Kameratyps (perspektivisch, orthografisch)"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:178
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:181
 msgid "Zoom to Bed"
 msgstr "Zoom aufs Druckbett"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:179
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:182
 msgid ""
 "Zoom to selected object\n"
 "or all objects in scene, if none selected"
@@ -20492,204 +20500,204 @@ msgstr ""
 "Auf ausgewähltes Objekt zoomen\n"
 "oder alle Objekte in der Szene, wenn keines ausgewählt ist"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:180
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:183
 msgid "Zoom in"
 msgstr "Heranzoomen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:181
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:184
 msgid "Zoom out"
 msgstr "Herauszoomen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:182
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:185
 msgid "Switch between Editor/Preview"
 msgstr "Umschalten zwischen Editor/Vorschau"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:183
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:186
 msgid "Collapse/Expand the sidebar"
 msgstr "Seitenleiste zu-/ausklappen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:185
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:188
 msgid "Show/Hide 3Dconnexion devices settings dialog, if enabled"
 msgstr "Dialogfeld Einstellungen für 3Dconnexion-Geräte anzeigen/verbergen, falls aktiviert"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:188 src/slic3r/GUI/KBShortcutsDialog.cpp:191
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:191 src/slic3r/GUI/KBShortcutsDialog.cpp:194
 msgid "Show/Hide 3Dconnexion devices settings dialog"
 msgstr "Einstellungsdialog für 3Dconnexion-Geräte ein-/ausblenden"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:189
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:192
 msgid "Minimize application"
 msgstr "Anwendung minimieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:196 src/slic3r/GUI/MainFrame.cpp:810
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:199 src/slic3r/GUI/MainFrame.cpp:810
 #: src/slic3r/GUI/MainFrame.cpp:977 src/slic3r/GUI/TopBar.cpp:542
 msgid "Plater"
 msgstr "Druckplatte"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:199
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:202
 msgid "All gizmos: Rotate - left mouse button; Pan - right mouse button"
 msgstr "Alles Gizmos: Drehen - linke Maustaste; Schwenken - rechte Maustaste"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:200
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:203
 msgid "Gizmo move: Press to snap by 1mm"
 msgstr "Gizmo Bewegung: Drücken um um 1 mm zu Rasten"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:201
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:204
 msgid "Gizmo scale: Press to snap by 5%"
 msgstr "Gizmo Skalieren: Drücken, um um 5% zu rasten"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:202
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:205
 msgid "Gizmo scale: Scale selection to fit print volume"
 msgstr "Gizmo Skalieren: Auswahl skalieren, um in das Druckvolumen zu passen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:203
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:206
 msgid "Gizmo scale: Press to activate one direction scaling"
 msgstr "Gizmo Skalieren: Drücken, um Eine-Richtung-Skalierung zu aktivieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:204
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:207
 msgid "Gizmo scale: Press to scale selected objects around their own center"
 msgstr "Gizmo Skalieren: Drücken, um ausgewählte Objekte um ihr eigenes Zentrum zu skalieren"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:205
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
 msgid "Gizmo rotate: Press to rotate selected objects around their own center"
 msgstr "Gizmo Rotieren: Drücken, um ausgewählte Objekte um ihr eigenes Zentrum zu drehen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
 msgid "Gizmos"
 msgstr "Gizmos"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
 msgid "The following shortcuts are applicable when the specified gizmo is active"
 msgstr "Die folgenden Tastenkombinationen sind anwendbar, wenn das angegebene Gizmo aktiv ist"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:214
 msgid "Set selected items as Printable/Unprintable"
 msgstr "Ausgewählte Elemente als druckbar/ nicht druckbar festlegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:212
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:215
 msgid "Set default extruder for the selected items"
 msgstr "Standard-Extruder für die ausgewählten Elemente festlegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:213
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:216
 msgid "Set extruder number for the selected items"
 msgstr "Extrudernummer für die ausgewählten Elemente einstellen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:216
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:219
 msgid "Objects List"
 msgstr "Objektliste"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:220 src/slic3r/GUI/MainFrame.cpp:3660
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:223 src/slic3r/GUI/MainFrame.cpp:3660
 msgid "Open a G-code file"
 msgstr "Öffne eine G-Code-Datei"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:222 src/slic3r/GUI/MainFrame.cpp:1675
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:225 src/slic3r/GUI/MainFrame.cpp:1675
 #: src/slic3r/GUI/MainFrame.cpp:3472 src/slic3r/GUI/MainFrame.cpp:3479
 #: src/slic3r/GUI/MainFrame.cpp:3665 src/slic3r/GUI/MainFrame.cpp:3669
 msgid "Reload the plater from disk"
 msgstr "Druckplatte neu von der Festplatte laden"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:232 src/slic3r/GUI/KBShortcutsDialog.cpp:236
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:235 src/slic3r/GUI/KBShortcutsDialog.cpp:239
 msgid "Vertical slider - Move active thumb Up"
 msgstr "Vertikaler Schieberegler - Aktiven Schieber nach oben bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:233 src/slic3r/GUI/KBShortcutsDialog.cpp:237
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:236 src/slic3r/GUI/KBShortcutsDialog.cpp:240
 msgid "Vertical slider - Move active thumb Down"
 msgstr "Vertikaler Schieberegler - Aktiven Schieber nach unten bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:234 src/slic3r/GUI/KBShortcutsDialog.cpp:238
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:237 src/slic3r/GUI/KBShortcutsDialog.cpp:241
 msgid "Horizontal slider - Move active thumb Left"
 msgstr "Horizontaler Schieberegler - Aktiven Schieber nach links bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:235 src/slic3r/GUI/KBShortcutsDialog.cpp:239
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:238 src/slic3r/GUI/KBShortcutsDialog.cpp:242
 msgid "Horizontal slider - Move active thumb Right"
 msgstr "Horizontaler Schieberegler - Aktiven Schieber nach rechts bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:240
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:243
 msgid "On/Off one layer mode of the vertical slider"
 msgstr "Ein/Aus Einschichtmodus des vertikalen Schiebereglers"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:241
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:244
 msgid "Show/Hide legend"
 msgstr "Legende ein-/ausblenden"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:242
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:245
 msgid "Show/Hide G-code window"
 msgstr "G-Code-Fenster ein-/ausblenden"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:245 src/slic3r/GUI/Plater.cpp:4741
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:248 src/slic3r/GUI/Plater.cpp:4741
 #: src/slic3r/GUI/Tab.cpp:6796
 msgid "Preview"
 msgstr "Vorschau"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:248
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:251
 msgid "Move active thumb Up"
 msgstr "Aktiven Schieber nach oben bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:249
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:252
 msgid "Move active thumb Down"
 msgstr "Aktiven Schieber nach unten bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:250
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:253
 msgid "Set upper thumb as active"
 msgstr "Oberen Schieber aktiv setzen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:251
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:254
 msgid "Set lower thumb as active"
 msgstr "Unteren Schieber aktiv setzen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:252
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:255
 msgid "Add color change marker for current layer"
 msgstr "Fügt einen Farbwechselmarker der aktuellen Schicht hinzu"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:253
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:256
 msgid "Delete color change marker for current layer"
 msgstr "Löscht einen Farbwechselmarker der aktuellen Schicht"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:254 src/slic3r/GUI/KBShortcutsDialog.cpp:255
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:265 src/slic3r/GUI/KBShortcutsDialog.cpp:266
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:257 src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:268 src/slic3r/GUI/KBShortcutsDialog.cpp:269
 msgid ""
 "Press to speed up 5 times while moving thumb\n"
 "with arrow keys or mouse wheel"
 msgstr ""
 "Drücken, um 5 Mal schneller zu werden, während der Regler mit Pfeiltasten oder Mausrad bewegt wird"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
 msgid "Vertical Slider"
 msgstr "Vertikaler Schieberegler"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
 msgid "The following shortcuts are applicable in G-code preview when the vertical slider is active"
 msgstr ""
 "Die folgenden Tastenkombinationen sind in der G-Code-Vorschau anwendbar, wenn der vertikale "
 "Schieberegler aktiv ist"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:264
 msgid "Move active thumb Left"
 msgstr "Aktiven Schieber nach links bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:262
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:265
 msgid "Move active thumb Right"
 msgstr "Aktiven Schieber nach rechts bewegen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:263
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:266
 msgid "Set left thumb as active"
 msgstr "Linken Schieber aktiv setzen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:264
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:267
 msgid "Set right thumb as active"
 msgstr "Rechten Schieber aktiv setzen"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:269
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:272
 msgid "Horizontal Slider"
 msgstr "Horizontaler Schieberegler"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:269
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:272
 msgid ""
 "The following shortcuts are applicable in G-code preview when the horizontal slider is active"
 msgstr ""
 "Die folgenden Tastenkombinationen sind in der G-Code-Vorschau anwendbar, wenn der horizontale "
 "Schieberegler aktiv ist"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:293
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:296
 msgid "Keyboard shortcuts"
 msgstr "Tastaturkürzel"
 
@@ -22269,7 +22277,7 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp:522 src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3087
 #: src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:4266 src/slic3r/GUI/Plater.cpp:4269
 #: src/slic3r/GUI/Plater.cpp:8098 src/slic3r/GUI/Plater.cpp:8135 src/slic3r/GUI/Plater.cpp:8889
-#: src/slic3r/GUI/Plater.cpp:8890 src/slic3r/GUI/Sidebar.cpp:1270
+#: src/slic3r/GUI/Plater.cpp:8890 src/slic3r/GUI/Sidebar.cpp:1275
 msgid "Slice now"
 msgstr "Jetzt slicen"
 
@@ -23197,7 +23205,7 @@ msgstr "Die Auswahl eines Druckers ist fehlgeschlagen."
 msgid "Failed to read response from Prusa Connect server. Upload is cancelled."
 msgstr "Antwort vom Prusa Connect Server konnte nicht gelesen werden. Der Upload wird abgebrochen."
 
-#: src/slic3r/GUI/Plater.cpp:8373 src/slic3r/GUI/Sidebar.cpp:1303
+#: src/slic3r/GUI/Plater.cpp:8373 src/slic3r/GUI/Sidebar.cpp:1308
 msgid "Send all to Connect"
 msgstr "Alle an Connect senden"
 
@@ -23251,7 +23259,7 @@ msgstr ""
 msgid "Export"
 msgstr "Export"
 
-#: src/slic3r/GUI/Plater.cpp:9264 src/slic3r/GUI/Sidebar.cpp:1251
+#: src/slic3r/GUI/Plater.cpp:9264 src/slic3r/GUI/Sidebar.cpp:1256
 msgid "Send to printer"
 msgstr "Zum Drucker senden"
 
@@ -24739,15 +24747,15 @@ msgstr "Flächen"
 msgid "Sliced Info"
 msgstr "Slice-Info"
 
-#: src/slic3r/GUI/Sidebar.cpp:228 src/slic3r/GUI/Sidebar.cpp:1828
+#: src/slic3r/GUI/Sidebar.cpp:228 src/slic3r/GUI/Sidebar.cpp:1846
 msgid "Used Filament (g)"
 msgstr "Filamentbedarf (g)"
 
-#: src/slic3r/GUI/Sidebar.cpp:229 src/slic3r/GUI/Sidebar.cpp:1809
+#: src/slic3r/GUI/Sidebar.cpp:229 src/slic3r/GUI/Sidebar.cpp:1827
 msgid "Used Filament (m)"
 msgstr "Filamentbedarf (Meter)"
 
-#: src/slic3r/GUI/Sidebar.cpp:230 src/slic3r/GUI/Sidebar.cpp:1821
+#: src/slic3r/GUI/Sidebar.cpp:230 src/slic3r/GUI/Sidebar.cpp:1839
 msgid "Used Filament (mm³)"
 msgstr "Filamentbedarf (mm³)"
 
@@ -24759,8 +24767,8 @@ msgstr "Benutztes Material (Einheit)"
 msgid "Cost (money)"
 msgstr "Kosten (Geld)"
 
-#: src/slic3r/GUI/Sidebar.cpp:233 src/slic3r/GUI/Sidebar.cpp:1791 src/slic3r/GUI/Sidebar.cpp:1793
-#: src/slic3r/GUI/Sidebar.cpp:1878 src/slic3r/GUI/Sidebar.cpp:1883
+#: src/slic3r/GUI/Sidebar.cpp:233 src/slic3r/GUI/Sidebar.cpp:1809 src/slic3r/GUI/Sidebar.cpp:1811
+#: src/slic3r/GUI/Sidebar.cpp:1896 src/slic3r/GUI/Sidebar.cpp:1901
 msgid "Estimated printing time"
 msgstr "Erwartete Druckzeit"
 
@@ -24809,68 +24817,73 @@ msgstr "Globale Extrusionstypen"
 msgid "Object %1% summary:"
 msgstr "Zusammenfassung Objekt %1%:"
 
-#: src/slic3r/GUI/Sidebar.cpp:1271
+#: src/slic3r/GUI/Sidebar.cpp:1276
 msgid "Send to Connect"
 msgstr "Senden nach Connect"
 
-#: src/slic3r/GUI/Sidebar.cpp:1301
+#: src/slic3r/GUI/Sidebar.cpp:1306
 msgid "Export all to SD card / Flash drive"
 msgstr "Alle auf SD-Karte/Flash-Laufwerk exportieren"
 
-#: src/slic3r/GUI/Sidebar.cpp:1302
+#: src/slic3r/GUI/Sidebar.cpp:1307
 msgid "Export all G-codes"
 msgstr "Alle G-Codes exportieren"
 
-#: src/slic3r/GUI/Sidebar.cpp:1570
+#: src/slic3r/GUI/Sidebar.cpp:1575
 msgid "Hold Shift to Slice & Export G-code"
 msgstr "Halten Sie die Umschalttaste gedrückt, um zu slicen und den G-Code zu exportieren"
 
-#: src/slic3r/GUI/Sidebar.cpp:1729
+#: src/slic3r/GUI/Sidebar.cpp:1697
+#, boost-format
+msgid "Number of currently selected parts: %1%"
+msgstr "Anzahl der aktuell ausgewählten Bauteile: %1%"
+
+#: src/slic3r/GUI/Sidebar.cpp:1747
 #, boost-format
 msgid "%1% (%2$d shell)"
 msgid_plural "%1% (%2$d shells)"
 msgstr[0] "%1% (%2$d Wand)"
 msgstr[1] "%1% (%2$d Wände)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1760
+#: src/slic3r/GUI/Sidebar.cpp:1778
 msgid "Used Material (ml)"
 msgstr "Benutztes Material (ml)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1763
+#: src/slic3r/GUI/Sidebar.cpp:1781
 msgid "object"
 msgid_plural "objects"
 msgstr[0] "Objekt"
 msgstr[1] "Objekte"
 
-#: src/slic3r/GUI/Sidebar.cpp:1763
+#: src/slic3r/GUI/Sidebar.cpp:1781
 msgid "supports and pad"
 msgstr "Stützen und Grundschicht"
 
-#: src/slic3r/GUI/Sidebar.cpp:1809
+#: src/slic3r/GUI/Sidebar.cpp:1827
 msgid "Used Filament (in)"
 msgstr "Filamentbedarf (Zoll)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1811 src/slic3r/GUI/Sidebar.cpp:1864
+#: src/slic3r/GUI/Sidebar.cpp:1829 src/slic3r/GUI/Sidebar.cpp:1882
 msgid "objects"
 msgstr "Objekte"
 
-#: src/slic3r/GUI/Sidebar.cpp:1811 src/slic3r/GUI/Sidebar.cpp:1864
+#: src/slic3r/GUI/Sidebar.cpp:1829 src/slic3r/GUI/Sidebar.cpp:1882
 msgid "wipe tower"
 msgstr "Reinigungsturm"
 
-#: src/slic3r/GUI/Sidebar.cpp:1821
+#: src/slic3r/GUI/Sidebar.cpp:1839
 msgid "Used Filament (in³)"
 msgstr "Filamentbedarf (Zoll³)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1853
+#: src/slic3r/GUI/Sidebar.cpp:1871
 msgid "(including spool)"
 msgstr "(einschließlich Spule)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1880
+#: src/slic3r/GUI/Sidebar.cpp:1898
 msgid "normal mode"
 msgstr "Normaler Modus"
 
-#: src/slic3r/GUI/Sidebar.cpp:1887
+#: src/slic3r/GUI/Sidebar.cpp:1905
 msgid "stealth mode"
 msgstr "Stealth Modus"
 

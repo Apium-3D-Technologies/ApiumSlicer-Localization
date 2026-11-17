@@ -3486,7 +3486,7 @@ msgstr "此标志表示材料具有磨蚀性，需要硬化喷嘴。打印机使
 
 #: src/libslic3r/PrintConfig.cpp:3030 src/libslic3r/PrintConfig.cpp:7640
 #: src/libslic3r/PrintConfig.cpp:7641 src/slic3r/GUI/GLCanvas3D.cpp:3039
-#: src/slic3r/GUI/Sidebar.cpp:1862
+#: src/slic3r/GUI/Sidebar.cpp:1880
 msgid "Cost"
 msgstr "费用"
 
@@ -9069,7 +9069,7 @@ msgid "Slice the model and export SLA printing layers as PNG."
 msgstr "将模型切片并导出 SLA 打印图层为 PNG。"
 
 #: src/libslic3r/PrintConfig.cpp:9542 src/slic3r/GUI/KBShortcutsDialog.cpp:101
-#: src/slic3r/GUI/Plater.cpp:9263 src/slic3r/GUI/Sidebar.cpp:1269
+#: src/slic3r/GUI/Plater.cpp:9263 src/slic3r/GUI/Sidebar.cpp:1274
 msgid "Export G-code"
 msgstr "导出 G-Code"
 
@@ -10020,7 +10020,7 @@ msgstr "信息："
 msgid "WARNING:"
 msgstr "警告:"
 
-#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10234
+#: src/libslic3r/SlicingNotification.cpp:23 src/slic3r/GUI/GLCanvas3D.cpp:10300
 #: src/slic3r/GUI/NotificationManager.cpp:2292 src/slic3r/GUI/NotificationManager.cpp:2319
 #: src/slic3r/GUI/NotificationManager.cpp:2325
 msgid "ERROR:"
@@ -10672,7 +10672,7 @@ msgstr "内部名称"
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1861
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1869
 #: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1875
-#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:9124
+#: src/slic3r/GUI/AdvancedProfileCompareDialog.cpp:1885 src/slic3r/GUI/GLCanvas3D.cpp:9189
 #: src/slic3r/GUI/Plater.cpp:3050 src/slic3r/GUI/Plater.cpp:4239
 msgid "Invalid data"
 msgstr "无效数据"
@@ -10731,7 +10731,7 @@ msgstr "没有可编辑的用户预设发生更改。"
 msgid "Some presets could not be saved:"
 msgstr "部分预设无法保存："
 
-#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7331
+#: src/slic3r/GUI/ArrangeSettingsDialogImgui.cpp:42 src/slic3r/GUI/GLCanvas3D.cpp:7391
 msgid "Arrange options"
 msgstr "安排选项"
 
@@ -13777,11 +13777,11 @@ msgstr "显示 Zoneheater 环"
 msgid "Center of gravity"
 msgstr "重心"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7484
+#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7544
 msgid "Variable Zoneheater Power"
 msgstr "可变区段加热器功率"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7461
+#: src/slic3r/GUI/GLCanvas3D.cpp:716 src/slic3r/GUI/GLCanvas3D.cpp:7521
 #: src/slic3r/GUI/ObjectDataViewModel.cpp:81
 msgid "Variable layer height"
 msgstr "可变层高"
@@ -13949,74 +13949,74 @@ msgstr "所有打印床完成切片后将显示统计信息"
 msgid "Mirror Object"
 msgstr "镜像物体"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4868 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
+#: src/slic3r/GUI/GLCanvas3D.cpp:4876 src/slic3r/GUI/Gizmos/GLGizmoMove.cpp:82
 msgid "Gizmo-Move"
 msgstr "Gizmo-移动"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:4967 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
+#: src/slic3r/GUI/GLCanvas3D.cpp:4979 src/slic3r/GUI/Gizmos/GLGizmoRotate.cpp:592
 msgid "Gizmo-Rotate"
 msgstr "Gizmo-旋转"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:5846
+#: src/slic3r/GUI/GLCanvas3D.cpp:5906
 msgid "Move Object"
 msgstr "移动对象"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6093
+#: src/slic3r/GUI/GLCanvas3D.cpp:6153
 msgid "Painted adhesion pads were removed because the object was moved in Z."
 msgstr "由于对象沿 Z 方向移动，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6130 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:6190 src/slic3r/GUI/Gizmos/GLGizmoFlatten.cpp:37
 msgid "Gizmo-Place on Face"
 msgstr "Gizmo-放在面上"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6187
+#: src/slic3r/GUI/GLCanvas3D.cpp:6247
 msgid "Painted adhesion pads were removed because the object was rotated."
 msgstr "由于对象旋转，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6330
+#: src/slic3r/GUI/GLCanvas3D.cpp:6390
 msgid "Painted adhesion pads were removed because the object was mirrored."
 msgstr "由于对象镜像，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6399
+#: src/slic3r/GUI/GLCanvas3D.cpp:6459
 msgid "Painted adhesion pads were removed because skew was reset for the object."
 msgstr "由于对象的倾斜已重置，已移除绘制的附着垫。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6598
+#: src/slic3r/GUI/GLCanvas3D.cpp:6658
 msgid "Switch to Settings"
 msgstr "切换到设置"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6599 src/slic3r/GUI/MainFrame.cpp:959
+#: src/slic3r/GUI/GLCanvas3D.cpp:6659 src/slic3r/GUI/MainFrame.cpp:959
 msgid "Print Settings Tab"
 msgstr "打印设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6600 src/slic3r/GUI/MainFrame.cpp:960
+#: src/slic3r/GUI/GLCanvas3D.cpp:6660 src/slic3r/GUI/MainFrame.cpp:960
 msgid "Filament Settings Tab"
 msgstr "耗材设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6600 src/slic3r/GUI/MainFrame.cpp:960
+#: src/slic3r/GUI/GLCanvas3D.cpp:6660 src/slic3r/GUI/MainFrame.cpp:960
 #: src/slic3r/GUI/MainFrame.cpp:3503 src/slic3r/GUI/MainFrame.cpp:3731
 msgid "Material Settings Tab"
 msgstr "材质设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6601 src/slic3r/GUI/MainFrame.cpp:961
+#: src/slic3r/GUI/GLCanvas3D.cpp:6661 src/slic3r/GUI/MainFrame.cpp:961
 msgid "Printer Settings Tab"
 msgstr "打印机设置选项卡"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6697
+#: src/slic3r/GUI/GLCanvas3D.cpp:6757
 msgid "Undo History"
 msgstr "撤销历史操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6697
+#: src/slic3r/GUI/GLCanvas3D.cpp:6757
 msgid "Redo History"
 msgstr "重做历史操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6717
+#: src/slic3r/GUI/GLCanvas3D.cpp:6777
 #, c-format, boost-format
 msgid "Undo %1$d Action"
 msgid_plural "Undo %1$d Actions"
 msgstr[0] "撤消 %1$d 操作"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6717
+#: src/slic3r/GUI/GLCanvas3D.cpp:6777
 #, c-format, boost-format
 msgid "Redo %1$d Action"
 msgid_plural "Redo %1$d Actions"
@@ -14026,20 +14026,20 @@ msgstr[0] "重做 %1$d 操作"
 msgid "Search"
 msgstr "搜索"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:6744 src/slic3r/GUI/Search.cpp:554
+#: src/slic3r/GUI/GLCanvas3D.cpp:6804 src/slic3r/GUI/Search.cpp:554
 msgid "Enter a search term"
 msgstr "输入搜索词"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7305
+#: src/slic3r/GUI/GLCanvas3D.cpp:7365
 msgid "Add..."
 msgstr "添加..."
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7322 src/slic3r/GUI/KBShortcutsDialog.cpp:110
+#: src/slic3r/GUI/GLCanvas3D.cpp:7382 src/slic3r/GUI/KBShortcutsDialog.cpp:110
 #: src/slic3r/GUI/Plater.cpp:6750 src/slic3r/GUI/Tab.cpp:8815
 msgid "Delete all"
 msgstr "全部删除"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7354 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
+#: src/slic3r/GUI/GLCanvas3D.cpp:7414 src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:37
 #: src/slic3r/GUI/Gizmos/GLGizmoCreatePattern.cpp:492 src/slic3r/GUI/KBShortcutsDialog.cpp:148
 #: src/slic3r/GUI/Plater.cpp:6868
 msgid "Create Pattern"
@@ -14053,37 +14053,37 @@ msgstr "复制"
 msgid "Paste"
 msgstr "粘贴"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7399 src/slic3r/GUI/GUI_Factories.cpp:1774
+#: src/slic3r/GUI/GLCanvas3D.cpp:7459 src/slic3r/GUI/GUI_Factories.cpp:1774
 #: src/slic3r/GUI/GUI_Factories.cpp:1798 src/slic3r/GUI/GUI_Factories.cpp:1809
 msgid "Add instance"
 msgstr "添加实例"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7410 src/slic3r/GUI/GUI_Factories.cpp:1777
+#: src/slic3r/GUI/GLCanvas3D.cpp:7470 src/slic3r/GUI/GUI_Factories.cpp:1777
 msgid "Remove instance"
 msgstr "删除实例"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7423
+#: src/slic3r/GUI/GLCanvas3D.cpp:7483
 msgid "Split to objects"
 msgstr "拆分为对象"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7433
+#: src/slic3r/GUI/GLCanvas3D.cpp:7493
 msgid "Split to parts"
 msgstr "拆分为零件"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7504 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
+#: src/slic3r/GUI/GLCanvas3D.cpp:7564 src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:595
 #: src/slic3r/GUI/Gizmos/GLGizmoMeasure.cpp:2263
 msgid "Measure"
 msgstr "测量"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7521 src/slic3r/GUI/MainFrame.cpp:3485
+#: src/slic3r/GUI/GLCanvas3D.cpp:7581 src/slic3r/GUI/MainFrame.cpp:3485
 msgid "Search in settings"
 msgstr "在设置中搜索"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7580 src/slic3r/GUI/GLCanvas3D.cpp:7617
+#: src/slic3r/GUI/GLCanvas3D.cpp:7640 src/slic3r/GUI/GLCanvas3D.cpp:7677
 msgid "Click right mouse button to open/close History"
 msgstr "单击鼠标右键打开/关闭历史记录"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7602
+#: src/slic3r/GUI/GLCanvas3D.cpp:7662
 #, boost-format
 msgid "Next Undo action: %1%"
 msgstr "下一个撤消操作： %1%"
@@ -14092,12 +14092,12 @@ msgstr "下一个撤消操作： %1%"
 msgid "Redo"
 msgstr "重做"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:7638
+#: src/slic3r/GUI/GLCanvas3D.cpp:7698
 #, boost-format
 msgid "Next Redo action: %1%"
 msgstr "下一个重做操作： %1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9059 src/slic3r/GUI/MainFrame.cpp:3244
+#: src/slic3r/GUI/GLCanvas3D.cpp:9124 src/slic3r/GUI/MainFrame.cpp:3244
 msgid "Front"
 msgstr "前面"
 
@@ -14133,81 +14133,81 @@ msgstr "左面"
 msgid "Right"
 msgstr "右面"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9120
+#: src/slic3r/GUI/GLCanvas3D.cpp:9185
 msgid "Unsliced bed"
 msgstr "未切片的打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9121 src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:8088
+#: src/slic3r/GUI/GLCanvas3D.cpp:9186 src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:8088
 #: src/slic3r/GUI/Plater.cpp:8090 src/slic3r/GUI/Plater.cpp:8118 src/slic3r/GUI/Plater.cpp:8132
 #: src/slic3r/GUI/Tab.cpp:2857 src/slic3r/GUI/Tab.cpp:9883
 msgid "Slicing"
 msgstr "切片"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9122
+#: src/slic3r/GUI/GLCanvas3D.cpp:9187
 msgid "Sliced bed"
 msgstr "已切片打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9123
+#: src/slic3r/GUI/GLCanvas3D.cpp:9188
 msgid "Object at boundary"
 msgstr "对象位于边界"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9125
+#: src/slic3r/GUI/GLCanvas3D.cpp:9190
 msgid "Empty bed"
 msgstr "空打印床"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9126
+#: src/slic3r/GUI/GLCanvas3D.cpp:9191
 msgid "Toolpath exceeds bounds"
 msgstr "工具路径超出边界"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9382
+#: src/slic3r/GUI/GLCanvas3D.cpp:9447
 msgid "Slice all"
 msgstr "全部切片"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9601
+#: src/slic3r/GUI/GLCanvas3D.cpp:9666
 msgid "The preview legend is hidden."
 msgstr "预览图例已隐藏。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9602
+#: src/slic3r/GUI/GLCanvas3D.cpp:9667
 msgid "Press L or use View -> Show Legend to show it again."
 msgstr "按 L，或使用“视图 -> 显示图例”将其重新显示。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9765
+#: src/slic3r/GUI/GLCanvas3D.cpp:9830
 msgid "Layer statistics"
 msgstr "层统计"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9766
+#: src/slic3r/GUI/GLCanvas3D.cpp:9831
 #, boost-format
 msgid "Layer area: %1% mm²"
 msgstr "层面积：%1% mm²"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9768
+#: src/slic3r/GUI/GLCanvas3D.cpp:9833
 #, boost-format
 msgid "Area fill: %1% %%"
 msgstr "面积填充：%1% %%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9770
+#: src/slic3r/GUI/GLCanvas3D.cpp:9835
 #, boost-format
 msgid "Layer time: %1%"
 msgstr "层时间：%1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:9771
+#: src/slic3r/GUI/GLCanvas3D.cpp:9836
 #, boost-format
 msgid "Time since start: %1%"
 msgstr "从开始至今：%1%"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10174
+#: src/slic3r/GUI/GLCanvas3D.cpp:10240
 msgid "An object outside the print area was detected."
 msgstr "检测到打印区域外的物体。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10175
+#: src/slic3r/GUI/GLCanvas3D.cpp:10241
 msgid "A toolpath outside the print area was detected."
 msgstr "检测到打印区域外的刀轨。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10176
+#: src/slic3r/GUI/GLCanvas3D.cpp:10242
 msgid "SLA supports outside the print area were detected."
 msgstr "检测到打印区域外的 SLA 支持。"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10179
+#: src/slic3r/GUI/GLCanvas3D.cpp:10245
 msgid ""
 "An object outside the print area was detected.\n"
 "Resolve the current problem to continue slicing."
@@ -14216,7 +14216,7 @@ msgstr ""
 "重新解决当前问题以继续切片。"
 
 #. TRN %3% is name of Object1, %4% is name of Object2
-#: src/slic3r/GUI/GLCanvas3D.cpp:10191
+#: src/slic3r/GUI/GLCanvas3D.cpp:10257
 #, boost-format
 msgid ""
 "Conflicts in G-code paths have been detected at layer %1%, z=%2$.2f mm. Please reposition the "
@@ -14224,7 +14224,7 @@ msgid ""
 msgstr "在第 %1% 层（z=%2$.2f mm）检测到 G-code 路径冲突。请将冲突对象（%3% <-> %4%）移得更远。"
 
 #. TRN: Placeholders contain names of the colliding objects.
-#: src/slic3r/GUI/GLCanvas3D.cpp:10201
+#: src/slic3r/GUI/GLCanvas3D.cpp:10267
 #, boost-format
 msgid "Extruder will crash into %1% while printing %2%."
 msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
@@ -14233,11 +14233,15 @@ msgstr "打印 %2% 时，挤出机将与 %1% 相撞。"
 msgid "Jump to"
 msgstr "跳转至"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10323
+#: src/slic3r/GUI/GLCanvas3D.cpp:10392
+msgid "Selection-Add from lasso"
+msgstr "使用套索添加选择"
+
+#: src/slic3r/GUI/GLCanvas3D.cpp:10392
 msgid "Selection-Add from rectangle"
 msgstr "从矩形选择-添加"
 
-#: src/slic3r/GUI/GLCanvas3D.cpp:10338
+#: src/slic3r/GUI/GLCanvas3D.cpp:10407
 msgid "Selection-Remove from rectangle"
 msgstr "从矩形中选择-删除"
 
@@ -15434,7 +15438,7 @@ msgstr "更改 SVG 或 DXF 源文件、投影、尺寸等"
 msgid "Add Shape"
 msgstr "添加形状"
 
-#: src/slic3r/GUI/GUI_Factories.cpp:1501 src/slic3r/GUI/KBShortcutsDialog.cpp:163
+#: src/slic3r/GUI/GUI_Factories.cpp:1501 src/slic3r/GUI/KBShortcutsDialog.cpp:166
 #: src/slic3r/GUI/ObjectClippingController.cpp:485 src/slic3r/GUI/Plater.cpp:4536
 msgid "Clipping view"
 msgstr "裁剪视图"
@@ -19025,7 +19029,7 @@ msgstr "发送 G-Code"
 msgid "Export config"
 msgstr "导出配置"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:104 src/slic3r/GUI/Sidebar.cpp:1252
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:104 src/slic3r/GUI/Sidebar.cpp:1257
 msgid "Export to SD card / Flash drive"
 msgstr "导出到 SD 卡/闪存驱动器"
 
@@ -19046,7 +19050,7 @@ msgid "Paste from clipboard"
 msgstr "從剪貼板粘貼"
 
 #: src/slic3r/GUI/KBShortcutsDialog.cpp:116 src/slic3r/GUI/KBShortcutsDialog.cpp:118
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:224
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:227
 msgid "Reload plater from disk"
 msgstr "从磁盘重新加载制版机"
 
@@ -19098,7 +19102,7 @@ msgstr "首选项"
 msgid "Show keyboard shortcuts list"
 msgstr "显示键盘快捷键列表"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:143 src/slic3r/GUI/KBShortcutsDialog.cpp:228
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:143 src/slic3r/GUI/KBShortcutsDialog.cpp:231
 msgid "Commands"
 msgstr "命令"
 
@@ -19118,7 +19122,7 @@ msgstr "添加所选对象的实例"
 msgid "Remove Instance of the selected object"
 msgstr "删除所选对象的实例"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:151
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:152
 msgid ""
 "Press to select multiple objects\n"
 "or move multiple objects with mouse"
@@ -19126,143 +19130,147 @@ msgstr ""
 "按可选择多个对象\n"
 "或用鼠标移动多个对象"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:152
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:154
+msgid "Drag with the left mouse button to add objects using a lasso"
+msgstr "按住鼠标左键拖动，使用套索将对象添加到选择中"
+
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:155
 msgid "Press to activate selection rectangle"
 msgstr "按下可激活选择矩形"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:153
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:156
 msgid "Press to activate deselection rectangle"
 msgstr "按下可激活取消选择矩形"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:154 src/slic3r/GUI/KBShortcutsDialog.cpp:232
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:248 src/slic3r/GUI/KBShortcutsDialog.cpp:263
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:157 src/slic3r/GUI/KBShortcutsDialog.cpp:235
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:251 src/slic3r/GUI/KBShortcutsDialog.cpp:266
 msgid "Arrow Up"
 msgstr "上箭头"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:154
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:157
 msgid "Move selection 10 mm in positive Y direction"
 msgstr "沿Y轴正方向移动选择 10 毫米"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:155 src/slic3r/GUI/KBShortcutsDialog.cpp:233
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:249 src/slic3r/GUI/KBShortcutsDialog.cpp:264
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:158 src/slic3r/GUI/KBShortcutsDialog.cpp:236
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:252 src/slic3r/GUI/KBShortcutsDialog.cpp:267
 msgid "Arrow Down"
 msgstr "上箭头"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:155
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:158
 msgid "Move selection 10 mm in negative Y direction"
 msgstr "将所选内容沿Y轴负方向移动 10mm"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:156 src/slic3r/GUI/KBShortcutsDialog.cpp:234
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:250 src/slic3r/GUI/KBShortcutsDialog.cpp:261
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:159 src/slic3r/GUI/KBShortcutsDialog.cpp:237
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:253 src/slic3r/GUI/KBShortcutsDialog.cpp:264
 msgid "Arrow Left"
 msgstr "左箭头"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:156
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:159
 msgid "Move selection 10 mm in negative X direction"
 msgstr "将所选内容沿X轴负方向移动 10 毫米"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:157 src/slic3r/GUI/KBShortcutsDialog.cpp:235
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:251 src/slic3r/GUI/KBShortcutsDialog.cpp:262
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:160 src/slic3r/GUI/KBShortcutsDialog.cpp:238
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:254 src/slic3r/GUI/KBShortcutsDialog.cpp:265
 msgid "Arrow Right"
 msgstr "右箭头"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:157
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:160
 msgid "Move selection 10 mm in positive X direction"
 msgstr "沿X轴正方向移动所选内容 10 毫米"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:158 src/slic3r/GUI/KBShortcutsDialog.cpp:159
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:161 src/slic3r/GUI/KBShortcutsDialog.cpp:162
 msgid "Any arrow"
 msgstr "有箭吗"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:158
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:161
 msgid "Movement step set to 1 mm"
 msgstr "移动步长设置为1毫米"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:159
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:162
 msgid "Movement in camera space"
 msgstr "摄像机空间中的运动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:160
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:163
 msgid "Page Up"
 msgstr "上翻页"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:160
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:163
 msgid "Rotate selection 45 degrees CCW"
 msgstr "将所选内容逆时针旋转 45 度"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:161
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:164
 msgid "Page Down"
 msgstr "下翻页"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:161
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:164
 msgid "Rotate selection 45 degrees CW"
 msgstr "将所选内容顺时针旋转 45 度"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:162
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:165
 msgid "Move selection to bed center"
 msgstr "将所选项移动到打印床中心"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:164
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:167
 msgid "Gizmo move"
 msgstr "线框移动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:165
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:168
 msgid "Gizmo scale"
 msgstr "线框缩放"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:166
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:169
 msgid "Gizmo rotate"
 msgstr "Gizmo 旋转"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:167
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:170
 msgid "Gizmo cut"
 msgstr "Gizmo 剪切"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:168
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:171
 msgid "Gizmo Place face on bed"
 msgstr "放置小物件面到热床"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:169
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:172
 msgid "Gizmo SLA hollow"
 msgstr "Gizmo SLA 空洞"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:170
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:173
 msgid "Gizmo FDM paint-on fuzzy skin"
 msgstr "FDM 绘制绒毛表面工具"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:171
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:174
 msgid "Gizmo SLA support points"
 msgstr "Gizmo SLA 支撑点"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:172
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:175
 msgid "Gizmo FDM paint-on supports"
 msgstr "Gizmo FDM 绘制支撑"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:173
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:176
 msgid "Gizmo FDM paint-on seam"
 msgstr "Gizmo FDM 绘制接缝"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:174
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:177
 msgid "Gizmo Multi Material painting"
 msgstr "Gizmo 多材质绘画"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:175
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:178
 msgid "Gizmo Text emboss / engrave"
 msgstr "Gizmo文本浮雕/雕刻"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:176
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:179
 msgid "Unselect gizmo or clear selection"
 msgstr "取消选择 gizmo 或清除选择"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:177
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:180
 msgid "Change camera type (perspective, orthographic)"
 msgstr "更改摄像机类型（透视、正交）"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:178
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:181
 msgid "Zoom to Bed"
 msgstr "缩放至热床"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:179
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:182
 msgid ""
 "Zoom to selected object\n"
 "or all objects in scene, if none selected"
@@ -19270,199 +19278,199 @@ msgstr ""
 "缩放到选定对象\n"
 "或场景中的所有对象（如果未选定）"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:180
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:183
 msgid "Zoom in"
 msgstr "放大"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:181
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:184
 msgid "Zoom out"
 msgstr "缩小"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:182
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:185
 msgid "Switch between Editor/Preview"
 msgstr "在编辑器/预览之间切换"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:183
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:186
 msgid "Collapse/Expand the sidebar"
 msgstr "折叠/展开侧边栏"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:185
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:188
 msgid "Show/Hide 3Dconnexion devices settings dialog, if enabled"
 msgstr "显示/隐藏 3Dconnexion 设备设置对话框（如果启用）"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:188 src/slic3r/GUI/KBShortcutsDialog.cpp:191
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:191 src/slic3r/GUI/KBShortcutsDialog.cpp:194
 msgid "Show/Hide 3Dconnexion devices settings dialog"
 msgstr "显示/隐藏 3Dconnexion 设备设置对话框"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:189
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:192
 msgid "Minimize application"
 msgstr "最小化应用程序"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:196 src/slic3r/GUI/MainFrame.cpp:810
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:199 src/slic3r/GUI/MainFrame.cpp:810
 #: src/slic3r/GUI/MainFrame.cpp:977 src/slic3r/GUI/TopBar.cpp:542
 msgid "Plater"
 msgstr "构建板"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:199
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:202
 msgid "All gizmos: Rotate - left mouse button; Pan - right mouse button"
 msgstr "所有小发明：旋转-鼠标左键；平移-鼠标右键"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:200
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:203
 msgid "Gizmo move: Press to snap by 1mm"
 msgstr "Gizmo 移动：按下可捕捉 1mm"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:201
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:204
 msgid "Gizmo scale: Press to snap by 5%"
 msgstr "Gizmo 比例：按下可按 5% 捕捉"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:202
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:205
 msgid "Gizmo scale: Scale selection to fit print volume"
 msgstr "Gizmo 缩放：缩放选择以适应打印体积"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:203
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:206
 msgid "Gizmo scale: Press to activate one direction scaling"
 msgstr "Gizmo 缩放：按下可激活单向缩放"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:204
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:207
 msgid "Gizmo scale: Press to scale selected objects around their own center"
 msgstr "Gizmo 缩放：按此键可围绕其自身中心缩放选定对象"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:205
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
 msgid "Gizmo rotate: Press to rotate selected objects around their own center"
 msgstr "Gizmo rotate：按此键可围绕选定对象的中心旋转对象"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
 msgid "Gizmos"
 msgstr "小发明"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:208
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
 msgid "The following shortcuts are applicable when the specified gizmo is active"
 msgstr "当指定的 gizmo 处于活动状态时，以下快捷方式适用"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:211
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:214
 msgid "Set selected items as Printable/Unprintable"
 msgstr "将所选项目设置为可打印/不可打印"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:212
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:215
 msgid "Set default extruder for the selected items"
 msgstr "为所选项目设置默认挤出机"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:213
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:216
 msgid "Set extruder number for the selected items"
 msgstr "设置所选项目的挤出机编号"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:216
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:219
 msgid "Objects List"
 msgstr "对象列表"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:220 src/slic3r/GUI/MainFrame.cpp:3660
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:223 src/slic3r/GUI/MainFrame.cpp:3660
 msgid "Open a G-code file"
 msgstr "打开一个 G-Code 文件"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:222 src/slic3r/GUI/MainFrame.cpp:1675
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:225 src/slic3r/GUI/MainFrame.cpp:1675
 #: src/slic3r/GUI/MainFrame.cpp:3472 src/slic3r/GUI/MainFrame.cpp:3479
 #: src/slic3r/GUI/MainFrame.cpp:3665 src/slic3r/GUI/MainFrame.cpp:3669
 msgid "Reload the plater from disk"
 msgstr "从磁盘重新加载制版机"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:232 src/slic3r/GUI/KBShortcutsDialog.cpp:236
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:235 src/slic3r/GUI/KBShortcutsDialog.cpp:239
 msgid "Vertical slider - Move active thumb Up"
 msgstr "垂直滑块-向上移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:233 src/slic3r/GUI/KBShortcutsDialog.cpp:237
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:236 src/slic3r/GUI/KBShortcutsDialog.cpp:240
 msgid "Vertical slider - Move active thumb Down"
 msgstr "垂直滑块-向下移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:234 src/slic3r/GUI/KBShortcutsDialog.cpp:238
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:237 src/slic3r/GUI/KBShortcutsDialog.cpp:241
 msgid "Horizontal slider - Move active thumb Left"
 msgstr "水平滑块-将活动拇指向左移动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:235 src/slic3r/GUI/KBShortcutsDialog.cpp:239
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:238 src/slic3r/GUI/KBShortcutsDialog.cpp:242
 msgid "Horizontal slider - Move active thumb Right"
 msgstr "水平滑块-将活动拇指向右移动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:240
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:243
 msgid "On/Off one layer mode of the vertical slider"
 msgstr "打开/关闭垂直滑块的单层模式"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:241
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:244
 msgid "Show/Hide legend"
 msgstr "显示/隐藏图例"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:242
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:245
 msgid "Show/Hide G-code window"
 msgstr "显示/隐藏 G-Code 窗口"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:245 src/slic3r/GUI/Plater.cpp:4741
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:248 src/slic3r/GUI/Plater.cpp:4741
 #: src/slic3r/GUI/Tab.cpp:6796
 msgid "Preview"
 msgstr "预览"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:248
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:251
 msgid "Move active thumb Up"
 msgstr "向上移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:249
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:252
 msgid "Move active thumb Down"
 msgstr "向下移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:250
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:253
 msgid "Set upper thumb as active"
 msgstr "将上拇指设置为活动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:251
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:254
 msgid "Set lower thumb as active"
 msgstr "将下拇指设置为活动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:252
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:255
 msgid "Add color change marker for current layer"
 msgstr "为当前图层添加颜色更改标记"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:253
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:256
 msgid "Delete color change marker for current layer"
 msgstr "删除当前图层的颜色更改标记"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:254 src/slic3r/GUI/KBShortcutsDialog.cpp:255
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:265 src/slic3r/GUI/KBShortcutsDialog.cpp:266
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:257 src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:268 src/slic3r/GUI/KBShortcutsDialog.cpp:269
 msgid ""
 "Press to speed up 5 times while moving thumb\n"
 "with arrow keys or mouse wheel"
 msgstr "用箭头键或鼠标滚轮移动拇指时，按可加速5次"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
 msgid "Vertical Slider"
 msgstr "垂直滑块"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:258
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
 msgid "The following shortcuts are applicable in G-code preview when the vertical slider is active"
 msgstr "当垂直滑块处于活动状态时，以下快捷方式适用于 G-Code 预览"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:261
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:264
 msgid "Move active thumb Left"
 msgstr "向左移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:262
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:265
 msgid "Move active thumb Right"
 msgstr "向右移动活动拇指"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:263
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:266
 msgid "Set left thumb as active"
 msgstr "将左拇指设置为活动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:264
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:267
 msgid "Set right thumb as active"
 msgstr "将右拇指设置为活动"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:269
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:272
 msgid "Horizontal Slider"
 msgstr "水平滑块"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:269
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:272
 msgid ""
 "The following shortcuts are applicable in G-code preview when the horizontal slider is active"
 msgstr "当水平滑块处于活动状态时，以下快捷方式适用于 G-Code 预览"
 
-#: src/slic3r/GUI/KBShortcutsDialog.cpp:293
+#: src/slic3r/GUI/KBShortcutsDialog.cpp:296
 msgid "Keyboard shortcuts"
 msgstr "键盘快捷键"
 
@@ -21004,7 +21012,7 @@ msgstr ""
 #: src/slic3r/GUI/Plater.cpp:522 src/slic3r/GUI/Plater.cpp:523 src/slic3r/GUI/Plater.cpp:3087
 #: src/slic3r/GUI/Plater.cpp:3093 src/slic3r/GUI/Plater.cpp:4266 src/slic3r/GUI/Plater.cpp:4269
 #: src/slic3r/GUI/Plater.cpp:8098 src/slic3r/GUI/Plater.cpp:8135 src/slic3r/GUI/Plater.cpp:8889
-#: src/slic3r/GUI/Plater.cpp:8890 src/slic3r/GUI/Sidebar.cpp:1270
+#: src/slic3r/GUI/Plater.cpp:8890 src/slic3r/GUI/Sidebar.cpp:1275
 msgid "Slice now"
 msgstr "现在切片"
 
@@ -21884,7 +21892,7 @@ msgstr "无法选择打印机。"
 msgid "Failed to read response from Prusa Connect server. Upload is cancelled."
 msgstr "无法读取 Prusa Connect 服务器的响应。上传已取消。"
 
-#: src/slic3r/GUI/Plater.cpp:8373 src/slic3r/GUI/Sidebar.cpp:1303
+#: src/slic3r/GUI/Plater.cpp:8373 src/slic3r/GUI/Sidebar.cpp:1308
 msgid "Send all to Connect"
 msgstr "全部发送到 Connect"
 
@@ -21929,7 +21937,7 @@ msgstr ""
 msgid "Export"
 msgstr "导出"
 
-#: src/slic3r/GUI/Plater.cpp:9264 src/slic3r/GUI/Sidebar.cpp:1251
+#: src/slic3r/GUI/Plater.cpp:9264 src/slic3r/GUI/Sidebar.cpp:1256
 msgid "Send to printer"
 msgstr "发送到打印机"
 
@@ -23308,15 +23316,15 @@ msgstr "平面"
 msgid "Sliced Info"
 msgstr "切片信息"
 
-#: src/slic3r/GUI/Sidebar.cpp:228 src/slic3r/GUI/Sidebar.cpp:1828
+#: src/slic3r/GUI/Sidebar.cpp:228 src/slic3r/GUI/Sidebar.cpp:1846
 msgid "Used Filament (g)"
 msgstr "消耗耗材 (g)"
 
-#: src/slic3r/GUI/Sidebar.cpp:229 src/slic3r/GUI/Sidebar.cpp:1809
+#: src/slic3r/GUI/Sidebar.cpp:229 src/slic3r/GUI/Sidebar.cpp:1827
 msgid "Used Filament (m)"
 msgstr "消耗耗材 (m)"
 
-#: src/slic3r/GUI/Sidebar.cpp:230 src/slic3r/GUI/Sidebar.cpp:1821
+#: src/slic3r/GUI/Sidebar.cpp:230 src/slic3r/GUI/Sidebar.cpp:1839
 msgid "Used Filament (mm³)"
 msgstr "消耗耗材 (mm³)"
 
@@ -23328,8 +23336,8 @@ msgstr "消耗材料 (单位)"
 msgid "Cost (money)"
 msgstr "成本 (金钱)"
 
-#: src/slic3r/GUI/Sidebar.cpp:233 src/slic3r/GUI/Sidebar.cpp:1791 src/slic3r/GUI/Sidebar.cpp:1793
-#: src/slic3r/GUI/Sidebar.cpp:1878 src/slic3r/GUI/Sidebar.cpp:1883
+#: src/slic3r/GUI/Sidebar.cpp:233 src/slic3r/GUI/Sidebar.cpp:1809 src/slic3r/GUI/Sidebar.cpp:1811
+#: src/slic3r/GUI/Sidebar.cpp:1896 src/slic3r/GUI/Sidebar.cpp:1901
 msgid "Estimated printing time"
 msgstr "预计打印时间"
 
@@ -23378,66 +23386,71 @@ msgstr "全局挤出类型"
 msgid "Object %1% summary:"
 msgstr "对象 %1% 摘要:"
 
-#: src/slic3r/GUI/Sidebar.cpp:1271
+#: src/slic3r/GUI/Sidebar.cpp:1276
 msgid "Send to Connect"
 msgstr "发送到 Connect"
 
-#: src/slic3r/GUI/Sidebar.cpp:1301
+#: src/slic3r/GUI/Sidebar.cpp:1306
 msgid "Export all to SD card / Flash drive"
 msgstr "全部导出到 SD 卡/闪存盘"
 
-#: src/slic3r/GUI/Sidebar.cpp:1302
+#: src/slic3r/GUI/Sidebar.cpp:1307
 msgid "Export all G-codes"
 msgstr "导出所有 G-code"
 
-#: src/slic3r/GUI/Sidebar.cpp:1570
+#: src/slic3r/GUI/Sidebar.cpp:1575
 msgid "Hold Shift to Slice & Export G-code"
 msgstr "按住 Shift 来切片并导出 G-Code"
 
-#: src/slic3r/GUI/Sidebar.cpp:1729
+#: src/slic3r/GUI/Sidebar.cpp:1697
+#, boost-format
+msgid "Number of currently selected parts: %1%"
+msgstr "当前选中的零件数量：%1%"
+
+#: src/slic3r/GUI/Sidebar.cpp:1747
 #, boost-format
 msgid "%1% (%2$d shell)"
 msgid_plural "%1% (%2$d shells)"
 msgstr[0] "%1% (%2$d 壳)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1760
+#: src/slic3r/GUI/Sidebar.cpp:1778
 msgid "Used Material (ml)"
 msgstr "消耗材料 (毫升)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1763
+#: src/slic3r/GUI/Sidebar.cpp:1781
 msgid "object"
 msgid_plural "objects"
 msgstr[0] "对象"
 
-#: src/slic3r/GUI/Sidebar.cpp:1763
+#: src/slic3r/GUI/Sidebar.cpp:1781
 msgid "supports and pad"
 msgstr "支撑和垫"
 
-#: src/slic3r/GUI/Sidebar.cpp:1809
+#: src/slic3r/GUI/Sidebar.cpp:1827
 msgid "Used Filament (in)"
 msgstr "消耗耗材 (英寸)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1811 src/slic3r/GUI/Sidebar.cpp:1864
+#: src/slic3r/GUI/Sidebar.cpp:1829 src/slic3r/GUI/Sidebar.cpp:1882
 msgid "objects"
 msgstr "对象"
 
-#: src/slic3r/GUI/Sidebar.cpp:1811 src/slic3r/GUI/Sidebar.cpp:1864
+#: src/slic3r/GUI/Sidebar.cpp:1829 src/slic3r/GUI/Sidebar.cpp:1882
 msgid "wipe tower"
 msgstr "擦料塔"
 
-#: src/slic3r/GUI/Sidebar.cpp:1821
+#: src/slic3r/GUI/Sidebar.cpp:1839
 msgid "Used Filament (in³)"
 msgstr "消耗耗材 (in³)"
 
-#: src/slic3r/GUI/Sidebar.cpp:1853
+#: src/slic3r/GUI/Sidebar.cpp:1871
 msgid "(including spool)"
 msgstr "（包括线轴）"
 
-#: src/slic3r/GUI/Sidebar.cpp:1880
+#: src/slic3r/GUI/Sidebar.cpp:1898
 msgid "normal mode"
 msgstr "正常模式"
 
-#: src/slic3r/GUI/Sidebar.cpp:1887
+#: src/slic3r/GUI/Sidebar.cpp:1905
 msgid "stealth mode"
 msgstr "隐身模式"
 
