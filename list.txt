@@ -804,6 +804,8 @@ src/slic3r/GUI/FirmwareDialog.cpp
 src/slic3r/GUI/FirmwareDialog.hpp
 src/slic3r/GUI/FrequentlyChangedParameters.cpp
 src/slic3r/GUI/FrequentlyChangedParameters.hpp
+src/slic3r/GUI/GCodeEditor.cpp
+src/slic3r/GUI/GCodeEditor.hpp
 src/slic3r/GUI/GCodeViewer.cpp
 src/slic3r/GUI/GCodeViewer.hpp
 src/slic3r/GUI/GLCanvas3D.cpp
