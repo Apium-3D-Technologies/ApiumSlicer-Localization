@@ -270,8 +270,12 @@ src/libslic3r/GCode/FineExternalPerimeter.hpp
 src/libslic3r/GCode/FineExternalPerimeterSmoothing.cpp
 src/libslic3r/GCode/FineExternalPerimeterSmoothing.hpp
 src/libslic3r/GCode/GCodeDocument.hpp
+src/libslic3r/GCode/GCodeEditDocument.cpp
+src/libslic3r/GCode/GCodeEditDocument.hpp
 src/libslic3r/GCode/GCodeProcessor.cpp
 src/libslic3r/GCode/GCodeProcessor.hpp
+src/libslic3r/GCode/GCodeSemantic.cpp
+src/libslic3r/GCode/GCodeSemantic.hpp
 src/libslic3r/GCode/GCodeWriter.cpp
 src/libslic3r/GCode/GCodeWriter.hpp
 src/libslic3r/GCode/LabelObjects.cpp
